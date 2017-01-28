@@ -1,0 +1,23 @@
+﻿ViewType = VIEW_TYPE_COLOR_PANEL
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Contest/Light DJ/led-gun.png
+
+Channel = mode
+ pattern,0,0 chase,180,180 audio,255,255 
+
+Channel = effect_macro
+ closed,0,0 macro_1,24,24 macro_2,40,40 macro_3,56,56 macro_4,72,72 macro_5,88,88 macro_6,104,104 macro_7,120,120 macro_8,136,136 macro_9,152,152 macro_10,168,168 macro_11,184,184 macro_12,200,200 macro_13,216,216 macro_14,232,232 macro_15,255,255 
+
+Channel = shutter
+ open,0,0 strobe,10,255 
+
+Channel = dimmer
+
