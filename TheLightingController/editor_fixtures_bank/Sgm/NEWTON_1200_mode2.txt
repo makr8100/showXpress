@@ -1,0 +1,23 @@
+Name = SGM_NEWTON_1200_mode2
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = iris
+
+Channel = color
+ white+yellow,0,0 yellow+magenta,50,50 magenta+cyan,90,90 cyan+green,120,120 green+blue,160,160 blue+red,200,200 red+white,255,255
+
+Channel = dimmer
+
+Channel = shutter
+ closed,0,0 strobe_0.5Hz,12,12 strobe_1.42Hz,20,20 strobe_1.7Hz,28,28 strobe_2Hz,36,36 strobe_2.42Hz,44,44 strobe_2.9Hz,52,52 strobe_3.46Hz,60,60 strobe_4.15Hz,68,68 strobe_4.89Hz,76,76 strobe_5.03Hz,84,84 strobe_6.91Hz,92,92 strobe_8.29Hz,100,100 strobe_9.95Hz,108,108 strobe_11.83Hz,116,116 bass_beat,126,126 music_low,139,139 music_high,152,152 autoshade_gobo,165,165 autoshade_colo,178,178 autoshade_go-c,191,191 change_gobo,204,204 change_color,217,217 change_gob_col,230,230 open,255,255
+
+Channel = color
+ full_colour,0,0 mix_colour,100,100 speed_rainbow,129,255
+

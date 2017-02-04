@@ -1,0 +1,22 @@
+Name = Twister4 HP
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = gobo_rotate
+ new_level,0,0 new_level,12,12 new_level,112,112 new_level,128,128 new_level,141,141 new_level,244,244 stop,255,255
+
+Channel = color
+ closed,0,0 new_level,10,10 new_level,26,26 new_level,43,43 new_level,59,59 new_level,75,75 new_level,91,91 new_level,108,108 new_level,124,124 new_level,140,140 new_level,156,156
+
+Channel = shutter
+ closed,0,0 new_level,24,24 new_level,226,226 new_level,230,230 new_level,234,234 new_level,238,238 new_level,242,242 new_level,246,246 new_level,250,250 new_level,254,254
+

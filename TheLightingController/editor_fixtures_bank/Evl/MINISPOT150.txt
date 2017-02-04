@@ -1,0 +1,29 @@
+Name = EVL_MINISPOT150
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_150HTI
+ViewAnglePan = 360
+ViewAngleTilt = 265
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = color
+ white,0,0 light_blue,25,25 red,42,42 blue,59,59 green,76,76 yellow,93,93 magenta,110,110 cyan,127,127 turquoise,144,144 pink,161,161 rotate,164,255
+
+Channel = gobo
+ Miscellaneous\open,0,0 Miscellaneous\gobo1,48,48 Miscellaneous\gobo2,80,80 Miscellaneous\gobo3,112,112 Miscellaneous\gobo4,144,144 Miscellaneous\gobo5,176,176 Miscellaneous\gobo6,208,208 Miscellaneous\gobo7,255,255
+
+Channel = gobo_rotate
+ stop,0,0 right_rotate,8,123 left_rotate,132,255
+
+Channel = shutter
+ closed,0,0 strobe,129,239 open,255,255
+
+Channel = pan
+
+Channel = tilt
+

@@ -1,0 +1,22 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = color_macro
+ color_1,0,0 color_2,7,7 color_3,14,14 color_4,21,21 color_5,28,28 color_6,35,35 color_7,42,42 color_8,49,49 color_9,56,56 color_10,63,63 color_11,70,70 color_12,77,77 color_13,84,84 color_14,91,91 color_15,98,98 color_16,105,105 color_17,112,112 color_18,119,119 color_19,126,126 color_20,133,133 color_21,140,140 color_22,147,147 color_23,154,154 color_24,161,161 color_25,168,168 color_26,175,175 color_27,182,182 color_28,189,189 color_29,196,196 color_30,203,203 color_31,210,210 color_32,217,217 fade,230,230 chase,255,255 
+
+Channel = mode
+ standard_chase,0,0 bright_chase,32,32 mood_chase,53,53 spectrum_random_chase,74,74 spectrum_sequence_chase,95,95 dynamic_chase,116,116 R-GB,137,137 G-BR,158,158 B-R,179,179 Y-B,200,200 R-G,221,221 Y-G,255,255 
+
+Channel = effect_speed
+
+Channel = dimmer
+

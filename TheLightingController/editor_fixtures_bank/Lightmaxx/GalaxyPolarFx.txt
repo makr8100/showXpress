@@ -1,0 +1,29 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = mode
+ closed,0,0 auto_running_random,80,80 slow_running_random,103,154 audio,180,180 dmx_mode,255,255 
+
+Channel = red
+ closed,0,0 open,100,100 strobe,128,254 audio_strobe,255,255 
+
+Channel = green
+ closed,0,0 open,100,100 strobe,128,254 audio_strobe,255,255 
+
+Channel = animation
+ no_function,0,0 right_rotate,5,127 stop,130,130 left_rotate,134,255 
+
+Channel = dimmer
+
+Channel = shutter
+ closed,0,0 open,100,100 audio_strobe,255,255 
+

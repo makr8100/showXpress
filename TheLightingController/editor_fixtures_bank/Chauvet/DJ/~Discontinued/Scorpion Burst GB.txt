@@ -1,0 +1,45 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = mode
+ dmx,0,24 AUT,25,49 A1,50,74 A2,75,99 A3,100,124 SOU,125,149 S1,150,174 S2,175,199 S3,200,224 Random auto,225,255
+
+Channel = movement_macro
+ 24 grating patterns,0,255
+
+Channel = color
+ closed,0,5 red,6,28 green,29,56 RED & GREEN,57,84 GREEN STROBING,85,112 RED STROBING,113,140 RED ON GREEN STROBING ,141,168 GREEN ON & RED STROBING,169,197 RED & GREEN STROBING,198,224 RED & GREEN(ALTEMATE STROBING),225,255
+
+Channel = speed_control
+ STOP,0,4 SLOW --> FAST,5,255
+
+Channel = zoom
+ 100%-5% Size  ,0,127 Zooming In,128,169 Zooming Out,170,209 Zooming In & Out,210,255
+
+Channel = X-Axis Roll
+ X Axis Roll ,0,127 Roll (slow  fast) ,128,191 Roll (fast  slow) ,192,255
+
+Channel = Y-Axis Roll
+ Y-Axis Roll  ,0,127 Roll (slow  fast) ,128,191 Roll (fast  slow) ,192,255
+
+Channel = Rotate
+ Z-Axis Roll  ,0,127 Clockwise Rotate ,128,191 Counterclockwise Rotate,192,255
+
+Channel = X-Axis Move (Pan)
+ 128 different fixed position on X,0,127 Clockwise moving,128,191 Anticlockwise moving,192,255
+
+Channel = Y-Axis Move (Tilt)
+ 128 different positions on X-Axis ,0,127 Move Up to down to Up (slow  fast) ,128,191 Move Up to down to Up (fast  slow) ,192,255
+
+Channel = Grating Rotation
+ Clockwise grating rotating,1,75 No grating rotating,76,150 Anticlockwise grating rotating,151,255 
+

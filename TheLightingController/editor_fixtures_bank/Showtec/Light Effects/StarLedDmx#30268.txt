@@ -1,0 +1,24 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Showtec/Light Effects/Star LED DMX#43064.png
+
+Channel = color
+ stop,0,0 red,30,30 green,50,50 blue,70,70 cyan,90,90 magenta,110,110 yellow,130,130 white,150,150 right_rotate,160,179 left_rotate,180,199 audio,200,255
+
+Channel = color_macro
+ no_function,0,0 red,5,28 green,29,56 blue,57,84 cyan,85,112 magenta,113,140 yellow,141,168 white,169,197 auto,198,255 
+
+Channel = shutter
+ no_function,0,0 strobe,5,254 audio,255,255 
+
+Channel = rotation
+ right_rotate,0,127 stop,130,130 left_rotate,133,249 stop,255,255 
+

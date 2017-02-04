@@ -1,0 +1,24 @@
+Name = LED-WINGS 4ch
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = effect
+ step_colors,0,0 linear_colors,180,180 auto,255,255
+
+Channel = gobo
+ Miscellaneous\closed,0,9 Miscellaneous\macro_1,10,19 Miscellaneous\macro_2,20,25 Miscellaneous\macro_3,30,39 Miscellaneous\macro_4,40,49 Miscellaneous\macro_5,50,59 Miscellaneous\macro_6,60,69 Miscellaneous\macro_7,70,79 Miscellaneous\macro_8,80,89 Miscellaneous\macro_9,90,99 Miscellaneous\macro_10,100,109 Miscellaneous\macro_11,110,119 Miscellaneous\macro_12,120,129 Miscellaneous\macro_13,130,139 Miscellaneous\macro_14,140,149 Miscellaneous\macro_15,150,159 Miscellaneous\macro_16,160,169 Miscellaneous\macro_17,170,179 Miscellaneous\macro_18,180,189 Miscellaneous\macro_19,190,199 Miscellaneous\macro_20,200,209 Miscellaneous\macro_21,210,219 Miscellaneous\macro_22,220,229 Miscellaneous\macro_23,230,239 Miscellaneous\macro_24,240,249 Miscellaneous\macro_25,250,255
+
+Channel = shutter
+ open,0,9 strobe,10,255
+
+Channel = dimmer
+

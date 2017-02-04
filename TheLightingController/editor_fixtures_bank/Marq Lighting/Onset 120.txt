@@ -1,0 +1,21 @@
+﻿ViewType = VIEW_TYPE_PAR_CAN
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 26
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Showtec/multi_profile.png
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = strobe_effect
+ no_function,0,10 strobe,11,255
+
+Channel = dimming curves
+ Dimming Curve 1,0,63 Dimming Curve 2,64,127 Dimming Curve 3,128,191 Dimming Curve 4,192,255
+

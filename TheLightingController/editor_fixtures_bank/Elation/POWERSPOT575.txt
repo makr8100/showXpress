@@ -1,0 +1,54 @@
+Name = ELATION_POWERSPOT575
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_575MSR
+ViewAnglePan = 540
+ViewAngleTilt = 280
+ViewAngleBeam = 15
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = color
+ white,0,0 light_blue,4,4 blue,8,8 purple,12,12 magenta,16,16 pink,20,20 orange,24,24 canary,28,28 dark_blue,32,32 turquoise,36,36 jade,40,40 red,44,44 index,48,127 stop,128,128 clock,130,191 left_rotate,192,253 audio_slow,254,254 audio_fast,255,255
+
+Channel = gobo
+ gobo1,0,0 gobo2,11,11 gobo3,19,19 gobo4,27,27 gobo5,35,35 gobo6,43,43 gobo7,51,51 gobo8,59,59 gobo1,67,67 gobo2,75,75 gobo3,83,83 gobo4,84,84 gobo5,99,99 gobo6,107,107 gobo7,115,115 gobo8,123,123 Miscellaneous\stop,128,128 Miscellaneous\right_rotate,130,191 Miscellaneous\left_rotate,192,253 audio_slow,254,254 audio_fast,255,255
+
+Channel = gobo_rotate
+ index,0,127 stop,128,128 right_rotate,130,191 left_rotate,192,253 audio,254,254
+
+Channel = gobo2
+ Miscellaneous\open,0,0 gobo1,5,5 gobo2,9,9 gobo3,13,13 gobo4,17,17 gobo5,21,21 gobo6,25,25 gobo7,29,29 gobo8,33,33 gobo9,49,49 Miscellaneous\open,66,66 gobo1,69,69 gobo2,73,73 gobo3,77,77 gobo4,81,81 gobo5,85,85 gobo6,89,89 gobo7,93,93 gobo8,97,97 gobo9,113,113 Miscellaneous\stop,128,128 Miscellaneous\right_rotate,130,191 Miscellaneous\left_rotate,192,253 audio_slow,254,254 audio_fast,255,255
+
+Channel = shutter
+ closed,0,0 strobe_pulse,16,47 strobe,48,239 open,255,255
+
+Channel = dimmer
+
+Channel = focus
+
+Channel = prism
+ swing,0,0 index,6,129 rotate,130,253 audio,254,254
+
+Channel = control
+ gobo_shake,16,63 color_chaser,64,95 audio,96,127 fan_min,226,226 lamp_off,240,240 reset,255,255
+
+Channel = movement
+ pan_size1,1,7 pan_size2,8,15 pan_size3,16,23 pan_size4,24,31 tilt,32,63 pan_tilt,64,127 circle,128,191 lying_eight,192,223 random,224,255
+
+Channel = pantilt_speed
+
+Channel = laser
+ stop,0,0 random,23,23 audio,39,39 blinking,48,127 flashing,128,239 open,255,255
+

@@ -1,0 +1,35 @@
+Name = MARTIN_ROBOSCAN_PRO_518
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_250MSR
+ViewAnglePan = 176
+ViewAngleTilt = 85
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = control
+ default,0,0 fan_low,8,8 strobe,11,138 auto,154,154 audio,186,186 reset,219,219 lamp_on,244,244 lamp_off,255,255
+
+Channel = dimmer
+
+Channel = color
+ white,0,0 pink,9,9 magenta,17,17 dark_red,25,25 red,33,33 orange,41,41 orange,49,49 yellow,57,57 light_green,65,65 green,73,73 turquoise,81,81 cyan,89,89 light_blue,97,97 lavender,105,105 dark_blue,113,113 uv,121,121 mixed,129,129 mixed,137,137 right_rotate,140,197 left_rotate,198,255
+
+Channel = gobo
+ Miscellaneous\open,0,0 gobo1_left,1,24 Miscellaneous\gobo1,26,26 gobo1_right,28,51 gobo2_left,52,75 Miscellaneous\gobo2,77,77 gobo2_right,79,102 gobo3_left,103,126 Miscellaneous\gobo3,128,128 gobo3_right,130,153 gobo4_left,154,177 Miscellaneous\gobo4,179,179 gobo4_right,181,204 gobo5_left,205,228 Miscellaneous\gobo5,230,230 gobo5_right,232,255
+
+Channel = effect
+ open,0,0 5500-3400k,95,95 frost,159,159 prism,255,255
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+

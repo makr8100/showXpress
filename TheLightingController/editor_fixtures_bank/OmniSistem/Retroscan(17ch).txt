@@ -1,0 +1,47 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = shutter
+ closed,0,0 open,255,255 
+
+Channel = strobe_speed
+
+Channel = pattern#1
+
+Channel = pattern#2
+
+Channel = pattern_macro
+
+Channel = pattern_macro_speed
+
+Channel = pan#1
+
+Channel = tilt#1
+
+Channel = pan#2
+
+Channel = tilt#2
+
+Channel = pan#3
+
+Channel = tilt#3
+
+Channel = pan#4
+
+Channel = tilt#4
+
+Channel = movement_macro
+
+Channel = pantilt_speed
+
+Channel = sound_active
+ off,0,0 on,255,255 
+

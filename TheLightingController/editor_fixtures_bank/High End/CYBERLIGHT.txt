@@ -1,0 +1,58 @@
+Name = HIGH-END_CYBERLIGHT
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_575MSR
+ViewAnglePan = 170
+ViewAngleTilt = 110
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewColor = 0
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = color
+ white,0,0 reverse_spin8,8,8 reverse_spin7,16,16 reverse_spin6,24,24 reverse_spin5,32,32 reverse_spin4,40,40 reverse_spin3,48,48 reverse_spin2,56,56 reverse_spin1,64,64 forward_spin1,66,66 forward_spin2,79,79 forward_spin3,87,87 forward_spin4,95,95 forward_spin5,103,103 forward_spin6,111,111 forward_spin7,119,119 forward_spin8,127,127 color8,133,133 color7,150,150 color5,158,158 color4,166,166 color3,173,173 color2,181,181 color1,189,189 index,194,250 white,255,255
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = yellow
+
+Channel = gobo
+ Miscellaneous\open,0,0 reverse_spin8,8,8 reverse_spin7,16,16 reverse_spin6,24,24 reverse_spin5,32,32 reverse_spin4,40,40 reverse_spin3,48,48 reverse_spin2,56,56 reverse_spin1,64,64 forward_spin1,66,66 forward_spin2,79,79 forward_spin3,87,87 forward_spin4,95,95 forward_spin5,103,103 forward_spin6,111,111 forward_spin7,119,119 forward_spin8,127,127 gobo8,133,133 gobo7,143,150 gobo5,158,158 gobo4,166,166 gobo3,173,173 gobo2,181,181 gobo1,189,189 gobo8/1,194,194 gobo7/8,201,201 gobo6/7,209,209 gobo5/6,217,217 gobo4/5,224,224 gobo3/4,232,232 gobo2/3,240,240 gobo1/2,250,250 Miscellaneous\open,255,255
+
+Channel = gobo_rotate
+ position_3,0,0 position_2,13,13 position_1,26,26 position_3,43,43 position_4,51,51 clock_1,61,61 clock_2,71,71 clock_4,82,82 clock_5,92,92 counterclock_1,99,99 counterclock_2,107,107 counterclock_3,117,117 counterclock_4,128,128 open,255,255
+
+Channel = gobo_rotate
+
+Channel = beam
+
+Channel = focus
+
+Channel = iris
+
+Channel = prism
+ open,0,0 prism,143,143 mosaic,158,158 diffu,232,232 wide,217,217 yellow_crct,171,171 magenta_crct,204,204 cyan_crct,255,255
+
+Channel = frost
+
+Channel = shutter
+ closed,0,0 open,2,2 strobe,4,240 open,255,255
+
+Channel = dimmer
+
+Channel = pantilt_speed
+
+Channel = control
+ safe,0,0 home,64,64 shutdown,128,128 full,255,255
+

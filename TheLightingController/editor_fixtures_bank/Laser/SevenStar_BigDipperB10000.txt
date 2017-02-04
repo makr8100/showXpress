@@ -1,0 +1,48 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = Play Mode
+ closed,0,0 audio,90,90 auto,170,170 dmx,255,255 
+
+Channel = pattern
+ static,0,0 characters,88,88 dancing,94,94 heart,97,97 dynamic,255,255 
+
+Channel = shutter
+ open,0,0 strobe,16,255 
+
+Channel = X_axis
+ index,0,167 left_rotate,168,188 right_rotate,189,209 bounce,210,255 
+
+Channel = Y_axis
+ index,0,167 left_rotate,168,188 right_rotate,189,209 bounce,210,255 
+
+Channel = zoom
+ no_function,0,0 index,11,109 pulse_open,110,154 pulse_close,155,204 pluse_in_and_out,205,255 
+
+Channel = X_stretch
+ index,0,150 auto,255,0 
+
+Channel = Y_stretch
+ index,0,150 auto,255,0 
+
+Channel = rotation
+ index,0,180 right_rotate,181,217 left_rotate,218,255 
+
+Channel = display_mode
+ normal,0,0 dot_line,64,127 subsection,128,191 dot,192,255 
+
+Channel = wave
+ no_function,0,0 frequency,11,200 amplitude,201,255 
+
+Channel = color
+ white,0,0 red,7,7 green,12,12 blue,17,17 yellow,22,22 purple,27,27 cyan,32,32 white,37,37 majenta,42,42 dark_blue,47,47 light_cyan,52,52 white,57,57 royal_blue,62,62 white,67,67 hot_pink,72,72 light_purple,77,77 white,82,82 light_blue,77,77 ligher_blue,92,92 white,97,97 lighter_purple,102,102 darker_purple,107,107 darker_blue,112,112 royal_blue,117,117 dark_pink,122,122 darker_pink,127,127 bright_purple,132,132 dark_green,137,137 dark_yellow,142,142 orange,147,147 green,152,152 cyan,157,157 dark_cyan,162,162 Green to Blue Fade,167,167 Red to Blue to Off Fade,172,172 Red+Green+Blue,177,177 Cyan+ Magenta +Yellow,182,182 Red+Green+Blue+Magenta+Cyan+Yellow+White,187,187 Red+Green+Blue Move,192,192 Cyan+ Magenta +Yellow Move,197,197 Red+Green+Blue+Magenta+Cyan+Yellow+White Move,202,202 Red+Green+Blue+Magenta+Cyan+Yellow+White Color Fade,207,207 Cyan+Green Fade,212,212 White+Magenta+Purple Move,217,217 White+Cyan+Magenta Move,222,222 Green+Magenta+Purple Move,227,227 Red+Green+Blue+Magenta+Cyan+Purple+Yellow+White Move,232,232 Green+Magenta+Purple+White Move,237,237 Red+Green+Blue+Magenta+Cyan+Purple+Yellow+White,255,255 
+

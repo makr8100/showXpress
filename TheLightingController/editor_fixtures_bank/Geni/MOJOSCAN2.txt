@@ -1,0 +1,21 @@
+Name = GENI_MOJOSCAN2
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewColor = 16777215
+
+Channel = gobo
+ Miscellaneous\closed,0,0 Miscellaneous\open,8,8 Miscellaneous\open,15,15 Geni\MJC-2-CH1-20-29,25,25 Geni\MJC-2-CH1-30-39,35,35 Geni\MJC-2-CH1-40-49,45,45 Geni\MJC-2-CH1-50-59,55,55 Geni\MJC-2-CH1-60-69,65,65 Geni\MJC-2-CH1-70-79,75,75 Geni\MJC-2-CH1-80-89,85,85 Geni\MJC-2-CH1-90-99,95,95 Geni\MJC-2-CH1-100-109,105,105 Geni\MJC-2-CH1-110-119,115,115 Geni\MJC-2-CH1-120-129,125,125 Geni\MJC-2-CH1-130-139,135,135 Geni\MJC-2-CH1-140-149,145,145 Miscellaneous\rotate,150,159 Miscellaneous\strobe,210,255
+
+Channel = color
+ closed,0,0 white,15,15 red,25,25 dark_green,35,35 yellow,45,45 green,55,55 orange,65,65 light_blue,75,75 dark_blue,85,85 pink,95,95 red_white_oran,105,105 green_yellow,115,115 blue_white_gre,125,125 pink_white_blu,135,135 white_green,145,145 four_color_squ,155,155 rotate,210,255
+
+Channel = pan
+
+Channel = tilt
+

@@ -1,0 +1,56 @@
+Name = EXPLORER 575 MKII - 16CH
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+2DViewImage = Showtec/Discontinued/explorer_575.png
+
+Channel = pan
+
+Channel = tilt
+
+Channel = upan
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = focus
+
+Channel = color
+ open,0,19 red,20,39 yellow,40,59 light_red,60,79 green,80,99 orange,100,119 blue,120,139 pink,140,159 dark_red,160,179 orange,180,199 rotate,200,255
+
+Channel = color
+ white,0,25 light_red,26,51 light_yellow,52,77 purple,78,103 dark_green,104,129 orange,130,155 blue,156,181 cyan,182,207 3200-5600k,208,233 6000K,234,255
+
+Channel = prism
+ stop,0,4 left_rotate,5,127 stop,128,131 right_rotate,132,255
+
+Channel = gobo
+ new_level,0,19 new_level,20,29 new_level,30,39 new_level,40,49 new_level,50,59 new_level,60,69 new_level,70,79 new_level,80,89 new_level,90,99 new_level,100,109 new_level,110,119 new_level,120,129 new_level,130,139 new_level,140,149 new_level,150,159 new_level,160,169 new_level,170,179 new_level,180,189 new_level,190,199 new_level,200,255
+
+Channel = gobo2
+ new_level,0,36 new_level,37,51 new_level,52,73 new_level,74,88 new_level,89,110 new_level,111,125 new_level,126,147 new_level,148,162 new_level,163,184 new_level,185,199 new_level,200,221 new_level,222,236 new_level,237,255
+
+Channel = gobo_rotate2
+ INDEX,0,60 right_rotate,61,158 left_rotate,159,255
+
+Channel = iris
+ IRIS,0,255
+
+Channel = beam
+ ZOOM 15,0,32 ZOOM 18,33,65 ZOOM 22,66,98 STOP,99,128 ZOOM 15,129,154 ZOOM 18,155,179 ZOOM 22,180,255
+
+Channel = shutter
+ SHUTTER,0,19 STROBE,20,250 BEAM OUT,251,255
+
+Channel = dimmer
+ NO FUNCTION,0,29 LAMP ON 3SEC,30,39 NO FUNCTION,40,59 LAMP OFF 3SEC,60,69 NO FUNCTION,70,128 dimmer,129,255
+

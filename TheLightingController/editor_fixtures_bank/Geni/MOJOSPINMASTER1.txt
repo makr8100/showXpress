@@ -1,0 +1,18 @@
+Name = GENI_MOJOSPINMASTER1
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = gobo
+ shutter,0,0 white_circle,15,15 red_triangle,25,25 3_color_bar,35,35 blue_bubbles,45,45 4_color_square,55,55 yel_circle_rin,65,65 green_flowers,75,75 blue_arc,85,85 purple_hearts,95,95 blue_stars,105,105 yellow_clouds,115,115 dark_blue_circ,125,125 orange_candle,135,135 green_tropics,145,145 red_lips,155,155 rotate,160,208 strobe,210,255
+
+Channel = gobo_rotate
+ angle,0,111 counterclock,112,183 clock,184,255
+
+Channel = gobo_urotate
+

@@ -1,0 +1,134 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewAnglePan = 0
+ViewAngleTilt = 0
+ViewAngleBeam = 0
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+2DViewImage = 
+
+Channel = pan
+ Pan,0,255
+
+Channel = tilt
+ Tilt1,0,255
+
+Channel = tilt
+ Tilt2,0,255
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = shutter
+ closed,0,7 strobe,8,76 pulse_strobe,77,145 Random shutter,146,215 open,216,255
+
+Channel = red
+ Red,0,255
+
+Channel = green
+ Green,0,255
+
+Channel = blue
+ Blue,0,255
+
+Channel = white
+ White,0,255
+
+Channel = red
+ Red,0,255
+
+Channel = green
+ Green,0,255
+
+Channel = blue
+ Blue,0,255
+
+Channel = white
+ White,0,255
+
+Channel = red
+ Red,0,255
+
+Channel = green
+ Green,0,255
+
+Channel = blue
+ Blue,0,255
+
+Channel = white
+ White,0,255
+
+Channel = red
+ Red,0,255
+
+Channel = green
+ Green,0,255
+
+Channel = blue
+ Blue,0,255
+
+Channel = white
+ White,0,255
+
+Channel = red
+ Red,0,255
+
+Channel = green
+ Green,0,255
+
+Channel = blue
+ Blue,0,255
+
+Channel = white
+ White,0,255
+
+Channel = red
+ Red,0,255
+
+Channel = green
+ Green,0,255
+
+Channel = blue
+ Blue,0,255
+
+Channel = white
+ White,0,255
+
+Channel = red
+ Red,0,255
+
+Channel = green
+ Green,0,255
+
+Channel = blue
+ Blue,0,255
+
+Channel = white
+ White,0,255
+
+Channel = red
+ Red,0,255
+
+Channel = green
+ Green,0,255
+
+Channel = blue
+ Blue,0,255
+
+Channel = white
+ White,0,255
+
+Channel = pattern
+ no_function,0,5 pattern_01,6,15 pattern_02,16,26 pattern_03,27,35 pattern_04,36,45 pattern_05,46,55 pattern_06,56,65 pattern_07,66,75 pattern_08,76,85 pattern_09,86,95 pattern_10,96,105 pattern_11,106,115 pattern_12,116,125 pattern_13,126,135 pattern_14,136,145 pattern_15,146,155 pattern_16,156,165 pattern_17,166,175 pattern_18,176,185 pattern_19,186,195 pattern_20,196,205 pattern_21,206,215 pattern_22,216,225 pattern_23,226,235 pattern_24,236,245 pattern_25,246,255
+
+Channel = speed_control
+ Pattern Speed,0,240 audio,241,255
+
+Channel = movement_macro
+ no_function,0,7 macro_1,8,23 macro_2,24,39 macro_3,40,55 macro_4,56,71 macro_5,72,87 macro_6,88,103 macro_7,104,119 macro_8,120,135 audio,136,151 audio2,152,167 audio3,168,183 audio4,184,199 audio5,200,215 audio6,216,231 audio7,232,247 audio8,248,255
+
+Channel = control
+ no_function,0,69 Reverse Pan,70,79 Disable Reverse Pan,80,89 Reverse Tilt1,90,99 Disable Reverse Tilt1,100,109 Reverse Tilt2,110,119 Disable Reverse Tilt2,120,129 no_function,130,139 reset_xy,140,149 no_function,150,255 
+

@@ -1,0 +1,22 @@
+Name = MARTIN_EXT_600C_V1M2
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = control
+ blackout,0,0 light,35,35 open_white,80,80 random_color,128,187 open_white,200,200 reset,212,212 open_white,222,222 lamp_on,232,232 open_white,242,242 lamp_off,255,255
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = yellow
+
+Channel = effect_speed
+ tracking,0,0 fast-slow,4,245 shortcuts_off,247,247 shortcuts_on,250,250 fast,255,255
+

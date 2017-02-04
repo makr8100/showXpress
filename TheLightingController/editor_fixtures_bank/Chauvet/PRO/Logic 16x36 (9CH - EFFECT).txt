@@ -1,0 +1,39 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/ILUMINARC/Logic16x36-2D.png
+
+Channel = red
+ 0-100%,0,255
+
+Channel = green
+ 0-100%,0,255
+
+Channel = blue
+ 0-100%,0,255
+
+Channel = dimmer
+ 0-100%,0,255
+
+Channel = color_macro
+ No Function ,0,10 R:100% G:up B:0%,11,35 R: Down G:100% B:0%,36,60 R:0% G:100% B:up,61,85 R:0% G:Down B:100%,86,110 R:up G:0% B:100%,111,135 R:100% G:0% B:Down,136,160 R:100% G:up B:up,161,185 R:down G:down B:100%,186,210 White 1:3200K,211,215 White 2:3400K,216,220 White 3:4200K,221,225 White 4:4900K,226,230 White 5:5600K,231,235 White 6:5900K,236,240 White 7:6500K,241,245 White 8:7200K,246,250 White 9:8500K,251,255
+
+Channel = shutter
+ No Function,0,4 0-20Hz,5,255
+
+Channel = effect_macro
+ No Function,0,20 Auto RGB 1,21,30 Auto RGB 2,31,40 Auto RGB 3,41,50 Auto RGB 4,51,60 Auto RGB 5,61,70 Auto RGBL 1,71,80 Auto RGBL 2,81,90 Auto RGBL 3,91,100 Auto RGBL 4,101,110 Auto RGBL 5,111,120 Custom 1,121,130 Custom 2,131,140 Custom 3,141,150 Custom 4,151,160 Custom 5,161,170 Custom 6,171,180 Custom 7,181,190 Custom 8,191,200 Custom 9,201,210 Custom 10,211,220 No Function,221,255
+
+Channel = effect_speed
+ Slow - Fast ,0,255
+
+Channel = pods
+ All Lines,0,9 Line 1,10,29 Line 2,30,49 LIne 3,50,69 Line 4,70,89 Line 5,90,109 Line 6,110,129 Line 7,130,149 Line 8,150,169 Line 9,170,189 Line 10,190,199 Line 11,200,209 Line 12,210,219 Line 13,220,229 Line 14,230,239 Line 15,240,249 Line 16,250,255
+

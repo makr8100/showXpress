@@ -1,0 +1,26 @@
+Name = AMERICAN-DJ_ROLLERTRON250
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = pan
+
+Channel = tilt
+
+Channel = color
+ white,0,0 red,30,30 blue,51,51 green,73,73 yellow,94,94 orange,115,115 pink,136,136 rainbow,157,157 rotate,168,254 sound,255,255
+
+Channel = gobo
+ Miscellaneous\open,0,0 Miscellaneous\gobo1,12,12 Miscellaneous\gobo2,20,20 Miscellaneous\gobo3,28,28 Miscellaneous\gobo4,36,36 Miscellaneous\gobo5,44,44 Miscellaneous\gobo6,52,52 Miscellaneous\gobo7,60,60 Miscellaneous\gobo8,68,68 Miscellaneous\gobo9,76,76 Miscellaneous\gobo10,84,84 Miscellaneous\closed,92,92 Miscellaneous\gobo1,100,100 Miscellaneous\gobo2,108,108 Miscellaneous\gobo3,116,116 Miscellaneous\gobo4,124,124 Miscellaneous\gobo5,132,132 Miscellaneous\gobo6,140,140 Miscellaneous\gobo7,148,148 Miscellaneous\gobo8,156,156 Miscellaneous\gobo9,164,164 Miscellaneous\gobo10,172,172 Miscellaneous\closed,180,180 Miscellaneous\rotate,184,254 sound,255,255
+
+Channel = shutter
+ lamp_off,0,0 closed,4,4 strobe,7,251 open,255,255
+

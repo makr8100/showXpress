@@ -1,0 +1,33 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 22
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/COLORstrip Mini FX.png
+
+Channel = color
+ closed,0,6 red,7,13 green,14,20 blue,21,27 yellow,28,34 purple,35,41 cyan,42,48 white,49,55 Red (Laser),56,62 Green (Laser),63,69 Red + Green (Laser),70,76 Color Change 1,77,82 Color Change 2,83,90 Color Change 3,91,97 Color Change 4,98,104 Color Change 5,105,111 Color Change 6,112,118 Color Change 1 (Laser + LED),119,125 Color Change 2 (Laser + LED),126,132 Color Change 3 (Laser + LED),133,139 Color Change 4 (Laser + LED),140,146 Color Change 5 (Laser + LED),147,153 Color Chase 1,154,160 Color Chase 2,161,167 Color Chase 3,168,174 Color Chase 4,175,181 Color Chase 5,182,188 Color Chase 6,189,195 Color Chase 7,196,202 Color Chase 1 (Laser + LED),203,209 Color Chase 2 (Laser + LED),210,216 Color Chase 3 (Laser + LED),217,223 Color Chase 4 (Laser + LED),224,230 Color Chase 5 (Laser + LED),231,237 RGB Color Mix,238,244 Color Fade,245,251 Sound-Active (Auto Run),252,255
+
+Channel = effect_speed
+ Run Speed Auto ,0,127 Sound-Active ,128,255
+
+Channel = shutter
+ strobe,0,249 Sound-Active ,250,255 
+
+Channel = blue
+ Blue ,0,255
+
+Channel = laser
+ no_function,0,39 Red,40,79 Green,80,119 Red + Green,120,159 Red on Green strobe,160,199 Green on Red strobe,200,239 Alternating strobe,240,255
+
+Channel = Laser Strobe
+ no_function,0,4 Strobe slow to fast,5,249 Strobe Sound-Active,250,255
+
+Channel = Laser Rotation and Pattern
+ Pattern 1,0,19 Pattern 2,20,39 Pattern 3,40,59 Pattern 4,60,79 Pattern 5,80,99 Pattern 6,100,119 Rotation slow to fast,120,255
+

@@ -1,0 +1,14 @@
+Name = GENI_MOJOCOLOR
+
+ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_250MSR
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 40
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewColor = 16777215
+
+Channel = color
+ blackout,0,0 white,16,16 pink,32,32 light_blue,48,48 yellow,58,58 purple,70,70 orange,80,80 green,96,96 red,110,110 dark_blue,120,120 blue_green,135,135 light_pink,148,148 rainbow,154,191 strobe,192,255
+

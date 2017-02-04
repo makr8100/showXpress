@@ -1,0 +1,58 @@
+Name = GALAXY 19CH
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = pan
+
+Channel = tilt
+
+Channel = pan
+
+Channel = tilt
+
+Channel = pan
+
+Channel = tilt
+
+Channel = pan
+
+Channel = tilt
+
+Channel = pan
+
+Channel = tilt
+
+Channel = pan
+
+Channel = tilt
+
+Channel = pantilt_speed
+ MAX SPEED,0,0 SPEED 1,1,31 SPEED 2,32,63 SPEED 3,64,95 SPEED 4,96,127 SPEED 5,128,159 SPEED6,160,191 SPEED 7,192,223 SPEED 8,224,255
+
+Channel = shutter
+ closed,0,3 dimmer,4,109 open,110,133 lighting_strobe,134,244 closed,245,249 open,250,255
+
+Channel = gobo_1
+ OPEN,0,15 GOBO 1,16,31 GOBO 2,32,47 GOBO 3,48,63 GOBO 4,64,79 GOBO 5,80,95 GOBO 6,96,111 GOBO 7,112,127 RAINBOW 1,128,191 RAINBOW 2,192,255
+
+Channel = gobo_2
+ OPEN,0,15 GOBO 1,16,31 GOBO 2,32,47 GOBO 3,48,63 GOBO 4,64,79 GOBO 5,80,95 GOBO 6,96,111 GOBO 7,112,127 RAINBOW 1,128,191 RAINBOW 2,192,255
+
+Channel = gobo_3
+ OPEN,0,15 GOBO 1,16,31 GOBO 2,32,47 GOBO 3,48,63 GOBO 4,64,79 GOBO 5,80,95 GOBO 6,96,111 GOBO 7,112,127 RAINBOW 1,128,191 RAINBOW 2,192,255
+
+Channel = gobo_rotate
+ NO ROTATION,0,16 ROTATE RIGHT,17,135 NO ROTATION,136,136 ROTATE LEFT,137,255
+
+Channel = mode
+ DMX P/T,0,0 MACRO 1,1,7 MACRO 2,8,15 MACRO 3,16,23 MACRO 4,24,31 MACRO 5,32,39 MACRO 6,40,47 MACRO 7,48,55 MACRO 8,56,63 MACRO 9,64,71 MACRO 10,72,79 MACRO 11,80,87 MACRO 12,88,95 MACRO 13,96,103 MACRO 14,104,111 MACRO 15,112,119 MACRO 16,120,127 audio1,128,160 lamp_on,161,193 lamp_off,194,226 reset,227,254 DMX P/T,255,255
+

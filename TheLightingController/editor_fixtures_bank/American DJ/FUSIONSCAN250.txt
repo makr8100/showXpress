@@ -1,0 +1,26 @@
+Name = AMERICAN-DJ_FUSIONSCAN250
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_250MSR
+ViewAnglePan = 45
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = pan
+
+Channel = tilt
+
+Channel = color
+ closed,0,0 white,43,43 red,72,72 blue,101,101 green,130,130 yellow,159,159 orange,188,188 pink,217,217 purple,255,255
+
+Channel = gobo
+ Miscellaneous\open,0,0 Miscellaneous\gobo1,25,25 gobo1_shake,36,36 Miscellaneous\gobo2,47,47 gobo2_shake,58,58 Miscellaneous\gobo3,69,69 gobo3_shake,80,80 Miscellaneous\gobo4,91,91 gobo4_shake,102,102 Miscellaneous\gobo5,113,113 gobo5_shake,124,124 Miscellaneous\gobo6,135,135 gobo6_shake,146,146 Miscellaneous\gobo7,157,157 gobo7_shake,168,168 Miscellaneous\gobo8,179,179 gobo8_shake,190,190 Miscellaneous\gobo9,201,201 gobo9_shake,212,212 Miscellaneous\gobo10,223,223 gobo10_shake,234,234 Miscellaneous\closed,255,255
+
+Channel = laser
+ closed,0,0 open,255,255
+

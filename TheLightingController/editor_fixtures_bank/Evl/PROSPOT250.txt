@@ -1,0 +1,48 @@
+Name = EVL_PROSPOT250
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_250MSR
+ViewAnglePan = 630
+ViewAngleTilt = 265
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewColor = 0
+
+Channel = color
+ white,0,0 orange,18,18 blue,32,32 green,46,46 yellow,60,60 red,74,74 pink,88,88 cyan,102,102 green_yellow,116,116 left_rotate,128,128 stop,190,190 right_rotate,194,255
+
+Channel = gobo
+ Miscellaneous\open,0,0 gobo1,14,14 gobo2,24,24 gobo3,34,34 gobo4,44,44 gobo5,54,54 gobo6,64,64 gobo1_shake,70,89 gobo2_shake,90,109 gobo3_shake,110,129 gobo4_shake,130,149 gobo5_shake,150,169 gobo6_shake,170,189 Miscellaneous\rotate,190,255
+
+Channel = gobo_rotate
+ index,0,127 right_rotate,128,187 stop,190,190 left_rotate,192,255
+
+Channel = gobo
+ Miscellaneous\open,0,0 gobo1,21,21 gobo2,36,36 gobo3,49,49 gobo4,63,63 gobo5,77,77 gobo6,91,91 gobo7,105,105 gobo1_shake,112,127 gobo2_shake,128,143 gobo3_shake,144,159 gobo4_shake,160,175 gobo5_shake,176,191 gobo6_shake,192,207 gobo7_shake,208,223 Miscellaneous\rotate,224,255
+
+Channel = pan
+
+Channel = tilt
+
+Channel = pantilt_speed
+ max speed,0,0 max to min,15,225 blackout_by_mov,226,235 blackout_by_wheel,236,245 no rotation,255,255
+
+Channel = prism
+ open,0,0 right_rotate,4,63 stop,65,65 left_rotate,68,127 macro1,131,131 macro2,139,139 macro3,147,147 macro4,155,155 macro5,163,163 macro6,171,171 macro7,179,179 macro8,187,187 macro9,195,195 macro10,203,203 macro11,211,211 macro12,219,219 macro13,227,227 macro14,235,235 macro15,243,243 macro16,255,255
+
+Channel = focus
+
+Channel = shutter
+ closed,0,0 dimmer,32,63 strobe,64,95 pulse,128,159 random_strobe,192,223 open,255,255
+
+Channel = dimmer
+
+Channel = control
+ color_change_nor,0,0 color_change_pos,30,30 lamp_on,50,50 motor_reset,90,90 prog1,110,110 prog2,130,130 prog3,150,150 prog4,170,170 prog5,190,190 prog6,210,210 prog7,230,230 prog8,255,255
+
+Channel = upan
+
+Channel = utilt
+

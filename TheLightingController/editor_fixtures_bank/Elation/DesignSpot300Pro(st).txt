@@ -1,0 +1,67 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LAMP575W
+ViewAnglePan = 630
+ViewAngleTilt = 260
+ViewAngleBeam = 19
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+2DViewImage = 
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = color
+ open,0,0 red,20,20 blue,34,34 green,48,48 yellow,62,62 pink,76,76 uv,90,90 CTO_1,104,104 CTO_2,119,119 right_rotate,128,187 stop,190,190 left_rotate,194,255 
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = yellow
+
+Channel = gobo
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,15,15 Miscellaneous/gobo2,25,25 Miscellaneous/gobo3,35,35 Miscellaneous/gobo4,45,45 Miscellaneous/gobo5,55,55 Miscellaneous/gobo6,65,65 Miscellaneous/shake_gobo1,70,89 Miscellaneous/shake_gobo2,90,109 Miscellaneous/shake_gobo3,110,129 Miscellaneous/shake_gobo4,130,149 Miscellaneous/shake_gobo5,150,169 Miscellaneous/shake_gobo6,170,189 Miscellaneous/rotate,190,255 
+
+Channel = gobo_rotate
+ index,0,127 right_rotate,128,189 stop,190,190 left_rotate,194,255 
+
+Channel = gobo2
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,20,20 Miscellaneous/gobo2,34,34 Miscellaneous/gobo3,48,48 Miscellaneous/gobo4,62,62 Miscellaneous/gobo5,76,76 Miscellaneous/gobo6,90,90 Miscellaneous/gobo7,104,104 Miscellaneous/shake_gobo1,112,127 Miscellaneous/shake_gobo2,128,143 Miscellaneous/shake_gobo3,144,159 Miscellaneous/shake_gobo4,160,175 Miscellaneous/shake_gobo5,176,191 Miscellaneous/shake_gobo6,192,207 Miscellaneous/shake_gobo7,208,223 Miscellaneous/rotate,224,255 
+
+Channel = prism
+ open,0,0 prism,47,47 prism_5,79,79 prism_infinite,111,111 macro_1,131,131 macro_2,139,139 macro_3,147,147 macro_4,155,155 macro_5,163,163 macro_6,171,171 macro_7,179,179 macro_8,187,187 macro_9,195,195 macro_10,203,203 macro_11,211,211 macro_12,219,219 macro_13,227,227 macro_14,235,235 macro_15,243,243 macro_16,255,255 
+
+Channel = prism_rotate
+ index,0,127 right_rotate,128,189 stop,190,190 left_rotate,194,255 
+
+Channel = focus
+
+Channel = zoom
+
+Channel = shutter
+ closed,0,0 open,48,48 strobe,64,95 pulse_strobe,143,143 random_strobe,192,223 open,255,255 
+
+Channel = dimmer
+
+Channel = iris
+ index,0,191 pulse_open,192,223 pulse_close,224,255 
+
+Channel = effect_speed
+
+Channel = pantilt_speed
+ index,0,225 blackout_moves,230,230 blackout_changes,240,240 
+
+Channel = effect_macro
+ no_function,0,0 macro_1,11,11 macro_2,19,19 macro_3,27,27 macro_4,35,35 macro_5,43,43 macro_6,51,51 macro_7,59,59 macro_8,67,67 macro_9,75,75 macro_10,83,83 macro_11,91,91 macro_12,99,99 macro_13,107,107 macro_14,115,115 macro_15,123,123 macro_16,131,131 macro_17,139,139 macro_18,147,147 macro_19,155,155 macro_20,163,163 macro_21,171,171 macro_22,179,179 macro_23,187,187 macro_24,195,195 macro_25,203,203 macro_26,211,211 macro_27,219,219 macro_28,227,227 macro_29,235,235 macro_30,240,240 random,255,255 
+
+Channel = control
+ no_function,0,0 color_pos,30,30 lamp_on,50,50 lamp_off,70,70 reset,82,82 reset_xy,86,86 reset_color,89,89 reset_gobo,92,92 reset_shutter,95,95 reset_others,98,98 program1,110,110 program2,130,130 program3,150,150 program4,170,170 program5,190,190 program6,210,210 program7,230,230 audio,255,255 
+

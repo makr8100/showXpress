@@ -1,0 +1,27 @@
+Name = SHOWTEC_POLARSCAN
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_250MSR
+ViewAnglePan = 150
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewColor = 13158600
+
+Channel = pan
+
+Channel = tilt
+
+Channel = color
+ white,0,0 new_level,12,12 new_level,20,20 new_level,28,28 new_level,36,36 new_level,44,44 new_level,52,52 new_level,60,60 new_level,68,68 new_level,76,76 new_level,84,84 new_level,92,92 new_level,100,100 new_level,108,108 new_level,116,116 new_level,124,124 left_rotate,128,185 stop,192,192 right_rotate,196,255
+
+Channel = gobo
+ Miscellaneous\gobo1,0,0 Miscellaneous\gobo2,36,36 Miscellaneous\gobo3,60,60 Miscellaneous\gobo4,92,92 Miscellaneous\gobo5,116,116 Miscellaneous\gobo6,140,140 Miscellaneous\gobo7,166,166 Miscellaneous\gobo8,190,190 Miscellaneous\gobo9,224,224 Miscellaneous\gobo10,255,255
+
+Channel = gobo_rotate
+ stop,0,0 left_rotate,10,117 stop,128,128 right_rotate,138,255
+
+Channel = shutter
+ closed,0,0 dimmer,5,67 open,85,85 strobe,106,219 open,235,235 reset,255,255
+

@@ -1,0 +1,47 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 450
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = shutter
+ closed,0,7 strobe,8,231 open,232,255
+
+Channel = dimmer
+
+Channel = pan
+
+Channel = tilt
+
+Channel = upan
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = color
+ full_white,0,7 white,8,15 red,16,23 white,24,31 yellow,32,39 white,40,47 blue,48,55 white,56,63 purple,64,71 white,72,79 cyan,80,87 white,88,95 green,96,103 white,104,111 pink,112,119 white,120,127 rotate,128,163 rotate,164,255
+
+Channel = gobo
+ ???,0,15 Contest/GD019,16,31 Chauvet/Qmix5,32,47 Chauvet/water glass2,48,63 Chauvet/Qmix7,64,79 Chauvet/575gobo3,80,95 Chauvet/gobo12_100,96,111 Chauvet/gobo11_615,112,127 ok_for_3DView/rotate,128,255
+
+Channel = gobo_rotate
+ stop,0,7 right_rotate,8,119 left_rotate,120,231 180 Deg,232,239 360 Deg,240,247 540 Deg,248,255
+
+Channel = focus
+
+Channel = prism
+ open,0,127 prism,128,255
+
+Channel = prism_rotate
+ stop,0,7 right_rotate,8,119 left_rotate,120,231 180 Deg,232,239 360 Deg,240,247 540 Deg,248,255
+
+Channel = control
+ no_function,1,250 reset,251,255
+

@@ -1,0 +1,30 @@
+Name = AMERICAN-DJ_MEGAPIXELLED(7ch)
+
+ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 32
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = effect
+ auto_fade,0,0 show1,40,40 show2,70,70 show3,100,100 show4,130,130 show5,150,150 show6,190,190 show7,210,210 show8,230,230 show9,255,255
+
+Channel = effect_speed
+ index,0,242 audio,243,255
+
+Channel = shutter
+ open,0,0 strobe,16,255
+
+Channel = dimmer
+

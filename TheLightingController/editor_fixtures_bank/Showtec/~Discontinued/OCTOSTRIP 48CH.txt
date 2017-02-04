@@ -1,0 +1,110 @@
+Name = OCTOSTRIP 48CH
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = color
+
+Channel = red1
+
+Channel = green
+
+Channel = blue
+
+Channel = shutter
+
+Channel = effect
+ AUTO CHASE,0,255
+
+Channel = color
+
+Channel = red2
+
+Channel = green
+
+Channel = blue
+
+Channel = shutter
+
+Channel = effect
+
+Channel = color
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = shutter
+
+Channel = effect
+
+Channel = color
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = shutter
+
+Channel = effect
+
+Channel = color
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = shutter
+
+Channel = effect
+
+Channel = color
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = shutter
+
+Channel = effect
+
+Channel = color
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = shutter
+
+Channel = effect
+
+Channel = color
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = shutter
+
+Channel = effect
+

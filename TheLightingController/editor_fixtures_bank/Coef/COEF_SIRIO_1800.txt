@@ -1,0 +1,27 @@
+Name = COEF_SIRIO_1800
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = effect_speed
+ slow,0,0 mid2,100,100 mid1,140,140 fast,255,255
+
+Channel = cyan
+
+Channel = yellow
+
+Channel = magenta
+
+Channel = dimmer
+
+Channel = color
+ mixing,0,0 cyan,36,36 yellow,62,62 magenta,88,88 blue,114,114 red,140,140 green,166,166 seq_slow,192,192 seq_middle,218,218 seq_fast,255,255
+
+Channel = control
+ normal,0,0 reset_(delay),150,150 normal,220,220 lamp_off_(dela,255,255
+

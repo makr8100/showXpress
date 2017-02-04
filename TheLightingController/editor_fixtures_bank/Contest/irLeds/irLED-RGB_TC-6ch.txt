@@ -1,0 +1,27 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Contest/irLED series/irled56-12x3TCss .png
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = dimmer
+ dimmer,0,189 strobe,190,250 open,251,251 
+
+Channel = shutter
+ no_function,0,0 lighting_strobe,1,255 
+
+Channel = color
+ closed,0,15 red,16,30 orange,31,45 yellow,46,60 green,61,75 cyan,76,90 blue,91,105 pink,106,120 magenta,121,135 cold_white,136,150 warm_white,151,165 macro_1,166,180 macro_2,181,195 macro_3,196,210 macro_4,211,225 macro_5,226,240 audio,241,255 
+

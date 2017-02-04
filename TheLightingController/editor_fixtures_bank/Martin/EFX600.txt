@@ -1,0 +1,37 @@
+Name = MARTIN_EFX600
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HTI
+ViewAnglePan = 180
+ViewAngleTilt = 360
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = shutter
+ closed,0,0 dimmer,5,123 strobe,130,189 random-strobe,205,205 auto,215,215 reset,245,245 lamp_off,255,255
+
+Channel = gobo
+ Miscellaneous\gobo1,0,0 Miscellaneous\gobo2,15,15 Miscellaneous\gobo3,25,25 Miscellaneous\gobo4,35,35 Miscellaneous\gobo5,45,45 Miscellaneous\gobo6,55,55 Miscellaneous\gobo7,65,65 Miscellaneous\gobo8,75,75 Miscellaneous\gobo9,85,85 Miscellaneous\gobo10,95,95 Miscellaneous\gobo11,105,105 Miscellaneous\gobo12,115,115 Miscellaneous\right_rotate,176,207 Miscellaneous\left_rotate,208,239 audi_fast,242,242 audio_slow,247,247 audio_dyn,255,255
+
+Channel = gobo_shake
+ stop,0,0 narrow,2,128 wide,129,255
+
+Channel = rotation
+ stop,0,0 left_rotate,2,65 right_rotate,66,129 stutter,130,192 random_shake,217,217 audio_fast,242,242 audio_slow,247,247 audio_dyn,255,255
+
+Channel = pan
+ index,0,127 narrow_shake,128,182 wide_shake,185,239 audio_fast,242,242 audio_slow,247,247 audio_dyn,255,255
+
+Channel = tilt
+ stop,0,0 right_rotate,2,63 left_rotate,66,127 narrow_shake,130,184 wide_shake,185,239 audio_fast,242,242 audio_slow,247,247 audio_dyn,255,255
+
+Channel = control
+ stop,0,0 macro1,23,23 macro2,39,39 macro3,55,55 macro4,71,71 macro5,87,87 macro6,103,103 macro7,119,119 macro8,135,135 macro9,151,151 macro10,167,167 macro11,183,183 macro12,199,199 reserved,255,255
+
+Channel = effect_speed
+ tracking,0,0 index,2,255
+

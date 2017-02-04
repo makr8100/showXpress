@@ -1,0 +1,42 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LED60W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = VIEW_TYPE_HEAD_WASH.png
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = color
+ open,0,9 COLOR 1,10,19 COLOR 2,20,29 COLOR 3,30,39 COLOR 4,40,49 COLOR 5,50,59 COLOR 6,60,69 COLOR 7,70,79 COLOR 8,80,89 COLOR 9,90,99 COLOR 10,100,109 COLOR 11,110,119 COLOR 12,120,127 right_rotate,128,189 stop,192,192 left_rotate,194,255
+
+Channel = gobo
+ Miscellaneous/open,0,7 Miscellaneous/gobo1,8,15 Miscellaneous/gobo2,16,23 Miscellaneous/gobo3,24,31 Miscellaneous/gobo4,32,39 Miscellaneous/gobo5,40,47 Miscellaneous/gobo6,48,55 Miscellaneous/gobo7,56,63 Miscellaneous/gobo8,64,71 Miscellaneous/gobo9,72,79 Miscellaneous/gobo10,80,87 Miscellaneous/gobo11,88,95 Miscellaneous/gobo12,96,103 Miscellaneous/gobo13,104,111 Miscellaneous/gobo14,112,119 Miscellaneous/shake_gobo1,120,126 Miscellaneous/shake_gobo2,127,133 Miscellaneous/shake_gobo3,134,140 Miscellaneous/shake_gobo4,141,147 Miscellaneous/shake_gobo5,148,154 Miscellaneous/shake_gobo6,155,161 Miscellaneous/shake_gobo7,162,168 Miscellaneous/shake_gobo8,169,175 Miscellaneous/shake_gobo9,176,182 Miscellaneous/shake_gobo10,183,189 Miscellaneous/shake_gobo11,190,196 Miscellaneous/shake_gobo12,197,203 Miscellaneous/shake_gobo13,204,210 Miscellaneous/shake_gobo14,211,217 Miscellaneous/rotate,218,255
+
+Channel = prism
+ open,0,3 right_rotate,4,63 stop,65,65 left_rotate,68,127 macro_1,128,135 macro_2,136,143 macro_3,144,151 macro_4,152,159 macro_5,160,167 macro_6,168,175 macro_7,176,183 macro_8,184,191 macro_9,192,199 macro_10,200,207 macro_11,208,215 macro_12,216,223 macro_13,224,231 macro_14,232,239 macro_15,240,247 macro_16,248,255
+
+Channel = shutter
+ closed,0,0 open,48,48 strobe,64,95 pulse_strobe,128,159 random_strobe,192,223 open,255,255 
+
+Channel = dimmer
+
+Channel = frost
+
+Channel = pantilt_speed
+ index,0,225 blackout_moves,230,230 blackout_changes,240,240 no_function,255,255 
+
+Channel = control
+ COLOR CHANGE NORMAL,0,19 COLOR CHANGE TO ANY POSITION,20,29 COLOR & GOBO CHANGE TO ANY,30,39 LAMP ON,40,59 LAMP OFF,60,79 ALL MOTOR RESET,80,84 SCAN MOTOR RESET,85,87 COLOR MOTOR RESET,88,90 GOBO MOTOR RESET,91,93 SHUTTER/DIMMER MOTOR RESET,94,96 OTHER MOTOR RESET,97,99 INTERNAL PROGRAM 1,100,119 INTERNAL PROGRAM 2,120,139 INTERNAL PROGRAM 3,140,159 INTERNAL PROGRAM 4,160,179 INTERNAL PROGRAM 5,180,199 INTERNAL PROGRAM 6,200,219 INTERNAL PROGRAM 7,220,239 SOUND ACTIVE PROGRAM,240,255
+

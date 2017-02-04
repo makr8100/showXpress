@@ -1,0 +1,44 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = mirror1_tilt
+
+Channel = mirror2_tilt
+
+Channel = mirror3_tilt
+
+Channel = mirror4_tilt
+
+Channel = mirror5_tilt
+
+Channel = mirror6_tilt
+
+Channel = mirror7_tilt
+
+Channel = mirror8_tilt
+
+Channel = mirror1_pattern
+
+Channel = mirror2_pattern
+
+Channel = mirror3_pattern
+
+Channel = mirror4_pattern
+
+Channel = mirror5_pattern
+
+Channel = mirror6_pattern
+
+Channel = mirror7_pattern
+
+Channel = mirror8_pattern
+

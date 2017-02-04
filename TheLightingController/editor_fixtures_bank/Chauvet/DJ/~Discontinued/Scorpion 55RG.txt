@@ -1,0 +1,37 @@
+Name = Scorpion 55RG
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 66
+ViewAngleTilt = 47
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = mode
+ Laser off,0,10 Dynamic Patterns,11,120 Static Patterns,121,250 Sound Active Mode,251,255
+
+Channel = Patterns_Selec
+ new_level,0,5 new_level,6,11 new_level,12,17 new_level,18,23 new_level,24,29 new_level,30,35 new_level,36,41 new_level,42,47 new_level,48,53 new_level,54,59 new_level,60,65 new_level,66,71 new_level,72,77 new_level,78,83 new_level,84,89 new_level,90,95 new_level,96,101 new_level,102,107 new_level,108,113 new_level,114,119 new_level,120,125 new_level,126,131 new_level,132,137 new_level,138,143 new_level,144,149 new_level,150,155 new_level,156,161 new_level,162,167 new_level,168,173 new_level,174,179 new_level,180,185 new_level,186,191 new_level,192,197 new_level,198,203 new_level,204,209 new_level,210,215 new_level,216,221 new_level,222,227 new_level,228,233 new_level,234,239 new_level,240,245 new_level,246,251 Static Dynamic Patterns,252,255
+
+Channel = pan
+ new_level,0,255
+
+Channel = tilt
+ new_level,0,255
+
+Channel = Scan_Speed
+ Fast_Slow,0,255
+
+Channel = Pattern_Speed_
+ Fast_Slow,0,255
+
+Channel = Pattern_Size
+ new_level,0,255
+
+Channel = laser
+ Green & Red,0,100 Green,101,200 Red,201,255
+

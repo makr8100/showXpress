@@ -1,0 +1,41 @@
+﻿ViewType = VIEW_TYPE_HEAD_WASH
+ViewPower = VIEW_POWER_LED60W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 24
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = dimmer
+
+Channel = shutter
+ open,0,0 strobe,7,65 pulse_strobe,70,128 pulse_close,133,191 pulse_open,196,255 
+
+Channel = pantilt_speed
+
+Channel = color_macro
+ no_function,0,0 Eight Jumping Colours,50,94 Eight Fading Colours,100,149 Red+Green From Dark to Bright,155,166 Green+Red From Bright to Dark ,167,178 Green+Blue From Dark to Bright,179,190 Blue+Green From Bright to Dark,191,202 Blue+Red From Dark to Bright,203,214 Red+Blue From Bright to Dark,215,226 RGB From Dark to Bright,227,238 Blue+Red From Dark to Bright,239,250 Output 100%,255,255 
+
+Channel = mode
+ no_function,0,0 auto,255,255 
+

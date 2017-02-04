@@ -1,0 +1,30 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = spot1
+ no_function,0,0 group 1 of white,14,14 group 2 of white,20,20 group 3 of white,26,26 group 1 of red,32,32 group 2 of red,38,38 group 3 of red,43,43 group 1 of green,50,50 group 2 of green,56,56 group 3 of green,60,60 group 1 of blue,68,68 group 2 of blue,74,74 group 3 of blue,80,80 all white,85,85 all red,92,92 all green,98,98 all blue,104,104 all red and all green,110,110 all red and all blue,115,115 all green and all blue,122,122 all red all green and all blue,128,128 all red and all white,134,134 all green and all white,140,140 all blue and all white,145,145 group 1 of blue and all white,152,152 group 2 of blue and all red,158,158 group 3 of blue and green,166,166 group 1 of blue and group 3 of red,170,170 group 2 of blue and group 2 of red,175,175 group 3 of blue and group 1 of red,182,182 group 1 of green and group 3 of white,188,188 group 2 of green and group 2 of white,194,194 group 3 of green and group 1 of white,200,200 group 1 of blue - group 3 of green - group 1 of red - and group 3 of white,205,205 group 2 blue - group 2 of green - group 2 of red - and group 2 of white,210,210 group 3 of blue - group 1 of green - group 3 of red - group 1 of white,218,218 all white - all red - all green and all blue,255,255
+
+Channel = spot2
+ no_function,0,0 group 1 of white,14,14 group 2 of white,20,20 group 3 of white,26,26 group 1 of red,32,32 group 2 of red,38,38 group 3 of red,43,43 group 1 of green,50,50 group 2 of green,56,56 group 3 of green,60,60 group 1 of blue,68,68 group 2 of blue,74,74 group 3 of blue,80,80 all white,85,85 all red,92,92 all green,98,98 all blue,104,104 all red and all green,110,110 all red and all blue,115,115 all green and all blue,122,122 all red all green and all blue,128,128 all red and all white,134,134 all green and all white,140,140 all blue and all white,145,145 group 1 of blue and all white,152,152 group 2 of blue and all red,158,158 group 3 of blue and green,166,166 group 1 of blue and group 3 of red,170,170 group 2 of blue and group 2 of red,175,175 group 3 of blue and group 1 of red,182,182 group 1 of green and group 3 of white,188,188 group 2 of green and group 2 of white,194,194 group 3 of green and group 1 of white,200,200 group 1 of blue - group 3 of green - group 1 of red - and group 3 of white,205,205 group 2 blue - group 2 of green - group 2 of red - and group 2 of white,210,210 group 3 of blue - group 1 of green - group 3 of red - group 1 of white,218,218 all white - all red - all green and all blue,255,255
+
+Channel = spot3
+ no_function,0,0 group 1 of white,14,14 group 2 of white,20,20 group 3 of white,26,26 group 1 of red,32,32 group 2 of red,38,38 group 3 of red,43,43 group 1 of green,50,50 group 2 of green,56,56 group 3 of green,60,60 group 1 of blue,68,68 group 2 of blue,74,74 group 3 of blue,80,80 all white,85,85 all red,92,92 all green,98,98 all blue,104,104 all red and all green,110,110 all red and all blue,115,115 all green and all blue,122,122 all red all green and all blue,128,128 all red and all white,134,134 all green and all white,140,140 all blue and all white,145,145 group 1 of blue and all white,152,152 group 2 of blue and all red,158,158 group 3 of blue and green,166,166 group 1 of blue and group 3 of red,170,170 group 2 of blue and group 2 of red,175,175 group 3 of blue and group 1 of red,182,182 group 1 of green and group 3 of white,188,188 group 2 of green and group 2 of white,194,194 group 3 of green and group 1 of white,200,200 group 1 of blue - group 3 of green - group 1 of red - and group 3 of white,205,205 group 2 blue - group 2 of green - group 2 of red - and group 2 of white,210,210 group 3 of blue - group 1 of green - group 3 of red - group 1 of white,218,218 all white - all red - all green and all blue,255,255
+
+Channel = spot4
+ no_function,0,0 group 1 of white,14,14 group 2 of white,20,20 group 3 of white,26,26 group 1 of red,32,32 group 2 of red,38,38 group 3 of red,43,43 group 1 of green,50,50 group 2 of green,56,56 group 3 of green,60,60 group 1 of blue,68,68 group 2 of blue,74,74 group 3 of blue,80,80 all white,85,85 all red,92,92 all green,98,98 all blue,104,104 all red and all green,110,110 all red and all blue,115,115 all green and all blue,122,122 all red all green and all blue,128,128 all red and all white,134,134 all green and all white,140,140 all blue and all white,145,145 group 1 of blue and all white,152,152 group 2 of blue and all red,158,158 group 3 of blue and green,166,166 group 1 of blue and group 3 of red,170,170 group 2 of blue and group 2 of red,175,175 group 3 of blue and group 1 of red,182,182 group 1 of green and group 3 of white,188,188 group 2 of green and group 2 of white,194,194 group 3 of green and group 1 of white,200,200 group 1 of blue - group 3 of green - group 1 of red - and group 3 of white,205,205 group 2 blue - group 2 of green - group 2 of red - and group 2 of white,210,210 group 3 of blue - group 1 of green - group 3 of red - group 1 of white,218,218 all white - all red - all green and all blue,255,255
+
+Channel = shutter
+ open,0,0 strobe,11,255 
+
+Channel = effect_macro
+ no_function,0,0 macro_1,23,23 macro_2,50,50 macro_3,76,76 macro_4,105,105 macro_5,122,122 macro_6,142,142 macro_7,175,175 macro_8,192,192 auto,209,250 audio,255,255 
+

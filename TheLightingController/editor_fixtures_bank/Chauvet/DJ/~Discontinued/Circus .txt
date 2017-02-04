@@ -1,0 +1,21 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/Circus.png
+
+Channel = color_macro
+ Program 1,1,5 Program 2,6,11 Program 3,12,17 Program 4,18,23 Program 5,24,29 Program 6,30,35 Program 7,36,41 Program 8,42,47 Program 9,48,53 Program 10,54,59 Program 11,60,65 Program 12,66,71 Program 13,72,77 Program 14,78,83 Program 15,84,89 Program 16,90,95 Program 17,96,101 Program 18,102,107 Program 19,108,113 Program 20,114,119 Program 21,120,125 Program 22,126,131 Program 23,132,137 Program 24,138,143 Program 25,144,149 Program 26,150,155 Program 27,156,161 Program 28,162,167 Program 29,168,173 Program 30,174,179 Program 31,180,185 Program 32,186,191 Program 33,192,197 Program 34,198,203 Program 35,204,209 Program 36,210,215 Program 37,216,221 Program 38,222,227 Program 39,228,233 Program 40,234,239 Program 41,240,245 Program 42,246,251 Sound,252,255
+
+Channel = speed_control
+ Speed,0,251 sound sinsitivity,252,255
+
+Channel = strobe_effect
+ strobe,0,255
+

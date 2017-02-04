@@ -1,0 +1,23 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = mode
+ Sound Mode,0,9 Single Flash Mode,10,99 Quad Flash Mode,100,199 Blinder Effect,200,249 Blinder Effect w/ Fade out,250,255 
+
+Channel = Selected Mode
+ no_function,0,5 
+
+Channel = dimmer
+
+Channel = Slave unit
+ no_function,0,5 Unit 1,6,39 Unit 2,40,74 Unit 3,75,109 Unit 4,110,144 Unit 1+2,145,179 Unit 3+4,180,214 Unit 1+3,215,249 Unit 2+4,250,255 
+

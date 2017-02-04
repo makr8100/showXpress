@@ -1,0 +1,39 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = dimmer
+
+Channel = shutter
+ closed,0,0 strobe,10,255 
+
+Channel = random_strobe
+ no_function,0,0 random_strobe,10,255 
+
+Channel = gobo
+ Miscellaneous/open,0,0 metal_basic/GM032,9,9 metal_basic/GM064,15,15 metal_basic/GM076,21,21 metal_basic/Z03748-4,27,27 Miscellaneous/gobo5,32,32 Miscellaneous/gobo6,38,41 metal_basic/sh14,45,45 metal_basic/Z03748-4,50,50 metal_basic/GM012,57,57 metal_basic/L330SS8,63,63 metal_basic/GM035,68,71 metal_basic/H1,75,75 metal_basic/H3,80,80 metal_basic/H4,87,87 Miscellaneous/shake_gobo1,102,107 Miscellaneous/shake_gobo2,108,113 Miscellaneous/shake_gobo3,114,119 Miscellaneous/shake_gobo4,120,125 Miscellaneous/shake_gobo5,126,131 Miscellaneous/shake_gobo6,132,137 Miscellaneous/shake_gobo7,138,143 Miscellaneous/gobo8,144,149 Miscellaneous/shake_gobo9,150,155 Miscellaneous/shake_gobo10,156,161 Miscellaneous/shake_gobo11,162,167 Miscellaneous/shake_gobo12,168,173 Miscellaneous/shake_gobo13,174,179 Miscellaneous/shake_gobo14,180,185 Miscellaneous/right_rotate,192,223 Miscellaneous/left_rotate,224,255 
+
+Channel = color
+ white,0,0 red,18,18 green,30,30 light_blue,42,47 yellow,53,53 uv,67,67 orange,78,78 blue,90,90 index,96,191 right_rotate,192,223 left_rotate,224,255 
+
+Channel = control
+ no_function,0,0 auto1,20,20 auto2,40,40 slave1,60,60 slave2,80,80 audio,91,160 pan_invert,170,170 tilt_invert,190,190 blackout_moves,210,210 reset,230,230 
+

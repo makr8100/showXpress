@@ -1,0 +1,21 @@
+﻿ViewType = VIEW_TYPE_STROBE
+ViewPower = VIEW_POWER_LAMP575W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 30
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = strobe_dimmer
+
+Channel = strobe_duration
+
+Channel = strobe_speed
+
+Channel = effect_macro
+ no_function,0,0 pulse_open,6,42 pulse_close,43,85 up_down,86,128 random_strobe,129,171 lightning_effect,172,214 spike_effect,215,255 
+

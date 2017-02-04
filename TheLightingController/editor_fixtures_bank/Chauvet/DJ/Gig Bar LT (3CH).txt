@@ -1,0 +1,21 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/GigBAR-LT.png
+
+Channel = Auto/sound Programs
+ no_function,0,9 auto1,10,119 auto2,120,229 audio1,230,234 audio2,235,239 Show mode (ch2 must be active),240,255 
+
+Channel = mode
+ no_function,0,9 pars,10,29 moonflowers,30,49 Strobes,50,69 Pars+moonflowers,70,89 Pars+strobes,90,109 Moonflowers+strobes,110,129 Sound active pars,130,149 Sound active moonflowers,150,169 Sound active strobes,170,189 Sound active pars+moonflowers,190,209 Sound active Pars+stroes,210,229 Sound active moonflowers+strobes,230,255 
+
+Channel = speed_control
+ CH2 program speed,0,255 
+

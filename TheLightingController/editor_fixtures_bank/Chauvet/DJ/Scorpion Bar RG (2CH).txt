@@ -1,0 +1,18 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/Scorpion Bar RG.png
+
+Channel = mode
+ no_function,0,15 Auto Show 1,16,35 Auto Show 2,36,55 Auto Show 3,56,75 Auto Show 4,76,95 Auto Show 5,96,115 Auto Show 6,116,135 Auto Show 7,136,155 Auto Show 8,156,175 Auto Show 9,176,195 Auto Show 10,196,215 Auto Show 11,216,235 Auto Show 12,236,255 
+
+Channel = speed_control
+ auto speed,0,200 audio,201,255 
+

@@ -1,0 +1,54 @@
+Name = YX2107
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_250MSR
+ViewAnglePan = 530
+ViewAngleTilt = 280
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = pan
+
+Channel = tilt
+
+Channel = upan
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = control
+ reset,128,139 lamp_off,230,239
+
+Channel = color
+ white,0,15 red,16,31 yellow,32,47 magenta,48,63 green,64,79 orange,80,95 blue,96,111 pink,112,127 right_rotate,128,255
+
+Channel = gobo
+ Miscellaneous\open,0,0 Showtec\HD 3,55,55 Yagang\7,92,92 Yagang\6,129,129 Showtec\EXPLO_250_02,166,166 Showtec\EXPLO_250_01,203,255
+
+Channel = prism
+ stop,0,0 3facet,255,255
+
+Channel = prism_rotate
+ stop,0,0 right_rotate,5,127 left_rotate,133,255
+
+Channel = gobo2
+ Miscellaneous\open,0,0 Showtec\EXPLO_250_06,47,47 Showtec\explo575-WHB-02,79,79 Yagang\5,111,111 Showtec\EXPLO_250_MX01,143,143 Showtec\EXPLO_250_MX02,175,175 Showtec\EXPLO_250_MX03,176,198 Miscellaneous\rotate,199,255
+
+Channel = gobo_rotate2
+ index,0,60 right_rotate,61,158 left_rotate,159,255
+
+Channel = frost
+ zoom_15,0,0 zoom_18,39,39 zoom_21,55,55 zoom_24,71,71 zoom_26,87,87 frost,221,221 uv,255,255
+
+Channel = focus
+
+Channel = shutter
+ closed,0,0 strobe,1,250 open,251,255
+
+Channel = dimmer
+

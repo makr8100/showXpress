@@ -1,0 +1,174 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = White 1
+ dimmer,0,255
+
+Channel = White 2
+ dimmer,0,255
+
+Channel = White 3
+ dimmer,0,255
+
+Channel = White 4
+ dimmer,0,255
+
+Channel = White 5
+ dimmer,0,255
+
+Channel = White 6
+ dimmer,0,255
+
+Channel = White 7
+ dimmer,0,255
+
+Channel = White 8
+ dimmer,0,255
+
+Channel = White 9
+ dimmer,0,255
+
+Channel = White 10
+ dimmer,0,255
+
+Channel = White 11
+ dimmer,0,255
+
+Channel = White 12
+ dimmer,0,255
+
+Channel = White 13
+ dimmer,0,255
+
+Channel = White 14
+ dimmer,0,255
+
+Channel = White 15
+ dimmer,0,255
+
+Channel = White 16
+ dimmer,0,255
+
+Channel = White 17
+ dimmer,0,255
+
+Channel = White 18
+ dimmer,0,255
+
+Channel = White 19
+ dimmer,0,255
+
+Channel = White 20
+ dimmer,0,255
+
+Channel = White 21
+ dimmer,0,255
+
+Channel = White 22
+ dimmer,0,255
+
+Channel = White 23
+ dimmer,0,255
+
+Channel = White 24
+ dimmer,0,255
+
+Channel = White 25
+ dimmer,0,255
+
+Channel = White 26
+ dimmer,0,255
+
+Channel = White 27
+ dimmer,0,255
+
+Channel = White 28
+ dimmer,0,255
+
+Channel = White 29
+ dimmer,0,255
+
+Channel = White 30
+ dimmer,0,255
+
+Channel = White 31
+ dimmer,0,255
+
+Channel = White 32
+ dimmer,0,255
+
+Channel = White 33
+ dimmer,0,255
+
+Channel = White 34
+ dimmer,0,255
+
+Channel = White 35
+ dimmer,0,255
+
+Channel = White 36
+ dimmer,0,255
+
+Channel = White 37
+ dimmer,0,255
+
+Channel = White 38
+ dimmer,0,255
+
+Channel = White 39
+ dimmer,0,255
+
+Channel = White 40
+ dimmer,0,255
+
+Channel = White 41
+ dimmer,0,255
+
+Channel = White 42
+ dimmer,0,255
+
+Channel = White 43
+ dimmer,0,255
+
+Channel = White 44
+ dimmer,0,255
+
+Channel = White 45
+ dimmer,0,255
+
+Channel = White 46
+ dimmer,0,255
+
+Channel = White 47
+ dimmer,0,255
+
+Channel = White 48
+ dimmer,0,255
+
+Channel = White 49
+ dimmer,0,255
+
+Channel = Auto Programs
+ no_function,0,10 Auto 1,11,38 Auto 2,39,66 Auto 3,67,94 Auto 4,95,122 Auto 5,123,150 Auto 6,151,178 Auto 7,179,206 Auto 8,207,234 Auto 0,235,255 
+
+Channel = Auto Speed
+ dimmer,0,255 
+
+Channel = dimmer
+ dimmer,0,255 
+
+Channel = shutter
+ no_function,0,10 0-20 Hz,11,255 
+
+Channel = Dimmer Mode
+ Preset Dimmer Speed,0,51 Linear Dimmer,52,101 Nonlinear Dimming Curve 1,102,152 Nonlinear Dimming Curve 2,153,203 Nonlinear Dimming Curve 3,204,255 
+

@@ -1,0 +1,72 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LAMP700W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = shutter
+ closed,0,0 open,30,30 strobe,50,200 random_strobe,211,255
+
+Channel = dimmer
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = yellow
+
+Channel = CTO
+
+Channel = color
+ white,0,0 index,1,134 macro_1,143,143 macro_2,148,148 macro_3,153,153 macro_4,158,158 macro_5,163,163 macro_6,168,168 macro_7,173,173 macro_8,178,178 right_rotate,186,211 stop,215,215 left_rotate,218,243 random,244,255 
+
+Channel = gobo
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,12,12 Miscellaneous/gobo2,16,16 Miscellaneous/gobo3,22,22 Miscellaneous/gobo4,27,27 Miscellaneous/gobo5,32,32 Miscellaneous/gobo1,36,36 Miscellaneous/gobo2,42,42 Miscellaneous/gobo3,47,47 Miscellaneous/gobo4,52,52 Miscellaneous/gobo5,57,57 Miscellaneous/shake_gobo1,60,89 Miscellaneous/shake_gobo2,90,119 Miscellaneous/shake_gobo3,120,149 Miscellaneous/shake_gobo4,150,179 Miscellaneous/shake_gobo5,180,209 Miscellaneous/right_rotate,210,232 Miscellaneous/left_rotate,233,255
+
+Channel = gobo indexing angle rotation
+
+Channel = ugobo indexing angle rotation
+
+Channel = gobo2
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,12,12 Miscellaneous/gobo2,16,16 Miscellaneous/gobo3,22,22 Miscellaneous/gobo4,27,27 Miscellaneous/gobo5,32,32 Miscellaneous/gobo1,36,36 Miscellaneous/gobo2,42,42 Miscellaneous/gobo3,47,47 Miscellaneous/gobo4,52,52 Miscellaneous/gobo5,57,57 Miscellaneous/shake_gobo1,60,89 Miscellaneous/shake_gobo2,90,119 Miscellaneous/shake_gobo3,120,149 Miscellaneous/shake_gobo4,150,179 Miscellaneous/shake_gobo5,180,209 Miscellaneous/right_rotate,210,232 Miscellaneous/left_rotate,233,255
+
+Channel = gobo indexing angle rotation
+
+Channel = ugobo indexing angle rotation
+
+Channel = gobo3
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,113,113 Miscellaneous/gobo2,118,118 Miscellaneous/gobo3,123,123 Miscellaneous/gobo4,128,128 position5,133,133 position6,138,138 position7,143,143 position8,148,148 position9,153,153 Miscellaneous/right_rotate,161,189 Miscellaneous/stop,190,190 Miscellaneous/left_rotate,191,219 Smooth,228,228 Organic,231,231 Metronome,234,234 Run forwards,0,0 fast rewind,237,237 Run backwards,0,0 fast rewind,240,240 Random bounce,242,242 Interference,245,245 Random animation range position,248,248 Random gobo position,251,251 Random FX wheel position,255,255 
+
+Channel = gobo3_speed
+
+Channel = frost
+
+Channel = prism
+ no_function,0,0 index,11,138 rotate,139,255
+
+Channel = Prism indexing angle rotation speed and direction
+ stop,0,0 right_rotate,3,126 stop,128,128 left_rotate,130,253 stop,255,255
+
+Channel = iris
+
+Channel = zoom
+
+Channel = focus
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = control
+ no_function,0,0 reset,12,12 reset_shutter,17,17 reset_color,22,22 reset_effects,27,27 reset_xy,32,32 reset_framing,37,37 lamp_on,42,42 lamp_off,47,47
+

@@ -1,0 +1,48 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/PRO/COLORdashBatten-Hex8-2D.png
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = red
+ red,0,255
+
+Channel = green
+ green,0,255
+
+Channel = blue
+ blue,0,255
+
+Channel = amber
+ amber,0,255
+
+Channel = white
+ white,0,255
+
+Channel = UV
+ UV,0,255
+
+Channel = shutter
+ no function,0,10 strobe slow-fast,11,255
+
+Channel = color_macro
+ no function,0,10 R100% G0~100% B0,11,30 R100~0% G100% B0,31,50 R0 G100% B0~100%,51,70 R0 G100~0% B100%,71,90 R0~100% G0 B100%,91,110 R100% G0 B100~0%,111,130 R100% G0~100% B0~100%,131,150 R100~0% G100~0% B100%,151,170 R100% G100% B100% A100%,171,200 Color Temp 1,201,205 Color Temp 2,206,210 Color Temp 3,211,215 Color Temp 4,216,220 Color Temp 5,221,225 Color Temp 6,226,230 Color Temp 7,231,235 Color Temp 8,236,240 Color Temp 9,241,245 Color Temp 10,246,250 Color Temp 11,251,255
+
+Channel = Auto Program
+ no function,0,10 auto program 1,11,27 auto program 2,28,44 auto program 3,45,61 auto program 4,62,78 auto program 5,79,95 auto program 6,96,112 auto program 7,113,129 auto program 8,130,146 auto program 9,147,163 auto program 10,164,180 auto program 11,181,197 auto program 12,198,214 fade program,215,231 auto 1-12,232,255
+
+Channel = Auto speed
+ auto speed slow-fast,0,255
+
+Channel = Dimm mode
+ preset dimm speed from display,0,51 dimmer speed mode off,52,101 dimmer speed mode 1,102,152 dimmer speed mode 2,153,203 dimmer speed mode 3,204,255
+

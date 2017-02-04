@@ -1,0 +1,24 @@
+﻿ViewType = VIEW_TYPE_PAR_CAN
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 3
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = TRUE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/BEAMbar.png
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = shutter
+ no_function,0,10 strobe,11,255 
+
+Channel = effect_macro
+ no_function,0,10 Chase 1,11,30 Chase 2,31,50 Chase 3,51,70 Chase 4,71,90 Chase 5,91,110 Chase 6,111,130 Chase 7,131,150 Chase 8,151,170 Chase 9,171,190 Chase 10,191,210 Chase 11,211,230 Chase 12,231,250 Sound-Active mode,251,255
+
+Channel = effect_speed
+ Speed slow to fast,0,255
+

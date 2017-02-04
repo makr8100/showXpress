@@ -1,0 +1,93 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LAMP575W
+ViewAnglePan = 280
+ViewAngleTilt = 540
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/PRO/Maverick-MK2-FRONT.png
+
+Channel = pan
+ dimmer,0,255
+
+Channel = upan
+ dimmer,0,255
+
+Channel = tilt
+ dimmer,0,255
+
+Channel = utilt
+ dimmer,0,255
+
+Channel = pantilt_speed
+ dimmer,0,255
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = strobe_effect
+ no_function,0,7 Open,8,15 Sync Strobe,16,131 Fast Close Slow Open,132,167 Slow Close Fast Open,168,203 Pulse Strobe,204,239 Random Strobe,240,247 Open,248,255
+
+Channel = cyan
+ dimmer,0,255
+
+Channel = magenta
+ dimmer,0,255
+
+Channel = yellow
+ dimmer,0,255
+
+Channel = color
+ White,0,0 White+Beam Softener,28,28 Beam Softener,50,50 Beam Softener+Lavender,80,80 Lavender,100,100 Lavender+CTO3200k,129,129 CTO3200k,150,150 CTO+Blue Wood,181,181 Blue Wood,200,200 Blue Wood+CTO2500,235,235 CTO2500,255,255
+
+Channel = color2
+ White,0,0 White+Beam Softener,28,28 Beam Softener,50,50 Beam Softener+Dark Green,100,100 Dark Green+Dark Red,129,129 Dark Red,150,150 Dark Red+ Dark Blue,180,180 Dark Blue,200,200 Dark Blue+HM Green,235,235 HM Green,255,255
+
+Channel = Color3
+ White,0,0 White+Beam Softener,28,28 Beam Softener,50,50 Beam Softener+Dark Orange,80,80 Dark Orange,100,100 Dark Orange+Light Orange,129,129 Light Orange,150,150 Light Orange+Light Green,181,181 Light Green,200,200 Light Green+Pink,235,235 Pink,255,255
+
+Channel = gobo
+ Open,0,0 Gobo 1,4,4 Gobo 2,8,8 Gobo 3,12,12 Gobo 4,16,16 Gobo 5,19,19 Gobo 6,23,23 Gobo 7,27,27 Gobo 8,31,31 Gobo 9,35,35 Gobo 10,38,38 Gobo 11,42,42 Gobo 12,46,46 Gobo 13,50,50 Gobo 14,54,54 Gobo 15,57,57 Gobo 16,61,61 Gobo 17,65,65 Gobo 18,69,69 Positive Rainbow scroll,72,113 Stop,114,117 Negative Rainbow scroll,118,159 Gobo 1-18 Shaking,160,255
+
+Channel = gobo2
+ White,0,18 Gobo 1,19,37 Gobo 2,38,56 Gobo 3,57,74 Gobo 4,75,92 Gobo 5,93,111 Gobo 6,112,129 Gobo 1-6 Shaking,130,255
+
+Channel = gobo_rotate2
+ 0-540 position,0,127 positive rotating,128,190 Stop,191,192 Negative rotating,193,255
+
+Channel = animation
+ dimmer,0,255
+
+Channel = Animation Wheel Rotation
+ Positive rotating,0,124 Stop,125,130 Negative rotating,131,255
+
+Channel = prism
+ no_function,0,10 Prism Engage,11,255
+
+Channel = prism_rotate
+ Position 0-540,0,127 Positive Rotating,128,190 Stop,191,192 Negative Rotating,193,255
+
+Channel = prism_5
+ no_function,0,10 Prism Engage,11,255
+
+Channel = Prism 2 Rotate
+ 0-540 position,0,127 Positive Rotating,128,190 Stop,191,192 Negative Rotating,193,255
+
+Channel = Frost
+ dimmer,0,255
+
+Channel = zoom
+ dimmer,0,255
+
+Channel = focus
+ dimmer,0,255
+
+Channel = Beam Mode
+ no_function,0,10 Beam Mode,11,255
+
+Channel = Control
+ no_function,0,29 XY Swap On,30,39 XY Swap Off,40,49 Zoom/Auto focus on,50,59 Zoom/Auto Focus off,60,69 XY Blackout Enable,70,79 XY Blackout Disable,80,89 Color Black Out Enable,90,99 Color Black Out Disable,100,109 Gobo Blackout Enable,110,119 Gobo Blackout Disable,120,129 Lamp On,130,139 XY Reset,140,149 Head Reset,150,159 Auto Soft Filter On,160,169 Auto Soft Filter Off,170,179 No Function,180,199 All Reset,200,209 All Blackout Enable,210,219 All Blackout Disable,220,229 Lamp Off,230,239 No Function,240,255
+

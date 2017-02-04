@@ -1,0 +1,36 @@
+﻿ViewType = VIEW_TYPE_HEAD_WASH
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 540
+ViewAngleTilt = 265
+ViewAngleBeam = 39
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = pan
+
+Channel = tilt
+
+Channel = pantilt_speed
+ fade_speed,0,225 blackout_moves,226,235 no_function,236,245 no_function,246,255
+
+Channel = color_macro
+ stop,0,7 index,8,220 rotate,221,255
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = control
+ no_function,0,79 reset,80,84 reset_motors,85,87 macro_1,88,119 macro_2,120,139 macro_3,140,159 macro_4,160,179 macro_5,180,199 macro_6,200,219 macro_7,220,239 audio,240,255
+
+Channel = shutter
+ open,0,0 strobe,1,95 open,96,127 pulse_strobe,128,159 open,160,191 random_strobe,192,223 open,224,255
+
+Channel = dimmer
+

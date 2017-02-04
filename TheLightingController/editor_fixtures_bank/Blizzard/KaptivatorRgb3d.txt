@@ -1,0 +1,45 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = mode
+ closed,0,0 audio1,80,80 audio2,110,110 auto1,140,140 auto2,180,180 dmx,255,255
+
+Channel = pattern
+ 120_static,0,239 7_anim,240,255
+
+Channel = color_macro
+ closed,0,0 R--G--B--RG--RB--GB--RGB,2,69 8 Point Display,75,75 8 Point Color Change1,85,85 8 Point Color Change1,86,86 Running in Turn,105,105 Color Change1,115,115 Color Change2,116,116 Color Change,135,135 Auto Color Change1,140,179 Auto Color Change2,180,219 Auto Color Change3,220,255
+
+Channel = moving_X
+ index,0,127 auto_left,128,160 auto_right,161,192 auto_left_right,193,224 jumping,225,239 prismatic_shape,240,240 oblique_up,255,255
+
+Channel = moving_Y
+ index,0,127 auto_donw,128,160 auto_up,161,192 auto_up_down,193,224 square_tracing1,225,239 square_tracing2,240,240 oblique_down,255,255
+
+Channel = dimmer_X
+ index,0,150 auto,151,255 
+
+Channel = dimmer_Y
+ index,0,150 auto,151,255 
+
+Channel = rotation
+ index,0,180 right_rotate,181,224 left_rotate,225,255 
+
+Channel = zoom
+ index,0,159 auto_+,160,191 auto_-,192,223 auto_+-,224,255 
+
+Channel = drawing
+ index,0,64 auto,65,255 
+
+Channel = rolling
+ Y,0,128 X,129,255 
+

@@ -1,0 +1,76 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LAMP575W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = shutter
+ closed,0,0 open,30,30 strobe,50,200 random_strobe,211,255 
+
+Channel = dimmer
+
+Channel = udimmer
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = yellow
+
+Channel = color
+ white,0,0 index,1,160 blue,162,162 green,165,165 3200K,168,168 magenta,171,171 congo_blue,174,174 red,177,177 right_rotate,193,214 stop,218,218 left_rotate,222,243 random,244,255 
+
+Channel = gobo
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,7,7 Miscellaneous/gobo2,12,12 Miscellaneous/gobo3,17,17 Miscellaneous/gobo4,22,22 Miscellaneous/gobo5,27,27 Miscellaneous/gobo6,32,32 Miscellaneous/gobo1,37,37 Miscellaneous/gobo2,42,42 Miscellaneous/gobo3,47,47 Miscellaneous/gobo4,52,52 Miscellaneous/gobo5,57,57 Miscellaneous/gobo6,62,62 Miscellaneous/shake_gobo1,65,88 Miscellaneous/shake_gobo2,89,112 Miscellaneous/shake_gobo3,113,136 Miscellaneous/shake_gobo4,137,160 Miscellaneous/shake_gobo5,161,184 Miscellaneous/shake_gobo6,185,209 Miscellaneous/right_rotate,210,232 Miscellaneous/left_rotate,233,255 
+
+Channel = gobo_rotate
+
+Channel = gobo_urotate
+
+Channel = gobo2
+ Miscellaneous/open,0,0 Miscellaneous/index,1,165 Miscellaneous/gobo1,166,166 Miscellaneous/gobo2,168,168 Miscellaneous/gobo3,170,170 Miscellaneous/gobo4,172,172 Miscellaneous/gobo5,174,174 Miscellaneous/gobo6,176,176 Miscellaneous/gobo7,178,178 Miscellaneous/gobo8,180,180 Miscellaneous/gobo9,182,182 Miscellaneous/gobo10,184,184 Miscellaneous/right_rotate,193,214 Miscellaneous/stop,218,218 Miscellaneous/left_rotate,222,243 Miscellaneous/random,244,255 
+
+Channel = prism
+ no_function,0,0 right_rotate,3,126 stop,128,128 left_rotate,130,253 
+
+Channel = iris
+ index,0,200 animate,201,225 stop,228,228 animate_reverse,231,255 
+
+Channel = zoom
+
+Channel = uzoom
+
+Channel = focus
+
+Channel = ufocus
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = control
+ no_function,0,0 reset,12,12 reset_color,16,16 reset_beam,17,17 reset_xy,18,18 linear_curve,23,23 enable_tracking_focus,33,35 fan_auto,51,51 Turn on control panel display,52,52 Turn off control panel display,53,53 reset_calibration,199,199 
+
+Channel = effect_macro
+
+Channel = effect_speed
+ left_rotate,0,126 stop,127,127 right_rotate,129,255 
+
+Channel = effect_macro
+
+Channel = effect_speed
+ left_rotate,0,126 stop,127,127 right_rotate,129,255 
+
+Channel = effects_synch
+ no_function,0,0 10_to_350,1,35 synch,36,36 random,101,120 random_duration,121,140 
+

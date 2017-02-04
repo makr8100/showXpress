@@ -1,0 +1,138 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LAMP575W
+ViewAnglePan = 540
+ViewAngleTilt = 265
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Contest/Discontinued Products/OZ-12x15QC .png
+
+Channel = pan
+ rotate,0,255 
+
+Channel = upan
+ rotate,0,255 
+
+Channel = tilt
+ rotate,0,255 
+
+Channel = utilt
+ rotate,0,255 
+
+Channel = pantilt_speed
+ index,0,225 blackout_moves,226,235 no_function,236,255 
+
+Channel = shutter
+ closed,0,31 open,32,63 strobe,64,95 open,96,127 pulse_strobe,128,159 open,160,191 random_strobe,192,223 open,224,255 
+
+Channel = dimmer
+ dimmer,0,255 
+
+Channel = udimmer
+ dimmer,0,255 
+
+Channel = red
+ dimmer,0,255 
+
+Channel = ured
+ dimmer,0,255 
+
+Channel = green
+ dimmer,0,255 
+
+Channel = ugreen
+ dimmer,0,255 
+
+Channel = blue
+ dimmer,0,255 
+
+Channel = ublue
+ dimmer,0,255 
+
+Channel = white
+ dimmer,0,255 
+
+Channel = uwhite
+ dimmer,0,255 
+
+Channel = red
+ dimmer,0,255 
+
+Channel = ured
+ dimmer,0,255 
+
+Channel = green
+ dimmer,0,255 
+
+Channel = ugreen
+ dimmer,0,255 
+
+Channel = blue
+ dimmer,0,255 
+
+Channel = ublue
+ dimmer,0,255 
+
+Channel = white
+ dimmer,0,255 
+
+Channel = uwhite
+ dimmer,0,255 
+
+Channel = red
+ dimmer,0,255 
+
+Channel = ured
+ dimmer,0,255 
+
+Channel = green
+ dimmer,0,255 
+
+Channel = ugreen
+ dimmer,0,255 
+
+Channel = blue
+ dimmer,0,255 
+
+Channel = ublue
+ dimmer,0,255 
+
+Channel = white
+ dimmer,0,255 
+
+Channel = uwhite
+ dimmer,0,255 
+
+Channel = zoom
+ index,0,255 
+
+Channel = uzoom
+ index,0,255 
+
+Channel = color_macro
+ no_function,0,7 macro_1,8,39 macro_2,40,71 macro_3,72,103 macro_4,104,135 macro_5,136,167 macro_6,168,199 macro_7,200,231 rainbow,232,255 
+
+Channel = color_preset
+ no_function,0,4 white_2700K,5,9 white_3200K,10,14 white_4300K,15,19 white_5600K,20,24 white_6500K,25,29 white_8000K,30,34 red,35,39 green,40,44 blue,45,49 natural_white,50,54 full_white,55,59 yellow,60,64 magenta,65,69 cyan,70,74 salmon_pink,75,79 turquoise,80,84 light_green,85,89 metal_blue,90,94 orange,95,99 straw,100,104 light_lavender,105,109 pink,110,114 macro_1,115,119 macro_2,120,124 macro_3,125,129 macro_4,130,134 macro_5,135,139 macro_6,140,144 macro_7,145,149 rainbow,150,255 
+
+Channel = color_preset_dimmer
+ strobe,0,255 
+
+Channel = animation
+ no_function,0,14 pattern_01,15,30 pattern_02,31,46 pattern_03,47,62 pattern_04,63,78 pattern_05,79,94 pattern_06,95,110 pattern_07,111,126 pattern_08,127,142 pattern_09,143,158 pattern_10,159,174 pattern_11,175,190 pattern_12,191,206 pattern_13,207,222 pattern_14,223,238 pattern_15,239,255 
+
+Channel = animation_ speed
+ index,0,125 stop,126,130 index,131,255 
+
+Channel = animation_fade
+ fade slow to fast,0,255 
+
+Channel = white_balance
+ no_function,0,189 new_white_balance,190,254 white_balance_memory,255,255 
+
+Channel = control
+ no_function,0,79 reset_motors,80,84 reset_xy,85,87 reset_zoom,88,90 white_balance_memory,91,93 reset_shutter,94,96 reset_others,97,99 pattern_01,100,119 pattern_02,120,139 pattern_03,140,159 pattern_04,160,179 pattern_05,180,199 pattern_06,200,219 pattern_07,220,239 audio,240,255 
+

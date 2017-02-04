@@ -1,0 +1,60 @@
+Name = Q Spot 575
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_575MSR
+ViewAnglePan = 540
+ViewAngleTilt = 240
+ViewAngleBeam = 23
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = pan
+ new_level,0,255
+
+Channel = tilt
+ new_level,0,255
+
+Channel = upan
+ new_level,0,255
+
+Channel = utilt
+ new_level,0,255
+
+Channel = pantilt_speed
+ new_level,0,255
+
+Channel = control
+ no_function,0,127 lamp_on,128,139 no_function,140,229 lamp_off,230,239 no_function,240,255
+
+Channel = color
+ white,0,7 blue,8,19 orange,20,31 split_color,32,43 uv,44,55 dark_red,56,67 red,68,79 quad_color,80,91 yellow,92,103 pink,104,115 green,116,127 clock,128,255
+
+Channel = prism
+ no_function,0,127 prism,128,255
+
+Channel = prism_rotate
+ no_function,0,4 right_rotate,5,127 stop,128,132 left_rotate,133,255
+
+Channel = gobo2
+ Chauvet\open,0,9 Chauvet\575gobo13,10,19 Chauvet\575gobo12,20,29 Chauvet\575gobo11,30,39 Chauvet\575gobo10,40,49 Chauvet\575gobo9,50,59 Chauvet\575gobo14,60,69 Chauvet\New_wave,70,79 Chauvet\bow tie,80,89 Chauvet\575gobo17,90,99 Chauvet\open,100,109 Chauvet\575gobo13,110,119 Chauvet\575gobo12,120,129 Chauvet\575gobo11,130,139 Chauvet\575gobo10,140,149 Chauvet\575gobo9,150,159 Chauvet\575gobo14,160,169 Chauvet\New_wave,170,179 Chauvet\bow tie,180,189 Chauvet\575gobo17,190,199 Miscellaneous\open,200,255
+
+Channel = gobo
+ Chauvet\open,0,29 Chauvet\142031,30,59 Chauvet\575gobo2,60,89 Chauvet\575gobo6,90,119 Chauvet\575gobo5,120,149 Chauvet\575gobo3,150,179 Chauvet\575gobo4,180,209 Miscellaneous\rotate,210,255
+
+Channel = gobo_rotate
+ index,0,60 right_rotate,61,158 left_rotate,159,255
+
+Channel = reserved
+
+Channel = focus
+ focus_near,0,255
+
+Channel = shutter
+ closed,0,31 open,32,63 strobe,64,95 open,96,127 pulse_strobe,128,159 open,160,191 random_strobe,192,223 open,224,255
+
+Channel = dimmer
+ dimmer,0,255
+

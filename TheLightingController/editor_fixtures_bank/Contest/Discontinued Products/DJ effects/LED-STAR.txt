@@ -1,0 +1,21 @@
+Name = LED-STAR
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = dimmer
+ closed,0,7 dimmer,8,199 strobe,200,247 open,248,255
+
+Channel = color_macro
+
+Channel = motor
+ stop,0,9 right_rotate,10,120 stop,121,134 left_rotate,135,245 stop,246,255
+

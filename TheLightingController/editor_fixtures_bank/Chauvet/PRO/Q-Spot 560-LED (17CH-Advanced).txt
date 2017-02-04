@@ -1,0 +1,63 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LED60W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 19
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/PRO/Q-Spot 560-2D.png
+
+Channel = pan
+ dimmer,0,255
+
+Channel = upan
+ dimmer,0,255
+
+Channel = tilt
+ dimmer,0,255
+
+Channel = utilt
+ dimmer,0,255
+
+Channel = pantilt_speed
+ Fast to Slow,0,255
+
+Channel = color
+ open,0,9 red,10,19 green,20,29 yellow,30,39 blue,40,49 orange,50,59 magenta,60,69 light_blue,70,79 light_blue/magenta,80,99 magenta/orange,100,119 orange/blue,120,139 blue/yellow,140,159 yellow/green,160,179 green/red,180,199 red/open,200,219 rainbow effect,220,255
+
+Channel = gobo
+ Chauvet/open,0,10 Miscellaneous/gobo1,11,20 Miscellaneous/gobo2,21,30 Miscellaneous/gobo3,31,40 Miscellaneous/gobo4,41,50 Miscellaneous/gobo5,51,60 Miscellaneous/gobo6,61,70 Miscellaneous/gobo7,71,80 Miscellaneous/shake_gobo7,81,95 Miscellaneous/shake_gobo6,96,110 Miscellaneous/shake_gobo5,111,125 Miscellaneous/shake_gobo4,126,140 Miscellaneous/shake_gobo3,141,155 Miscellaneous/shake_gobo2,156,170 Miscellaneous/shake_gobo1,171,185 Miscellaneous/rotate,186,255
+
+Channel = gobo2
+ Miscellaneous/open,0,10 Miscellaneous/gobo1,11,20 Miscellaneous/gobo2,21,30 Miscellaneous/gobo3,31,40 Miscellaneous/gobo4,41,50 Miscellaneous/gobo5,51,60 Miscellaneous/gobo6,61,70 Miscellaneous/shake_gobo6,71,85 Miscellaneous/shake_gobo5,86,100 Miscellaneous/shake_gobo4,101,115 Miscellaneous/shake_gobo3,116,130 Miscellaneous/shake_gobo2,131,145 Miscellaneous/shake_gobo1,146,160 Miscellaneous/rotate,161,255
+
+Channel = gobo_rotate2
+ index,0,60 right_rotate,61,150 stop,151,165 left_rotate,166,255
+
+Channel = prism
+ no_function,0,9 prism,10,39 effect _1,40,49 effect _2,50,59 effect _3,60,69 effect _4,70,79 effect _5,80,89 effect _6,90,99 effect _7,100,109 effect _8,110,119 effect _9,120,129 effect _10,130,139 effect _11,140,149 effect _12,150,159 effect _13,160,169 effect _14,170,179 effect _15,180,189 effect _16,190,199 effect _17,200,209 effect _18,210,219 effect _19,220,229 effect _20,230,239 prism,240,255
+
+Channel = prism_rotate
+ no_function,0,9 right_rotate,10,119 stop,120,129 left_rotate,130,255
+
+Channel = iris
+ iris,0,199 effect _1,200,209 effect _2,210,219 effect _3,220,229 effect _4,230,239 random,240,255
+
+Channel = focus
+ 0-100%,0,255
+
+Channel = focus_fine
+ 0-100%,0,255
+
+Channel = dimmer
+ 0-100%,0,255
+
+Channel = strobe_dimmer
+ closed,0,31 open,32,63 strobe,64,95 open,96,127 pulse_strobe,128,159 open,160,191 random_strobe,192,223 open,224,255
+
+Channel = control
+ dim set in fixture,0,19 blackout_moves,20,39 p/t black deactivate,40,59 no_function,60,139 auto1,140,149 auto2,150,159 test,160,169 custom,170,179 audio1,180,189 audio2,190,199 reset,200,219 no_function,220,235 dim0,236,239 dim1,240,243 dim2,244,247 dim3,248,251 dim4,252,255
+

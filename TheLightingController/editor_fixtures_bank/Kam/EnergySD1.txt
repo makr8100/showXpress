@@ -1,0 +1,79 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = ILD_display
+ closed,0,0 ILD show in SD card,20,20 LIST show in SD card,60,60 ILD show in SD card using Sound-to-Light control,90,90 LIST show in SD card using Sound-to-Light control,110,110 auto,140,140 audio,190,190 dmx,220,220 DMX mode using Sound-to-Light control,255,255 
+
+Channel = Sound-to-Light microphone sensitivity control
+
+Channel = pattern_mode
+ closed,0,0 Pattern out through the mode,1,49 Pattern out of bounds foldback mode,50,99 Pattern out through the mode,100,149 Pattern out of bounds foldback mode,150,199 Pattern out of bounds reentrant mode,200,255 
+
+Channel = pattern
+
+Channel = shrinking
+ size,0,63 Zooms in and out to morph,64,159 Shrinking,160,192 Enlarging,193,223 Zooms back and forth,224,255 
+
+Channel = rotation
+ Adjusts the angle of rotation manually,0,63 Bends,0,0 stretches and morphs the image,64,191 right_rotate,192,223 left_rotate,224,255 
+
+Channel = horizontal
+ index,0,63 Bends stretches and morphs,64,255 
+
+Channel = vertical
+ index,0,63 Bends stretches and morphs,64,255 
+
+Channel = horizontal_shrinking
+ index,0,63 Bends stretches and morphs,64,255 
+
+Channel = vertical_shrinking
+ index,0,63 Bends stretches and morphs,64,255 
+
+Channel = gradual_redraw
+ index,0,63 speed,64,255 
+
+Channel = pattern node clarity
+
+Channel = color
+ primary,0,0 red,12,12 green,20,20 yellow,28,28 blue,36,36 pink,44,44 cyan,52,52 white,60,60 rotate,64,127 Single colour rotation,128,191 Blending transition,192,255 
+
+Channel = pattern_mode
+ closed,0,0 Pattern out through the mode,1,49 Pattern out of bounds foldback mode,50,99 Pattern out through the mode,100,149 Pattern out of bounds foldback mode,150,199 Pattern out of bounds reentrant mode,200,255 
+
+Channel = pattern
+
+Channel = shrinking
+ size,0,63 Zooms in and out to morph,64,159 Shrinking,160,192 Enlarging,193,223 Zooms back and forth,224,255 
+
+Channel = rotation
+ Adjusts the angle of rotation manually,0,63 Bends,0,0 stretches and morphs the image,64,191 right_rotate,192,223 left_rotate,224,255 
+
+Channel = horizontal
+ index,0,63 Bends stretches and morphs,64,255 
+
+Channel = vertical
+ index,0,63 Bends stretches and morphs,64,255 
+
+Channel = horizontal_shrinking
+ index,0,63 Bends stretches and morphs,64,255 
+
+Channel = vertical_shrinking
+ index,0,63 Bends stretches and morphs,64,255 
+
+Channel = gradual_redraw
+ index,0,63 speed,64,255 
+
+Channel = pattern node clarity
+
+Channel = color
+ primary,0,0 red,12,12 green,20,20 yellow,28,28 blue,36,36 pink,44,44 cyan,52,52 white,60,60 rotate,64,127 Single colour rotation,128,191 Blending transition,192,255 
+

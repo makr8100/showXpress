@@ -1,0 +1,30 @@
+Name = ISOLUTION_IMOVE5S
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_250MSR
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = pan
+
+Channel = tilt
+
+Channel = shutter
+ closed,0,0 strobe,16,131 shaking,132,247 open,255,255
+
+Channel = gobo
+ Miscellaneous\closed,0,0 ok_for_3DView\phone,13,13 Martin\dich_sunburst,21,21 Martin\bio,30,30 Geni\MJC-2-CH1-20-29,38,38 Chauvet\ying_yang_yung,47,47 Martin\droplets,55,55 Chauvet\gobo636_9,64,64 Chauvet\readio active,72,72 Chauvet\wizard,81,81 Chauvet\star 3D,89,89 ok_for_3DView\lineofbeams,98,98 ok_for_3DView\cone,106,106 Showtec\explo1200-WHB-02,115,115 ok_for_3DView\bambus,123,123 Miscellaneous\rotate,128,255
+
+Channel = color
+ white,0,0 green,16,16 magenta,27,27 light_blue,37,37 amber,48,48 red,59,59 blue,69,69 uv,80,80 light_green,91,91 orange,101,101 yellow,112,112 pink,123,123 rotate,128,255
+
+Channel = reserved
+
+Channel = dimmer
+

@@ -1,0 +1,21 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = gobo
+ Miscellaneous/dimmer,0,0 Miscellaneous/gobo1,163,163 four_cplor,170,170 lines-medium_blue,176,176 four_dots-lime_green,190,190 triangle_orange,198,198 tunnel-hot_pink,205,205 dot_circle-red,212,212 Miscellaneous/open,220,220 Miscellaneous/strobe,230,254 audio,255,255 
+
+Channel = effect_macro
+ stop,0,0 right_rotate,1,126 stop,128,128 left_rotate,130,255 
+
+Channel = shutter
+ closed,0,0 dimmer,1,127 open,130,130 strobe,140,254 audio,255,255 
+

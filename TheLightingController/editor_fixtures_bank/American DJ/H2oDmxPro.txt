@@ -1,0 +1,20 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = dimmer
+
+Channel = motor
+ stop,0,0 right_rotate,10,120 left_rotate,135,245 stop,255,255 
+
+Channel = color_macro
+ white,0,0 white&orange,16,16 orange,28,28 orange&green,38,38 green,49,49 green&blue,60,60 blue,71,71 blue&yellow,82,82 yellow,92,92 yellow&purple,104,104 purple,115,115 purple&white,124,124 right_rotate,128,186 stop,192,192 left_rotate,197,255 
+

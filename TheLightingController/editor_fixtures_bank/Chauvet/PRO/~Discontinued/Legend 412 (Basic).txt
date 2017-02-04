@@ -1,0 +1,42 @@
+﻿ViewType = VIEW_TYPE_HEAD_WASH
+ViewPower = VIEW_POWER_LED60W
+ViewAnglePan = 630
+ViewAngleTilt = 200
+ViewAngleBeam = 12
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = strobe_effect
+ open,0,19 strobe,20,39 macro_1,40,59 macro_2,60,79 macro_3,80,99 macro_4,100,119 macro_5,120,139 effect_1,140,159 effect_2,160,179 effect_3,180,199 effect_4,200,219 open,220,255
+
+Channel = red
+ dimmer,0,255
+
+Channel = green
+ dimmer,0,255
+
+Channel = blue
+ dimmer,0,255
+
+Channel = white
+ dimmer,0,255
+
+Channel = control
+ no_function,0,7 reset_xy,8,69 reset,70,129 blackout_moves,130,190 no_function,191,255
+

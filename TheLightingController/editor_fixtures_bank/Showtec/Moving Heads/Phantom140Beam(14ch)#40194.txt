@@ -1,0 +1,47 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Showtec/Moving Heads/Phantom140Beam#40194.png
+
+Channel = pan
+
+Channel = tilt
+
+Channel = upan
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = color
+ white,0,0 yellow,5,5 purple,10,10 green,14,14 reg,18,18 blue,22,22 kelly,26,26 dark_yellow,30,30 brown,34,34 shallow_blue_violet,38,38 roseo,42,42 blue_green,46,46 brown_orange,50,50 cool_color,54,54 fluorescence,62,62 white + yellow,66,66 yellow + purple,70,70 purple + green,74,74 green + reg,78,78 reg + blue,82,82 blue + kelly,86,86 kelly + deep_yellow,90,90 deep_yellow + brown,94,94 brown + shallow_blue_violet,98,98 shallow_blue_violet + roseo,102,102 roseo + blue_green,106,106 blue_green + brown_orange,110,110 brown_orange + cool_color,114,114 cool_color + fluorescence,118,118 fluorescence + white,124,124 right_rotate,128,191 left_rotate,192,255 
+
+Channel = shutter
+ closed,0,0 open,5,5 strobe,8,76 pulse_strobe,77,145 random_strobe,146,215 open,255,255 
+
+Channel = dimmer
+
+Channel = gobo
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,5,5 Miscellaneous/gobo2,10,10 Miscellaneous/gobo3,14,14 Miscellaneous/gobo4,18,18 Miscellaneous/gobo5,22,22 Miscellaneous/gobo6,26,26 Miscellaneous/gobo7,30,30 Miscellaneous/gobo8,34,34 Miscellaneous/gobo9,38,38 Miscellaneous/gobo10,42,42 Miscellaneous/gobo11,45,45 Miscellaneous/gobo12,50,50 Miscellaneous/gobo13,54,54 Miscellaneous/gobo14,58,58 Miscellaneous/gobo15,62,62 Miscellaneous/gobo16,66,66 Miscellaneous/gobo17,70,70 Miscellaneous/shake_gobo17,72,77 Miscellaneous/shake_gobo16,78,83 Miscellaneous/shake_gobo15,84,89 Miscellaneous/shake_gobo14,90,95 Miscellaneous/shake_gobo13,96,101 Miscellaneous/shake_gobo12,102,107 Miscellaneous/shake_gobo11,108,113 Miscellaneous/shake_gobo10,114,119 Miscellaneous/shake_gobo9,120,135 Miscellaneous/shake_gobo8,126,131 Miscellaneous/shake_gobo7,132,137 Miscellaneous/shake_gobo6,138,143 Miscellaneous/shake_gobo5,144,149 Miscellaneous/shake_gobo4,150,155 Miscellaneous/shake_gobo3,156,161 Miscellaneous/shake_gobo2,162,167 Miscellaneous/shake_gobo1,168,173 Miscellaneous/open,177,177 Miscellaneous/right_rotate,180,217 Miscellaneous/left_rotate,218,255 
+
+Channel = control
+ no_function,0,0 blackout_moves,20,20 reset_pan,70,70 reset_tilt,108,108 reset_color,115,115 reset_gobo,124,124 reset_prism,140,140 reset_focus,148,148 reset,155,155 
+
+Channel = effect_macro
+ auto,0,135 audio,136,255 
+
+Channel = prism
+ open,0,0 prism,10,10 right_rotate,13,130 left_rotate,131,247 prism,255,255 
+
+Channel = focus
+
+Channel = frost
+ no_function,0,0 frost,255,255 
+

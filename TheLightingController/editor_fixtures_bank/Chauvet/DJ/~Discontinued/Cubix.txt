@@ -1,0 +1,30 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/Cubix.png
+
+Channel = color
+ closed,0,4 red,5,28 green,29,56 blue,57,84 cyan,85,112 purple,113,140 yellow,141,163 white,164,164 3- Color Chase,165,224 7-Color Chase,225,255
+
+Channel = strobe_effect
+ no_function,0,4 strobe,5,255
+
+Channel = motor
+ right_rotate,0,127 left_rotate,128,255
+
+Channel = effect
+ no_function,0,14 auto,15,255
+
+Channel = speed_control
+ no_function,0,15 Speed from slow-fast,16,16
+
+Channel = strobe_effect
+ stop,0,14 strobe,15,249
+

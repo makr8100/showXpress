@@ -1,0 +1,21 @@
+Name = AMERICAN-DJ_COLOR250D
+
+ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_250HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 32
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = dimmer
+
+Channel = color
+ white,0,0 red,55,55 blue,75,75 green,95,95 yellow,135,135 orange,155,155 magenta,195,195 purple,225,225 rotate,240,255
+
+Channel = shutter
+ strobe,0,255
+

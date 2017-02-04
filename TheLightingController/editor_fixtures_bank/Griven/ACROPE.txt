@@ -1,0 +1,28 @@
+Name = GRIVEN_ACROPE
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = gobo_rotate
+
+Channel = color
+ white,0,0 magenta,46,46 yellow,58,58 blue,72,72 red,88,88 green,104,104 yellow,121,121 blue,132,132 magenta,151,151 uv,162,162 rotate,176,255
+
+Channel = color
+ white,0,0 light_yellow,20,20 light_cyan,75,75 light_magenta,135,135 5600°K,195,195 3200°K,255,255
+
+Channel = shutter
+
+Channel = pan
+
+Channel = tilt
+
+Channel = upan
+
+Channel = utilt
+

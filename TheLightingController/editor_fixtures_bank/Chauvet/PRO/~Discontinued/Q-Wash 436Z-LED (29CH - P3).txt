@@ -1,0 +1,71 @@
+﻿ViewType = VIEW_TYPE_HEAD_WASH
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = red1
+
+Channel = green1
+
+Channel = blue1
+
+Channel = white1
+
+Channel = red2
+
+Channel = green2
+
+Channel = blue2
+
+Channel = white2
+
+Channel = red3
+
+Channel = green3
+
+Channel = blue3
+
+Channel = white3
+
+Channel = red4
+
+Channel = green4
+
+Channel = blue4
+
+Channel = white4
+
+Channel = red5
+
+Channel = green5
+
+Channel = blue5
+
+Channel = white5
+
+Channel = dimmer
+
+Channel = strobe_dimmer
+
+Channel = zoom
+
+Channel = control
+ no_function,0,19 blackout_moves on,20,39 blackout_moves off,40,59 fan_auto,60,79 fan slow,80,99 fan high,100,139 auto1,140,149 auto2,150,159 test,160,169 custom,170,179 no_function,180,199 reset,200,219 no_function,220,235 DIM 0 (3 sec delay),236,239 DIM 1 (3 sec delay),240,243 DIM 2 (3 sec delay),244,247 DIM 3 (3 sec delay),248,251 DIM 4 (3 sec delay),252,255
+

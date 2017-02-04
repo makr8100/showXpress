@@ -1,0 +1,24 @@
+Name = Intimidator 1
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 180
+ViewAngleTilt = 90
+ViewAngleBeam = 11
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewColor = 0
+
+Channel = gobo
+ Miscellaneous\closed,0,4 Chauvet\open,5,5 Chauvet\small circle,15,15 Chauvet\4 square,25,25 Chauvet\china fan,35,35 Chauvet\shell,45,45 Chauvet\swirl,55,55 Chauvet\4 dots,65,65 Chauvet\gobo10_100,75,75 Chauvet\cone,85,85 Chauvet\pling,95,95 Chauvet\triangle,105,105 Chauvet\tiny bubbles,115,115 Chauvet\gobo4_615,125,125 Chauvet\red heart,135,135 Chauvet\gobo5_,145,145 STUDS,155,155 Miscellaneous\,160,160 Miscellaneous\,240,240 SOUND,255,255
+
+Channel = shutter
+ open,0,4 open,5,5 strobe,10,10 strobe,145,145 strobe,255,255
+
+Channel = pan
+ right_rotate,0,0 center,127,127 left_rotate,255,255
+
+Channel = tilt
+ down,0,0 center,127,127 up,255,255
+

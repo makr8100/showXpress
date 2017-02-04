@@ -1,0 +1,17 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Contest/irLED series/irLED64-18x3TCsb .png
+
+Channel = color_macro
+ lamp_off,0,5 red,6,10 orange,11,15 yellow,16,20 green,21,25 cyan,26,30 blue,31,35 pink,36,40 magenta,41,45 cold_white,46,50 warm_white,51,55 full,56,60 pale_pink,61,65 pastel_apricot,66,70 pastel_ochre,71,75 pearl_green,76,80 pearl_grey,81,85 pearl,86,90 pearl_blue,91,95 verona_green_pastel,96,100 laguna_pastel,101,105 sky_blue,106,110 clear_blue,111,115 pastel_blue,116,120 fluo,121,125 candy,126,130 amber,131,135 sunset,136,140 macro_1,141,150 macro_2,151,160 macro_3,161,170 macro_4,171,180 macro_5,181,190 audio,191,255 
+
+Channel = dimmer
+

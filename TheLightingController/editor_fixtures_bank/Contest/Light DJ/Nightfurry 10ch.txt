@@ -1,0 +1,42 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Contest/Light DJ/NIGHTFURY .png
+
+Channel = beam
+ no_function,0,9 Red,10,14 Green,15,19 Blue,20,24 Amber,25,29 White,30,34 White+Red,35,39 Red+Green,40,44 Green+Blue,45,49 Blue+Amber,50,54 Amber+White,55,59 White+Green,60,64 Green+Amber,65,69 Amber+Red,70,74 Red+Blue,75,79 Blue+White,80,84 Red+Green+Blue,85,89 Red+Green+Amber,90,94 Red+Green+White,95,99 Red+Amber+Blue,100,104 Red+White+Blue,105,109 Red+Amber+White,110,114 Amber+Green+Blue,115,119 Blue+Green+White,120,124 Amber+Green+White,125,129 Amber+White+Blue,130,134 Red+Green+Blue+Amber,135,139 Red+Green+Blue+White,140,144 Green+Blue+White+Amber,145,149 Red+Green+White+Amber,150,154 Red+Blue+White+Amber,155,159 Red+Green+Blue+White+Amber,160,164 macro (one color) from slow to fast,165,210  macro (two color) from slow to fast,211,255 
+
+Channel = beam_effect_speed
+ speed_control,0,255 
+
+Channel = beam
+ no_function,0,9 Red,10,14 Green,15,19 Blue,20,24 Amber,25,29 White,30,34 White+Red,35,39 Red+Green,40,44 Green+Blue,45,49 Blue+Amber,50,54 Amber+White,55,59 White+Green,60,64 Green+Amber,65,69 Amber+Red,70,74 Red+Blue,75,79 Blue+White,80,84 Red+Green+Blue,85,89 Red+Green+Amber,90,94 Red+Green+White,95,99 Red+Amber+Blue,100,104 Red+White+Blue,105,109 Red+Amber+White,110,114 Amber+Green+Blue,115,119 Blue+Green+White,120,124 Amber+Green+White,125,129 Amber+White+Blue,130,134 Red+Green+Blue+Amber,135,139 Red+Green+Blue+White,140,144 Green+Blue+White+Amber,145,149 Red+Green+White+Amber,150,154 Red+Blue+White+Amber,155,159 Red+Green+Blue+White+Amber,160,164 macro (one color) from slow to fast,165,210  macro (two color) from slow to fast,211,255 
+
+Channel = beam_effect_speed
+ speed_control,0,255 
+
+Channel = beam
+ no_function,0,9 Red,10,14 Green,15,19 Blue,20,24 Amber,25,29 White,30,34 White+Red,35,39 Red+Green,40,44 Green+Blue,45,49 Blue+Amber,50,54 Amber+White,55,59 White+Green,60,64 Green+Amber,65,69 Amber+Red,70,74 Red+Blue,75,79 Blue+White,80,84 Red+Green+Blue,85,89 Red+Green+Amber,90,94 Red+Green+White,95,99 Red+Amber+Blue,100,104 Red+White+Blue,105,109 Red+Amber+White,110,114 Amber+Green+Blue,115,119 Blue+Green+White,120,124 Amber+Green+White,125,129 Amber+White+Blue,130,134 Red+Green+Blue+Amber,135,139 Red+Green+Blue+White,140,144 Green+Blue+White+Amber,145,149 Red+Green+White+Amber,150,154 Red+Blue+White+Amber,155,159 Red+Green+Blue+White+Amber,160,164 macro (one color) from slow to fast,165,210  macro (two color) from slow to fast,211,255 
+
+Channel = beam_effect_speed
+ speed_control,0,255 
+
+Channel = beam
+ no_function,0,9 Red,10,14 Green,15,19 Blue,20,24 Amber,25,29 White,30,34 White+Red,35,39 Red+Green,40,44 Green+Blue,45,49 Blue+Amber,50,54 Amber+White,55,59 White+Green,60,64 Green+Amber,65,69 Amber+Red,70,74 Red+Blue,75,79 Blue+White,80,84 Red+Green+Blue,85,89 Red+Green+Amber,90,94 Red+Green+White,95,99 Red+Amber+Blue,100,104 Red+White+Blue,105,109 Red+Amber+White,110,114 Amber+Green+Blue,115,119 Blue+Green+White,120,124 Amber+Green+White,125,129 Amber+White+Blue,130,134 Red+Green+Blue+Amber,135,139 Red+Green+Blue+White,140,144 Green+Blue+White+Amber,145,149 Red+Green+White+Amber,150,154 Red+Blue+White+Amber,155,159 Red+Green+Blue+White+Amber,160,164 macro (one color) from slow to fast,165,210  macro (two color) from slow to fast,211,255 
+
+Channel = beam_effect_speed
+ speed_control,0,255 
+
+Channel = flash_macro
+ no_function,0,1 pattern_01,2,22 pattern_02,23,45 pattern_03,46,68 pattern_04,69,91 pattern_05,92,114 pattern_06,115,137 pattern_07,138,160 pattern_08,161,183 pattern_09,184,206 pattern_10,207,229 pattern_11,230,255 
+
+Channel = flash_macro_speed
+ speed_control,0,255 
+

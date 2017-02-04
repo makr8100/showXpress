@@ -1,0 +1,50 @@
+Name = HIGH-END_STUDIOCOLOR250
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = color
+ fspeed_cont,0,0 fspeed_ind,25,25 fspeed_puremix,39,39 fspeed_spin,55,55 fspeed_cycle,72,72 fspeed_random,104,104 fspeed_blink,120,120 msspeed_cont,135,135 msspeed_ind,152,152 msspeed_purem,168,168 msspeed_spin,185,185 msspeed_cycle,200,200 msspeed_random,232,232 msspeed_blink,255,255
+
+Channel = cyan
+ ind_m_open,0,0 ind_m_color1,30,30 ind_m_color2,62,62 ind__m_full_sa,95,95 ind_m_medium_s,160,160 ind_m_med_low_,190,190 ind_m_low_satu,220,220 open,255,255
+
+Channel = magenta
+ ind_m_open,0,0 ind_m_color1,30,30 ind_m_color2,62,62 ind__m_full_sa,95,95 ind_m_medium_s,160,160 ind_m_med_low_,190,190 ind_m_low_satu,220,220 open,255,255
+
+Channel = yellow
+ ind_m_open,0,0 ind_m_color1,30,30 ind_m_color2,62,62 ind__m_full_sa,95,95 ind_m_medium_s,160,160 ind_m_med_low_,190,190 ind_m_low_satu,220,220 open,255,255
+
+Channel = beam
+ continuous_pos,0,127 spin_reverse,128,187 spin_stop,192,192 spin_forward,196,255
+
+Channel = focus
+ clother,0,0 farther,255,255
+
+Channel = shutter
+ close,0,0 periodic_strob,35,35 rand_strobe,62,62 rand_/_sync,90,90 ramp_o/snap_s,112,112 snap_o/ramp_s,140,140 ramp_o/ramp_s,165,165 rand_ramp/snap,190,190 rand_snap/ramp,220,220 open,255,255
+
+Channel = dimmer
+
+Channel = pantilt_speed
+ crossfade,0,0 longest,4,4 shortest,255,255
+
+Channel = effect
+ no_macro,0,0 macro_1,10,10 macro_2,14,14 macro_3,18,18 macro_4,22,22 macro_5,26,26 macro_6,30,30 macro_7,34,34 macro_8,38,38 macro_9,42,42 macro_10,46,46 macro_11,50,50 macro_12,54,54 macro_13,58,58 macro_14,62,62 macro_15,66,66 macro_16,70,70 macro_17,74,74 macro_18,78,78 macro_19,82,82 macro_20,86,86 macro_21,90,90 macro_22,94,94 macro_23,98,98 macro_24,102,102 macro_25,106,106 macro_26,110,110 macro_27,114,114 macro_28,118,118 macro_29,122,122 macro_30,126,126 macro_31,130,130 macro_32,134,134 random_macro,150,150 lad_off,180,180 lad_modulate,215,215 lad_on,255,255
+
+Channel = control
+ safe,0,0 disable_ms_spe,15,15 display_off,25,25 display_dim,35,35 display_bright,45,45 home,65,65 lamp_on,85,85 lamp_off,95,95 shutdown,125,125
+

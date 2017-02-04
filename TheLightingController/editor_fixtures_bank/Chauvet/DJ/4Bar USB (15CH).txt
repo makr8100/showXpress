@@ -1,0 +1,57 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/4BAR USB.png
+
+Channel = mode
+ RGB color mixing,0,9 auto1,10,29 auto2,30,49 Auto 3,50,69 Auto 4,70,89 Auto 5,90,109 Auto 6,110,129 Auto 7,130,149 Auto 8,150,169 Auto 9,170,189 Auto 10,190,209 Auto 11,210,229 Auto 12,230,249 audio,250,255
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = Auto Speed
+ no_function,0,9 strobe,10,255
+
+Channel = red
+ dimmer,0,255
+
+Channel = green
+ dimmer,0,255
+
+Channel = blue
+ dimmer,0,255
+
+Channel = red
+ dimmer,0,255
+
+Channel = green
+ dimmer,0,255
+
+Channel = blue
+ dimmer,0,255
+
+Channel = red
+ dimmer,0,255
+
+Channel = green
+ dimmer,0,255
+
+Channel = blue
+ dimmer,0,255
+
+Channel = red
+ dimmer,0,255
+
+Channel = green
+ dimmer,0,255
+
+Channel = blue
+ dimmer,0,255
+

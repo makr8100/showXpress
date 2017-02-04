@@ -1,0 +1,27 @@
+Name = MARTIN_EXT_200_V1
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = control
+ reserved,0,0 reset_fixture,213,213 lamp_on,233,233 lamp_off_(5"),255,255
+
+Channel = dimmer
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = yellow
+
+Channel = color
+ off,0,0 CMY_slow,25,25 CMY_medium,45,45 CMY_fast,65,65 MY_slow,85,85 MY_medium,105,105 MY_fast,125,125 CM_slow,145,145 CM_medium,165,165 CM_fast,185,185 CY_slow,205,205 CY_medium,225,225 CY_fast,255,255
+
+Channel = effect_speed
+ tracking,0,0 fast-slow,4,245 fast,255,255
+

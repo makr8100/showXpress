@@ -1,0 +1,23 @@
+Name = MARTIN_ROBOSCAN1016_V1
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = shutter
+ closed,0,0 open,100,100 strobe,122,252 reset,255,255
+
+Channel = color
+ white,0,0 R61,50,50 B51,62,62 G51/56,74,74 Y52,86,86 G50/55,98,98 M47/63,110,110 B46,122,122 C54,134,134 R65,146,146 O56,158,158 G49/59,170,170 Y54,182,182 P47/58,194,194 M49/65,206,206 O59,255,255
+
+Channel = gobo
+ gobo1,0,0 gobo2,50,50 gobo3,62,62 gobo4,74,74 gobo5,86,86 gobo6,98,98 gobo7,110,110 gobo8,122,122 gobo9,134,134 gobo10,146,146 gobo11,158,158 gobo12,170,170 gobo13,182,182 gobo14,194,194 gobo15,206,206 gobo16,255,255
+
+Channel = pan
+
+Channel = tilt
+

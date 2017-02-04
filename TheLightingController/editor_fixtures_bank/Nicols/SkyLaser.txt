@@ -1,0 +1,25 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = mode
+ closed,0,0 dmx,75,75 audio,125,125 auto,255,255 
+
+Channel = rotation
+ right_rotate,0,99 stop,150,150 left_rotate,200,255 
+
+Channel = effect_speed
+
+Channel = shutter
+
+Channel = color
+ yellow,0,0 red,150,150 green,255,255 
+

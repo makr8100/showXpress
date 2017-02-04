@@ -1,0 +1,45 @@
+Name = Galaxy 13CH
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = pan
+
+Channel = tilt
+
+Channel = pan
+
+Channel = tilt
+
+Channel = pan
+
+Channel = tilt
+
+Channel = pantilt_speed
+
+Channel = shutter
+ closed,0,3 dimmer,4,109 open,110,133 strobe,134,244 closed,245,249 open,250,255
+
+Channel = gobo
+ Miscellaneous\open,0,15 Miscellaneous\gobo1,16,31 Miscellaneous\gobo2,32,47 Miscellaneous\gobo3,48,63 Miscellaneous\gobo4,64,79 Miscellaneous\gobo5,80,95 Miscellaneous\gobo6,96,111 Miscellaneous\gobo7,112,127 RAINBOW P,128,191 RAINBOW N,192,255
+
+Channel = gobo
+ Miscellaneous\open,0,15 Miscellaneous\gobo1,16,31 Miscellaneous\gobo2,32,47 Miscellaneous\gobo3,48,63 Miscellaneous\gobo4,64,79 Miscellaneous\gobo5,80,95 Miscellaneous\gobo6,96,111 Miscellaneous\gobo7,112,127 RAINBOW P,128,191 RAINBOW N,192,255
+
+Channel = gobo
+ Miscellaneous\open,0,15 Miscellaneous\gobo1,16,31 Miscellaneous\gobo2,32,47 Miscellaneous\gobo3,48,63 Miscellaneous\gobo4,64,79 Miscellaneous\gobo5,80,95 Miscellaneous\gobo6,96,111 Miscellaneous\gobo7,112,127 RAINBOW P,128,191 RAINBOW N,192,255
+
+Channel = gobo_rotate
+ stop,0,16 right_rotate,17,135 stop,136,136 left_rotate,137,255
+
+Channel = effect
+ ALL ACTIVE,0,0 MACRO 1,1,7 MACRO 2,8,15 MACRO 3,16,23 MACRO 4,24,31 MACRO 5,32,39 MACRO 6,40,47 MACRO 7,48,55 MACRO 8,56,63 MACRO 9,64,71 MACRO 10,72,79 MACRO 11,80,87 MACRO 12,88,95 MACRO 13,96,103 MACRO 14,104,111 MACRO 15,112,119 MACRO 16,120,127 SOUND CONTROL,128,160 LAMP ON,161,193 LAMP OFF,194,226 RESET 5s,227,254 PAN 1-12,255,255
+

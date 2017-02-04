@@ -1,0 +1,30 @@
+Name = PEARL-RIVER_PILOT150
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_150HTI
+ViewAnglePan = 370
+ViewAngleTilt = 265
+ViewAngleBeam = 12
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = gobo
+ open,0,0 swirl,50,50 tr-ring,80,80 windmill,115,115 stars,180,180 ring,215,215 three-prong,255,255
+
+Channel = gobo_rotate
+ stop,0,0 right_rotate,9,163 stop,210,210 left_rotate,214,255
+
+Channel = color
+ white,0,0 red,43,43 yellow,68,68 light_green,100,100 pink,125,125 uv,155,155 cyan,180,180 green,210,210 blue,240,240 orange,255,255
+
+Channel = shutter
+ closed,0,0 dimmer,22,135 strobe,136,247 open,255,255
+
+Channel = pan
+
+Channel = tilt
+
+Channel = upan
+
+Channel = utilt
+

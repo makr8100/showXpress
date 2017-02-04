@@ -1,0 +1,20 @@
+﻿ViewType = VIEW_TYPE_PAR_CAN
+ViewAnglePan = 0
+ViewAngleTilt = 0
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/PRO/OvationF-95WW-2D.png
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = udimmer
+ dimmer fine,0,255
+
+Channel = shutter
+ no strobe,0,9 strobe (slow to fast),10,99 no strobe,100,109 lightning (slow to fast),110,179 no strobe,180,189 random strobe (slow to fast),190,255
+

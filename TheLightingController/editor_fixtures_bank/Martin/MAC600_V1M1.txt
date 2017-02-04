@@ -1,0 +1,32 @@
+Name = MARTIN_MAC600_V1M1
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = shutter
+ closed,0,0 open,34,34 strobe,50,112 open,118,118 rotate_strobe,128,187 black,197,197 reset,212,212 black,222,222 lamp_on,232,232 black,242,242 lamp_off,255,255
+
+Channel = dimmer
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = yellow
+
+Channel = color
+ white,0,0 whi_ctc5500_34,20,20 ctc5500_3400,40,40 ctc_red301,60,60 red301,80,80 red301_green,100,100 green,120,120 green_blue1,140,140 blue1,160,160 blue1,163,163 green,168,168 red301,173,173 ctc5500_3400,178,178 white,183,183 counterclock,186,214 clock,216,243 random,244,255
+
+Channel = control
+
+Channel = control
+
+Channel = pan
+
+Channel = tilt
+

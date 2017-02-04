@@ -1,0 +1,21 @@
+﻿ViewType = VIEW_TYPE_COLOR_PANEL
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = TRUE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/Abyss USB.png
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = color
+ white,0,21 purple,22,42 yellow,43,63 blue,64,84 green,85,105 amber,106,127 right_rotate,128,188 stop,189,194 left_rotate,195,255
+
+Channel = animation
+ Water Effect slow~fast Left,0,122 stop,123,133 Water effect Fast~Slow Right ,134,255 
+

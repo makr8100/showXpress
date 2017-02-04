@@ -1,0 +1,42 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 15
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/EZrail RGBA.png
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = red
+ Red,0,255
+
+Channel = green
+ Green,0,255
+
+Channel = blue
+ Blue,0,255
+
+Channel = amber
+ Amber,0,255
+
+Channel = red
+ Red,0,255
+
+Channel = green
+ Green,0,255
+
+Channel = blue
+ Blue,0,255
+
+Channel = amber
+ Amber,0,255
+
+Channel = shutter
+ strobe,1,255
+

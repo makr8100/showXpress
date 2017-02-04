@@ -1,0 +1,25 @@
+Name = DIAMONDstrip Mini
+
+ViewType = VIEW_TYPE_COLOR_TUBE
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = white
+ no_function,0,9 white,10,19 white,20,29 white,30,39 white,40,49 white,50,59 white,60,69 white,70,79 White Change 1,80,89 White Change 2,90,99 White Change 3,100,109 White Change 4,110,119 White Change  5,120,129 WhiteChange 6,130,139 White Chase 1,140,149 White Chase 2,150,159 White Chase 3,160,169 White Chase 4,170,179 WhiteChase 5,180,189 White Chase 6,190,199 White Chase 7,200,209 White Mode,210,219 White Fade,220,229 audio,230,255
+
+Channel = white
+ dimmer,0,255
+
+Channel = white
+ dimmer,0,255
+
+Channel = white
+ dimmer,0,255
+

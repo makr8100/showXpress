@@ -1,0 +1,30 @@
+Name = Royal Sky
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = green_laser
+ closed,0,0 open,12,12 laser_dash_effect,16,131 dot_on_line_effect,132,247 open,255,255
+
+Channel = blue_laser
+ closed,0,0 open,12,12 laser_dash_effect,16,131 dot_on_line_effect,132,247 open,255,255
+
+Channel = patterns
+ macro_1,0,0 macro_2,19,19 macro_3,32,32 macro_4,45,45 macro_5,58,58 macro_6,70,70 macro_7,83,83 macro_8,96,96 macro_9,109,109 macro_10,122,122 macro_11,134,134 macro_12,147,147 macro_13,160,160 macro_14,173,173 macro_15,186,186 macro_16,198,198 macro_17,211,211 macro_18,224,224 macro_19,237,237 macro_20,255,255
+
+Channel = movement
+ no_function,0,0 left_right_fast_slow,10,120 up_down_slow_fast,135,245 no_rotation,255,255 
+
+Channel = rotation
+ no_function,0,0 left_rotate,10,120 right_rotate,135,245 no_rotation,255,255 
+
+Channel = zoom
+ index,0,127 zoom_in-out_slow-fast,128,255 

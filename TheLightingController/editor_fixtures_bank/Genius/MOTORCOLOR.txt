@@ -1,0 +1,42 @@
+Name = GENIUS_MOTORCOLOR
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = dimmer
+
+Channel = color
+ color1,0,0 color2,45,45 color3,75,75 color4,105,105 color5,135,135 color6,170,170 color7,200,200 rotate,226,255
+
+Channel = color
+ off,0,0 change,6,255
+
+Channel = shutter
+ open,0,0 strobe,4,255
+
+Channel = pan
+
+Channel = tilt
+
+Channel = pantilt_speed
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = yellow
+
+Channel = focus
+
+Channel = control
+ no_function,0,0 lamp_on,140,140 no_function,170,170 lamp_on,210,210 no_function,230,230 reset,255,255
+
+Channel = upan
+
+Channel = utilt
+

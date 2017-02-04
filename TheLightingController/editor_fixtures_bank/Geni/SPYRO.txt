@@ -1,0 +1,16 @@
+Name = GENI_SPYRO
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = color
+ blackout,0,0 white,8,8 pink,25,25 yellow,35,35 blue,53,53 green,71,71 orange,89,89 peach_pink,107,107 red,122,122 dark_blue,135,135 dark_purple,150,150 rainbow,160,191 strobe,192,255
+
+Channel = gobo_rotate
+ stop,0,0 clock,8,131 counter_clock,132,255
+

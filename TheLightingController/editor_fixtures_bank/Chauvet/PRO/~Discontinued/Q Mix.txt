@@ -1,0 +1,18 @@
+Name = Q Mix
+
+ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_250HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 27
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewColor = 0
+
+Channel = gobo
+ Miscellaneous\closed,0,5 Chauvet\Q1,6,39 Chauvet\Q2,40,45 Chauvet\Q3,46,51 Chauvet\Q4,52,57 Chauvet\Q5,58,63 Chauvet\Q6,64,69 Chauvet\Q7,70,75 Chauvet\Q8,76,81 Chauvet\Q9,82,87 Chauvet\Q10,88,93 Chauvet\Q11,94,99 Chauvet\Q12,100,105 Miscellaneous\open,106,111 Chauvet\Q1,112,129 Chauvet\Q2,130,135 Chauvet\Q3,136,141 Chauvet\Q4,142,148 Chauvet\Q5,149,153 Chauvet\Q6,154,159 Chauvet\Q7,160,165 Chauvet\Q8,166,171 Chauvet\Q9,172,177 Chauvet\Q10,178,183 Chauvet\Q11,184,189 Chauvet\Q12,190,196 Miscellaneous\open,197,225 Miscellaneous\rotate,226,255
+
+Channel = gobo_rotate
+ rotate,0,255
+

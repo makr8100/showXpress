@@ -1,0 +1,28 @@
+Name = AMERICAN-DJ_MIGHTYSCAN
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_250MSR
+ViewAnglePan = 90
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = pan
+
+Channel = tilt
+
+Channel = pantilt_speed
+
+Channel = color
+ 3200-5600k,0,0 blue,9,9 dark_blue,17,17 light_blue,25,25 cyan,33,33 green,41,41 dark_green,49,49 yellow,57,57 orange,65,65 dark_red,73,73 pink,81,81 magenta,89,89 magenta,97,97 cyan,105,105 orange,113,113 turquoise,121,121 pink,129,129 dark_yellow,137,137 uv,145,145 red,153,153 open,167,167 rotate,176,208 stop,215,215 rotate,222,255
+
+Channel = gobo
+ Miscellaneous\open,0,0 tunnel,11,11 tunel3,19,19 sun_flower,27,27 line2,35,35 line,43,43 triangle,51,51 swirl,59,59 stars,67,67 segment,75,75 star,83,83 smalll_spot,91,91 squares,99,99 twister,107,107 split,115,115 bars,123,123 splash,131,131 asterisk,139,139 dots,147,147 euro,155,155 bobbles,163,163
+
+Channel = shutter
+ closed,0,0 open,11,11 closed,19,19 strobe,128,255
+

@@ -1,0 +1,25 @@
+﻿ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_LAMP575W
+ViewAnglePan = 180
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Contest/Discontinued Products/SCN-950.png
+
+Channel = color
+ white,0,6 dark_blue,7,13 green,14,20 red,21,27 cyan,28,34 orange,35,41 uv,42,48 green,49,55 yellow,56,62 cyan,63,69 pink,70,76 dark_green,77,83 orange,84,90 purple,91,97 light_yellow,98,104 dark_green,105,111 blue,112,118 red,119,127 right_rotate,128,187 stop,188,193 left_rotate,194,255 
+
+Channel = gobo
+ Miscellaneous/closed,0,5 Miscellaneous/open,6,11 Contest/Z03748-1,12,17 Contest/Z03748-2,18,23 Contest/Z03748-3,24,29 Contest/Z03748-4,30,35 Contest/Z03748-5,36,41 Contest/Z03748-6,42,47 Contest/Z03748-7,48,53 Contest/Z03748-8,54,59 Contest/Z03748-9,60,65 Contest/Z03748-10,66,71 Contest/Z03748-11,72,77 Contest/Z03748-12,78,83 Contest/Z03748-13,84,89 Contest/Z03748-14,90,95 Contest/Z03748-15,96,101 Miscellaneous/shake_gobo15,102,109 Miscellaneous/shake_gobo14,110,117 Miscellaneous/shake_gobo13,118,125 Miscellaneous/shake_gobo12,126,133 Miscellaneous/shake_gobo11,134,141 Miscellaneous/shake_gobo10,142,149 Miscellaneous/shake_gobo9,150,157 Miscellaneous/shake_gobo8,158,165 Miscellaneous/shake_gobo7,166,173 Miscellaneous/shake_gobo6,174,181 Miscellaneous/shake_gobo5,182,189 Miscellaneous/shake_gobo4,190,197 Miscellaneous/shake_gobo3,198,205 Miscellaneous/shake_gobo2,206,213 Miscellaneous/shake_gobo1,214,221 Miscellaneous/strobe,222,222 
+
+Channel = pan
+
+Channel = tilt
+
+Channel = control
+ step_colors,0,0 linear_colors,30,30 reset_motors,90,90 macro_1,110,110 macro_2,130,130 macro_3,150,150 macro_4,170,170 macro_5,190,190 macro_6,210,210 macro_7,230,230 macro_8,255,255 
+

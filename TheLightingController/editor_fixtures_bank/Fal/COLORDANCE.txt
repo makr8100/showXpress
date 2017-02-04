@@ -1,0 +1,16 @@
+Name = FAL_COLORDANCE
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = color
+ off,0,0 white,45,45 red,60,60 blue,96,96 cyan,110,110 pink,144,144 green,167,167 magenta,201,201 yellow,209,209 4colors,255,255
+
+Channel = gobo_rotate
+ stop,0,0 counterclock,70,70 clock,255,255
+

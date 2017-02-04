@@ -1,0 +1,270 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/PRO/NXT1-2D.png
+
+Channel = pan
+ dimmer,0,255
+
+Channel = upan
+ dimmer,0,255
+
+Channel = tilt
+ dimmer,0,255
+
+Channel = utilt
+ dimmer,0,255
+
+Channel = pantilt_speed
+ Fast To Slow,0,255
+
+Channel = control
+ no_function,0,199 reset,200,209 no_function,210,255
+
+Channel = red1
+ dimmer,0,255
+
+Channel = green1
+ dimmer,0,255
+
+Channel = blue1
+ dimmer,0,255
+
+Channel = white1
+ dimmer,0,255
+
+Channel = red2
+ dimmer,0,255
+
+Channel = green2
+ dimmer,0,255
+
+Channel = blue2
+ dimmer,0,255
+
+Channel = white2
+ dimmer,0,255
+
+Channel = red3
+ dimmer,0,255
+
+Channel = green3
+ dimmer,0,255
+
+Channel = blue3
+ dimmer,0,255
+
+Channel = white3
+ dimmer,0,255
+
+Channel = red4
+ dimmer,0,255
+
+Channel = green4
+ dimmer,0,255
+
+Channel = blue4
+ dimmer,0,255
+
+Channel = white4
+ dimmer,0,255
+
+Channel = red5
+ dimmer,0,255
+
+Channel = green5
+ dimmer,0,255
+
+Channel = blue5
+ dimmer,0,255
+
+Channel = white5
+ dimmer,0,255
+
+Channel = red6
+ dimmer,0,255
+
+Channel = green6
+ dimmer,0,255
+
+Channel = blue6
+ dimmer,0,255
+
+Channel = white6
+ dimmer,0,255
+
+Channel = red7
+ dimmer,0,255
+
+Channel = green7
+ dimmer,0,255
+
+Channel = blue7
+ dimmer,0,255
+
+Channel = white7
+ dimmer,0,255
+
+Channel = red8
+ dimmer,0,255
+
+Channel = green8
+ dimmer,0,255
+
+Channel = blue8
+ dimmer,0,255
+
+Channel = white8
+ dimmer,0,255
+
+Channel = red9
+ dimmer,0,255
+
+Channel = green9
+ dimmer,0,255
+
+Channel = blue9
+ dimmer,0,255
+
+Channel = white9
+ dimmer,0,255
+
+Channel = red10
+ dimmer,0,255
+
+Channel = green10
+ dimmer,0,255
+
+Channel = blue10
+ dimmer,0,255
+
+Channel = white10
+ dimmer,0,255
+
+Channel = red11
+ dimmer,0,255
+
+Channel = green11
+ dimmer,0,255
+
+Channel = blue11
+ dimmer,0,255
+
+Channel = white11
+ dimmer,0,255
+
+Channel = red12
+ dimmer,0,255
+
+Channel = green12
+ dimmer,0,255
+
+Channel = blue12
+ dimmer,0,255
+
+Channel = white12
+ dimmer,0,255
+
+Channel = red13
+ dimmer,0,255
+
+Channel = green13
+ dimmer,0,255
+
+Channel = blue13
+ dimmer,0,255
+
+Channel = white13
+ dimmer,0,255
+
+Channel = red14
+ dimmer,0,255
+
+Channel = green14
+ dimmer,0,255
+
+Channel = blue14
+ dimmer,0,255
+
+Channel = white14
+ dimmer,0,255
+
+Channel = red15
+ dimmer,0,255
+
+Channel = green15
+ dimmer,0,255
+
+Channel = blue15
+ dimmer,0,255
+
+Channel = white15
+ dimmer,0,255
+
+Channel = red16
+ dimmer,0,255
+
+Channel = green16
+ dimmer,0,255
+
+Channel = blue16
+ dimmer,0,255
+
+Channel = white16
+ dimmer,0,255
+
+Channel = red17
+ dimmer,0,255
+
+Channel = green17
+ dimmer,0,255
+
+Channel = blue17
+ dimmer,0,255
+
+Channel = white17
+ dimmer,0,255
+
+Channel = red18
+ dimmer,0,255
+
+Channel = green18
+ dimmer,0,255
+
+Channel = blue18
+ dimmer,0,255
+
+Channel = white18
+ dimmer,0,255
+
+Channel = red19
+ dimmer,0,255
+
+Channel = green19
+ dimmer,0,255
+
+Channel = blue19
+ dimmer,0,255
+
+Channel = white19
+ dimmer,0,255
+
+Channel = red20
+ dimmer,0,255
+
+Channel = green20
+ dimmer,0,255
+
+Channel = blue20
+ dimmer,0,255
+
+Channel = white20
+ dimmer,0,255
+

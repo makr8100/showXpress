@@ -1,0 +1,77 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+ no_function,0,0 fast,20,20 vector,26,127 reaction_to_dmx,128,247 silent,255,255
+
+Channel = pan_far
+ 540°,0,0 360°,15,15 720°,25,25 1080°,35,35 1440°,45,45 1800°,55,55 2160°,65,65 2520°,75,75 2880°,85,85 3240°,95,95 3600°,105,105 360°_smart_path,115,115 right_rotate,121,182 stop,188,188 left_rotate,194,255
+
+Channel = dimmer
+
+Channel = shutter
+ closed,0,0 open,30,30 random_strobe,70,70 strobe,80,139 pulse_open,140,179 pulse_close,180,219 blackout_changes,224,224 blackout_moves,230,230 open,255,255
+
+Channel = color
+ color_1,0,0 color_2,21,21 color_3,35,35 color_4,48,48 color_5,63,63 color_6,75,75 color_7,89,89 color_8,105,105 color_9,119,119 color_10,132,132 color_11,146,146 color_12,161,161 color_13,174,174 color_14,188,188 color_15,202,202 color_16,216,216 color_17,230,230 color_18,255,255
+
+Channel = color_mode
+ full_color,0,0 half_color,90,90 proportional_color,160,160 rainbow,255,255
+
+Channel = gobo
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,31,31 Miscellaneous/gobo2,52,52 Miscellaneous/gobo3,73,73 Miscellaneous/gobo4,94,94 Miscellaneous/gobo5,116,116 Miscellaneous/gobo6,136,136 Miscellaneous/gobo7,157,157 Miscellaneous/gobo8,178,178 Miscellaneous/gobo9,197,197 Miscellaneous/rotate,208,255
+
+Channel = gobo_mode
+ rotation_mode,0,0 gobo_index_mode,255,255
+
+Channel = gobo_rotate
+ stop,0,0 left_rotate,10,127 stop,133,133 right_rotate,138,255
+
+Channel = gobo_index_fine
+
+Channel = gobo_shake
+ stop,0,0 left_rotate,10,126 stop,133,133 right_rotate,139,255
+
+Channel = gobo2
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,29,29 Miscellaneous/gobo2,47,47 Miscellaneous/gobo3,66,66 Miscellaneous/gobo4,85,85 Miscellaneous/gobo5,104,104 Miscellaneous/gobo6,123,123 Miscellaneous/gobo7,142,142 Miscellaneous/gobo8,161,161 Miscellaneous/gobo9,181,181 Miscellaneous/gobo10,198,198 Miscellaneous/rotate,208,255
+
+Channel = gobo_shake2
+ stop,0,0 left_rotate,10,126 stop,133,133 right_rotate,139,255
+
+Channel = iris
+
+Channel = effect_macro
+ no_function,0,0 pulse,10,63 pulse_close,64,117 pulse_open,118,171 pulse_close & zoom,172,213 pulse_open & zoom,214,255
+
+Channel = macro_mode
+ iris,0,0 beam,64,127 wash,128,191 spot,192,255
+
+Channel = prism
+ no_function,0,0 prism,255,255 
+
+Channel = focus
+
+Channel = focus_fine
+
+Channel = zoom
+
+Channel = control
+ no_function,0,0 lamp_off,40,40 lamp_on,150,150 reset_motors,220,220 reset,255,255 
+

@@ -1,0 +1,24 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = LED1
+ closed,0,0 open,7,7 strobe,10,255 
+
+Channel = LED2
+ closed,0,0 open,7,7 strobe,10,255 
+
+Channel = LED3
+ closed,0,0 open,7,7 strobe,10,255 
+
+Channel = LED4
+ closed,0,0 open,7,7 strobe,10,255 
+

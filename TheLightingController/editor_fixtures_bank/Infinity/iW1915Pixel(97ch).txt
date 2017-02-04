@@ -1,0 +1,214 @@
+﻿ViewType = VIEW_TYPE_HEAD_WASH
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 24
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = pan
+
+Channel = tilt
+
+Channel = upan
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = color_temp1
+
+Channel = color_temp2
+ no_function,0,0 2700K,2,2 3200K,4,4 4200K,6,6 5600K,8,8 8000K,10,10 color_flow,240,247 color_switch,248,255 
+
+Channel = LED_control
+ all_on,0,0 index,1,254 all_on,255,255 
+
+Channel = rotating_built_in_prog
+ no_function,0,0 index,16,116 main built-in program,125,125 index,136,236 main built-in program,255,255 
+
+Channel = rotating_built_in_speed
+ stop,0,0 index,1,255 
+
+Channel = color_reverse
+ no_function,0,0 2700K,2,2 3200K,4,4 4200K,6,6 5600K,8,8 8000K,10,10 color_flow,240,247 color_switch,248,255 
+
+Channel = color_reverse_dimmer
+
+Channel = dimmer
+
+Channel = shutter
+ closed,0,0 open,22,22 strobe,25,64 pulse_open,70,84 pulse_close,90,104 random_strobe,110,124 random strobe fast on and slow off,130,144 random strobe slow on and fast off,150,164 pulse strobe,170,184 random pulse frequency strobe,190,204 strobe light,0,0 gradually destroy,210,224 pulse strobe,230,244 open,255,255 
+
+Channel = zoom
+
+Channel = control
+ no_function,0,0 zoom_reset,62,71 reset_xy,72,72 fan4,127,127 
+
+Channel = effect_macro
+ no_function,0,0 index,8,255 
+

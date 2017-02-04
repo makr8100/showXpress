@@ -1,0 +1,40 @@
+Name = COLORdash Accent (STAGE1)
+
+ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 18
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = TRUE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = red
+ custom,0,255
+
+Channel = green
+ custom,0,255
+
+Channel = blue
+ custom,0,255
+
+Channel = white
+ custom,0,255
+
+Channel = color_macro
+ no_function,0,10 auto,11,35 auto,36,60 auto,61,85 auto,86,110 auto,111,135 auto,136,160 auto,161,185 auto,186,210 auto1,211,215 auto1,216,220 auto1,221,225 auto1,226,230 auto1,231,235 auto1,236,240 auto1,241,245 auto1,246,250 auto1,251,255
+
+Channel = strobe_dimmer
+ no_function,0,4 strobe,5,255
+
+Channel = animation
+ no_function,0,20 auto2,21,30 auto2,31,40 auto2,41,50 auto2,51,60 auto2,61,70 auto2,71,80 auto2,81,90 auto2,91,100 auto2,101,110 auto2,111,120 auto2,121,130 auto2,131,140 auto2,141,150 auto2,151,160 auto2,161,170 auto2,171,180 auto2,181,190 auto2,191,200 auto2,201,210 auto2,211,220 auto2,221,223 auto2,224,226 auto2,227,229 auto2,230,232 auto2,233,235 auto2,236,238 auto2,239,241 auto2,242,244 auto2,245,247 auto2,248,250 auto2,251,253 auto2,254,255
+
+Channel = speed_control
+ shaking,0,255
+

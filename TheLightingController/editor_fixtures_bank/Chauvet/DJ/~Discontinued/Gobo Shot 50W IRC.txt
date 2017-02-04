@@ -1,0 +1,24 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 26
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = TRUE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/Gobo Shot 50W IRC.png
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = shutter
+ closed,0,3 open,4,7 strobe,8,215 open,216,255
+
+Channel = gobo_rotate
+ stop,0,63 rotate,64,127 stop,128,191 left_rotate,192,255
+
+Channel = speed_control
+ Gobo speed ,0,255
+

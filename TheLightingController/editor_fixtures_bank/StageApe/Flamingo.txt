@@ -1,0 +1,25 @@
+﻿ViewType = VIEW_TYPE_HEAD_WASH
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 20
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = pan
+
+Channel = tilt
+
+Channel = upan
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = shutter
+ closed,0,0 strobe,7,65 thunder_strobe_effect,70,128 gradually_strobe,133,191 bounded_strobe,196,255 
+

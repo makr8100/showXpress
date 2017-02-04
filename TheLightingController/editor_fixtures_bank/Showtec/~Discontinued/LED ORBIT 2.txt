@@ -1,0 +1,34 @@
+Name = LED ORBIT 2
+
+ViewType = VIEW_TYPE_HEAD_WASH
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = pan
+
+Channel = tilt
+
+Channel = pantilt_speed
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = effect
+ NO FUNCTION,0,5 new_level,6,35 new_level,36,65 new_level,66,95 new_level,96,125 new_level,126,155 new_level,156,185 new_level,186,215 new_level,216,240 new_level,241,250 new_level,251,255
+
+Channel = dimmer
+
+Channel = shutter
+
+Channel = CONTROL
+

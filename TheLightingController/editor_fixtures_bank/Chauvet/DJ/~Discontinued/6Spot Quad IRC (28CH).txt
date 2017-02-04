@@ -1,0 +1,95 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/6SPOT Quad IRC.png
+
+Channel = red
+ Red,0,255
+
+Channel = green
+ Green,0,255
+
+Channel = blue
+ Blue,0,255
+
+Channel = white
+ White,0,255
+
+Channel = red
+ Red,0,255
+
+Channel = green
+ Green,0,255
+
+Channel = blue
+ Blue,0,255
+
+Channel = white
+ White,0,255
+
+Channel = red
+ Red,0,255
+
+Channel = green
+ Green,0,255
+
+Channel = blue
+ Blue,0,255
+
+Channel = white
+ White,0,255
+
+Channel = red
+ Red,0,255
+
+Channel = green
+ Green,0,255
+
+Channel = blue
+ Blue,0,255
+
+Channel = white
+ White,0,255
+
+Channel = red
+ Red,0,255
+
+Channel = green
+ Green,0,255
+
+Channel = blue
+ Blue,0,255
+
+Channel = white
+ White,0,255
+
+Channel = red
+ Red,0,255
+
+Channel = green
+ Green,0,255
+
+Channel = blue
+ Blue,0,255
+
+Channel = white
+ White,0,255
+
+Channel = effect_macro
+ no_function,0,10 macro_1,11,32 macro_2,33,54 macro_3,55,76 macro_4,77,98 macro_5,99,120 macro_6,121,142 macro_7,143,164 macro_8,165,186 macro_9,187,208 macro_10,209,230 Macro 1~10,231,250 audio,251,255
+
+Channel = effect_speed
+ volume,0,255
+
+Channel = dimmer
+
+Channel = strobe_effect
+ no_function,0,10 strobe,11,255
+

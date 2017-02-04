@@ -1,0 +1,31 @@
+Name = STARWAY_MAXSPOT250
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_250MSR
+ViewAnglePan = 510
+ViewAngleTilt = 260
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = pan
+
+Channel = tilt
+
+Channel = pantilt_speed
+
+Channel = color
+ open,0,0 red,23,23 green,37,37 closed,49,49 yellow,61,61 magenta,73,73 cyan,85,85 orange,99,99 pink,113,113 mixed,127,127 mixed,143,143 mixed,159,159 mixed,175,175 mixed,191,191 mixed,207,207 mixed,221,221 mixed,233,233 rotate,240,255
+
+Channel = gobo
+ Miscellaneous\open,0,0 Miscellaneous\gobo1,35,35 Miscellaneous\gobo2,59,59 Miscellaneous\gobo3,83,83 Miscellaneous\gobo4,107,107 Miscellaneous\gobo5,131,131 Miscellaneous\gobo6,155,155 Miscellaneous\gobo7,179,179 Miscellaneous\rotate,192,255
+
+Channel = shutter
+ closed,0,0 dimmer,10,127 strobe,128,139 open,255,255
+
+Channel = control
+ lamp_on,0,0 reset,159,159 lamp_off,255,255
+

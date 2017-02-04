@@ -1,0 +1,42 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = mode
+ no_function,0,0 auto,90,90 manual_audio,128,191 auto_audio,192,255
+
+Channel = line
+ closed,0,0 line,90,90 line_split_pulse,128,191 on_blanking,255,255
+
+Channel = effect_macro
+
+Channel = up_down
+ index,0,127 auto_down,128,191 auto_up,192,255
+
+Channel = left_right
+ index,0,127 auto_right,128,191 auto_left,192,255
+
+Channel = vertical
+ index,0,127 auto,128,255
+
+Channel = horizontal
+ index,0,127 auto,128,255
+
+Channel = rotation
+ index,0,127 left_rotate,128,191 right_rotate,192,255 
+
+Channel = zoom
+ small_to_large,0,85 large_to_small,86,170 exchange,171,255 
+
+Channel = gobo_size
+
+Channel = dotting
+ no_function,0,0 dark_to_bright,1,255 
+

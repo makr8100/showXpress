@@ -1,0 +1,50 @@
+Name = FUTURELIGHT_MH840_8
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = pan
+
+Channel = tilt
+
+Channel = pantilt_speed
+ max_tracking,0,0 speed,2,249 max_tracking,250,252 black_while_mo,255,255
+
+Channel = control
+ open_speed_fan,0,127 reset_lamp_on,133,133 lamp_off_3",235,235
+
+Channel = color
+ open,0,0 deep_red,16,16 blue,32,32 green,48,48 orange,64,64 CTF_3.200K,80,80 CTF_5.600K,96,96 uv_filter,112,112 forwards_rainb,128,190 stop,192,192 backwards_rain,193,255
+
+Channel = cyan
+ white-cyan,0,255
+
+Channel = magenta
+ white-magenta,0,255
+
+Channel = yellow
+ white-yellow,0,255
+
+Channel = dimmer
+ max_to_min,0,255
+
+Channel = color
+ off,0,0 macro1,12,12 macro2,20,20 macro3,28,28 macro4,36,36 macro5,44,44 macro6,52,52 macro7,60,60 macro8,68,68 macro9,76,76 macro10,84,84 macro11,92,92 macro12,100,100 macro13,108,108 macro14,116,116 macro15,124,124 macro16,132,132 macro17,140,140 macro18,148,148 macro19,156,156 macro20,164,164 macro21,172,172 macro22,180,180 macro23,188,188 macro24,196,196 macro26,212,212 macro27,220,220 macro28,228,228 macro29,236,236 macro30,244,244 macro31,255,255
+
+Channel = beam
+ Full_beam,0,70 beam_shaper,72,180 Frost_filter,181,255
+
+Channel = frost
+ zoom_7°,0,0 zoom,1,253 zoom_28°,255,255
+
+Channel = shutter
+ closed,0,0 open,50,50 strob_effect,64,95 open,96,127 pulse_effect,140,140 open,160,191 random_strobe,192,223 open,224,255
+
+Channel = dimmer
+ close,0,0 dimmer,1,254 open,255,255
+

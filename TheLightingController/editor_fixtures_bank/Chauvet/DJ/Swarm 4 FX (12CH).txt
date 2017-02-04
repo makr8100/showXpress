@@ -1,0 +1,48 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/Swarm 4 FX.png
+
+Channel = color
+ black,0,9 1000K,10,19 green,20,29 blue,30,39 orange,40,49 Red+Green,50,59 Red+Blue,60,69 Red+Amber,70,79 Green+Blue,80,89 Green+Amber,90,99 Blue+Amber,100,109 Red+Green+Blue,110,119 Red+Green+Amber,120,129 Red+Blue+Amber,130,139 Green+Blue+Amber,140,149 Red+Green+Blue+Amber,150,159 auto1,160,224 auto2,225,255
+
+Channel = strobe_effect
+ no_function,0,9 Strobe Speed,10,254 audio,255,255
+
+Channel = motor
+ stop,0,4 right_rotate,5,127 stop,128,133 left_rotate,134,255
+
+Channel = color
+ black,0,9 1000K,10,19 green,20,29 blue,30,39 orange,40,49 Red+Green,50,59 Red+Blue,60,69 Red+Amber,70,79 Green+Blue,80,89 Green+Amber,90,99 Blue+Amber,100,109 Red+Green+Blue,110,119 Red+Green+Amber,120,129 Red+Blue+Amber,130,139 Green+Blue+Amber,140,149 Red+Green+Blue+Amber,150,159 auto1,160,224 auto2,225,255
+
+Channel = strobe_effect
+ no_function,0,9 Strobe Speed,10,254 audio,255,255
+
+Channel = motor
+ stop,0,4 right_rotate,5,127 stop,128,133 left_rotate,134,255
+
+Channel = color
+ closed,0,9 Red,10,49 Green,50,89 Red+Green,90,129 Red+Green strobe,130,169 Green+Red strobe,170,209 Red+Green alternate,210,255
+
+Channel = strobe_effect
+ no_function,0,9 Strobe Speed,10,254 audio,255,255
+
+Channel = motor
+ stop,0,4 right_rotate,5,127 stop,128,133 left_rotate,134,255
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = mode
+ closed,0,9 Full On,10,19
+
+Channel = speed_control
+ Program speed,0,255
+

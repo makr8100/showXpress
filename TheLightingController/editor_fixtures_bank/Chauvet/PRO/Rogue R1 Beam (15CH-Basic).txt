@@ -1,0 +1,57 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/PRO/R1Beam-2D.png
+
+Channel = pan
+ dimmer,0,255
+
+Channel = upan
+ dimmer,0,255
+
+Channel = tilt
+ dimmer,0,255
+
+Channel = utilt
+ dimmer,0,255
+
+Channel = pantilt_speed
+ dimmer,0,255
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = shutter
+ Closed,0,7 Open,8,15 Strobe (slow to fast),16,131 Fast shutter (slow to fast),132,167 Slow shutter,168,203 Pulse (slow to fast),204,239 Random strobe (slow to fast),240,247 Open,248,255
+
+Channel = color
+ Open,0,4 Red,5,8 Deep Yellow,9,12 Turquoise,13,16 Green,17,20 Light Green,21,24 Light Purple,25,28 Pink,29,32 Light Yellow,33,36 Magenta,37,40 Blue,41,44 CTO 3200K,45,48 CTO 5600K,49,52 CTO 6500K,53,56 UV,57,60 Split Colors,61,127 Clockwise color scroll (slow to fast),128,189 Counter clockwise color scroll (slow to fast),190,255
+
+Channel = gobo
+ Open,0,3 Gobo 1,4,6 Gobo 2,7,9 Gobo 3,10,12 Gobo 4,13,15 Gobo 5,16,18 Gobo 6,19,21 Gobo 7,22,24 Gobo 8,25,27 Gobo 9,28,30 Gobo 10,31,33 Gobo 11,34,36 Gobo 12,37,39 Gobo 13,40,42 Gobo 14,43,45 Gobo 15,46,48 Gobo 16,49,51 Gobo 17,52,55 Gobo shake,56,127 Clockwise gobo scroll (slow to fast),128,189 Stop,190,193 Counter clockwise gobo scroll (slow to fast),194,255
+
+Channel = prism
+ no_function,0,4 Prism,5,255
+
+Channel = prism_rotate
+ Prism Index,0,127 Counter clockwise rotation (fast to slow),128,189 Stop ,190,193 Clockwise rotation (slow to fast),194,255
+
+Channel = prism 2
+ no_function,0,4 Prism 2,5,255
+
+Channel = prism_rotate
+ Prism Index,0,127 Counter clockwise rotation (fast to slow),128,189 Stop,190,193 Clockwise rotation (slow to fast),194,255
+
+Channel = focus
+ dimmer,0,255
+
+Channel = control
+ no_function,0,29 Dimmer conventional mode,30,39 Dimmer linear mode,40,49 Pan/tilt fast mode,50,59 Pan/tilt normal mode,60,69 Blackout during pan/tilt (3 sec hold),70,79 Disable pan/tilt blackout (3 sec hold),80,89 Blackout while color wheel moving (3 sec hold),90,99 Disable color wheel blackout (3 sec hold),100,109 Blackout while gobo wheel moving (3 sec hold),110,119 Disable gobo wheel blackout (3 sec hold),120,129 Lamp On,130,139 Pan/tilt reset,140,149 Color wheel reset,150,159 Gobo wheel reset,160,169 no_function,170,179 Shutter/focus reset,180,189 All reset,190,199 Blackout all function during pan/tilt,200,219 Disable blackout function during pan/tilt,220,229 Lamp Off,230,239 Pan/tilt movement ramp speed increse on,240,247 Pan/tilt movement ramp speed increase off,248,255
+

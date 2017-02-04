@@ -1,0 +1,28 @@
+Name = MARTIN_MX4
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 230
+ViewAngleTilt = 76
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewColor = 0
+
+Channel = shutter
+ closed,0,0 lamp_on,15,15 open,50,50 strobe,100,159 closed,170,170 music_trigger,190,190 auto_trigger,215,215 closed,235,235 reset,245,245 lamp_off,255,255
+
+Channel = color
+ open,0,0 light_blue,15,15 green,25,25 red,38,38 yellow,50,50 magenta,62,62 blue,74,74 orange,86,86 light_green,98,98 cyan,110,110 pink,122,122 blue,134,134 amber,146,146 dark_red,158,158 dark_green,170,170 orange,182,182 rainbow,194,194 rainbow,206,206 rotate,255,255
+
+Channel = gobo
+ Miscellaneous\open,0,0 position_2,17,17 position_3,30,30 position_4,42,42 position_5,53,53 position_6,65,65 position_7,77,77 position_8,90,90 position_9,102,102 position_10,114,114 position_11,125,125 position_12,137,137 position_13,150,150 position_14,162,162 position_15,174,174 position_16,185,185 position_17,197,197 position_18,210,210 position_19,222,222 position_20,234,234 Miscellaneous\rotate,255,255
+
+Channel = pan
+
+Channel = tilt
+
+Channel = gobo_rotate
+ tracking,0,0 fast_to_slow,4,255
+

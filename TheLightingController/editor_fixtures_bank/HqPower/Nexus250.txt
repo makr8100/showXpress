@@ -1,0 +1,28 @@
+﻿ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_LED60W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = pan
+
+Channel = tilt
+
+Channel = color
+ white,0,0 magenta,10,10 green,23,23 cyan,40,40 pink,60,60 yellow,80,80 red,100,100 blue,118,118 right_rotate,126,191 left_rotate,192,255
+
+Channel = gobo
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,24,24 Miscellaneous/gobo2,40,40 Miscellaneous/gobo3,56,56 Miscellaneous/gobo4,72,72 Miscellaneous/gobo5,88,88 Miscellaneous/gobo6,104,104 Miscellaneous/gobo7,120,120 Miscellaneous/right_rotate,128,191 Miscellaneous/left_rotate,192,255
+
+Channel = gobo_rotate
+ stop,0,0 right_rotate,1,135 left_rotate,136,255 
+
+Channel = shutter
+ dimmer,0,139 strobe,140,249 open,255,255 
+

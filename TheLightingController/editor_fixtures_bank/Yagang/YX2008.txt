@@ -1,0 +1,44 @@
+Name = YX2008
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 530
+ViewAngleTilt = 280
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = control
+ audio,0,0 auto,95,95 manual_audio,159,159 manual_auto,255,255
+
+Channel = blanking
+ closed,0,0 fluxion,95,95 open,159,159 _no_icon,255,255
+
+Channel = gobo
+
+Channel = roll
+ stop,0,0 horizontal,95,95 vertical,159,159 both,255,255
+
+Channel = dot
+ stop,0,0 rotate,255,255
+
+Channel = move
+ stop,0,0 horizontal,95,95 vertical,159,159 both,255,255
+
+Channel = strech
+ stop,0,0 horizontal,95,95 vertical,159,159 both,255,255
+
+Channel = speed
+
+Channel = draw_speed
+
+Channel = size
+ original,0,0 index,1,255
+
+Channel = _no_icon
+
+Channel = _no_icon
+

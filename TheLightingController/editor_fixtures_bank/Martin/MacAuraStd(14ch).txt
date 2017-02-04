@@ -1,0 +1,43 @@
+﻿ViewType = VIEW_TYPE_HEAD_WASH
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 540
+ViewAngleTilt = 232
+ViewAngleBeam = 20
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = shutter
+ closed,0,0 open,22,22 strobe,25,64 pulse_open,70,84 pulse_close,90,104 random_strobe,110,124 random_pulse_open,130,144 random_pulse_close,150,164 burst_pulse,170,184 random_burst_pulse,190,204 sine_wave,210,224 burst,230,244 open,255,255
+
+Channel = dimmer
+
+Channel = zoom
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = control
+ no_function,0,0 reset,12,12 PTSP,40,54 fan4,62,62 fan_auto,72,72 color_calib_on,92,92 color_calib_off,102,102 Illuminate display,255,255
+
+Channel = color_macro
+ white,0,0 LEE 790 - Moroccan pink ,12,12 LEE 157 - Pink,17,17 LEE 332 - Special rose pink,22,22 LEE 328 - Follies pink,27,27 LEE 345 - Fuchsia pink,32,32 LEE 194 - Surprise pink,37,37 LEE 181 - Congo Blue,42,42 LEE 071 - Tokyo Blue,47,47 LEE 120 - Deep Blue,52,52 LEE 079 - Just Blue,57,57 LEE 132 - Medium Blue,62,62 LEE 200 - Double CT Blue,67,67 LEE 161 - Slate Blue,72,72 LEE 201 - Full CT Blue,77,77 LEE 202 - Half CT Blue,82,82 LEE 117 - Steel Blue,87,87 LEE 353 - Lighter Blue,92,92 LEE 118 - Light Blue,97,97 LEE 116 - Medium Blue Green,102,102 LEE 124 - Dark Green,107,107 LEE 139 - Primary Green,112,112 LEE 089 - Moss Green,117,117 LEE 122 - Fern Green,122,122 LEE 738 - JAS Green,127,127 LEE 088 - Lime Green,132,132 LEE 100 - Spring Yellow,137,137 LEE 104 - Deep Amber,142,142 LEE 179 - Chrome Orange,147,147 LEE 105 - Orange,152,152 LEE 021 - Gold Amber,157,157 LEE 778 - Millennium Gold,162,162 LEE 135 - Deep Golden Amber,167,167 LEE 164 - Flame Red,172,172 right_rotate,180,201 stop,204,204 left_rotate,208,229 random,235,249
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = CTC
+

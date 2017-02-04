@@ -1,0 +1,31 @@
+Name = TAS_MINIULTRASCAN2
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = pan
+
+Channel = tilt
+
+Channel = ???
+
+Channel = shutter
+ closed,0,0 open,90,90 strobe,128,255
+
+Channel = gobo
+ open,0,0 gobo1,25,25 gobo2,45,45 gobo3,65,65 gobo4,85,85 gobo5,105,105 gobo6,125,125 gobo7,150,150 rotate,164,255
+
+Channel = gobo_rotate
+ stop,0,0 slow,18,255
+
+Channel = color
+ white,0,0 blue,25,25 4_colors,45,45 orange,65,65 yellow,85,85 magenta,105,105 pink,125,125 green,138,138 uv,150,150 rotate,164,255
+
+Channel = control
+ lamp_on,0,0 reset,128,128 lamp_on,255,255
+

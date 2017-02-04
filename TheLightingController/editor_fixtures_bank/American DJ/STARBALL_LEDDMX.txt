@@ -1,0 +1,17 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = shutter
+ closed,0,0 dimmer,8,199 strobe,200,247 open,255,255 
+
+Channel = dome_rotation
+ stop,0,0 right_rotate,10,120 stop,127,127 left_rotate,135,245 stop,255,255 
+

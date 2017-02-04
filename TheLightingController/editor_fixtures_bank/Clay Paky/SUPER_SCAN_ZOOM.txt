@@ -1,0 +1,50 @@
+Name = CLAY-PAKY_SUPER_SCAN_ZOOM
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = iris
+
+Channel = color
+ colours,0,127 rotations,128,255
+
+Channel = gobo
+ off,0,0 gobo1,64,64 gobo2,128,128 gobo3,192,192 gobo4,255,255
+
+Channel = shutter
+ dimmer,0,128 open,132,132 speed_strobe,140,243 open,255,255
+
+Channel = pan
+
+Channel = tilt
+
+Channel = frost
+ white,0,0 frost1,128,128 frost2,255,255
+
+Channel = beam
+
+Channel = focus
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = yellow
+
+Channel = gobo
+ off,0,0 gobo1,64,64 gobo2,128,128 gobo3,192,192 gobo4,255,255
+
+Channel = gobo_rotate
+ 0起position,0,0 90起position,21,21 180起position,42,42 270起position,63,63 360起position,64,64 450起position,106,106 540起position,127,127 rotation,128,190 stop,192,192 rotation,193,255
+
+Channel = prism
+ white,0,0 prism1,128,128 prism2,255,255
+
+Channel = prism_rotate
+ counterclock,0,126 stop,128,128 clock,130,255
+

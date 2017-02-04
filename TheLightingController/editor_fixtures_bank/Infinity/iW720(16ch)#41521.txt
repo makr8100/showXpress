@@ -1,0 +1,48 @@
+﻿ViewType = VIEW_TYPE_HEAD_WASH
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 540
+ViewAngleTilt = 280
+ViewAngleBeam = 24
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = pan
+
+Channel = tilt
+
+Channel = upan
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = effect_macro
+ no_function,0,0 macro_1,24,24 macro_2,40,40 macro_3,54,54 macro_4,68,68 macro_5,88,88 macro_6,104,104 macro_7,116,116 macro_8,136,136 macro_9,152,152 macro_10,168,168 macro_11,184,184 macro_12,200,200 macro_13,216,216 macro_14,232,232 macro_15,255,255 
+
+Channel = effect_speed
+
+Channel = dimmer
+
+Channel = shutter
+ closed,0,0 strobe,25,64 pulse_close,70,84 pulse_open,90,104 random_strobe,110,124 random_pulse_close,130,144 random_pulse_open,150,164 pulse_strobe,170,184 open,255,255 
+
+Channel = zoom
+
+Channel = control
+ no_function,0,0 blackout_moves,12,12 reset_pan,52,52 reset_tilt,57,57 reset_zoom,62,62 fan4,127,127 fan_auto,132,132 
+
+Channel = effect_macro
+ no_function,0,0 macro_1,16,16 macro_2,32,32 macro_3,48,48 macro_4,64,64 macro_5,80,80 macro_6,94,94 macro_7,112,112 macro_8,128,128 macro_9,144,144 macro_10,160,160 macro_11,176,176 macro_12,192,192 macro_13,208,208 macro_14,224,224 macro_15,240,240 macro_16,255,255 
+

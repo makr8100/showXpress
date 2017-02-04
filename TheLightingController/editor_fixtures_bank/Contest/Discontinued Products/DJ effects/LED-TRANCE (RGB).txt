@@ -1,0 +1,28 @@
+Name = LED-TRANCE (RGB)
+
+ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = dimmer
+ dimmer,0,27 macro_1,28,55 macro_3,56,83 macro_4,84,111 macro_4,112,139 auto,140,167 audio1,168,195 audio2,196,223 audio3,224,255
+
+Channel = control
+ RGB,0,10 macro_1,11,24 macro_2,25,39 macro_3,40,54 macro_4,55,69 macro_5,70,84 macro_6,85,99 macro_7,100,114 macro_8,115,129 macro_9,130,144 macro_10,145,159 macro_11,160,174 macro_12,175,189 macro_13,190,214 macro_14,215,219 macro_15,220,234 audio1,235,249 audio2,250,255
+
+Channel = red
+ open,0,15 strobe,16,255
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+

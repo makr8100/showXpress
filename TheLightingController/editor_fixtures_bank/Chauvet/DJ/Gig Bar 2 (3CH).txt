@@ -1,0 +1,21 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/GigBAR-2.0.png
+
+Channel = Led operation
+ no_function,0,9 auto1,10,119 auto2,120,229 audio1,230,234 audio2,235,239 Show setting when ch 2. 3 activated,240,255 
+
+Channel = mode
+ Blackout,0,9 Pars Only,10,19 Derbys Only,20,29 Lasers Only,30,39 Strobes Only,40,49 Auto pars/ Derby Lights only,50,59 Auto Pars/ Lasers only,60,69 Auto Pars / Strobes only,70,79 Auto Derby / Laser only,80,89 Auto Strobes / Derby lights only,90,99 Pars/Derby/Laser,100,109 Pars/Derbys/Strobes,110,119 Pars/Lasers/Strobe,120,129 Derby/Laser/Strobes,130,139 Sound Par effect,140,149 Sound Derby effect,150,159 sound laser effect,160,169 Sound strobe effect,170,179 Soubnd Par/ Derby,180,189 SoundPar/Laser,190,199 Sound Par/Strobe,200,209 Sound Derby/Laser,210,219 Sound Derby/ Strobes,220,229 Sound Pars/ Derby lights/ Laser,230,239 Sound Pars/ derbys /Strobes,240,244 Sound Pars/Laser/Strobes,245,249 Sound Derby/Laser/Strobes,250,255 
+
+Channel = speed_control
+ dimmer,0,255 
+

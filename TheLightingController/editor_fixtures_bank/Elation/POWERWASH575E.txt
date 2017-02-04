@@ -1,0 +1,51 @@
+﻿ViewType = VIEW_TYPE_HEAD_WASH
+ViewPower = VIEW_POWER_LAMP700W
+ViewAnglePan = 530
+ViewAngleTilt = 285
+ViewAngleBeam = 30
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = color
+ white,0,0 light_blue,4,4 blue,8,8 purple,12,12 pink,16,16 orange,20,20 italian_blue,24,24 turquoise,28,28 jade,32,32 CTB,36,36 CTO,40,40 red,44,44 index,48,111 right_rotate,128,191 left_rotate,192,253 audio_slow,254,254 audio_fast,255,255
+
+Channel = cyan
+ gobo1,0,0 gobo2,11,11 gobo3,19,19 gobo4,27,27 gobo5,35,35 gobo6,43,43 gobo7,51,51 gobo8,59,59 gobo1,67,67 gobo2,75,75 gobo3,83,83 gobo4,84,84 gobo5,99,99 gobo6,107,107 gobo7,115,115 gobo8,123,123 Miscellaneous\stop,128,128 Miscellaneous\right_rotate,130,191 Miscellaneous\left_rotate,192,253 audio_slow,254,254 audio_fast,255,255
+
+Channel = magenta
+ index,0,127 stop,128,128 right_rotate,130,191 left_rotate,192,253 audio,254,254
+
+Channel = yellow
+ Miscellaneous\open,0,0 gobo1,5,5 gobo2,9,9 gobo3,13,13 gobo4,17,17 gobo5,21,21 gobo6,25,25 gobo7,29,29 gobo8,33,33 gobo9,49,49 Miscellaneous\open,66,66 gobo1,69,69 gobo2,73,73 gobo3,77,77 gobo4,81,81 gobo5,85,85 gobo6,89,89 gobo7,93,93 gobo8,97,97 gobo9,113,113 Miscellaneous\stop,128,128 Miscellaneous\right_rotate,130,191 Miscellaneous\left_rotate,192,253 audio_slow,254,254 audio_fast,255,255
+
+Channel = shutter
+ closed,0,0 random_strobe,16,31 pulse_strobe,32,47 strobe,48,239 open,255,255
+
+Channel = dimmer
+
+Channel = beam_shape
+ open,0,0 index,16,239 frost,255,255
+
+Channel = zoom
+ swing,0,0 index,6,129 rotate,130,253 audio,254,254
+
+Channel = control
+ no_function,0,0 audio_CMY_slow,16,23 audio_CMY_fast,24,31 color_chaser,32,63 color_chaser1,64,79 color_chaser2,80,95 pan&tilt_chaser_slow,96,111 pan&tilt_chaser_fast,112,127 reset,255,255
+
+Channel = movement
+ no_function,0,0 pan_size1,1,7 pan_size2,8,15 pan_size3,16,23 pan_size4,24,31 tilt,32,63 pan_tilt,64,127 circle,128,191 lying_eight,192,223 random,224,255
+
+Channel = pantilt_speed
+ relative,0,0 slow_to_fast,2,255
+

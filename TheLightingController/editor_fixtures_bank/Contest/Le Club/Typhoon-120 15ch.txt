@@ -1,0 +1,47 @@
+﻿ViewType = VIEW_TYPE_HEAD_WASH
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Contest/Club series/TYPHOON-120 .png
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = dimmer
+
+Channel = shutter
+ open,0,19 strobe,20,39 macro_1,40,59 macro_2,60,79 macro_3,80,99 macro_4,100,119 macro_5,120,139 pattern_01,140,159 pattern_02,160,179 pattern_03,180,199 pattern_04,200,219 
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = animation_rotary
+ index,53,127 left_rotate,128,189 stop,190,193 right_rotate,194,255 
+
+Channel = color_macro
+ no_function,0,19 macro_1,20,29 macro_2,30,39 macro_3,40,49 macro_4,50,59 macro_5,60,69 macro_6,70,79 macro_7,80,89 macro_8,90,99 macro_9,100,109 macro_10,110,119 macro_11,120,129 macro_12,130,139 macro_13,140,149 macro_14,150,159 macro_15,160,169 macro_16,170,179 macro_17,180,189 macro_18,190,199 macro_19,200,209 macro_20,210,219 macro_21,220,229 macro_22,230,239 macro_23,240,255 
+
+Channel = pan_tilt_macro
+ no_function,0,7 macro_1,8,15 macro_2,16,23 macro_3,24,31 macro_4,32,39 macro_5,40,47 macro_6,48,55 macro_7,56,63 macro_8,64,71 macro_9,72,79 macro_10,80,87 macro_11,88,95 macro_12,96,103 macro_13,104,111 macro_14,112,119 macro_15,120,127 macro_16,128,135 macro_17,136,143 macro_18,144,151 macro_19,152,159 macro_20,160,167 macro_21,168,175 macro_22,176,183 macro_23,184,191 macro_24,192,199 macro_25,200,207 macro_26,208,215 macro_27,216,223 macro_28,224,231 macro_29,232,239 macro_30,240,247 macro_31,248,255 
+
+Channel = control
+ no_function,0,7 reset_xy,8,69 reset,70,129 blackout_moves,130,190 audio,191,255 
+

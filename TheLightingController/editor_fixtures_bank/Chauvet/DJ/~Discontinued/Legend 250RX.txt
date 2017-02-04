@@ -1,0 +1,59 @@
+Name = Legend 250RX
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_250MSR
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 13
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewColor = 0
+
+Channel = pan
+ new_level,0,255
+
+Channel = tilt
+ new_level,0,255
+
+Channel = pantilt_speed
+ new_level,0,255
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = shutter
+ open,0,15 strobe,16,16 strobe,135,135 gobo bounce,138,138 gobo bounce,255,255
+
+Channel = color
+ white,0,0 dark_blue,20,20 orange,30,30 green,40,40 blue,60,60 red,70,70 pink,80,80 uv,100,100 yellow,110,110 light_green,120,120 rotate,130,255
+
+Channel = reserved
+
+Channel = control
+ new_level,0,254 reset,255,255
+
+Channel = gobo
+ Miscellaneous\open,10,10 Chauvet\phone,20,20 Chauvet\142031,40,40 Chauvet\swirl3,50,50 Sgm\donut,70,70 Showtec\GEN-6-008,90,90 Showtec\CHALLENGER-005,100,100 Chauvet\4 dots,120,120 Miscellaneous\rotate,129,129 Miscellaneous\rotate,170,170 Miscellaneous\rotate,255,255
+
+Channel = gobo_rotate
+ stop,0,0 right_rotate,10,10 right_rotate,120,120 stop,130,130 left_rotate,136,136 left_rotate,145,145 stop,255,255
+
+Channel = prism
+ off,0,127 prism,128,128 prism,129,255
+
+Channel = prism_rotate
+ stop,0,0 right_rotate,12,12 left_rotate,121,121 stop,130,130 right_rotate,136,136 left_rotate,245,245 stop,255,255
+
+Channel = focus
+ focus_near,0,56 focus_mid,57,127 focus_far,128,255
+
+Channel = sound_effect
+ audio,32,32 audio,127,127 audio,128,128 audio,224,224 audio,230,230 audio,255,255
+
+Channel = beam
+ new_level,0,15 new_level,16,31 new_level,32,47 new_level,48,63 new_level,64,79 new_level,80,95 new_level,96,111 new_level,112,127 new_level,128,143 new_level,144,159 new_level,160,175 176,176,191 new_level,192,207 new_level,208,223 new_level,224,239 new_level,240,255
+
+Channel = control
+ reset,255,255
+

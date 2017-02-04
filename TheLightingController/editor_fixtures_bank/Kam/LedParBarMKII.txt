@@ -1,0 +1,43 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewAnglePan = 0
+ViewAngleTilt = 0
+ViewAngleBeam = 0
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+2DViewImage = 
+
+Channel = mode
+ enable_dmx_channels_1-15,0,0 macro_1,20,20 macro_2,40,40 macro_3,60,60 macro_4,80,80 macro_5,100,100 macro_6,120,120 macro_7,140,140 macro_8,160,160 macro_9,180,180 macro_10,200,200 macro_11,220,220 macro_12,240,240 audio,250,255 
+
+Channel = dimmer
+
+Channel = shutter
+ open,0,0 strobe,16,255
+
+Channel = red#1
+
+Channel = green#1
+
+Channel = blue#1
+
+Channel = red#2
+
+Channel = green#2
+
+Channel = blue#2
+
+Channel = red#3
+
+Channel = green#3
+
+Channel = blue#3
+
+Channel = red#4
+
+Channel = green#4
+
+Channel = blue#4
+

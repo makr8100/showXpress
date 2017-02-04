@@ -1,0 +1,32 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = dimmer
+
+Channel = Static marcos
+ no_function,0,0 Static Macro,1,255
+
+Channel = Dynamic Macro's
+ no_function,0,0 Dynamic Macro (chase 1-43),1,43 no_function,44,127 Dynamic Macro (44-146),128,230 no_function,231,255
+
+Channel = speed_control
+ stop,0,49 forward moment of characters,50,150 reverse movement of characters,151,250 stop,251,255 
+
+Channel = dimmer zone 1
+
+Channel = dimmer zone 2
+
+Channel = dimmer zone 3
+
+Channel = dimmer zone 4
+
+Channel = dimmer zone 5
+

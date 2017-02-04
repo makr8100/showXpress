@@ -1,0 +1,24 @@
+Name = LEDsplash Jr
+
+ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_150HTI
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 23
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = reserved
+
+Channel = shutter
+ closed,0,0 strobe,2,127 dimmer,128,255
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+

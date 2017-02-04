@@ -1,0 +1,28 @@
+Name = CLAY-PAKY_TORNADO
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = color
+ colours,0,127 rotations,128,255
+
+Channel = shutter
+ dimmer,0,128 open,132,132 speed_strobe,140,243 open,255,255
+
+Channel = pan
+
+Channel = tilt
+
+Channel = pan
+
+Channel = tilt
+
+Channel = pan
+
+Channel = tilt
+

@@ -1,0 +1,52 @@
+﻿ViewType = VIEW_TYPE_HEAD_WASH
+ViewPower = VIEW_POWER_LAMP700W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = TRUE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = shutter
+ closed,0,0 dimmer,6,100 pulse_open,121,138 pulse_close,139,156 random_strobe,175,192 strobe,193,250 open,255,255
+
+Channel = color
+ white,0,0 yellow,8,8 blue,13,13 magenta,18,18 light_green,23,23 orange,28,28 cyano,33,33 pink,38,38 red,43,43 light_blue,48,48 green,52,52 wood,58,58 index,61,180 random,181,195 right_rotate,216,235 left_rotate,236,255
+
+Channel = gobo
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,15,15 Miscellaneous/gobo2,25,25 Miscellaneous/gobo3,35,35 Miscellaneous/gobo4,45,45 Miscellaneous/gobo5,55,55 Miscellaneous/gobo6,65,65 Miscellaneous/gobo7,75,75 Miscellaneous/gobo8,85,85 Miscellaneous/gobo9,95,95 Miscellaneous/gobo1,105,105 Miscellaneous/gobo2,115,115 Miscellaneous/gobo3,125,125 Miscellaneous/gobo4,135,135 Miscellaneous/gobo5,145,145 Miscellaneous/gobo6,155,155 Miscellaneous/gobo7,165,165 Miscellaneous/gobo8,175,175 Miscellaneous/gobo9,185,185 random,191,205 Miscellaneous/left_rotate,206,230 Miscellaneous/right_rotate,231,255
+
+Channel = gobo_rotate
+ stop,0,0 right_rotate,6,130 left_rotate,131,255
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = color2
+ white,0,0 3400K,80,169 5600K,170,255
+
+Channel = focus
+
+Channel = zoom
+
+Channel = prism
+ no_function,0,0 frost_0to100,6,20 frost_100to0,21,40 frost,41,60 prism,61,80 right_rotate,81,170 left_rotate,171,255 
+
+Channel = iris
+ index,0,150 pulse_open,151,170 pulse_close,171,190 0to100,191,250 random,251,255 
+
+Channel = dimmer
+
+Channel = user_mode
+ studio,0,0 regolation,150,150 live,255,255 
+
+Channel = pantilt_speed
+

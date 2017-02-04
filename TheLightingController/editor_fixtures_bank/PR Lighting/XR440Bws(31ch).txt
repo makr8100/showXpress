@@ -1,0 +1,85 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LAMP575W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = shutter
+ closed,0,0 open,18,18 strobe,26,225 macro_1,230,230 macro_2,240,240 macro_3,244,244 open,255,255 
+
+Channel = dimmer
+
+Channel = udimmer
+
+Channel = color_macro
+ white,0,0 red,25,25 yellow,44,44 cyan,82,82 magenta,119,119 rotate,129,255 
+
+Channel = cyan
+
+Channel = ucyan
+
+Channel = yellow
+
+Channel = uyellow
+
+Channel = magenta
+
+Channel = umagenta
+
+Channel = color
+ white,0,0 dark_red,15,15 dark_blue,24,24 yellow,33,33 green,41,41 plum,51,51 blue,60,60 red,69,69 dark_green,76,76 deep_yellow,87,87 deep_glossy,98,98 orange,105,105 cto,115,115 glossy,124,124 right_rotate,128,191 left_rotate,192,255 
+
+Channel = gobo
+ Miscellaneous/open,0,0 metal_basic/H5,15,15 metal_basic/H4,24,24 metal_basic/H3,32,32 Miscellaneous/gobo4,41,41 Miscellaneous/gobo5,51,51 Miscellaneous/gobo6,62,62 Miscellaneous/gobo7,71,71 Miscellaneous/gobo8,80,80 Miscellaneous/gobo9,89,89 Miscellaneous/gobo10,98,98 Miscellaneous/gobo11,108,108 Miscellaneous/gobo12,115,115 Miscellaneous/gobo13,124,124 Miscellaneous/right_rotate,128,149 Miscellaneous/left_rotate,150,171 Miscellaneous/shake_gobo1,172,177 Miscellaneous/shake_gobo2,178,183 Miscellaneous/shake_gobo3,184,189 Miscellaneous/shake_gobo4,190,196 Miscellaneous/shake_gobo5,197,203 Miscellaneous/shake_gobo6,204,210 Miscellaneous/shake_gobo11,211,243 Miscellaneous/shake_gobo12,244,249 Miscellaneous/shake_gobo13,250,255 
+
+Channel = gobo2
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,19,19 Miscellaneous/gobo2,32,32 Miscellaneous/gobo3,44,44 Miscellaneous/gobo4,56,56 Miscellaneous/gobo5,68,68 Miscellaneous/gobo6,81,81 Miscellaneous/gobo7,95,95 Miscellaneous/gobo8,108,108 Miscellaneous/gobo9,120,120 Miscellaneous/right_rotate,128,155 Miscellaneous/left_rotate,156,183 Miscellaneous/shake_gobo1,184,191 Miscellaneous/shake_gobo2,192,199 Miscellaneous/shake_gobo3,200,207 Miscellaneous/shake_gobo4,208,215 Miscellaneous/shake_gobo5,216,223 Miscellaneous/shake_gobo6,224,231 Miscellaneous/shake_gobo7,232,239 Miscellaneous/shake_gobo8,240,247 Miscellaneous/shake_gobo9,248,255 
+
+Channel = gobo_rotate2
+ index,0,128 right_rotate,129,188 stop,192,192 left_rotate,196,255 
+
+Channel = gobo_urotate2
+
+Channel = prism
+ no_function,0,0 prism,255,255 
+
+Channel = prism_rotate
+ index,0,128 right_rotate,129,191 stop,192,192 left_rotate,193,255 
+
+Channel = prism_5
+ no_function,0,0 prism_5,255,255 
+
+Channel = prism_rotate
+ index,0,128 right_rotate,129,191 stop,192,192 left_rotate,193,255 
+
+Channel = frost
+
+Channel = focus
+
+Channel = ufocus
+
+Channel = zoom
+
+Channel = uzoom
+
+Channel = diffuser
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = control
+ no_function,0,0 reset,60,60 lamp_off,130,130 lamp_on,255,255 
+

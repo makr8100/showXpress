@@ -1,0 +1,33 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = pan
+
+Channel = tilt
+
+Channel = color
+ white,0,0 yellow,10,10 pink,17,17 green,24,24 peachblow,31,31 blue,38,38 kelly,45,45 red,52,52 dark_blue,59,59 white_yellow,67,67 yellow_pink,74,74 pink_green,81,81 green_peachblow,88,88 peachblow_blue,95,95 blue_kelly,102,102 kelly_red,109,109 red_dark_blue,117,117 dark_blue_white,123,123 right_rotate,128,191 left_rotate,192,255
+
+Channel = shutter
+ closed,0,0 open,6,6 strobe,8,215 open,255,255
+
+Channel = gobo
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,12,12 Miscellaneous/gobo2,20,20 Miscellaneous/gobo3,28,28 Miscellaneous/gobo4,36,36 Miscellaneous/gobo5,44,44 Miscellaneous/gobo6,52,52 Miscellaneous/gobo7,60,60 Miscellaneous/shake_gobo7,68,68 Miscellaneous/shake_gobo6,75,75 Miscellaneous/shake_gobo5,84,84 Miscellaneous/shake_gobo4,92,92 Miscellaneous/shake_gobo3,100,100 Miscellaneous/shake_gobo2,108,108 Miscellaneous/shake_gobo1,115,115 Miscellaneous/right_rotate,128,191 Miscellaneous/left_rotate,192,255
+
+Channel = gobo_rotate
+ index,0,63 right_rotate,64,147 left_rotate,148,231 gobo_bouncing,232,255
+
+Channel = prism
+ no_function,0,0 rotate,8,247 prism,255,255
+
+Channel = focus
+

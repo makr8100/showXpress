@@ -1,0 +1,22 @@
+Name = AMERICAN-DJ_EMERALDSCAN
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = pan
+
+Channel = tilt
+
+Channel = pattern
+ pattern1,0,0 pattern2,22,22 pattern3,37,37 pattern4,52,52 pattern5,67,67 pattern6,82,82 pattern7,97,97 pattern8,112,112 pattern9,127,127 pattern10,142,142 pattern11,157,157 pattern12,172,172 pattern13,187,187 pattern14,202,202 pattern15,217,217 pattern16,232,232 pattern17,247,247 pattern18,255,255
+
+Channel = glitter
+

@@ -1,0 +1,33 @@
+Name = AMERICAN-DJ_XMOVELED
+
+ViewType = VIEW_TYPE_HEAD_WASH
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 160
+ViewAngleTilt = 210
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = pan
+
+Channel = tilt
+
+Channel = color
+ white,0,0 orange,22,22 blue,37,37 green,52,52 yellow,67,67 pink,82,82 light_blue,97,97 light_green,112,112 light_yellow,123,123 rotate,128,254 audio,255,255
+
+Channel = gobo
+ Miscellaneous\open,0,0 Miscellaneous\gobo1,11,11 Miscellaneous\gobo2,18,18 Miscellaneous\gobo3,25,25 Miscellaneous\gobo4,33,33 Miscellaneous\gobo5,40,40 Miscellaneous\gobo6,47,47 Miscellaneous\gobo7,54,54 Miscellaneous\gobo8,62,62 open_shake,67,67 gobo1_shake,75,75 gobo2_shake,82,82 gobo3_shake,89,89 gobo4_shake,96,96 gobo5_shake,104,104 gobo6_shake,111,111 gobo7_shake,118,118 gobo8_shake,124,124 Miscellaneous\rotate,128,254 audio,255,255
+
+Channel = shutter
+ closed,0,0 strobe,16,131 open_slow,160,160 open_fast,211,211 random_strobe,243,243 open,255,255
+
+Channel = dimmer
+
+Channel = movement_macro
+ no_function,0,0 move1,18,18 move2,39,39 move3,60,60 move4,81,81 move5,102,102 move6,123,123 move7,144,144 move8,165,165 move9,186,186 move10,207,207 move11,228,228 move12,255,255
+
+Channel = speed_control
+

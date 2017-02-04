@@ -1,0 +1,26 @@
+Name = SHOWTEC_PIXIE
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = pantilt_speed
+ slow,0,0 middle,128,128 fast,255,255
+
+Channel = color
+ white,0,0 red,40,40 yellow,65,65 green,100,100 blue,140,140 rotate,174,255
+
+Channel = gobo
+ open,0,0 gobo1,70,70 gobo2,100,100 gobo3,140,140 gobo4,185,185 rotate,198,255
+
+Channel = shutter
+ closed,0,0 strobe,64,191 open,255,255
+
+Channel = pan
+
+Channel = tilt
+

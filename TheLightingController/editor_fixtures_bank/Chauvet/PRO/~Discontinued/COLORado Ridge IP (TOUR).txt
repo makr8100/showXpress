@@ -1,0 +1,44 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 11
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = red
+ dimmer,0,255
+
+Channel = green
+ dimmer,0,255
+
+Channel = blue
+ dimmer,0,255
+
+Channel = white
+ dimmer,0,255
+
+Channel = amber
+ dimmer,0,255
+
+Channel = color_macro
+ no_function,0,10 red full/green up/blue 0,11,30 red dwn/green full/blue 0,31,50 green full/blue up/red 0,51,90 blue full/green dwn/red 0,91,110 blue full/red up/green 0,111,130 red full/blue dwn/green 0,131,150 red full/BlueGreen up,151,170 red/green dwn/blue full,171,200 3200,201,205 3400,206,210 4200,211,215 4900,216,220 5600,221,225 5900,226,230 6500,231,235 7200,236,240 8000,241,245 8500,246,250 10000,251,255 
+
+Channel = shutter
+ no_function,0,10 strobe,11,255 
+
+Channel = control
+ no_function,0,40 auto,41,50 auto,51,60 auto,61,70 auto,71,80 auto,81,90 auto,91,100 auto,101,110 auto,111,120 auto,121,130 auto,131,140 custom,141,150 custom,151,160 custom,161,170 custom,171,180 custom,181,190 custom,191,200 custom,201,210 custom,211,220 custom,221,230 custom,231,240 custom,241,250 custom,251,255 
+
+Channel = speed_control
+ auto1,0,255
+
+Channel = dimmer_speed
+ dimmer,0,9 dimmer,10,29 dimmer,30,69 dimmer,70,129 dimmer,130,189 dimmer,190,255
+

@@ -1,0 +1,26 @@
+Name = CLAY-PAKY_TIGER_SCAN
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = gobo_rotate
+ 0起position,0,0 90起position,21,21 180起position,42,42 270起position,63,63 360起position,64,64 450起position,106,106 540起position,127,127 rotation,128,190 stop,192,192 rotation,193,255
+
+Channel = color
+ white,0,0 red,18,18 yellow,36,36 violet,54,54 green,72,72 orange,90,90 blue,108,108 pink,126,126 rotation,128,255
+
+Channel = gobo
+ off,0,0 gobo1,64,64 gobo2,128,128 gobo3,192,192 gobo4,255,255
+
+Channel = shutter
+ dimmer,0,128 open,132,132 speed_strobe,140,243 open,255,255
+
+Channel = pan
+
+Channel = tilt
+

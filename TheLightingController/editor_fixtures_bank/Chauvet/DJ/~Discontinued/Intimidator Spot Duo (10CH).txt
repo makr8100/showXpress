@@ -1,0 +1,42 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 360
+ViewAngleTilt = 180
+ViewAngleBeam = 6
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/Intimidator Spot Duo.png
+
+Channel = pan
+ Pan,0,255
+
+Channel = tilt
+ Tilt,0,255
+
+Channel = color
+ white,0,15 orange,16,31 light_blue,32,47 red,48,63 green,64,79 pink,80,95 yellow,96,111 blue,112,127 Rainbow effect ,128,191 Reverse Rainbow effect,192,255
+
+Channel = gobo
+ Chauvet/small circle,0,9 metal/H4,10,15 metal/Flower Gobo,16,21 metal/Cloud Gobo,22,27 metal/RR1B8,28,33 metal/GM033,34,39 metal/Z03748-2,40,45 metal/shell Gobo,46,51 metal/Z04773-12,52,57 metal/GM044,58,63 Miscellaneous/shake_gobo9,64,69 Miscellaneous/shake_gobo8,70,75 Miscellaneous/shake_gobo7,76,81 Miscellaneous/shake_gobo6,82,87 Miscellaneous/shake_gobo5,88,93 Miscellaneous/shake_gobo4,94,99 Miscellaneous/shake_gobo3,100,105 Miscellaneous/shake_gobo2,106,111 Miscellaneous/shake_gobo1,112,117 Miscellaneous/open,118,127 Miscellaneous/right_rotate,128,191 Miscellaneous/left_rotate,192,255
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = shutter
+ no_function,0,3 open,4,7 Shutter with increasing speed,8,76 pulse_strobe,77,145 random_strobe,146,215 open,216,255
+
+Channel = speed_control
+ no_function,0,9 Pan/Tilt Blackout,10,14 Color blackout,15,19 Gobo blackout,20,24 Pan/Tilt/Color blackout,25,29 Pan/Tilt/Color blackout,30,34 color/gobo blackout,35,39 pan/tilr/color/gobo blackout,40,44 no_function,45,49 first two heads setting,50,54 latter two heads setting,55,59 cancel four heads,60,64 no_function,65,69 reset,70,74 no_function,75,79 Reverse pan/tilt for both heads,80,84 Reverse pan for head 1,85,89 Reverse pan for head 2,90,94 Reverse tilt for head 1,95,99 Reverse tilt for head 2,100,104 Cancel reverse pan for head 1,105,109 Cancel reverse pan for head 2,110,114 Cancel reverse tilt for head 1,115,119 Cancel reverse tilt for head 2	,120,124 Cancel reverse pan/tilt for both heads,125,129 no_function,130,135 Color chase 1 with increasing speed,136,175 Color chase 2 with increasing speed,176,215 Color chase 3 with increasing speed,216,225
+
+Channel = effect_macro
+ no_function,0,7 Auto program 1,8,22 Auto program 2,23,37 Auto program 3,38,52 Auto program 4,53,67 Auto program 5,68,82 Auto program 6,83,97 Auto program 7,98,112 Auto program 8,113,127 Auto program 9,128,142 Auto program 10,143,157 Auto program 11,158,172 Auto program 12,173,187 Auto program 13,188,202 Auto program 14,203,217 Auto program 15,218,232 Auto program 16,233,247 Sound-active program,248,255
+
+Channel = effect_speed
+ Fast to slow,0,255
+

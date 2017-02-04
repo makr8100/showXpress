@@ -1,0 +1,35 @@
+Name = BRITEQ_LEDPOWERBANK_(stage2m1)
+
+ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = dimmer
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = color_macro
+
+Channel = shutter
+ open,0,0 strobe,5,255
+
+Channel = color_cycle
+ open,0,0 macro_1,20,20 macro_2,50,50 macro_3,80,80 macro_4,110,110 macro_5,140,140 macro_6,170,170 macro_7,200,200 macro_8,230,230 dmx_mode_2,255,255
+
+Channel = ID_address_sel
+
+Channel = module_sel
+
+Channel = effect_macro
+

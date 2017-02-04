@@ -1,0 +1,39 @@
+Name = SHOWTEC_GENESISXII
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_250MSR
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = shutter
+
+Channel = dimmer
+
+Channel = color
+
+Channel = gobo
+
+Channel = gobo2
+
+Channel = gobo_rotate2
+
+Channel = focus
+
+Channel = prism
+
+Channel = prism_rotate
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+

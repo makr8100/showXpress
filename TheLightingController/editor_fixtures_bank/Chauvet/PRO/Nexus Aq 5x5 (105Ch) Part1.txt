@@ -1,0 +1,311 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = Red 1
+ dimmer,0,255 
+
+Channel = Green 1
+ dimmer,0,255 
+
+Channel = Blue 1
+ dimmer,0,255 
+
+Channel = White 1
+ dimmer,0,255 
+
+Channel = Red 2
+ dimmer,0,255 
+
+Channel = Green 2
+ dimmer,0,255 
+
+Channel = Blue 2
+ dimmer,0,255 
+
+Channel = White 2
+ dimmer,0,255 
+
+Channel = Red 3
+ dimmer,0,255 
+
+Channel = Green 3
+ dimmer,0,255 
+
+Channel = Blue 3
+ dimmer,0,255 
+
+Channel = White 3
+ dimmer,0,255 
+
+Channel = Red 4
+ dimmer,0,255 
+
+Channel = Green 4
+ dimmer,0,255 
+
+Channel = Blue 4
+ dimmer,0,255 
+
+Channel = White 4
+ dimmer,0,255 
+
+Channel = Red 5
+ dimmer,0,255 
+
+Channel = Green 5
+ dimmer,0,255 
+
+Channel = Blue 5
+ dimmer,0,255 
+
+Channel = White 5
+ dimmer,0,255 
+
+Channel = Red 6
+ dimmer,0,255 
+
+Channel = Green 6
+ dimmer,0,255 
+
+Channel = Blue 6
+ dimmer,0,255 
+
+Channel = White 6
+ dimmer,0,255 
+
+Channel = Red 7
+ dimmer,0,255 
+
+Channel = Green 7
+ dimmer,0,255 
+
+Channel = Blue 7
+ dimmer,0,255 
+
+Channel = White 7
+ dimmer,0,255 
+
+Channel = Red 8
+ dimmer,0,255 
+
+Channel = Green 8
+ dimmer,0,255 
+
+Channel = Blue 8
+ dimmer,0,255 
+
+Channel = White 8
+ dimmer,0,255 
+
+Channel = Red 9
+ dimmer,0,255 
+
+Channel = Green 9
+ dimmer,0,255 
+
+Channel = Blue 9
+ dimmer,0,255 
+
+Channel = White 9
+ dimmer,0,255 
+
+Channel = Red 10
+ dimmer,0,255 
+
+Channel = Green 10
+ dimmer,0,255 
+
+Channel = Blue 10
+ dimmer,0,255 
+
+Channel = White 10
+ dimmer,0,255 
+
+Channel = Red 11
+ dimmer,0,255 
+
+Channel = Green 11
+ dimmer,0,255 
+
+Channel = Blue 11
+ dimmer,0,255 
+
+Channel = White 11
+ dimmer,0,255 
+
+Channel = Red 12
+ dimmer,0,255 
+
+Channel = Green 12
+ dimmer,0,255 
+
+Channel = Blue 12
+ dimmer,0,255 
+
+Channel = White 12
+ dimmer,0,255 
+
+Channel = Red 13
+ dimmer,0,255 
+
+Channel = Green 13
+ dimmer,0,255 
+
+Channel = Blue 13
+ dimmer,0,255 
+
+Channel = White 13
+ dimmer,0,255 
+
+Channel = Red 14
+ dimmer,0,255 
+
+Channel = Green 14
+ dimmer,0,255 
+
+Channel = Blue 14
+ dimmer,0,255 
+
+Channel = White 14
+ dimmer,0,255 
+
+Channel = Red 15
+ dimmer,0,255 
+
+Channel = Green 15
+ dimmer,0,255 
+
+Channel = Blue 15
+ dimmer,0,255 
+
+Channel = White 15
+ dimmer,0,255 
+
+Channel = Red 16
+ dimmer,0,255 
+
+Channel = Green 16
+ dimmer,0,255 
+
+Channel = Blue 16
+ dimmer,0,255 
+
+Channel = White 16
+ dimmer,0,255 
+
+Channel = Red 17
+ dimmer,0,255 
+
+Channel = Green 17
+ dimmer,0,255 
+
+Channel = Blue 17
+ dimmer,0,255 
+
+Channel = White 17
+ dimmer,0,255 
+
+Channel = Red 18
+ dimmer,0,255 
+
+Channel = Green 18
+ dimmer,0,255 
+
+Channel = Blue 18
+ dimmer,0,255 
+
+Channel = White 18
+ dimmer,0,255 
+
+Channel = Red 19
+ dimmer,0,255 
+
+Channel = Green 19
+ dimmer,0,255 
+
+Channel = Blue 19
+ dimmer,0,255 
+
+Channel = White 19
+ dimmer,0,255 
+
+Channel = Red 20
+ dimmer,0,255 
+
+Channel = Green 20
+ dimmer,0,255 
+
+Channel = Blue 20
+ dimmer,0,255 
+
+Channel = White 20
+ dimmer,0,255 
+
+Channel = Red 21
+ dimmer,0,255 
+
+Channel = Green 21
+ dimmer,0,255 
+
+Channel = Blue 21
+ dimmer,0,255 
+
+Channel = White 21
+ dimmer,0,255 
+
+Channel = Red 22
+ dimmer,0,255 
+
+Channel = Green 22
+ dimmer,0,255 
+
+Channel = Blue 22
+ dimmer,0,255 
+
+Channel = White 22
+ dimmer,0,255 
+
+Channel = Red 23
+ dimmer,0,255 
+
+Channel = Green 23
+ dimmer,0,255 
+
+Channel = Blue 23
+ dimmer,0,255 
+
+Channel = White 23
+ dimmer,0,255 
+
+Channel = Red 24
+ dimmer,0,255 
+
+Channel = Green 24
+ dimmer,0,255 
+
+Channel = Blue 24
+ dimmer,0,255 
+
+Channel = White 24
+ dimmer,0,255 
+
+Channel = Red 25
+ dimmer,0,255 
+
+Channel = Green 25
+ dimmer,0,255 
+
+Channel = Blue 25
+ dimmer,0,255 
+
+Channel = White 25
+ dimmer,0,255 

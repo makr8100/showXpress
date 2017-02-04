@@ -1,0 +1,14 @@
+﻿ViewType = VIEW_TYPE_PAR_CAN
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 30
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 65535
+2DViewImage = 
+
+Channel = par_can_yellow
+

@@ -1,0 +1,39 @@
+﻿ViewType = VIEW_TYPE_HEAD_WASH
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = TRUE
+ViewReverseTilt = TRUE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Contest/Club series/HEZO-120Z .png
+
+Channel = pan
+
+Channel = tilt
+
+Channel = pantilt_speed
+
+Channel = dimmer
+
+Channel = shutter
+ closed,0,19 open,20,24 strobe,25,64 open,65,69 pulse_strobe,70,84 open,85,89 reverse_pulse_strobe,90,104 open,105,109 random_strobe,110,124 open,125,129 random_pulse,130,144 open,145,149 random_reverse_pulse,150,164 open,165,169 explose_pulse,170,184 open,185,189 random_explose_pulse,190,204 open,205,209 sinusoïd,210,224 open,225,229 explose,230,244 open,245,255 
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = color
+ open,0,13 red,14,25 orange,26,37 cyan,38,49 green,50,61 light_green,62,73 pastel_cerulean_blue,74,85 pink,86,97 yellow,98,109 purple,110,121 blue,122,133 3500-5600K,134,145 4000K,146,157 5500-3400K,158,169 uv,170,182 right_rotate,183,201 stop,202,207 left_rotate,208,229 open,230,234 macro_1,235,239 macro_2,240,244 macro_3,245,249 open,250,255 
+
+Channel = zoom
+
+Channel = control
+ no_function,0,79 reset_xy,80,87 reset,88,90 no_function,91,160 pattern_01,161,180 pattern_02,181,200 pattern_03,201,220 pattern_04,221,240 audio,241,255 
+

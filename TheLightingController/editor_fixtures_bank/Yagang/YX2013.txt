@@ -1,0 +1,62 @@
+Name = YX2013
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = control
+ new_level,0,255
+
+Channel = color
+
+Channel = gobo
+
+Channel = _no_icon
+
+Channel = _no_icon
+
+Channel = _no_icon
+
+Channel = _no_icon
+
+Channel = _no_icon
+
+Channel = _no_icon
+
+Channel = _no_icon
+
+Channel = _no_icon
+
+Channel = _no_icon
+
+Channel = _no_icon
+
+Channel = _no_icon
+
+Channel = _no_icon
+
+Channel = _no_icon
+
+Channel = _no_icon
+
+Channel = _no_icon
+
+Channel = _no_icon
+
+Channel = _no_icon
+
+Channel = _no_icon
+
+Channel = _no_icon
+
+Channel = _no_icon
+
+Channel = _no_icon
+

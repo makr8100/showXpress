@@ -1,0 +1,34 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = shutter
+ closed,0,0 strobe,10,255 
+
+Channel = dimmer
+
+Channel = motor
+ index,0,127 rotate,128,255 
+
+Channel = color_macro
+ no_function,0,0 mixing,10,84 fading,85,255 
+
+Channel = control
+ dmx,0,0 auto,10,255 
+

@@ -1,0 +1,39 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/ILUMINARC/Panel90WA-2D.png
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = red
+ Red,0,255
+
+Channel = green
+ Green,0,255
+
+Channel = blue
+ Blue,0,255
+
+Channel = white
+ White,0,255
+
+Channel = amber
+ Amber,0,255
+
+Channel = color_macro
+ no_function,0,10 Red 100%/ Green Up/ Blue 0%,11,35 Red Down/ Green 100%/ Blue 0%,36,60 Red 0%/ Green 100%/ Blue Up,61,85 Red 0%/ Green Down/ Blue 100%,86,110 Red Up/ Green 0%/ Blue 100%,111,135 Red 100%/ Green 0%/ Blue 100%,136,160 Red 100%/ Green Up/ Blue Up,161,185 Red Down/ Green Down/ Blue 100%,186,210 White 1: 3200K,211,215 White 2: 3400K,216,220 White 3: 4200K,221,225 White 4: 4900K,226,230 White 5: 5600K,231,235 White 6: 5900K,236,240 White 7: 6500K,241,245 White 8: 7200K,246,250 White 9: 8000K,251,255
+
+Channel = shutter
+ no_function,0,5 strobe,6,255
+
+Channel = Dim Speed
+ no_function,0,9 Linear Dimmer,10,29 Nonlinear dimming curve 1 (fastest),30,69 Nonlinear dimming curve 2,70,129 Nonlinear dimming curve 3,130,189 Nonlinear dimming curve 4 (slowest),190,255
+

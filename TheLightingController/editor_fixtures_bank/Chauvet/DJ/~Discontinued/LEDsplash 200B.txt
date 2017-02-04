@@ -1,0 +1,30 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 30
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+2DViewImage = Chauvet/LEDsplash200B.png
+
+Channel = control
+ RGB,0,29 pulse_strobe,30,119 Perset Color Macro,120,149 Chase,150,179 auto,180,209 Chase with fade,210,239 audio,240,255
+
+Channel = red
+ new_level,0,255
+
+Channel = green
+ new_level,0,255
+
+Channel = blue
+ new_level,0,255
+
+Channel = shutter
+ strobe,0,255
+
+Channel = dimmer
+ dimmer,0,255
+

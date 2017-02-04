@@ -1,0 +1,46 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 540
+ViewAngleTilt = 170
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = amber
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = tilt2
+
+Channel = utilt2
+
+Channel = dimmer
+
+Channel = led_fade_time
+ fast,0,0 slow,255,255 
+
+Channel = motor_speed
+ fast,0,0 slow,255,255 
+
+Channel = shutter
+ open,0,0 strobe,2,127 rainbow_flash,128,255 
+
+Channel = control
+ no_function,0,0 reset,160,160 
+

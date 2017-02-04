@@ -1,0 +1,86 @@
+Name = ROBE_COLORSPOT575AT
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_575MSR
+ViewAnglePan = 530
+ViewAngleTilt = 280
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+ max,0,0 index,1,255
+
+Channel = control
+ reserved,0,49 speed_mode,55,55 time_mode,65,65 blackmov,75,75 blackmov_off,85,85 blackcol,95,95 blackcol_off,105,105 blackgob,115,115 blackgob_off,125,125 lamp_on,135,135 mov_reset,145,145 color_reset,155,155 gobo_reset,165,165 dimmer_reset,175,175 focus_reset,185,185 iris_reset,195,195 reset,205,205 reserved,220,220 lamp_off,240,240 reserved,255,255
+
+Channel = macro
+ stop,0,0 reserved,20,20 circle,32,63 horizontal,64,95 vertical,96,127 rectangle,128,159 triangle,160,191 star,192,223 cross,224,255
+
+Channel = macro_speed
+ stop,0,0 right_rotate,1,127 left_rotate,130,255
+
+Channel = color
+ white,0,0 light_blue,13,13 red,26,26 blue,39,39 light_green,52,52 yellow,65,65 magenta,78,78 cyan,91,91 green,104,104 orange,117,117 right_rotate,190,215 stop,217,217 left_rotate,218,243 audio,246,246 random,255,255
+
+Channel = color1_fine
+
+Channel = color
+ white,0,0 dark_red,14,14 dark_blue,28,28 pink,42,42 cyan,56,56 magenta,70,70 yellow,84,84 3200-4100k,98,98 uv,112,112 right_rotate,190,215 stop,217,217 left_rotate,218,243 audio,246,246 random,255,255
+
+Channel = color2_fine
+
+Channel = gobo
+ Miscellaneous\open,0,58 Miscellaneous\gobo1,67,67 Miscellaneous\gobo2,72,72 Miscellaneous\gobo3,77,77 Miscellaneous\gobo4,82,82 Miscellaneous\gobo5,87,87 Miscellaneous\gobo6,92,92 Miscellaneous\gobo7,97,97 Miscellaneous\gobo8,102,102 Miscellaneous\gobo9,107,107 shake_gobo1,110,119 shake_gobo2,120,129 shake_gobo3,130,139 shake_gobo4,140,149 shake_gobo5,150,159 shake_gobo6,160,169 shake_gobo7,170,179 shake_gobo8,180,189 shake_gobo9,190,199 Miscellaneous\right_rotate,202,221 Miscellaneous\stop,223,223 Miscellaneous\left_rotate,224,243 audio,246,246 random,255,255
+
+Channel = gobo_urotate
+
+Channel = gobo2
+ Miscellaneous\open,0,0 Miscellaneous\gobo1,5,5 Miscellaneous\gobo2,9,9 Miscellaneous\gobo3,13,13 Miscellaneous\gobo4,17,17 Miscellaneous\gobo5,21,21 Miscellaneous\gobo6,25,25 Miscellaneous\gobo7,29,29 rotate_gobo1,33,33 rotate_gobo2,37,37 rotate_gobo3,41,41 rotate_gobo4,45,45 rotate_gobo5,49,49 rotate_gobo6,53,53 rotate_gobo7,57,57 shake_gobo1,60,69 shake_gobo2,70,79 shake_gobo3,80,89 shake_gobo4,90,99 shake_gobo5,100,109 shake_gobo6,110,119 shake_gobo7,120,129 Miscellaneous\right_rotate,202,221 Miscellaneous\stop,223,223 Miscellaneous\left_rotate,224,243 audio,246,246 random,255,255
+
+Channel = gobo_rotate2
+ stop,0,0 right_rotate,1,127 left_rotate,130,255
+
+Channel = gobo_urotate2
+
+Channel = prism
+ open,0,0 3facet_rotate,74,74 macro1,131,131 macro2,139,139 macro3,147,147 macro4,155,155 macro5,163,163 macro6,171,171 macro7,179,179 macro8,187,187 macro9,195,195 macro10,203,203 macro11,211,211 macro12,219,219 macro13,227,227 macro14,235,235 macro15,243,243 macro16,255,255
+
+Channel = prism_rotate
+ stop,0,0 right_rotate,1,127 left_rotate,130,255
+
+Channel = frost
+ open,0,0 index,1,189 pulse_closing,190,211 pluse_opening,212,233 ramping,234,255
+
+Channel = frost_fine
+
+Channel = iris
+ open,0,0 closing,1,179 closed,185,185 pulse_opening,192,219 pulse_closing,220,247 random_open,248,251 random_close,252,255
+
+Channel = iris_fine
+
+Channel = beam
+ 15°,0,0 18°,60,60 22°,103,103 15°,148,148 18°,195,195 22°,255,255
+
+Channel = focus
+
+Channel = focus_fine
+
+Channel = shutter
+ closed,0,0 strobe,64,95 pulse_opening,128,143 pulse_closing,144,159 random,192,223 open,255,255
+
+Channel = dimmer
+
+Channel = dimmer_fine
+

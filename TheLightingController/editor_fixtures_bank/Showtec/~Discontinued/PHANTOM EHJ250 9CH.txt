@@ -1,0 +1,35 @@
+Name = PHANTOM_EHJ250_9CH
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = pan
+
+Channel = tilt
+
+Channel = upan
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = shutter
+ closed,0,3 dimmer,4,63 strobe,64,95 open,96,159 Pulse Effect 1,160,191 Pulse Effect 2,192,223 open,224,255
+
+Channel = gobo
+ Showtec\Scorpion_09,0,15 GOBO 1,16,31 GOBO 2,32,47 GOBO 3,48,63 GOBO 4,64,79 GOBO 5,80,95 GOBO 6,96,111 GOBO 7,112,127 Showtec\Scorpion_09,128,132 SHAKE 1,133,144 SHAKE 2,145,156 SHAKE 3,157,168 SHAKE 4,169,180 SHAKE 5,181,192 SHAKE 6,193,204 SHAKE 7,205,216 SHAKE 8,217,228 GOBOWH ROTATE,229,255
+
+Channel = color
+ white,0,12 red,13,24 blue,25,37 yellow,38,49 green,50,62 pink,63,74 blacklight,75,87 light_blue,88,99 orange,100,112 purple,113,127 LINEAR,128,190 rotate,191,220 stop,221,225 rotate,226,255
+
+Channel = gobo_rotate
+ INDEX,0,127 right_rotate,128,189 stop,190,193 left_rotate,194,255
+

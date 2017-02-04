@@ -1,0 +1,25 @@
+Name = MARTIN_DESTROYER_V1
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = shutter
+ lamp_off,0,0 lamp_on,69,69 speed_strobe,128,255
+
+Channel = control
+ off,0,0 music_trigger,70,70 controller_tri,255,255
+
+Channel = pantilt_speed
+ clock,0,91 stop,95,95 counterclock,100,189 random_slow,190,231 randow_fast,232,255
+
+Channel = control
+ 0_seconds,0,0 0.2_-_9.9_sec,6,252 random,255,255
+
+Channel = gobo
+ blackout,0,0 21°,13,13 magenta_cross,28,28 cyan_triangle,44,44 red_pin,60,60 blue_window,76,76 phone,92,92 orange_pin,108,108 big_star,124,124 pin,140,140 dj_multi1,156,156 orange_3pin,172,172 thin_bar,188,188 no_effect,220,220 random,255,255
+

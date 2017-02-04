@@ -1,0 +1,72 @@
+﻿ViewType = VIEW_TYPE_HEAD_WASH
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 20
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+2DViewImage = Chauvet/DJ/COLORband Pix M.png
+
+Channel = red
+ Red,0,255
+
+Channel = green
+ Green,0,255
+
+Channel = blue
+ Blue,0,255
+
+Channel = red
+ red,0,255
+
+Channel = green
+ green,0,255
+
+Channel = blue
+ blue,0,255
+
+Channel = red
+ red,0,255
+
+Channel = green
+ green,0,255
+
+Channel = blue
+ blue,0,255
+
+Channel = red
+ red,0,255
+
+Channel = green
+ green,0,255
+
+Channel = blue
+ blue,0,255
+
+Channel = red
+ red,0,255
+
+Channel = green
+ green,0,255
+
+Channel = blue
+ blue,0,255
+
+Channel = red
+ red,0,255
+
+Channel = green
+ green,0,255
+
+Channel = blue
+ blue,0,255
+
+Channel = tilt
+ Tilt,0,255
+
+Channel = pantilt_speed
+ Tilt Speed,0,255
+

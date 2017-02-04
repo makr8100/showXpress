@@ -1,0 +1,22 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED60W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 32
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = color
+ color1,0,0 color2,10,10 color3,17,17 color4,24,24 color5,32,32 color6,38,38 color7,45,45 color8,52,52 color9,60,60 color10,66,66 color11,73,73 color12,80,80 color13,88,88 color14,94,94 color15,102,102 color16,108,108 color17,115,115 color18,122,122 color19,129,129 color20,136,136 color21,143,143 color22,150,150 color23,157,157 color24,164,164 color25,171,171 color26,178,178 color27,185,185 color28,192,192 color29,199,199 color30,207,207 color31,213,213 color32,220,220 fade_mode,230,230 chaser_mode,255,255
+
+Channel = color_macro
+ red-green-yellow-blue,0,0 red_yellow_orange_cyan,30,30 pink-blue-green-red,50,50 random,70,70 preprogrammed,90,90 orange-pink,115,115 red-cyan,135,135 green-pink,155,155 blue-red,175,175 yellow-blue,200,200 red-green,220,220 yellow-green,255,255
+
+Channel = effect_speed
+ slow,0,0 fast,255,255 
+
+Channel = dimmer
+

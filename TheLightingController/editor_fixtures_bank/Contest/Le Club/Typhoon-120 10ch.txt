@@ -1,0 +1,35 @@
+﻿ViewType = VIEW_TYPE_HEAD_WASH
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Contest/Club series/TYPHOON-120 .png
+
+Channel = pan
+
+Channel = tilt
+
+Channel = dimmer
+
+Channel = shutter
+ open,0,19 strobe,20,39 macro_1,40,59 macro_2,60,79 macro_3,80,99 macro_4,100,119 macro_5,120,139 pattern_01,140,159 pattern_02,160,179 pattern_03,180,199 pattern_04,200,219 
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = animation_rotary
+ index,53,127 left_rotate,128,189 stop,190,193 right_rotate,194,255 
+
+Channel = control
+ no_function,0,7 reset_xy,8,69 reset,70,129 blackout_moves,130,190 audio,191,255 
+

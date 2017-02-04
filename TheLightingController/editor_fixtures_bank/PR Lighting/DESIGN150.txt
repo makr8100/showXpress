@@ -1,0 +1,23 @@
+Name = PEARL-RIVER_DESIGN150
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = dimmer
+
+Channel = shutter
+ open,0,0 closed,1,1 cmy,2,255
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = yellow
+
+Channel = effect_speed
+

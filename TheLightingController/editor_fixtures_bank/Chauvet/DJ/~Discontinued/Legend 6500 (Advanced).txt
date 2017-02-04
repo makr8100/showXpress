@@ -1,0 +1,48 @@
+Name = Legend 6500 (Advanced)
+
+ViewType = VIEW_TYPE_HEAD_WASH
+ViewPower = VIEW_POWER_250MSR
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 6
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = red
+ new_level,0,255
+
+Channel = green
+ new_level,0,255
+
+Channel = blue
+ new_level,0,255
+
+Channel = white
+ new_level,0,255
+
+Channel = color
+ no_function,0,5 mixed,6,165 no_function,166,190 mixed,191,200 3200,201,205 3400,206,210 4200,211,215 4900,216,220 5600,221,225 5900,226,230 6500,231,235 7200,236,240 8000,241,245 9500,246,250 10000,251,255
+
+Channel = dimmer
+ new_level,0,255
+
+Channel = shutter
+
+Channel = rgb_vector
+
+Channel = control
+ no_function,0,19 blackout_on,20,39 blackout_off,40,59 fan_auto,60,79 fan1,80,99 fan2,100,119 fan3,120,139 no_function,140,149 auto1,150,159 auto2,160,169 test,170,179 custom,180,189 no_function,190,199 reset,200,219 no_function,220,255
+

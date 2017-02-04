@@ -1,0 +1,34 @@
+Name = TANG_DH10
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16776153
+
+Channel = mode
+ off,0,0 static_patterns,70,70 dynamic_patterns,125,125 audio,175,175 auto,255,255
+
+Channel = pattern
+ circle,0,0 dot_circle1,7,7 dot_circle1,12,12 scan_circle,17,17 horizontal_line,22,22 hori_dot_line,27,27 vertical_line,32,32 vert_dot_line,37,37 45°_diagonal,42,42 dot_diagonal,47,47 135°_diagonal,52,52 dot_diagonal,57,57 V_line1,62,62 V_dot_line1,67,67 V_line2,70,70 V_dot_line2,75,75 triangle1,82,82 dot_triangle1,87,87 triangle2,92,92 dot_triangle2,97,97 square,102,102 dot_square,107,107 rectangle1,112,112 dot_rectangle1,117,117 rectangle2,122,122 dot_rectangle2,127,127 christcross,132,132 chiasma_line,137,137 hor_extend_line,142,142 hori_shrink_line,147,147 hori_flex_line,152,152 ver_extend_line,162,162 vert_shrink_line,167,167 vert_flex_line,172,172 ve_flex_dot_line,177,177 ladder_line1,182,182 ladder_line2,187,187 ladder_line3,192,192 ladder_line4,197,197 tetragon1,200,200 tetragon2,207,207 pentagon1,212,212 pentagon2,217,217 pentagon3,222,222 pentagon4,227,227 wave_line,232,232 wave_dot_line,237,237 spirality_line,242,242 many_dot1,247,247 many_dot2,252,252 square_dot,255,255
+
+Channel = pan
+ left,0,0 right,255,255
+
+Channel = tilt
+ top,0,0 bottom,255,255
+
+Channel = pantilt_speed
+ fast,0,0 slow,255,255
+
+Channel = speed_(dyn)
+ fast,0,0 slow,255,255
+
+Channel = size_(sta)
+ small,0,0 big,255,255
+

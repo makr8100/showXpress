@@ -1,0 +1,26 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = shutter
+ open,0,0 shaking,15,135 strobe,137,255
+
+Channel = gobo
+ Miscellaneous/closed,0,0 Miscellaneous/open,12,12 Contest/Z04771-3,20,20 Miscellaneous/gobo2,28,28 Chauvet/gobo3_100,36,36 Miscellaneous/gobo4,44,44 Chauvet/gobo5_100,52,52 Miscellaneous/gobo6,60,60 Chauvet/gobo7_100,68,68 Contest/Z04806-4,76,76 Miscellaneous/gobo9,84,84 Miscellaneous/gobo10,92,92 Miscellaneous/gobo11,100,100 Miscellaneous/gobo12,108,108 Miscellaneous/gobo13,116,116 Chauvet/gobo14_100,124,124 Miscellaneous/rotate,130,255
+
+Channel = reflector_mirror
+ stop,0,0 left_rotate,10,121 right_rotate,135,246 stop,255,255
+
+Channel = barrel
+
+Channel = barrel_rotate
+ stop,0,0 left_rotate,10,121 right_rotate,135,246 stop,255,255
+

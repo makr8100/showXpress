@@ -1,0 +1,38 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = lens1
+ closed,0,0 red,17,17 green,31,31 group1,59,59 group2,73,73 group3,87,87 white_on,101,101 red_green,115,115 red_blue,129,129 green_blue,142,142 red_white,157,157 green_white,171,171 blue_white,185,185 red_green_blue,201,201 red_green_white,214,214 green_blue_white,227,227 red_green_blue_white,255,255
+
+Channel = lens2
+ closed,0,0 red,17,17 green,31,31 group1,59,59 group2,73,73 group3,87,87 white_on,101,101 red_green,115,115 red_blue,129,129 green_blue,142,142 red_white,157,157 green_white,171,171 blue_white,185,185 red_green_blue,201,201 red_green_white,214,214 green_blue_white,227,227 red_green_blue_white,255,255
+
+Channel = lens3
+ closed,0,0 red,17,17 green,31,31 group1,59,59 group2,73,73 group3,87,87 white_on,101,101 red_green,115,115 red_blue,129,129 green_blue,142,142 red_white,157,157 green_white,171,171 blue_white,185,185 red_green_blue,201,201 red_green_white,214,214 green_blue_white,227,227 red_green_blue_white,255,255
+
+Channel = lens4
+ closed,0,0 red,17,17 green,31,31 group1,59,59 group2,73,73 group3,87,87 white_on,101,101 red_green,115,115 red_blue,129,129 green_blue,142,142 red_white,157,157 green_white,171,171 blue_white,185,185 red_green_blue,201,201 red_green_white,214,214 green_blue_white,227,227 red_green_blue_white,255,255
+
+Channel = lens5
+ closed,0,0 red,17,17 green,31,31 group1,59,59 group2,73,73 group3,87,87 white_on,101,101 red_green,115,115 red_blue,129,129 green_blue,142,142 red_white,157,157 green_white,171,171 blue_white,185,185 red_green_blue,201,201 red_green_white,214,214 green_blue_white,227,227 red_green_blue_white,255,255
+
+Channel = lens6
+ closed,0,0 red,17,17 green,31,31 group1,59,59 group2,73,73 group3,87,87 white_on,101,101 red_green,115,115 red_blue,129,129 green_blue,142,142 red_white,157,157 green_white,171,171 blue_white,185,185 red_green_blue,201,201 red_green_white,214,214 green_blue_white,227,227 red_green_blue_white,255,255
+
+Channel = lens7
+ closed,0,0 red,17,17 green,31,31 group1,59,59 group2,73,73 group3,87,87 white_on,101,101 red_green,115,115 red_blue,129,129 green_blue,142,142 red_white,157,157 green_white,171,171 blue_white,185,185 red_green_blue,201,201 red_green_white,214,214 green_blue_white,227,227 red_green_blue_white,255,255
+
+Channel = shutter
+ open,0,0 strobe,11,255 
+
+Channel = animation
+ no_function,0,0 macro_1,20,20 macro_2,40,40 macro_3,60,60 macro_4,80,80 macro_5,100,100 macro_6,120,120 macro_7,140,140 macro_8,160,160 macro_9,180,180 macro_10,200,200 macro_11,220,220 auto,240,240 audio,255,255 
+

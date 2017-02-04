@@ -1,0 +1,24 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Contest/Light DJ/FLASHBEAM .png
+
+Channel = beam_effect_macro
+ No function,0,9 macro_1,10,19 macro_2,20,29 macro_3,30,39 macro_4,40,49 macro_5,50,59 macro_6,60,69 macro_7,70,79 macro_8,80,89 macro_9,90,99 macro_10,100,109 macro_11,110,119 macro_12,120,129 macro_13,130,139 macro_14,140,149 macro_15,150,159 macro_16,160,169 macro_17,170,179 macro_18,180,189 macro_19,190,199 macro_20,200,209 macro_21,210,219 macro_22,220,229 macro_23,230,239 macro_24,240,255 
+
+Channel = beam_effect_mode
+ speed_control,0,243 audio,244,255 
+
+Channel = flash_macro
+ No function,0,9 macro_1,10,31 macro_2,32,53 macro_3,54,75 macro_4,76,97 macro_5,98,119 macro_6,120,141 macro_7,142,163 macro_8,164,185 macro_9,186,207 macro_10,208,229 macro_11,230,255 
+
+Channel = flash_mode
+ speed_control,0,243 audio,244,255 
+

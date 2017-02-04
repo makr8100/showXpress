@@ -1,0 +1,56 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 540
+ViewAngleTilt = 250
+ViewAngleBeam = 24
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = color
+ white,0,0 red,17,17 aquamarine,31,31 lavender,45,45 light_green,59,59 yellow,73,73 magenta,87,87 cyan,99,99 blue,115,115 rotate,128,255
+
+Channel = color2
+ white,0,0 3000K,20,20 2500K,34,34 CTB,48,48 orange,62,62 half_minus_green,76,76 green,90,90 pink,104,104 uv,118,118 rotate,128,255
+
+Channel = shutter
+ closed,0,0 strobe,4,103 pulse_strobe,108,207 random_strobe,213,251 open,255,255
+
+Channel = dimmer
+
+Channel = gobo
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,12,12 Miscellaneous/gobo2,20,20 Miscellaneous/gobo3,28,28 Miscellaneous/gobo4,36,36 Miscellaneous/gobo5,44,44 Miscellaneous/gobo6,52,52 Miscellaneous/gobo7,60,60 Miscellaneous/gobo8,68,68 Miscellaneous/rotate,118,159 Miscellaneous/shake_gobo2,160,175 Miscellaneous/shake_gobo3,176,191 Miscellaneous/shake_gobo4,192,207 Miscellaneous/shake_gobo5,208,223 Miscellaneous/shake_gobo6,224,239 Miscellaneous/shake_gobo7,240,255
+
+Channel = gobo2
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,24,24 Miscellaneous/gobo2,40,40 Miscellaneous/gobo3,55,55 Miscellaneous/gobo4,70,70 Miscellaneous/gobo5,88,88 Miscellaneous/gobo6,104,104 Miscellaneous/gobo7,117,117 Miscellaneous/shake_gobo1,130,147 Miscellaneous/shake_gobo2,148,165 Miscellaneous/shake_gobo3,166,183 Miscellaneous/shake_gobo4,184,201 Miscellaneous/shake_gobo5,208,223 Miscellaneous/shake_gobo6,224,239 Miscellaneous/shake_gobo7,240,255
+
+Channel = gobo_rotate2
+ index,0,127 rotate,193,255
+
+Channel = gobo_urotate2
+
+Channel = prism
+ no_function,0,0 prism_5,255,255
+
+Channel = prism_rotate
+ index,0,127 rotate,193,255
+
+Channel = focus
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = control
+ no_function,0,0 reset_others,25,25 reset_xy,77,77 reset,255,255
+
+Channel = lamp
+ no_function,0,0 lamp_off,100,100 lamp_on,255,255
+

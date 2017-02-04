@@ -1,0 +1,24 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = mode
+ closed,0,0 Sync. Show,10,85 2-Light Show,86,160 4-Light Show,161,239 audio,255,255
+
+Channel = pattern
+ macro_1,0,20 macro_2,21,43 macro_3,44,65 macro_4,66,87 macro_5,88,108 macro_6,109,129 macro_7,130,151 macro_8,152,172 macro_9,173,193 macro_10,194,214 macro_11,215,235 macro_12,236,255
+
+Channel = effect_speed
+ Slow - Fast,0,255
+
+Channel = shutter
+ open,0,0 strobe,10,255 
+

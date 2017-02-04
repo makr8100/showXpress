@@ -1,0 +1,27 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = Strobe Intensity
+ no_function,0,5 Intensity (Minimum to Maximum),6,255 
+
+Channel = Strobe Duration
+ Strobe Duration,0,255 
+
+Channel = Strobe Rate
+ no_function,0,5 1Hz-30Hz,6,255 
+
+Channel = Special Effects
+ no_function,0,5 Ramp up,6,42 Ramp Down,43,85 Ramp up-down,86,128 Random,129,171 Lighting Effect,172,214 Spikes Effect,215,255 
+
+Channel = Pixel Control Macros
+ no_function,0,5 Macro 1 (slow to fast),6,42 Macro 2 (slow to fast),43,85 Macro 3 (slow to fast),86,128 Macro 4 (slow to fast),129,171 Macro 5 (slow to fast),172,214 Macro 6 (slow to fast),215,255 
+

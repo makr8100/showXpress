@@ -1,0 +1,37 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED60W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 32
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = dimmer
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = color_macro
+ open,0,0 R+Gup,20,20 Rdown+G,40,40 G+Bup,60,60 Gdown+B,80,80 Rup+B,100,100 R+Bdown,120,120 R+Gup+Bup,140,140 Rdown+Gdown+B,160,160 R+G+B+W,185,185 3200K,203,203 3400K,208,208 4200K,213,213 4900K,219,219 5600K,223,223 5900K,228,228 6500K,233,233 7200K,238,238 8000K,243,243 8500K,248,248 10000K,255,255
+
+Channel = shutter
+ open,0,0 strobe,11,255
+
+Channel = animation
+ stop,0,0 auto1,25,25 auto2,35,35 auto3,45,45 auto4,55,55 auto5,65,65 auto6,75,75 auto7,85,85 auto8,95,95 auto9,105,105 auto10,115,115 custom1,125,125 custom2,135,135 custom3,145,145 custom4,155,155 custom5,165,165 custom6,175,175 custom7,185,185 custom8,195,195 custom9,205,205 custom10,215,215
+
+Channel = animation_speed
+
+Channel = dimmer_speed
+ preset,0,0 linear,20,20 non_linear1,45,45 non_linear2,100,100 non_linear3,160,160 non_linear4,255,255
+
+Channel = ID_address
+

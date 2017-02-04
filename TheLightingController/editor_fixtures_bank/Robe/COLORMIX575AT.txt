@@ -1,0 +1,46 @@
+Name = ROBE_COLORMIX575AT
+
+ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_575MSR
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = control
+ blackout_col,95,95 blackout_off,105,105 lamp_on,135,135 color_reset,155,155 strobe_reset,175,175 zoom_reset,185,185 effect_reset,195,195 reset,205,205 lamp_off,235,235
+
+Channel = color
+ open,0,15 dark_red,16,31 blue,32,47 green,48,63 orange,64,79 3200-4100k,80,95 5500-4200k,96,111 uv,112,127 white,128,129 dark_red,134,134 blue,143,143 green,151,151 orange,160,160 3200-4100k,168,168 5500-4200k,177,177 uv,185,185 right_rotate,190,215 stop,216,216 left_rotate,218,243 audio,247,247 auto,255,255
+
+Channel = color_rotate
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = yellow
+
+Channel = cmy_spped
+
+Channel = cmy
+ off,0,0 macro1,11,11 macro2,19,19 macro3,27,27 macro4,35,35 macro5,43,43 macro6,51,51 macro7,59,59 macro8,67,67 macro9,75,75 macro10,83,83 macro11,91,91 macro12,99,99 macro13,107,107 macro14,115,115 macro15,123,123 macro16,131,131 macro17,139,139 macro18,147,147 macro19,155,155 macro20,163,163 macro21,171,171 macro22,179,179 macro23,187,187 macro24,195,195 macro25,203,203 macro26,211,211 macro27,219,219 macro28,227,227 macro29,235,235 macro30,240,243 audio,247,247 auto,250,255
+
+Channel = effect
+  full_beam,0,0 shaper,71,179 swivelling,180,199 frost,255,255
+
+Channel = focus
+
+Channel = ufocus
+
+Channel = shutter
+ closed,0,0 strobe,64,95 pulse_opening,128,143 pulse_closing,144,159 auto,175,175 random_strobe,192,223 open,255,255
+
+Channel = dimmer
+
+Channel = udimmer
+

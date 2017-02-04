@@ -1,0 +1,94 @@
+﻿ViewType = VIEW_TYPE_HEAD_WASH
+ViewPower = VIEW_POWER_LAMP700W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 24
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = red
+
+Channel = ured
+
+Channel = green
+
+Channel = ugreen
+
+Channel = blue
+
+Channel = ublue
+
+Channel = white
+
+Channel = uwhite
+
+Channel = linear_CTO
+ no_function,0,0 8000K,10,10 7000K,54,54 6000K,99,99 5600K,117,117 5000K,144,144 4000K,188,188 3200K,224,224 2500K,255,255
+
+Channel = color_macro
+ no_function,0,0 red,10,10 green,11,11 blue,12,12 cyan,13,13 yellow,14,14 magenta,15,15 7000K,16,16 3700K	,17,17 5000K,18,18 Black,19,19 Medium Yellow,20,22 Straw Tint,23,26 Surprise Peach,27,28 Fire,29,29 Medium Amber,30,30 Gold Amber,31,31 Dark Amber,32,34 Sunrise Red,35,44 Light Pink,45,45 Medium Pink,46,48 Pink Carnation,49,61 Light Lavender,62,67 Lavender,68,77 Sky Blue,78,88 Just Blue,89,99 Deep Yellow,100,109 Spring Yellow,110,111 Light Amber,112,112 Straw,113,113 Deep Amber,114,114 Orange,115,116 Light Rose,117,117 English Rose,118,118 Light Salmon,119,119 Middle Rose,120,120 Dark Pink,121,122 Magenta,123,124 Peacock Blue,125,125 Med Blu Grn,126,126 Steel Blue,127,127 Light Blue,128,128 Dark Blue,129,130 Leaf Green,131,133 Dark Green,134,135 Mauve,136,137 Bright Pink,138,141 Med Blue,142,144 Deep Amber,145,145 Pale Lavender,146,146 Special Lavender,147,148 Primary Green,149,150 Bright Blue,151,156 Apricot,157,161 Pale Gold,162,167 Deep Orange,168,171 Bastard Amber,172,173 Flame Red,174,174 Daylight Blue,175,178 Lilac Tint,179,179 Deep Lavender,180,183 Dark Steel Blue,184,190 Congo Blue,191,206 Alice Blue,207,207 Dirty White,208,208 White,209,255
+
+Channel = shutter
+
+Channel = dimmer
+
+Channel = udimmer
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = function
+ no_function,0,11 P/T Fast,12,24 P/T Normal,25,37 Dimmer 1,38,42 Dimmer 2,43,47 Dimmer 3,48,52 Dimmer 4,53,57 RGBW 1,58,62 RGBW 2,63,67 RGBW 3,68,72 Halogen Off,73,77 Halogen 1,78,82 Halogen 2,83,87 Halogen 3,88,92 Halogen 4,93,97 Halogen 5,98,102 No Function,103,250 Reset to Default,251,255
+
+Channel = control
+ no_function,0,0 zoom_reset,50,50 reset_xy,100,100 reset,255,255
+
+Channel = zoom
+
+Channel = zoom_rotation
+ index,0,127 left_rotate,128,190 stop,191,191 right_rotate,193,255
+
+Channel = shape_selection
+ no_function,0,7 Ring 1,8,8 Ring 2,9,9 Ring 3,10,10 Ring 1+2,12,12 Ring 1+3,13,13 Opening,15,15 Opening Filled,16,16 Open/Close,17,17 Open/Close Fill,18,18 Rand Pixel,19,19 Rand Pixel Var,20,20 Rainbow 1,21,21 Rainbow 2,22,22 Fan,23,23 Bar,24,24 Half Moon,25,25 Triangle,26,26 Rot Bars,27,27 Rot Arcs,28,28 Rot Arcs Col+Dir,29,29 Bar 2 Var,30,30 Rand Expl,31,31 Rot Bars Var,32,32 Bump sect,35,35 Ramp 6,36,36 Ramp 4,37,37 Scr Bar L/R,38,38 Scr bar U/D,39,39 Bar 3,40,40 Vert Arc 2,42,42 Horiz Arc 2,44,44 Pix,45,45 Pix Anim 1,46,46 Pix Anim 2,47,47 Pix Anim 3,48,48 Pix Anim 4,49,49 Pix Anim 5,50,50 Semi Arc Ramp,51,51 Bump Arc Sect,52,52 Pixel Anim 6,53,53 Vert Ramp 2,54,54 Follow Pix 2,55,55 Syncopation,56,56 Bumping 1,57,57 Bumping 2,58,58 Bumping 3,59,59 Vert Pix Scr,60,60 Rand Vert Sect,61,61 Rand Cent Sect,62,62 Rand Ring 3,63,63 Rand Ring 2+4,65,65 Rand Ring 3+4,66,66 Sgl Pix R1,67,67 Sgl Pix R2,68,68 Spiral,70,70 reserved,71,255 
+
+Channel = shape_speed
+ stop,0,0 left_rotate,64,158 stop,159,159 right_rotate,161,255
+
+Channel = shape_fade
+ Snap,0,15 Gamma,16,245 auto,255,255 
+
+Channel = shape_R
+
+Channel = shape_G
+
+Channel = shape_B
+
+Channel = shape_W
+
+Channel = shape_dimmer
+
+Channel = background_dimmer
+
+Channel = shape_transition
+
+Channel = shape_offset
+ no_function,0,0 random_strobe,10,255 
+
+Channel = foreground_strobe
+ closed,0,0 strobe,2,254 open,255,255
+
+Channel = background_strobe
+ closed,0,0 strobe,2,254 open,255,255
+
+Channel = background_select
+ Wash Mode,0,8 Ring 1,9,9 Ring 2,10,10 Ring 3,11,11 Ring 1+3,13,13 Ring 1+2,14,14 Ring 1+2+3,15,15 Ring 2+3,16,16 Wash Mode,17,254 Alternative Effect,255,255
+

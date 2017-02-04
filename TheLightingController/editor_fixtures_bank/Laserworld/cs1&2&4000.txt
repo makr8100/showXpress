@@ -1,0 +1,44 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = mode
+ closed,0,0 audio,100,100 auto,180,180 dmx_mode,255,255
+
+Channel = patterns_animations
+
+Channel = shutter
+ strobe,0,255
+
+Channel = X_axis
+ no_function,0,0 index,1,167 animated left to right,168,188 dto. right to left,189,209 dto. left to right and back,210,255 
+
+Channel = Y_axis
+
+Channel = zoom
+ no_function,0,0 increasing_size,11,104 growing with increasing speed,105,154 dto. shrinking,155,204 dto. growing/shrinking,205,255 
+
+Channel = Y_rotation
+ index,0,150 auto,151,255
+
+Channel = X_rotation
+
+Channel = rotation
+ index,0,180 right_rotate,181,217 left_rotate,218,255 
+
+Channel = blanking
+ no_function,0,0 points are brighter,74,139 dashed lines,140,209 points only,210,255 
+
+Channel = wave
+
+Channel = color_macro
+ 6_colors,0,19 rainbow_static,139,164 rainbow_moving,165,248 color_change,249,255 
+

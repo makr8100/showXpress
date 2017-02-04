@@ -1,0 +1,25 @@
+Name = AMERICAN-DJ_REVO4
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = mode
+ off,0,0 pattern,50,50 chase,180,180 audio,255,255
+
+Channel = pattern
+ pattern_1,0,0 pattern_2,30,30 pattern_3,52,52 pattern_4,76,76 pattern_5,99,99 pattern_6,120,120 pattern_7,140,140 pattern_8,160,160 pattern_9,183,183 pattern_10,204,204 pattern_11,225,225 pattern_12,255,255
+
+Channel = color
+ red,0,0 green,26,26 blue,43,43 white,60,60 R+G,77,77 R+B,93,93 R+W,110,110 G+B,127,127 G+W,160,160 R+G+B,178,178 R+G+W,195,195 R+B+W,212,212 G+B+W,230,230 R+G+B+W,255,255
+
+Channel = shutter
+ open,0,0 strobe,10,255
+

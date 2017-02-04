@@ -1,0 +1,10 @@
+Name = SHOWTEC_FIRESTORM-COLOUR
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_250MSR
+ViewAnglePan = 540
+ViewAngleTilt = 280
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+

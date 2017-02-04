@@ -1,0 +1,25 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/PRO/COLORadoBattenQuad9-2D.png
+
+Channel = dimmer
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = shutter
+ No Function,0,9 1Hz,10,19 2 Hz,20,29 3 Hz,30,39 4 Hz,40,49 5 Hz,50,59 6 Hz,60,69 7 Hz,70,79 9 Hz,80,89 9 Hz,90,99 10 Hz,100,109 11 Hz,110,119 12 Hz,120,129 13 Hz,130,139 14 Hz,140,149 15 Hz,150,159 16 Hz,160,169 17 Hz,170,179 18 Hz,180,189 19 Hz,190,199 20 Hz,200,255
+

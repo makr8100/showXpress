@@ -1,0 +1,39 @@
+Name = SGM_GIOTTO_WASH_1200
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = color
+ white,0,0 amber,23,23 green,39,39 pink,55,55 yellow,71,71 blue,87,87 blue+3200°,103,103 yellow+3200°,119,119 pink+3200°,135,135 green+3200°,151,151 amber+3200°,167,167 white+3200°,183,183 rainb_speed1,199,199 rainb_speed2,215,215 rainb_speed3,231,231 rainb_speed4,255,255
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = yellow
+
+Channel = dimmer
+
+Channel = shutter
+ closed,0,0 strobe_1.8Hz,22,22 strobe_2Hz,45,45 strobe_2.42Hz,64,64 strobe_2.9Hz,82,82 strobe_3.46Hz,101,101 strobe_4.15Hz,119,119 strobe_4.89Hz,138,138 strobe_5.93Hz,156,156 strobe_6.91Hz,174,174 strobe_8.29Hz,193,193 strobe_9.95Hz,211,211 strobe_11.83Hz,229,229 open,255,255
+
+Channel = beam
+
+Channel = effect_speed
+
+Channel = control
+ lamp_off,0,0 hysteresis,100,100 lamp_on,150,150 hysteresis_res,200,200 reset,255,255
+

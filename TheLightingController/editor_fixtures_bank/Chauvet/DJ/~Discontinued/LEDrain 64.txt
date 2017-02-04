@@ -1,0 +1,32 @@
+Name = LEDrain 64
+
+ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = red
+ dimmer,0,255
+
+Channel = green
+ dimmer,0,255
+
+Channel = blue
+ dimmer,0,255
+
+Channel = color_macro
+
+Channel = shutter
+
+Channel = effect
+ No function,0,7 fade progr.use ch 5 speed,8,15 color chase use ch5,240,247 color chase,248,255
+
+Channel = dimmer
+ dimmer,0,255
+

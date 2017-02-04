@@ -1,0 +1,45 @@
+Name = YX2109
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_250MSR
+ViewAnglePan = 530
+ViewAngleTilt = 280
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = pan
+
+Channel = tilt
+
+Channel = upan
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = control
+ reset,128,139 lamp_off,230,239
+
+Channel = color
+ white,0,15 red,16,31 yellow,32,47 magenta,48,63 green,64,79 orange,80,95 blue,96,111 pink,112,127 right_rotate,128,255
+
+Channel = prism
+ right_rotate,5,127 left_rotate,133,255
+
+Channel = gobo
+ Miscellaneous\open,0,0 Showtec\EXPLO_250_05,47,47 Showtec\explo575-WHB-02,79,79 Yagang\6,111,111 Showtec\EXPLO_250_02,143,143 Showtec\EXPLO_250_01,175,175 Miscellaneous\rotate,224,255
+
+Channel = gobo_rotate
+ index,0,60 right_rotate,61,158 left_rotate,159,255
+
+Channel = focus
+
+Channel = shutter
+ closed,0,0 strobe,1,223 open,224,255
+
+Channel = dimmer
+

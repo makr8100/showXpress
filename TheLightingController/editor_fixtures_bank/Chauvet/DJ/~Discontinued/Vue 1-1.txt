@@ -1,0 +1,29 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 33
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+2DViewImage = Chauvet/Vue 1.1.png
+
+Channel = control
+ dimmer,0,24 auto,25,49 auto,50,74 auto,75,99 auto,100,124 auto,125,149 auto,150,174 auto,175,199 auto,200,224 auto,225,249 audio,250,255
+
+Channel = red
+ dimmer,0,255
+
+Channel = green
+ dimmer,0,255
+
+Channel = blue
+ dimmer,0,255
+
+Channel = effect_speed
+
+Channel = dimmer
+ dimmer,0,255
+

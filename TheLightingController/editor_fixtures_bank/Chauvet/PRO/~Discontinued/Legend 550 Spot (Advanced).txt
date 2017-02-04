@@ -1,0 +1,67 @@
+Name = Legend 550 Spot (Advanced)
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = TRUE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = pan
+ dimmer,0,255
+
+Channel = upan
+ dimmer,0,255
+
+Channel = tilt
+ dimmer,0,255
+
+Channel = utilt
+ dimmer,0,255
+
+Channel = pantilt_speed
+ dimmer,0,255
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = strobe_dimmer
+ closed,0,7 open,8,15 strobe,16,131 shaking,132,185 shaking,186,239 random_strobe,240,247 open,248,255
+
+Channel = color
+ open,0,6 pink,7,12 purple,13,18 uv,19,25 dark_blue,26,31 blue,32,37 green,38,44 magenta,45,50 red,51,56 yellow,57,63 split_color,64,127 right_rotate,128,191 left_rotate,192,255
+
+Channel = color
+ open,0,6 orange,7,12 light_yellow,13,18 light_blue,19,25 light_green,26,31 pink,32,37 light_yellow,38,44 3200-5600k,45,50 3200-4100k,51,56 white,57,63 split_color,64,127 right_rotate,128,191 left_rotate,192,255
+
+Channel = gobo
+ Miscellaneous\open,0,12 Miscellaneous\gobo1,13,25 Miscellaneous\gobo2,26,38 Miscellaneous\gobo3,39,50 Miscellaneous\gobo4,51,63 Miscellaneous\gobo5,64,76 Miscellaneous\gobo6,77,88 Miscellaneous\gobo7,89,101 Miscellaneous\gobo8,102,114 Miscellaneous\gobo9,115,127 Miscellaneous\right_rotate,128,191 Miscellaneous\left_rotate,192,255
+
+Channel = gobo2
+ Miscellaneous\open,0,15 Miscellaneous\gobo1,16,31 Miscellaneous\gobo2,32,47 Miscellaneous\gobo3,48,63 Miscellaneous\gobo4,64,79 Miscellaneous\gobo5,80,95 Miscellaneous\gobo6,96,111 Miscellaneous\gobo7,112,127 Miscellaneous\right_rotate,128,191 Miscellaneous\left_rotate,192,255
+
+Channel = gobo_rotate2
+ index,0,127 right_rotate,128,191 left_rotate,192,255
+
+Channel = focus
+ focus_far,0,255
+
+Channel = iris
+ dimmer,0,127 auto2,128,170 auto2,171,212 auto2,213,255
+
+Channel = prism
+ open,0,7 prism,8,15 left_rotate,16,135 right_rotate,136,255
+
+Channel = color_macro
+ open,0,7 dimmer,8,49 dimmer,50,91 dimmer,92,133 dimmer,134,175 dimmer,176,217 dimmer,218,255
+
+Channel = movement_macro
+ no_function,0,63 custom,64,71 custom,72,79 custom,80,87 custom,88,95 custom,96,103 custom,104,111 custom,112,119 custom,120,127 custom,128,135 custom,136,143 custom,144,151 custom,152,159 custom,160,167 custom,168,175 custom,176,183 custom,184,191 custom,192,199 custom,200,207 custom,208,215 custom,216,223 custom,224,231 custom,232,239 custom,240,247 custom,248,255
+
+Channel = control
+ no_function,0,69 dmx,70,79 dmx,80,89 dmx,90,99 dmx,100,109 dmx,110,119 dmx,120,129 lamp_on,130,139 no_function,140,199 reset,200,209 no_function,210,229 lamp_off,230,239 no_function,240,255
+

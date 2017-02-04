@@ -1,0 +1,41 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 25
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = color
+ white,0,24 dark_red,25,49 dark_yellow,50,74 dark_blue,75,99 dark_green,100,124 orange,125,149 cyan,150,174 pink,175,199 rotate,200,255
+
+Channel = gobo
+ ok_for_3DView/open,0,24 Chauvet/super star,25,49 Chauvet/star 3D,50,74 Chauvet/square cut,75,99 Chauvet/BR-2X-CH1-150-159,100,124 Chauvet/whire pool,125,149 Chauvet/wb,150,174 Chauvet/fan_4blades,175,199 ok_for_3DView/rotate,200,255
+
+Channel = gobo_rotate
+ stop,0,0 right_rotate,1,127 left_rotate,128,255
+
+Channel = shutter
+ dimmer,0,127 strobe,128,249 open,250,255
+
+Channel = pan
+
+Channel = tilt
+
+Channel = pantilt_speed
+
+Channel = prism
+ open,0,163 prism,164,255
+
+Channel = prism_rotate
+ stop,0,127 left_rotate,128,191 right_rotate,192,255
+
+Channel = focus
+
+Channel = control
+ no_function,1,254 reset,255,255 
+

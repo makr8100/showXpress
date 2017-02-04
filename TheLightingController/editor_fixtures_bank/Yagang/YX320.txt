@@ -1,0 +1,38 @@
+Name = YX320
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_1200MSR
+ViewAnglePan = 530
+ViewAngleTilt = 280
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = TRUE
+ViewColor = 16777215
+
+Channel = pan
+
+Channel = tilt
+
+Channel = upan
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = control
+ reset,128,139 lamp-off,230,239
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = yellow
+
+Channel = effect_speed
+
+Channel = frost
+
+Channel = dimmer
+

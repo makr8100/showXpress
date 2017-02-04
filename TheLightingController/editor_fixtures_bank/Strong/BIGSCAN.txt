@@ -1,0 +1,44 @@
+Name = STRONG_BIGSCAN
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = iris
+ closed,0,0 aperture,240,255
+
+Channel = color
+ white,0,0 color_1,26,26 color_2,42,42 color_3,58,58 color_4,74,74 color_5,90,90 color_6,106,106 color_7,122,122 rotate,132,255
+
+Channel = color
+ white,0,0 color_1,50,50 color_2,82,82 color_3,114,114 color_4,146,146 color_5,178,178 color_6,210,210 color_7,255,255
+
+Channel = shutter
+ closed,0,0 dimmer,56,127 open,132,132 strobe,138,242 open,255,255
+
+Channel = pan
+
+Channel = tilt
+
+Channel = prism
+ open,0,0 frost_1,57,57 frost_2,94,94 frost_3,130,130 prism,166,166 color_1,203,203 open,255,255
+
+Channel = prism_rotate
+ open,0,0 prism_1,17,17 prism_2,28,28 prism_3,38,38 prism_4,47,47
+
+Channel = beam
+ move,0,130 fix,132,255
+
+Channel = gobo
+ open,0,0 gobo1,57,57 gobo2,94,94 gobo3,130,130 gobo4,166,166 gobo5,203,203 gobo6,239,239
+
+Channel = gobo
+ open,0,0 gobo1,79,79 gobo2,130,130 gobo3,181,181 gobo4,255,255
+
+Channel = gobo_rotate
+ position,0,138 counterclock,140,198 clock,200,255
+

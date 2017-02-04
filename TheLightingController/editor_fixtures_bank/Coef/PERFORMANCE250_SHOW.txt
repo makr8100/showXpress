@@ -1,0 +1,32 @@
+Name = COEF_PERFORMANCE250_SHOW
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = shutter
+ blackout,0,0 dimmer,6,100 tempo,125,125 strobe,152,250 open,255,255
+
+Channel = color
+ white,0,0 white/yellow,15,15 yellow,25,25 yellow/blue,35,35 blue,45,45 blue/magenta,55,55 magenta,65,65 green,75,75 green/orange,85,85 orange,95,95 orange/cyan,105,105 cyan,115,115 cyan/pink,125,125 pink,134,134 red,145,145 red/purple,155,155 purple,165,165 purple/green,175,175 green_sea,184,184 wood,194,194 rotate,200,255
+
+Channel = gobo
+ neutral,0,0 reduction,20,20 gobo1,40,40 gobo2,50,50 gobo3,68,68 gobo4,80,80 gobo5,100,100 gobo6,112,112 gobo7,130,130 gobo8,140,140 rotation,152,255
+
+Channel = gobo_rotate
+ stop,0,0 CW_positioning,6,130 CCW_positionin,132,255
+
+Channel = prism
+ neutral,0,0 cold,20,20 warm,70,70 3_facets_prism,120,120 infinity,170,170 fading_frost,220,220 frost,255,255
+
+Channel = prism_rotate
+ stop,0,0 CW_rotation,6,130 CCW_rotation,131,255
+
+Channel = pan
+
+Channel = tilt
+

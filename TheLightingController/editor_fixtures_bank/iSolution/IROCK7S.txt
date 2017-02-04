@@ -1,0 +1,32 @@
+Name = ISOLUTION_IROCK7S
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_250MSR
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = pan
+
+Channel = barrel
+ stop,0,0 left_rotate,10,120 stop,130,130 right_rotate,135,245
+
+Channel = shutter
+ closed,0,0 strobe,16,131 shaking,132,247 open,255,255
+
+Channel = gobo
+ Miscellaneous\open,0,0 Miscellaneous\gobo1,23,23 Miscellaneous\gobo2,39,39 Contest\13-4-5,55,55 Chauvet\tire 1,71,71 Chauvet\144014,87,87 Martin\triangle,103,103 Chauvet\4 dots,119,119 Miscellaneous\rotate,128,255
+
+Channel = color
+ white,0,0 green,19,19 magenta,32,32 light_blue,45,45 yellow,58,58 orange,70,70 blue,83,83 uv,96,96 light_green,109,109 pink,122,122 rotate,128,255
+
+Channel = gobo_rotate
+ stop,0,0 left_rotate,10,120 right_rotate,135,245 stop,255,255
+
+Channel = dimmer
+

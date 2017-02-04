@@ -1,0 +1,42 @@
+﻿ViewType = VIEW_TYPE_HEAD_WASH
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 20
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+2DViewImage = Chauvet/DJ/COLORband Pix M.png
+
+Channel = red
+ Red,0,255
+
+Channel = green
+ Green,0,255
+
+Channel = blue
+ Blue,0,255
+
+Channel = color_macro
+ no_function,0,15 Color Macros,16,255
+
+Channel = shutter
+ no_function,0,15 strobe,16,255
+
+Channel = rgb
+ no_function,0,31 Chase 1,32,45 Chase 2,46,59 Chase 3,60,72 Chase 4,73,86 Chase 5,87,100 Chase 6,101,113 Chase 7,114,127 Chase 8,128,141 Chase 9,142,154 Chase 10,155,168 Chase 11,169,182 Chase 12,183,195 Chase 13,196,209 Chase 14 (random Chase1-13),210,223 Sound mode,224,255
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = tilt
+ Tilt,0,255
+
+Channel = pantilt_speed
+ Tilt Speed,0,255
+
+Channel = dimmer Mode
+ Setting dimmer mode,0,51 dimmer mode off,52,101 dimmer mode 1,102,152 dimmer mode 2,153,203 dimmer mode 3,204,255
+

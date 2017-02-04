@@ -1,0 +1,20 @@
+Name = MAD_411AP
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = pan
+
+Channel = tilt
+
+Channel = gobo
+ off,0,0 full,19,19 gobo1,39,39 gobo2,55,55 gobo3,70,70 gobo4,87,87 gobo5,103,103 gobo6,120,120 gobo7,135,135 gobo8,151,151 gobo9,167,167 gobo10,184,184 gobo11,199,199 gobo12,215,215 off,230,230 rotate,244,253
+
+Channel = color
+ white,0,0 uv,16,16 warm_pink,28,28 warm_blue,39,39 warm_red,53,53 warm_green,63,63 warm_pink,79,79 warm_orange,90,90 warm_green,104,104 yellow,116,116 blue,127,127 white,144,144 rotate,255,255
+

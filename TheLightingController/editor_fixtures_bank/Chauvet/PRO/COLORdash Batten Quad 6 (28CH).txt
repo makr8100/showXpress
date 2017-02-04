@@ -1,0 +1,70 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = amber
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = amber
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = amber
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = amber
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = amber
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = amber
+
+Channel = effect_macro
+ no_function,0,10 Auto 1,11,30 Auto 2,31,50 Auto 3,51,70 Auto 4,71,90 Auto 5,91,110 Auto 6,111,130 Auto 7,131,150 Auto 8,151,170 Auto 9,171,190 Auto 10,191,210 Auto 11,211,230 Random Auto,231,255 
+
+Channel = effect_speed
+
+Channel = dimmer
+
+Channel = strobe_dimmer
+ no_function,0,10 strobe,11,11 
+

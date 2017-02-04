@@ -1,0 +1,16 @@
+Name = GENI_FL1800D
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = strobe_effect
+ slow,0,0 middle,128,128 fast,255,255
+
+Channel = dimmer
+ blackout,0,0 dark_to_bright,16,255
+

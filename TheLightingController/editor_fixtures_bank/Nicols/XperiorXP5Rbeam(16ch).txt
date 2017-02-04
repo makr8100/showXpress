@@ -1,0 +1,53 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = color
+ white,0,0 dark_blue,10,10 CTB,20,20 CTO1,27,27 CTO2,36,36 cyan,44,44 magenta,53,53 yellow,61,61 pink,62,62 lavender,78,78 light_green,87,87 dark_green,95,95 aquamarine,104,104 orange,112,112 dark_red,121,121 rotate,128,255
+
+Channel = shutter
+ closed,0,0 strobe,4,103 pulse_strobe,108,207 random_strobe,213,251 open,255,255
+
+Channel = dimmer
+
+Channel = gobo
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,5,5 Miscellaneous/gobo2,9,9 Miscellaneous/gobo3,13,13 Miscellaneous/gobo4,17,17 Miscellaneous/gobo5,21,21 Miscellaneous/gobo6,25,25 Miscellaneous/gobo7,29,29 Miscellaneous/gobo8,33,33 Miscellaneous/gobo9,37,37 Miscellaneous/gobo10,41,41 Miscellaneous/gobo11,45,45 Miscellaneous/gobo12,49,49 Miscellaneous/gobo13,53,53 Miscellaneous/gobo14,57,57 Miscellaneous/gobo15,61,61 Miscellaneous/gobo16,65,65 Miscellaneous/gobo17,69,69 Miscellaneous/left_rotate,72,113 Miscellaneous/stop,115,115 Miscellaneous/right_rotate,118,159 Miscellaneous/shake_gobo2,163,163 Miscellaneous/shake_gobo3,169,169 Miscellaneous/shake_gobo4,175,175 Miscellaneous/shake_gobo5,182,182 Miscellaneous/shake_gobo6,188,188 Miscellaneous/shake_gobo7,194,194 Miscellaneous/shake_gobo8,201,201 Miscellaneous/shake_gobo9,207,207 Miscellaneous/shake_gobo10,214,214 Miscellaneous/shake_gobo11,220,220 Miscellaneous/shake_gobo12,226,226 Miscellaneous/shake_gobo13,233,233 Miscellaneous/shake_gobo14,239,239 Miscellaneous/shake_gobo15,246,246 Miscellaneous/shake_gobo16,255,255
+
+Channel = prism
+ no_function,0,0 prism,255,255
+
+Channel = prism_rotate
+ index,0,127 right_rotate,128,189 stop,192,192 left_rotate,193,255
+
+Channel = prism_effect
+
+Channel = frost
+
+Channel = focus
+ focus_near,0,0 focus_mid,128,128 focus_far,255,255
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = function
+ no_function,0,0 fast_pan_tilt,12,24 normal_pan_tilt,25,37 conventional_dimmer_curve,38,50 linear_dimmer_curve,51,62
+
+Channel = reset
+ no_function,0,0 reset_others,50,50 reset_xy,100,100 reset,255,255 
+
+Channel = control
+ no_function,0,0 lamp_off,80,80 lamp_on,255,255 
+

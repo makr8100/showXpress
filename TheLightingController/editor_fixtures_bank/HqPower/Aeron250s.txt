@@ -1,0 +1,60 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = shutter
+ no_function,0,0 open,48,48 strobe,64,95 pulse_open,128,159 random_strobe,192,223 open,255,255
+
+Channel = dimmer
+
+Channel = color
+ white,0,0 red,24,24 light_yellow,40,40 dark_blue,54,54 green,72,72 orange_red,88,88 purple,104,104 orange,120,120 right_rotate,128,191 left_rotate,192,255
+
+Channel = gobo
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,12,12 Miscellaneous/gobo2,20,20 Miscellaneous/gobo3,28,28 Miscellaneous/gobo4,36,36 Miscellaneous/gobo5,44,44 Miscellaneous/gobo6,52,52 Miscellaneous/shake_gobo1,56,83 Miscellaneous/shake_gobo2,84,111 Miscellaneous/shake_gobo3,112,139 Miscellaneous/shake_gobo4,140,167 Miscellaneous/shake_gobo5,168,195 Miscellaneous/shake_gobo6,196,223 gobo_flow,224,224 Miscellaneous/rotate,226,255
+
+Channel = gobo_rotate
+ index,0,127 right_rotate,128,191 left_rotate,192,255
+
+Channel = focus
+ focus_far,0,0 focus_near,127,127 focus_far,255,255
+
+Channel = control
+ no_function,0,0 blackout_moves,148,148 blackout_changes,188,188 lamp_off,204,204 lamp_on,212,212 reset,244,244
+
+Channel = pantilt_speed
+
+Channel = pan
+
+Channel = tilt
+
+Channel = effect_macro
+ no_function,0,0 32K_filter,50,50 zoom1,130,130 zoom2,160,160 zoom3,200,200 zoom4,255,255 
+
+Channel = gobo2
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,12,12 Miscellaneous/gobo2,20,20 Miscellaneous/gobo3,28,28 magenta,36,36 blue,44,44 purple,52,52 Miscellaneous/shake_gobo1,56,83 Miscellaneous/shake_gobo2,84,111 Miscellaneous/shake_gobo3,112,139 magenta_w,140,167 blue_w,168,195 purple_w,196,223 Miscellaneous/rotate,224,255 
+
+Channel = prism
+ no_function,0,0 prism,255,255 
+
+Channel = prism_rotate
+ index,0,127 left_rotate,128,191 right_rotate,192,255 
+
+Channel = prism_gobo_mx
+ no_function,0,0 mix,255,255 
+
+Channel = effect_macro
+ no_function,0,0 pan_macro,52,102 tilt_macro,103,153 pan_tilt_macro,154,255 
+
+Channel = upan
+
+Channel = utilt
+

@@ -1,0 +1,36 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LED60W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/Intimidator Spot LED 350.png
+
+Channel = pan
+ Pan,0,255
+
+Channel = tilt
+ Tilt,0,255
+
+Channel = shutter
+ closed,0,3 open,4,7 strobe,8,76 pulse_strobe,77,145 Random shutter,146,215 open,216,255
+
+Channel = color
+ white,0,6 red,7,13 orange,14,20 green,21,27 light_blue,28,34 purple,35,41 yellow,42,48 blue,49,55 pink,56,63 index,64,127 right_rotate,128,189 stop,190,193 left_rotate,194,194
+
+Channel = gobo
+ Chauvet/open,0,7 Martin/triangle,8,15 Contest/GM030,16,23 Chauvet/recyle sign,24,31 Chauvet/A2,32,39 Contest/GM038,40,47 Chauvet/gobo636_5,48,55 Geni/SY-250-CH1-64-79,56,63 Miscellaneous/shaking,64,71 Miscellaneous/shake_gobo1,72,79 Miscellaneous/shake_gobo2,80,87 Miscellaneous/shake_gobo3,88,95 Miscellaneous/shake_gobo4,96,103 Miscellaneous/shake_gobo5,104,111 Miscellaneous/shake_gobo6,112,119 Miscellaneous/shake_gobo7,120,127 Miscellaneous/right_rotate,128,189 Miscellaneous/stop,190,193 Miscellaneous/left_rotate,194,255
+
+Channel = gobo_rotate
+ index,0,127 right_rotate,128,189 stop,190,193 left_rotate,194,255
+
+Channel = focus
+ focus_near,0,255
+
+Channel = prism
+ open,0,127 prism,128,255
+

@@ -1,0 +1,43 @@
+Name = MARTIN_PAL1200_V1M1
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = shutter
+ open,0,0 strobe,50,177 open,182,182 fan_low,192,192 open,202,202 reset,212,212 open,222,222 lamp_on,232,232 black,242,242 lamp_off,255,255
+
+Channel = dimmer
+
+Channel = iris
+
+Channel = beam
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = yellow
+
+Channel = color
+ white,0,0 color_1,32,32 color_2,64,64 color_3,96,96 color_4,128,128 color_4,132,132 color_3,139,139 color_2,146,146 color_1,153,153 white,160,160 counterclock,164,209 clock,210,255
+
+Channel = gobo
+ full,0,0 gobo1,37,37 gobo2,62,62 gobo3,87,87 gobo4,112,112 gobo4_rot,141,141 gobo3_rot,173,173 gobo2_rot,205,205 gobo1_rot,255,255
+
+Channel = gobo_rotate
+
+Channel = focus
+
+Channel = beam
+
+Channel = frost
+
+Channel = pan
+
+Channel = tilt
+

@@ -1,0 +1,56 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = pan
+
+Channel = tilt
+
+Channel = upan
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = frost
+
+Channel = shutter
+ closed,0,0 open,30,30 strobe,51,240 open,255,255
+
+Channel = dimmer
+
+Channel = color
+ white,0,0 color_1,12,12 color_2,20,20 color_3,28,28 color_4,36,36 color_5,44,44 color_6,52,52 color_7,60,60 color_8,68,68 color_9,76,76 color_10,84,84 color_11,92,92 color_12,100,100 color_13,108,108 right_rotate,128,191 left_rotate,192,255 
+
+Channel = color_macro
+
+Channel = gobo
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,10,10 Miscellaneous/gobo2,17,17 Miscellaneous/gobo3,24,24 Miscellaneous/gobo4,31,31 Miscellaneous/gobo5,38,38 Miscellaneous/gobo6,45,45 Miscellaneous/gobo7,52,52 Miscellaneous/gobo8,59,59 Miscellaneous/gobo9,67,67 Miscellaneous/gobo10,73,73 Miscellaneous/gobo11,80,80 Miscellaneous/gobo12,87,87 Miscellaneous/gobo13,94,94 Miscellaneous/gobo14,101,101 Miscellaneous/gobo15,108,108 Miscellaneous/gobo16,115,115 Miscellaneous/gobo17,122,122 Miscellaneous/right_rotate,128,191 Miscellaneous/left_rotate,192,255
+
+Channel = gobo_shaking
+ index,0,191 white_color,192,255 
+
+Channel = prism
+ no_function,0,0 prism,255,255
+
+Channel = prism_rotate
+ index,0,127 right_rotate,128,191 left_rotate,192,255
+
+Channel = prism_zoom
+
+Channel = focus
+
+Channel = control
+ no_function,0,0 lamp_off,102,102 lamp_on,202,202 delay_reset,255,255 
+
+Channel = reset
+ no_function,0,0 reset,255,255 
+

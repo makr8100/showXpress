@@ -1,0 +1,44 @@
+Name = FUTURELIGHT_SC740
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = pan
+
+Channel = tilt
+
+Channel = upan
+
+Channel = utilt
+
+Channel = pantilt_speed
+ max_speed,0,0 max_to_min,1,249 max_speed,255,255
+
+Channel = control
+ open_speed_fan,0,127 reset_lamp_on,133,133 lamp_off_3",236,236
+
+Channel = color
+ white,0,0 turquoise,10,10 red,21,21 cyan,32,32 green,42,42 magenta,53,53 light_blue,64,64 yellow,74,74 green2,85,85 pink,96,96 blue,106,106 orange,117,117 clock,128,189 stop,192,192 counterclock,194,255
+
+Channel = gobo
+ closed,0,0 full_beam_open,2,45 full_open,55,55 strobe,64,127 closed,132,132 gobo1,147,147 gobo2,160,160 gobo3,173,173 gobo4,185,185 gobo5,198,198 gobo6,211,211 gobo7,224,224 gobo8,237,237 gobo9,255,255
+
+Channel = prism
+ closed,0,0 dimmer,1,63 full_open,80,80 frost,112,112 3_facet_prism,144,144 3200K,175,175 5600K,200,200 uv_filter,255,255
+
+Channel = reserved
+
+Channel = gobo_rotate
+ open,0,0 rot_gobo1,45,45 rot_gobo2,75,75 rot_gobo3,100,100 rot_gobo4,140,140 rot_gobo5,175,175 rot_gobo6,210,210 gobo_rainbow,224,255
+
+Channel = gobo_rotate
+ index,0,127 clock,128,190 stop,192,192 counterclock,194,255
+
+Channel = iris
+ open,0,0 max_to_min,1,179 closed,185,185 pulse_closing,192,223 pulse_opening,224,255
+

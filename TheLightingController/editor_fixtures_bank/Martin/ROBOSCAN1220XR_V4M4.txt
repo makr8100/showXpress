@@ -1,0 +1,50 @@
+Name = MARTIN_ROBOSCAN1220XR_V4M4
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = shutter
+ closed,0,0 open,100,100 strobe,116,247 reset,250,250 lamp_on,255,255
+
+Channel = dimmer
+
+Channel = color
+ white,0,0 amber,10,10 fern_green,20,20 light_blue,30,30 flame_red,40,40 primary_green,50,50 blue,60,60 orange,70,70 turquoise,80,80 purple,94,94 orange,110,110 blue,118,118 primary_green,126,126 flame_red,134,134 light_blue,142,142 fern_green,150,150 amber,158,158 clock,162,208 counterclock,210,255
+
+Channel = gobo
+ open,0,0 stars,20,20 star,40,40 dots,60,60 cone,80,80 pling,100,100 dot_circle,120,120 bells,140,140 flower,160,160 turbine,184,184 flower,192,192 bells,200,200 dor_circle,209,209 pling,217,217 cone,224,224 dots,233,233 star,240,240 stars,255,255
+
+Channel = gobo_rotate
+ open,0,0 gobo1_ind,35,35 gobo2_ind,62,62 gobo3_ind,82,82 gobo4_ind,112,112 gobo4_rot,140,140 gobo3_rot,170,170 gobo2_rot,205,205 gobo1_rot,255,255
+
+Channel = gobo_rotate
+ stop,0,0 counterclock,2,127 clock,128,254 stop,255,255
+
+Channel = focus
+ near,0,0 far,255,255
+
+Channel = iris
+ open,0,0 close,255,255
+
+Channel = prism
+ open,0,0 CTC,60,60 frost,100,100 3_facets,160,160 5_facets,255,255
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+ tracking,0,0 speed,4,251 black._whil_mo,255,255
+
+Channel = effect_speed
+ tracking,0,0 fast-slow,4,251 fast,255,255
+

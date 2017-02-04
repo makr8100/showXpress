@@ -1,0 +1,48 @@
+Name = SHOWTEC_WASHLIGHT250
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = pan
+
+Channel = tilt
+
+Channel = upan
+
+Channel = utilt
+
+Channel = pantilt_speed
+ tracking,0,0 speed,2,249 blackout_movin,255,255
+
+Channel = control
+ Open,0,0 Lamp_on,127,127 Lamp_off,235,235
+
+Channel = color
+ white,0,0 red,26,26 blue,45,45 green,63,63 3200K,81,81 5600K,100,100 uv_filter,118,118 clock,128,190 stop,192,192 counterclock,194,255
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = yellow
+
+Channel = effect_speed
+
+Channel = effect
+ off,0,0 Macro_1,12,12 Macro_2,20,20 Macro_3,28,28 Macro_4,35,35 Macro_5,44,44 Macro_6,52,52 Macro_7,60,60 Macro_8,68,68 Macro_9,75,75 Macro_10,84,84 Macro_11,92,92 Macro_12,100,100 Macro_13,108,108 Macro_14,115,115 Macro_15,124,124 Macro_16,132,132 Macro_17,140,140 Macro_18,148,148 Macro_19,155,155 Macro_20,164,164 Macro_21,172,172 Macro_22,180,180 Macro_23,188,188 Macro_24,195,195 Macro_25,204,204 Macro_26,212,212 Macro_27,220,220 Macro_28,228,228 Macro_29,235,235 Macro_30,244,244 Macro_31,255,255
+
+Channel = beam
+ Full_beam,0,0 Beam_shaper,72,230 Frost_filter,255,255
+
+Channel = reserved
+
+Channel = shutter
+ closed,0,0 open,45,45 Strobe_effect,64,95 open,110,110 Pulse_effect,128,159 open,175,175 Random_strobe,192,223 open,255,255
+
+Channel = dimmer
+

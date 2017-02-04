@@ -1,0 +1,36 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 26
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = TRUE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/COREpar 40 USB.png
+
+Channel = red
+ 0~100%,0,255 
+
+Channel = green
+ 0~100%,0,255 
+
+Channel = blue
+ 0~100%,0,255 
+
+Channel = color_macro
+ no_function,0,15 macro_1,16,255 
+
+Channel = shutter
+ no_function,0,15 strobe,16,255 
+
+Channel = effect_macro
+ no_function,0,31 Pulse effect 0~100%,32,63 Pulse effect 100%~0,64,95 Pulse effect 100%~0~100%,96,127 Auto fade transition,128,159 Auto snap transition (7 colors),160,191 Auto snap transition (18 colors),192,223 Sound triggering mode,224,255 
+
+Channel = dimmer
+ dimmer,0,255 
+
+Channel = udimmer
+ Dimmer Speed set from Display,0,51 Dimmer speed mode off,52,101 Dimmer speed Fast,102,152 Dimmer speed Middle,153,203 Dimmer speed Slow,204,255 
+

@@ -1,0 +1,25 @@
+Name = CLS-LED_PAR56V3
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = effect
+
+Channel = red
+ RGB_mode,0,63 7_color_fade,64,127 7_color_change,128,191 3_color_change,192,255
+
+Channel = green
+
+Channel = blue
+
+Channel = effect_speed
+ stop,0,0 index,11,100 stop,125,125 unit_speed_control,255,255
+

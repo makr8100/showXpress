@@ -1,0 +1,39 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = mode
+ closed,0,0 auto,75,75 audio1,125,125 audio2,175,175 dmx,255,255 
+
+Channel = barrel
+
+Channel = barrel_speed
+
+Channel = X_axis
+
+Channel = X_axis_speed
+
+Channel = white
+
+Channel = blue
+
+Channel = green
+
+Channel = red
+
+Channel = white
+
+Channel = blue
+
+Channel = green
+
+Channel = red
+

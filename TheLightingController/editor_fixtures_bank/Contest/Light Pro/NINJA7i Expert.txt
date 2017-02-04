@@ -1,0 +1,75 @@
+﻿ViewType = VIEW_TYPE_HEAD_WASH
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 20
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Contest/Light Pro/NINJA-7x15QC .png
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+ speed,0,225 blackout_moves,226,235 no_function,236,255 
+
+Channel = pan_continuous
+ no_function,0,127 continuous clockwise,128,189 stop,190,193 continuous unclock,194,255 
+
+Channel = tilt_continuous
+ no_function,0,127 continuous clockwise,128,189 stop,190,193 continuous unclock,194,255 
+
+Channel = shutter
+ closed,0,31 open,32,63 strobe,64,95 open,96,127 pulse_strobe,128,159 open,160,191 random_strobe,192,223 open,224,255 
+
+Channel = dimmer
+ ?,0,255 
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = color_macro
+ no_function,0,7 from red to yellow,8,39 from yellow to green,40,71 from green to cyan,72,103 from cyan to blue,104,135 from blue to magenta,136,167 from magenta to red,168,199 from red to white,200,231 color rainbow from slow to fast,232,255 
+
+Channel = color_preset
+ no_function,0,10 white_2700K,11,20 white_3200K,21,30 white_4300K,31,40 white_5600K,41,50 white_6500K,51,60 white_8000K,61,70 blue_red,71,100 blue_green,101,130 green_red,131,160 red_blue,161,190 green_blue,191,220 red_green,221,255 
+
+Channel = color_preset_dimmer
+ from full to blackout,0,255 
+
+Channel = animation
+ lamp_on,0,10 pattern_01,11,40 pattern_02,41,70 pattern_03,71,100 pattern_04,101,130 pattern_05,131,160 pattern_06,161,190 pattern_07,191,220 pattern_08,221,255 
+
+Channel = animation_speed
+ from fast to slow,0,255 
+
+Channel = animation_fade
+ from fast to slow,0,255 
+
+Channel = white_balance
+ no_function,0,189 white_balance,190,254 balance_memory,255,255 
+
+Channel = control
+ normal,0,79 reset_motors,80,84 reset_xy,85,87 no_function,88,90 white_balance_memory,91,93 no_function,94,96 reset_others,97,99 program_1,100,119 program_2,120,139 program_3,140,159 program_4,160,179 program_5,180,199 program_6,200,219 program_7,220,239 audio,240,255 
+

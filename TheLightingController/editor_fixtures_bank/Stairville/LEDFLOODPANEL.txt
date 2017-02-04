@@ -1,0 +1,30 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = dimmer
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = shutter
+ open,0,0 strobe,10,255
+
+Channel = mode
+ must_be_zero_for_RGB,0,0
+
+Channel = reserved
+
+Channel = fader_response
+ instant,0,0 delayed,255,255
+

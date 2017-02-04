@@ -1,0 +1,54 @@
+Name = FUTURELIGHT_MH860
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = pan
+
+Channel = tilt
+
+Channel = upan
+
+Channel = utilt
+
+Channel = pantilt_speed
+ speed,0,249 black_while_mo,250,250
+
+Channel = control
+ open_speed_fan,0,127 reset_lamp_on,133,133 lamp_off_3",236,236
+
+Channel = color
+ white,0,0 light_blue,13,13 red,26,26 blue,38,38 green,51,51 magenta,53,53 yellow,64,64 magenta,77,77 cyan,90,90 turquoise,102,102 orange,115,115 forwards_rainb,128,190 stop,192,192 backwards_rain,194,255
+
+Channel = color
+ open,0,0 yellow_green,16,16 pink,32,32 cyan,38,38 magenta,52,52 yellow,64,64 light_blue,76,76 CTF_5.600K,88,88 CTF_3.200K,102,102 uv_filter,112,112 open_white,124,124 enable_chanel7,128,255
+
+Channel = prism_rotate
+ open_hole,0,0 forwards_rotat,1,63 no_rotation,64,64 backwards_rota,65,127 macro1,132,132 macro2,140,140 macro3,148,148 macro4,156,156 macro5,164,164 macro6,172,172 macro7,180,180 macro8,188,188 macro9,196,196 macro10,204,204 macro11,212,212 macro12,220,220 macro13,228,228 macro14,236,236 macro15,244,244 macro16,250,250
+
+Channel = gobo
+ open,0,0 gobo1,12,12 gobo2,20,20 gobo3,28,28 gobo4,36,36 gobo5,44,44 gobo6,52,52 gobo7,60,60 gobo8,68,68 gobo9,76,76 gobo1_speed,80,95 gobo2_speed,96,111 gobo3_speed,112,127 gobo4_speed,128,143 gobo5_speed,144,159 gobo6_speed,168,175 gobo7_speed,176,191 gobo8_speed,192,207 gobo9_speed,208,223 gobo_wheel_rot,224,255
+
+Channel = gobo_rotate
+ open,0,31 rot_gobo1,32,63 rot_gobo2,64,95 rot_gobo3,96,127 rot_gobo4,128,159 rot_gobo5,160,191 rot_gobo6,192,223 rot_gobo_wheel,224,255
+
+Channel = gobo_rotate
+ gobo_indexing,0,127 forwards_gobo,128,191 no_rotation,192,192 backwards_gobo,193,255
+
+Channel = iris
+ open,0,0 max_to_min,1,179 closed,180,191 pulse_closing,192,223 pulse_openning,224,255
+
+Channel = focus
+ zoom15°,0,85 zoom18°,86,170 zoom22°,171,255
+
+Channel = shutter
+ closed,0,0 open,50,50 strob_effect,64,95 open,96,127 pulse_effect,140,140 open,160,191 random_strobe,192,223 open,224,255
+
+Channel = dimmer
+ close,0,0 dimmer,1,254 open,255,255
+

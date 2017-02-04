@@ -1,0 +1,31 @@
+Name = HIGH-END_INTELLAB700HX8
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = pan
+
+Channel = tilt
+
+Channel = color
+ magenta,0,0 pink,28,28 uv,53,53 violet,70,70 blue,92,92 green,114,114 dark_green,132,132 light_green,151,151 yellow,183,183 red,193,193 dark_red,216,216 white,255,255
+
+Channel = gobo
+ gobo1,0,0 gobo2,27,27 gobo4,65,65 gobo5,89,89 gobo6,110,110 gobo7,132,132 gobo8,155,155 gobo9,175,175 gobo10,197,197 gobo11,220,220 gobo12,255,255
+
+Channel = shutter
+ closed,0,0 strobe,26,230 open,255,255
+
+Channel = dimmer
+ off,0,0 dimmer,26,255
+
+Channel = iris
+ small,0,0 medium,128,128 open,255,255
+
+Channel = pantilt_speed
+

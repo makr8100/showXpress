@@ -1,0 +1,20 @@
+Name = ABSTRACT_VR8
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_250HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = pan
+
+Channel = tilt
+
+Channel = color
+ white,0,0 red,25,25 dark_blue,42,42 green,60,60 yellow,79,79 blue,90,90 orange,109,109 violet,123,123 dark_green,139,139 magenta,158,158 uv,179,179 multi-color,190,190 rotation,248,255
+
+Channel = gobo
+ black_out,0,0 full,23,23 laser,32,32 star,49,49 slice,67,67 tunnel,81,81 heart,104,104 eurostar,121,121 sunburst,137,137 triangle,144,144 slash,169,169 bubles,178,178 flower,197,197 strobe,224,255
+

@@ -1,0 +1,35 @@
+Name = JB-SYSTEM_SPACECOLORLASER
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = Scanspeed
+ Scanspeed,0,200 Music_Mode,201,254 reset,255,255
+
+Channel = Pattern
+ new_level,0,14 new_level,15,20 new_level,21,27 new_level,28,34 new_level,35,41 new_level,42,48 new_level,49,55 new_level,56,62 new_level,63,70 new_level,71,76 new_level,77,83 new_level,84,90 new_level,91,97 new_level,98,104 new_level,105,111 new_level,112,118 new_level,119,125 new_level,126,132 new_level,133,140 new_level,141,153 new_level,154,160 new_level,161,167 new_level,168,174 new_level,175,181 new_level,182,188 new_level,189,195 new_level,196,202 new_level,203,210 new_level,211,216 new_level,217,223 new_level,224,230 new_level,231,251 new_level,252,255
+
+Channel = Pattern_Rotate
+ Rotate,0,255
+
+Channel = Zoom
+ Zoom,0,255
+
+Channel = Pan
+
+Channel = Tilt
+
+Channel = Blackout
+ Blackout,0,0 new_level,1,254 new_level,255,255
+
+Channel = Colour
+ Red,0,55 Green,56,83 Yellow,84,111 Red & Green,112,139 Yellow & Green,140,167 Red & Yellow,168,195 Red _Green & Yellow,196,254 Original Colour,255,255
+

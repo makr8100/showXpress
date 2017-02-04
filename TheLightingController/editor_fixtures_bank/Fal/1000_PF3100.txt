@@ -1,0 +1,20 @@
+Name = FAL_1000_PF3100
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = color
+ white,0,0 dark_blue,28,28 light_blue,44,44 purple,60,60 pink,76,76 cyan,92,92 green,108,108 yellow,124,124 orange,140,140 red,156,156 rotation_1,168,168 rotation_2,177,177 rotation_3,186,186 rotation_4,195,195 rotation_5,204,204 rotation_6,214,214 rotation_7,222,222 rotation_8,231,231 rotation_9,240,240 rotation_10,255,255
+
+Channel = gobo
+ closed,0,0 gobo1,22,22 gobo2,37,37 gobo3,52,52 gobo4,67,67 gobo5,82,82 gobo6,97,97 gobo7,112,112 strobe1,127,127 strobe2,142,142 strobe3,157,157 strobe4,172,172 strobe5,187,187 strobe6,202,202 strobe7,217,217 strobe8,232,232 open,255,255
+
+Channel = pan
+
+Channel = tilt
+

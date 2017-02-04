@@ -1,0 +1,41 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = mode
+ sound_active,0,0 auto_beam,70,70 auto_animation,125,125 manual_to_auto,170,170 manual_to_sound,255,255 
+
+Channel = dimmer
+
+Channel = pattern
+
+Channel = moving_Y
+ index,0,127 auto_to_down,128,191 auto_to_up,192,255 
+
+Channel = moving_Y
+ index,0,127 auto_to_right,128,191 auto_to_left,192,255 
+
+Channel = rolling_X
+ index,0,127 auto,128,128 
+
+Channel = rolling_Y
+ index,0,127 auto,128,128 
+
+Channel = rotation
+ index,0,127 right_rotate,128,191 left_rotate,192,255 
+
+Channel = zoom
+ auto_zoom_plus,0,0 auto_zoom_minus,86,86 Ma,171,171 
+
+Channel = pattern_size
+ moderate,0,0 small_to_big,1,255 
+
+Channel = display_dot
+

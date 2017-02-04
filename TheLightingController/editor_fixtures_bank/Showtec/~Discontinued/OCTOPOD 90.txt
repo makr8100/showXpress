@@ -1,0 +1,26 @@
+Name = Octopod 90
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = color
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = shutter
+
+Channel = Sound
+ chase 1,0,30 chase 2,31,60 chase 3,61,90 chase 4,91,120 chase 5,121,150 chase 6,151,180 chase 7,181,210 chase 8,211,240 audio,241,255
+

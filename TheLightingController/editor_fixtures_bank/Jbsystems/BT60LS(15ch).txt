@@ -1,0 +1,50 @@
+﻿ViewType = VIEW_TYPE_HEAD_WASH
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 15
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = dimmer
+
+Channel = shutter
+ closed,0,0 strobe,16,131 pulse_open,140,181 pulse_close,190,231 random_strobe,244,244 open,245,245
+
+Channel = color
+ white,0,0 yellow,21,21 light_blue,35,35 light_green,50,50 red,64,64 magenta,76,76 dark_blue,92,92 blue,100,100 orange,118,118 right_rotate,128,189 stop,192,192 left_rotate,194,255
+
+Channel = gobo
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,12,12 Miscellaneous/gobo2,20,20 Miscellaneous/gobo3,28,28 Miscellaneous/gobo4,36,36 Miscellaneous/gobo5,44,44 Miscellaneous/gobo6,52,52 Miscellaneous/gobo7,60,60 Miscellaneous/shake_gobo1,68,68 Miscellaneous/shake_gobo2,78,78 Miscellaneous/shake_gobo3,87,87 Miscellaneous/shake_gobo4,96,96 Miscellaneous/shake_gobo5,105,105 Miscellaneous/shake_gobo6,115,115 Miscellaneous/shake_gobo7,124,124 Miscellaneous/right_rotate,128,189 Miscellaneous/stop,192,192 Miscellaneous/left_rotate,194,255
+
+Channel = gobo_rotate
+ index,0,127 right_rotate,128,189 stop,192,192 left_rotate,194,255
+
+Channel = gobo2
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,7,7 Miscellaneous/gobo2,18,18 Miscellaneous/gobo3,25,25 Miscellaneous/gobo4,32,32 Miscellaneous/gobo5,39,39 Miscellaneous/gobo6,46,46 Miscellaneous/gobo7,53,53 Miscellaneous/gobo8,60,60 Miscellaneous/shake_gobo1,68,68 Miscellaneous/shake_gobo2,76,76 Miscellaneous/shake_gobo3,84,84 Miscellaneous/shake_gobo4,92,92 Miscellaneous/shake_gobo5,100,100 Miscellaneous/shake_gobo6,108,108 Miscellaneous/shake_gobo7,115,115 Miscellaneous/shake_gobo8,124,124 Miscellaneous/right_rotate,128,189 Miscellaneous/stop,192,192 Miscellaneous/left_rotate,194,255
+
+Channel = prism
+ no_function,0,0 prism,8,255
+
+Channel = prism_rotate
+ index,0,127 left_rotate,128,189 stop,192,192 right_rotate,194,255
+
+Channel = focus
+
+Channel = control
+ no_function,0,0 reset,204,204
+

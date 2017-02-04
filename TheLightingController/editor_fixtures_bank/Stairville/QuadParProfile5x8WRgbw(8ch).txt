@@ -1,0 +1,31 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED60W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 20
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = dimmer
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = mode
+ RGB,0,0 static,15,15 macro_1,35,35 macro_2,62,62 macro_3,85,85 macro_4,112,112 macro_5,135,135 macro_6,162,162 macro_7,187,187 macro_8,212,212 macro_9,237,237 audio,255,255 
+
+Channel = color
+ closed,0,0 red,27,27 orange,46,46 yellow,65,65 light_green,84,84 light_blue,102,102 blue,122,122 violet,141,141 pink,160,160 white,180,180 red,200,200 green,220,220 blue,236,236 RGBW,255,255 
+
+Channel = shutter
+ open,0,0 strobe,10,255 
+

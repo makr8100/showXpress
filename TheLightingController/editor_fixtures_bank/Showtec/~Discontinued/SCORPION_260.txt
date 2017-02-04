@@ -1,0 +1,27 @@
+Name = SHOWTEC_SCORPION260
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_250MSR
+ViewAnglePan = 180
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = pan
+
+Channel = tilt
+
+Channel = color
+ white,0,10 red,11,11 yellow,22,22 blue,33,33 light_green,44,44 pink,55,55 dark_blue,66,66 dark_red,77,77 orange,88,88 turquoise,99,99 dark_orange,110,110 green,121,121 rainbow,128,191 rainbow,192,255
+
+Channel = gobo
+ Miscellaneous\closed,0,0 Miscellaneous\open,8,8 Showtec\Scorpion_08,16,16 Showtec\Scorpion_22,24,24 Showtec\Scorpion_21,32,32 Showtec\Scorpion_20,40,40 Showtec\Scorpion_19,48,48 Showtec\Scorpion_18,56,56 Showtec\Scorpion_17,64,64 Showtec\Scorpion_16,72,72 Showtec\Scorpion_15,80,80 Showtec\Scorpion_14,88,88 Showtec\Scorpion_13,96,96 Showtec\Scorpion_12,104,104 Showtec\Scorpion_11,112,112 Showtec\Scorpion_01,120,120 Miscellaneous\closed,128,128 Miscellaneous\reset,133,133 Rainbow,138,138 Miscellaneous\strobe,160,160 Random_strob,201,201 Miscellaneous\open,202,255
+
+Channel = upan
+
+Channel = utilt
+

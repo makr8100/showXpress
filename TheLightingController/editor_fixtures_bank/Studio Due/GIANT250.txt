@@ -1,0 +1,24 @@
+Name = STUDIO-DUE_GIANT250
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = pantilt_speed
+
+Channel = color
+ white,0,0 CTC,12,12 yellow_603,24,24 blue_104,36,36 pink_312,48,48 green_206,60,60 blue_108,72,72 red_301,84,84 magenta_507,96,96 blue_101,108,108 orange_306,120,120 green_202,132,132 purple_502,144,144 position,156,207 clock,208,226 counterclock,228,245 random,255,255
+
+Channel = gobo
+ open,0,0 gobo1,15,15 gobo2,25,25 gobo3,35,35 gobo4,45,45 gobo5,55,55 gobo6,65,65 gobo7,75,75 gobo8,85,85 shake_gobo8,90,104 shake_gobo7,106,119 shake_gobo6,120,134 shake_gobo5,136,149 shake_gobo4,150,164 shake_gobo3,166,179 shake_gobo2,180,194 shake_gobo1,196,209 clock,210,232 counterclock,234,255
+
+Channel = shutter
+
+Channel = pan
+
+Channel = tilt
+

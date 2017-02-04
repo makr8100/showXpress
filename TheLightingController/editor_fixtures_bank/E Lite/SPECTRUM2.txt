@@ -1,0 +1,26 @@
+Name = ELITE_SPECTRUM2
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_250HALO
+ViewAnglePan = 170
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewColor = 13158600
+
+Channel = color
+ white,0,0 red,26,26 yellow,44,44 orange,62,62 blue,80,80 green,98,98 cyan,116,116 purple,134,134 purple,152,152 green,170,170 clock,178,232 counterclock,233,253 rotate,255,255
+
+Channel = gobo
+ Miscellaneous\open,0,0 Miscellaneous\gobo1,47,47 Miscellaneous\gobo2,80,80 Miscellaneous\gobo3,110,110 Miscellaneous\gobo4,143,143 Miscellaneous\gobo5,175,175 Miscellaneous\gobo6,207,207 Miscellaneous\gobo7,255,255
+
+Channel = shutter
+ closed,0,0 open,22,22 strobe,30,250 open,255,255
+
+Channel = gobo_rotate
+
+Channel = pan
+
+Channel = tilt
+

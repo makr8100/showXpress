@@ -1,0 +1,25 @@
+Name = Swarm
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = color
+ blackout,0,9 red,10,19 green,20,29 blue,30,39 cyan,40,49 magenta,50,59 yellow,60,69 white,70,79 single_color,80,139 multi_color,140,199 automatic_fast,200,224 automatic_slow,225,249 sound,250,255
+
+Channel = speed_control
+ speed,0,255
+
+Channel = strobe_speed
+ no_strobe,0,4 slow_fast,5,254 sound,255,255
+
+Channel = motor
+ no_rotation,0,4 cw_slow_fast,5,127 stop,128,133 ccw_slow_fast,134,255
+

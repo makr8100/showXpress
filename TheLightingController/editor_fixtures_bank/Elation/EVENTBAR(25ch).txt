@@ -1,0 +1,65 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = dimmer
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = dimmer
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = dimmer
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = dimmer
+
+Channel = movement_macro
+ stop,0,0 macro_1,17,17 macro_2,35,35 macro_3,55,55 macro_4,75,75 macro_5,95,95 macro_6,116,116 macro_7,135,135 macro_8,155,155 macro_9,175,175 macro_10,195,195 macro_11,215,215 macro_12,235,235 auto,255,255
+
+Channel = movement_speed
+ slow,0,0 fast,255,255
+
+Channel = movement_fine
+ horizontal,0,127 vertical,128,255
+
+Channel = shutter
+ open,0,0 strobe,9,131 pulse_open,140,181 pulse_close,190,231 audio_strobe,244,244 open,255,255
+
+Channel = dimmer
+

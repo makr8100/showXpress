@@ -1,0 +1,67 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewAnglePan = 0
+ViewAngleTilt = 0
+ViewAngleBeam = 0
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = mode
+ no_function,0,18 AUT,19,36 A3D ,37,54 AUB,55,72 AUL,73,90 AUN,91,108 AUO,109,126 SOU ,127,144 S3D ,145,162 SOB ,163,180 SOL ,181,198 SON ,199,216 SOO ,217,234 DMX  MODE,235,255 
+
+Channel = Group
+ 1 Group Patterns,0,51 2 Group Patterns,52,103 3 Group Patterns,104,155 4 Group Patterns,156,207 5 Group Patterns,208,255
+
+Channel = Pattern Selection
+ auto,0,255
+
+Channel = color
+ rainbow,0,7 red,8,15 green,16,23 yellow,24,31 blue,32,39 purple,40,47 light_blue,48,55 white,56,63 color rolling,64,111 color jumping,112,159 color moving,160,207 strobe,208,255
+
+Channel = Cliping
+ 0%~99% fixed pattern clipped,1,127 clipping sleed,128,255
+
+Channel = zoom
+ 100%-5% fixed pattern zoomed,0,127 zooming in,128,169 zooming out,170,209 Alternely zooming,210,255
+
+Channel = zoom
+ fast to slow,0,255
+
+Channel = Y Axis Rolling
+ 0 -359 degree fixed Y axis rolled,0,127 Clockwise rolling,128,191 Anticlockwise rolling,192,255
+
+Channel = Roll
+ Fast to slow,0,255
+
+Channel = X axis Rolling
+ 0 -359 degree fixed X axis rolled,0,127 Clockwise rolling,128,191 Anticlockwise rolling,192,255
+
+Channel = Roll
+ Fast to slow ,0,255
+
+Channel = Z axis Rolling
+ 0 -359 degree fixed Z axis rolled,0,127 Clockwise rolling,128,191 Anticlockwise rolling,192,255
+
+Channel = Roll
+ Fast to slow,0,255
+
+Channel = X axis Moving
+ Position on X axis,0,127 Clockwise moving,128,191 Anticlockwise moving,192,255
+
+Channel = movement_macro
+ Fast to slow ,0,255
+
+Channel = X axis Moving
+ Position on Y axis,0,127 Clockwise moving,128,191 Anticlockwise moving,192,255
+
+Channel = movement_macro
+ Fast to slow ,0,255
+
+Channel = Grating Rotation
+ No grating rotating   ,0,4 Clockwise grating rotating,5,127 No grating rotating,128,133 Anticlockwise grating rotating,134,255
+
+Channel = Grating Effect
+ Laser 3D Effect,0,31 Scanned Beam Effect (Pattern Effect),32,63 Laser Lumia Effect,64,95 Scanned Beam Effect (Pattern Effect),96,127 Burst Grating Effect,128,159 Scanned Beam Effect (Pattern Effect),160,191 Laser Universal Effect,192,223 Scanned Beam Effect (Pattern Effect),224,255
+

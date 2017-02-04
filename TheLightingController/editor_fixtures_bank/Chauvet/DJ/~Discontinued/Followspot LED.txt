@@ -1,0 +1,20 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = color
+ white,0,31 dark_blue,32,63 yellow,64,95 purple,96,127 green,128,159 red,160,191 light_blue,192,223 orange,224,255
+
+Channel = strobe_effect
+ strobe,0,255 
+

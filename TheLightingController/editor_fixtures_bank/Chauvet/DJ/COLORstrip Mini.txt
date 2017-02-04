@@ -1,0 +1,24 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 37
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+2DViewImage = Chauvet/DJ/COLORstrip Mini.PNG
+
+Channel = color
+ no_function,0,9 red,10,19 green,20,29 blue,30,39 yellow,40,49 purple,50,59 cyan,60,69 white,70,79 Color Change 1,80,89 Color Change 2,90,99 Color Change 3,100,109 Color Change 4,110,119 Color Change  5,120,129 Color Change 6,130,139 Color Chase 1,140,149 Color Chase 2,150,159 Color Chase 3,160,169 Color Chase 4,170,179 Color Chase 5,180,189 Color Chase 6,190,199 Color Chase 7,200,209 RGB Mode,210,219 Color Fade,220,229 audio,230,255
+
+Channel = red
+ dimmer,0,255
+
+Channel = green
+ dimmer,0,255
+
+Channel = blue
+ dimmer,0,255
+

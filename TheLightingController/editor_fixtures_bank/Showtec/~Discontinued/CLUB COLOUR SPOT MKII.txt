@@ -1,0 +1,19 @@
+Name = Club Colour Spot MKII
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = color
+ new_level,0,1 new_level,2,15 new_level,16,19 new_level,20,33 new_level,34,36 new_level,37,51 new_level,52,54 new_level,55,67 new_level,68,71 new_level,72,87 new_level,88,90 new_level,91,105 new_level,106,108 new_level,109,122 new_level,123,125 new_level,126,255
+
+Channel = shutter
+ closed,0,5 Gradual Open,6,116 open,117,139 strobe,140,199 Random,200,249 open,250,255
+

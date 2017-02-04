@@ -1,0 +1,39 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/SlimBEAM Quad IRC.png
+
+Channel = red
+ Red,0,255
+
+Channel = green
+ Green,0,255
+
+Channel = blue
+ Blue,0,255
+
+Channel = amber
+ Blue,0,255
+
+Channel = color_macro
+ no_function,0,10 red 100%/green up/blue 0%,11,30 red down/green100%/blue 0%,31,50 red0%/green100%/blue up,51,70 red0%/green down/blue 100%,71,90 red up/green0%/blue100%,91,110 red 100%/green0%/blue down,111,130 red 100%/green up/blue up,131,150 red down/green down/blue100%,151,170 red 100%/green100%/blue100%/amber100%,171,200 White1: 3200K,201,205 White 2: 3400K,206,210 White 3: 4200K,211,215 White 4: 4900K,216,220 White 5: 5600K,221,225 White 6: 5900K,226,230 White 7: 6500K,231,235 White 8: 7200K,236,240 White 9: 8000K,241,245 White 10: 8500K,246,250 White 11: 1000K,251,255
+
+Channel = shutter
+ Strobe off,0,10 strobe,11,255
+
+Channel = effect_macro
+ no_function,0,10 Auto program 1,11,32 Auto program 2,33,54 Auto program 3,55,76 Auto program 4,77,98 Auto program 5,99,120 Auto program 6,121,142 Auto program 7,143,164 Auto program 8,165,186 Auto program 9,187,208 Auto program 10,209,230 Sound program,231,255
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = Dim Mode
+ Preset dimmer speed from display menu,0,51 Dimmer speed mode off,52,101 Dimmer speed mode1 (fast speed),102,152 Dimmer speed mode2 (middle speed),153,203 Dimmer speed mode3 (slow speed),204,255
+

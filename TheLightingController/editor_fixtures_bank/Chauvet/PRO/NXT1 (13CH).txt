@@ -1,0 +1,51 @@
+﻿ViewType = VIEW_TYPE_HEAD_WASH
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/PRO/NXT1-2D.png
+
+Channel = pan
+ dimmer,0,255
+
+Channel = upan
+ dimmer,0,255
+
+Channel = tilt
+ dimmer,0,255
+
+Channel = utilt
+ dimmer,0,255
+
+Channel = pantilt_speed
+ Fast To Slow,0,255
+
+Channel = control
+ no_function,0,199 reset,200,209 no_function,210,255
+
+Channel = red
+ dimmer,0,255
+
+Channel = green
+ dimmer,0,255
+
+Channel = blue
+ dimmer,0,255
+
+Channel = white
+ dimmer,0,255
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = shutter
+ no_function,0,10 Strobe slow to fast,11,255
+
+Channel = Dimmer speed
+ Preset dimmer speed from display,0,51 Dimmer speed mode off,52,101 Dimmer speed mode1 (fast speed),102,152 Dimmer speed mode2 (normal speed),153,203 DImmer speed mode3 (slow speed),204,255
+

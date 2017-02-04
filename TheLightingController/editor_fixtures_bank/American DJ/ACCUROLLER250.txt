@@ -1,0 +1,34 @@
+Name = AMERICAN-DJ_ACCUROLLER250
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_250MSR
+ViewAnglePan = 360
+ViewAngleTilt = 265
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewColor = 0
+
+Channel = pan
+
+Channel = tilt
+
+Channel = color
+ white,0,0 red,30,30 blue,50,50 yellow,70,70 green,90,90 light_blue,110,110 amber,130,130 pink,150,150 magenta,170,170 purple,190,190 rotate,200,255
+
+Channel = gobo
+ Miscellaneous\open,0,0 gobo1,20,20 gobo2,35,35 gobo3,48,48 gobo4,62,62 gobo5,77,77 gobo6,90,90 gobo7,107,107 gobo1 shake,130,130 gobo2 shake,145,145 gobo3 shake,165,165 gobo4 shake,185,185 gobo5 shake,205,205 gobo6 shake,225,225 gobo7 shake,255,255
+
+Channel = gobo_rotate
+ stop,0,0 right_rotate,8,127 stop,132,132 left_rotate,136,255
+
+Channel = shutter
+ stop,0,0 dimmer,32,63 strobe,64,95 open,110,110 pulse,128,159 open,160,191 random strobe,192,223 open,255,255
+
+Channel = control
+ color normal,0,0 color change,30,30 lamp on,50,50 lamp off,70,70 reset,90,90 prog1,110,110 prog2,130,130 prog3,150,150 prog4,170,170 prog5,190,190 prog6,210,210 prog7,230,230 sound active,255,255
+
+Channel = pantilt_speed
+ max speed,0,0 max to min speed,5,225 blackout by mov,230,230 bk wheel by mov,240,240 nothing,255,255
+

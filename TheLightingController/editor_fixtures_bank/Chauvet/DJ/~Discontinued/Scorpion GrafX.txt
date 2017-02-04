@@ -1,0 +1,45 @@
+Name = Scorpion GrafX
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = pan
+
+Channel = tilt
+
+Channel = pantilt_speed
+
+Channel = shutter
+ closed,0,31 open,32,32
+
+Channel = effect
+ page 1,0,30 page 2,31,61 page 3,62,92 page 4,93,123 page 5,124,154 page 6,155,185 page 7,186,216 page 8,217,247 page 9,248,255
+
+Channel = effect
+
+Channel = effect_speed
+ 100%,0,24 1 to 10%,25,127 10 to 100%,128,255
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = zoom
+
+Channel = pan_size
+
+Channel = tilt_size
+
+Channel = gobo_rotate
+
+Channel = x-position
+
+Channel = y-position_
+

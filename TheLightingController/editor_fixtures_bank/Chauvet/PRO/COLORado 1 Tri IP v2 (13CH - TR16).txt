@@ -1,0 +1,42 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 15
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/PRO/COLORado1Tri-2D.png
+
+Channel = dimmer
+
+Channel = udimmer
+
+Channel = red
+
+Channel = ured
+
+Channel = green
+
+Channel = ugreen
+
+Channel = blue
+
+Channel = ublue
+
+Channel = color_macro
+ no_function,0,10 macro_1,11,30 macro_2,31,50 macro_3,51,70 macro_4,71,90 macro_5,91,110 macro_6,111,130 macro_7,131,150 macro_8,151,170 macro_9,171,200 3200K,201,205 3400K,206,210 4200K,211,215 4900K,216,220 5600K,221,225 5900K,226,230 6500K,231,235 7200K,236,240 8000K,241,245 8500K,246,250 10000K,251,255
+
+Channel = shutter
+ no_function,0,9 Strobe (Slow ~ Fast),10,99 no_function,100,109 Lighting (Slow ~ Fast),110,179 no_function,180,189 Random (Slow ~ Fast),190,255
+
+Channel = effect_macro
+ no_function,0,20 macro_1,21,30 macro_2,31,40 macro_3,41,50 macro_4,51,60 macro_5,61,70 macro_6,71,80 macro_7,81,90 macro_8,91,100 macro_9,101,110 macro_10,111,120 Custom_1,121,130 Custom_2,131,140 Custom_3,141,150 Custom_4,151,160 Custom_5,161,170 Custom_6,171,180 Custom_7,181,190 Custom_8,191,200 Custom_9,201,210 Custom_10,211,220 no_function,221,255
+
+Channel = effect_speed
+
+Channel = dimmer speed
+ Preset dimmer speed from display,0,9 Linear dimmer,10,29 Nonlinear dimming curve 1 (fastest),30,69 Nonlinear dimming curve 2,70,129 Nonlinear dimming curve 3,130,189 Nonlinear dimming curve 4 (slowest),190,255
+

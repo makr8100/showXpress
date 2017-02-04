@@ -1,0 +1,63 @@
+Name = SGM_GIOTTO_SPOT_250
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = iris
+
+Channel = color
+ white,0,0 red,37,37 yellow,62,62 green,87,87 cyan,112,112 blue,137,137 magenta,162,162 pink,187,187 amber,212,212 orange,255,255
+
+Channel = gobo
+ bianco,0,0 gobo1,31,31 gobo2,52,52 gobo3,73,73 gobo4,94,94 gobo5,115,115 gobo6,136,136 gobo7,157,157 gobo8,178,178 gobos_speed1,193,193 gobos_speed2,200,200 gobos_speed3,207,207 gobos_speed4,214,214 gobos_speed5,221,221 gobos_speed6,228,228 gobos_speed7,235,235 gobos_speed8,242,242 gobos_music,255,255
+
+Channel = shutter
+ closed,0,0 strobe_1Hz,12,12 strobe_1.38Hz,20,20 strobe_1.6Hz,28,28 strobe_1.9Hz,36,36 strobe_2.3Hz,44,44 strobe_2.7Hz,52,52 strobe_3.4Hz,60,60 strobe_4Hz,68,68 strobe_5Hz,76,76 strobe_6Hz,84,84 strobe_7Hz,92,92 strobe_8Hz,100,100 strobe_9Hz,108,108 strobe_10Hz,116,116 bass_beat,126,126 music_low,139,139 music_high,152,152 autoshade_gobo,165,165 autoshade_colo,178,178 autoshade_go-c,191,191 change_gobo,204,204 change_color,217,217 change_gob_col,230,230 open,255,255
+
+Channel = dimmer
+
+Channel = gobo_rotate
+ positionning,0,127 rotat_down,128,175 stopped,190,190 rotat_up,203,255
+
+Channel = prism
+ comet,100,100 4_facet_prism,255,255
+
+Channel = prism_rotate
+ rotation_down,0,111 stop,130,130 rotation_up,144,255
+
+Channel = focus
+
+Channel = beam
+
+Channel = effect
+ white,0,0 tunnel,47,47 stripped_textu,78,78 honeycomb_text,109,109 spider,140,140 wood_filter,171,171 filter_1/2_CTO,202,202 filter_CTO,255,255
+
+Channel = frost
+
+Channel = effect_speed
+
+Channel = control
+ lamp_off,0,0 hysteresis,100,100 lamp_on,150,150 hysteresis_res,200,200 reset,255,255
+
+Channel = gobo
+ disabled,0,0 speed1,54,54 speed2,67,67 speed3,80,80 speed4,93,93 speed5,106,106 speed6,119,119 speed7,132,132 speed8,145,145 speed9,159,159 speed10,171,171 speed11,184,184 speed12,197,197 speed13,210,210 speed14,223,223 speed15,236,236 speed16,255,255
+
+Channel = color
+ full_color,0,0 half_color,75,75 color_soft,125,125 rainbow_soft,175,175 music_hard,255,255
+
+Channel = gobo_rotate
+ gobos_indexing,0,127 gobos_rotat,128,255
+

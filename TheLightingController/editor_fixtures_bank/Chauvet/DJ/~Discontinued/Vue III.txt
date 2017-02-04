@@ -1,0 +1,40 @@
+Name = VUE III
+
+ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 61
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = control
+ auto program speed,0,199 audio,200,249 automatic,250,255
+
+Channel = effect
+ no function,0,31 auto mode 1,32,63 auto mode 2,64,95 auto mode 3,96,127 no function,128,131 static colors,132,255
+
+Channel = effect
+ no function,0,31 auto mode 1,32,63 auto mode 2,64,95 auto mode 3,96,127 no function,128,131 static colors,132,255
+
+Channel = effect
+ no function,0,31 auto mode 1,32,63 auto mode 2,64,95 auto mode 3,96,127 no function,128,131 static colors,132,255
+
+Channel = effect
+ no function,0,31 auto mode 1,32,63 auto mode 2,64,95 auto mode 3,96,127 no function,128,131 static colors,132,255
+
+Channel = effect
+ no function,0,31 auto mode 1,32,63 auto mode 2,64,95 auto mode 3,96,127 no function,128,131 static colors,132,255
+
+Channel = effect
+ no function,0,31 auto mode 1,32,63 auto mode 2,64,95 auto mode 3,96,127 no function,128,131 static colors,132,255
+
+Channel = effect
+ no function,0,31 auto mode 1,32,63 auto mode 2,64,95 auto mode 3,96,127 no function,128,131 static colors,132,255
+
+Channel = shutter
+ no function,0,9 fast-slow,10,209 audio,210,255
+

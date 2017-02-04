@@ -1,0 +1,23 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = cool_white
+
+Channel = warm_white
+
+Channel = white_presets
+ no_function,0,0 3400K_to_7400K,1,1
+
+Channel = shutter
+ open,0,0 strobe,2,255
+
+Channel = dimmer
+

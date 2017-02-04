@@ -1,0 +1,22 @@
+Name = STRONG_COLORPROF
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = color
+ white,0,0 color_1,56,56 color_2,93,93 color_3,130,130 color_4,167,167 color_5,204,204 color_6,255,255
+
+Channel = color
+ white,0,0 color_1,56,56 color_2,93,93 color_3,130,130 color_4,167,167 color_5,204,204 color_6,255,255
+
+Channel = gobo
+ frost,0,0 open,33,33 gobo1,55,55 gobo2,77,77 gobo3,99,99 gobo4,121,121 gobo5,143,143 gobo6,165,165 gobo7,187,187 open,255,255
+
+Channel = shutter
+ closed,0,0 dimmer,52,127 open,132,132 strobe,138,242 open,255,255
+

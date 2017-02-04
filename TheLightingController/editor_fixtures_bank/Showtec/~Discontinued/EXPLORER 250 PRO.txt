@@ -1,0 +1,55 @@
+Name = EXPLORER_250_pro
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_250MSR
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+2DViewImage = Showtec/Discontinued/explorer_250.png
+
+Channel = pan
+
+Channel = tilt
+
+Channel = upan
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = effect
+ NO FUNCTION,0,127 LAMP ON 3SEC,128,139 NO FUNCTION,140,229 LAMP OFF 3SEC,230,239 NO FUNCTION,240,255
+
+Channel = color
+ white,0,15 red,16,31 dark_yellow,32,47 magenta,48,63 green,64,79 orange,80,95 blue,96,111 pink,112,127 clock,128,255
+
+Channel = gobo
+ OPEN,0,36 Showtec\EXPLO_250_06,37,73 Showtec\EXPLO_250_07,74,110 Showtec\EXPLO_250_08,111,147 Showtec\EXPLO_250_MX01,148,184 Showtec\EXPLO_250_MX02,185,221 Showtec\EXPLO_250_MX03,222,255
+
+Channel = prism
+ open,0,160 prism,161,255
+
+Channel = prism_rotate
+ stop,0,4 right_rotate,5,127 stop,128,132 left_rotate,133,255
+
+Channel = gobo2
+ Miscellaneous\open,0,31 Showtec\EXPLO_250_01,32,63 Showtec\EXPLO_250_02,64,95 Showtec\EXPLO_250_03,96,127 Showtec\EXPLO_250_04,128,159 Showtec\EXPLO_250_05,160,223 Miscellaneous\right_rotate,224,255
+
+Channel = gobo_rotate2
+ INDEXING,0,60 right_rotate,61,158 left_rotate,159,255
+
+Channel = beam
+ 15,0,31 18,32,47 21,48,63 24,64,79 26,80,95 FROST,96,111 UV-FILTER,112,127 15,128,159 18,160,175 21,176,191 24,192,207 26,208,223 FROST,224,239 UV-FILTER,240,255
+
+Channel = focus
+
+Channel = shutter
+ closed,0,31 open,32,63 STROBE,64,95 open,96,127 PULSE,128,159 open,160,191 RANDOM,192,223 open,224,255
+
+Channel = dimmer
+

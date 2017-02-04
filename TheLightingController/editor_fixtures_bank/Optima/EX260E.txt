@@ -1,0 +1,33 @@
+Name = OPTIMA_EX260E
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_250MSR
+ViewAnglePan = 180
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = pan
+
+Channel = tilt
+
+Channel = color
+ open,0,0 dark_blue,27,27 pink,44,44 green,62,62 red,80,80 light_blue,98,98 yellow,116,116 light_red,127,127 right_rotate,128,191 left_rotate,192,255
+
+Channel = gobo
+ Miscellaneous\open,0,0 gobo1,23,23 gobo2,39,39 gobo3,55,55 gobo4,71,71 gobo5,87,87 gobo6,103,103 gobo7,119,119 Miscellaneous\right_rotate,128,191 Miscellaneous\left_rotate,192,255
+
+Channel = gobo_rotate
+ stop,0,0 right_rotate,16,135 left_rotate,136,255
+
+Channel = shutter
+ open,0,0 dimmer,6,128 reset,130,130 strobe,140,249
+
+Channel = upan
+
+Channel = utilt
+

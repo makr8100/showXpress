@@ -1,0 +1,25 @@
+Name = VEI_NOVASCAN_V-250-1
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_250HALO
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = color
+ white,0,0 red,26,26 yellow,44,44 purple,62,62 green,80,80 amber,98,98 blue,116,116 pink,134,134 lime,152,152 cyan,170,170 orange,188,188 ltyellow,206,206 uv_purple,224,224 red_blue,242,242 yellow_green,255,255
+
+Channel = gobo
+ open,0,0 tri-spot,26,26 pie,44,44 aim,62,62 daisies,80,80 cltcross,98,98 spokes,116,116 atom,134,134 jagstar,152,152 x-cross,170,170 bubbles,188,188 maze,206,206 flower,224,224 web,242,242 worms,255,255
+
+Channel = shutter
+ closed,0,0 open,22,22 strobe,35,245
+
+Channel = pan
+
+Channel = tilt
+
+Channel = dimmer
+

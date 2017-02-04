@@ -1,0 +1,104 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = effect_macro
+ no_function,0,0 macro_1,18,18 macro_2,36,36 macro_3,57,57 macro_4,78,78 macro_5,98,98 macro_6,118,118 macro_7,138,138 macro_8,158,158 macro_9,178,178 macro_10,198,198 macro_11,218,218 macro_12,238,238 random,255,255 
+
+Channel = tilt
+
+Channel = tilt
+
+Channel = dimmer
+
+Channel = shutter
+ open,0,0 strobe,8,131 open,135,135 pulse_open,140,181 pulse_close,190,231 random_strobe,244,244 open,255,255 
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+

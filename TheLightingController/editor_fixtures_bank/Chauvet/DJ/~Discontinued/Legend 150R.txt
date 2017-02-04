@@ -1,0 +1,30 @@
+Name = Legend 150R
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 13
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewColor = 0
+
+Channel = shutter
+ closed,1,1 open,2,2 dimmer,8,86 open,87,87 strobe,88,167 gobo bounce,168,255
+
+Channel = gobo
+ Chauvet\open,1,1 Chauvet\small circle,17,17 Chauvet\phone,35,35 Chauvet\bigline,50,50 Chauvet\54,66,66 Chauvet\4 dots,82,82 Showtec\CHALLENGER-005,98,98 Chauvet\swirl3,114,114 Miscellaneous\rotate,130,130 Miscellaneous\rotate,194,194 Miscellaneous\rotate,244,244
+
+Channel = gobo_rotate
+ stop,0,0 left_rotate,12,12 left_rotate,70,70 left_rotate,118,118 stop,125,125 right_rotate,137,137 right_rotate,190,190 right_rotate,244,244 stop,248,255
+
+Channel = color
+ white,1,1 white,2,2 blue,15,15 yellow,28,28 green,41,41 light_blue,54,54 orange,66,66 pink,79,79 magenta,92,92 amber,105,105 cyan,118,118 rotate,130,130 rotate,193,193 rotate,255,255
+
+Channel = pan
+ new_level,0,255
+
+Channel = tilt
+ new_level,0,255
+

@@ -1,0 +1,38 @@
+Name = PEARL-RIVER_SOLO250
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_250MSR
+ViewAnglePan = 540
+ViewAngleTilt = 280
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = gobo
+ open,0,0 gobo1,50,50 gobo2,80,80 gobo3,115,115 gobo4,150,150 gobo5,180,180 gobo6,215,215 gobo7,255,255
+
+Channel = gobo_rotate
+ stop,0,0 index,9,163 right_rotate,164,205 stop,210,210 left_rotate,211,255
+
+Channel = color
+ white,0,0 color1,40,40 color2,70,70 color3,100,100 color4,120,120 color5,150,150 color6,180,180 color7,200,200 color8,240,240 color9,255,255
+
+Channel = shutter
+ closed,0,0 dimmer,11,195 strobe,196,251 open,255,255
+
+Channel = pan
+
+Channel = tilt
+
+Channel = focus
+
+Channel = prism
+ open,0,0 prism,40,40 index,49,127 left_rotate,128,189 prism,192,192 right_rotate,194,255
+
+Channel = upan
+
+Channel = utilt
+

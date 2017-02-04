@@ -1,0 +1,37 @@
+Name = SGM_VICTORYII150
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = dimmer
+
+Channel = color
+ white,0,0 white_yellow,14,14 yellow,24,24 yellow_magenta,34,34 magenta,44,44 magenta_cyan,54,54 cyan,64,64 cyan_orange,74,74 orange,84,84 orange_green,94,94 green,104,104 green_blue,114,114 blue,124,124 blue_red,134,134 red,144,144 red_white,154,154 rainbow,202,202 rainbow_mu,255,255
+
+Channel = gobo
+ full,0,0 gobo1,30,30 gobo2,50,50 gobo3,70,70 gobo4,90,90 gobo5,110,110 gobo6,130,130 gobo7,150,150 clock,162,229 counterclock,230,255
+
+Channel = shutter
+ closed,0,0 strobe,10,149 shutter_mu,154,154 flash_mu_lo,166,166 flash_mu_hi,179,179 shutter_1,192,192 shutter_2,205,205 shutter_3,218,218 shutter_4,231,231 open,255,255
+
+Channel = pan
+
+Channel = tilt
+
+Channel = gobo_rotate
+ clock,0,112 stop,127,127 counterclock,144,255
+
+Channel = frost
+ full,0,0 filter,95,95 frost,159,159 filter_frost,255,255
+
+Channel = prism
+ full,0,0 prism,64,64 prism_rotate,80,255
+
+Channel = control
+ lamp_off,0,0 lamp_on,140,140 reset,255,255
+

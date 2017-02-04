@@ -1,0 +1,90 @@
+﻿ViewType = VIEW_TYPE_HEAD
+
+ViewPower = VIEW_POWER_LAMP250W
+
+ViewAnglePan = 540
+
+ViewAngleTilt = 270
+
+ViewAngleBeam = 16
+
+ViewReversePan = FALSE
+
+ViewReverseTilt = FALSE
+
+ViewReverseDimmer = FALSE
+
+ViewReverseIris = FALSE
+
+ViewColor = 16777215
+
+2DViewImage = Showtec/Moving Heads/Phantom75LedSpotE#40188.png
+
+
+
+Channel = pan
+
+
+
+Channel = tilt
+
+
+
+Channel = upan
+
+
+
+Channel = utilt
+
+
+
+Channel = pantilt_speed
+
+
+
+Channel = color
+
+ white,0,0 yellow,10,10 pink,17,17 green,23,23 red,31,31 light_blue,38,38 light_green,45,45 orange,52,52 dark_blue,60,60 right_rotate,128,191 left_rotate,192,255
+
+
+
+Channel = shutter
+
+ closed,0,0 open,5,5 strobe,8,76 pulse_strobe,77,145 random_strobe,146,215 open,255,255
+
+
+
+Channel = dimmer
+
+
+
+Channel = gobo
+
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,12,12 Miscellaneous/gobo2,20,20 Miscellaneous/gobo3,28,28 Miscellaneous/gobo4,36,36 Miscellaneous/gobo5,44,44 Miscellaneous/gobo6,52,52 Miscellaneous/gobo7,60,60 Miscellaneous/shake_gobo7,64,71 Miscellaneous/shake_gobo6,72,79 Miscellaneous/shake_gobo5,80,87 Miscellaneous/shake_gobo4,88,95 Miscellaneous/shake_gobo3,96,103 Miscellaneous/shake_gobo2,104,111 Miscellaneous/shake_gobo1,112,119 Miscellaneous/right_rotate,128,191 Miscellaneous/left_rotate,192,255
+
+
+
+Channel = gobo_rotate
+
+ index,0,63 right_rotate,64,147 left_rotate,148,231 bouncing,232,255
+
+
+
+Channel = control
+
+ no_function,0,0 blackout_moves,12,12 reset_pan,100,100 reset_tilt,108,108 reset_color,115,115 reset_gobo,130,130 reset,155,155
+
+Channel = effect_macro
+ no_function,0,0 macro_1,16,16 macro_2,30,30 macro_3,48,48 macro_4,64,64 macro_5,78,78 macro_6,94,94 macro_7,110,110 macro_8,128,128 audio1,142,142 audio2,158,158 audio3,176,176 audio4,190,190 audio5,208,208 audio6,222,222 audio7,238,238 audio8,255,255
+
+
+
+Channel = prism
+
+ no_function,0,0 prism,10,10 right_rotate,13,130 left_rotate,131,247 prism,255,255
+
+
+
+Channel = focus
+
+

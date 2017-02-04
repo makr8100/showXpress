@@ -1,0 +1,47 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Showtec/Moving Heads/Indigo4600E#41385.png
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = color
+ white,0,0 red,15,15 green,25,25 yellow,35,35 blue,45,45 orange,55,55 magenta,65,65 light_blue,75,75 rotate,220,255
+
+Channel = gobo
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,15,15 Miscellaneous/gobo2,25,25 Miscellaneous/gobo3,35,35 Miscellaneous/gobo4,45,45 Miscellaneous/gobo5,55,55 Miscellaneous/gobo6,65,65 Miscellaneous/gobo7,75,75 Miscellaneous/gobo8,85,85 Miscellaneous/shake_gobo8,91,105 Miscellaneous/shake_gobo7,106,120 Miscellaneous/shake_gobo6,121,135 Miscellaneous/shake_gobo5,136,150 Miscellaneous/shake_gobo4,151,165 Miscellaneous/shake_gobo3,166,180 Miscellaneous/shake_gobo2,181,195 Miscellaneous/shake_gobo1,196,210 Miscellaneous/rotate,211,255
+
+Channel = gobo2
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,15,15 Miscellaneous/gobo2,25,25 Miscellaneous/gobo3,35,35 Miscellaneous/gobo4,45,45 Miscellaneous/gobo5,55,55 Miscellaneous/gobo6,65,65 Miscellaneous/gobo7,75,80 Miscellaneous/shake_gobo7,81,95 Miscellaneous/shake_gobo6,96,110 Miscellaneous/shake_gobo5,111,125 Miscellaneous/shake_gobo4,126,140 Miscellaneous/shake_gobo3,141,155 Miscellaneous/shake_gobo2,156,170 Miscellaneous/shake_gobo1,171,185 Miscellaneous/rotate,186,255
+
+Channel = gobo_rotate2
+ index,0,60 right_rotate,61,150 stop,158,158 left_rotate,166,255
+
+Channel = prism
+ no_function,0,0 prism,7,7 left_rotate,10,127 prism,130,130 right_rotate,133,255
+
+Channel = focus
+
+Channel = dimmer
+
+Channel = shutter
+ closed,0,0 open,45,45 strobe,64,95 pulse_strobe,128,159 random_strobe,192,223 open,255,255
+
+Channel = control
+ no_function,0,0 blackout_moves,25,25 fan_auto,65,65 auto1,145,145 auto2,155,155 test,165,165 audio1,185,185 audio2,195,195 reset,205,205 
+

@@ -1,0 +1,114 @@
+﻿ViewType = VIEW_TYPE_HEAD_WASH
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/PRO/Q-Wash419Z-2D.png
+
+Channel = pan
+ dimmer,0,255 
+
+Channel = upan
+ dimmer,0,255 
+
+Channel = tilt
+ dimmer,0,255 
+
+Channel = utilt
+ dimmer,0,255 
+
+Channel = pantilt_speed
+ dimmer,0,255 
+
+Channel = dimmer
+ dimmer,0,255 
+
+Channel = udimmer
+ dimmer,0,255 
+
+Channel = shutter
+ dimmer,0,255 
+
+Channel = zoom
+ dimmer,0,255 
+
+Channel = control
+ no_function,0,19 blackout_moves,20,39 blackout_changes,40,59 fan_auto,60,79 fade_speed,80,99 fade_speed,100,119 fade_speed,120,139 auto1,140,149 auto2,150,159 macro_1,160,169 custom,170,179 no_function,180,199 reset,200,219 dimmer,220,239 dimmer,240,243 dimmer,244,247 dimmer,248,251 dimmer,252,255
+
+Channel = red
+ dimmer,0,255 
+
+Channel = ured
+ dimmer,0,255 
+
+Channel = green
+ dimmer,0,255 
+
+Channel = ugreen
+ dimmer,0,255 
+
+Channel = blue
+ dimmer,0,255 
+
+Channel = ublue
+ dimmer,0,255 
+
+Channel = white
+ dimmer,0,255 
+
+Channel = uwhite
+ dimmer,0,255 
+
+Channel = red
+ dimmer,0,255 
+
+Channel = ured
+ dimmer,0,255 
+
+Channel = green
+ dimmer,0,255 
+
+Channel = ugreen
+ dimmer,0,255 
+
+Channel = blue
+ dimmer,0,255 
+
+Channel = ublue
+ dimmer,0,255 
+
+Channel = white
+ dimmer,0,255 
+
+Channel = uwhite
+ dimmer,0,255 
+
+Channel = red
+ dimmer,0,255 
+
+Channel = ured
+ dimmer,0,255 
+
+Channel = green
+ dimmer,0,255 
+
+Channel = ugreen
+ dimmer,0,255 
+
+Channel = blue
+ dimmer,0,255 
+
+Channel = ublue
+ dimmer,0,255 
+
+Channel = white
+ dimmer,0,255 
+
+Channel = uwhite
+ dimmer,0,255 
+

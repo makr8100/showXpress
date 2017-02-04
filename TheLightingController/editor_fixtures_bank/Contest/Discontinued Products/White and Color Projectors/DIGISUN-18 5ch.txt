@@ -1,0 +1,25 @@
+Name = DIGISUN-18 5ch
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = white
+
+Channel = amber
+
+Channel = control
+ no_function,0,10 macro_1,11,40 macro_2,41,70 macro_3,71,130 macro_4,131,160 macro_5,161,190 macro_6,191,220 macro_7,221,255
+
+Channel = shutter
+ open,0,0 lighting_strobe,1,95 open,96,127 pulse_strobe,128,159 open,160,191 random_strobe,192,223 open,224,255
+
+Channel = dimmer
+

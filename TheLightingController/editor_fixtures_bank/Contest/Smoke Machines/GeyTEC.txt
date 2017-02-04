@@ -1,0 +1,30 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Contest/Smoke Machines/GEYTEC .png
+
+Channel = smoke_machine
+ no_smoke,0,4 smoke,5,255 
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = color_macro
+ chase_1,1,15 chase_2,16,31 chase_3,32,47 chase_4,48,63 chase_5,64,79 chase_6,80,95 chase_7,96,111 chase_8,112,127 chase_9,128,143 chase_10,144,159 chase_11,160,175 chase_12,176,191 chase_13,192,207 chase_14,208,223 chase_15,224,255 
+
+Channel = color_macro_speed
+
+Channel = dimmer
+
+Channel = shutter
+

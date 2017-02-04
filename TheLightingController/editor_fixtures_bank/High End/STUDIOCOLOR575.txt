@@ -1,0 +1,52 @@
+Name = HIGH-END_STUDIOCOLOR575
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = color
+ fspeed_cont,0,0 fspeed_ind,25,25 fspeed_puremix,39,39 fspeed_spin,55,55 fspeed_cycle,72,72 fspeed_random,104,104 fspeed_blink,120,120 msspeed_cont,135,135 msspeed_ind,152,152 msspeed_purem,168,168 msspeed_spin,185,185 msspeed_cycle,200,200 msspeed_random,232,232 msspeed_blink,255,255
+
+Channel = color
+ color_0,0,0 color_1,44,44 color_2,86,86 color_3,129,129 color_4,171,171 color_5,214,214
+
+Channel = cyan
+ ind_m_open,0,0 ind_m_color1,30,30 ind_m_color2,62,62 ind__m_full_sa,95,95 ind_m_medium_s,160,160 ind_m_med_low_,190,190 ind_m_low_satu,220,220 open,255,255
+
+Channel = magenta
+ ind_m_open,0,0 ind_m_color1,30,30 ind_m_color2,62,62 ind__m_full_sa,95,95 ind_m_medium_s,160,160 ind_m_med_low_,190,190 ind_m_low_satu,220,220 open,255,255
+
+Channel = yellow
+ ind_m_open,0,0 ind_m_color1,30,30 ind_m_color2,62,62 ind__m_full_sa,95,95 ind_m_medium_s,160,160 ind_m_med_low_,190,190 ind_m_low_satu,220,220 open,255,255
+
+Channel = beam
+ open,0,0 bubble,64,64 horizontal_sha,128,128 vertical_shap,192,192 open,255,255
+
+Channel = frost
+ open,0,0 bubble,64,64 horizontal_sha,128,128 vertical_shap,192,192 open,255,255
+
+Channel = shutter
+ closed,0,0 periodic_strob,8,127 random_strobe,128,247 open,255,255
+
+Channel = dimmer
+
+Channel = pantilt_speed
+ crossfade,0,0 long_to_short,4,255
+
+Channel = control
+ safe,0,0 disable_ms_spe,15,15 display_off,25,25 display_dim,35,35 display_bright,45,45 home,65,65 lamp_on,85,85 lamp_off,95,95 shutdown,125,125
+
+Channel = ???
+

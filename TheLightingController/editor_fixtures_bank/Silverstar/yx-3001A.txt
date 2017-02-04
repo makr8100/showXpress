@@ -1,0 +1,84 @@
+Name = yx-3001A
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_1200MSR
+ViewAnglePan = 540
+ViewAngleTilt = 280
+ViewAngleBeam = 22
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = control
+
+Channel = color
+ white,0,25 dark_red,26,50 green,51,75 blue,76,100 pink,101,125 orange,126,150 uv,151,175 rainbow,176,255
+
+Channel = strobe_color
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = yellow
+
+Channel = effectCMY
+
+Channel = effectCTO
+
+Channel = effect_speed
+
+Channel = gobo
+ American DJ\big_spot,0,18 Yagang\37,19,36 Yagang\38,37,54 Yagang\39,55,72 Yagang\40,73,90 Yagang\32,91,108 Yagang\31,109,126 Yagang\43,127,144 Yagang\42,145,162 new_level,163,255
+
+Channel = gobo_rotate
+ index,0,60 left_rotate,61,150 stop,151,165 right_rotate,166,255
+
+Channel = gobo_shake
+ stutter,0,255
+
+Channel = gobo2
+ Futurelight\00,0,18 Yagang\44,19,36 Yagang\45,37,54 Yagang\46,55,72 Yagang\47,73,90 Yagang\48,91,108 Yagang\49,109,126 Yagang\26,127,144 Yagang\50,145,162 new_level,163,255
+
+Channel = gobo_rotate2
+ index,0,60 left_rotate,61,150 stop,151,165 right_rotate,166,255
+
+Channel = gobo_shake2
+ stutter,0,255
+
+Channel = beam
+
+Channel = effect
+
+Channel = frost
+
+Channel = prism_rotate
+ prism,0,255
+
+Channel = iris
+ new_level,0,255
+
+Channel = _no_icon
+
+Channel = beam
+
+Channel = focus
+ focus_far,0,0 focus_mid,128,128 focus_near,255,255
+
+Channel = shutter
+ closed,0,7 strobe,8,231 open,232,255
+
+Channel = dimmer
+

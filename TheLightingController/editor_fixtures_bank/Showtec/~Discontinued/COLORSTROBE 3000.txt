@@ -1,0 +1,27 @@
+Name = COLORSTROBE3000
+
+ViewType = VIEW_TYPE_STROBE
+ViewPower = VIEW_POWER_1200MSR
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 50
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = strobe_speed
+ strobe,0,255
+
+Channel = strobe_dimmer
+ dimmer,0,255
+
+Channel = _no_icon
+
+Channel = strobe_color
+ 01,0,15 02,16,31 03,32,47 04,48,63 05,64,79 06,80,95 07,96,111 08,112,127 09,128,144 10,145,159 11,160,175 12,176,191 13,192,207 14,208,255
+
+Channel = Motor_Speed
+ Highest,0,4 Low-High,5,255
+

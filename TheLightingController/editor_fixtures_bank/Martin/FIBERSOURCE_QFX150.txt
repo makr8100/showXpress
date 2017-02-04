@@ -1,0 +1,25 @@
+Name = MARTIN_FIBERSOURCE_QFX150
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = control
+ reserved,0,0 reset_(5"),110,110 lamp_on,170,170 lamp_off,255,255
+
+Channel = dimmer
+ closed_to_open,0,255
+
+Channel = color
+ open,0,0 color1,16,16 color2,32,32 color3,48,48 color4,64,64 color5,80,80 color6,96,96 color7,112,112 color8,128,128 color9,144,144 scroll_color9,146,146 scroll_color8,150,150 scroll_color7,154,154 scroll_color6,158,158 scroll_color5,162,162 scroll_color4,166,166 scroll_color3,170,170 scroll_color2,174,174 scroll_color1,178,178 open,182,182 CW_fast/slow,186,220 CCW_slow/fast,221,255
+
+Channel = effect
+ stop_open,0,0 CW_slow/fast,2,125 stop,128,128 CCW_fast/slow,132,255
+
+Channel = effect_speed
+ tracking,0,0 fast_speed,4,4 fast_to_slow,6,255
+

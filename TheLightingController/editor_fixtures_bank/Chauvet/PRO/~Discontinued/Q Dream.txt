@@ -1,0 +1,28 @@
+Name = Q-Dream
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = color
+ none,0,0 indexed color change,1,127 color scroll fast_slow,128,187 stop,188,193 color scroll slow fast,194,255
+
+Channel = gobo
+ blackout,0,19 gobo 1 (flower),20,39 gobo 2 (bubble),40,59 gobo 3 (broken glass),60,79 gobo 4 (water),80,99 gobo 5 (leaves),100,120 Bounce slow_fast Gobo 1,121,147 Bounce slow_fast Gobo2,148,174 Bounce slow_fast Gobo3,175,201 Bounce slow_fast Gobo4,202,228 Bounce slow_fast Gobo5,229,255
+
+Channel = gobo_rotate
+ no rotation,0,7 variable rotation,8,255
+
+Channel = prism_rotate
+ no rotation,0,7 clockwise rotation fast_slow,8,127 no rotation,128,135 counter clockwise rotation fa,136,255
+
+Channel = built_in_progr
+ normal,0,23 program 1,24,47 program 2,48,71 program 3,72,95 program 4,96,119 program 5,120,143 program 6,144,167 program 7,168,191 program 8,192,215 program 9,216,239 program 10,240,255
+

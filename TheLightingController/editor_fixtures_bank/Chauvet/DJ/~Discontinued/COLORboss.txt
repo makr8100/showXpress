@@ -1,0 +1,22 @@
+Name = COLORboss
+
+ViewType = VIEW_TYPE_COLOR_SHAPE
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewColor = 0
+
+Channel = color
+ closed,0,19 red,20,39 green,40,58 yellow,59,78 blue,79,98 purple,99,117 cyan,118,137 white,138,156 Color Change,157,176 Slow Flow 1,177,196 Slow Flow 2,197,215 Flash,216,235 Chase,236,254 Chase to Sound,255,255
+
+Channel = Qty._of_Fixtur
+
+Channel = effect_speed
+
+Channel = effect_speed
+ new_level,0,255
+

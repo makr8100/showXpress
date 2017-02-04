@@ -1,0 +1,28 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED60W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = color_macro
+ bastard amber,0,7 medium amber,8,15 pale amber gold,16,23 gallo gold,24,31 golden amber,32,39 light red,40,47 medium red,48,55 medium pink,56,63 broadway pink,64,71 follies pink,72,79 light lavendar,80,87 special lavendar,88,95 lavendar,96,103 indigo,104,111 hemsley blue,112,119 tipton blue,120,127 light steel blue,128,135 light sky blue,136,143 sky blue,144,151 brilliant blue,152,159 light green blue,160,167 bright blue,168,175 primary blue,176,183 congo blue,184,191 pale yellow green,192,199 moss green,200,207 primary green,208,215 double ctb,216,223 full ctb,224,231 half ctb,232,239 dark blue,240,247 white,248,255 
+
+Channel = shutter
+ open,0,0 strobe,16,255 
+
+Channel = mode
+ nothing,0,0 color_dreaming1,132,132 color_dreaming2,140,140 color_dreaming3,148,148 color_dreaming4,156,156 color_dreaming5,164,164 color_dreaming6,172,172 color_dreaming7,180,180 color_dreaming8,188,188 color_change1,196,196 color_change2,204,204 color_change3,212,212 color_change4,220,220 color_change5,228,228 color_change6,236,236 audio1,244,244 audio2,255,255
+
+Channel = dimmer
+

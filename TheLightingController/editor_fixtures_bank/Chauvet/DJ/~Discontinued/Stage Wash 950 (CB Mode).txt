@@ -1,0 +1,17 @@
+Name = Stage Wash 950 (CB Mode)
+
+ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_1200MSR
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 80
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewColor = 0
+
+Channel = color
+ mixed,0,255
+
+Channel = dimmer
+ dimmer,0,255
+

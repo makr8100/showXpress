@@ -1,0 +1,43 @@
+Name = Q Wash LED
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 30
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = pan
+ new_level,0,255
+
+Channel = tilt
+ new_level,0,255
+
+Channel = pantilt_speed
+ new_level,0,255
+
+Channel = red
+ new_level,0,255
+
+Channel = green
+ new_level,0,255
+
+Channel = blue
+ new_level,0,255
+
+Channel = color
+ no_function,0,5 mixed,6,240 auto color,241,250 white,251,255
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = shutter
+ no_function,0,5 strobe,6,255
+
+Channel = control
+ no_function,0,45 reset,46,55 auto1,56,95 auto2,96,135 audio1,136,175 audio2,176,215 custom,216,255
+

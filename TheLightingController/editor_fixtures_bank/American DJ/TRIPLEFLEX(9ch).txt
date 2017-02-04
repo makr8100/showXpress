@@ -1,0 +1,38 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = mirror1
+ 0°,0,0 45°,255,255 
+
+Channel = color_macro
+ closed,0,0 color_1,12,12 color_2,20,20 color_3,28,28 color_4,36,36 color_5,44,44 color_6,52,52 color_7,60,60 color_8,68,68 color_9,76,76 color_10,84,84 color_11,92,92 color_12,100,100 color_13,108,108 color_14,116,116 color_17,140,140 color_18,148,148 color_19,156,156 color_20,164,164 color_21,172,172 color_22,180,180 color_23,188,188 color_24,196,169 color_25,204,204 color_26,212,212 color_27,220,220 color_28,228,228 color_29,236,236 color_30,244,244 color_31,255,255
+
+Channel = shutter
+ open,0,0 strobe,8,255
+
+Channel = mirror2
+ 0°,0,0 45°,255,255 
+
+Channel = color_macro
+ closed,0,0 color_1,12,12 color_2,20,20 color_3,28,28 color_4,36,36 color_5,44,44 color_6,52,52 color_7,60,60 color_8,68,68 color_9,76,76 color_10,84,84 color_11,92,92 color_12,100,100 color_13,108,108 color_14,116,116 color_17,140,140 color_18,148,148 color_19,156,156 color_20,164,164 color_21,172,172 color_22,180,180 color_23,188,188 color_24,196,169 color_25,204,204 color_26,212,212 color_27,220,220 color_28,228,228 color_29,236,236 color_30,244,244 color_31,255,255
+
+Channel = shutter
+ open,0,0 strobe,8,255
+
+Channel = mirror3
+ 0°,0,0 45°,255,255 
+
+Channel = color_macro
+ closed,0,0 color_1,12,12 color_2,20,20 color_3,28,28 color_4,36,36 color_5,44,44 color_6,52,52 color_7,60,60 color_8,68,68 color_9,76,76 color_10,84,84 color_11,92,92 color_12,100,100 color_13,108,108 color_14,116,116 color_17,140,140 color_18,148,148 color_19,156,156 color_20,164,164 color_21,172,172 color_22,180,180 color_23,188,188 color_24,196,169 color_25,204,204 color_26,212,212 color_27,220,220 color_28,228,228 color_29,236,236 color_30,244,244 color_31,255,255
+
+Channel = shutter
+ open,0,0 strobe,8,255
+

@@ -1,0 +1,51 @@
+Name = MARTIN_ROBOSCAN1220_V3
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = shutter
+ closed,0,0 open,100,100 strobe,116,247 reset,250,250 lamp_on,255,255
+
+Channel = dimmer
+
+Channel = color
+ white,0,0 R61,57,57 B51,77,77 G51/56,97,97 Y52,117,117 G50/55,137,137 M47/63,157,157 B42,177,177 C54,197,197 R65,255,255
+
+Channel = color
+ white,0,0 O56,57,57 G49/59,77,77 Y54,97,97 Y52,117,117 P47/63,157,157 M49/65,177,177 C54,197,197 T48/53,255,255
+
+Channel = gobo
+ open,0,0 stars,57,57 star,77,77 dots,97,97 cone,117,117 pling,137,137 dot_cone,157,157 bells,177,177 flower,197,197 turbine,255,255
+
+Channel = gobo
+ open,0,0 logo,57,57 triangle,77,77 sun,97,97 holes,117,117 raster,137,137 bars,157,157 turbine,177,177 flash,197,197 star,255,255
+
+Channel = focus
+ default,0,0 min-max,12,239 default,255,255
+
+Channel = iris
+
+Channel = prism
+ open,0,0 3_facet,43,43 5_facet,109,109 9_facet,255,255
+
+Channel = pan
+
+Channel = tilt
+
+Channel = pantilt_speed
+ fast,0,0 slow,255,255
+
+Channel = effect_speed
+ fast,0,0 slow,255,255
+
+Channel = gobo_rotate
+ fast,0,0 slow,255,255
+
+Channel = effect_speed
+ fast,0,0 slow,255,255
+

@@ -1,0 +1,59 @@
+Name = HIGH-END_STUDIO_SPOT250
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_250MSR
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 18
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewColor = 0
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = color
+ default,0,0 FS_index,15,15 FS_FSspin,40,40 FS_RSspin,55,55 FS_contin,71,71 FS_FSscan,84,84 FS_SSscan,91,91 FS_random,103,103 FS_blink,119,119 MS_index,143,143 MS_FSspin,168,168 MS_RSspin,183,183 MS_contin,199,199 MS_SSscan,212,212 MS_FSscan,219,219 MS_random,231,231 MS_blink,255,255
+
+Channel = color
+ color_1,0,0 color_2,19,19 color_3,39,39 color_4,58,58 color_5,78,78 color_6,98,98 color_7,117,117 color_8,137,137 color_9,156,156 color_10,176,176 color_11,196,196 color_12,215,215 color_13,235,235 color_1,255,255
+
+Channel = gobo_rotate
+ index,0,15 right_rotate,16,31 left_rotate,32,47 spin,55,55 FS_index,71,71 FS_random,91,91 FS_bkwhl,103,103 FS_bkapa,119,119 index,128,143 right_rotate,144,159 left_rotate,160,175 spin,185,185 MS_index,199,199 MS_random,215,215 MS_bkwhl,231,231 MS_bkapa,255,255
+
+Channel = gobo
+ Miscellaneous\open,0,0 position1,30,30 position2,60,60 position3,95,95 position4,130,130 position5,160,160 position6,190,190 position7,220,220 Miscellaneous\open,255,255
+
+Channel = gobo_rotate
+
+Channel = effect
+ open,0,0 position1,40,40 position2,60,60 position3,90,90 position4,110,110
+
+Channel = effect_speed
+ left_rotate,0,120 stop,125,125 right_rotate,135,255
+
+Channel = focus
+
+Channel = iris
+ closed,0,0 index,1,127 open,135,135 per_strobe,151,151 random_strobe,167,167 rmp0snpS,183,183 snp0rmpS,200,200 random_raS,215,215 random_saR,231,231 open,255,255
+
+Channel = shutter
+ closed,0,15 strobe,24,49 random strobe,79,79 rmp0snpS,111,111 snp0rmpS,143,143 randomRoSs,175,175 randomSoRs,208,208 open,255,255
+
+Channel = dimmer
+
+Channel = pantilt_speed
+ tracking,0,0 slow_to_fast,4,255
+
+Channel = effect
+ open,0,0 macro_1,11,11 macro_2,19,19 macro_3,27,27 macro_4,35,35 macro_5,43,43 macro_6,51,51 macro_7,59,59 macro_8,67,67 macro_9,75,75 macro_10,83,83 macro_11,91,91 macro_12,99,99 macro_13,107,107 macro_14,115,115 macro_15,123,123 macro_16,131,131 macro_17,139,139 macro_18,147,147 macro_19,155,155 macro_20,163,163 macro_21,171,171 macro_22,179,179 macro_23,187,187 macro_24,195,195 macro_25,203,203 macro_26,211,211 varSpRaM,231,231 open,255,255
+
+Channel = control
+ safe,9,9 display_off,24,24 display_dimmer,34,34 display_brt,44,44 home,64,64 lamp_on,84,84 lamp_off,94,94 shut_down,125,125
+

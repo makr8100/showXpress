@@ -1,0 +1,13 @@
+Name = CLAY-PAKY_ATLAS
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = shutter
+ closed,0,0 right_to_left,1,63 left_to_right,64,139 strobe,140,242 open,255,255
+

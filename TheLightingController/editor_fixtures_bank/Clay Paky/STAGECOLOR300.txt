@@ -1,0 +1,32 @@
+Name = CLAY-PAKY_STAGECOLOR300
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = yellow
+
+Channel = shutter
+ closed,0,0 strobe,26,230 open,255,255
+
+Channel = pan
+
+Channel = tilt
+
+Channel = dimmer
+
+Channel = frost
+ no_frost,0,0 frost,255,255
+
+Channel = upan
+
+Channel = utilt
+

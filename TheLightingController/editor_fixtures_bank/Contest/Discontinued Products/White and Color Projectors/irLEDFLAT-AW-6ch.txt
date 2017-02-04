@@ -1,0 +1,27 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Contest/Discontinued Products/irLEDFLAT-AW.png
+
+Channel = white
+
+Channel = amber
+
+Channel = dimmer
+ dimmer,0,189 strobe,190,250 open,251,251 
+
+Channel = shutter
+ no_function,0,10 lighting_strobe,11,255 
+
+Channel = color
+ closed,0,15 full_white,16,30 white255_amber040,31,45 white255_amber080,46,60 white255_amber120,61,75 white255_amber255,76,90 white190_amber255,91,105 white120_amber255,106,120 white040_amber255,121,135 white000_amber255,136,150 macro_1,151,165 macro_2,166,180 macro_3,181,195 macro_4,196,200 audio,201,255 
+
+Channel = effect_speed
+

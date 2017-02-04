@@ -1,0 +1,22 @@
+Name = GENI_BURST2X
+
+ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewColor = 16777215
+
+Channel = gobo
+ Miscellaneous\closed,0,0 Miscellaneous\open,15,15 Geni\BR-2X-CH1-20-29,25,25 Geni\BR-2X-CH1-30-39,35,35 Geni\BR-2X-CH1-40-49,45,45 Geni\BR-2X-CH1-50-59,55,55 Geni\BR-2X-CH1-60-69,65,65 Geni\BR-2X-CH1-70-79,75,75 Geni\BR-2X-CH1-80-89,85,85 Geni\BR-2X-CH1-90-99,95,95 Geni\BR-2X-CH1-100-109,105,105 Geni\BR-2X-CH1-110-119,115,115 Geni\BR-2X-CH1-120-129,125,125 Geni\BR-2X-CH1-130-139,135,135 Geni\BR-2X-CH1-140-149,145,145 Geni\BR-2X-CH1-150-159,155,155 Miscellaneous\rotate,160,208 Miscellaneous\strobe,210,255
+
+Channel = gobo_rotate
+ stop,0,0 left_rotate,4,127 right_rotate,128,255
+
+Channel = gobo_rotate
+ index,0,111 left_rotate,112,183 right_rotate,184,255
+
+Channel = gobo_urotate
+

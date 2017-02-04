@@ -1,0 +1,33 @@
+Name = LEDsplash 196
+
+ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_150HTI
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 21
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewColor = 0
+
+Channel = red
+ new_level,0,255
+
+Channel = green
+ new_level,0,255
+
+Channel = blue
+ new_level,0,255
+
+Channel = red
+ new_level,0,255
+
+Channel = green
+ new_level,0,255
+
+Channel = blue
+ new_level,0,255
+
+Channel = red
+ new_level,0,255
+

@@ -1,0 +1,35 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = beam
+ closed,0,0 auto,128,128 audio,255,255
+
+Channel = pattern
+
+Channel = rotate
+ manual,0,127 speed,128,255 
+
+Channel = X_axis
+ manual,0,127 speed,128,255 
+
+Channel = Y_axis
+ manual,0,127 speed,128,255 
+
+Channel = left&right
+ manual,0,127 speed,128,255 
+
+Channel = up&down
+ manual,0,127 speed,128,255 
+
+Channel = trace_speed
+
+Channel = vector_tracking
+

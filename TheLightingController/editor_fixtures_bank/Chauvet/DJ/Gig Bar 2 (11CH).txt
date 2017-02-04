@@ -1,0 +1,41 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/GigBAR-2.0.png
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = uv
+
+Channel = Pars & Derby Strobe
+ strobe,0,127 strobe,128,239 audio,240,249 Full On,250,255 
+
+Channel = motor
+ no_function,0,4 right_rotate,5,127 stop,128,133 left_rotate,134,255 
+
+Channel = Red Laser
+ Red Laser Blackout,0,4 Red Laser On,5,54 strobe,55,255 
+
+Channel = Green Laser
+ Green Laser Blackout,0,4 Green Laser On,5,54 strobe,55,255 
+
+Channel = speed_control
+ no_function,0,4 right_rotate,5,127 stop,128,133 left_rotate,134,255 
+
+Channel = strobe_speed
+ strobe,0,54 strobe,55,255 
+
+Channel = UV Strobe
+ strobe,0,54 strobe,55,255 
+

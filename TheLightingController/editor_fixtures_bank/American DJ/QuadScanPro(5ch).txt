@@ -1,0 +1,25 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = pan_tilt_movement
+ no_function,0,0 macro_1,15,15 macro_2,30,30 macro_3,45,45 macro_4,60,60 macro_5,75,75 macro_6,90,90 macro_7,105,105 macro_8,120,120 macro_9,135,135 macro_10,150,150 macro_11,165,165 macro_12,180,180 macro_13,195,195 macro_14,210,210 macro_15,225,225 macro_16,240,240 audio,255,255 
+
+Channel = pantilt_speed
+
+Channel = dimmer
+
+Channel = shutter
+ open,0,0 strobe,9,131 pulse_open,140,181 pulse_close,190,231 audio,243,243
+
+Channel = color_macro
+ macro_1,0,0 macro_2,12,12 macro_3,20,20 macro_4,28,28 macro_5,36,36 macro_6,44,44 macro_7,52,52 macro_8,60,60 macro_9,68,68 macro_10,76,76 macro_11,84,84 macro_12,92,92 macro_13,100,100 macro_14,108,108 macro_15,116,116 macro_16,124,124 macro_17,132,132 macro_18,140,140 macro_19,148,148 macro_20,156,156 macro_21,164,164 macro_22,172,172 macro_23,180,180 macro_24,188,188 macro_25,196,196 macro_26,204,204 macro_27,212,212 macro_28,220,220 macro_29,228,228 macro_30,236,236 macro_31,244,244 macro_32,255,255
+

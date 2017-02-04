@@ -1,0 +1,92 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 31
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+2DViewImage = Chauvet/COLORpalette.png
+
+Channel = control
+ 27 channels,0,19 15 channels,20,39 9 channels,40,59 6 channels,60,79 auto,80,225
+
+Channel = effect_speed
+
+Channel = shutter
+ no_function,0,2 strobe,3,249 audio,250,255
+
+Channel = red
+ new_level,0,255
+
+Channel = green
+ new_level,0,255
+
+Channel = blue
+ new_level,0,255
+
+Channel = red
+ new_level,0,255
+
+Channel = green
+ new_level,0,255
+
+Channel = blue
+ new_level,0,255
+
+Channel = red
+ new_level,0,255
+
+Channel = green
+ new_level,0,255
+
+Channel = blue
+ new_level,0,255
+
+Channel = red
+ new_level,0,255
+
+Channel = green
+ new_level,0,255
+
+Channel = blue
+ new_level,0,255
+
+Channel = red
+ new_level,0,255
+
+Channel = green
+ new_level,0,255
+
+Channel = blue
+ new_level,0,255
+
+Channel = red
+ new_level,0,255
+
+Channel = green
+ new_level,0,255
+
+Channel = blue
+ new_level,0,255
+
+Channel = red
+ new_level,0,255
+
+Channel = green
+ new_level,0,255
+
+Channel = blue
+ new_level,0,255
+
+Channel = red
+ new_level,0,255
+
+Channel = green
+ new_level,0,255
+
+Channel = blue
+ new_level,0,255
+

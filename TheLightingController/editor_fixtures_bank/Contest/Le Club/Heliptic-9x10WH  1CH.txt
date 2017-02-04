@@ -1,0 +1,15 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Contest/Club series/HELIPTIC-9x10WH .png
+
+Channel = animation
+ closed,0,7 auto,8,15 pattern_01,16,30 pattern_02,31,45 pattern_03,46,60 pattern_04,61,75 pattern_05,76,90 pattern_06,91,105 pattern_07,106,120 pattern_08,121,135 pattern_09,136,150 pattern_10,151,165 pattern_11,166,180 pattern_12,181,195 pattern_13,196,210 pattern_14,211,225 pattern_15,226,240 audio,241,255 
+

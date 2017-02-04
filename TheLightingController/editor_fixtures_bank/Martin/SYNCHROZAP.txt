@@ -1,0 +1,26 @@
+Name = MARTIN_SYNCHROZAP
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = shutter
+ closed,0,0 open,63,63 strobe,122,252 reset,255,255
+
+Channel = color
+ white,0,0 white_red,25,25 red,49,49 red_blue,73,73 blue,97,97 blue_green,121,121 green,145,145 green_yellow,169,169 yellow,193,193 yellow_black,217,217 blackout,255,255
+
+Channel = color
+ white,0,0 white_red,25,25 red,49,49 red_blue,73,73 blue,97,97 blue_green,121,121 green,145,145 green_yellow,169,169 yellow,193,193 yellow_black,217,217 blackout,255,255
+
+Channel = gobo_rotate
+ clock,0,123 stop,127,127 counterclock,132,255
+
+Channel = pantilt_speed
+
+Channel = pantilt_speed
+

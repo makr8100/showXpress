@@ -1,0 +1,39 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/Festoon.png
+
+Channel = dimmer
+ 0-100%,0,255
+
+Channel = red
+ 0-100%,0,255
+
+Channel = green
+ 0-100%,0,255
+
+Channel = blue
+ 0-100%,0,255
+
+Channel = color_macro
+ no_function,0,10 Color macros,11,255
+
+Channel = shutter
+ no_function,0,10 strobe,11,255
+
+Channel = effect_macro
+ no_function,0,10 macro_1,11,16 macro_2,17,22 macro_3,23,28 macro_4,29,34 macro_5,35,40 macro_6,41,46 macro_7,47,52 macro_8,53,58 macro_9,59,64 macro_10,65,70 macro_11,71,76 macro_12,77,82 macro_13,83,88 macro_14,89,94 macro_15,95,100 macro_16,101,106 macro_17,107,112 macro_18,113,118 macro_19,119,124 macro_20,125,130 pattern_21,131,136 macro_22,137,142 macro_23,143,148 macro_24,149,154 macro_25,155,160 macro_26,161,166 macro_27,167,172 macro_28,173,178 macro_29,179,184 macro_30,185,190 macro_31,191,196 macro_32,197,202 macro_33,203,208 Macro_34,209,214 Macro 35 (Macro 1-8 loop),215,220 Macro 36 (Macro 9-15 loop),221,226 Macro 37 (Macro 16-26  loop),227,232 Macro 38 (Macro 35-37 loop),233,238 audio,239,255
+
+Channel = effect_speed
+ Macro speed/sound sensitivity ,0,255
+
+Channel = udimmer
+ Dimmer speed set by display menu,0,51 Dimmer speed mode OFF,52,101 Dimmer speed mode 1 fast ,102,152 Dimmer speed mode 2 medium,153,203 Dimmer speed mode 3 slow,204,255
+

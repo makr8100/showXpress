@@ -1,0 +1,39 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = mode
+ closed,0,0 aun,40,40 audio,60,60 aup,85,85 sop,110,110 aud,135,135 sod,165,165 dmx_tirs_grating,185,185 dmx_fig_grating,210,210 dmx_normal,255,255 
+
+Channel = patterns
+ index,0,127 left_to_right,128,191 right_to_left,192,255
+
+Channel = zoom
+ index,0,127 in,128,169 out,170,209 in&out,210,255
+
+Channel = y_rotate
+ index,0,127 right_rotate,128,191 left_rotate,192,255
+
+Channel = x_rotate
+ index,0,127 right_rotate,128,191 left_rotate,192,255
+
+Channel = z_rotate
+ index,0,127 right_rotate,128,191 left_rotate,192,255
+
+Channel = x_axis
+ index,0,127 left_to_right,128,191 right_to_left,192,255 
+
+Channel = y_axis
+ index,0,127 down_to_up,128,191 up_to_down,192,255 
+
+Channel = color
+ open,0,0 red,16,31 blue,32,47 pink,48,63 one_color,64,160 mix_color,161,255 
+

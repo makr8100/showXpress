@@ -1,0 +1,45 @@
+Name = MICRO WASH
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+ dimmer,0,255
+
+Channel = shutter
+ closed,0,7 dimmer,8,134 strobe,135,239 open,240,255
+
+Channel = red
+ dimmer,0,255
+
+Channel = green
+ dimmer,0,255
+
+Channel = blue
+ dimmer,0,255
+
+Channel = color
+ closed,0,7 open,8,21 red,22,35 green,36,49 uv,50,63 light_blue,64,77 pink,78,91 yellow,92,105 magenta,106,119 5500-3400k,120,133 light_green,134,147 3500-5600k,148,161 3200-5600k,162,189 violet,190,203 3200-4100k,204,217 light_blue,218,231 rainbow,232,255
+
+Channel = LED_SPEED
+ dimmer,0,255
+
+Channel = AUTO_PROGRAM
+ NO FUNCTION,0,7 AUTO PROGRAM 1,8,22 AUTO PROGRAM 2,23,37 AUTO PROGRAM 3,38,52 AUTO PROGRAM 4,53,67 AUTO PROGRAM 5,68,82 AUTO PROGRAM 6,83,97 AUTO PROGRAM 7,98,112 AUTO PROGRAM 8,113,127 SOUND CONTROL 1,128,142 SOUND CONTROL 2,143,157 SOUND CONTROL 3,158,172 SOUND CONTROL 4,173,187 SOUND CONTROL 5,188,202 SOUND CONTROL 6,203,217 SOUND CONTROL 7,218,232 SOUND CONTROL 8,233,255
+

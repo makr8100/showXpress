@@ -1,0 +1,56 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/Intimidator Wash LED 150.png
+
+Channel = pan
+ Pan,0,255
+
+Channel = tilt
+ Tilt,0,255
+
+Channel = upan
+ Pan fine,0,255
+
+Channel = utilt
+ Tilt fine ,0,255
+
+Channel = pantilt_speed
+
+Channel = shutter
+ no_function,0,3 open,4,7 strobe,8,215 open,216,255
+
+Channel = red
+ Red,0,250
+
+Channel = green
+ green,0,255
+
+Channel = blue
+ Blue,0,255
+
+Channel = white
+ White,0,255
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = color_macro
+ no_function,0,7 White,8,21 Red,22,35 Green,36,49 Cyan,50,63 White,64,77 macro_1,78,233 Moveable mecro,234,255
+
+Channel = speed_control
+ led speed ,0,255
+
+Channel = control
+ no_function,0,7 blackout_moves,8,147 Reset Pan,148,167 Reset Tilt,168,187 Reset Color,188,207 Reset Gobo ,208,227 Reset All,228,247 no_function,248,255
+
+Channel = movement_macro
+ no_function,0,7 auto,8,135 audio,136,255
+

@@ -1,0 +1,51 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = pan
+
+Channel = tilt
+
+Channel = pantilt_speed
+
+Channel = dimmer
+
+Channel = shutter
+ closed,0,0 open,12,12 strobe,16,131 shaking,132,239 audio,244,244 open,255,255 
+
+Channel = color
+ white,0,0 green,19,19 magenta,34,34 light_blue,45,45 yellow,57,57 red,70,70 blue,85,85 uv,95,95 light_green,108,108 pink,121,121 left_rotate,128,187 right_rotate,188,247 audio,255,255 
+
+Channel = reserved
+
+Channel = reserved
+
+Channel = gobo
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,19,19 Miscellaneous/gobo2,38,38 Miscellaneous/gobo3,56,56 Miscellaneous/gobo4,70,70 Miscellaneous/gobo5,88,88 Miscellaneous/gobo6,104,104 Miscellaneous/gobo7,120,120 Miscellaneous/left_rotate,127,187 Miscellaneous/right_rotate,188,247 audio,255,255 
+
+Channel = gobo_rotate
+ stop,0,0 right_rotate,10,120 stop,128,128 left_rotate,135,245 stop,255,255 
+
+Channel = prism
+ no_function,0,0 prism,100,100 prism_5,255,255 
+
+Channel = prism_rotate
+ stop,0,0 right_rotate,10,120 stop,128,128 left_rotate,135,245 stop,255,255 
+
+Channel = focus
+
+Channel = upan
+
+Channel = utilt
+
+Channel = control
+ no_function,0,0 reset,255,255 
+

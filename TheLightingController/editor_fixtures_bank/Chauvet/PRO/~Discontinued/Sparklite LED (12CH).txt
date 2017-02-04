@@ -1,0 +1,47 @@
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = strobe_effect
+ strobe,0,255
+
+Channel = strobe_speed
+ strobe,0,255
+
+Channel = color
+ rainbow,0,255
+
+Channel = saturation
+ dimmer,0,255
+
+Channel = saturation
+ dimmer,0,255
+
+Channel = color_macro
+ color_swap,0,255
+
+Channel = color
+ tri_color,0,255
+
+Channel = color
+ tri_color,0,255
+
+Channel = color
+ tri_color,0,255
+
+Channel = color
+ tri_color,0,255
+
+Channel = control
+ custom,0,255
+
+Channel = dimmer
+ open,0,127 closed,128,255
+

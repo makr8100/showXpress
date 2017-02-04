@@ -1,0 +1,33 @@
+Name = AMERICAN-DJ_XSCANLED
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 90
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = pan
+
+Channel = tilt
+
+Channel = color
+ white,0,0 orange,22,22 blue,37,37 green,52,52 yellow,67,67 pink,82,82 light_blue,97,97 light_green,122,122 light_yellow,127,127 rotate,128,254 audio,255,255
+
+Channel = gobo
+ Miscellaneous\open,0,0 Miscellaneous\gobo1,11,11 Miscellaneous\gobo2,18,18 Miscellaneous\gobo3,25,25 Miscellaneous\gobo4,32,32 Miscellaneous\gobo5,40,40 Miscellaneous\gobo6,47,47 Miscellaneous\gobo7,54,54 Miscellaneous\gobo8,61,61 open_shake,67,67 gobo1_shake,75,75 gobo2_shake,82,82 gobo3_shake,89,89 gobo4_shake,96,96 gobo5_shake,104,104 gobo6_shake,111,111 gobo7_shake,118,118 gobo8_shake,125,125 Miscellaneous\rotate,128,254 audio,255,255
+
+Channel = shutter
+ closed,0,0 strobe,16,31 slow,140,180 fast,190,231 random_strobe,243,243 open,255,255
+
+Channel = dimmer
+
+Channel = movement_macro
+ open,0,0 macro1,18,18 macro2,39,39 macro3,60,60 macro4,81,81 macro5,102,102 macro6,123,123 macro7,144,144 macro8,165,165 macro9,186,186 macro10,207,207 macro11,228,228 macro12,255,255
+
+Channel = pantilt_speed
+

@@ -1,0 +1,46 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LED60W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Showtec/Moving Heads/Phantom_Beam_300.png
+
+Channel = pan
+
+Channel = tilt
+
+Channel = pantilt_speed
+
+Channel = p/t macro
+
+Channel = shutter
+ closed,0,3 open,4,7 strobe,8,8 Open fade to zero,128,159 Fade open to close,160,191 open,192,223 random_strobe,224,251 open,252,255
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = color
+ open,0,8 blue,9,17 yellow,18,26 3200-5600K,27,35 8000K,36,44 green,45,53 pink,54,62 uv,63,71 open,72,81 white - blue,82,90 blue - yellow,91,99 yellow - 3200,100,108 3200K - 8000K,109,117 8000K - Green,118,126 green - pink,127,135 pink - uv,136,144 uv - white,145,153 right_rotate,154,204 left_rotate,205,255
+
+Channel = gobo
+ ???,0,0 ???,8,8 ???,16,16 ???,24,24 ???,32,32 ???,40,40 ???,48,48 ???,56,56 ???,64,64 ???,72,72 ???,80,80 ???,88,88 ???,96,96 ???,104,104 ???,112,112 ???,120,120 ???,128,128 ???,136,136 ???,144,144 ???,200,255
+
+Channel = frost
+ open,0,7 Frost Gradual Change,8,128 Macro 1,129,169 Macro 2,170,210 Macro 3,211,251 frost,252,255
+
+Channel = cmy speed
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = yellow
+
+Channel = control
+ no_function,0,151 Fan Speed Max,152,167 Fan Speed Auto,168,183 Fan Speed Lowest,184,199 no_function,200,215 lamp_off,216,216 reset,232,232 lamp_on,248,248
+

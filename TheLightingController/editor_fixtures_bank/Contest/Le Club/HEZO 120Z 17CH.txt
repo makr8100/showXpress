@@ -1,0 +1,52 @@
+﻿ViewType = VIEW_TYPE_HEAD_WASH
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = TRUE
+ViewReverseTilt = TRUE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Contest/Club series/HEZO-120Z .png
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = dimmer
+
+Channel = shutter
+ closed,0,19 open,20,24 strobe,25,64 open,65,69 pulse_strobe,70,84 open,85,89 reverse_pulse_strobe,90,104 open,105,109 random_strobe,110,124 open,125,129 random_pulse,130,144 open,145,149 random_reverse_pulse,150,164 open,165,169 explose_pulse,170,184 open,185,189 random_explose_pulse,190,204 open,205,209 sinusoïd,210,224 open,225,229 explose,230,244 open,245,255 
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = color
+ open,0,13 red,14,25 orange,26,37 cyan,38,49 green,50,61 light_green,62,73 pastel_cerulean_blue,74,85 pink,86,97 yellow,98,109 purple,110,121 blue,122,133 3500-5600K,134,145 4000K,146,157 5500-3400K,158,169 uv,170,182 right_rotate,183,201 stop,202,207 left_rotate,208,229 open,230,234 macro_1,235,239 macro_2,240,244 macro_3,245,249 open,250,255 
+
+Channel = zoom
+
+Channel = light
+ no_function,0,19 10000k - 2500k,20,255 
+
+Channel = pan_tilt_macro
+ no_function,0,7 macro_1,8,15 macro_2,16,23 macro_3,24,31 macro_4,32,39 macro_5,40,47 macro_6,48,55 macro_7,56,63 macro_8,64,71 macro_9,72,79 macro_10,80,87 macro_11,88,95 macro_12,96,103 macro_13,104,111 macro_14,112,119 macro_15,120,127 macro_16,128,135 macro_17,136,143 macro_18,144,151 macro_19,152,159 macro_20,160,167 macro_21,168,175 macro_22,176,183 macro_23,184,191 macro_24,192,199 macro_25,200,207 macro_26,208,215 macro_27,216,223 macro_28,224,231 macro_29,232,239 macro_30,240,247 macro_31,248,255 
+
+Channel = pan_tilt_macro_speed
+ dimmer,0,245 audio,246,255 
+
+Channel = control
+ no_function,0,79 reset_xy,80,87 reset,88,90 no_function,91,160 pattern_01,161,180 pattern_02,181,200 pattern_03,201,220 pattern_04,221,240 audio,241,255 
+

@@ -1,0 +1,30 @@
+Name = MARTIN_MX1
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_250HALO
+ViewAnglePan = 230
+ViewAngleTilt = 76
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = TRUE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = shutter
+ dimmer,0,155 strobe,170,229 music_trigger,235,235 auto_trigger,245,245 reset,255,255
+
+Channel = reserved
+
+Channel = gobo
+ Miscellaneous\open,0,0 Martin\Worms 2,17,17 Martin\Web,30,30 Martin\Petals,42,42 Martin\Spokes 2,53,53 Martin\Cone 2,65,65 Martin\Maze,77,77 Martin\Crater,90,90 Martin\Holes 2,102,102 Martin\Cross 2,114,114 Martin\Jagged cross,125,125 Martin\Atomic,137,137 Martin\Dot circle,150,150 Martin\Nordic,162,162 Martin\Aim,174,174 Martin\Spokes,185,185 Martin\Tie,197,197 Martin\Nova,210,210 Martin\Triple beam,222,222 Miscellaneous\closed,234,234 Miscellaneous\rotate,255,255
+
+Channel = pan
+
+Channel = tilt
+
+Channel = pantilt_speed
+ tracking,0,0 fast_to_slow,4,255
+
+Channel = effect_speed
+

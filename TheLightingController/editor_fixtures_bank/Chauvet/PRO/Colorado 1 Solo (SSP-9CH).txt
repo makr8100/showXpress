@@ -1,0 +1,39 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 5
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/PRO/Colorado 1 Solo - FRONT.png
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = red
+ dimmer,0,255
+
+Channel = green
+ dimmer,0,255
+
+Channel = blue
+ dimmer,0,255
+
+Channel = white
+ dimmer,0,255
+
+Channel = strobe_effect
+ no_function,0,9 Strobe (slow to fast),10,99 no_function,100,109 Lightning Strobe,110,179 no_function,180,189 Random Strobe,190,255
+
+Channel = zoom
+ dimmer,0,255
+
+Channel = Zoom Control
+ no_function,0,200 Zoom Reset,201,220 no_function,221,255
+
+Channel = Dimmer Mode
+ no_function,0,9 Off,10,29 Dim 1,30,69 Dim 2,70,129 Dim 3,130,189 Dim 4,190,255
+

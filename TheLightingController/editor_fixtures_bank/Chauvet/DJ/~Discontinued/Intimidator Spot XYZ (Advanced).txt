@@ -1,0 +1,61 @@
+Name = Intimidator Spot XYZ (Advanced)
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = pan
+ new_level,0,255
+
+Channel = tilt
+ new_level,0,255
+
+Channel = pan
+ new_level,0,255
+
+Channel = upan
+ new_level,0,255
+
+Channel = utilt
+ new_level,0,255
+
+Channel = upan
+ new_level,0,255
+
+Channel = pan1/pan2/tilt
+ new_level,0,255
+
+Channel = color
+ white,0,7 dark_blue,8,15 yellow,16,23 pink,24,31 green,32,39 peachblow,40,47 cyan,48,55 orange,56,63 mixed,64,127 clock,128,191 counterclock,192,255
+
+Channel = shutter
+ closed,0,3 open,4,7 strobe,8,215 open,216,255
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = gobo
+ Chauvet\open,0,7 Chauvet\142029,8,15 Chauvet\144009,16,23 Chauvet\swirl,24,31 Martin\bio,32,39 Chauvet\11,40,47 Chauvet\cool,48,55 Chauvet\575gobo8,56,63 gobo7_shake,64,71 gobo6_shake,72,79 gobo5_shake,80,87 gobo4_shake,88,95 gobo3_shake,96,103 gobo2_shake,104,111 gobo1_shake,112,119 Chauvet\open,120,127 positive-gobo_scroll,128,191 negative_gobo_scroll,192,255
+
+Channel = gobo_rotate
+ no_function,0,15 right_rotate,16,127 left_rotate,128,239 gobo_bounce,240,255
+
+Channel = control
+ reserved,0,7 pan1/pan2/tilt_move_in_black,8,15 pan1/pan2/tilt_move_in_black(,16,23 color_wheel_move_in_black,24,31 color_wheel_move_in_black(dis,32,39 gobo_wheel_move_in_black,40,47 gobo_wheel_move_in_black(disa,48,55 reserved,56,87 all_movement_move_in_black(di,88,95 reset_pan1/pan2/tilt,96,103 reserved,104,111 reset_color_wheel,112,119 reset_gobo_wheel,120,127 reserved,128,135 reset_prism,136,143 reset_focus,144,151 reset,152,159 reserved,160,255
+
+Channel = effect_macro
+ new_level,0,7 built_in_program1,8,23 built_in_program2,24,39 built_in_program3,40,55 built_in_program4,56,71 built_in_program5,72,87 built_in_program6,88,103 built_in_program7,104,119 built_in_program8,120,135 sound_control1,136,151 sound_control2,152,167 sound_control3,168,183 sound_control4,184,199 sound_control5,200,215 sound_control6,216,231 sound_control7,232,247 sound_control8,248,255
+
+Channel = prism
+ reserved,0,7 prism,8,255
+
+Channel = focus
+ new_level,0,255
+

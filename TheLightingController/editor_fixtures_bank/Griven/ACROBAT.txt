@@ -1,0 +1,26 @@
+Name = GRIVEN_ACROBAT
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = gobo_rotate
+ stop,0,0 counterclock,6,104 stop,125,125 clock,152,251 stop,255,255
+
+Channel = color
+ white,0,0 magenta,46,46 yellow,58,58 blue,72,72 red,88,88 green,104,104 yellow,121,121 blue,132,132 magenta,151,151 uv,162,162 rotate,176,255
+
+Channel = gobo
+ full,0,0 frost,11,11 full_prism,20,20 full_rot_prism,30,30 gobo1,37,37 g1_prism,48,48 g1_rot_prism,60,60 g2_rot_prism,73,73 g2_prism,84,84 gobo2,97,97 gobo3,110,110 g3_prism,123,123 g3_rot_prism,134,134 g4_rot_prism,148,148 g4_prism,158,158 gobo4,171,171 gobo5,184,184 g5_prism,196,196 g5_rot_prism,207,207 g6_rot_prism,222,222 g6_prism,233,233 gobo6,255,255
+
+Channel = shutter
+ off,0,0 dimmer,34,127 off,135,135 strobe,144,223 off,235,235 on,255,255
+
+Channel = pan
+
+Channel = tilt
+

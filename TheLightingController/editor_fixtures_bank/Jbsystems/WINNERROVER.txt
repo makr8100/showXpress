@@ -1,0 +1,24 @@
+﻿ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_LED60W
+ViewAnglePan = 180
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = shutter
+ open,0,0 strobe_gobo_color,10,91 strobe_color,92,173 strobe_gobo,174,255
+
+Channel = gobo
+ Miscellaneous/closed,0,0 Miscellaneous/open,8,8 Showtec/Scorpion_08,16,16 Showtec/Scorpion_22,24,24 Showtec/Scorpion_21,32,32 Showtec/Scorpion_20,40,40 Showtec/Scorpion_19,48,48 Showtec/Scorpion_18,56,56 Showtec/Scorpion_17,64,64 Showtec/Scorpion_16,72,72 Showtec/Scorpion_15,80,80 Showtec/Scorpion_14,88,88 Showtec/Scorpion_13,96,96 Showtec/Scorpion_12,104,104 Showtec/Scorpion_11,112,112 Showtec/Scorpion_01,120,120 Miscellaneous/rotate,128,255
+
+Channel = color
+ white,0,10 green,11,11 orange,22,22 light_blue,33,33 amber,44,44 red,55,55 purple,66,66 pink,77,77 light_green,88,88 blue,99,99 yellow,110,110 magenta,121,121 rotate,128,255
+
+Channel = pan
+
+Channel = tilt
+

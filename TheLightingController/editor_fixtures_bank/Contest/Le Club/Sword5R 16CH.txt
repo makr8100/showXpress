@@ -1,0 +1,52 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = TRUE
+ViewReverseTilt = TRUE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Contest/Club series/SWORD5R .png
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = dimmer
+
+Channel = shutter
+ closed,0,3 strobe,4,103 open,104,107 pulse_strobe,108,207 open,208,212 random_strobe,213,251 open,252,255 
+
+Channel = color
+ open,0,4 split_1,5,8 red,9,12 split_2,13,17 orange,18,21 split_3,22,25 cyan,26,29 split_4,30,34 green,35,38 split_5,39,42 light_green,43,46 split_6,47,51 satin_white,52,55 split_7,56,59 pink,60,63 split_8,64,68 yellow,69,72 split_9,73,76 magenta,77,81 split_10,82,85 blue,86,89 split_11,90,93 T1,94,98 T1 T2,99,102 T2,103,106 T2 T3,107,110 T3,111,115 T3 UV,116,119 uv,120,123 uv blanc,124,127 right_rotate,128,255 
+
+Channel = gobo
+ Miscellaneous/open,0,3 metal_basic/H1,4,7 metal_basic/H2,8,11 metal_basic/H3,12,15 metal_basic/H4,16,19 metal_basic/H5,20,23 metal_basic/H6,24,27 metal_basic/RR1B7,28,31 metal_basic/RR1B8,32,35 metal_basic/L230B9,36,39 metal_basic/RR1B10,40,43 metal_basic/L230B11,44,47 metal_basic/RR1B12,48,51 metal_basic/RR1B15,52,55 metal_basic/sh28,56,59 metal_basic/sh16,60,63 metal_basic/Z03748-7,64,67 metal_basic/GM012,68,71 Miscellaneous/left_rotate,72,113 Miscellaneous/open,114,117 Miscellaneous/right_rotate,118,159 Miscellaneous/shake_gobo1,160,164 Miscellaneous/shake_gobo2,165,169 Miscellaneous/shake_gobo3,170,174 Miscellaneous/shake_gobo4,175,179 Miscellaneous/shake_gobo5,180,184 Miscellaneous/shake_gobo6,185,189 Miscellaneous/shake_gobo7,190,194 Miscellaneous/shake_gobo8,195,199 Miscellaneous/shake_gobo9,200,204 Miscellaneous/shake_gobo10,205,209 Miscellaneous/shake_gobo11,210,214 Miscellaneous/shake_gobo12,215,219 Miscellaneous/shake_gobo13,220,224 Miscellaneous/shake_gobo14,225,229 Miscellaneous/shake_gobo15,230,234 Miscellaneous/shake_gobo16,235,239 Miscellaneous/shake_gobo17,240,255 
+
+Channel = prism
+ no_function,0,127 prism,128,255 
+
+Channel = prism_rotate
+ index,0,127 left_rotate,128,190 stop,191,192 right_rotate,193,255 
+
+Channel = frost
+
+Channel = focus
+
+Channel = animation
+ no_function,0,7 macro_1,8,15 macro_2,16,23 macro_3,24,31 macro_4,32,39 macro_5,40,47 macro_6,48,55 macro_7,56,63 macro_8,64,71 macro_9,72,79 macro_10,80,87 macro_11,88,95 macro_12,96,103 macro_13,104,111 macro_14,112,119 macro_15,120,127 macro_16,128,135 macro_17,136,143 macro_18,144,151 macro_19,152,159 macro_20,160,167 macro_21,168,175 macro_22,176,183 macro_23,184,191 macro_24,192,199 macro_25,200,207 macro_26,208,215 macro_27,216,223 macro_28,224,231 macro_29,232,239 macro_30,240,247 macro_31,248,255 
+
+Channel = animation_speed
+ dimmer,0,127 audio,128,255 
+
+Channel = control
+ no_function,0,79 reset_motors,80,84 reset_xy,85,87 reset,88,90 no_function,91,100 lamp_off,101,120 lamp_on,121,140 no_function,141,160 pattern_01,161,180 pattern_02,181,200 pattern_03,201,220 pattern_04,221,240 audio,241,255 
+

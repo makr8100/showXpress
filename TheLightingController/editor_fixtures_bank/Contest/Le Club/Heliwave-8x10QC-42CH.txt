@@ -1,0 +1,135 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Contest/Club series/HELIWAVE-8x10QC .png
+
+Channel = pan_continuous
+ no_function,0,7 continuous clockwise,8,132 stop,133,140 continuous unclock,141,255 
+
+Channel = pan
+
+Channel = tilt
+
+Channel = tilt
+
+Channel = pan_tilt_macro
+ no_function,0,7 macro_1,8,23 macro_2,24,39 macro_3,40,55 macro_4,56,71 macro_5,72,87 macro_6,88,103 macro_7,104,119 macro_8,120,135 macro_9,136,151 macro_10,152,167 macro_11,168,183 macro_12,184,199 macro_13,200,215 macro_14,216,231 macro_15,232,255 
+
+Channel = pan_tilt_macro_speed
+ no_function,0,7 speed,8,247 audio,248,255 
+
+Channel = dimmer
+ closed,0,7 dimmer,8,255 
+
+Channel = shutter
+ closed,0,7 strobe,8,131 open,132,139 pulse_strobe,140,181 open,182,189 reverse_pulse_strobe,190,231 open,232,239 random_strobe,240,247 open,248,255 
+
+Channel = red
+ dimmer,0,255 
+
+Channel = green
+ dimmer,0,255 
+
+Channel = blue
+ dimmer,0,255 
+
+Channel = white
+ dimmer,0,255 
+
+Channel = red
+ dimmer,0,255 
+
+Channel = green
+ dimmer,0,255 
+
+Channel = blue
+ dimmer,0,255 
+
+Channel = white
+ dimmer,0,255 
+
+Channel = red
+ dimmer,0,255 
+
+Channel = green
+ dimmer,0,255 
+
+Channel = blue
+ dimmer,0,255 
+
+Channel = white
+ dimmer,0,255 
+
+Channel = red
+ dimmer,0,255 
+
+Channel = green
+ dimmer,0,255 
+
+Channel = blue
+ dimmer,0,255 
+
+Channel = white
+ dimmer,0,255 
+
+Channel = red
+ dimmer,0,255 
+
+Channel = green
+ dimmer,0,255 
+
+Channel = blue
+ dimmer,0,255 
+
+Channel = white
+ dimmer,0,255 
+
+Channel = red
+ dimmer,0,255 
+
+Channel = green
+ dimmer,0,255 
+
+Channel = blue
+ dimmer,0,255 
+
+Channel = white
+ dimmer,0,255 
+
+Channel = red
+ dimmer,0,255 
+
+Channel = green
+ dimmer,0,255 
+
+Channel = blue
+ dimmer,0,255 
+
+Channel = white
+ dimmer,0,255 
+
+Channel = red
+ dimmer,0,255 
+
+Channel = green
+ dimmer,0,255 
+
+Channel = blue
+ dimmer,0,255 
+
+Channel = white
+ dimmer,0,255 
+
+Channel = effect_macro
+ no_function,0,7 macro_1,8,22 macro_2,23,37 macro_3,38,52 macro_4,53,67 macro_5,68,82 macro_6,83,97 macro_7,98,112 macro_8,113,127 macro_9,128,142 macro_10,143,157 macro_11,158,172 macro_12,173,175 macro_13,188,202 macro_14,203,217 macro_15,218,232 open,233,255 
+
+Channel = effect_speed
+ no_function,0,7 speed_control,8,247 audio,248,255 
+

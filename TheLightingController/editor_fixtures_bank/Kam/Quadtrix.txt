@@ -1,0 +1,39 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = control
+ dmx_control,75,75 
+
+Channel = effect_macro
+
+Channel = effect_speed
+
+Channel = up_down_speed
+
+Channel = left_right_speed
+
+Channel = inside_outside_speed
+
+Channel = all_speed
+
+Channel = strobe
+
+Channel = shutter
+ open,0,0 dimmer,15,255 
+
+Channel = LED_lenses
+ 4_lenses,0,0 3_lenses,90,90 2_lenses,160,160 1_lense,255,255 
+
+Channel = reserved
+
+Channel = audio
+

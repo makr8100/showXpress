@@ -1,0 +1,39 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = TRUE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/Swarm 5 FX.png
+
+Channel = Automatic Programs
+ no_function,0,9 Auto program 1,10,24 Auto program 2,25,39 Auto program 3,40,54 Auto program 4,55,69 Auto program 5,70,84 Auto program 6,85,99 Auto program 7,100,114 Sound-Active mode 1,115,129 Sound-Active mode 2,130,144 Sound-Active mode 3,145,159 Sound-Active mode 4,160,174 Sound-Active mode 5,175,189 Sound-Active mode 6,190,204 Sound-Active mode 7,205,219 dmx,220,255
+
+Channel = color
+ no_function,0,9 red,10,14 Green,15,19 Blue,20,24 Amber,25,29 White,30,34 White + Red,35,39 Red + Green,40,44 Green + Blue,45,49 Blue + Amber,50,54 Amber + White,55,59 White + Green,60,64 Green + Amber,65,69 Amber + Red,70,74 Red + Blue,75,79 Blue + White,80,84 Red + Green + Blue,85,89 Red + Green + Amber,90,94 Red + Green + White,95,99 Red + Amber + Blue,100,104 Red + White + Blue,105,109 Red + Amber + White,110,114 Amber + Green + Blue,115,119 Blue + Green + White,120,124 Amber + Green + White,125,129 Amber + White + Blue,130,134 Red + Green + Blue + Amber,135,139 Red + Green + Blue + White,140,144 Green + Blue + Amber + White,145,149 Red + Green + Amber + White,150,154 Red + Blue + Amber + White,155,159 Red + Green + Blue + Amber + White,160,164 Automatic (single colors only),165,209 Automatic (two colors at a time),210,255 
+
+Channel = Auto Program Speed
+ Automatic speed slow to fast (colors only),0,255
+
+Channel = shutter
+ no_function,0,4 strobe,5,254 Sound-Active strobe,255,255 
+
+Channel = white
+ no_function,0,9 Auto Program 1 (fast to slow) ,10,19 Auto Program 2 (fast to slow,20,29 Auto Program 3 (fast to slow,30,39 Auto Program 4 (fast to slow,40,49 Auto Program 5 (fast to slow,50,59 Auto Program 6 (fast to slow,60,69 Auto Program 7 (fast to slow,70,79 Auto Program 8 (fast to slow,80,89 Auto Program 9 (fast to slow,90,99 Auto Program 10 (fast to slow,100,109 Full On,110,255
+
+Channel = laser
+ no_function,0,9 Red on,10,49 Green on,50,89 Green + Red alternate strobe,90,129 Red on + Green strobe,130,169 Green on + Red strobe,170,209 Red + Green strobe,210,255
+
+Channel = Laser Strobe
+ no_function,0,4 Strobe (slow to fast),5,254 Sound-Active strobe,255,255
+
+Channel = Motor LED
+ no_function,0,4 Rotate clockwise (slow to fast),5,127 stop,128,133 Rotate counter-clockwise (slow to fast),134,255
+
+Channel = Motor Laser
+ no_function,0,4 Rotate clockwise,5,127 stop,128,133 Rotate counter-clockwise,134,255
+

@@ -1,0 +1,40 @@
+﻿ViewType = VIEW_TYPE_HEAD_WASH
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = color
+ white,0,0 red,32,32 green,52,52 pink,67,67 blue,82,82 orange,97,97 magenta,112,112 light_blue,127,127 light_green,142,142 rotate,150,255
+
+Channel = gobo
+ Miscellaneous/open,0,0 ???,15,15 ???,25,25 ???,35,35 ???,45,45 ???,55,55 ???,65,65 ???,75,75 rotate,220,255
+
+Channel = gobo_rotate
+ stop,0,0 right_rotate,3,128 left_rotate,133,255
+
+Channel = prism
+
+Channel = dimmer
+
+Channel = shutter
+ stop,0,0 strobe,64,95 pulse_strobe,128,159 random_strobe,192,223 
+
+Channel = control
+ stop,0,0 reset,210,210 
+

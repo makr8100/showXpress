@@ -1,0 +1,26 @@
+Name = STUDIO-DUE_SHARK150
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = pantilt_speed
+ slow,0,0 mid1,100,100 mid2,160,160 fast,255,255
+
+Channel = color
+ color_A,0,0 color_B,38,38 color_C,66,66 color_D,94,94 color_E,122,122 color_F,150,150 color_G,178,178 rainbow_slow,206,206 rainbow_mid,226,226 rainbow_fast,255,255
+
+Channel = gobo
+ gobo1,0,0 gobo2,37,37 gobo3,65,65 gobo4,92,92 gobo5,119,119 gobo6,146,146 gobo7,174,174 rainbow_slow,201,201 rainbow_mid,223,223 rainbow_fast,255,255
+
+Channel = shutter
+ full_beam,0,0 shutter,128,128 strobe_64steps,255,255
+
+Channel = pan
+
+Channel = tilt
+

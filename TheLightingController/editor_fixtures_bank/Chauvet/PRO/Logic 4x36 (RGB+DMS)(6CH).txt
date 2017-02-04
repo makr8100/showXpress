@@ -1,0 +1,29 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = red
+ 0-100%,0,255
+
+Channel = green
+ 0-100%,0,255
+
+Channel = blue
+ 0-100%,0,255
+
+Channel = dimmer
+ 0-100%,0,255
+
+Channel = color_macro
+ No Function ,0,10 R:100% G:up B:0%,11,35 R: Down G:100% B:0%,36,60 R:0% G:100% B:up,61,85 R:0% G:Down B:100%,86,110 R:up G:0% B:100%,111,135 R:100% G:0% B:Down,136,160 R:100% G:up B:up,161,185 R:down G:down B:100%,186,210 White 1:3200K,211,215 White 2:3400K,216,220 White 3:4200K,221,225 White 4:4900K,226,230 White 5:5600K,231,235 White 6:5900K,236,240 White 7:6500K,241,245 White 8:7200K,246,250 White 9:8500K,251,255 
+
+Channel = strobe_effect
+ No Function,0,4 0-20Hz,5,255 

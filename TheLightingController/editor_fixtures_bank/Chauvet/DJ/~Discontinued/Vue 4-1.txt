@@ -1,0 +1,40 @@
+Name = Vue 4-1
+
+ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 38
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = control
+ cluster control,0,9 auto 1,10,14 auto 2,15,19 auto 3,20,24 auto 4,25,29 auto 5,30,34 auto 6,35,39 auto 7,40,44 auto 8,45,49 auto 9,50,54 auto 10,55,59 auto 11,60,64 auto 12,65,69 auto 13,70,74 auto 14,75,79 auto 15,80,84 auto 16,85,89 full on,90,94 auto 17,95,235 auto w/ rotation,236,245 audio,246,255
+
+Channel = effect
+ closed,0,3 dimmer,4,187 all on,188,191 dimmer,192,195 effect 1,196,199 effect 2,200,203 effect 3,204,207 effect 4,208,211 effect 5,212,215 effect 6,216,219 effect 7,220,223 effect 8,224,227 effect 9,228,231 effect 10,232,235 effect 11,236,239 effect 12,240,255
+
+Channel = effect
+ closed,0,3 dimmer,4,187 all on,188,191 dimmer,192,195 effect 1,196,199 effect 2,200,203 effect 3,204,207 effect 4,208,211 effect 5,212,215 effect 6,216,219 effect 7,220,223 effect 8,224,227 effect 9,228,231 effect 10,232,235 effect 11,236,239 effect 12,240,255
+
+Channel = effect
+ closed,0,3 dimmer,4,187 all on,188,191 dimmer,192,195 effect 1,196,199 effect 2,200,203 effect 3,204,207 effect 4,208,211 effect 5,212,215 effect 6,216,219 effect 7,220,223 effect 8,224,227 effect 9,228,231 effect 10,232,235 effect 11,236,239 effect 12,240,255
+
+Channel = effect
+ closed,0,3 dimmer,4,187 all on,188,191 dimmer,192,195 effect 1,196,199 effect 2,200,203 effect 3,204,207 effect 4,208,211 effect 5,212,215 effect 6,216,219 effect 7,220,223 effect 8,224,227 effect 9,228,231 effect 10,232,235 effect 11,236,239 effect 12,240,255
+
+Channel = effect
+ closed,0,3 dimmer,4,187 all on,188,191 dimmer,192,195 effect 1,196,199 effect 2,200,203 effect 3,204,207 effect 4,208,211 effect 5,212,215 effect 6,216,219 effect 7,220,223 effect 8,224,227 effect 9,228,231 effect 10,232,235 effect 11,236,239 effect 12,240,255
+
+Channel = effect
+ closed,0,3 dimmer,4,187 all on,188,191 dimmer,192,195 effect 1,196,199 effect 2,200,203 effect 3,204,207 effect 4,208,211 effect 5,212,215 effect 6,216,219 effect 7,220,223 effect 8,224,227 effect 9,228,231 effect 10,232,235 effect 11,236,239 effect 12,240,255
+
+Channel = shutter
+ closed,0,1 strobe,2,255
+
+Channel = motor
+ stop,0,5 rotate,6,255
+

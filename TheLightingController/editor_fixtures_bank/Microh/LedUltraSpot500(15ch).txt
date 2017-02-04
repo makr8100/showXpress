@@ -1,0 +1,50 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = color
+ white,0,0 red,24,24 green,40,40 blue,56,56 yellow,72,72 pink,88,88 cyan,104,104 orange,120,120 right_rotate,128,189 stop,192,192 left_rotate,194,255
+
+Channel = gobo
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,15,15 Miscellaneous/gobo2,25,25 Miscellaneous/gobo3,35,35 Miscellaneous/gobo4,45,45 Miscellaneous/gobo5,55,55 Miscellaneous/gobo6,65,65 Miscellaneous/gobo7,75,75 Miscellaneous/shake_gobo1,85,85 Miscellaneous/shake_gobo2,105,105 Miscellaneous/shake_gobo3,125,125 Miscellaneous/shake_gobo4,145,145 Miscellaneous/shake_gobo5,165,165 Miscellaneous/shake_gobo6,190,190 Miscellaneous/shake_gobo7,210,210 Miscellaneous/rotate,220,255
+
+Channel = gobo_rotate
+ stop,0,0 right_rotate,41,127 left_rotate,132,255
+
+Channel = gobo2
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,15,15 Miscellaneous/gobo2,25,25 Miscellaneous/gobo3,35,35 Miscellaneous/gobo4,45,45 Miscellaneous/gobo5,55,55 Miscellaneous/gobo6,65,65 Miscellaneous/gobo7,75,75 Miscellaneous/gobo8,85,104 Miscellaneous/gobo9,104,104 Miscellaneous/shake_gobo1,105,105 Miscellaneous/shake_gobo2,118,118 Miscellaneous/shake_gobo3,125,125 Miscellaneous/shake_gobo4,141,141 Miscellaneous/shake_gobo5,153,153 Miscellaneous/shake_gobo6,166,166 Miscellaneous/shake_gobo7,178,178 Miscellaneous/shake_gobo8,190,190 Miscellaneous/shake_gobo9,202,202 Miscellaneous/rotate,211,255
+
+Channel = shutter
+ closed,0,0 open,48,48 pulse_strobe,128,159 random_strobe,192,223 open,255,255 
+
+Channel = dimmer
+
+Channel = focus
+
+Channel = prism
+ no_function,0,0 prism,100,100 right_rotate,128,189 stop,192,192 left_rotate,194,255 
+
+Channel = iris
+ index,0,127 pulse_open,192,223 pulse_close,224,255 
+
+Channel = pantilt_speed
+
+Channel = control
+ no_function,0,0 reset,90,90 
+

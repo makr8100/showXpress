@@ -1,0 +1,18 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = gradin_rotation
+ stop,0,0 right_rotate,5,127 stop,130,130 left_rotate,134,255
+
+Channel = gradin_effect
+ Laser 3D Effect,0,0 Scanned Beam Effect,48,48 Laser Lumina Effect,80,80 Scanned Beam Effect,110,110 Burst Grating Effect,140,140 Scanned Beam Effect,170,170 Laser Universal Effect,210,210 Scanned Beam Effect,255,255
+

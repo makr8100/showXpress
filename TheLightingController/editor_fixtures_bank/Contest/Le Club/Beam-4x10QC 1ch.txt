@@ -1,0 +1,15 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Contest/Club series/BEAM-4x10QC .png
+
+Channel = animation
+ closed,0,7 show_0,8,27 show_1,28,47 show_2,48,67 show_3,68,87 show_4,88,107 show_5,108,127 show_6,128,147 show_7,148,167 show_8,168,187 show_9,188,207 show_10,208,227 show_11,228,247 show_12,248,255 
+

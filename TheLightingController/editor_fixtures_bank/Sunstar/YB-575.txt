@@ -1,0 +1,42 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LAMP575W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 25
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = color
+ white,0,23 red,24,47 yellow,48,71 blue,72,95 green,96,119 purple,120,143 cyan,144,167 orange,168,191 rotate,192,255
+
+Channel = gobo
+ ok_for_3DView/open,0,23 ok_for_3DView/cone,24,43 ok_for_3DView/open,44,47 Chauvet/2,48,71 Chauvet/swirl 5,73,95 Chauvet/littlestar,96,119 Chauvet/tiny bubbles,120,143 Chauvet/grid_ball,144,167 Chauvet/glass tire 2,168,191 ok_for_3DView/rotate,192,255
+
+Channel = gobo_rotate
+ stop,0,0 right_rotate,1,127 left_rotate,128,255
+
+Channel = shutter
+ dimmer,0,127 strobe,128,249 open,250,255
+
+Channel = pan
+
+Channel = tilt
+
+Channel = pantilt_speed
+
+Channel = prism
+ open,0,31 prism,32,127 right_rotate,128,191 left_rotate,192,255
+
+Channel = focus
+
+Channel = control
+ no_function,254,254 reset,255,255
+
+Channel = upan
+
+Channel = utilt
+

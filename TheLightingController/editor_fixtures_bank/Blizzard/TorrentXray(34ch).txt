@@ -1,0 +1,85 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+ index,0,225 blackout_moves,230,230 blackout_changes,240,240 
+
+Channel = shutter
+ open,0,0 strobe,226,235 
+
+Channel = dimmer
+
+Channel = red_master
+
+Channel = green_master
+
+Channel = blue_master
+
+Channel = white_master
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = color_macro
+ no_function,0,0 macro_1,24,24 macro_2,44,44 macro_3,64,64 macro_4,84,84 macro_5,104,104 macro_6,124,124 macro_7,144,144 macro_8,164,164 macro_9,184,184 macro_10,204,204 macro_11,224,224 macro_12,255,255 
+
+Channel = mode
+ no_function,0,0 reset,90,90 auto1,110,110 auto2,130,130 auto3,150,150 auto4,170,170 auto5,190,190 auto6,210,210 auto7,230,230 audio,255,255 
+
+Channel = fixture_ID
+ no_function,0,0 ID1_to_ID25,10,255 
+

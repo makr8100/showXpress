@@ -1,0 +1,33 @@
+Name = PEARL-RIVER_PILOTWASH2302
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_250MSR
+ViewAnglePan = 352
+ViewAngleTilt = 250
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = magenta
+
+Channel = yellow
+
+Channel = cyan
+
+Channel = shutter
+ closed,0,0 dimmer,11,127 strobe,128,252 open,255,255
+
+Channel = pan
+
+Channel = tilt
+
+Channel = color
+ white,0,0 red,41,41 yellow,68,68 orange,95,95 green,123,123 blue,150,150 uv,177,177 rotate,192,255
+
+Channel = effect
+ open,0,0 ribbed glass,32,223 forst glass,255,255
+
+Channel = upan
+
+Channel = utilt
+

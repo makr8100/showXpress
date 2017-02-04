@@ -1,0 +1,39 @@
+Name = LT6
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = control
+ audio,0,0 auto,94,94 manu_audio,158,158 manu_auto,255,255
+
+Channel = blanking
+ blanking,0,0 fluxion,94,94 no_blanking,158,158 closed,255,255
+
+Channel = gobo
+
+Channel = roll
+ stop,0,0 horizontal,94,94 vertical,158,158 both,255,255
+
+Channel = dot_rotate
+ stop,0,0 rotate,255,255
+
+Channel = move
+ stop,0,0 horizontal,94,94 vertical,158,158 both,255,255
+
+Channel = strech
+ stop,0,0 horizontal,94,94 vertical,158,158 both,255,255
+
+Channel = speed
+
+Channel = draw_speed
+
+Channel = size
+

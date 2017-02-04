@@ -1,0 +1,35 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewAnglePan = 0
+ViewAngleTilt = 0
+ViewAngleBeam = 0
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+2DViewImage = 
+
+Channel = pan
+ Pan,0,255
+
+Channel = tilt
+ Tilt1,0,255
+
+Channel = tilt
+ Tilt2,0,255
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = shutter
+ closed,0,7 strobe,8,76 pulse_strobe,77,145 Random shutter,146,215 open,216,255
+
+Channel = LED 8
+ dimmer,0,255
+
+Channel = speed_control
+ Pattern Speed,0,240 audio,241,255
+
+Channel = movement_macro
+ no_function,0,7 macro_1,8,23 macro_2,24,39 macro_3,40,55 macro_4,56,71 macro_5,72,87 macro_6,88,103 macro_7,104,119 macro_8,120,135 audio,136,151 audio2,152,167 audio3,168,183 audio4,184,199 audio5,200,215 audio6,216,231 audio7,232,247 audio8,248,255
+

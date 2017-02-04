@@ -1,0 +1,15 @@
+Name = AMITA_VRAY
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = color
+ blackout,0,0 white,16,16 pink,32,32 lt_blue,48,48 yellow,58,58 purple,70,70 orange,80,80 green,96,96 red,110,110 dark_blue,120,120 blue_green,135,135 light_pink,148,148 rainbow,154,191 strobe,192,255
+
+Channel = dimmer
+

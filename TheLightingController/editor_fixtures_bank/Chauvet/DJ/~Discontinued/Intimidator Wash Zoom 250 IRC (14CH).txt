@@ -1,0 +1,54 @@
+﻿ViewType = VIEW_TYPE_HEAD_WASH
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 44
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/Intimidator Wash Zoom 250 IRC.png
+
+Channel = pan
+ 0 to 540°,0,255
+
+Channel = upan
+ Fine control of panning,0,255
+
+Channel = tilt
+ 0 to 270,0,255
+
+Channel = utilt
+ Fine control of tilting,0,255
+
+Channel = pantilt_speed
+ Pant/Tilt speed (fast to slow),0,255
+
+Channel = red
+ 0 to 100%,0,255
+
+Channel = green
+ 0 to 100%,0,255
+
+Channel = blue
+ 0 to 100%,0,255
+
+Channel = white
+ 0 to 100%,0,255
+
+Channel = color
+ closed,0,4 Color 1,5,9 Color 2,10,14 Color 3,15,19 Color 4,20,24 Color 5,25,29 Color 6,30,34 Color 7,35,39 Color 8,40,44 Color 9,45,49 Color 10,50,54 Color 11,55,59 Color 12,60,64 Color 13,65,69 Color 14,70,74 Color 15,75,79 Color 16,80,84 Color 17,85,89 Color 18,90,94 Color 19,95,99 Color 20,100,104 Color 21,105,109 Color 22,110,114 Color 23,115,119 Color 24,120,124 Color 25,125,129 Color 26,130,134 Color 27,135,139 Color 28,140,144 Color 29,145,149 Color 30,150,154 Color 31,155,159 Color 32,160,164 Color 33,165,169 Color 34,170,174 No function,175,179 Clockwise color change (decreasing speed),180,201 Stop (defult to last color),202,207 Counter-clockwise color change ,208,229 No function,230,234 Color Jump (decreasing speed),235,249 Sound-Active colors,250,255
+
+Channel = dimmer
+ 0 to 100%,0,255
+
+Channel = shutter
+ closed,0,19 open,20,24 pulse_strobe,25,64 open,65,69 strobe,70,84 open,85,89 pulse_strobe,90,104 open,105,109 random_strobe,110,124 open,125,129 random_strobe,130,144 open,145,149 random_strobe,150,164 open,165,169 pulse_strobe,170,184 open,185,189 pulse_strobe,190,204 open,205,209 strobe,210,224 open,225,229 pulse_strobe,230,244 open,245,255
+
+Channel = control
+ No function,0,9 Blackout while panning/tilting,10,14 No function,15,49 Reset pan,50,54 Reset tilt,55,59 No function,60,69 Reset all,70,74 No function,75,79 Reverse pan/tilt,80,84 Reverse pan,85,89 Reverse tilt,90,94 Cancel reverse pan,95,99 Cancel reverse tilt,100,104 Cancel reverse pan/tilt,105,109 Pan/Tilt normal speed,110,114 Pan/Tilt fast speed,115,119 Pan/Tilt slow speed,120,124 Fan (full speed),125,129 Fan (auto),130,134 Dimmer  fast,135,139 Dimmer  smooth,140,144 No function,145,255
+
+Channel = movement_macro
+ No function,0,7 Automatic movement macro 1,8,23 Automatic movement macro 2,24,39 Automatic movement macro 3,40,55 Automatic movement macro 4,56,71 Automatic movement macro 5,72,87 Automatic movement macro 6,88,103 Automatic movement macro 7,104,119 Automatic movement macro 8,120,135 Sound-Active movement macro 1,136,151 Sound-Active movement macro 2,152,167 Sound-Active movement macro 3,168,183 Sound-Active movement macro 4,184,199 Sound-Active movement macro 5,200,215 Sound-Active movement macro 6,216,231 Sound-Active movement macro 7,232,247 Sound-Active movement macro 8,248,255
+

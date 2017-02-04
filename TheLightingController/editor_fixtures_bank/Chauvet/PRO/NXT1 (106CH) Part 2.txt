@@ -1,0 +1,30 @@
+﻿ViewType = VIEW_TYPE_HEAD_WASH
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/PRO/NXT1-2D.png
+
+Channel = blue24
+ dimmer,0,255
+
+Channel = white24
+ dimmer,0,255
+
+Channel = red25
+ dimmer,0,255
+
+Channel = green25
+ dimmer,0,255
+
+Channel = blue25
+ dimmer,0,255
+
+Channel = white25
+ dimmer,0,255
+

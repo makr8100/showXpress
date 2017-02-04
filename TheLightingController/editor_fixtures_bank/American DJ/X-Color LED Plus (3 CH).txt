@@ -1,0 +1,19 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = color
+ white,0,14 orange,15,28 blue,29,42 green,43,56 yellow,57,70 pink,71,84 light_blue,85,98 light_green,99,112 light_yellow,113,127 rainbow,128,255 
+
+Channel = dimmer
+
+Channel = strobe_speed
+ closed,0,7 open,8,15 strobe,16,131 open,132,139 random_strobe,140,180 open,181,189 pulse_strobe,190,231 open,232,239 random_strobe,240,247 open,248,255 
+

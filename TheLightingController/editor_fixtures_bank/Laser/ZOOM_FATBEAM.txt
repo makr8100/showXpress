@@ -1,0 +1,29 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = mode
+ closed,0,0 dynamic_patterns,11,120 static_patterns,121,250 audio,255,255 
+
+Channel = pattern_selection
+
+Channel = X_axis
+
+Channel = Y_axis
+
+Channel = pantilt_speed
+
+Channel = speed_control
+
+Channel = static_pattern_size
+
+Channel = color
+ green&red,0,0 green,150,150 red,255,255 
+

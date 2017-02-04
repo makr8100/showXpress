@@ -1,0 +1,40 @@
+Name = SGM_GIOTTOWASH
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = color
+ white,0,0 green,32,32 pink,53,53 amber,74,74 blue,95,95 orange,116,116 C_orange,138,138 C_blue,160,160 C_amber,181,181 C_pink,202,202 C_green,223,223 cold,255,255
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = yellow
+
+Channel = dimmer
+ off,0,0 dimmer,128,255
+
+Channel = shutter
+ closed,0,0 strobe,128,239 open,255,255
+
+Channel = beam
+
+Channel = pantilt_speed
+
+Channel = control
+ lamp_off,0,0 lamp_hyste,95,95 lamp_on,154,154 reset_hyste,209,209 reset,255,255
+

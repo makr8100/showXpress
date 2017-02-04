@@ -1,0 +1,15 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 14
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Contest/Club series/BLAST-60 .png
+
+Channel = animation
+ closed,0,7 auto,8,15 pattern_01,16,63 pattern_02,64,111 pattern_03,112,159 pattern_04,160,207 auto,208,255 
+

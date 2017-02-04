@@ -1,0 +1,26 @@
+Name = SHOWTEC_OCTOPOD30
+
+ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 10421446
+
+Channel = color
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = shutter
+
+Channel = effect
+ new_level,0,30 new_level,31,60 new_level,61,90 new_level,91,120 new_level,121,150 new_level,151,180 new_level,181,210 new_level,211,240 audio,241,255
+

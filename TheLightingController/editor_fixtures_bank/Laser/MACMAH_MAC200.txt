@@ -1,0 +1,49 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = mode
+ dmx,0,0 audio,255,255 
+
+Channel = output
+ closed,0,0 open,1,1 
+
+Channel = shutter
+ open,0,0 strobe,2,255 
+
+Channel = pattern_groups
+ group1,0,0 group2,75,75 group3,125,125 group4,175,175 group5,255,255 
+
+Channel = pattern
+
+Channel = pan
+
+Channel = tilt
+
+Channel = z
+
+Channel = X_move
+
+Channel = Y_move
+
+Channel = Z_move
+
+Channel = X_stretch
+
+Channel = Y_stretch
+
+Channel = zoom
+
+Channel = slow_drawing
+
+Channel = scan_speed
+
+Channel = pattern_size
+

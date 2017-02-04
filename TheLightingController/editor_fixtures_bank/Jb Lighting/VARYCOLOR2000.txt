@@ -1,0 +1,26 @@
+Name = JB-LIGHTING_VARYCOLOR2000
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = reserved
+
+Channel = control
+
+Channel = gobo
+ gobo1,0,0 gobo2,48,48 gobo3,80,80 gobo4,112,112 gobo5,144,144 off,255,255
+
+Channel = color
+ white,0,0 white_red,5,5 red,9,9 red_yellow,13,13 yellow,17,17 yellow_magenta,21,21 magenta,25,25 magenta_green,29,29 green,33,33 green_orange,37,37 orange,41,41 orange_blue,45,45 blue,49,49 blue_aqua,53,53 aqua,57,57 aqua_mag_dark,61,61 magenta_dark,65,65 mag_d_green_d,69,69 green_dark,73,73 green_dark_pin,77,77 pink,81,81 pink_cyan,85,85 cyan,89,89 cyan_white,109,109 rotation,128,255
+
+Channel = shutter
+ closed,0,0 dimmer,20,127 open,133,133 closed_immed.,138,138 strobe,140,243 open,255,255
+
+Channel = prism
+ open,0,0 artificial_lig,96,96 daylight,255,255
+

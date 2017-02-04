@@ -1,0 +1,27 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = color
+ closed,0,7 red,8,15 light_red,16,23 orange,24,31 dark_yellow,32,38 yellow,39,46 light_yellow,47,54 light_green,55,62 green,63,69 green,70,77 dark_green,78,85 dark_green,86,92 light_green,93,101 turquoise,102,108 cyan,109,116 light_blue,117,123 light_blue,124,124 blue,125,132 blue,133,139 blue,140,147 dark_blue,148,154 dark_blue,155,162 dark_blue,163,170 indigo,171,177 violet,178,185 violet,186,193 purple,194,201 purple,202,208 pink,209,216 pink,217,224 pink,225,231 magenta,232,239 red,240,247 white,248,248 
+
+Channel = dimmer
+
+Channel = shutter
+ closed,0,7 open,8,15 lighting_strobe,16,131 open,132,139 pulse_open,140,181 pulse_close,182,231 open,232,239 random_strobe,240,247 open,248,255
+

@@ -1,0 +1,28 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = color
+ white,0,0 red,48,48 yellow,76,76 purple,112,112 green,144,144 orange,176,176 blue,208,208 pink,255,255
+
+Channel = gobo
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,48,48 Miscellaneous/gobo2,76,76 Miscellaneous/gobo3,112,112 Miscellaneous/gobo4,144,144 Miscellaneous/gobo5,176,176 Miscellaneous/gobo6,208,208 Miscellaneous/gobo7,255,255 
+
+Channel = shutter
+ closed,0,0 index,6,70 strobe,71,236 open,255,255 
+
+Channel = gobo_rotate
+ stop,0,0 right_rotate,5,120 stop,130,130 left_rotate,140,255 
+
+Channel = pan
+
+Channel = tilt
+

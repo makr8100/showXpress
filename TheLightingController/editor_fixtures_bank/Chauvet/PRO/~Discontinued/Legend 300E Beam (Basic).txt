@@ -1,0 +1,64 @@
+Name = Legend 300E Beam (MODE 1)
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 19
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 10641560
+
+Channel = pan
+ dimmer,0,255
+
+Channel = upan
+ dimmer,0,255
+
+Channel = tilt
+ dimmer,0,255
+
+Channel = utilt
+ dimmer,0,255
+
+Channel = pantilt_speed
+ dimmer,0,255
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = shutter
+ closed,0,7 open,8,15 strobe,16,131 open,132,240
+
+Channel = color
+ white,0,7 red,8,15 orange,16,23 3200-5600K,24,31 3200-4100K,32,39 pink,40,47 green,48,55 dark_blue,56,63 mixed,64,127 right_rotate,128,191 left_rotate,192,255
+
+Channel = cyan
+ dimmer,0,255
+
+Channel = magenta
+ dimmer,0,255
+
+Channel = yellow
+ dimmer,0,255
+
+Channel = gobo
+ Chauvet/open,0,7 Miscellaneous/gobo1,8,14 Miscellaneous/gobo2,15,21 Miscellaneous/gobo3,22,28 Miscellaneous/gobo4,29,35 Miscellaneous/gobo5,36,42 Miscellaneous/gobo6,43,49 Miscellaneous/gobo7,50,57 Miscellaneous/shake_gobo1,58,67 Miscellaneous/shake_gobo2,68,77 Miscellaneous/shake_gobo3,78,87 Miscellaneous/shake_gobo4,88,97 Miscellaneous/shake_gobo5,98,107 Miscellaneous/shake_gobo6,108,117 Miscellaneous/shake_gobo7,118,127 Miscellaneous/right_rotate,128,189 Miscellaneous/stop,190,193 Miscellaneous/left_rotate,194,255
+
+Channel = gobo_rotate
+ index,0,127 right_rotate,128,191 left_rotate,192,255
+
+Channel = prism
+ open,0,63 prism,64,252
+
+Channel = prism_rotate
+ index,0,127 left_rotate,128,191 right_rotate,192,255
+
+Channel = frost
+ no_function,0,7 frost,8,255
+
+Channel = control
+ no_function,0,69 blackout_moves,70,79 un_blackout_moves,80,89 blackout_color_changes,90,99 un_blackout_color_changes,100,109 blackout_gobo_changes,110,119 un_blackout_gobo_changes,120,129 lamp_on,130,139 reset_xy,140,149 reset_color,150,159 reset_gobo,160,169 reset_shutter,170,179 no_function,180,189 reset_others,190,199 reset,200,209 no_function,210,229 lamp_off,230,239 no_function,240,255
+

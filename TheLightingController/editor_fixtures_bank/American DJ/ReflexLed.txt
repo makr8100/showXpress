@@ -1,0 +1,28 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = pan
+
+Channel = patterns&chases
+ closed,0,0 macro_1,15,15 macro_2,25,25 macro_3,35,35 macro_4,45,45 macro_5,55,55 macro_6,65,65 macro_7,75,75 macro_8,85,85 macro_9,95,95 macro_10,105,105 macro_11,115,115 macro_12,125,125 macro_13,135,135 macro_14,145,145 macro_15,155,155 chase_1,165,165 chase_2,175,175 chase_3,185,185 chase_4,195,195 chase_5,205,205 chase_6,215,215 chase_7,225,225 chase_8,235,235 chase_9,245,245 chase_10,255,255
+
+Channel = shutter
+ open,0,0 strobe,10,255 
+
+Channel = pan
+
+Channel = patterns&chases
+ closed,0,0 macro_1,15,15 macro_2,25,25 macro_3,35,35 macro_4,45,45 macro_5,55,55 macro_6,65,65 macro_7,75,75 macro_8,85,85 macro_9,95,95 macro_10,105,105 macro_11,115,115 macro_12,125,125 macro_13,135,135 macro_14,145,145 macro_15,155,155 chase_1,165,165 chase_2,175,175 chase_3,185,185 chase_4,195,195 chase_5,205,205 chase_6,215,215 chase_7,225,225 chase_8,235,235 chase_9,245,245 chase_10,255,255
+
+Channel = shutter
+ open,0,0 strobe,10,255 
+

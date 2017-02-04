@@ -1,0 +1,27 @@
+Name = GENI_SHIVA250
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_250HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewColor = 13158600
+
+Channel = shutter
+ closed,0,0 dimmer,1,159 strobe,160,253 open,255,255
+
+Channel = color
+ white,0,0 pink,20,20 yellow,37,37 light_blue,56,56 green,74,74 orange,92,92 purple,109,109 red,128,128 dark_blue,146,146 blacklight,164,164 rotate,175,255
+
+Channel = gobo
+ Miscellaneous\open,0,0 Geni\SV-250-CH2-32-47,40,40 Geni\SV-250-CH2-48-63,56,56 Geni\SV-250-CH2-64-79,72,72 Geni\SV-250-CH2-80-95,88,88 Geni\SV-250-CH2-96-111,104,104 Geni\SV-250-CH2-112-127,120,120 Geni\SV-250-CH2-128-143,136,136 Geni\SV-250-CH2-144-159,152,152 Miscellaneous\rotate,160,255
+
+Channel = gobo_rotate
+ stop,0,0 left_rotate,8,131 right_rotate,132,255
+
+Channel = pan
+
+Channel = tilt
+

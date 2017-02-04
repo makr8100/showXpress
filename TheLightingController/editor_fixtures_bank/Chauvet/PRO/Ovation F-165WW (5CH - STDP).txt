@@ -1,0 +1,24 @@
+﻿ViewType = VIEW_TYPE_PAR_CAN
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/PRO/OvationF-165WW-2D.png
+
+Channel = dimmer
+
+Channel = udimmer
+
+Channel = shutter
+ no_function,0,9 strobe,10,99 no_function,100,109 lighting_strobe,110,179 no_function,180,189 random_strobe,190,255
+
+Channel = zoom
+
+Channel = zoom reset
+ no_function,0,200 reset_motors,201,220 no_function,221,255
+

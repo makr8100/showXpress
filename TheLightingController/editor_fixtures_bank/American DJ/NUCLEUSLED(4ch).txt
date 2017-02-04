@@ -1,0 +1,21 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = pan&tilt_movement
+ nothing,0,0 movement1,20,20 movement2,40,40 movement3,60,60 movement4,80,80 movement5,100,100 movement6,120,120 movement7,140,140 movement8,160,160 movement9,180,180 movement10,200,200 movement11,220,220 movement12,240,240 audio,255,255
+
+Channel = pantilt_speed
+
+Channel = effect_macro
+ closed,0,0 macro_1,20,20 macro_2,40,40 macro_3,60,60 macro_4,80,80 macro_5,100,100 macro_6,120,120 macro_7,140,140 macro_8,160,160 macro_9,180,180 macro_10,202,202 macro_11,222,222 macro_12,255,255 
+
+Channel = effect_speed
+

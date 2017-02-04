@@ -1,0 +1,19 @@
+Name = FUTURELIGHT_CC150
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = reserved
+
+Channel = reserved
+
+Channel = colling
+
+Channel = shutter
+ black1,0,0 open,11,11 blue,19,19 black2,27,27 yellow,35,35 red,43,43 black3,51,51 green,59,59 cyan,67,67 black4,75,75 magenta,83,83 green2,91,91 black5,99,99 orange,107,107 gobo1,115,115 black6,123,123 gobo2,131,131 gobo3,139,139 strobe_white,147,147 strobe_blue,155,155 strobe_yellow,163,163 strobe_red,171,171 strobe_green,179,179 strobe_cyan,187,187 strobe_magenta,195,195 strobe_green2,203,203 strobe_orange,211,211 strobe_gobo1,219,219 strobe_mc,227,227 rai,240,255
+

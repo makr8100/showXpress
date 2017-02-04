@@ -1,0 +1,28 @@
+Name = JUNIOR_1
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = pan
+
+Channel = tilt
+
+Channel = color
+
+Channel = gobo
+
+Channel = shutter
+
+Channel = pantilt_speed
+
+Channel = effect
+
+Channel = effect
+
+Channel = control
+

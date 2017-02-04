@@ -1,0 +1,24 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 22
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/COLORstrip Mini FX.png
+
+Channel = red
+ 0 to 100%,0,255
+
+Channel = green
+ 0 to 100%,0,255
+
+Channel = blue
+ 0 to 100%,0,255
+
+Channel = laser
+ no_function,0,10 Auto programs with strobe,11,63 Red laser,64,127 Green laser,128,191 Red + Green laser,192,255
+

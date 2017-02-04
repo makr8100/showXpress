@@ -1,0 +1,37 @@
+Name = LT-575
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 180
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = shutter
+ closed,0,63 open,64,127 strobe,128,255
+
+Channel = gobo
+ American DJ\big_spot,0,41 High End Systems\141002,42,83 High End Systems\141035,84,125 Futurelight\15,126,167 Contest\13-4-9,168,209 Contest\scn950-g5-70a83,210,255
+
+Channel = color
+ white,0,15 dark_red,16,31 blue,32,47 dark_green,48,63 dark_yellow,64,79 indigo,80,95 dark_blue,96,111 amber,112,127 clock,128,255
+
+Channel = gobo_rotate
+ new_level,0,7 right_rotate,8,126 left_rotate,127,135 rotate,136,255
+
+Channel = prism
+ new_level,0,42 prism,43,85 _no_icon,86,128 _no_icon,129,171 _no_icon,172,214 new_level,215,255
+
+Channel = pan
+ new_level,0,255
+
+Channel = tilt
+ new_level,0,255
+
+Channel = prism_rotate
+ right_rotate,0,126 left_rotate,127,255
+

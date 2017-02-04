@@ -1,0 +1,26 @@
+Name = KING-HID
+
+ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_250HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 32
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+2DViewImage=Contest/DJ effects/king.png
+
+Channel = shutter
+ stop,0,0 strobe,16,135 shaking,136,255
+
+Channel = gobo
+ Miscellaneous\closed,0,0 Contest\Z04806-1,11,11 Contest\Z04806-2,19,19 Contest\Z04806-3,27,27 Contest\Z04806-4,35,35 Contest\Z04806-5,43,43 Contest\Z04806-6,51,51 Contest\Z04806-7,59,59 Contest\Z04806-8,67,67 Contest\Z04806-9,75,75 Contest\Z04806-10,83,83 Contest\Z04806-11,91,91 Contest\Z04806-12,99,99 Contest\Z04806-13,107,107 Contest\Z04806-14,115,115 Contest\Z04806-15,123,123 Miscellaneous\rotate,128,255
+
+Channel = gobo_rotate
+ left_rotate,10,120 right_rotate,135,245 stop,255,255
+
+Channel = beam
+ index,0,159 shaking,160,255
+

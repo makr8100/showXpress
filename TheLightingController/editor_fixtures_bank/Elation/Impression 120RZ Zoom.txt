@@ -1,0 +1,48 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = color
+ No effect,0,7 red,8,15 amber,16,23 dark_yellow,24,31 yellow,32,39 green,40,47 turquoise,48,55 cyan,56,63 blue,64,71 Lavender,72,79 Mauve,80,87 magenta,88,95 pink,96,103 3200K,104,111 5600K,112,119 7200K,120,127 rainbow stop,128,128 rainbow,129,223 rainbow,224,225
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = shutter
+ closed,0,15 Random Pulse,16,47 pulse_open,48,79 pulse_close,80,111 pulse_strobe,112,143 Strobe Pause,144,144 strobe,145,239 open,240,255
+
+Channel = dimmer
+ closed,0,15 Random Pulse,16,47 pulse_open,48,79 pulse_close,80,111 pulse_strobe,112,143 Strobe Pause,144,144 strobe,145,239 open,240,255
+
+Channel = Colour Temperature
+ Correction,0,6 3200K-7200K,7,255
+
+Channel = Special
+ MAX,0,15 White Mode,16,31 Fan Min,32,229 reset,230,255
+
+Channel = movement_macro
+ Size 1,0,7 Size 2,8,15 Size 3,16,23 Size 4,24,31 Tilt,32,63 Pan/Tilt,64,95 Pan/Tilt Inverse,96,127 Circle,128,159 Circle Inverse,160,191 Lying eight,192,223 Random,224,255
+
+Channel = pantilt_speed
+ Relative,0,15 Speed,16,255
+
+Channel = zoom
+

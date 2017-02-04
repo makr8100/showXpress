@@ -1,0 +1,46 @@
+Name = Q Spot 200 (Basic)
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_150HTI
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = TRUE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = pan
+ new_level,0,255
+
+Channel = tilt
+ new_level,0,255
+
+Channel = pantilt_speed
+ new_level,0,255
+
+Channel = color
+ white,0,14 red,15,29 yellow,30,44 light_green,45,59 dark_blue,60,74 pink,75,89 light_red,90,104 green,105,119 light_blue,120,134 orange,135,149 rotate,150,255
+
+Channel = gobo
+ ok_for_3DView\open,0,9 Miscellaneous\gobo1,10,19 Miscellaneous\gobo2,20,29 Miscellaneous\gobo3,30,39 Miscellaneous\gobo4,40,49 Miscellaneous\gobo5,50,59 Miscellaneous\gobo6,60,69 Miscellaneous\gobo7,70,79 Miscellaneous\shaking,80,99 Miscellaneous\shaking,100,119 Miscellaneous\shaking,120,139 Miscellaneous\shaking,140,159 Miscellaneous\shaking,160,179 Miscellaneous\shaking,180,199 Miscellaneous\shaking,200,219 ok_for_3DView\rotate,220,255
+
+Channel = gobo_rotate
+ stop,0,2 right_rotate,3,6 right_rotate,7,128 right_rotate,129,132 stop,133,136 left_rotate,137,140 left_rotate,141,255
+
+Channel = shutter
+ open,0,9 strobe,19,79 open,80,89 random_strobe,90,159 open,160,169 strobe,170,255
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = control
+ dmx,0,29 auto1,30,59 auto2,60,89 no_function,90,127 reset,128,139 no_function,140,169 audio1,170,199 audio2,200,229 random,230,255
+
+Channel = prism
+ closed,0,127 prism,128,255
+
+Channel = focus
+ focus_near,0,128 focus_far,129,255
+

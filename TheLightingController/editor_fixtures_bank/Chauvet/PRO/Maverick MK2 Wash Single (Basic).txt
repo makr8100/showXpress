@@ -1,0 +1,71 @@
+﻿ViewType = VIEW_TYPE_HEAD_WASH
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/PRO/Maverick MK2 WASH-FRONT (ZOOMED).png
+
+Channel = pan
+ dimmer,0,255
+
+Channel = upan
+ dimmer,0,255
+
+Channel = tilt
+ dimmer,0,255
+
+Channel = utilt
+ dimmer,0,255
+
+Channel = CTC
+ no_function,0,0 1900k to 2700k,1,255
+
+Channel = Color
+ dimmer,0,255
+
+Channel = Gobo
+ no_function,0,9 Gobo 1-121,10,255
+
+Channel = LED Built In
+ dimmer,0,255
+
+Channel = LED Built in speed
+ dimmer,0,255
+
+Channel = LED Built in dim decay
+ Decreasing speed,0,255
+
+Channel = Background Color
+ Color temp 2700k-8000k,0,255
+
+Channel = Background Color Dimmer
+ dimmer,0,255
+
+Channel = Main Dimmer
+ dimmer,0,255
+
+Channel = Strobe
+ Off,0,19 On,20,24 Strobe 1,25,64 On,65,69 Strobe 2 (fast on slow off),70,84 On,85,89 Strobe 3 (slow on fast off),90,104 On,105,109 Strobe 4(Random Strobe),110,124 On,125,129 Strobe 5(Random fast on slow off),130,144 On,145,149 Strobe 6(Random slow on fast off),150,164 On,165,169 Strobe 7,170,184 On,185,189 Strobe 8 (Random Pulse Strobe),190,204 On,205,209 Strobe 9(Fade in fade out),210,224 On,225,229 Strobe 10(Pulse random),230,255
+
+Channel = zoom
+ dimmer,0,255
+
+Channel = Control
+ no_function,0,9 Pan/tilt blackout,10,14 reserved,15,19 Color mixing RGBW,20,24 Color mixing CMY,25,29 reserved,30,49 Pan reset,50,54 Tilt reset,55,59 Zoom reset,60,64 reserved,65,69 all reset,70,74 reserved,75,109 Pan tilt speed fast,110,114 pan tilt speed slow,115,119 fan slow,120,124 fan full speed,125,129 fan auto mode,130,134 dimmer fast,135,139 dimmer smooth,140,144 no_function,145,239 reserved,240,255
+
+Channel = red
+ dimmer,0,255
+
+Channel = green
+ dimmer,0,255
+
+Channel = blue
+ dimmer,0,255
+
+Channel = white
+ dimmer,0,255

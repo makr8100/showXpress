@@ -1,0 +1,39 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = shutter
+ Miscellaneous/closed,0,0 Miscellaneous/dimmer,8,134 Miscellaneous/strobe,135,239 Miscellaneous/open,255,255 
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = color
+ closed,0,0 white,15,15 red,29,29 green,43,43 blue,57,57 cyan,70,70 magenta,85,85 yellow,100,100 purple,112,112 orange,127,127 chartreuse,140,140 pink,155,155 brown,168,168 gold,183,183 crimson,197,197 white,210,210 crape,225,225 rotate,232,255 
+
+Channel = speed_control
+
+Channel = movement_macro
+ no_function,0,0 auto,8,127 audio,128,255 
+

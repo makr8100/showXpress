@@ -1,0 +1,16 @@
+Name = AMITA_KOBOFLOWER3
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = gobo
+ shutter,0,0 white_circle,15,15 red_triangle,25,25 3_color_bar,35,35 blue_bubbles,46,46 4_color_square,57,57 yel_circle_rin,70,70 green_flowers,80,80 blue_arc,90,90 purple_hearts,100,100 blue_stars,110,110 yellow_clouds,120,120 dark_blue_circ,131,131 orange_candle,143,143 green_tropics,154,154 red_lips,168,168 rotate,172,207 strobe,208,208
+
+Channel = gobo_rotate
+ stop,0,0 counterclock,9,127 clock,128,255
+

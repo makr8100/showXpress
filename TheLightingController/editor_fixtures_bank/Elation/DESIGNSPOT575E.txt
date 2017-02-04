@@ -1,0 +1,73 @@
+Name = ELATION_DESIGNSPOT575E
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = color
+ white,0,0 red,20,20 blue,34,34 green,48,48 yellow,62,62 magenta,77,77 orange,90,90 uv,105,105 pink,118,118 right_rotate,128,187 stop,191,191 left_rotate,194,255
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = magenta
+
+Channel = gobo
+ Miscellaneous\open,0,0 gobo1,15,15 gobo2,25,25 gobo3,35,35 gobo4,45,45 gobo5,55,55 gobo6,65,65 gobo1_shake,75,75 gobo2_shake,95,95 gobo3_shake,115,115 gobo4_shake,125,125 gobo4_shake,135,135 gobo5_shake,155,155 gobo6_shake,175,175 Miscellaneous\rotate,190,255
+
+Channel = gobo_rotate
+ index,0,127 right_rotate,128,187 stop,191,191 left_rotate,194,255
+
+Channel = gobo2
+ Miscellaneous\open,0,0 gobo1,15,15 gobo2,25,25 gobo3,35,35 gobo4,45,45 gobo5,55,55 gobo6,65,65 gobo1_shake,75,75 gobo2_shake,95,95 gobo3_shake,115,115 gobo4_shake,125,125 gobo4_shake,135,135 gobo5_shake,155,155 gobo6_shake,175,175 Miscellaneous\rotate,190,255
+
+Channel = gobo_rotate2
+ index,0,127 right_rotate,128,187 stop,191,191 left_rotate,194,255
+
+Channel = prism
+ open,0,0 right_rotate,4,63 stop,65,65 left_rotate,68,127 macro_1,131,131 macro_2,140,140 macro_3,148,148 macro_4,156,156 macro_5,164,164 macro_6,172,172 macro_7,180,180 macro_8,188,188 macro_9,196,196 macro_10,204,204 macro_11,212,212 macro_12,220,220 macro_13,228,228 macro_14,236,236 macro_15,244,244 macro_16,255,255
+
+Channel = focus
+
+Channel = beam
+
+Channel = shutter
+ closed,0,0 strobe,64,95 strobe_pulse,128,159 strobe_random,192,223 open,255,255
+
+Channel = dimmer
+
+Channel = iris
+
+Channel = frost
+ index,0,191 pulse_opening,192,223 pulse_closing,224,254 max_frost,255,255
+
+Channel = animation_whee
+ open,0,0 rotate,8,255
+
+Channel = speed_cmy_dimm
+
+Channel = color_macro
+ closed,0,0 macro_1,12,12 macro_2,20,20 macro_3,28,28 macro_4,36,36 macro_5,44,44 macro_6,52,52 macro_7,60,60 macro_8,68,68 macro_9,76,76 macro_10,84,84 macro_11,92,92 macro_12,100,100 macro_13,108,108 macro_14,116,116 macro_15,124,124 macro_16,132,132 macro_17,140,140 macro_18,148,148 macro_19,156,156 macro_20,164,164 macro_21,172,172 macro_22,180,180 macro_23,188,188 macro_24,196,196 macro_25,204,204 macro_26,212,212 macro_27,220,220 macro_28,228,228 macro_29,236,236 macro_30,244,244 random_cmy,255,255
+
+Channel = pantilt_speed
+ max_to_min,0,225 blackout_move,230,230 blackout_wheel,240,240
+
+Channel = control
+ color_change_normal,0,0 color_change_pos,30,30 lamp_on,50,50 lamp_off,70,70 reset_motors,82,82 reset_scan_motor,86,86 reset_colors,89,89 reset_gobos,92,92 reset_shutter,95,95 reset_other_motors,98,98 prog1,110,110 prog2,130,130 prog3,150,150 prog4,170,170 prog5,190,190 prog6,210,210 prog7,230,230 audio,255,255
+

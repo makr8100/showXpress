@@ -1,0 +1,39 @@
+Name = MARTIN_MINIMACPROFILEV4
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_150HTI
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 17
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 13158600
+
+Channel = shutter
+ closed,0,0 open,38,38 strobe,50,112 ran_strob_fast,135,135 ran_strob_medi,155,155 ran_strob_slow,175,175 reset_fixture,212,212 lamp_on,232,232 lamp_off_(5"),255,255
+
+Channel = color
+ white,0,0 5500-3400k,12,12 pink,24,24 red,36,36 green,48,48 cyan,60,60 yellow,72,72 magenta,84,84 blue,96,96 green,108,108 purple,120,120 orange,132,132 blue,144,144 rotate,208,245 random,246,255
+
+Channel = gobo
+ Miscellaneous\open,0,0 gobo1,28,28 gobo2,43,43 gobo3,58,58 gobo4,73,73 gobo5,88,88 gobo6,103,103 gobo7,118,118 gobo8_shake,138,138 gobo9_shake,174,174 gobo10_shake,194,194 gobo11_shake,214,214 gobo12_shake,234,234 random,246,255
+
+Channel = gobo_rotate
+ stop,0,0 right_rotate,3,117 left_rotate,118,232 swing,240,255
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+ tracking_mode,0,0 fast_to_slow,3,245 tracking_slow,247,247 tracking_fast,250,250 black_moving,255,255
+
+Channel = effect_speed
+ tracking_mode,0,0 fast_slow,3,251 black_moving,255,255
+

@@ -1,0 +1,29 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = mode
+ no_function,0,63 AUT Auto Show,64,127 SOU Sound Activated Show,128,191 DMX MODE ,192,255 
+
+Channel = effect
+ no_function,0,4 Clockwise rotation (slow-fast),5,127 Stop,128,133 Counterclockwise rotation (slow-fast),134,255
+
+Channel = effect
+ Swing range (short – long),0,255
+
+Channel = red
+ no_function,0,4 ON,5,10 Strobe Speed (slow-fast),11,254 Strobe to sound,255,255
+
+Channel = green
+ no_function,0,4 ON,5,10 Strobe Speed (slow-fast),11,254 Strobe to sound,255,255
+
+Channel = blue
+ no_function,0,4 ON,5,10 Strobe Speed (slow-fast),11,254 Strobe to sound,255,255
+

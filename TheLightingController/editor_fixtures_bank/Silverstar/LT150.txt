@@ -1,0 +1,31 @@
+Name = LT150
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_150HTI
+ViewAnglePan = 360
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = color
+ white,0,19 red,20,39 yellow,40,59 light_green,60,79 dark_blue,80,99 pink,100,119 light_red,120,139 green,140,159 light_blue,160,179 orange,180,199 right_rotate,200,255
+
+Channel = gobo
+ Miscellaneous\open,0,0 Chauvet\141181,47,47 Chauvet\575gobo5,79,79 gobo4,111,111 gobo5,143,143 gobo6,175,175 Standard\turbine,207,207 Standard\cyclone,255,255
+
+Channel = shutter
+ closed,0,0 open,118,118 strobe,151,240
+
+Channel = gobo_rotate
+ stop,0,0 right_rotate,5,120 left_rotate,140,255
+
+Channel = pan
+
+Channel = tilt
+
+Channel = pantilt_speed
+

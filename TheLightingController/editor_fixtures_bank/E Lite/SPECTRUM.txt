@@ -1,0 +1,21 @@
+Name = ELITE_SPECTRUM
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_250HALO
+ViewAnglePan = 180
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewColor = 13158600
+
+Channel = pan
+
+Channel = tilt
+
+Channel = color
+ white,0,0 magenta,20,20 red,37,37 green,55,55 orange,73,73 cyan,91,91 yellow,110,110 blue,127,127 rotate,128,255
+
+Channel = gobo
+ dimmer,0,53 Miscellaneous\strobe,54,127 Miscellaneous\closed,137,137 Miscellaneous\open,155,155 Miscellaneous\gobo1,183,183 Miscellaneous\gobo2,200,200 Miscellaneous\gobo3,215,215 Miscellaneous\gobo4,231,231 Miscellaneous\gobo5,255,255
+

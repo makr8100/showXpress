@@ -1,0 +1,29 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = len 1
+ closed,0,0 G1 white,14,14 G2 white,20,20 G3 white,25,25 G1 red,32,32 G2 red,38,38 G3 reed,44,44 G1 green,50,50 G2 green,55,55 G3 green,62,62 G1 blue,68,68 G2 blue,74,74 G3 blue,80,80 white,85,85 red,92,92 green,98,98 blue,104,104 red & green,110,110 red & blue,115,115 green & blue,122,122 red & green & blue,128,128 red & white,134,134 green & white,140,140 blue & white,145,145 group change,149,255
+
+Channel = len 2
+ closed,0,0 G1 white,14,14 G2 white,20,20 G3 white,25,25 G1 red,32,32 G2 red,38,38 G3 reed,44,44 G1 green,50,50 G2 green,55,55 G3 green,62,62 G1 blue,68,68 G2 blue,74,74 G3 blue,80,80 white,85,85 red,92,92 green,98,98 blue,104,104 red & green,110,110 red & blue,115,115 green & blue,122,122 red & green & blue,128,128 red & white,134,134 green & white,140,140 blue & white,145,145 group change,149,255
+
+Channel = len 3
+ closed,0,0 G1 white,14,14 G2 white,20,20 G3 white,25,25 G1 red,32,32 G2 red,38,38 G3 reed,44,44 G1 green,50,50 G2 green,55,55 G3 green,62,62 G1 blue,68,68 G2 blue,74,74 G3 blue,80,80 white,85,85 red,92,92 green,98,98 blue,104,104 red & green,110,110 red & blue,115,115 green & blue,122,122 red & green & blue,128,128 red & white,134,134 green & white,140,140 blue & white,145,145 group change,149,255
+
+Channel = len 4
+ closed,0,0 G1 white,14,14 G2 white,20,20 G3 white,25,25 G1 red,32,32 G2 red,38,38 G3 reed,44,44 G1 green,50,50 G2 green,55,55 G3 green,62,62 G1 blue,68,68 G2 blue,74,74 G3 blue,80,80 white,85,85 red,92,92 green,98,98 blue,104,104 red & green,110,110 red & blue,115,115 green & blue,122,122 red & green & blue,128,128 red & white,134,134 green & white,140,140 blue & white,145,145 group change,149,255
+
+Channel = shutter
+ open,0,0 strobe,11,255 
+
+Channel = effect_macro
+ no_function,0,0 macro_1,20,20 macro_2,50,50 macro_3,75,75 macro_4,105,105 macro_5,125,125 macro_6,140,140 macro_7,170,170 macro_8,200,200 auto,225,225 audio,255,255 
+

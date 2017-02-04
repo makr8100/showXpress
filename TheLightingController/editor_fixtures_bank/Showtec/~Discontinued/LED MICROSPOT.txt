@@ -1,0 +1,42 @@
+Name = LED_MICROSPOT
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = shutter
+ closed,0,7 open,8,134 strobe,135,239 open,240,255
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = color
+
+Channel = effect_speed
+
+Channel = AUTO_PROGRAM
+ new_level,0,7 new_level,8,22 new_level,23,37 new_level,38,52 new_level,53,67 new_level,68,82 new_level,83,97 new_level,98,112 new_level,113,127 new_level,128,142 new_level,143,157 new_level,158,172 new_level,173,187 new_level,188,202 new_level,203,217 new_level,218,232 new_level,233,255
+
+Channel = gobo
+ new_level,0,12 new_level,13,25 new_level,26,38 new_level,39,51 new_level,52,64 new_level,65,77 new_level,78,90 new_level,91,103 new_level,104,116 new_level,117,127
+

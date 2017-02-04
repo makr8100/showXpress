@@ -1,0 +1,62 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = mode
+ closed,0,0 audio,100,100 auto,160,160 dmx,255,255 
+
+Channel = pan
+
+Channel = tilt
+
+Channel = pantilt_speed
+
+Channel = Group 1 Pattern
+ closed,0,0 133 geometric animations,2,220 Screen theme animation,225,225 Wedding fly wing to wing animation,228,228 Halloween theme animation 1,230,230 Halloween theme animation 2,232,232 Congratulations theme animation,234,234 Christmas theme animation,236,236 Happy birthday theme animation,238,238 Lightning,240,240 Pole dance,242,242 Dancing,244,244 Musical notes,246,246 Fish big splash,248,248 Trees,250,250 Drum beating,255,255 
+
+Channel = Group 1 On/Off
+ closed,0,0 open,255,255 
+
+Channel = Group 2 Pattern
+ closed,0,0 76 kinds of beam patterns,29,255 
+
+Channel = Group 2 On/Off
+ closed,0,0 open,255,255 
+
+Channel = Dual Group Animations
+ Single animation (group 1),0,0 X mirror symmetry,30,30 Y mirror symmetry,50,50 X/Y mirror symmetry simultaneously,70,70 Zoom In/Out mirror symmetry,92,92 Group 2 pattern left/right moving group 1 stationary,115,115 Group 2 pattern zoom in/out group 1 stationary	,136,136 Group 2 pattern rotate group 1 stationary,157,157 Rotation mirror symmetry,178,178 Group 1 no Y moving group 2 no X moving,199,199 Group 1 no X/Y moving but group 2 X/Y moving,220,220 Group 1 no Y dimmer group 2 no X dimmer,240,240 Group 1 no X moving group 2 no Y moving,255,255 
+
+Channel = Moving X
+ index,0,127 Auto to left,128,160 Auto to right,162,192 Auto to left/right,193,224 jumping,227,227 Rhombus shape,245,245 Top left/right,255,255 
+
+Channel = Moving Y
+ index,0,127 Auto to down,128,160 Auto to up,162,192 Auto to up/down,193,224 Circle shape,227,227 Sine shape,235,235 Square shape,245,245 Bottom corner up/down,255,255 
+
+Channel = X-Axis Rotation
+ index,0,127 auto,128,255 
+
+Channel = Y-Axis Rotation
+ index,0,127 auto,128,255 
+
+Channel = rotation
+ index,0,127 right_rotate,128,159 left_rotate,160,191 Clock pendulum effect,192,223 Ellipse shape,224,255 
+
+Channel = zoom
+ no_function,0,0 index,128,159 Auto zoom(+),160,191 Auto zoom(-),192,223 Auto zoom(+/-),224,255 
+
+Channel = Sine Wave Fluctuation
+ no_function,0,0 X,64,127 Y,128,191 X/Y,192,255 
+
+Channel = Fluctuation Speed
+
+Channel = Drawing
+ index,0,63 auto,64,255 
+

@@ -1,0 +1,30 @@
+Name = FUTURELIGHT_MH420
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = pan
+
+Channel = tilt
+
+Channel = upan
+
+Channel = utilt
+
+Channel = pantilt_speed
+ max_speed_trac,0,0 speed_vector,2,249 max_speed_trac,252,252 black_while_mo,254,254
+
+Channel = color
+ white,0,0 turquoise,10,10 red,21,21 cyan,32,32 green,42,42 magenta,53,53 light_blue,64,64 yellow,74,74 green2,85,85 pink,96,96 blue,106,106 orange,117,117 clock,128,189 stop,192,192 counterclock,194,255
+
+Channel = gobo
+ open,0,0 gobo1,12,12 gobo2,20,20 gobo3,28,28 gobo4,36,36 gobo5,44,44 gobo6,52,52 gobo7,60,60 gobo8,68,68 gobo9,76,76 gobo10,84,84 gobo11,92,92 gobo1_speed,96,107 gobo2_speed,108,119 gobo3_speed,120,131 gobo4_speed,132,143 gobo5_speed,144,155 gobo6_speed,156,167 gobo7_speed,168,179 gobo8_speed,180,191 gobo9_speed,192,203 gobo10_speed,204,215 gobo11_speed,216,227 gobo_wheel_rot,228,255
+
+Channel = shutter
+ closed,0,0 dimmer,1,63 open,80,80 strobe,96,127 reset,132,132 closed,150,150 pulse1,160,175 pulse2,176,191 random_strob,192,223 open,255,255
+

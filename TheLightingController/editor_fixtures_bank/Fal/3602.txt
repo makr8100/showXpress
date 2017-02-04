@@ -1,0 +1,36 @@
+Name = FAL_3602
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = color
+ white,0,0 dark_blue,37,37 light_blue,49,49 purple,61,61 pink,73,73 green,85,85 yellow,97,97 orange,109,109 clock,116,179 stop,185,185 counterclock,192,255
+
+Channel = gobo
+ full,0,0 gobo1,60,60 gobo2,80,80 gobo3,110,110 gobo4,150,150 gobo5,180,180 counterclock,202,225 stop,228,228 clock,232,255
+
+Channel = gobo_rotate
+ stop,0,0 clock,9,128 stop,133,133 counterclock,137,255
+
+Channel = shutter
+ dimmer,0,128 strobe,141,240 open,255,255
+
+Channel = pan
+
+Channel = tilt
+
+Channel = prism
+ clear,0,0 prism_stopped,130,130 prism_rotate,255,255
+
+Channel = gobo
+ clear,0,0 fixed_gobo,255,255
+
+Channel = upan
+
+Channel = utilt
+

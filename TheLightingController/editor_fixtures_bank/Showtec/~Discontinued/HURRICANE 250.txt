@@ -1,0 +1,43 @@
+Name = SHOWTEC_HURRICANE250
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_250MSR
+ViewAnglePan = 540
+ViewAngleTilt = 240
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = dimmer
+
+Channel = shutter
+ closed,0,0 strobe,8,255
+
+Channel = color
+ white,0,0 cyan,20,20 orange,35,35 green,48,48 uv,60,60 violet,76,76 red,90,90 light_blue,104,104 yellow,118,118 pink,132,132 green,146,146 blue,160,160 rotate,168,255
+
+Channel = gobo
+ full,0,0 multicolor,38,38 gobo1,60,60 gobo2,80,80 gobo3,110,110 gobo4,130,130 gobo5,155,155 rotate,168,255
+
+Channel = gobo_rotate
+ index,0,127 counterclock,128,151 clock,152,255
+
+Channel = prism
+ no_prism,0,0 3_facets,5,5 clock,8,132 counterclock,134,253 3_facets,255,255
+
+Channel = focus
+
+Channel = pan
+
+Channel = tilt
+
+Channel = upan
+
+Channel = utilt
+
+Channel = control
+ normal,0,0 reset_after_3s,255,255
+
+Channel = control
+ on_standby,0,0 on_after_3s,75,75 on_standby,130,130 on_after_3s,180,180 on_standby,255,255
+

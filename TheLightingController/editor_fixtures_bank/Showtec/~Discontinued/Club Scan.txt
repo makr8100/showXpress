@@ -1,0 +1,23 @@
+Name = Club Scan
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 180
+ViewAngleTilt = 75
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 13158600
+
+Channel = pan
+
+Channel = tilt
+
+Channel = gobo
+ Miscellaneous\closed,0,0 Miscellaneous\open,8,8 Gobo 3,12,17 Gobo 4,18,23 Gobo 5,24,29 Gobo 6,30,35 Gobo 7,36,41 Gobo 8,42,47 Gobo 9,48,53 Gobo 10,54,59 Gobo 11,60,65 Gobo 12,66,71 Gobo 13,72,77 Gobo 14,78,83 Gobo 15,84,89 Gobo 16,90,95 Gobo 17,96,101 Gobo 18,102,107 Gobo 19,108,171 Gobo 20,172,251 Gobo 21,252,255
+
+Channel = dimmer
+ closed,0,8 open,9,246 reset,247,255
+

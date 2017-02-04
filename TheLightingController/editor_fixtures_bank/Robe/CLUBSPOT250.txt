@@ -1,0 +1,38 @@
+Name = ROBE_CLUBSPOT250
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_250MSR
+ViewAnglePan = 530
+ViewAngleTilt = 280
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+ max,0,0 index,1,249 vector,255,255
+
+Channel = control
+ fan_speed,0,127 reset,133,133 lamp_off,235,235
+
+Channel = color
+ open,0,9 turquoise,10,20 dark_red,21,31 cyan,32,41 uv,42,52 magenta,53,63 light_blue,64,73 yellow,74,84 green,85,95 pink,96,105 blue,106,116 red,117,127 right_rotate,128,189 stop,191,191 left_rotate,194,255
+
+Channel = gobo
+ open,0,0 new_level,13,13 new_level,25,25 new_level,37,37 new_level,49,49 new_level,61,61 new_level,73,73 new_level,85,85 new_level,97,97 new_level,109,109 new_level,121,121 shake_gobo1,131,131 shake_gobo2,139,139 shake_gobo3,147,147 shake_gobo4,155,155 shake_gobo5,163,163 shake_gobo6,171,171 shake_gobo7,179,179 shake_gobo8,187,187 shake_gobo9,195,195 shake_gobo10,203,203 right_rotate,208,255
+
+Channel = shutter
+ closed,0,0 strobe,64,95 pulse_closing,128,143 pulse_opening,144,159 random_strobe,207,207 open,255,255
+
+Channel = dimmer
+

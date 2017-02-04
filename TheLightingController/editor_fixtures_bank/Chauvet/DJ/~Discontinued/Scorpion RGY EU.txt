@@ -1,0 +1,42 @@
+﻿ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 66
+ViewAngleTilt = 47
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+2DViewImage = Chauvet/Scorpion GVC EU.png
+
+Channel = mode
+ manual_mode,1,17 automatic-fast_blue,18,35 automatic-slow_blue,36,53 automatic-fast_green,54,71 automatic-slow_green,72,89 automatic-fast_cyan,90,107 automatic-slow_cyan,108,125 automatic-fast_mixed,126,143 automatic-slow_mixed,144,161 sound-blue,162,179 sound-green,180,197 sound-cyan,198,215 sound-mixed,216,233 random-auto,234,255
+
+Channel = Patterns_Selec
+ new_level,0,7 new_level,8,15 new_level,16,23 new_level,24,31 new_level,32,39 new_level,40,47 new_level,48,55 new_level,56,63 new_level,64,71 new_level,72,79 new_level,80,87 new_level,88,95 new_level,96,103 new_level,104,111 new_level,112,119 new_level,120,127 new_level,128,135 new_level,136,143 new_level,144,151 new_level,152,159 new_level,160,167 new_level,168,175 new_level,176,181 new_level,182,189 new_level,190,197 new_level,198,205 new_level,206,213 new_level,214,221 new_level,222,229 new_level,230,237 new_level,238,245 new_level,246,255
+
+Channel = color
+ closed,0,24 preprogrammed_color,25,49 blue,50,74 green,75,99 cyan,100,124 alternate_blue-green,125,149 alternate_green-cyan,150,174 alternate_blue-cyan,175,199 alternate_blue-green-cyan,200,224 color-roll,225,255
+
+Channel = color-changing
+ stop,0,4 slow-fast,5,255
+
+Channel = zoom
+ 100%-5%,0,127 zoom_in_macro,128,169 zoom_out_macro,170,209 zoom_in-out_macro,210,255
+
+Channel = pan
+ 128-positions,0,127 move_left-right-left_slow-fas,128,191 move_left-right-left_fast-slo,192,255
+
+Channel = tilt
+ 128-position,0,128 move-up-down-up,129,191 move-up-down-up,192,255
+
+Channel = x-axis-roll
+ axis-roll,0,127 roll_slow-fast,128,191 roll_fast-slow,192,255
+
+Channel = y-axis-roll
+ y-axis-roll,0,127 roll_slow-fast,128,191 roll_fast-slow,192,255
+
+Channel = rotate
+ z-axis-roll,0,127 right_rotate,128,191 left_rotate,192,255
+

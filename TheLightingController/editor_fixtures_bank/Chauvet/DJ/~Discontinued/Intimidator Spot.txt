@@ -1,0 +1,32 @@
+Name = Intimidator Spot
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_250HALO
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 15
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = mode
+
+Channel = shutter
+ closed,0,19 dimmer,20,127 strobe f-s,128,239 open,240,255
+
+Channel = color
+ open,0,15 pink,16,31 orange,32,43 light_blue,44,55 magenta,56,67 yellow,68,79 blue,80,91 green,92,107 red,108,119 red / green,120,135 green / blue,136,151 blue / yellow,152,167 yellow / magenta,168,183 magenta / light blue,184,199 light blue / orange,200,215 orange / pink,216,227 pink / white,228,239 rotate,240,255
+
+Channel = gobo
+ open,0,23 leaves,24,47 3d sphere,48,71 flowers,72,95 shapes,96,119 maze,120,143 mini triangles,144,167 atomic,168,191 Miscellaneous\rotate,192,255
+
+Channel = pantilt_speed
+
+Channel = pan
+ new_level,0,255
+
+Channel = tilt
+ new_level,0,255
+

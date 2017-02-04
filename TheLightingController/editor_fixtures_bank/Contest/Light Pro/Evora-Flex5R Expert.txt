@@ -1,0 +1,114 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 540
+ViewAngleTilt = 265
+ViewAngleBeam = 28
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Contest/Light Pro/EVORA-FLEX5R .png
+
+Channel = pan
+ rotate,0,255 
+
+Channel = upan
+ rotate,0,255 
+
+Channel = tilt
+ rotate,0,255 
+
+Channel = utilt
+ rotate,0,255 
+
+Channel = pantilt_speed
+ index,0,225 blackout_moves,226,235 blackout_changes,236,245 no_function,246,255 
+
+Channel = shutter
+ closed,0,31 open,32,63 strobe,64,95 open,96,127 pulse_strobe,128,159 open,160,191 random_strobe,192,223 open,224,255 
+
+Channel = dimmer
+ dimmer,0,255 
+
+Channel = udimmer
+ dimmer,0,255 
+
+Channel = cyan
+ dimmer,0,255 
+
+Channel = ucyan
+ dimmer,0,255 
+
+Channel = magenta
+ dimmer,0,255 
+
+Channel = umagenta
+ dimmer,0,255 
+
+Channel = yellow
+ dimmer,0,255 
+
+Channel = uyellow
+ dimmer,0,255 
+
+Channel = color
+ open,0,18 red,19,37 blue,38,56 green,57,75 amber,76,94 corrector,95,113 uv,114,127 right_rotate,128,189 stop,190,193 left_rotate,194,255 
+
+Channel = ucolor
+ index,0,255 
+
+Channel = gobo
+ Miscellaneous/open,0,9 metal_basic/GM012,10,19 metal_basic/GM033,20,29 metal_complex/GM001,30,39 metal_basic/GM064,40,49 Miscellaneous/gobo5,50,59 Miscellaneous/gobo6,60,69 Miscellaneous/gobo7,70,79 Miscellaneous/gobo8,80,89 Miscellaneous/shake_gobo1,90,104 Miscellaneous/shake_gobo2,105,119 Miscellaneous/shake_gobo3,120,134 Miscellaneous/shake_gobo4,135,149 Miscellaneous/shake_gobo5,150,164 Miscellaneous/shake_gobo6,165,179 Miscellaneous/shake_gobo7,180,194 Miscellaneous/shake_gobo8,195,209 Miscellaneous/rotate,210,255 
+
+Channel = gobo_rotate
+ index,0,127 right_rotate,128,189 stop,190,193 left_rotate,194,255 
+
+Channel = ugobo
+ index,0,255 
+
+Channel = gobo2
+ Miscellaneous/open,0,7 metal_basic/H3,8,15 metal_basic/H5,16,23 metal_complex/Q260S9,24,31 Miscellaneous/gobo4,32,39 Miscellaneous/gobo5,40,47 Miscellaneous/gobo6,48,55 metal_complex/Q260S4,56,63 metal_complex/GM003,64,71 metal_complex/RR1SS8,72,79 metal_complex/GM069,80,87 Miscellaneous/gobo11,88,95 metal_complex/GM070,96,103 Miscellaneous/gobo13,104,111 metal_complex/GM061,112,119 Miscellaneous/shake_gobo1,120,126 Miscellaneous/shake_gobo2,127,133 Miscellaneous/shake_gobo3,134,140 Miscellaneous/shake_gobo4,141,147 Miscellaneous/shake_gobo5,148,154 Miscellaneous/shake_gobo6,155,161 Miscellaneous/shake_gobo7,162,168 Miscellaneous/shake_gobo8,169,175 Miscellaneous/shake_gobo9,176,182 Miscellaneous/shake_gobo10,183,189 Miscellaneous/shake_gobo11,190,196 Miscellaneous/shake_gobo12,197,203 Miscellaneous/shake_gobo13,204,210 Miscellaneous/shake_gobo14,211,217 Miscellaneous/rotate,218,255 
+
+Channel = ugobo
+ index,0,255 
+
+Channel = prism
+ no_function,0,31 rotate,32,127 macro_1,128,135 macro_2,136,143 macro_3,144,151 macro_4,152,159 macro_5,160,167 macro_6,168,175 macro_7,176,183 macro_8,184,191 macro_9,192,199 macro_10,200,207 macro_11,208,215 macro_12,216,223 macro_13,224,231 macro_14,232,239 macro_15,240,247 macro_16,248,255 
+
+Channel = prism_rotate
+ index,0,127 right_rotate,128,189 stop,190,193 left_rotate,194,255 
+
+Channel = uprism_rotate
+ index,0,255 
+
+Channel = focus
+ index,0,255 
+
+Channel = ufocus
+ index,0,255 
+
+Channel = zoom
+ index,0,255 
+
+Channel = uzoom
+ index,0,255 
+
+Channel = iris
+ index,0,191 pulse_close,192,223 pulse_open,224,255 
+
+Channel = uiris
+ index,0,255 
+
+Channel = frost
+ frost,0,225 pulse_open,226,235 pulse_close,236,245 open,246,255 
+
+Channel = color_macro
+ no_function,0,7 macro_1,8,15 macro_2,16,23 macro_3,24,31 macro_4,32,39 macro_5,40,47 macro_6,48,55 macro_7,56,63 macro_8,64,71 macro_9,72,79 macro_10,80,87 macro_11,88,95 macro_12,96,103 macro_13,104,111 macro_14,112,119 macro_15,120,127 macro_16,128,135 macro_17,136,143 macro_18,144,151 macro_19,152,159 macro_20,160,167 macro_21,168,175 macro_22,176,183 macro_23,184,191 macro_24,192,199 macro_25,200,207 macro_26,208,215 macro_27,216,223 macro_28,224,231 macro_29,232,239 macro_30,240,247 color_swap,248,255 
+
+Channel = color_macro_speed
+ index,0,255 
+
+Channel = control
+ color_swap,0,19 linear_colors,20,29 linear_color_gobos,30,39 lamp_on,40,59 lamp_off,60,79 reset_motors,80,84 reset_xy,85,87 reset_color,88,90 reset_gobo,91,93 reset_shutter,94,96 reset_others,97,99 pattern_01,100,119 pattern_02,120,139 pattern_03,140,159 pattern_04,160,179 pattern_05,180,199 pattern_06,200,219 pattern_07,220,239 audio,240,255 
+

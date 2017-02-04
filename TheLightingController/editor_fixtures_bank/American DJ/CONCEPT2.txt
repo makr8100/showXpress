@@ -1,0 +1,36 @@
+Name = AMERICAN-DJ_CONCEPT2
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 230
+ViewAngleTilt = 110
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewColor = 13158600
+
+Channel = pan
+
+Channel = tilt
+
+Channel = color
+ white,0,0 green,10,10 red,18,18 blue,26,26 yellow,34,34 pink,42,42 dark_aqua,50,50 magenta,58,58 violet,82,82 purple,90,90 canary_yellow,98,98 lime_green,106,106 orange,114,114 light_aqua,122,122 multicolor,130,130 multicolor,138,138 rotate,140,253 sound slow,254,254 sound fast,255,255
+
+Channel = gobo
+ Miscellaneous\open,0,0 Miscellaneous\gobo1,12,12 Miscellaneous\gobo2,20,20 Miscellaneous\gobo3,28,28 Miscellaneous\gobo4,36,36 Miscellaneous\gobo5,44,44 Miscellaneous\gobo6,52,52 Miscellaneous\gobo7,60,60 Miscellaneous\gobo8,68,68 Miscellaneous\gobo9,76,76 Miscellaneous\gobo10,84,84 Miscellaneous\gobo11,92,92 Miscellaneous\gobo12,100,100 Miscellaneous\gobo13,108,108 Miscellaneous\gobo14,116,116 Miscellaneous\gobo15,124,124 Miscellaneous\gobo16,132,132 Miscellaneous\gobo17,140,140 Miscellaneous\gobo18,148,148 Miscellaneous\gobo19,156,156 Miscellaneous\open,164,164 sound_slow,254,254 sound_fast,255,255
+
+Channel = shutter
+ closed,0,0 random_strobe,25,25 sound_strobe,40,40 strobe,48,239 open,255,255
+
+Channel = pantilt_speed
+ relative,0,0 slow_to_fast,2,255
+
+Channel = mirror_movemen
+ off,0,0 x,15,15 y,48,48 xy,82,82 xy_inverted,114,114 circle,146,146 circle_inverted,186,186 eight,208,208 random,255,255
+
+Channel = laser
+ off,0,0 flashing,24,24 sound,40,40 blinking,48,239 on,255,255
+
+Channel = control
+ color,64,79 color,80,95 sound_slow,96,111 sound_fast,112,127 random_pantilt,135,135 lamp_off,240,240 reset_after_3s,255,255
+

@@ -1,0 +1,62 @@
+Name = MARTIN_PAL1200FX_V1M4
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = shutter
+ open,0,0 strobe,50,177 fan_low,192,192 reset,212,212 lamp_on,232,232 lamp_off,255,255
+
+Channel = dimmer
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = yellow
+
+Channel = color
+ white,0,0 color_1,33,33 color_2,66,66 color_3,99,99 color_4,132,132 color_5,167,167 color_5,175,175 color_4,188,188 color_3,202,202 color_2,216,216 color_1,230,230 white,255,255
+
+Channel = gobo
+ full,0,0 gobo1,37,37 gobo2,62,62 gobo3,87,87 gobo4,112,112 gobo5,126,126 gobo5,140,140 gobo4,172,172 gobo3,195,195 gobo2,218,218 gobo1,255,255
+
+Channel = gobo_rotate
+ stop,0,0 counterclock,4,127 clock,128,253 stop,255,255
+
+Channel = gobo_rotate
+ open,0,0 effect1_ind,35,35 effect2_fix,56,56 effect3_ind,80,80 effect4_fix,102,102 effect5_rot,140,140 effect4_fix,172,172 effect3_rot,195,195 effect2_fix,218,218 effect1_rot,255,255
+
+Channel = effect_speed
+ stop,0,0 counterclock,4,127 clock,128,252 stop,255,255
+
+Channel = focus
+ near,0,0 far,255,255
+
+Channel = beam
+ wide,0,0 narrow,255,255
+
+Channel = iris
+ open,0,0 close,255,255
+
+Channel = frost
+ off,0,0 on,255,255
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+ tracking,0,0 speed,4,251 black._whil_mo,255,255
+
+Channel = effect_speed
+ tracking,0,0 fast-slow,4,251 fast,255,255
+

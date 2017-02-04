@@ -1,0 +1,32 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 24
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = shutter
+ closed,0,0 open,12,12 strobe,16,151 pulse_open,152,175 pulse_close,176,199 random_strobe,200,223 open,255,255 
+
+Channel = dimmer
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = led_ct
+ no_function,0,0 cold,255,255 
+
+Channel = effect_macro
+ no_function,0,0 macro_1,12,12 macro_2,20,20 macro_3,28,28 macro_4,36,36 macro_5,44,44 macro_6,52,52 macro_7,60,60 macro_8,68,68 valid,71,71 macro_9,76,76 macro_10,84,84 
+
+Channel = white_adjust
+ no_function,0,0 on,120,120 record,255,255 
+

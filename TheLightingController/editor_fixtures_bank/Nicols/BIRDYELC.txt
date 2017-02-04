@@ -1,0 +1,26 @@
+Name = NICOLS_BIRDYELC
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_250HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 26
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = shutter
+ stop,0,0 strobe_gobo,17,91 strobe_color,96,135 strobe_colgob,137,195 gobo_shaking,197,255
+
+Channel = gobo
+ Miscellaneous\closed,0,0 Miscellaneous\open,12,12 Chauvet\small circle,20,20 new_level,28,28 Chauvet\cut circle,36,36 Chauvet\phone2,44,44 new_level,52,52 new_level,60,60 Chauvet\dots 4,68,68 Chauvet\hand,76,76 new_level,84,84 Chauvet\pling,92,92 new_level,100,100 Chauvet\bubbles assorted,108,108 new_level,116,116 Chauvet\2A,124,124 Miscellaneous\rotate,129,255
+
+Channel = color
+ white,0,0 green,16,16 orange,27,27 light_blue,38,38 amber,49,49 red,60,60 uv,71,71 pink,82,82 light_green,92,92 blue,104,104 yellow,115,115 magenta,126,126 rotate,129,255
+
+Channel = pan
+
+Channel = tilt
+

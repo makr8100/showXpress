@@ -1,0 +1,22 @@
+Name = AMERICAN-DJ_SWIVELBEAM
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = pan
+ left,0,0 center,128,128 right,255,255
+
+Channel = tilt
+ stop,0,0 counterclock,10,120 stop,128,128 clock,135,255
+
+Channel = color
+ white_spot,2,2 yellow_gobo1,25,25 red_gobo2,40,40 blue_gobo3,60,60 yel&grn_gobo4,75,75 blue&red_gobo5,90,90 green_gobo6,105,105 pink_gobo7,123,123 multicol_gobo8,140,140 blue&red_gobo5,177,177 red_gobo2,222,222 yellow_gobo1,255,255
+
+Channel = shutter
+ blackout,0,0 lamp_on,128,128 strobe,225,255
+

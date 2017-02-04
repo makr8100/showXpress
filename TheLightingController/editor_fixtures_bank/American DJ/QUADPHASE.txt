@@ -1,0 +1,23 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = color_macro
+ off,0,0 color_1,8,8 color_2,24,24 color_3,42,42 color_4,59,59 color_5,76,76 color_6,92,92 color_7,110,110 color_8,127,127 color_9,144,144 color_10,161,161 color_11,178,178 color_12,192,192 color_13,212,212 color_14,229,229 color_15,255,255
+
+Channel = rotation
+ stop,0,0 right_rotate,10,120 left_rotate,135,245 audio,255,255 
+
+Channel = strobe
+ closed,0,0 strobe,1,255 
+
+Channel = shutter
+ closed,0,0 open,255,255 
+

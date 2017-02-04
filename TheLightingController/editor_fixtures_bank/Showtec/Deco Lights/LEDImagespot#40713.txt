@@ -1,0 +1,23 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = dimmer
+
+Channel = shutter
+ closed,0,0 open,5,5 strobe,8,215 open,255,255 
+
+Channel = fan
+ fan_auto,0,0 fade_speed,2,255 
+
+Channel = color
+ white,0,0 yellow,10,10 pink,18,18 green,24,24 red,31,31 light_blue,38,38 light_green,45,45 orange,52,52 dark_blue,60,60 index,64,127 right_rotate,128,191 left_rotate,192,255 
+

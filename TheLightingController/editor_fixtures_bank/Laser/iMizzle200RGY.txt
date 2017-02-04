@@ -1,0 +1,55 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = mode
+ no_function,0,0 run_all,14,27 auto,28,41 audio,42,55 carton_effect,56,250 manual,255,255 
+
+Channel = color_macro
+ open,0,0 original,48,48 red,78,78 light_green,108,108 yellow,140,140 stochastic,175,175 stochastic_single,200,200 dot_effects,248,255 
+
+Channel = pattern
+
+Channel = pattern_bank
+
+Channel = X_rotate
+ index,0,127 right_rotate,128,191 left_rotate,192,255 
+
+Channel = Y_rotate
+ index,0,127 right_rotate,128,191 left_rotate,192,255 
+
+Channel = Z_rotate
+ index,0,127 right_rotate,128,191 left_rotate,192,255 
+
+Channel = X_move
+ index,0,127 rotate,128,255 
+
+Channel = Y_move
+ index,0,127 rotate,128,255 
+
+Channel = X_elongate
+ index,0,127 rotate,128,255 
+
+Channel = Y_elongate
+ index,0,127 rotate,128,255 
+
+Channel = zoom
+ index,0,127 small_to_big,128,169 big_to_small,170,211 cycle,212,255 
+
+Channel = drawing
+ no_function,0,0 index,4,127 auto,128,255 
+
+Channel = effect_speed
+
+Channel = color_speed
+
+Channel = flash_speed
+

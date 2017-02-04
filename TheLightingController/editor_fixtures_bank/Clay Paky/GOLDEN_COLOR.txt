@@ -1,0 +1,32 @@
+Name = CLAY-PAKY_GOLDEN_COLOR
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = yellow
+
+Channel = dimmer
+ dimmer,0,127 open,130,130 speed_strobe,142,243 open,255,255
+
+Channel = pan
+
+Channel = tilt
+
+Channel = effect
+
+Channel = frost
+ white,0,0 ovalizer1,85,85 ovalizer2,172,172 frost,255,255
+
+Channel = upan
+
+Channel = utilt
+

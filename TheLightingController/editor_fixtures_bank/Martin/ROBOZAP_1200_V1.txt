@@ -1,0 +1,28 @@
+Name = MARTIN_ROBOZAP_1200_V1
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = shutter
+ default,0,0 strobe,121,252 reset,255,255
+
+Channel = color
+ R65,0,0 white,57,57 R61,77,77 B51,97,97 G51/56,117,117 Y52,137,137 G50/55,157,157 M47/63,197,197 B42,217,217 C54,255,255
+
+Channel = color
+ R65,0,0 white,57,57 R61,77,77 B51,97,97 G51/56,117,117 Y52,137,137 G50/55,157,157 M47/63,197,197 B42,217,217 C54,255,255
+
+Channel = gobo
+ blackout,0,0 open,57,57 stars,77,77 star,97,97 dots,117,117 cone,137,137 pling,157,157 dot_circles,197,197 bells,217,217 flower,255,255
+
+Channel = gobo
+ blackout,0,0 open,57,57 stars,77,77 star,97,97 dots,117,117 cone,137,137 pling,157,157 dot_circles,197,197 bells,217,217 flower,255,255
+
+Channel = effect_speed
+ rotate_right,0,123 stop,127,127 rotate_left,132,255
+

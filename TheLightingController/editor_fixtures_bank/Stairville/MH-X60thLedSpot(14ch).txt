@@ -1,0 +1,47 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = pan
+
+Channel = tilt
+
+Channel = upan
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = color
+ white,0,0 yellow,10,10 pink,17,17 green,24,24 peachblow,31,31 blue,38,38 kelly,45,45 red,52,52 dark_blue,59,59 white_yellow,67,67 yellow_pink,74,74 pink_green,81,81 green_peachblow,88,88 peachblow_blue,95,95 blue_kelly,102,102 kelly_red,109,109 red_dark_blue,117,117 dark_blue_white,123,123 right_rotate,128,191 left_rotate,192,255
+
+Channel = shutter
+ closed,0,0 open,6,6 strobe,8,76 triple_strobe,77,145 random_strobe,146,215 open,255,255 
+
+Channel = dimmer
+
+Channel = gobo
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,12,12 Miscellaneous/gobo2,20,20 Miscellaneous/gobo3,28,28 Miscellaneous/gobo4,36,36 Miscellaneous/gobo5,44,44 Miscellaneous/gobo6,52,52 Miscellaneous/gobo7,60,60 Miscellaneous/shake_gobo7,64,71 Miscellaneous/shake_gobo6,72,79 Miscellaneous/shake_gobo5,80,87 Miscellaneous/shake_gobo4,88,95 Miscellaneous/shake_gobo3,96,103 Miscellaneous/shake_gobo2,104,111 Miscellaneous/shake_gobo1,112,119 Miscellaneous/right_rotate,128,191 Miscellaneous/left_rotate,192,255 
+
+Channel = gobo_rotate
+ index,0,63 right_rotate,64,147 left_rotate,148,231 gobo_bouncing,232,255
+
+Channel = control
+ reserved,0,0 blackout_moves,12,12 reset_pan,100,100 reset_tilt,108,108 reset_color,115,115 reset_gobo,124,124 reset_gobo_rotate,132,132 reset_prism,140,140 reset_focus,148,148 reset,155,155 
+
+Channel = movement_macro
+ no_function,0,0 macro_1,16,16 macro_2,32,32 macro_3,48,48 macro_4,64,64 macro_5,80,80 macro_6,106,106 macro_7,112,112 macro_8,128,128 macro_9,144,144 macro_10,160,160 macro_11,176,176 macro_12,192,192 macro_13,208,208 macro_14,224,224 macro_15,240,240 macro_16,255,255 
+
+Channel = prism
+ no_function,0,0 prism,10,10 right_rotate,13,130 left_rotate,131,247 prism,255,255 
+
+Channel = focus
+

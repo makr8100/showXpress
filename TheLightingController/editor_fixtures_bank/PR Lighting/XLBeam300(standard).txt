@@ -1,0 +1,57 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LAMP575W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = shutter
+ closed,0,0 open,15,15 strobe,21,244 open,255,255 
+
+Channel = dimmer
+
+Channel = color
+ white,0,0 red,25,25 yellow,44,44 green,63,63 cyan,82,82 blue,101,101 magenta,118,118 rotate,129,255 
+
+Channel = cyan
+
+Channel = yellow
+
+Channel = magenta
+
+Channel = color
+ white,0,0 macro_1,32,32 macro_2,49,49 macro_3,65,65 macro_4,80,80 macro_5,98,98 macro_6,112,112 macro_7,124,124 right_rotate,128,187 stop,192,192 left_rotate,196,255 
+
+Channel = iris
+ index,0,135 pulse_open,136,167 pulse_close,168,199 pulse_strobe,200,231 minimal,232,255 
+
+Channel = gobo
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,23,23 Miscellaneous/gobo2,40,40 Miscellaneous/gobo3,57,57 Miscellaneous/gobo4,72,72 Miscellaneous/gobo5,89,89 Miscellaneous/gobo6,104,104 Miscellaneous/gobo7,120,120 Miscellaneous/right_rotate,128,150 Miscellaneous/left_rotate,151,171 Miscellaneous/shake_gobo1,172,183 Miscellaneous/shake_gobo2,184,195 Miscellaneous/shake_gobo3,196,207 Miscellaneous/shake_gobo4,208,219 Miscellaneous/shake_gobo5,220,231 Miscellaneous/shake_gobo6,232,243 Miscellaneous/shake_gobo7,244,255 
+
+Channel = gobo_rotate
+ index,0,128 right_rotate,129,188 stop,192,192 left_rotate,196,255 
+
+Channel = gobo_urotate
+
+Channel = focus
+
+Channel = zoom
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = control
+ no_function,0,0 reset,60,60 lamp_off,130,130 lamp_on,255,255 
+

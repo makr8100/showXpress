@@ -1,0 +1,33 @@
+Name = SUNSTRIP ACTIVE
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 13158600
+
+Channel = light
+
+Channel = light
+
+Channel = light
+
+Channel = light
+
+Channel = light
+
+Channel = light
+
+Channel = light
+
+Channel = light
+
+Channel = light
+
+Channel = light
+

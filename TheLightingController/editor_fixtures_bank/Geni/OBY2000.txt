@@ -1,0 +1,72 @@
+Name = GENI_OBY2000
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_575MSR
+ViewAnglePan = 570
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewColor = 13158600
+
+Channel = dimmer
+
+Channel = shutter
+ closed,0,0 dimmer,8,63 open_pulse,72,127 close_pulse,136,191 random_pulse,200,253 open,255,255
+
+Channel = color
+ white,0,0 red,24,24 blue,44,44 green,62,62 yellow,80,80 3200-5600k,98,98 3200-4100k,116,116 left_rotate,128,187 stop,192,192 right_rotate,196,255
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = yellow
+
+Channel = effect
+ open,0,0 macro1,12,12 macro2,26,26 macro3,27,27 macro4,36,36 macro5,44,44 macro6,52,52 macro7,60,60 macro8,68,68 macro9,76,76 macro10,84,84 macro11,92,92 macro12,93,93 macro13,108,108 macro14,116,116 macro15,124,124 macro16,132,132 macro17,140,140 macro18,148,148 macro19,156,156 macro20,164,164 macro21,172,172 macro22,180,180 macro23,188,188 macro24,198,198 macro25,204,204 macro26,205,205 macro27,220,220 macro28,226,226 macro29,236,236 macro30,244,244 macro31,255,255
+
+Channel = gobo
+ Miscellaneous\open,0,0 Geni\OBY-2000-CH8-16-31,24,24 Geni\OBY-2000-CH8-32-47,40,40 Geni\OBY-2000-CH8-48-63,56,56 Geni\OBY-2000-CH8-64-79,72,72 Geni\OBY-2000-CH8-80-95,88,88 Geni\OBY-2000-CH8-16-31,120,120 Geni\OBY-2000-CH8-32-47,136,136 Geni\OBY-2000-CH8-48-63,152,152 Geni\OBY-2000-CH8-64-79,168,168 Geni\OBY-2000-CH8-80-95,184,184 Miscellaneous\left_rotate,192,221 Miscellaneous\stop,224,224 Miscellaneous\right_rotate,226,255
+
+Channel = gobo_rotate
+ index,0,127 left_rotate,128,187 stop,192,192 right_rotate,196,255
+
+Channel = gobo
+ Miscellaneous\open,0,0 Geni\OBY-2000-CH10-16-31,24,24 Geni\OBY-2000-CH10-32-47,40,40 Geni\OBY-2000-CH10-48-63,56,56 Geni\OBY-2000-CH10-64-79,72,72 Geni\OBY-2000-CH10-80-95,88,88 Geni\OBY-2000-CH10-16-31,120,120 Geni\OBY-2000-CH10-32-47,136,136 Geni\OBY-2000-CH10-48-63,152,152 Geni\OBY-2000-CH10-64-79,168,168 Geni\OBY-2000-CH10-80-95,184,184 Miscellaneous\left_rotate,192,221 Miscellaneous\stop,224,224 Miscellaneous\right_rotate,226,255
+
+Channel = gobo_rotate
+ index,0,127 left_rotate,128,187 stop,192,192 right_rotate,196,255
+
+Channel = prism
+ frost,0,127 prism,160,160 trapezoid,192,255
+
+Channel = prism_rotate
+ stop,0,0 left_rotate,8,127 right_rotate,134,253 stop,255,255
+
+Channel = animation
+
+Channel = animation_rota
+ index,0,127 left_rotate,128,187 stop,192,192 right_rotate,196,255
+
+Channel = iris
+ index,0,127 fast_to_slow,128,189 stop,190,190 slow_to_fast,192,255
+
+Channel = focus
+
+Channel = beam
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = control
+ pan&tilt_auto,0,0 pan&tilt_manual,40,40 color_offset,100,100 save_color_offset,160,160 reset,255,255
+
+Channel = control
+ nothing,0,0 lamp_on,70,70 lamp_off,180,180 nothing,255,255
+

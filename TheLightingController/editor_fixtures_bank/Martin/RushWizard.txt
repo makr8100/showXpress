@@ -1,0 +1,41 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = shutter
+ closed,0,0 open,12,12 strobe,16,131 pulse_open,132,167 pulse_close,168,203 pulse_strobe,204,239 random_strobe,240,247 pulse_open,255,255 
+
+Channel = dimmer
+
+Channel = color
+ open,0,0 blue,15,15 magenta,30,30 yellow,45,45 dark_blue,60,60 white,75,75 red,90,90 orange,105,105 green,120,120 rotate,193,218 Twinkle stat,219,219 Twinkle animated,221,243 random_color,244,255 
+
+Channel = gobo
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,10,10 Miscellaneous/gobo2,20,20 Miscellaneous/gobo3,30,30 Miscellaneous/gobo4,40,40 Miscellaneous/gobo5,50,50 Miscellaneous/gobo6,60,60 Miscellaneous/gobo7,70,70 Miscellaneous/gobo8,80,80 Miscellaneous/gobo9,90,90 Miscellaneous/gobo10,100,100 Miscellaneous/gobo11,110,110 Miscellaneous/gobo12,120,120 Miscellaneous/gobo13,130,130 Miscellaneous/gobo14,140,140 Miscellaneous/gobo15,150,150 Miscellaneous/rotate,191,243 random_gobo,244,255 
+
+Channel = mirror_drum_rotation
+ position,0,90 shaking,91,120 random_position,121,127 right_rotate,128,190 stop,191,191 left_rotate,193,255 
+
+Channel = mirror_drum_swivel
+ position,0,120 shaking,121,127 random_position,128,191 wide_shake,192,255 
+
+Channel = reflector_rotation
+ position,0,90 shaking,91,120 random_position,121,127 right_rotate,128,190 stop,191,191 left_rotate,193,255 
+
+Channel = control
+ no_function,0,0 reset,12,12 lamp_on,42,42 lamp_off,47,47 blackout_moves,147,147 
+
+Channel = effect_macro
+ no_function,0,0 macro_1,13,13 macro_2,18,18 macro_3,23,23 macro_4,28,28 macro_5,33,33 macro_6,38,38 macro_7,43,43 macro_8,48,48 macro_9,53,53 macro_10,58,58 macro_11,63,63 macro_12,68,68 macro_13,73,73 macro_14,78,78 macro_15,83,83 macro_16,88,88 macro_17,92,92 macro_18,98,98 macro_19,103,103 macro_20,108,108 color_shake,118,118 gobo_shake,123,123 color_shake,126,130 random_fx,156,160 
+
+Channel = effect_speed
+ stop,0,0 index,11,255 
+

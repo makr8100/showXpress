@@ -1,0 +1,23 @@
+Name = SAGITTER_TRACER_FOLLOW
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = color
+ color1/open,0,0 color1/color2,16,16 color2,26,26 color2/color3,36,36 color3,46,46 color3/color4,56,56 color4,67,67 color4/color5,77,77 color5,87,87 color5/color6,98,98 color6,108,108 color6/color7,118,118 color7,128,128 color7/color8,139,139 speed,159,255
+
+Channel = effect
+ open,0,0 3200°,97,97 6000°,160,160
+
+Channel = iris
+
+Channel = shutter
+ blackout,0,0 dimmer,2,128 strob_speed1,145,145 strob_speed2,160,160 strob_speed3,172,172 strob_speed4,184,184 strob_speed5,196,196 strob_speed6,210,210 strob_speed7,222,222 strob_speed8,234,234 open,255,255
+
+Channel = focus
+

@@ -1,0 +1,24 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = mode
+ closed,0,0 open,255,255
+
+Channel = effect_macro
+ closed,0,0 red,15,15 yellow,26,26 green,37,37 cyan,48,48 blue,59,59 purple,70,70 white,81,81 slow_dream,92,92 fast_dream,103,103 color_fade,115,115 color_change,126,126 flow,132,175 double_flow1,181,181 double_flow2,192,192 multi_color,202,202 2_colors_flow1,214,214 2_colors_flow2,225,225 audio,255,255 
+
+Channel = speed
+
+Channel = flash
+
+Channel = colour
+

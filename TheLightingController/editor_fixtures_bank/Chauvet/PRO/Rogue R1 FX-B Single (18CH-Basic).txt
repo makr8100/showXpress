@@ -1,0 +1,63 @@
+﻿ViewType = VIEW_TYPE_HEAD_WASH
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/PRO/ROGUE R1 FX-B-FRONT.png
+
+Channel = pan
+ dimmer,0,255
+
+Channel = Pan Continuous
+ Negative Rotating,0,127 Positive Rotating,128,255
+
+Channel = Tilt All
+ dimmer,0,255
+
+Channel = Tilt All Continuous
+ dimmer,0,255
+
+Channel = Tilt Built In Program
+ no_function,0,47 Built in 1,48,55 Built in 2,56,63 Built in 3,64,71 Built in 4,72,79 Built in 5,80,87 Built in 6,88,95 Built in 7,96,103 Built in 8,104,111 Built in 9,112,119 Built in 10,120,127 Built in 11,128,135 Built in 12,136,143 Built in 13,144,151 Built in 14,152,159 Built in 15,160,167 Built in 16,168,175 Built in 17,176,183 Built in 18,184,191 Built in 19,192,199 Built in 20,200,207 Built in 21,208,215 Built in 22,216,223 Built in 23,224,231 Built in 24,232,239 Built in 25,240,247 Built in 26,248,255
+
+Channel = Tilt Macro Speed
+ Decreasing Speed,0,255
+
+Channel = Control
+ no_function,0,9 Tilt Black Out,10,14 Tilt Stop,15,19 1 Fixture Macro,20,24 2 Fixture Macro 1,25,29 2 Fixture Macro 2,30,34 4 Fixture Macro 1,35,39 4 Fixture Macro 2,40,44 4 Fixture Macro 3,45,49 4 Fixture Macro 4,50,54 Pan Reset,55,59 Tilt Reset,60,64 Reserved,65,69 All Reset,70,74 Reserve,75,79 Pan Tilt Reverse,80,84 Pan Reverse,85,89 Tilt Reverse,90,94 Cancel Pan Reverse,95,99 Cancel Tilt Reverse,100,104 Cancel Pan Tilt Reverse,105,109 Reserved,110,114 Combine 5 Heads Into 1,115,119 Cancel Combine 5 Heads Into 1,120,124 Reserved,125,129 Reserved,130,134 Dimmer Fast Mode,135,139 Dimmer Smooth mode,140,144 no_function,145,255
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = Strobe
+ Off,0,19 On,20,24 Strobe 1,25,64 On,65,69 Strobe 2 (fast on slow off),70,84 On,85,89 Strobe 3 (slow on fast off),90,104 On,105,109 Strobe 4(Random Strobe),110,124 On,125,129 Strobe 5(Random fast on slow off),130,144 On,145,149 Strobe 6(Random slow on fast off),150,164 On,165,169 Strobe 7,170,184 On,185,189 Strobe 8 (Random Pulse Strobe),190,204 On,205,209 Strobe 9(Fade in fade out),210,224 On,225,229 Strobe 10(Pulse random),230,255
+
+Channel = Color
+ no_function,0,13 Color 1,14,21 Color 2,22,29 Color 3,30,37 Color 4,38,45 Color 5,46,53 Color 6,54,61 Color 7,62,69 Color 8,70,77 Color 9,78,85 Color 10,86,93 Color 11,94,101 Color 12,102,109 Color 13,110,117 Color 14,118,125 Color 15,126,133 no_function,134,185 Clockwise rainbow,186,207 Stop,208,213 Counter clockwise rainbow,214,235 no_function,236,240 Color Jump,241,255
+
+Channel = LED Macro
+ 5 pods on,0,6 4 pods on,7,13 3 pods on,14,20 2 pods on,21,27 1 pod on,28,34 All pods off,35,41 1 pod on,42,48 2 pods on,49,55 3 pods on,56,62 4 pods on,63,69 5 pods on,70,76 All pods off,77,83 First pod on,84,90 Second pod on,91,97 Third pod on,98,104 Fourth pod on,105,111 Fifth pod on,112,118 Alll pods off,119,125 Pod 1 and 2,126,132 Pod 2 and 3,133,139 Pod 3 and 4,140,146 Pod 4 and 5,147,153 Pod 1 and 5,154,160 All pods off,161,167 Pod 1 off,168,174 Pod 2 off,175,181 Pod 3 off,182,188 Pod 4 off,189,195 pod 5 off,196,202 All pods off,203,209 Pod 1-3 on,210,216 Pod 3 and 5 off,217,223 Pod 3 and 4 off,224,230 Pod 2 and 3,231,237 Pod 1 and 2 off,238,244 All Pods on,245,255
+
+Channel = LED Program Macro
+ no_function,0,15 Built in 1,16,20 2,21,25 3,26,30 4,31,35 5,36,40 6,41,45 7,46,50 8,51,55 9,56,60 10,61,65 11,66,70 12,71,75 13,76,80 14,81,85 15,86,90 16,91,95 17,96,100 18,101,105 19,106,110 20,111,115 21,116,120 22,121,125 23,126,130 24,131,135 25,136,140 26,141,145 27,146,150 28,151,155 29,156,160 30,161,165 31,166,170 32,171,175 33,176,180 34,181,185 35,186,190 36,191,195 37,196,200 38,201,205 39,206,210 40,211,215 41,216,220 42,221,225 43,226,230 44,231,235 45,236,240 46,241,245 47,246,250 48 Built in,251,255
+
+Channel = LED Program Speed
+ dimmer,0,255
+
+Channel = All Heads Red
+ dimmer,0,255
+
+Channel = All Heads Green
+ dimmer,0,255
+
+Channel = All Heads Blue
+ dimmer,0,255
+
+Channel = All Heads White
+ dimmer,0,255
+

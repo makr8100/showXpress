@@ -1,0 +1,16 @@
+Name = FAL_NIGHTCOLOUR
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = color
+ white,0,0 blue,36,36 light_blue,48,48 violet,60,60 pink,72,72 dark_green,84,84 yellow,96,96 red,108,108 clock,114,177 stop,185,185 counterclock,192,255
+
+Channel = shutter
+ blackout,0,0 strobe,16,42 white,49,49 purple,59,59 red,69,69 medium_blue,79,79 light_blue,89,89 dark_yellow,99,99 light_yellow,109,109 clock,114,177 stop,185,185 counterclock,192,255
+

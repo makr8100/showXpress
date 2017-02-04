@@ -1,0 +1,21 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 20
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = TRUE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/LED FOLLOWSPOT 120ST.PNG
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = color
+ white,0,31 warm_white,32,63 yellow,64,95 purple,96,127 green,128,159 red,160,191 light_blue,192,223 orange,224,255 
+
+Channel = shutter
+ no_function,0,3 open,4,7 strobe,8,215 open,216,255
+

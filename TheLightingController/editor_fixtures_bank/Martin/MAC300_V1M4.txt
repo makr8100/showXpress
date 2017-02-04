@@ -1,0 +1,40 @@
+Name = MARTIN_MAC300_V1M4
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = shutter
+ closed,0,0 open,34,34 strobe,50,72 open,76,76 pulse_o,89,89 pulse_c,109,109 open,123,123 rotate_strobe,128,187 open,189,189 random_o,191,196 random_c,197,202 open,205,205 reset,212,212 open,222,222 lamp_on,232,232 open,242,242 lamp_off,255,255
+
+Channel = dimmer
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = yellow
+
+Channel = color
+ white,0,0 CTC_5500-2900K,26,26 pink_312,52,52 uv,78,78 red_308,104,104 green_206,130,130 blue_108,156,156 blue_108,181,181 green_206,185,185 red_308,189,189 uv,193,193 pink_312,197,197 CTC_5500-2900K,201,201 white,205,205 counterclock,217,217 clock,236,236 random_CMY,246,255
+
+Channel = frost
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+ tracking,0,0 speed,4,245 PTSP_NORM,247,247 PTSP_FAST,250,250 black._moving,255,255
+
+Channel = effect_speed
+ tracking,0,0 fast-slow,4,245 shortcuts_off,247,247 shortcuts_on,250,250 fast,255,255
+

@@ -1,0 +1,21 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Contest/Light DJ/LED-BLASTER .png
+
+Channel = strobe_dimmer
+ dimmer,0,199 lighting_strobe,200,247 open,248,255 
+
+Channel = color_macro
+ macro_1,0,7 macro_2,8,15 macro_3,16,23 macro_4,24,31 macro_5,32,39 macro_6,40,47 macro_7,48,55 macro_8,56,63 macro_9,64,71 macro_10,72,79 macro_11,80,87 macro_12,88,95 macro_13,96,103 macro_14,104,111 macro_15,112,119 macro_16,120,127 macro_17,128,135 macro_18,136,143 macro_19,144,151 macro_20,152,159 macro_21,160,167 macro_22,168,175 macro_23,176,183 macro_24,184,191 macro_25,192,199 macro_26,200,207 macro_27,208,215 macro_28,216,223 macro_29,224,231 macro_30,232,239 macro_31,240,247 macro_32,248,255 
+
+Channel = motor
+ stop,0,9 left_rotate,10,120 stop,121,134 right_rotate,135,245 stop,246,255 
+

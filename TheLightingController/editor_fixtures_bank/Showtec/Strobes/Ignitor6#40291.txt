@@ -1,0 +1,27 @@
+﻿ViewType = VIEW_TYPE_STROBE
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Showtec/Strobes/Ignitor6#40292.png
+
+Channel = strobe_dimmer
+
+Channel = strobe_speed
+
+Channel = ???
+
+Channel = ???
+
+Channel = ???
+
+Channel = ???
+
+Channel = control
+ separatelty,0,0 together,50,50 macro_1,80,80 macro_2,120,120 macro_3,150,150 macro_4,190,190 audio1,220,220 audio2,255,255 
+

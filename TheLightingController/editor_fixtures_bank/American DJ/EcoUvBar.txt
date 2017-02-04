@@ -1,0 +1,20 @@
+﻿ViewType = VIEW_TYPE_PAR_CAN
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 60
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16711808
+2DViewImage = 
+
+Channel = dimmer
+
+Channel = shutter
+ open,0,0 strobe,16,255
+
+Channel = dimmer_curve
+ no_function,0,0 macro_1,30,30 macro_2,50,50 macro_3,70,70 macro_4,90,90 index,101,255
+

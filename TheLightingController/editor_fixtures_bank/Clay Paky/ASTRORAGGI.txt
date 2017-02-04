@@ -1,0 +1,16 @@
+Name = CLAY-PAKY_ASTRORAGGI
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = effect
+ rotat_anticlok,0,127 dome_rotat_ant,128,188 stop,190,190 dome_rotat_clo,191,255
+
+Channel = shutter
+ dimmer,0,128 strobe,129,252 stop,255,255
+

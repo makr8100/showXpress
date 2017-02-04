@@ -1,0 +1,73 @@
+Name = MARTIN_MAC2000_Profile16bits
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = shutter
+ closed,0,0 open,34,34 strobe,50,72 openning_pulse,73,79 closing_pulse,80,99 open,110,110 ran_strob_fast,124,124 ran_strob_medi,132,132 ran_strob_slow,152,152 open,172,172 open_puls_fast,189,189 open_puls_slow,192,192 close_puls_fas,195,195 close_puls_slo,198,198 open,201,201 reset_fixture,205,205 open,212,212 lamp_power_on,222,222 open,230,230 lamp_off_(5"),255,255
+
+Channel = dimmer
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = yellow
+
+Channel = color
+ cold_to_warm,0,255
+
+Channel = gobo
+ white_to_P1,0,20 P1_to_P2,21,40 P2_to_P3,41,60 P3_to_P4,61,80 P4_to_P5,81,100 P5_to_P6,101,120 P6_to_P7,121,140 P7_to_open,141,160 P7_(dots),162,162 P6_(highways),166,166 P5_(3_cone),170,170 P4_(UV),174,174 P3_(blue111),178,178 P2_(green201),182,182 P1_(red308),186,186 open,190,190 CW_fast/slow,192,217 CCW_slow/fast,218,243 ran_color_fast,246,246 ran_color_medi,250,250 ran_color_slow,255,255
+
+Channel = gobo
+ open,0,0 G1_(jet_fan),12,12 G2_(pipe_dream,17,17 G3_(2_worms),22,22 G4_(king_star),27,27 G5_(limbo),32,32 G1_rotat,37,37 G2_rotat,42,42 G3_rotat,47,47 G4_rotat,52,52 G5_rotat,57,57 G1_slow/fast,60,74 G2_slow/fast,75,89 G3_slow/fast,90,104 G4_slow/fast,105,119 G5_slow/fast,120,134 G1_rot_slow/fa,135,149 G2_rot_slow/fa,150,164 G3_rot_slow/fa,165,179 G4_rot_slow/fa,180,194 G5_rot_slow/fa,195,209 CW_slow/fast,210,232 CCW_fast/slow,233,255
+
+Channel = gobo_rotate
+ no_rotation,0,0 CCW_slow/fast,3,127 CW_fast/slow,128,252 no_rotation,255,255
+
+Channel = gobo_urotate
+ min_to_max,0,255
+
+Channel = gobo
+ open,0,0 G1_(limbo_donu,12,12 G2_(tri_cones),17,17 G3_(congo_star,22,22 G4_(space_sun),27,27 G5_(waves),32,32 G1_rotat,37,37 G2_rotat,42,42 G3_rotat,47,47 G4_rotat,52,52 G5_rotat,57,57 G1_slow/fast,60,74 G2_slow/fast,75,89 G3_slow/fast,90,104 G4_slow/fast,105,119 G5_slow/fast,120,134 G1_rot_slow/fa,135,149 G2_rot_slow/fa,150,164 G3_rot_slow/fa,165,179 G4_rot_slow/fa,180,194 G5_rot_slow/fa,195,209 CW_slow/fast,210,232 CCW_fast/slow,233,255
+
+Channel = gobo_rotate
+ no_rotation,0,0 CCW_slow/fast,3,127 CW_fast/slow,128,252 no_rotation,255,255
+
+Channel = gobo_urotate
+ min_to_max,0,255
+
+Channel = effect
+ open,0,0 frost_0/100%,1,175 E1_index_rotat,176,183 E2_index_rotat,184,191 E1_rotation,196,196 E2_rotation,204,204 open,212,212 macro1,218,218 macro2,223,223 macro3,228,228 macro4,233,233 macro5,238,238 macro6,243,243 macro7,248,248 macro8,255,255
+
+Channel = effect_speed
+ no_rotation,0,0 CCW_slow/fast,3,127 CW_fast/slow,128,252 no_rotation,255,255
+
+Channel = iris
+ open/closed,0,199 closed,210,210 pulse_opening,216,229 pulse_closing,230,243 r_pulse_ope_+,245,245 r_pulse_ope_-,248,248 r_pulse_clo_+,251,251 r_pulse_clo_-,255,255
+
+Channel = focus
+ inf_to_near,0,255
+
+Channel = frost
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+ tracking,0,0 speed,4,245 PTSP_NORM,247,247 PTSP_FAST,250,250 black._moving,255,255
+
+Channel = effect_speed
+ tracking,0,0 fast-slow,4,239 studio_off,241,241 studio_on,244,244 shortcuts_off,247,247 shortcuts_on,250,250 fast,255,255
+

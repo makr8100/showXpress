@@ -1,0 +1,23 @@
+Name = AMERICAN-DJ_XP3
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = pan
+
+Channel = tilt
+
+Channel = color
+ large_white,0,0 red,20,20 blue,27,27 green,35,35 yellow,43,43 light_blue,52,52 orange,60,60 red-green,68,68 purple,76,76 4_colors,84,84 white,92,92 light_blue,100,100 yellow,108,108 lt_blue-yellow,116,116 orange,124,124 pink,132,132 green,140,140 dark_blue,148,148 rotate,152,239 large_white,255,255
+
+Channel = gobo
+ stop,0,0 strobe_gob_dow,2,128 strobe_gobo_up,130,255
+
+Channel = shutter
+ lamp_off,0,0 closed,7,7 strobe,16,239 open,255,255
+

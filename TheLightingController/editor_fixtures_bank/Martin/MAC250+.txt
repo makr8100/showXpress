@@ -1,0 +1,47 @@
+Name = MARTIN_MAC250+
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_250MSR
+ViewAnglePan = 540
+ViewAngleTilt = 289
+ViewAngleBeam = 17
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = shutter
+ closed,0,0 open,35,35 strobe,50,72 opening_pulse,80,99 closing_pulse,100,119 random_strobe,128,187 r._opening_pul,192,196 r._closing_pul,198,202 reset,212,212 lamp_on,233,233 lamp_off,255,255
+
+Channel = dimmer
+
+Channel = color
+ white,0,0 CTC,12,12 yellow,24,24 blue,36,36 pink,48,48 green,60,60 blue,72,72 red,84,84 magenta,96,96 blue,108,108 orange,120,120 green,132,132 purple,144,144 purple,157,157 green,161,161 orange,165,165 blue,169,169 magenta,172,172 red,177,177 blue,181,181 green,185,185 pink,189,189 blue,193,193 yellow,197,197 CTC,201,201 white,205,205 clock,208,226 counterclock,228,245 random,246,255
+
+Channel = gobo
+ open,0,0 gobo1,7,7 gobo2,12,12 gobo3,17,17 gobo4,22,22 gobo5,27,27 gobo6,32,32 gobo7,37,37 gobo8,42,42 rotopen,47,47 rotgobo1,52,52 rotgobo2,57,57 rotgobo3,62,62 rotgobo4,67,67 rotgobo5,72,72 rotgobo6,77,77 rotgobo7,82,82 rotgobo8,87,87 shake_gobo8,90,104 shake_gobo7,106,119 shake_gobo6,120,134 shake_gobo5,136,149 shake_gobo4,150,164 shake_gobo3,166,179 shake_gobo2,180,194 shake_gobo1,196,209 Miscellaneous\right_rotate,210,232 Miscellaneous\left_rotate,234,255
+
+Channel = gobo_rotate
+ stop,0,0 right_rotate,4,127 left_rotate,128,252 stop,255,255
+
+Channel = focus
+ focus_far,0,0 focus_mid,128,128 focus_near,255,255
+
+Channel = prism
+ closed,0,0 left_rotate,20,79 stop,85,85 right_rotate,90,149 macro_1,218,218 macro_2,223,223 macro_3,228,228 macro_4,233,233 macro_5,238,238 macro_6,243,243 macro_7,248,248 macro_8,255,255
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+ tracking,0,0 index,4,245 PTSP_NORM,247,247 PTSP_FAST,250,250 black_while_mo,255,255
+
+Channel = effect_speed
+ tracking_mode,0,0 index,4,245 tracking,248,248 maximum_speed,255,255
+

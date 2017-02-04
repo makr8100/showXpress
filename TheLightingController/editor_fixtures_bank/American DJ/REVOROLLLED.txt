@@ -1,0 +1,23 @@
+Name = AMERICAN-DJ_REVOROLLLED
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 24
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = barrel_pan
+
+Channel = barrel_rotate
+
+Channel = effect
+ closed,0,0 patten1,15,15 patten2,25,25 patten3,35,35 patten4,45,45 patten5,55,55 patten6,65,65 patten7,75,75 patten8,85,85 patten9,95,95 patten10,105,105 patten11,115,115 patten12,125,125 patten13,135,135 patten14,145,145 patten15,155,155 chase1,165,165 chase2,175,175 chase3,185,185 chase4,195,195 chase5,205,205 chase6,215,215 chase7,225,225 chase8,235,235 chase9,245,245 chase10,255,255
+
+Channel = shutter
+ open,0,0 strobe,10,249 stand-alone,255,255
+

@@ -1,0 +1,45 @@
+Name = GENIUS_TOPSCAN
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = dimmer
+
+Channel = color
+ white,0,0 white/yellow,10,10 yellow,18,18 yellow/red,26,26 red,34,34 red/green,42,42 green,50,50 green/blue,58,58 blue,66,66 blue/magenta,74,74 magenta,82,82 magenta/green2,90,90 green2,98,98 green2/orange,106,106 orange,114,114 orange/red2,122,122 red2,130,130 red2/green3,138,138 green3,146,146 green3/blue_li,154,154 blue_light,162,162 blue_li/pink,170,170 pink,178,178 rainbow,190,255
+
+Channel = gobo
+ gobo1,0,0 gobo2,27,27 gobo3,49,49 gobo4,71,71 gobo5,93,93 gobo6,115,115 gobo7,137,137 gobo8,159,159 gobo9,181,181 gobo10,203,203 gobo11,225,225 gobo12,255,255
+
+Channel = shutter
+
+Channel = pan
+
+Channel = tilt
+
+Channel = gobo
+ gobo1,0,0 gobo2,32,32 gobo2,64,64 gobo3,96,96 gobo4,128,128 gobo5,160,160 gobo6,192,192 gobo7,224,224 gobo8,255,255
+
+Channel = gobo_rotate
+ counterlcock,0,126 stop,128,128 clock,130,255
+
+Channel = effect
+ full,0,0 prism,35,35 wheel1,75,75 wheel2,115,115 5_facets_prism,155,155 frost,255,255
+
+Channel = prism_rotate
+ counterlcock,0,126 stop,128,128 clock,130,255
+
+Channel = focus
+
+Channel = control
+ lamp_off,0,0 lamp_on,128,128 reset,255,255
+
+Channel = upan
+
+Channel = utilt
+

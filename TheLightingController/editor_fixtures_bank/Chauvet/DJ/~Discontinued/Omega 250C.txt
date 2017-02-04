@@ -1,0 +1,22 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = effect_speed
+ fast > slow,0,219 audio,220,255
+
+Channel = color
+ closed,0,9 open,10,19 magenta,20,29 amber,30,39 cyan,40,49 dark_green,50,59 pink,60,69 blue,70,79 red,80,89 yellow,90,99 green,100,109 dark_red,110,119 pink,120,129 uv,130,139 light_blue,140,149 orange,150,159 clock,160,160
+
+Channel = shutter
+ no_function,0,100 strobe,101,255 
+
+Channel = dimmer
+

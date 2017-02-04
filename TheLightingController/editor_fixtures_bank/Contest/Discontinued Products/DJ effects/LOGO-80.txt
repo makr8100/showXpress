@@ -1,0 +1,27 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 13158600
+2DViewImage = Contest/Discontinued Products/Logo-80.png
+
+Channel = mode
+ closed,0,0 dynamic,80,80 static,190,190 audio,255,255 
+
+Channel = gobo
+
+Channel = pan
+
+Channel = tilt
+
+Channel = pantilt_speed
+
+Channel = effect_speed
+
+Channel = beam
+

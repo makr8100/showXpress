@@ -1,0 +1,23 @@
+Name = Stage Wash 900
+
+ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_250HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewColor = 0
+
+Channel = color
+ closed,0,0 new_level,5,5 new_level,10,10 new_level,18,18 new_level,25,25 new_level,32,32 new_level,37,37 new_level,45,45 new_level,54,54 new_level,60,60 new_level,69,69 new_level,75,75 new_level,80,80 new_level,88,88 new_level,96,96 new_level,100,100 new_level,110,110 new_level,115,115 new_level,123,123 new_level,130,130 new_level,135,135 new_level,145,145 new_level,150,150 new_level,160,160 new_level,165,165 new_level,172,172 new_level,179,179 new_level,185,185 new_level,195,195 new_level,200,200 new_level,205,205 new_level,215,215 new_level,220,220 new_level,230,230 new_level,245,245
+
+Channel = effect
+ closed,0,0 new_level,10,10 new_level,33,33 new_level,54,54 new_level,75,75 new_level,92,92 new_level,115,115 new_level,138,138 new_level,155,155 new_level,180,180 new_level,195,195 new_level,225,225 new_level,240,240 new_level,250,250
+
+Channel = effect_speed
+ new_level,0,255
+
+Channel = shutter
+ closed,0,0 new_level,1,255
+

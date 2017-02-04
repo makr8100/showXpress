@@ -1,0 +1,66 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/PRO/OvationC640FC-2D.png
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = udimmer
+ dimmer fine,0,255
+
+Channel = red
+ red,0,255
+
+Channel = ured
+ red fine,0,255
+
+Channel = green
+ green,0,255
+
+Channel = ugreen
+ green fine,0,255
+
+Channel = blue
+ blue,0,255
+
+Channel = ublue
+ blue fine,0,255
+
+Channel = white
+ white,0,255
+
+Channel = uwhite
+ white fine,0,255
+
+Channel = amber
+ amber,0,255
+
+Channel = uamber
+ amber fine,0,255
+
+Channel = color_macro
+ no_function,0,5 C90Y,6,13 R11,14,21 R312,22,28 R03,29,35 R18,36,43 R20,44,51 R21,52,59 R26,60,67 R27,68,75 R33,76,83 R337,84,91 R38,92,99 R41,100,107 R42,108,115 R44,116,121 R349,122,130 R54,131,138 R64,139,146 R364,147,154 R65,155,162 R80,163,170 R81,171,178 R82,179,186 R382,187,194 R83,195,202 R383,203,210 R91,211,218 R92,219,226 R93,227,234 R393,235,242 R90,243,250 no_function,251,255
+
+Channel = color_macro
+ no function,0,10 RED 100'% / GREEN UP / BLUE 0%,11,30 RED DOWN / GREEN 100% / BLUE 0%,31,50 RED 0%/ GREEN 100% / BLUE UP,51,70 REDO% /GREEN DOWN / BLUE100%,71,90 RED UP /GREEN0% / BLUE 100%,91,110 RED 100% /GREEN 0% /BLUE DOWN,111,130 RED 100% /GREEN UP /BLUE UP,131,150 RED DOWN/GREEN DOWN/BLUE 100%,151,170 RED 100% GREEN 100%/BLUE 100% WHITE 100% AMBER100%,171,200 WHITE1: 3200K,201,205 WHITE2: 3400K,206,210 WHITE3: 4200K,211,215 WHITE-4: 4900K,216,220 WHITE5: 5600K,221,225 WHITE6: 5900K,226,230 WHITE7: 6500K,231,235 WHITE8: 7200K,236,240 WHITE9: 8OOOK,241,245 WHITE10: B500K,246,250 WHITE11: 10000K,251,255
+
+Channel = shutter
+ no srtobe,0,9 slow to fast,10,99 no strobe,100,109 Lightning strobe (slow to fast),110,179 no strobe,180,189 Random strobe (slow to fast),190,255
+
+Channel = effect_macro
+ no function,0,40 auto 1,41,50 auto 2,51,60 auto 3,61,70 auto 4,71,80 auto 5,81,90 auto 6,91,100 auto 7,101,110 auto 8,111,120 auto 9,121,130 auto 10,131,140 custom 1,141,150 custom 2,151,160 custom 3,161,170 custom 4,171,180 custom 5,181,190 custom 6,191,200 custom 7,201,210 custom 8,211,220 custom 9,221,230 custom 10,231,255
+
+Channel = effect_speed
+ speed,0,255
+
+Channel = dimmer speed
+ return settings,0,9 normal,10,29 dim 1,30,69 dim 2,70,129 dim 3,130,189 dim 4,190,255
+

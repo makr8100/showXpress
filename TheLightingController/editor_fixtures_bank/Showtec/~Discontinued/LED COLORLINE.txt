@@ -1,0 +1,47 @@
+Name = Led Colorline
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = dimmer
+ Dimmer,0,159 Shutterl,160,255
+
+Channel = effect
+ Chase 1,0,30 Chase 2,31,60 Chase 3,61,90 Chase 4,91,120 Chase 5,121,150 Chase 6,151,180 Chase 7,181,210 Chase 8,211,240 Chase 9,241,255
+
+Channel = effect_speed
+
+Channel = Fade
+

@@ -1,0 +1,54 @@
+﻿Name = MACPROSPOT250
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 530
+ViewAngleTilt = 280
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = pan
+
+Channel = tilt
+
+Channel = upan
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = light
+ on_after_3s,132,132 off_after_3s,234,234
+
+Channel = color
+ white,0,0 red,24,24 yellow,40,40 magenta,56,56 green,72,72 orange,88,88 blue,104,104 pink,120,120 rotate,128,255
+
+Channel = gobo
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,52,52 Miscellaneous/gobo2,90,90 Miscellaneous/gobo3,127,127 Miscellaneous/gobo4,164,164 Miscellaneous/gobo5,200,200 Miscellaneous/gobo6,255,255
+
+Channel = prism
+ stop,0,0 prism,255,255
+
+Channel = prism_rotate
+ stop,0,0 left_rotate,5,127 right_rotate,133,255
+
+Channel = gobo2
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,48,48 Miscellaneous/gobo2,80,80 Miscellaneous/gobo3,112,112 Miscellaneous/gobo4,146,146 Miscellaneous/gobo5,176,176 Miscellaneous/rotate,224,255
+
+Channel = gobo_rotate2
+ index,0,60 right_rotate,61,158 left_rotate,159,255
+
+Channel = zoom
+ zoom,0,95 frost,105,105 uv_filter,120,120 zoom,128,223 frost,230,230 uv_filter,255,255
+
+Channel = focus
+
+Channel = shutter
+ closed,0,0 strobe,64,95 pulse_strobe,128,159 random_strobe,192,223 open,255,255
+
+Channel = dimmer
+

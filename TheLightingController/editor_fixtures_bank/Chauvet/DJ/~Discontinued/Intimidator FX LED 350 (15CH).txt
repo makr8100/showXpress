@@ -1,0 +1,57 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LED60W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 8
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/Intimidator FX 350.png
+
+Channel = pan
+ Pan,0,255
+
+Channel = upan
+ 16bit spinner,0,255
+
+Channel = tilt
+ Tilt,0,255
+
+Channel = utilt
+ 16bit spinner,0,255
+
+Channel = pantilt_speed
+ Pan-Tilt speed ,0,253
+
+Channel = color
+ white,0,6 yellow,7,13 pink,14,20 green,21,27 red,28,34 light_blue,35,41 Kelly,42,48 orange,49,55 dark_blue,56,64 split_color,65,127 rainbow,128,255
+
+Channel = prism
+ open,0,7 prism,8,12 right_rotate,13,130 left_rotate,131,247 Frost effect,248,255
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = shutter
+ closed,0,3 open,4,7 strobe,8,76 pulse_strobe,77,145 Random shutter,146,215 open,216,255
+
+Channel = control
+ no_function,0,7 Blackout while pan/tilt moving,8,15 Blackout while moving color wheel,16,23  blackout while moving gobo wheel,24,31 Disable Blackout while pan/tilt/moving color wheel,32,39 Disable blackout while pan/tilt/moving gobo wheel,40,47 Disable blackout while moving all option ,48,55 no_function,56,95 reset_xy,96,111 reset_color,112,119 reset_gobo,120,127 reset_gobo rotation,128,135 reset_prism,136,143 reset_focus,144,151 reset,152,159 no_function,160,255
+
+Channel = movement_macro
+ no_function,0,7 macro_1,8,23 macro_2,24,39 macro_3,40,55 macro_4,56,71 macro_5,72,87 macro_6,88,103 macro_7,104,119 macro_8,120,135 Sound Controlled program 1,136,151 Sound Controlled program 2,152,167 Sound Controlled program 3,168,183 Sound Controlled program 4,184,199 Sound Controlled program 5,200,215 Sound Controlled program 6,216,231 Sound Controlled program 7,232,247 Sound Controlled program 8,248,255
+
+Channel = pattern
+ no_function,0,10 Pattern 1,11,16 Pattern 2,17,22 Pattern 3,23,28 Pattern 4,29,34 Pattern 5,35,40 Pattern 6,41,46 Pattern 7,47,52 Pattern 8,53,58 Pattern 9,59,64 Pattern 10,65,70 Pattern 11,71,76 Pattern 12,77,82 Pattern 13,83,88 Pattern 14,89,94 Pattern 15,95,100 Pattern 16,101,106 Pattern 17,107,112 Pattern 18,113,118 Pattern 19,119,124 Pattern 20,125,130 Pattern 21,131,136 Pattern 22,137,142 Pattern 23,143,148 Pattern 24,149,154 Pattern 25,155,160 Pattern 26,161,166 Pattern 27,167,172 Pattern 28,173,178 Pattern 29,179,184 Pattern 30,185,190 Pattern 31,191,196 Pattern 32,197,202 Pattern 33,203,208 Pattern 34,209,214 Pattern 35,215,220 Pattern 36,221,226 Pattern 37,227,232 Pattern 38,233,239 automatic effect pattern,240,255
+
+Channel = effect_speed
+ pattern speed ,0,255
+
+Channel = motor
+ right_rotate,1,127 left_rotate,128,255
+
+Channel = motor
+ right_rotate,1,127 left_rotate,128,255
+

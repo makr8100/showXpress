@@ -1,0 +1,36 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = mode
+ closed,0,0 auto,100,100 audio,160,160 dmx,255,255
+
+Channel = pattern
+ pattern_01,0,0 pattern_02,12,12 pattern_03,20,20 pattern_04,28,28 pattern_05,36,36 pattern_06,44,44 pattern_07,52,52 pattern_08,60,60 pattern_09,68,68 pattern_10,76,76 pattern_11,84,84 pattern_12,92,92 pattern_13,100,100 pattern_14,108,108 pattern_15,116,116 pattern_16,124,124 pattern_17,132,132 pattern_18,140,140 pattern_19,148,148 pattern_20,156,156 pattern_21,164,164 pattern_22,172,172 pattern_23,180,180 pattern_24,188,188 pattern_25,196,196 pattern_26,204,204 pattern_27,212,212 pattern_28,220,220 pattern_29,228,228 pattern_30,236,236 pattern_31,244,244 pattern_32,255,255 
+
+Channel = zoom
+ index,0,127 in,128,169 out,170,209 in_&_out,210,255 
+
+Channel = Y_axis
+ index,0,127 right_rotate,128,191 left_rotate,192,255 
+
+Channel = X_axis
+ index,0,127 right_rotate,128,191 left_rotate,192,255 
+
+Channel = Z_axis
+ index,0,127 right_rotate,128,191 left_rotate,192,255 
+
+Channel = X_axis_moving
+ index,0,127 right_rotate,128,191 left_rotate,192,255 
+
+Channel = Y_axis_moving
+ index,0,127 right_rotate,128,191 left_rotate,192,255 
+

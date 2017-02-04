@@ -1,0 +1,42 @@
+Name = GENI_MIZAR12
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_1200MSR
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewColor = 16777215
+
+Channel = shutter
+ dimmer,0,159 strobe,160,252 open,255,255
+
+Channel = color
+ white,0,0 light_blue,35,35 yellow,55,55 red,75,75 green,95,95 pink,116,116 dark_blue,138,138 purle,159,159 rotate,168,255
+
+Channel = gobo
+ Miscellaneous\open,0,0 Geni\MZ-12-CH2-32-63,47,47 Geni\MZ-12-CH2-64-95,80,80 Geni\MZ-12-CH2-96-127,115,115 Geni\MZ-12-CH2-128-159,142,142 Geni\MZ-12-CH2-160-193,180,180 Miscellaneous\rotate,194,255
+
+Channel = gobo2
+ Miscellaneous\open,0,0 Geni\MZ-12-CH3-51-101,75,75 Geni\MZ-12-CH3-102-152,125,125 Geni\MZ-12-CH3-153-203,175,175 Geni\MZ-12-CH3-204-255,255,255
+
+Channel = gobo_rotate
+ stop,0,0 left_rotate,8,130 right_rotate,132,255
+
+Channel = prism
+ no_prism,0,0 one_to_three,64,127 magenta_filter,175,175 frost,255,255
+
+Channel = prism_rotate
+ stop,0,0 left_rotate,8,130 right_rotate,132,255
+
+Channel = iris
+ small_to_big,0,159 fade_out,160,207 fade_in,208,254 biggest,255,255
+
+Channel = focus
+ near,0,0 middle,128,128 far,255,255
+
+Channel = pan
+
+Channel = tilt
+

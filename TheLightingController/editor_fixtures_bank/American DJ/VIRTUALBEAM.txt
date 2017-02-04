@@ -1,0 +1,20 @@
+Name = AMERICAN-DJ_VIRTUALBEAM
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = pan
+
+Channel = tilt
+
+Channel = color
+ white,0,0 red,12,12 blue,28,28 green,44,44 yellow,60,60 cyan,76,76 orange,92,92 magenta,108,108 neon_green,124,124 pink,140,140 uv_purple,156,156 multicolor,172,172 rotate,242,255
+
+Channel = gobo
+ blackout,0,0 open,8,8 laser,24,24 star,40,40 slice,56,56 tunnel,72,72 heart,88,88 eurostars,104,104 sunburst,120,120 triangles,136,136 slash,152,152 bubbles,168,168 segment,184,184 strobe,224,255
+

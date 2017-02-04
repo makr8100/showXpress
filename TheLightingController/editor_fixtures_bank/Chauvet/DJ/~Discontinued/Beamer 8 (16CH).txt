@@ -1,0 +1,60 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/Beamer 8.png
+
+Channel = color
+ 1000K,1,85 green,86,170 blue,171,255 
+
+Channel = color
+ 1000K,1,85 green,86,170 blue,171,255 
+
+Channel = color
+ 1000K,1,85 green,86,170 blue,171,255 
+
+Channel = color
+ 1000K,1,85 green,86,170 blue,171,255 
+
+Channel = color
+ 1000K,1,85 green,86,170 blue,171,255 
+
+Channel = color
+ 1000K,1,85 green,86,170 blue,171,255 
+
+Channel = color
+ 1000K,1,85 green,86,170 blue,171,255 
+
+Channel = color
+ 1000K,1,85 green,86,170 blue,171,255 
+
+Channel = dimmer
+ dimmer,0,255 
+
+Channel = dimmer
+ Dimmer speed(slow-fast),0,80 Dimmer speed(fasst-slow),81,160 strobe,161,240 audio,241,255 
+
+Channel = strobe_effect
+ Strobe (slow-fast),0,255 
+
+Channel = strobe_effect
+ Strobe (slow-fast),0,255 
+
+Channel = strobe_effect
+ Strobe (slow-fast),0,255 
+
+Channel = strobe_effect
+ Strobe (slow-fast),0,255 
+
+Channel = mode
+ no_function,0,5 Pars only,6,89 Strobe only,90,173 Pars/Strobe,174,255 
+
+Channel = mode
+ auto program speed,0,250 Auto program sound,251,255 
+

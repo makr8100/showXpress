@@ -1,0 +1,41 @@
+Name = ELATION_XCELON575
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_575MSR
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 19
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = color
+ open,0,0 red,20,20 blue,34,34 uv,48,48 light_yellow,62,62 quad_color,76,76 split_color,90,90 quad_color,104,104 quad_color,119,119 right_rotate,128,187 stop,190,190 left_rotate,194,255
+
+Channel = gobo
+ Miscellaneous\open,0,0 Miscellaneous\gobo1,15,15 Miscellaneous\gobo2,25,25 Miscellaneous\gobo3,35,35 Miscellaneous\gobo4,45,45 Miscellaneous\gobo5,55,55 Miscellaneous\gobo6,65,65 gobo1_shake,70,89 gobo2_shake,90,109 gobo3_shake,110,129 gobo4_shake,130,149 gobo5_shake,150,169 gobo6_shake,170,189 Miscellaneous\rotate,190,255
+
+Channel = gobo_rotate
+ index,0,127 right_rotate,128,187 stop,190,190 left_rotate,194,255
+
+Channel = gobo2
+ Miscellaneous\open,0,0 Miscellaneous\gobo1,20,20 Miscellaneous\gobo2,34,34 Miscellaneous\gobo3,48,48 Miscellaneous\gobo4,62,62 Miscellaneous\gobo5,76,76 Miscellaneous\gobo6,90,90 Miscellaneous\gobo7,104,104 gobo1_shake,112,127 gobo2_shake,128,143 gobo3_shake,144,159 gobo4_shake,160,175 gobo5_shake,176,191 gobo6_shake,192,207 gobo7_shake,208,223 Miscellaneous\rotate,224,255
+
+Channel = prism
+ open,0,0 prism,47,47 prism2,79,79 prism3,111,111 macro1,131,131 macro2,139,139 macro3,147,147 macro4,155,155 macro5,163,163 macro6,171,171 macro7,179,179 macro8,187,187 macro9,195,195 macro10,203,203 macro11,211,211 macro12,219,219 macro13,227,227 macro14,235,235 macro15,243,243 macro16,255,255
+
+Channel = prism_rotate
+ index,0,127 right_rotate,128,187 stop,190,190 left_rotate,194,255
+
+Channel = focus
+
+Channel = shutter
+ closed,0,0 dimmer,47,47 strobe,64,95 pulse_strobe,143,143 random_strobe,192,223 open,255,255
+
+Channel = dimmer
+
+Channel = control
+ color_norm,0,0 color_pos,30,30 lamp_on,50,50 lamp_off,70,70 reset,82,82 reset_color,89,89 reset_gobo,92,92 reset_shutter,95,95 reset_focus,98,98 program1,110,110 program2,130,130 program3,150,150 program4,170,170 program5,190,190 program6,210,210 program7,230,230 audio,255,255
+

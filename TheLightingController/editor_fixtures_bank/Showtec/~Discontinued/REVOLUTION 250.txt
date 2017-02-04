@@ -1,0 +1,42 @@
+Name = SHOWTEC_REVOLUTION250
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewColor = 0
+2DViewImage = Showtec/Discontinued/revolution.png
+
+Channel = dimmer
+ dimmer,0,159 strobe,160,253 open,254,255
+
+Channel = color
+ white,0,13 blue,14,25 dark_green,26,38 pink,39,51 yellow,52,63 violet,64,77 red,78,89 purple,90,102 dark_blue,103,115 orange,116,127 light_blue,128,141 3200-4100k,142,153 clock,154,202 stop,203,206 counterclock,207,255
+
+Channel = gobo
+ Futurelight\00,0,23 Futurelight\07,24,47 Martin\triangle_cones,48,71 Martin\congo_star,72,95 Futurelight\04,96,119 Martin\double_worms,120,143 Martin\limbo,144,167 Miscellaneous\rotate,168,255
+
+Channel = prism
+ open,0,1 prism,2,7 right_rotate,8,127 stop,128,133 left_rotate,134,255
+
+Channel = gobo_rotate
+
+Channel = focus
+
+Channel = pan
+
+Channel = tilt
+
+Channel = pantilt_speed
+
+Channel = pantilt_speed
+
+Channel = control
+ _no_icon,0,126 reset,127,255
+
+Channel = control
+ stand by,0,47 lamp on,48,95 stand by,96,159 lamp off,160,207 stand by,208,255
+

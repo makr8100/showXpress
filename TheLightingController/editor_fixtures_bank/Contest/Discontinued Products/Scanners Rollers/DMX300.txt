@@ -1,0 +1,21 @@
+Name = CONTEST_DMX300
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_250HALO
+ViewAnglePan = 165
+ViewAngleTilt = 110
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewColor = 16777215
+
+Channel = pan
+
+Channel = tilt
+
+Channel = gobo
+ Miscellaneous\dimmer,0,16 Miscellaneous\open,24,24 Miscellaneous\gobo1,40,40 Miscellaneous\gobo2,56,56 Miscellaneous\gobo3,70,70 Miscellaneous\gobo4,86,86 Miscellaneous\gobo5,102,102 Miscellaneous\gobo6,118,118 Miscellaneous\gobo7,134,134 Miscellaneous\gobo8,150,150 Miscellaneous\gobo9,166,166 Miscellaneous\gobo10,182,182 Miscellaneous\gobo11,198,198 Miscellaneous\gobo12,214,214 Miscellaneous\rotate,224,239 Miscellaneous\strobe,240,255
+
+Channel = color
+ index,0,143 white,147,147 cyan,156,156 orange,164,164 light_green,172,172 red,180,180 magenta,188,188 green,196,196 red,204,204 blue,212,212 pink,220,220 dark_blue,228,228 white,236,236 rotate,240,255
+

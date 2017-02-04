@@ -1,0 +1,28 @@
+Name = MARTIN_CX4_V1
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = shutter
+ no_fuction,0,0 lamp_on,15,15 strobe_fast/sl,100,159 closed,170,170 music_trigger,180,204 auto_trigger,205,229 reset,245,245 lamp_off_(5"),255,255
+
+Channel = dimmer
+ close_to_open,0,255
+
+Channel = color
+ open,0,0 CTC_3200K,15,15 CTC_4100K,26,26 1/2_min_green,38,38 1/2_min_green,50,50 1/2_min_green,62,62 CTC_5500K,75,75 cyan_104,80,80 cyan_104,90,90 cyan_magenta,100,100 magenta_104,115,115 magenta_yellow,128,128 yellow603,138,138 yellow_blue,147,147 med_blue_108,158,158 blue_green,170,170 prim_green_206,182,182 green_red,194,194 prim_red_308,206,206 red_colr_mix4,214,214 random,255,255
+
+Channel = effect
+ open,0,0 red304,15,15 red304,25,25 red_green,35,35 light_green204,45,45 green_amber,55,55 amber604,65,65 amber_blue,75,75 blue101,85,85 blue_pink,95,95 pink_312,105,105 pink_orange,115,115 orange_306,125,125 frost,135,135 open,145,145 spokes,155,155 dot_circles,165,165 star_dots,175,175 highways,185,185 80%_iris,195,195 60%_iris,205,205 40%_iris,215,215 20%_iris,225,225 closed,235,235 random_positio,255,255
+
+Channel = effect_speed
+ tracking,0,0 fast_to_slow,4,255
+
+Channel = effect_speed
+ fast_to_slow,0,255
+

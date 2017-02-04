@@ -1,0 +1,26 @@
+Name = AMITA_ROYALSCAN250R
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_250HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = shutter
+ dimmer,0,159 strobe,160,253 full,255,255
+
+Channel = color
+ white,0,0 pink,22,22 yellow,40,40 lt_blue,55,55 green,71,71 orange,89,89 purple,105,105 red,120,120 dark_blue,135,135 indigo,162,162 rotate,176,255
+
+Channel = gobo
+ full,0,0 gobo1,70,70 gobo2,110,110 gobo3,150,150 gobo4,180,180 gobo5,255,255
+
+Channel = gobo_rotate
+ stop,0,0 counterclock,8,131 clock,132,255
+
+Channel = pan
+
+Channel = tilt
+

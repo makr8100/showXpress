@@ -1,0 +1,55 @@
+Name = STAIRVILLE_DJLASE150RGYDMX
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = mode
+ laser_off,0,0 pattern,76,76 edit,127,127 auto,178,178 audio,255,255
+
+Channel = laser_show
+
+Channel = laser_segment
+
+Channel = pattern_c
+
+Channel = pattern_d
+
+Channel = effect
+ pattern_a_b,0,0 pattern_a,77,77 pattern_b,129,129 pattern_c,181,181 pattern_d,255,255
+
+Channel = gobo_rotate
+ index,1,127 left_rotate,159,159 right_rotate,255,255
+
+Channel = v_turning
+ index,1,127 speed,128,255
+
+Channel = h_turning
+ index,1,127 speed,128,255
+
+Channel = move_effect
+ h_speed,1,127 v_spped,128,255
+
+Channel = drawing
+ increase,0,0 decrease,62,62 both,105,105 dimmer,128,255
+
+Channel = vertical
+ angle,1,255
+
+Channel = horizontal
+ angle,1,255
+
+Channel = zoom
+ size,1,127 increase,128,169 decrease,170,211 speed,212,255
+
+Channel = color
+
+Channel = speed_control
+

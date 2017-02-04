@@ -1,0 +1,29 @@
+﻿ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+2DViewImage = 
+
+Channel = pan
+
+Channel = tilt
+
+Channel = color
+ white,0,0 right_rotate,8,59 left_rotate,64,112 pink_white,122,122 pink,129,129 green_pink,136,136 green,143,143 dark-blue_gree,150,150 dark_blue,157,157 cor_dark-blue,164,164 correct,171,171 red_correct,178,178 red,185,185 orange_red,193,193 orange,199,199 magenta_orange,206,206 magenta,213,213 yellow_magenta,220,220 yellow,227,227 blue_yellow,234,234 light_blue,241,241 white_lt-blue,248,248 
+
+Channel = gobo
+ open,0,0 Miscellaneous/right_rotate,10,56 Miscellaneous/left_rotate,82,135 dot,157,157 ring,185,185 dots,193,193 stars,202,202 bar,211,211 wave,220,220 clr_dots,229,229 custom,240,240 circle,247,247 Miscellaneous/open,255,255 
+
+Channel = shutter
+ closed,0,0 open,26,26 strobe,51,204 open,255,255 
+
+Channel = dimmer
+
+Channel = pantilt_speed
+

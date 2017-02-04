@@ -1,0 +1,31 @@
+Name = ISOLUTION_IROCK6B
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_250HALO
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = pan
+
+Channel = tilt
+ stop,0,0 right_rotate,10,120 left_rotate,135,245
+
+Channel = shutter
+ closed,0,0 open,11,11 strobe,16,131 shake,132,247
+
+Channel = gobo
+ Miscellaneous\closed,0,0 gobo1,12,12 gobo2,22,22 gobo3,30,30 gobo4,39,39 gobo5,48,48 gobo6,56,56 gobo7,64,64 gobo8,73,73 gobo9,81,81 gobo10,89,89 gobo11,99,99 gobo12,107,107 gobo13,115,115 gobo14,124,124 Miscellaneous\rotate,128,255
+
+Channel = color
+ white,0,0 green,16,16 violet,27,27 blue,37,37 orange,48,48 red,59,59 light_blue,69,69 indigo,80,80 dark_green,91,91 amber,101,101 yellow,112,112 violet,122,122 rotate,128,255
+
+Channel = reserved
+
+Channel = dimmer
+

@@ -1,0 +1,39 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 20
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/SlimPANEL Tri 24 IP.png
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = red
+ Red ,0,255
+
+Channel = green
+ Green,0,255
+
+Channel = blue
+ Blue ,0,255
+
+Channel = color_macro
+ no_function,0,10 RED 100% / GREEN UP / BLUE 0%,11,30 RED DOWN / GREEN 100% / BLUE 0%,31,50 RED 0% / GREEN 100% / BLUE UP,51,70 RED 0% / GREEN DOWN / BLUE 100%,71,90 RED UP / GREEN 0% / BLUE 100%,91,110 RED 100% / GREEN 0% / BLUE DOWN,111,130 RED 100% / GREEN UP / BLUE UP,131,150 RED DOWN / GREEN DOWN / BLUE 100%,151,170 RED 100% / GREEN 100% / BLUE 100%,171,200 WHITE 1: 3200K,201,205 WHITE 2: 3400K,206,210 WHITE 3 4200K,211,215 WHITE 4: 4900K,216,220 WHITE 5: 5600K,221,225 WHITE 6: 5900K,226,230 WHITE 7: 6500 K,231,235 WHITE 8: 7200K,236,240 WHITE 9: 8000K,241,245 WHITE10: 8500K,246,250 WHITE11: 10000K,251,255
+
+Channel = shutter
+ no_function,0,9 strobe,10,255
+
+Channel = effect_macro
+ no_function,0,51 Auto Program 1,52,101 Auto Program 2,102,152 Auto Program 3,153,203 Auto Program 4,204,254 Auto Program 5,255,255
+
+Channel = effect_speed
+ Speed of Auto Programs (Slow ~ Fast),0,255
+
+Channel = mode
+ Default Dimmer Speed,0,51 Linear dimmer,52,101 Non-linear dimmer 1,102,152 Non-linear dimmer 2,153,203 Non-linear dimmer 3,204,255
+

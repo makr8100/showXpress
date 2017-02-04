@@ -1,0 +1,34 @@
+Name = PHANTOM150
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 13158600
+
+Channel = pan
+
+Channel = tilt
+
+Channel = upan
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = shutter
+ closed,0,10 open,11,11 DIMMING,21,21 open,63,63 strobe,160,160 open,255,255
+
+Channel = gobo
+ new_level,0,0 new_level,16,16 new_level,32,32 new_level,48,48 new_level,64,64 new_level,80,80 new_level,96,96 new_level,112,112 STOP,127,127 Miscellaneous\open,128,128 SHAKE,133,133 new_level,145,145 new_level,157,157 new_level,169,169 new_level,181,181 new_level,193,193 new_level,205,205 new_level,217,217 ROTATE,229,255
+
+Channel = color
+ new_level,0,0 dark_red,13,13 blue,25,25 dark_yellow,38,38 green,50,50 purple,63,63 indigo,75,75 light_blue,88,88 orange,100,100 purple,113,113 HALF COLOR,128,128 white,190,190 RAINBOW,191,255
+
+Channel = gobo_rotate
+

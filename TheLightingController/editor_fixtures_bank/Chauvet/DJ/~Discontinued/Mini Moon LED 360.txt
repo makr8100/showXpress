@@ -1,0 +1,32 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = pan
+ _no_icon,0,255
+
+Channel = pan_speed
+ _no_icon,0,255
+
+Channel = mode
+ no_function,0,6 group_1,7,14 group_2,15,22 group_3,23,30 group_4,31,38 group_5,39,46 group_6,47,54 group_7,55,62 group_8,63,70 group_9,71,78 group_10,79,86 group_11,87,94 group_12,95,102 group_13,103,110 group_14,111,118 group_15,119,126 group_16,127,134 group_17,135,142 group_18,143,150 group_19,151,158 group_20,159,166 group_21,167,174 group_22,175,182 group_23,183,190 group_24,191,198 group_25,199,206 group_26,207,214 group_27,215,222 group_28,223,230 group_29,231,238 group_30,239,246 group_31,247,255 
+
+Channel = strobe_effect
+ no_function,0,9 slow-fast,10,249 no_function,250,255 
+
+Channel = auto programs
+ no_function,0,6 color_auto_1,7,22 color_auto_2,23,38 color_auto_3,39,54 color_auto_4,55,70 color_auto_5,71,102 color_auto_6,103,118 color_auto_7,119,134 color_auto_8,135,150 color_auto_9,151,166 color_auto_10,167,182 color_auto_11,183,198 color_auto_12,199,246 color_auto_55,247,255 
+
+Channel = auto_programs_speed
+ slow-fast,0,255 
+
+Channel = auto_pan
+ no_function,0,5 90,6,55 180,56,105 270,106,155 360,156,206 540,207,255 
+

@@ -1,0 +1,29 @@
+Name = MARTIN_ROBOSCANPRO218
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = shutter
+ closed,0,0 open,6,6 strobe,82,208
+
+Channel = dimmer
+
+Channel = color
+ white,0,0 position,1,187 multi_color_2,189,189 multi_color_1,192,192 dark_orange,195,195 dark_lavender,198,198 pink,201,201 amber,204,204 light_green,207,207 light_orange,210,210 red,213,213 cyan,216,216 dark_blue,219,219 mauve,222,222 green,225,225 yellow,228,228 fren_green,231,231 light_blue,234,234 flm_red,237,237 new_level,238,255
+
+Channel = gobo
+ full,0,0 position,1,187 turbine,189,189 window,192,192 bars,195,195 phone,198,198 cones,201,201 cone,204,204 bells,207,207 holes,210,210 star,213,213 triangles,216,216 arrow,219,219 cross,222,222 h_bar,225,225 v_bar,231,231 half,237,237
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+

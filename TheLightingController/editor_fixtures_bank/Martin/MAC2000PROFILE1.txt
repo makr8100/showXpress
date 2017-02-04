@@ -1,0 +1,73 @@
+Name = MARTIN_MAC2000PROFILE1
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_1200MSR
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewColor = 0
+
+Channel = shutter
+ closed,0,0 open,34,34 strobe,50,72 opening_pulse,80,99 closing_pulse,100,119 random_strobe,128,187 random_op_pulse,191,196 random_cl_pulse,197,202 reset_fixture,212,212 lamp__on,232,232 lamp_off_(5"),255,255
+
+Channel = dimmer
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = yellow
+
+Channel = color
+ cold,0,0 warm,255,255
+
+Channel = color
+ index,0,160 P7_(dots),162,162 P6_(highways),166,166 P5_(3_cone),170,170 P4_(UV),174,174 P3_(blue111),178,178 P2_(green201),182,182 P1_(red308),186,186 open,190,190 right_rotate,192,217 left_rotate,218,243 random_CMY,244,255
+
+Channel = gobo
+ Miscellaneous\open,0,0 Martin\jet_fan,12,12 Martin\pipe_dreams,17,17 G3_(2_worms),22,22 G4_(king_star),27,27 Martin\limbo,32,32 G1_rotat,37,37 G2_rotat,42,42 G3_rotat,47,47 G4_rotat,52,52 G5_rotat,57,57 G1_shake,60,74 G2_shake,75,89 G3_shake,90,104 G4_shake,105,119 G5_shake,120,134 G1_rot_shake,135,149 G2_rot_shake,150,164 G3_rot_shake,165,179 G4_rot_shake,180,194 G5_rot_slow/fa,195,209 Miscellaneous\right_rotate,210,232 Miscellaneous\left_rotate,233,255
+
+Channel = gobo_rotate
+ stop,0,0 left_rotate,3,127 right_rotate,128,252 stop,255,255
+
+Channel = gobo_urotate
+
+Channel = gobo2
+ Miscellaneous\open,0,0 Martin\limbo_donut,12,12 Martin\triangle_cones,17,17 Martin\congo_star,22,22 Martin\space_sun,27,27 Martin\waves,32,32 G1_rotat,37,37 G2_rotat,42,42 G3_rotat,47,47 G4_rotat,52,52 G5_rotat,57,57 G1_shake,60,74 G2_shake,75,89 G3_shake,90,104 G4_shake,105,119 G5_shake,120,134 G1_rot_shake,135,149 G2_rot_shake,150,164 G3_rot_shake,165,179 G4_rot_shake,180,194 G5_rot_slow/fa,195,209 Miscellaneous\right_rotate,210,232 Miscellaneous\left_rotate,233,255
+
+Channel = gobo_rotate2
+ stop,0,0 left_rotate,3,127 right_rotate,128,252 stop,255,255
+
+Channel = gobo_urotate2
+
+Channel = effect
+ open,0,0 frost,1,175 E1_index_rotat,176,183 E2_index_rotat,184,191 E1_rotation,196,196 E2_rotation,204,204 open,212,212 macro1,218,218 macro2,223,223 macro3,228,228 macro4,233,233 macro5,238,238 macro6,243,243 macro7,248,248 macro8,255,255
+
+Channel = effect_speed
+ stop,0,0 left_rotate,3,127 right_rotate,128,252 stop,255,255
+
+Channel = iris
+ open,0,199 closed,210,210 pulse_opening,216,229 pulse_closing,230,243 random_pulse_op,244,249 random_pulse_cl,250,255
+
+Channel = focus
+ infinity,0,0 near,255,255
+
+Channel = beam
+ flood,0,0 spot,255,255
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+ tracking,0,0 speed,4,245 PTSP_NORM,247,247 PTSP_FAST,250,250 black._moving,255,255
+
+Channel = effect_speed
+ tracking,0,0 fast-slow,4,239 studio_off,241,241 studio_on,244,244 shortcuts_off,247,247 shortcuts_on,250,250 fast,255,255
+

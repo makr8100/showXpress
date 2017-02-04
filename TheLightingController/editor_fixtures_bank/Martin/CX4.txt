@@ -1,0 +1,28 @@
+Name = MARTIN_CX4
+
+ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_150HTI
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewColor = 16777215
+
+Channel = shutter
+ open,15,15 strobe,100,159 closed,170,170 music_trigger,180,204 auto_trigger,205,229 reset,245,245 lamp_off_(5"),255,255
+
+Channel = dimmer
+
+Channel = color
+ open,0,0 3200-4100k,26,26 5500-3400k,72,72 cyan,90,90 magenta,115,115 yellow,138,138 light_blue,158,158 green,182,182 red,206,206 rainbow,225,225 random,255,255
+
+Channel = gobo
+ Miscellaneous\open,0,0 red304,15,15 red304,25,25 red_green,35,35 light_green204,45,45 green_amber,55,55 amber604,65,65 amber_blue,75,75 blue101,85,85 blue_pink,95,95 pink_312,105,105 pink_orange,115,115 orange_306,125,125 frost,135,135 open,145,145 spokes,155,155 dot_circles,165,165 star_dots,175,175 highways,185,185 80%_iris,195,195 60%_iris,205,205 40%_iris,215,215 20%_iris,225,225 Miscellaneous\closed,235,235 random_positio,255,255
+
+Channel = effect_speed
+ tracking,0,0 fast_to_slow,4,255
+
+Channel = effect_speed
+

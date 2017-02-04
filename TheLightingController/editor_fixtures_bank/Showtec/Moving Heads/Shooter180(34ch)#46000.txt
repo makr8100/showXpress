@@ -1,0 +1,84 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = tilt
+
+Channel = tilt
+
+Channel = tilt
+
+Channel = tilt
+
+Channel = tilt
+
+Channel = effect_macro
+ no_function,0,0 macro_1,52,52 macro_2,60,60 macro_3,68,68 macro_4,75,75 macro_5,84,84 macro_6,92,92 macro_7,100,100 macro_8,108,108 macro_9,115,115 macro_10,124,124 macro_11,132,132 macro_12,140,140 macro_13,148,148 macro_14,155,155 macro_15,164,164 macro_16,172,172 macro_17,180,180 macro_18,188,188 macro_19,195,195 macro_20,204,204 macro_21,212,212 macro_22,222,222 macro_23,228,228 macro_24,236,236 all_heads,244,244 audio,255,255 
+
+Channel = effect_speed
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = color
+ no_function,0,0 color_1,12,12 color_2,20,20 color_3,27,27 color_4,35,35 color_5,44,44 color_6,52,52 color_7,60,60 color_8,68,68 color_9,75,75 color_10,84,84 color_11,92,92 color_12,100,100 color_13,108,108 color_14,115,115 color_15,124,124 right_rotate,180,201 full_on,205,205 left_rotate,208,229 color_flow,235,249 audio,255,255 
+
+Channel = heads
+
+Channel = effect_macro
+
+Channel = effect_speed
+
+Channel = dimmer
+
+Channel = shutter
+ closed,0,0 open,22,22 fade_out,70,84 fade_in,90,104 random_fade_in-out,110,124 random_fade_out,130,144 random_fade_in,150,164 strobe,170,184 random_strobe,190,204 gradual_shutter,210,224 open,255,255 
+
+Channel = control
+ no_function,0,0 reset_tilt,62,62 reset,72,72 
+

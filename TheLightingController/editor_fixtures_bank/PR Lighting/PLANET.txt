@@ -1,0 +1,25 @@
+Name = PEARL-RIVER_PLANET
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = color
+ white,0,0 red,22,22 yellow,37,37 orange,52,52 blue,67,67 green,82,82 cyan,97,97 purple,112,112 pink,127,127 green,142,142 indigo,147,147 blue,171,171
+
+Channel = gobo
+ Miscellaneous\open,0,0 gobo1,32,32 gobo2,64,64 gobo3,76,76 gobo4,98,98 gobo5,120,120 gobo6,142,142 gobo7,164,164 gobo8,186,186 gobo9,208,208 gobo10,230,230 gobo11,255,255
+
+Channel = shutter
+ closed,0,0 open,22,22 strobe,30,250 open,255,255
+
+Channel = dimmer
+
+Channel = pan
+
+Channel = tilt
+

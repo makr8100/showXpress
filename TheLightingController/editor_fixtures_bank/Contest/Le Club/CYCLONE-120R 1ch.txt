@@ -1,0 +1,15 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LAMP575W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 15
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Contest/Club series/CYCLONE-120R  .png
+
+Channel = animation
+ closed,0,7 pattern_01,8,69 pattern_02,70,131 pattern_03,132,193 pattern_04,194,255 
+

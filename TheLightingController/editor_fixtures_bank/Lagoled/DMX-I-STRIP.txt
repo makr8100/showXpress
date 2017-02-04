@@ -1,0 +1,16 @@
+Name = LAGOLED_DMX-I-STRIP
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+

@@ -1,0 +1,98 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewAnglePan = 0
+ViewAngleTilt = 0
+ViewAngleBeam = 0
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+2DViewImage = Chauvet/ILUMINARC/ColoristLine6Qa-2D.png
+
+Channel = red
+ 0~100%,0,255
+
+Channel = green
+ 0~100%,0,255
+
+Channel = blue
+ 0~100%,0,255
+
+Channel = amber
+ 0~100%,0,255
+
+Channel = red
+ 0~100%,0,255
+
+Channel = green
+ 0~100%,0,255
+
+Channel = blue
+ 0~100%,0,255
+
+Channel = amber
+ 0~100%,0,255
+
+Channel = red
+ 0~100%,0,255
+
+Channel = green
+ 0~100%,0,255
+
+Channel = blue
+ 0~100%,0,255
+
+Channel = amber
+ 0~100%,0,255
+
+Channel = red
+ 0~100%,0,255
+
+Channel = green
+ 0~100%,0,255
+
+Channel = blue
+ 0~100%,0,255
+
+Channel = amber
+ 0~100%,0,255
+
+Channel = red
+ 0~100%,0,255
+
+Channel = green
+ 0~100%,0,255
+
+Channel = blue
+ 0~100%,0,255
+
+Channel = amber
+ 0~100%,0,255
+
+Channel = red
+ 0~100%,0,255
+
+Channel = green
+ 0~100%,0,255
+
+Channel = blue
+ 0~100%,0,255
+
+Channel = amber
+ 0~100%,0,255
+
+Channel = effect_macro
+ No Function,0,10 pattern_01,11,28 pattern_02,29,46 pattern_03,47,64 pattern_04,65,82 pattern_05,83,100 pattern_06,101,118 pattern_07,119,136 pattern_08,137,154 pattern_09,155,172 pattern_10,173,190 pattern_11,191,208 pattern_12,209,226 pattern_13,227,244 pattern_14,245,255
+
+Channel = effect_speed
+ Slow to Fast,0,255
+
+Channel = dimmer
+ 0~100%,0,255
+
+Channel = shutter
+ Open,0,10 Strobe Slow to Fast,11,255
+
+Channel = dimmer_speed
+ Preset from Display,0,51 Dimmer Speed OFF,52,101 Dimmer Speed Fast,102,152 Dimmer Speed Mid,153,203 Dimmer Speed Slow,204,255
+

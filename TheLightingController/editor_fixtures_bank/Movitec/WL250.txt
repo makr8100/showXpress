@@ -1,0 +1,48 @@
+Name = MOVITEC_WL250
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+ max_tracking,0,0 max_vector,2,2 min_vector,249,249 max_blackout,255,255
+
+Channel = control
+ fan_max,0,0 fan_min,127,127 lamp_on_reset,132,132 lamp_off_3s,232,232
+
+Channel = color
+ white,0,0 red,23,23 blue,44,44 green,62,62 3200°,80,80 5600°,100,100 UV,118,118 clock,128,190 stop,192,192 counterclock,194,255
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = yellow
+
+Channel = effect_speed
+
+Channel = color
+ off,0,0 macro1,12,12 macro2,20,20 macro3,28,28 macro4,36,36 macro5,44,44 macro6,52,52 macro7,60,60 macro8,68,68 macro9,76,76 macro10,84,84 macro11,92,92 macro12,98,98 macro13,108,108 macro14,116,116 macro15,124,124 macro16,132,132 macro17,140,140 macro18,148,148 macro19,156,156 macro20,164,164 macro21,172,172 macro22,180,180 macro23,188,188 macro24,196,196 macro25,204,204 macro26,212,212 macro27,220,220 macro28,228,228 macro29,236,236 macro30,244,244 macro31,255,255
+
+Channel = beam
+ full_beam,0,0 beam_sharper,150,150 frost,255,255
+
+Channel = reserved
+
+Channel = shutter
+ closed,0,0 strobe,64,95 pulse_sequence,128,159 random_strobe,192,223 open,255,255
+
+Channel = dimmer
+

@@ -1,0 +1,50 @@
+Name = GENI_OBY600U
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 570
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 13158600
+
+Channel = dimmer
+
+Channel = shutter
+ open,0,0 dimmer,8,63 strobe,72,127 random_shutter,200,253 open,255,255
+
+Channel = color
+ white,0,0 red,27,27 blue,45,45 green,61,61 violet,81,81 3200-5600k,99,99 3500-5600k,117,117 left_rotate,128,187 stop,192,192 right_rotate,196,255
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = yellow
+
+Channel = effect
+ open,0,0 macro1,12,12 macro2,20,20 macro3,28,28 macro4,36,36 macro5,44,44 macro6,52,52 macro7,60,60 macro8,68,68 macro9,76,76 macro10,84,84 macro11,92,92 macro12,100,100 macro13,108,108 macro14,116,116 macro15,124,124 macro16,132,132 macro17,140,140 macro18,148,148 macro19,156,156 macro20,164,164 macro21,172,172 macro22,180,180 macro23,188,188 macro24,196,196 macro25,204,204 macro26,212,212 macro27,220,220 macro28,228,228 macro29,236,236 macro30,244,244 macro31,255,255
+
+Channel = light
+ open,0,0
+
+Channel = beam
+ 10°,0,0 30°,255,255
+
+Channel = pan
+
+Channel = tilt
+
+Channel = upan
+
+Channel = utilt
+
+Channel = control
+ auto_pan_tilt,0,0 manual_pan_tilt,40,40 reset_after_3s,255,255
+
+Channel = control
+ on_standby,0,0 on_after_3s,75,75 on_standby,130,130 on_after_3s,180,180 on_standby,255,255
+

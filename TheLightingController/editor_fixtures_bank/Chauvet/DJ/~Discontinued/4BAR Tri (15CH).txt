@@ -1,0 +1,57 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 22
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = TRUE
+ViewReverseIris = FALSE
+ViewColor = 0
+2DViewImage = Chauvet/DJ/4BAR Tri.png
+
+Channel = mode
+ rgb-mode,0,9 auto-1,10,29 auto-2,30,49 auto-3,50,69 auto-4,70,89 auto-5,90,109 auto-6,110,129 auto-7,130,149 auto-8,150,169 auto-9,170,189 auto-10,190,209 auto-11,210,229 auto-12,230,249 audio,250,255
+
+Channel = dimmer
+ no_function,0,9 dimmer,10,255
+
+Channel = shutter
+ no_function,0,9 strobe,10,255 
+
+Channel = red
+ new_level,0,255
+
+Channel = green
+ new_level,0,255
+
+Channel = blue
+ new_level,0,255
+
+Channel = red
+ new_level,0,255
+
+Channel = green
+ new_level,0,255
+
+Channel = blue
+ new_level,0,255
+
+Channel = red
+ new_level,0,255
+
+Channel = green
+ new_level,0,255
+
+Channel = blue
+ new_level,0,255
+
+Channel = red
+ new_level,0,255
+
+Channel = green
+ new_level,0,255
+
+Channel = blue
+ new_level,0,255
+

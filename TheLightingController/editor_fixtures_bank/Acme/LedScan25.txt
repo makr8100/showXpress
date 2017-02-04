@@ -1,0 +1,25 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = pan
+
+Channel = barrel
+ stop,0,0 left_rotate,10,120 stop,125,125 right_rotate,135,145 stop,255,255 
+
+Channel = shutter
+ closed,0,0 open,12,12 strobe,16,131 pulse_open,140,181 pulse_close,190,231 random_strobe,244,244 open,255,255 
+
+Channel = gobo
+ Miscellaneous/open,0,7 Miscellaneous/gobo1,12,12 Miscellaneous/gobo2,18,18 Miscellaneous/gobo3,25,25 Miscellaneous/gobo4,32,32 Miscellaneous/gobo5,38,38 Miscellaneous/gobo6,46,46 Miscellaneous/gobo7,53,53 Miscellaneous/gobo8,60,60 Miscellaneous/shaking,64,71 Miscellaneous/shake_gobo1,72,78 Miscellaneous/shake_gobo2,79,85 Miscellaneous/shake_gobo3,86,92 Miscellaneous/shake_gobo4,93,99 Miscellaneous/shake_gobo5,100,106 Miscellaneous/shake_gobo6,107,113 Miscellaneous/shake_gobo7,114,120 Miscellaneous/shake_gobo8,121,127 Miscellaneous/rotate,128,255 
+
+Channel = dimmer
+

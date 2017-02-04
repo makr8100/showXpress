@@ -1,0 +1,53 @@
+Name = MOVITEC_SL575
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+ max_tracking,0,0 max_vector,2,2 min_vector,249,249 max_blackout,255,255
+
+Channel = control
+ fan_max,0,0 fan_min,127,127 lamp_on_reset,132,132 lamp_off_3s,232,232
+
+Channel = color
+ white,0,0 light_blue,13,13 red,26,26 blue,38,38 light_green,51,51 yellow,64,64 magenta,77,77 cyan,90,90 green,102,102 orange,115,115 clock,128,189 stop,192,192 counterclock,194,255
+
+Channel = color
+ white,0,0 deep_red,17,17 deep_blue,29,29 pink,41,41 cyan,53,53 magenta,65,65 yellow,77,77 5600°,99,99 2800°,101,101 UV,112,112 white,124,124 en._macro_ch7,128,255
+
+Channel = prism
+ open,0,0 clock,2,63 stop,64,64 counterclock,66,127 macro1,131,131 macro2,140,140 macro3,147,147 macro4,155,155 macro5,163,163 macro6,171,171 macro7,180,180 macro8,187,187 macro9,195,195 macro10,203,203 macro11,211,211 macro12,219,219 macro13,227,227 macro14,235,235 macro15,243,243 macro16,255,255
+
+Channel = gobo
+ open,0,0 gobo1,12,12 gobo2,20,20 gobo3,27,27 gobo4,35,35 gobo5,43,43 gobo6,51,51 gobo7,59,59 gobo8,67,67 gobo9,75,75 shake_g1,80,95 shake_g2,96,111 shake_g3,112,127 shake_g4,128,143 shake_g5,144,159 shake_g6,160,175 shake_g7,176,191 shake_g8,192,207 shake_g9,208,223 rotate,224,255
+
+Channel = gobo
+ open,0,0 gobo1,46,46 gobo2,78,78 gobo3,110,110 gobo4,143,143 gobo5,175,175 gobo6,207,207 rotate,224,255
+
+Channel = gobo_rotate
+ index,0,127 clock,128,190 stop,192,192 counterclock,194,255
+
+Channel = iris
+ open,0,0 max_to_min,2,179 closed,185,185 pulse_closing,192,223 pulse_opening,224,255
+
+Channel = focus
+ 15°,0,85 18°,86,170 22°,172,255
+
+Channel = shutter
+ closed,0,0 strobe,64,95 pulse_sequence,128,159 random_strobe,192,223 open,255,255
+
+Channel = dimmer
+

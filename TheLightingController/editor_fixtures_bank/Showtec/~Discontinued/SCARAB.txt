@@ -1,0 +1,32 @@
+Name = SHOWTEC_SCARAB
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = gobo_rotate
+ clock,0,117 stop,130,130 counterclock,138,255
+
+Channel = color
+ white,0,0 yellow,12,12 warm_blue,24,24 red,34,34 magenta,44,44 orange,51,51 pink,63,63 blue,72,72 green,83,83 rotate,200,255
+
+Channel = gobo
+ full,0,0 gobo1,16,16 gobo2,25,25 gobo3,46,46 gobo4,56,56 gobo5,66,66 gobo6,80,80 gobo7,92,92 rotate,198,255
+
+Channel = shutter
+ dimmer,0,85 strobe,86,155 fade,156,235 open,255,255
+
+Channel = pan
+
+Channel = tilt
+
+Channel = prism
+ no_change,0,0 frost,128,128 prism,255,255
+
+Channel = prism_rotate
+ clock,0,117 stop,130,130 counterclock,138,255
+

@@ -1,0 +1,16 @@
+Name = FAL_COLOUR_CHANGER
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = shutter
+ closed,0,0 dimmer,6,63 clear,66,66 blackout,70,70 dimming_frost,76,131 frost,134,134 ctc_filter,140,140 strob_speed1,154,154 strob_speed2,160,160 strob_speed3,166,166 strob_speed4,172,172 strob_speed5,178,178 strob_speed6,184,184 frost,200,200 frost_speed1,205,205 frost_speed2,212,212 frost_speed3,218,218 frost_speed4,224,224 frost_speed5,230,230 frost_speed6,236,236 white,255,255
+
+Channel = color
+ white,0,0 white+color1,16,16 color_1,24,24 color1+color2,32,32 color_2,40,40 color2+color3,42,42 color_3,56,56 color3+color4,64,64 color_4,72,72 color4+color5,80,80 color_5,88,88 color5+color6,96,96 color_6,104,104 color6+color7,112,112 color_7,120,120 color7+color8,128,128 color_8,136,136 color8+color9,144,144 color_9,152,152 color9+white,160,160 clock,164,205 stop,210,210 counterclock,214,255
+

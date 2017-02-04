@@ -1,0 +1,41 @@
+Name = GLP_MINI_PATTEND
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewColor = 0
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = PAN_ROTATE
+
+Channel = TILT_ROTATE
+
+Channel = color
+ open,0,0 new_level,2,2 new_level,4,4 new_level,6,6 new_level,8,8 new_level,10,10 new_level,12,12 new_level,14,14 new_level,16,16 new_level,18,18 new_level,20,20 new_level,22,22 new_level,24,24 new_level,26,26 new_level,28,28 new_level,30,30 new_level,32,32 new_level,34,34 new_level,36,36 new_level,38,38 new_level,40,40 new_level,42,42 new_level,44,44 new_level,46,46 new_level,48,48 new_level,50,50 new_level,52,52 new_level,54,54 new_level,56,56 new_level,58,58 new_level,60,60 new_level,62,62 new_level,64,64 new_level,66,66 new_level,68,68 new_level,70,70 new_level,72,72 new_level,74,74 new_level,76,76 new_level,78,78 open,80,80 new_level,128,128 new_level,192,192 AUDIO COLSLW,254,254 AUDIO COLFST,255,255
+
+Channel = gobo
+ new_level,0,0 new_level,8,8 new_level,12,12 new_level,16,16 new_level,20,20 new_level,24,24 new_level,28,28 new_level,32,32 new_level,36,36 new_level,40,40 new_level,44,44 new_level,48,48 new_level,52,52 new_level,56,56 new_level,60,60 new_level,64,64 new_level,68,68 new_level,72,72 new_level,76,76 new_level,80,80 new_level,192,192 new_level,254,254 new_level,255,255
+
+Channel = shutter
+ new_level,0,0 new_level,2,2 new_level,126,126 new_level,128,128 new_level,144,144 new_level,160,160 new_level,240,240 new_level,254,255
+
+Channel = focus
+
+Channel = pantilt_speed
+
+Channel = MOVEMENT
+
+Channel = control
+ new_level,0,0 new_level,64,64 new_level,80,80 new_level,96,96 audio,112,112 audio,128,128 LAMP OFF,230,230 reset,250,255
+

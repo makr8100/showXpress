@@ -1,0 +1,57 @@
+Name = FUTURELIGHT_PHS710
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_575MSR
+ViewAnglePan = 530
+ViewAngleTilt = 280
+ViewAngleBeam = 22
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewColor = 16777215
+
+Channel = pan
+
+Channel = tilt
+
+Channel = pantilt_speed
+ max_speed,0,0 maxtomin,15,225 blackout_mov,230,230 blackout_color,240,240
+
+Channel = color
+ white,0,0 light_blue,24,24 red,40,40 blue,55,55 green,70,70 yellow,88,88 magenta,104,104 dark_green,120,120 right_rotate,153,153 stop,183,183 left_rotate,209,209 random_sound,246,246 random,255,255
+
+Channel = color
+ white,0,0 pink,24,24 dark_yellow,40,40 pink,55,55 purple,70,70 orange,88,88 3200-4100k,104,104 5500-4200k,120,120 right_rotate,153,153 stop,183,183 left_rotate,209,209 random_sound,246,246 random,255,255
+
+Channel = gobo
+ Miscellaneous\open,0,0 Miscellaneous\gobo1,15,15 Miscellaneous\gobo2,25,25 Miscellaneous\gobo3,35,35 Miscellaneous\gobo4,45,45 Miscellaneous\gobo5,55,55 Miscellaneous\gobo6,65,65 gobo1_shake,70,89 gobo2_shake,90,109 gobo3_shake,110,129 gobo4_shake,130,149 gobo5_shake,150,169 gobo6_shake,170,189 Miscellaneous\rotate,190,255
+
+Channel = gobo_rotate
+ index,0,127 right_rotate,128,187 stop,190,190 left_rotate,194,255
+
+Channel = gobo2
+ Miscellaneous\open,0,0 Miscellaneous\gobo1,12,12 Miscellaneous\gobo2,20,20 Miscellaneous\gobo3,28,28 Miscellaneous\gobo4,36,36 Miscellaneous\gobo5,44,44 Miscellaneous\gobo6,52,52 Miscellaneous\gobo7,60,60 Miscellaneous\gobo8,68,68 Miscellaneous\gobo9,76,76 Miscellaneous\gobo10,84,84 Miscellaneous\gobo11,92,92 gobo1_shake,101,101 gobo2_shake,112,112 gobo3_shake,125,125 gobo4_shake,137,137 gobo5_shake,149,149 gobo6_shake,161,161 gobo7_shake,173,173 gobo8_shake,185,185 gobo9_shake,197,197 gobo10_shake,209,209 gobo11_shake,221,221 Miscellaneous\rotate,228,243 random_sound,247,247 random,255,255
+
+Channel = frost
+ open,0,0 index,1,180 pulse_closing,190,211 pulse_opening,212,233 ramping,234,255
+
+Channel = prism
+ open,0,0 right_rotate,4,63 stop,65,65 left_rotate,68,127 macro1,132,132 macro2,140,140 macro3,148,148 macro4,156,156 macro5,164,164 macro6,172,172 macro7,180,180 macro8,188,188 macro9,196,196 macro10,204,204 macro11,212,212 macro12,220,220 macro13,228,228 macro14,236,236 macro15,244,244 macro16,255,255
+
+Channel = beam
+ 15°,0,85 18°,86,170 22°,171,255
+
+Channel = iris
+ index,0,180 closed,185,185 pulse_opening,192,219 pulse_closing,220,247 random_opening,248,251 random_closing,252,255
+
+Channel = shutter
+ closed,0,0 strobe,32,95 pulse_opening,101,120 pulse_closing,121,140 ramping,141,160 random_strobe,192,223 open,255,255
+
+Channel = dimmer
+
+Channel = control
+ color_change1,0,0 clor_change2,23,23 color_stop1,39,39 color_stop2,55,55 lamp_on,71,71 reset,87,87 prog1,103,103 prog2,119,119 prog3,135,135 prog4,151,151 prog5,167,167 prog6,183,183 prog7,199,199 prog8,215,215 lamp_off,231,231
+
+Channel = upan
+
+Channel = utilt
+

@@ -1,0 +1,34 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED60W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 24
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = dimmer
+
+Channel = shutter
+ open,0,0 strobe,16,255 
+
+Channel = effect_macro
+ no_function,0,0 auto_1,27,27 auto_2,45,45 auto_3,63,63 auto_4,81,81 auto_5,99,99 auto_6,117,117 auto_7,135,135 auto_8,153,153 auto_9,171,171 auto_10,189,189 audio_1,205,205 audio_2,225,225 audio_3,255,255 
+
+Channel = speed_control
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = amber
+
+Channel = uv
+

@@ -1,0 +1,16 @@
+﻿ViewType = VIEW_TYPE_PAR_CAN
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = color
+ closed,0,9 red,10,19 yellow,20,29 green,30,39 cyan,40,49 blue,50,59 purple,60,69 white,70,79 Program 01,80,89 Program 02,90,99 Program 03,100,109 Program 04,110,119 Program 05,120,129 Program 06,130,139 Program 07,140,149 Program 08,150,159 Program 09,160,169 Program 10,170,179 Program 11,180,189 Program 12,190,199 Program 13,200,209 Program 14,210,219 Program 15,220,229 Program 16,230,239 Sound-controlled,240,255
+
+Channel = control
+

@@ -1,0 +1,46 @@
+Name = YX2101
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_1200MSR
+ViewAnglePan = 540
+ViewAngleTilt = 280
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = iris
+
+Channel = color
+ white,0,15 red,16,31 yellow,32,47 purple,48,63 green,64,79 orange,80,95 blue,96,111 pink,112,127 rainbow,128,255
+
+Channel = color
+ white,0,31 pink,32,63 light_yellow,64,95 violet,96,127 light_green,128,159 light_red,160,191 blue,192,223 light_blue,224,255
+
+Channel = dimmer
+ dimmer,0,139 strobe,140,243 open,255,255
+
+Channel = pan
+
+Channel = tilt
+
+Channel = prism
+ white,0,0 decrease,77,77 rise,129,129 softlight,181,181 solid,255,255
+
+Channel = prism_rotate
+ circle,0,0 quaprism,15,15 double,25,25 comet,35,35 radiative,45,45 right_rotate,51,76 stop,77,77 left_rotate,78,101 comet_reverse,102,127 comet_right,129,152 double_right,153,178 double_reverse,180,203 quadra_reverse,204,229 quadra_right,231,255
+
+Channel = focus
+ focus_far,0,0 focus_mid,128,128 focus_near,255,255
+
+Channel = gobo
+ Miscellaneous\open,0,0 Showtec\CHALLENGER-004,27,80 Showtec\51836253,81,127 Showtec\51836252,128,170 Showtec\clubspot_14,171,255
+
+Channel = gobo2
+ Miscellaneous\open,0,0 Showtec\clubspot_10,73,73 Showtec\HD 7,125,125 Showtec\51836352,175,175 Futurelight\41,255,255
+
+Channel = gobo_rotate2
+ index,0,127 left_rotate,128,190 stop,192,192 right_rotate,193,255
+

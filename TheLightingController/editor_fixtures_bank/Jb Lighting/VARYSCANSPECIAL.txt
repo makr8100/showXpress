@@ -1,0 +1,26 @@
+Name = JB-LIGHTING_VARYSCANSPECIAL
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = pan
+
+Channel = tilt
+
+Channel = gobo
+ gobo1,0,0 gobo2,19,19 gobo3,28,28 gobo4,37,37 gobo5,44,44 gobo6,52,52 gobo7,60,60 gobo8,68,68 gobo9,76,76 gobo10,84,84 gobo11,92,92 gobo12,100,100 gobo13,108,108 gobo14,117,117 gobo15,124,124 gobo16,132,132 gobo17,140,140 gobo18,148,148 gobo19,157,157 gobo20,164,164
+
+Channel = color
+ white,0,0 yellow,20,20 magenta,28,28 cyan,37,37 green,45,45 blue,52,52 red,60,60 aqua,68,68 pink,77,77 orange,84,84 magenta_dark,92,92 cyan_dark,100,100 cyan_dark_filt,108,108 magent_dark_fi,116,116 orange_filter,124,124 pink_filter,132,132 aqua_filter,140,140 red_filter,148,148 blue_filter,156,156 green_filter,164,164 cyan_filter,172,172 magenta_filter,180,180 yellow_filter,188,188 white,255,255
+
+Channel = shutter
+ closed,0,0 dimmer,20,127 open,133,133 closed_immed.,138,138 strobe,140,243 open,255,255
+
+Channel = pantilt_speed
+ controller_tim,0,0 speed,2,255
+

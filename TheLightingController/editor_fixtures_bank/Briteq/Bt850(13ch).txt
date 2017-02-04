@@ -1,0 +1,50 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = mode
+ block_out,0,0 PRG,100,100 ILD,120,120 auto1,155,155 auto2,175,175 audio1,190,190 audio2,210,210 dmx,255,255
+
+Channel = pattern
+
+Channel = shutter
+ open,0,0 strobe,11,199 audio,255,255
+
+Channel = X_moving
+ index,0,125 slow_to_fast,126,185 random_position,186,245 audio,255,255
+
+Channel = Y_moving
+ index,0,125 slow_to_fast,126,185 random_position,186,245 audio,255,255
+
+Channel = zoom
+ original_size,0,10 fixed_sizing,11,100 zooming_out,101,150 zooming_in,151,200 zooming_in_and_out,201,255
+
+Channel = Y_axis_rolling
+ stop,0,0 index,11,110 rolling_from_slow_to_fast,111,255
+
+Channel = X_axis_rolling
+ stop,0,0 index,11,110 rolling_from_slow_to_fast,111,255
+
+Channel = Z_axis_rolling
+ stop,0,0 index,11,180 right_rotate,181,217 left_rotate,218,255
+
+Channel = cliping
+ original_pattern,0,0 fixed_clipping,10,74 clipping_out,75,104 clipping_in,105,144 clipping_out_and_in,145,184 clipping_on,185,224 clipping_off,225,255
+
+Channel = wave
+ original_pattern,0,0 wave_with_speed_control,10,199 wave_with_amplitude_control,200,255
+
+Channel = color
+ white,0,0 red,24,24 green,42,42 blue,59,59 yellow,76,76 purple,93,93 cyan,110,110 white-red-green-blue,127,127 blue-yellow-purple-cyan,144,144 seven_colors,161,161 random,229,229 audio,255,255 
+
+Channel = pattern_mode
+ original,0,0 bright_points,96,96 blanking,164,164 points_to_make_pattern,255,255 
+

@@ -1,0 +1,43 @@
+Name = CLAY-PAKY_GOLDENSCANHPE
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = iris
+
+Channel = color
+ white,0,0 red_white,8,8 red,16,16 yellow_red,24,24 yellow,33,33 magenta_yellow,41,41 magenta,48,48 green_magenta,57,57 green,66,66 orange_green,74,74 orange,82,82 blue_orange,88,88  blue,97,97 violet_blue,106,106 violet,115,115 white_violet,123,123 spin,128,255
+
+Channel = color
+ white,0,0 white_yel_hole,18,18 yellow_hole,36,36 yel_black_hole,66,66 black_4co_hole,92,92 4colors,108,108 4colors_yellow,128,128 yellow,145,145 yellow_orange,164,164 orange,184,184 orange_warm,201,201 warm,153,237 cold,255,255
+
+Channel = shutter
+ dimmer,0,126 open,134,134 strobe,140,242 open,255,255
+
+Channel = pan
+
+Channel = tilt
+
+Channel = frost
+ open,0,0 lt_frost,64,64 hy_frost,128,128 effect1,192,192 effect2,255,255
+
+Channel = prism
+ open,0,0 prism1,15,15 prism2,25,25 prism3,35,35 prism4,45,45 prism4_rs,51,75 prism4_stop,77,77 prism4_fs,79,100 prism3_rs,102,126 prism3_stop,128,128 prism3_fs,130,151 prism2_rs,153,176 prism2_stop,178,178 prism2_fs,180,202 prism1_rs,204,228 prism1_stop,230,230 prism1_fs,232,255
+
+Channel = focus
+ wide,0,127 narrow,129,255
+
+Channel = gobo
+ full,0,0 gobo1,64,64 gobo2,128,128 gobo3,192,192 gobo4,255,255
+
+Channel = gobo
+ full,0,0 gobo_rot1,64,64 gobo_rot2,128,128 gobo_rot3,192,192 gobo_rot4,255,255
+
+Channel = gobo_rotate
+ position,0,127 clock,128,189 stop,191,191 counterclock,194,255
+

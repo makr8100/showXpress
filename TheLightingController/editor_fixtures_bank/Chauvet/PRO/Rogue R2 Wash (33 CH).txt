@@ -1,0 +1,110 @@
+﻿ViewType = VIEW_TYPE_HEAD_WASH
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/PRO/R2 Wash-2D.png
+
+Channel = pan
+ dimmer,0,255
+
+Channel = upan
+ dimmer,0,255
+
+Channel = tilt
+ dimmer,0,255
+
+Channel = utilt
+ dimmer,0,255
+
+Channel = pantilt_speed
+ dimmer,0,255
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = shutter
+ Closed,0,19 Open,20,24 Fast to slow,25,64 Open,65,69 Fast on/ramp off,70,84 Open,85,89 Ramp off/fast on,90,104 Open,105,109 Random,110,124 Open,125,129 Random fast on/ramp off,130,144 Open,145,149 Random slow on/fast off,150,164 Open,165,169 Pulse,170,184 Open,185,189 Random Pulse,190,204 Open,205,209 Fade on/off,210,224 Open,225,229 Pulse,230,244 Open,245,255
+
+Channel = Red 1
+ dimmer,0,255
+
+Channel = Green 1
+ dimmer,0,255
+
+Channel = Blue 1
+ dimmer,0,255
+
+Channel = White 1
+ dimmer,0,255
+
+Channel = Red 2
+ dimmer,0,255
+
+Channel = Green 2
+ dimmer,0,255
+
+Channel = Blue 2
+ dimmer,0,255
+
+Channel = White 2
+ dimmer,0,255
+
+Channel = Red 3
+ dimmer,0,255
+
+Channel = Green 3
+ dimmer,0,255
+
+Channel = Blue 3
+ dimmer,0,255
+
+Channel = White 3
+ dimmer,0,255
+
+Channel = Red 4
+ dimmer,0,255
+
+Channel = Green 4
+ dimmer,0,255
+
+Channel = Blue 4
+ dimmer,0,255
+
+Channel = White 4
+ dimmer,0,255
+
+Channel = Red 5
+ dimmer,0,255
+
+Channel = Green 5
+ dimmer,0,255
+
+Channel = Blue 5
+ dimmer,0,255
+
+Channel = White 5
+ dimmer,0,255
+
+Channel = color_macro
+ Open,0,4 Color 1,5,9 Color 2,10,14 Color 3,15,19 Color 4,20,24 Color 5,25,29 Color 6,30,34 Color 7,35,39 Color 8,40,44 Color 9,45,49 Color 10,50,54 Color 11,55,59 Color 12,60,64 Color 13,65,69 Color 14,70,74 Color 15,75,79 Color 16,80,84 Color 17,85,89 Color 18,90,94 Color 19,95,99 Color 20,100,104 Color 21,105,109 Color 22,110,114 Color 23,115,119 Color 24,120,124 Color 25,125,129 Color 26,130,134 Color 27,135,139 Color 28,140,144 Color 29,145,149 Color 30,150,154 Color 31,155,159 Color 32,160,164 Color 33,165,169 Color 34,170,174 Closed,175,179 Clockwise color scroll fast to slow,179,180 Stop on current color,202,207 Counter-clockwise color scroll fast to slow,208,229 Closed,230,234 Color scroll,235,249 Closed,250,255
+
+Channel = Zone Selection
+ Zone 1 2 3 4 5,0,7 Zone 2 3 4 5,8,15 Zone  3 4 5,16,23 Zone 4 5,24,31 Zone 5,32,39 no_function,40,47 Zone 1,48,55 Zone 1 2,56,63 Zone 1 2 3 ,64,71 Zone 1 2 3 4,72,79 Zone 1 2 3 4 5 ,80,87 Zone 1,88,95 Zone 2,96,103 Zone 3,104,111 Zone 4,112,119 Zone 5,120,127 Zone 1 2,128,135 Zone 2 3,136,143 Zone 3 4,144,151 Zone 4 5,152,159 Zone 1 5,160,167 Zone 1 2 3,168,175 Zone 2 3 4,176,183 Zone 3 4 5,184,191 Zone  1 4 5,192,199 Zone 1 2 5,200,207 Zone 1 2 3 4,208,215 Zone  2 3 4 5,216,223 Zone 1 3 4 5,224,231 Zone 1 2 4 5,232,239 Zone 1 2 3 5,240,247 Zone 1 2 3 4 5,248,255
+
+Channel = mode
+ no_function,0,15 Ring Macro 1,16,20 Ring Macro 2,21,25 Ring Macro 3,26,30 Ring Macro 4,31,35 Ring Macro 5,36,40 Ring Macro 6,41,45 Ring Macro 7,46,50 Ring Macro 8,51,55 Ring Macro 9,56,60 Ring Macro 10,61,65 Ring Macro 11,66,70 Ring Macro 12,71,75 Ring Macro 13,76,80 Ring Macro 14,81,85 Ring Macro 15,86,90 Ring Macro 16,91,95 Ring Macro 17,96,100 Ring Macro 18,101,105 Ring Macro 19,106,110 Ring Macro 20,111,115 Ring Macro 21,116,120 Ring Macro 22,121,125 Ring Macro 23,126,130 Ring Macro 24,131,135 Color ring macro 1,136,140 Color ring macro 2,141,145 Color ring macro 3,146,150 Color ring macro 4,151,155 Color ring macro 5,156,160 Color ring macro 6,161,165 Color ring macro 7,166,170 Color ring macro 8,171,175 Color ring macro 9,176,180 Color ring macro 10,181,185 Color ring macro 11,186,190 Color ring macro 12,191,195 Color ring macro 13,196,200 Color ring macro 14,201,205 Color ring macro 15,206,210 Color ring macro 16,211,215 Color ring macro 17,216,220 Color ring macro 18,221,225 Color ring macro 19,226,230 Color ring macro 20,231,235 Color ring macro 21,236,240 Color ring macro 22,241,245 Color ring macro 23,246,250 Color ring macro 24,251,255
+
+Channel = effect_speed
+ dimmer,0,255
+
+Channel = zoom
+ dimmer,0,255
+
+Channel = control
+no_function,0,9 Blackout during pan/tilt,10,14 no_function,15,49 Pan reset,50,54 Tilt reset,55,59 Zoom reset,60,64 no_function,65,69 All Reset,70,74 no_function,75,79 Pan/Tilt movement reverse,80,84 Pan movement reverse,85,89 Tilt movement reverse,90,94 Disable pan movement reverse,95,99 Disable tilt movement reverse,100,104 Disable pan/tilt movement reverse,105,109 no_function,110,124 Full fan,125,129 Auto fan,130,134 Fast dimmer curve,135,139 Smooth dimmer curve,140,144 no_function,145,255

@@ -1,0 +1,19 @@
+Name = Dataflower DMX
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = gobo
+ Miscellaneous\closed,0,5 Miscellaneous\strobe,6,39 Miscellaneous\open,40,45 Miscellaneous\gobo1,46,51 Miscellaneous\gobo2,52,57 Miscellaneous\gobo3,58,63 Miscellaneous\gobo4,64,69 Miscellaneous\gobo5,70,75 Miscellaneous\gobo6,76,81 Miscellaneous\gobo7,82,87 Miscellaneous\gobo8,88,93 Miscellaneous\gobo9,94,99 Miscellaneous\gobo10,100,105 Miscellaneous\gobo11,106,111 Miscellaneous\gobo12,112,117 gobo13,118,123 Miscellaneous\open,124,129 Shake 1,130,135 Shake 2,136,141 Shake 3,142,147 Shake 4,148,153 Shake 5,154,159 Shake 6,160,165 Shake 7,166,171 Shake 8,172,177 Shake 9,178,183 Shake 10,184,189 Shake 11,190,195 Shake 12,196,201 Miscellaneous\open,202,207 Miscellaneous\open,208,213 Sound Control,214,225 Rainbow Effect,226,255
+
+Channel = gobo_rotate
+ stop,0,19 left_rotate,20,130 stop,131,149 right_rotate,150,255
+

@@ -1,0 +1,68 @@
+Name = ROBE_WASH575AT
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_575MSR
+ViewAnglePan = 530
+ViewAngleTilt = 280
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = control
+ speed_mode,55,55 time_mode,65,65 black_move,75,75 move_off,85,85 black_color,95,95 color_off,105,105 lamp_on,135,135 pos_reset,145,145 color_reset,155,155 dimmer_reset,175,175 zoom_reset,185,185 reset,205,205 lamp_off,235,235 reserved,255,255
+
+Channel = macro
+ stop,0,0 reserved,15,15 circle,32,63 h_eight,64,95 v_eight,96,127 rectangle,128,159 triangle,160,191 star,192,223 cross,224,255
+
+Channel = macro_speed
+ stop,0,0 right_rotate,1,127 left_rotate,130,255
+
+Channel = color
+ open,0,20 dark_red,21,42 dark_blue,43,63 green,64,84 5500-4200k,85,106 uv,107,127 white,128,128 dark_ed,135,135 dark_blue,147,147 green,159,159 5500-4200k,171,171 uv,183,183 right_rotate,190,215 stop,216,216 left_rotate,218,243 audio,247,247 auto,255,255
+
+Channel = ucolor
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = yellow
+
+Channel = 7200k_3200k
+
+Channel = cmy_speed
+
+Channel = cmy_macro
+ stop,0,0 macro1,11,11 macro2,19,19 macro3,27,27 macro4,35,35 macro5,43,43 macro6,51,51 macro7,59,59 macro8,67,67 macro9,75,75 macro10,83,83 macro11,91,91 macro12,99,99 macro13,107,107 macro14,115,115 macro15,123,123 macro16,131,131 macro17,139,139 macro18,147,147 macro19,155,155 macro20,163,163 macro21,171,171 macro22,179,179 macro23,187,187 macro24,195,195 macro25,203,203 macro26,209,209 macro27,219,219 macro28,227,227 macro29,235,235 random,236,236 audio,247,247 auto,255,255
+
+Channel = effect
+ beam,0,0 beam_index,96,96 beam_rotate,158,158 shaking,255,255
+
+Channel = beam_index
+
+Channel = beam_fine
+
+Channel = iris
+
+Channel = uiris
+
+Channel = shutter
+ closed,0,0 strobe,64,95 pulse_opening,128,143 pulse_closing,144,159 random,192,223 open,255,255
+
+Channel = dimmer
+
+Channel = udimmer
+

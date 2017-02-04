@@ -1,0 +1,33 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = mode
+ dmx,0,50 auto,51,100 auto1,101,150 audio,151,200 random,201,255 
+
+Channel = color
+ black,0,4 red,5,15 green,16,25 blue,26,35 red+green,36,45 green+blue,46,55 blue+red,56,65 red+green+blue,66,75 red on/green strobe,76,85 green on/blue strobe,86,95 blue on/red strobe,96,105 red+green/ alternate strobe,106,115 blue+green/alternate stobe,116,125 blue+red/alternate strobe,126,135 red+green on/strobe,136,145 blue+green on/red strobe,146,155 red+blue on/green strobe,156,165 blue on/green+red strobing,166,175 red on/green+blue strobe,176,185 green on/red+blue strobing,186,195 blue on/red+green alternate strobe,196,205 red on/green+blue alternate strobe,206,215 green on/red+blue alternate strobe,216,225 red+blue+green alternate strobe,226,255 
+
+Channel = color
+ no_function,0,4 strobe,5,254 audio,255,255 
+
+Channel = motor
+ no_function,0,4 right_rotate,5,127 stop,128,133 left_rotate,134,255 
+
+Channel = motor
+ no_function,0,4 macro_1,5,56 macro_2,57,112 macro_3,113,168 macro_4,169,255 
+
+Channel = motor
+ no_function,0,4 right_rotate,5,127 stop,128,133 left_rotate,134,255 
+
+Channel = motor
+ no_function,0,4 macro_1,5,56 macro_2,57,112 macro_3,113,168 macro_4,169,255 
+

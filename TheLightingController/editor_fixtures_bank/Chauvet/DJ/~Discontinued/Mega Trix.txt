@@ -1,0 +1,21 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = TRUE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/Mega Trix.png
+
+Channel = mode
+ auto,0,255
+
+Channel = effect_speed
+ Auto Program Speed ,1,255
+
+Channel = shutter
+ strobe,1,255
+

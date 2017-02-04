@@ -1,0 +1,54 @@
+﻿ViewType = VIEW_TYPE_HEAD_WASH
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 450
+ViewAngleTilt = 300
+ViewAngleBeam = 28
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = control
+ no_function,0,0 RGBW_color_mixing_mode,35,35 CMY_color_mixing_mode,45,45 blackout_moves,75,75 reset_xy,145,145 reset,205,205 
+
+Channel = red
+
+Channel = ured
+
+Channel = green
+
+Channel = ugreen
+
+Channel = blue
+
+Channel = ublue
+
+Channel = white
+
+Channel = uwhite
+
+Channel = CTC
+ no_function,0,0 1900Kto2700K,1,255 
+
+Channel = color_macro
+ no_function,0,0 2700K,3,3 3200K,6,6 4200K,8,8 5600K,11,11 8000K,14,14 rotate_fade,248,248 rotate,249,249 macro_1,250,250 macro_2,251,251 macro_3,252,252 macro_4,253,253 macro_5,254,254 macro_6,255,255 
+
+Channel = shutter
+ closed,0,0 strobe,64,95 pulse_open,128,143 pulse_close,144,159 random_strobe,192,223 open,255,255 
+
+Channel = dimmer
+
+Channel = udimmer
+

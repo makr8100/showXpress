@@ -1,0 +1,23 @@
+Name = AMERICAN-DJ_TRIPHASE
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = color
+
+Channel = effect
+ stop,0,0 right_rotate,10,120 left_rotate,135,245 stop,255,255
+
+Channel = shutter
+ open,0,0 strobe,2,255
+
+Channel = dimmer
+

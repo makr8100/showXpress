@@ -1,0 +1,42 @@
+﻿ViewType = VIEW_TYPE_COLOR_PANEL
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = mode
+ auto1,0,29 auto Green,30,59 auto RED,60,89 auto YELLOW,90,119 audio,120,149 audio GREEN,150,179 audio RED,180,209 audio YELLOW,210,239 dmx,240,255
+
+Channel = pattern
+ macro_1,0,7 macro_2,8,15 macro_3,16,23 macro_4,24,31 macro_5,32,39 macro_6,40,47 macro_7,48,55 macro_8,56,63 macro_9,64,71 macro_10,72,79 macro_11,80,87 macro_12,88,95 macro_13,96,103 macro_14,104,111 macro_15,112,119 macro_16,120,127 macro_17,128,135 macro_18,136,143 macro_19,144,151 macro_20,152,159 macro_21,160,167 macro_22,168,175 macro_23,176,183 macro_24,184,191 macro_25,192,199 macro_26,200,207 macro_27,208,215 macro_28,216,223 macro_29,224,231 macro_30,232,239 macro_31,240,247 ?,248,255
+
+Channel = color_macro
+ closed,0,24 linear_colors,25,49 RED,50,74 GREEN,75,99 YELLOW,100,124 SWAP RED_GREEN,125,149 SWAP GREEN_YELLOW,150,174 SWAP RED_YELLOW,175,199 SWAP RED_GREEN_YELLOW,200,224 RANDOM,225,255
+
+Channel = laser
+ STOP,0,24 Strobe CH3 25-124 color 125-255,25,255
+
+Channel = zoom
+ ZOOM 100% --5%,0,127 Zoom In increasing spd 100%-5%,128,169 Zoom Out Increasing spd 5%-100%,170,209 Zoom Bounce ,210,255
+
+Channel = X_Axis_Moving
+ X Index 128 positions ,0,127 Move Axis  clockwise increasing ,128,191 Move Axis Counter255 clockwise increasing ,192,255
+
+Channel = Y_Axis_Moving
+ Y Index 128 positions ,0,127 Move Axis  clockwise increasing ,128,191 Move Axis  Counter clockwise increasing ,192,255
+
+Channel = X_Axis_Roling
+ X Axis Roll INDEX 0-359dgr,0,127 X Axis Roll Clockwise increasing ,128,191 X Axis Roll Cnt Clockwise increasing spd,192,255
+
+Channel = Y_Axis_Roling
+ Y Axis Roll INDEX 0-359dgr,0,127 Y Axis Roll Clockwise increasing ,128,191 Y Axis Roll Cnt Clockwise increasing spd,192,255
+
+Channel = Z_Axis_Roling
+ Z Axis Roll INDEX 0-359dgr,0,127 Z Axis Roll Clockwise increasing ,128,191 Z Axis Roll Cnt Clockwise increasing ,192,255
+

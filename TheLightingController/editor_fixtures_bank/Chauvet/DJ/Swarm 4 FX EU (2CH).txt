@@ -1,0 +1,18 @@
+﻿ViewType = VIEW_TYPE_COLOR_PANEL
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/Swarm 4 FX.png
+
+Channel = mode
+ no_function,0,9 auto,10,21 auto1,22,33 auto2,34,45 Auto 3,46,57 Auto 4,58,69 Auto 5,70,81 Auto 6,82,93 Auto 7,94,105 Auto 8,106,117 Auto 9,118,127 audio,128,140 audio1,141,153 audio2,154,166 Audio 3,167,179 Audio 4,180,192 Audio 5,193,205 Audio 6,206,218 Audio 7,219,231 Audio 8,232,244 Audio 9,245,255
+
+Channel = speed_control
+ Program Speed,0,255
+

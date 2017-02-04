@@ -1,0 +1,54 @@
+Name = CLAY-PAKY_STAGE_SCAN
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = iris
+
+Channel = color
+ white,0,0 white+hot,12,12 hot_filter,20,20 hot+cold_filte,28,28 cold_filter,36,36 cold_+_red,44,44 red,52,52 red+yellow,60,60 yellow_hole,68,68 yellow+blue_ho,76,76 blue_hole,84,84 blue+uv,92,92 uv_filter,100,100 uv+4colours,108,108 4_colours,116,116 4colours+white,124,124 rainbow,128,255
+
+Channel = frost
+ white,0,0 frost+hole,68,68 light_frost,120,120 heavy_frost,172,172 5_face_prism,255,255
+
+Channel = shutter
+ dimmer,0,128 open,132,132 speed_strobe,140,243 open,255,255
+
+Channel = pan
+
+Channel = tilt
+
+Channel = beam
+ 24.9°,0,0 21.2°,63,63 18.2°,106,106 16°,149,149 14.5°,192,192 13.1°,255,255
+
+Channel = focus
+
+Channel = prism
+ white,0,0 4_face_prism,72,72 2_face_prism,124,124 cylindrical,176,176 8_face_prism,255,255
+
+Channel = prism_rotate
+ 0°_position,0,0 90°_position,21,21 180°_position,42,42 270°_position,63,63 360°_position,64,64 450°_position,106,106 540°_position,127,127 rotation,128,190 stop,192,192 rotation,193,255
+
+Channel = gobo
+ off,0,0 gobo1,64,64 gobo2,128,128 gobo3,192,192 gobo4,255,255
+
+Channel = gobo
+ off,0,0 gobo1,64,64 gobo2,128,128 gobo3,192,192 gobo4,255,255
+
+Channel = gobo_rotate
+ 0°_position,0,0 90°_position,21,21 180°_position,42,42 270°_position,63,63 360°_position,64,64 450°_position,106,106 540°_position,127,127 rotation,128,190 stop,192,192 rotation,193,255
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = yellow
+
+Channel = control
+ lamp_off,0,0 lamp_on,255,255
+

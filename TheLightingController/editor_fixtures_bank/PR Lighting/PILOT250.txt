@@ -1,0 +1,48 @@
+Name = PEARL-RIVER_PILOT250
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_250MSR
+ViewAnglePan = 370
+ViewAngleTilt = 265
+ViewAngleBeam = 12
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = shutter
+ closed,0,0 strobe,10,249 open,255,255
+
+Channel = dimmer
+
+Channel = color
+ white,0,0 red,24,24 yellow,45,45 light_green,65,65 pink,85,85 uv,105,105 cyan,125,125 green,145,145 blue,165,165 orange,185,185 clock,200,225 stop,227,227 counterclock,230,255
+
+Channel = gobo
+ Miscellaneous\open,0,0 Miscellaneous\gobo1,35,35 Miscellaneous\gobo2,62,62 Miscellaneous\gobo3,85,85 Miscellaneous\gobo4,112,112 Miscellaneous\gobo5,135,135 Miscellaneous\gobo6,161,161 Miscellaneous\gobo7,186,186 Miscellaneous\rotate,200,255
+
+Channel = pan
+
+Channel = tilt
+
+Channel = focus
+
+Channel = gobo
+ Miscellaneous\open,0,0 Miscellaneous\gobo1,47,47 Miscellaneous\gobo2,79,79 Miscellaneous\gobo3,110,110 Miscellaneous\gobo4,143,143 Miscellaneous\gobo5,175,175 Miscellaneous\gobo6,207,207 Miscellaneous\gobo7,255,255
+
+Channel = gobo_rotate
+ index,0,149 stop,151,151 right_rotate,154,201 left_rotate,208,255
+
+Channel = prism
+ open,0,0 prism,10,10 left_rotate,16,106 stop,109,109 right_rotate,111,199 left_rotate,202,202 macro1,207,207 macro2,212,212 macro3,217,217 macro4,222,222 macro5,227,227 macro6,232,232 macro7,237,237 macro8,242,242 macro9,247,247 macro10,255,255
+
+Channel = effect
+ open,0,0 15°6,75,75 19°5,125,125 3200°K,175,175 7800°K,255,255
+
+Channel = pantilt_speed
+
+Channel = upan
+
+Channel = utilt
+
+Channel = control
+ lamp off,115,115 lamp on,170,170 reset,230,230
+

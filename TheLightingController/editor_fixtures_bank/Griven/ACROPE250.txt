@@ -1,0 +1,45 @@
+Name = GRIVEN_ACROPE250
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = iris
+ aperture,0,167 strobe,168,239 closed,255,255
+
+Channel = color
+ white,0,0 white_violet,27,27 violet,35,35 violet_yellow,43,43 yellow,51,51 yellow_blue,59,59 blue,67,67 blue_red,75,75 red,83,83 red_green,91,91 green,99,99 green_orange,107,107 orange,115,115 orange_blue2,123,123 blue2,131,131 blue2_magenta,139,139 magenta,147,147 magenta_blue3,155,155 blue3,163,163 blue3_white,171,171 rotate,176,255
+
+Channel = gobo
+ off,0,0 gobo_rot1,41,41 gobo_rot2,69,69 gobo_rot3,98,98 gobo_rot4,125,125 gobo_rot5,153,153 gobo_rot6,181,181 gobo_rot7,209,209 gobo_rot8,239,239 full,255,255
+
+Channel = shutter
+
+Channel = pan
+
+Channel = tilt
+
+Channel = gobo_rotate
+ stop,0,0 counterclock,6,124 stop,128,128 clock,132,251 stop,255,255
+
+Channel = dimmer
+
+Channel = gobo
+ off,0,0 gobo1,24,24 gobo2,40,40 gobo3,56,56 gobo4,72,72 gobo5,88,88 gobo6,105,105 gobo7,121,121 gobo8,137,137 gobo9,153,153 gobo10,169,169 gobo11,184,184 rotate,192,255
+
+Channel = prism
+ off,0,0 5_faces,62,62 3_faces,188,188 frost,220,220 full,255,255
+
+Channel = prism_rotate
+ stop,0,0 counterclock,6,112 stop,128,128 clock,144,251 stop,255,255
+
+Channel = focus
+
+Channel = upan
+
+Channel = utilt
+

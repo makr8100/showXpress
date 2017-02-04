@@ -1,0 +1,50 @@
+Name = SAGITTER_MOVINGSPOT250
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = pan
+
+Channel = tilt
+
+Channel = upan
+
+Channel = utilt
+
+Channel = pantilt_speed
+ speed,0,248 blackout_movin,255,255
+
+Channel = control
+ lamp_on,0,0 on_fan_min,126,126 reset,132,132 lamp_off,232,232
+
+Channel = color
+ white,0,0 turquoise,10,10 red,21,21 cyan,32,32 green,42,42 magenta,53,53 light_blue,64,64 yellow,74,74 green,85,85 pink,96,96 blue,106,106 orange,117,117 clock,128,190 stop,192,192 counterclock,194,255
+
+Channel = reserved
+
+Channel = prism
+ open,0,0 3_facet,96,159 macro1,164,164 macro2,172,172 macro3,180,180 macro4,188,188 macro5,196,196 macro6,204,204 macro7,212,212 macro8,220,220 macro9,228,228 macro10,235,235 macro11,244,244 macro12,255,255
+
+Channel = prism_rotate
+ clock,1,126 stop,128,128 counterclock,130,255
+
+Channel = gobo
+ full,0,0 multicolor,45,45 glass,80,80 metal1,110,110 metal2,140,140 metal3,180,180 metal4,210,210 rotate,224,255
+
+Channel = gobo_rotate
+ position,0,127 clock,128,191 stop,192,192 counterclock,194,255
+
+Channel = reserved
+
+Channel = focus
+
+Channel = shutter
+ closed,0,0 open,40,40 strobe,64,95 open,110,110 pulse,128,159 open,170,170 random_strobe,192,223 open,255,255
+
+Channel = dimmer
+

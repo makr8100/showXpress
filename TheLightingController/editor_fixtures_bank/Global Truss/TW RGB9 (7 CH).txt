@@ -1,0 +1,28 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = color_macro
+ bastard amber,0,7 medium amber,8,15 pale amber gold,16,23 gallo gold,24,31 golden amber,32,39 light red,40,47 medium red,48,55 medium pink,56,63 broadway pink,64,71 follies pink,72,79 light lavendar,80,87 special lavendar,88,95 lavendar,96,103 indigo,104,111 hemsley blue,112,119 tipton blue,120,127 light steel blue,128,135 light sky blue,136,143 sky blue,144,151 brilliant blue,152,159 light green blue,160,167 bright blue,168,175 primary blue,176,183 congo blue,184,191 pale yellow green,192,199 moss green,200,207 primary green,208,215 double ctb,216,223 full ctb,224,231 half ctb,232,239 dark blue,240,247 white,248,255 
+
+Channel = strobe_speed
+ no_function,0,15 strobe,16,255 
+
+Channel = mode
+ no_function,0,127 color mixing,128,159 rgb changing,160,191 7 color change,192,223 sound active,224,255 
+
+Channel = dimmer
+

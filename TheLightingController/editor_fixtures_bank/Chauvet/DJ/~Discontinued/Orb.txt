@@ -1,0 +1,14 @@
+﻿ViewType = VIEW_TYPE_COLOR_SPHERE
+ViewAnglePan = 0
+ViewAngleTilt = 0
+ViewAngleBeam = 0
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+2DViewImage = Chauvet/Orb.png
+
+Channel = effect_macro
+ no_function,0,89 auto,90,175 audio,176,255
+

@@ -1,0 +1,18 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED60W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 0
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = dimmer
+
+Channel = color_macro
+ no_function,0,10 macro_1,11,50 macro_2,51,80 macro_3,81,110 macro_4,111,140 macro_5,141,255
+
+Channel = zoom
+

@@ -1,0 +1,56 @@
+Name = E-LITE_SERVOSPOT575
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 530
+ViewAngleTilt = 280
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+ tracking,0,0 speed,2,249 black_col,251,251 black_col&mov,255,255
+
+Channel = control
+ fan,0,127 lamp-on_reset,134,134 lamp-off,234,234
+
+Channel = color
+ white,0,0 light_blue,13,13 red,26,26 blue,38,38 light_green,51,51 yellow,64,64 magenta,77,77 cyan,90,90 green,102,102 orange,115,115 clock,128,190 stop,192,192 counterclock,194,255
+
+Channel = color
+ white,0,0 dark_red,18,18 dark_blue,30,30 pink,40,40 cyan,52,52 magenta,65,65 yellow,78,78 5500-4200k,90,90 3200-4100k,102,102 uv,112,112 white,124,124 macro_color,255,255
+
+Channel = effect
+ open,0,0 right_rotate,2,63 stop,64,64 left_rotate,66,127 macro_1,132,132 macro_2,140,140 macro_3,148,148 macro_4,156,156 macro_5,164,164 macro_6,172,172 macro_7,180,180 macro_8,188,188 macro_9,196,196 macro_10,204,204 macro_11,212,212 macro_13,228,228 macro_14,236,236 macro_15,244,244 macro_16,255,255
+
+Channel = gobo
+ Miscellaneous\open,0,0 gobo1,12,12 gobo2,20,20 gobo3,28,28 gobo4,36,36 gobo5,44,44 gobo6,52,52 gobo7,60,60 gobo8,68,68 gobo9,76,76 gobo1_shake,88,88 gobo2_shake,104,104 gobo3_shake,120,120 gobo4_shake,136,136 gobo5_shake,150,150 gobo6_shake,170,170 gobo7_shake,186,186 gobo8_shake,200,200 gobo9_shake,216,216 Miscellaneous\rotate,224,255
+
+Channel = gobo
+ Miscellaneous\open,0,0 metal_1,48,48 metal_2,78,78 metal_3,110,110 dichroic_1,145,145 dichroic_2,175,175 glass,210,210 Miscellaneous\rotate,255,255
+
+Channel = gobo_rotate
+ index,0,127 right_rotate,128,190 stop,192,192 left_rotate,194,255
+
+Channel = iris
+ index,0,179 closed,185,185 pulse_closing,192,223 pulse_opening,224,255
+
+Channel = beam
+ zoom_15°,0,85 zoom_18°,86,170 zoom_22°,172,255
+
+Channel = shutter
+ closed,0,0 open,50,50 strobe,64,95 pulse,128,159 open,180,180 random_strobe,192,223 open,255,255
+
+Channel = dimmer
+

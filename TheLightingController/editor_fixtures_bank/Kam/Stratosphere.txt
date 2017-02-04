@@ -1,0 +1,41 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = yellow
+
+Channel = purple
+
+Channel = shutter
+ closed,0,0 open,12,12 strobe,16,131 pulse_open,140,181 pulse_close,190,231 random_strobe,244,244 open,255,255 
+
+Channel = dimmer
+
+Channel = pan_rotation
+ no_function,0,0 right_rotate,31,140 stop,143,143 left_rotate,146,255 
+
+Channel = color_mixing
+ no_function,0,0 mixes,26,205 changes,206,255 
+
+Channel = pan_mixing
+ no_function,0,0 audio,70,70 Red / clockwise rotation,76,105 Green / counter-clockwise rotation,106,135 Blue / clockwise rotation,136,165 White / counter-clockwise rotation,166,195 Yellow / clockwise rotation,196,255 
+
+Channel = control
+ no_function,0,0 reset,80,80 
+

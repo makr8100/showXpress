@@ -1,0 +1,23 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED60W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 20
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Showtec/Light Effects/PowerBeam10Led#40142.png
+
+Channel = dimmer
+
+Channel = color
+ white,0,0 dark_blue,12,12 yellow,20,20 pink,28,28 green,36,36 red,44,44 light_blue,52,52 orange,60,60 index,64,127 right_rotate,128,191 left_rotate,192,255 
+
+Channel = shutter
+ closed,0,0 open,5,5 strobe,8,215 open,255,255 
+
+Channel = control
+ no_function,0,0 blackout_changes,40,40 audio,90,90 blackout_changes&audio,140,140 stop,180,180 right_rotate,211,255 
+

@@ -1,0 +1,40 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = dimmer
+
+Channel = image_source_folder
+ stock,0,0 index,1,255 
+
+Channel = image_select
+ open,0,0 001,1,1 002-255,2,255 
+
+Channel = fade_time_coarse
+
+Channel = fade_time_fine
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = saturation
+
+Channel = mode
+ no_function,0,0 Color in front of image,64,64 Video play once and exit,128,128 Video play once freeze last frame,129,129 Color in front & Video play once,192,192 Color front & Video play once freeze,193,193 Display Software Version,255,255 
+
+Channel = overlay_select
+ no_function,0,0 index,1,255 
+
+Channel = opacity_of_overlay
+

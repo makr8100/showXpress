@@ -1,0 +1,120 @@
+﻿ViewType = VIEW_TYPE_HEAD_WASH
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 24
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = pantilt_function
+ no_function,0,0 blackout_moves,24,24 
+
+Channel = shutter_function
+ open,0,0 pulse_open,16,31 pulse_close,32,47 random_strobe,48,63 
+
+Channel = shutter
+ closed,0,0 strobe,32,223 open,255,255 
+
+Channel = dimmer
+
+Channel = color_macro
+ no_function,0,0 temperature_correction,16,31 right_rotate,32,47 left_rotate,48,63 change_linear,64,79 bounce,80,111 
+
+Channel = color_presets
+ 2000K-2700K,0,223 3200K,228,228 4200K,236,236 5600K,244,244 8000K,255,255 
+
+Channel = color_presets2
+ closed,0,0 red,1,1 green,2,2 blue,3,3 white,4,4 index,255,255 
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = zoom
+
+Channel = foreground
+
+Channel = background
+
+Channel = effect_macro
+ no_function,0,0 macro_1,40,40 macro_2,56,56 macro_3,72,72 macro_4,88,88 macro_5,104,104 macro_6,120,120 macro_7,136,136 macro_8,152,152 macro_9,168,168 macro_10,184,184 macro_11,200,200 macro_12,224,224 macro_13,232,232 macro_14,255,255 
+
+Channel = effect_speed
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = control
+ no_function,0,0 reset,12,12 reset_xy,20,20 reset_others,52,52 display_off,60,60 hibernation,92,92 
+

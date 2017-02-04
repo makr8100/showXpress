@@ -1,0 +1,21 @@
+Name = STAGETECH_LEADERCOLOR
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = shutter
+ on,0,0 strobe,42,255
+
+Channel = gobo
+ full,0,0 gobo1,20,20 gobo2,35,35 gobo3,54,54 gobo4,72,72 gobo5,88,88 gobo8,100,100 gobo9,123,123 gobo10,134,134 gobo11,151,151 gobo12,172,172 gobo13,188,188 gobo14,206,206 gobo15,213,213 gobo16,229,229 gobo17,255,255
+
+Channel = color
+ white,0,0 magenta,24,24 blue,50,50 orange,72,72 green,94,94 pink,112,112 light_blue,142,142 yellow,160,160 red,185,185 uv,204,204 orange,232,232 green,250,250 rotate,255,255
+
+Channel = dimmer
+

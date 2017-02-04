@@ -1,0 +1,39 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/COLORband H9 USB.png
+
+Channel = red
+ 0–100%,0,255 
+
+Channel = green
+ 0–100%,0,255 
+
+Channel = blue
+ 0–100%,0,255 
+
+Channel = amber
+ 0–100%,0,255 
+
+Channel = white
+ 0–100%,0,255 
+
+Channel = uv
+ 0–100%,0,255 
+
+Channel = dimmer
+ dimmer,0,255 
+
+Channel = shutter
+ no_function,0,15 strobe,16,255 
+
+Channel = udimmer
+ Dimmer Speed set from display,0,51 Dimmer speed mode off,52,101 Dimmer speed mode 1 fast,102,152 Dimmer speed mode 2 medium,153,203 Dimmer speed mode 3 slow,204,255 
+

@@ -1,0 +1,34 @@
+﻿ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_LAMP575W
+ViewAnglePan = 180
+ViewAngleTilt = 90
+ViewAngleBeam = 19
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Contest/Discontinued Products/SCN-950.png
+
+Channel = color
+ white,0,12 red,13,25 blue,26,38 dark_green,39,51 yellow,52,64 magenta,65,77 amber,78,90 green,91,103 pink,104,116 light_blue,117,127 right_rotate,128,187 stop,188,193 left_rotate,194,255 
+
+Channel = gobo
+ Miscellaneous/open,0,13 Contest/GM019,14,27 Contest/GM021,28,41 Contest/GM064,42,55 Contest/GM041,56,69 Contest/GM034,70,83 Contest/GM033,84,97 Contest/GM010,98,115 Miscellaneous/shake_gobo1,116,135 Miscellaneous/shake_gobo2,136,155 Miscellaneous/shake_gobo3,156,175 Miscellaneous/shake_gobo4,176,195 Miscellaneous/shake_gobo5,196,215 Miscellaneous/shake_gobo6,216,235 Miscellaneous/shake_gobo7,236,255 
+
+Channel = gobo_rotate
+ stop,0,7 right_rotate,8,127 stop,128,135 left_rotate,136,255 
+
+Channel = shutter
+ closed,0,31 dimmer,32,63 strobe,64,95 open,96,127 pulse_strobe,128,159 open,160,191 random_strobe,192,223 open,224,255 
+
+Channel = pan
+
+Channel = tilt
+
+Channel = pantilt_speed
+ index,0,225 blackout_moves,226,235 blackout_changes,236,245 no_function,246,255 
+
+Channel = control
+ step_colors,0,19 linear_colors,20,39 no_function,40,79 reset_motors,80,99 macro_1,100,119 macro_2,120,139 macro_3,140,159 macro_4,160,179 macro_5,180,199 macro_6,200,219 macro_7,220,239 macro_8,240,255 
+

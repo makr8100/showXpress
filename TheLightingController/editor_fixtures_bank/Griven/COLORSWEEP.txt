@@ -1,0 +1,25 @@
+Name = GRIVEN_COLORSWEEP
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = focus
+
+Channel = yellow
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = pan
+
+Channel = tilt
+
+Channel = shutter
+ dimmer,0,136 closed,152,152 strobe,192,224 closed,232,232 open,255,255
+

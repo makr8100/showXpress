@@ -1,0 +1,21 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = mode
+ source_switch,0,0 dmx_control,90,90 auto,160,160 audio,255,255 
+
+Channel = pattern
+
+Channel = special_effects
+ pattern_left_right,0,127 adjustment_left_right,128,255 
+
+Channel = up_down
+

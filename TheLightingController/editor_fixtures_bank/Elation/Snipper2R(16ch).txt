@@ -1,0 +1,54 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = color
+ white,0,0 light_red,6,6 blue,10,10 green,15,15 yellow,19,19 orange,24,24 magenta,28,28 lavendar,33,33 light_nk,37,37 yellow_green,42,42 peacock_blue,46,46 medium_pink,55,55 medium_purple,56,56 pineapple_yellow,60,60 congo_blue,64,64 white,67,67 right_rotate,129,190 stop,192,192 left_rotate,194,255 
+
+Channel = gobo
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,11,11 Miscellaneous/gobo2,18,18 Miscellaneous/gobo3,26,26 Miscellaneous/gobo4,33,33 Miscellaneous/gobo5,41,41 Miscellaneous/gobo6,48,48 Miscellaneous/gobo7,56,56 Miscellaneous/gobo8,63,63 Miscellaneous/gobo9,71,71 Miscellaneous/gobo10,78,78 Miscellaneous/gobo11,86,86 Miscellaneous/gobo12,93,93 Miscellaneous/gobo13,101,101 Miscellaneous/gobo14,109,109 Miscellaneous/gobo15,116,116 Miscellaneous/gobo16,123,123 Miscellaneous/gobo17,130,130 Miscellaneous/right_rotate,134,194 Miscellaneous/left_rotate,195,255 
+
+Channel = effect_macro
+ no_function,0,0 macro_1,12,12 macro_2,21,21 macro_3,30,30 macro_4,38,38 macro_5,47,47 macro_6,54,54 macro_7,63,63 macro_8,72,72 macro_9,80,80 macro_10,88,88 macro_11,97,97 macro_12,105,105 macro_13,114,114 macro_14,123,123 macro_15,131,131 macro_16,140,140 macro_17,148,148 macro_18,157,157 macro_19,165,165 macro_20,174,174 macro_21,183,183 macro_22,191,191 macro_23,200,200 macro_24,208,208 macro_25,217,217 macro_26,225,225 macro_27,233,233 macro_28,241,241 macro_29,255,255
+
+Channel = patern_rotation
+ stop,0,0 right_rotate,10,120 stop,130,130 left_rotate,142,245 stop,255,255 
+
+Channel = horiz_vert
+ stop,0,0 right_rotate,10,120 stop,130,130 left_rotate,135,245 stop,255,255 
+
+Channel = zoom
+ index,0,127 slow_to_fast,128,255 
+
+Channel = scan
+ index,0,63 shaking,64,127 right_rotate,128,189 stop,192,192 left_rotate,194,255 
+
+Channel = prism
+
+Channel = prism_rotate
+ index,0,127 right_rotate,128,189 stop,192,192 left_rotate,194,255 
+
+Channel = shutter
+ closed,0,0 open,12,12 strobe,16,116 pulse_close,140,181 pulse_open,190,231 random_strobe,242,242 open,255,255 
+
+Channel = dimmer
+
+Channel = control
+ no_function,0,0 lamp_on,50,50 lamp_off,70,70 reset,82,82 reset_xy,86,86 reset_color,89,89 reset_gobo,92,92 reset_shutter,95,95 reset_others,98,98 blackout_moves,105,105 
+

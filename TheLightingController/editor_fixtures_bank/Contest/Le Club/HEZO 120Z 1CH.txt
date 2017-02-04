@@ -1,0 +1,15 @@
+﻿ViewType = VIEW_TYPE_HEAD_WASH
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = TRUE
+ViewReverseTilt = TRUE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Contest/Club series/HEZO-120Z .png
+
+Channel = animation
+ closed,0,7 pattern_01,8,57 pattern_02,58,107 pattern_03,108,157 pattern_04,158,207 audio,208,255 
+

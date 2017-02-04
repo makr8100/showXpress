@@ -1,0 +1,26 @@
+Name = Scorpion Sky
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = control
+ closed,0,30 dmx,31,100 auto,101,175 audio,176,255
+
+Channel = effect
+
+Channel = pan
+
+Channel = tilt
+
+Channel = beam
+
+Channel = effect_speed
+

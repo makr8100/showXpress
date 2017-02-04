@@ -1,0 +1,17 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 11
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = white
+ no_function,0,10 3200k,11,50 3400k,51,80 4500k,81,110 4900k,111,140 5600k,141,255 
+

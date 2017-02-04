@@ -1,0 +1,21 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 26
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = TRUE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/COREpar 80 USB.png
+
+Channel = red
+ 0~100%,0,255
+
+Channel = green
+ 0~100%,0,255
+
+Channel = blue
+ 0~100%,0,255
+

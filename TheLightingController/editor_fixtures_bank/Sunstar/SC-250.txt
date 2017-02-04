@@ -1,0 +1,28 @@
+﻿ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 170
+ViewAngleTilt = 80
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = pan
+
+Channel = tilt
+
+Channel = color
+ white,0,15 blue,16,31 orange,32,47 green,48,63 red,64,79 violet,80,95 yellow,96,111 pink,112,127 right_rotate,128,191 left_rotate,192,255
+
+Channel = gobo
+ ok_for_3DView/open,0,15 Chauvet/super star,16,31 Chauvet/whire pool,32,47 Chauvet/fan_4blades,48,63 Chauvet/square cut,64,79 Chauvet/star 3D,80,95 Chauvet/54,96,111 Chauvet/wb,112,127 ok_for_3DView/rotate,128,255
+
+Channel = gobo_rotate
+ right_rotate,0,135 left_rotate,136,255
+
+Channel = dimmer
+ dimmer,0,139 strobe,140,249 open,250,255
+

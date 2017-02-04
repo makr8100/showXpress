@@ -1,0 +1,22 @@
+﻿ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Contest/Discontinued Products/SCN-835.png
+
+Channel = shutter
+ lapm_off,0,0 shutter,8,32 open,48,48 strobe,65,241 closed,248,248 reset,255,255 
+
+Channel = color
+ closed,0,0 white,25,25 red,42,42 blue,59,59 yellow,76,76 white,93,93 orange,110,110 magenta,127,127 green,144,144 2_colors,161,161 turquoise,178,178 yellow,195,195 4_colors,212,212 blue,229,229 rotate,238,255 
+
+Channel = pan
+
+Channel = tilt
+

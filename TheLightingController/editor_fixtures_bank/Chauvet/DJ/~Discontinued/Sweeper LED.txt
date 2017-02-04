@@ -1,0 +1,36 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/Sweeper LED.png
+
+Channel = pod
+ no_function,0,10 Red,11,45 Green,46,80 Blue,81,115 Yellow,116,150 Magenta,151,185 Cyan,186,220 White,221,255
+
+Channel = pod
+ no_function,0,10 Red,11,45 Green,46,80 Blue,81,115 Yellow,116,150 Magenta,151,185 Cyan,186,220 White,221,255
+
+Channel = pod
+ no_function,0,10 Red,11,45 Green,46,80 Blue,81,115 Yellow,116,150 Magenta,151,185 Cyan,186,220 White,221,255
+
+Channel = pod
+ no_function,0,10 Red,11,45 Green,46,80 Blue,81,115 Yellow,116,150 Magenta,151,185 Cyan,186,220 White,221,255
+
+Channel = pod
+ no_function,0,10 Red,11,45 Green,46,80 Blue,81,115 Yellow,116,150 Magenta,151,185 Cyan,186,220 White,221,255
+
+Channel = pod
+ no_function,0,10 Red,11,45 Green,46,80 Blue,81,115 Yellow,116,150 Magenta,151,185 Cyan,186,220 White,221,255
+
+Channel = strobe_effect
+ no_function,0,9 strobe,10,255
+
+Channel = mode
+ Individual pod control with strobe (channels 1~7),0,10 Automatic 1,11,47 Automatic 2,48,95 Automatic 3,96,119 Automatic 4,120,144 Automatic 5,145,167 Automatic 6,168,191 Automatic 7,192,215 Automatic 8,216,239 Sound-active,240,255 
+

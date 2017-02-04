@@ -1,0 +1,37 @@
+Name = NOVA (540°-8bits)
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_250MSR
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 19
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = color
+ white,0,14 red,15,29 blue,30,44 dark_green,45,59 yellow,60,74 magenta,75,89 orange,90,104 dark_blue,105,119 pink,120,127 right_rotate,128,189 stop,190,193 left_rotate,194,255
+
+Channel = gobo
+ Miscellaneous\open,0,9 Contest\GM073,10,19 Contest\GM019,20,29 Contest\GM074,30,39 Contest\GM064,40,49 Contest\GM016,50,59 Contest\GD022,60,69 Contest\GD023,70,79 Miscellaneous\shake_gobo1,80,95 Miscellaneous\shake_gobo2,96,111 Miscellaneous\shake_gobo3,112,127 Miscellaneous\shake_gobo4,128,143 Miscellaneous\shake_gobo5,144,159 Miscellaneous\shake_gobo6,160,175 Miscellaneous\shake_gobo7,176,191 Miscellaneous\rotate,192,255
+
+Channel = gobo_rotate
+ index,0,127 right_rotate,128,189 stop,190,193 left_rotate,194,255
+
+Channel = pantilt_speed
+ fade_speed,0,225 blackout_moves,226,235 blackout_changes,236,245 no_function,246,255
+
+Channel = pan
+
+Channel = tilt
+
+Channel = shutter
+ closed,0,31 open,32,63 lighting_strobe,64,95 open,96,127 pulse_strobe,128,159 open,160,191 random_strobe,192,223 open,224,255
+
+Channel = dimmer
+
+Channel = effect_macro
+ step_colors,0,19 linear_colors,20,39 no_function,40,79 reset_motors,80,99 macro_1,100,119 macro_2,120,139 macro_3,140,150 macro_4,160,179 macro_5,180,199 macro_6,200,219 macro_7,220,239 macro_8,240,255
+

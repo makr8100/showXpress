@@ -1,0 +1,58 @@
+Name = Legend 6000X
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_575MSR
+ViewAnglePan = 570
+ViewAngleTilt = 270
+ViewAngleBeam = 30
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 13158600
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = shutter
+ closed,0,1 open,2,7 strobe,8,63 open,64,71 pulse_strobe,72,127 open,128,135 pulse_strobe,136,191 open,192,199 random_strobe,200,253 open,255,255
+
+Channel = color
+ white,0,0 red,27,27 blue,45,45 green,61,61 purple,81,81 5500-4200k,99,99 3200-4100k,117,117 right_rotate,128,187 stop,192,192 left_rotate,196,255
+
+Channel = cyan
+ new_level,0,255
+
+Channel = magenta
+ new_level,0,255
+
+Channel = yellow
+ new_level,0,255
+
+Channel = color
+ no_function,0,7 macro1,8,15 macro2,20,20 macro3,28,28 macro4,36,36 macro5,44,44 macro6,52,52 macro7,60,60 macro8,68,68 macro9,76,76 macro10,84,84 macro11,92,92 macro12,100,100 macro13,108,108 macro14,116,116 macro15,124,124 macro16,132,132 macro17,140,140 macro18,148,148 macro19,156,156 macro20,164,164 macro21,172,172 macro22,180,180 macro23,188,188 macro24,196,196 macro25,204,204 macro26,212,212 macro27,220,220 macro28,228,228 macro29,236,236 macro30,244,244 macro31,255,255
+
+Channel = frost
+ no_function,0,63 frost,64,127 beam effect 0°,128,143 beam effect 90°,144,144
+
+Channel = zoom
+ dimmer,0,0
+
+Channel = pan
+ new_level,0,255
+
+Channel = tilt
+ new_level,0,255
+
+Channel = upan
+ new_level,0,255
+
+Channel = utilt
+ new_level,0,255
+
+Channel = control
+ pantilt_speed,0,7 no_function,8,63 calibration,64,127 save calibration,128,191 reset,192,255
+
+Channel = control
+ no function,0,0 lamp on after 3s,75,75 lamp off after 3s,180,180
+

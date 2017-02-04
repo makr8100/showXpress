@@ -1,0 +1,27 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Contest/Gamme mini/TRI4U .png
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = dimmer
+ dimmer,0,255 
+
+Channel = shutter
+ open,0,15 lighting_strobe,16,255 
+
+Channel = color_macro
+ closed,0,10 red,11,20 orange,21,30 yellow,31,40 green,41,50 cyan,52,61 blue,62,71 pink,72,81 magenta,82,92 cold_white,93,102 warm_white,103,112 macro_1,113,122 macro_2,123,133 macro_3,134,143 macro_4,144,153 macro_5,154,163 pattern_1,164,174 pattern_2,175,184 pattern_3,185,194 pattern_4,195,204 pattern_5,205,215 pattern_6,216,225 pattern_7,226,235 pattern_8,236,245 audio,246,255 
+

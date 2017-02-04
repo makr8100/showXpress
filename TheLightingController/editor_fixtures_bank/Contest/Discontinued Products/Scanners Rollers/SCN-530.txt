@@ -1,0 +1,22 @@
+﻿ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = TRUE
+ViewReverseIris = TRUE
+ViewColor = 0
+2DViewImage = Contest/Discontinued Products/SCN-835.png
+
+Channel = pan
+
+Channel = tilt
+
+Channel = gobo
+ Miscellaneous/closed,0,15 Contest/Z04771-1,16,17 Contest/Z04771-2,18,25 Contest/Z04771-3,26,33 Contest/Z04771-4,34,42 Contest/Z04771-5,43,50 Contest/Z04771-6,51,58 Contest/Z04771-7,59,66 Contest/Z04771-8,67,74 Contest/Z04771-9,75,82 Contest/Z04771-10,83,90 Contest/Z04771-11,91,98 Contest/Z04771-12,99,107 Contest/Z04771-13,108,114 Contest/Z04771-14,115,123 Contest/Z04771-15,124,131 Contest/Z04771-16,132,139 Contest/Z04771-17,140,155 Contest/Z04771-13,156,163 Contest/Z04771-12,164,171 Contest/Z04771-11,172,179 Contest/Z04771-10,180,187 Contest/Z04771-9,188,195 Contest/Z04771-8,196,203 Contest/Z04771-7,204,211 Contest/Z04771-6,212,219 Contest/Z04771-5,220,223 Contest/Z04771-4,224,254 Contest/Z04771-3,255,255 
+
+Channel = shutter
+ closed,0,15 open,16,223 lighting_strobe,224,255 
+

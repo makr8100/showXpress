@@ -1,0 +1,20 @@
+Name = GENI_SHARMA
+
+ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewColor = 16777215
+
+Channel = shutter
+ dimmer,0,159 strobe,160,253 open,255,255
+
+Channel = color
+ white,0,0 magenta,16,16 yellow,32,32 light_blue,48,48 green,64,64 orange,80,80 purple,96,96 red,112,112 dark_blue,128,128 indigo,144,144 rotate,176,255
+
+Channel = gobo
+ Geni\SM-200-CH2-0-23,0,0 Geni\SM-200-CH2-24-46,24,24 Geni\SM-200-CH2-47-69,47,47 Geni\SM-200-CH2-70-93,70,70 Geni\SM-200-CH2-94-116,94,94 Geni\SM-200-CH2-117-139,117,117 Geni\SM-200-CH2-140-163,140,140 Miscellaneous\open,164,164 wash+g2,187,187 wash+g4,210,210 wash+color,233,233 Miscellaneous\open,255,255
+

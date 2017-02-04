@@ -1,0 +1,26 @@
+Name = GENIUS_MIZAR2
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = gobo_rotate
+ clock,0,126 stop,127,127 counterclock,130,255
+
+Channel = color
+ color1,0,0 color2,24,24 color3,44,44 color4,64,64 color5,84,84 color6,104,104 color7,124,124 color8,144,144 color9,164,164 color10,184,184 rotate,190,255
+
+Channel = gobo
+ gobo1,0,0 gobo2,64,64 gobo3,96,96 gobo4,128,128 gobo5,160,160 gobo6,192,192 gobo7,255,255
+
+Channel = shutter
+ closed,0,0 on,20,20 strobe,30,255
+
+Channel = pan
+
+Channel = tilt
+

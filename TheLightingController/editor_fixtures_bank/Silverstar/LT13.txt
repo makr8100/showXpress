@@ -1,0 +1,29 @@
+Name = LT13
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 180
+ViewAngleTilt = 50
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = pan
+
+Channel = tilt
+
+Channel = gobo
+
+Channel = vertical
+
+Channel = horizontal
+
+Channel = gobo_rotate
+ new_level,0,255
+
+Channel = control
+ open,0,0 closed,255,255
+

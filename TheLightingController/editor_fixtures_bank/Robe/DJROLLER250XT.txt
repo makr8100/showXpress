@@ -1,0 +1,30 @@
+Name = ROBE_DJROLLER250XT
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_250MSR
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = declination
+
+Channel = roll
+ stop,0,0 right_rotate,1,125 left_rotate,130,255
+
+Channel = color
+ open,0,0 turquoise,11,11 red,19,19 cyan,27,27 light_green,35,35 magenta,43,43 light_blue,51,51 yellow,59,59 green,67,67 pink,75,75 blue,83,83 orange,91,91 uv,99,99 mixed,107,107 mixed,115,115 mixed,123,123 right_rotate,128,189 stop,191,191 left_rotate,194,255
+
+Channel = gobo
+ open,0,0 Miscellaneous\gobo1,35,35 Miscellaneous\gobo2,59,59 Miscellaneous\gobo3,91,91 Miscellaneous\gobo4,115,115 Miscellaneous\gobo5,139,139 Miscellaneous\gobo6,163,163 Miscellaneous\gobo7,187,187 Miscellaneous\gobo8,219,219 Miscellaneous\gobo9,255,255
+
+Channel = gobo_rotate
+ index,0,127 right_rotate,128,189 stop,191,191 left_rotate,194,255
+
+Channel = shutter
+ closed,0,0 dimmer,1,63 strobe,96,127 reset,135,135 pulse_in,160,175 pulse_out,176,191 random_strobe,192,223 open,255,255
+

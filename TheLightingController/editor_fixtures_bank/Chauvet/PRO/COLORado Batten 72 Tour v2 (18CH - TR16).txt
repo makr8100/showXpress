@@ -1,0 +1,66 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/PRO/COLORadoBatten72-2D.png
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = udimmer
+ dimmer,0,255
+
+Channel = red
+ dimmer,0,255
+
+Channel = ured
+ dimmer,0,255
+
+Channel = green
+ dimmer,0,255
+
+Channel = ugreen
+ dimmer,0,255
+
+Channel = blue
+ dimmer,0,255
+
+Channel = ublue
+ dimmer,0,255
+
+Channel = white
+ dimmer,0,255
+
+Channel = uwhite
+ dimmer,0,255
+
+Channel = amber
+ dimmer,0,255
+
+Channel = uamber
+ dimmer,0,255
+
+Channel = color_macro
+ no_function,0,10 R:100% G: 0-100% B:0,11,30 R:100%-0 G:100% B:0,31,50 R:0 G:100% B:0-100%,51,70 R:0 G:100%-0 B:100%,71,90 R:0-100% G:0 B:100%,91,110 R:100% G:0 B:0-100%,111,130 R:100% G:0-100% B0-100%,131,150 R:100%-0 G:100%-0 B:100%,151,170 R:100% G:100% B:100% W:100%,171,200 White 1: 3200K,201,205 White 2: 3400K,206,210 White 3: 4200K,211,215 White 4: 4900K,216,220 White 5: 5600K,221,225 White 6: 5900K,226,230 White 7: 6500,231,235 White 8: 7200,236,240 White 9: 8000K,241,245 White 10: 8500K,246,250 White 11: 10000,251,255
+
+Channel = effect_macro
+ no_function,0,40 Auto 1,41,50 Auto 2,51,60 Auto 3,61,70 Auto 4,71,80 Auto 5,81,90 Auto 6,91,100 Auto 7,101,110 Auto 8,111,120 Auto 9,121,130 Auto 10,131,140 Custom 1,141,150 Custom 2,151,160 Custom 3,161,170 Custom 4,171,180 Custom 5,181,190 Custom 6,191,200 Custom 7,201,210 Custom 8,211,220 Custom 9,221,230 Custom 10 ,231,240
+
+Channel = effect_speed
+ dimmer,0,255
+
+Channel = shutter
+ no_function,0,9 1-20Hz,10,255
+
+Channel = Dimmer Speed
+ Dimmer Speed,0,9 Linear Dimmer,10,29 Dim 1,30,69 Dim 2,70,129 Dim 3,130,189 Dim 4,190,255
+
+Channel = pods
+ Block 1-3,0,4 Block1,5,34 Block 2,35,64 Block 3,65,94 Block 1 & 2,95,124 Block 2 & 3,125,154 Block 1 & 3,155,184 Block 1 & 2 & 3,185,241 no_function,242,255
+

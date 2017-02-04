@@ -1,0 +1,17 @@
+Name = AMERICAN-DJMEGAFLASH
+
+ViewType = VIEW_TYPE_STROBE
+ViewPower = VIEW_POWER_150HTI
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = strobe_speed
+
+Channel = strobe_dimmer
+

@@ -1,0 +1,19 @@
+Name = Followspot 400G
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = color
+ open,0,31 red,32,63 blue,64,95 green,96,127 yellow,128,159 orange,160,191 magenta,192,223 purple,224,255
+
+Channel = dimmer
+ no output,0,4 closed_open,5,249 full outout,250,255
+

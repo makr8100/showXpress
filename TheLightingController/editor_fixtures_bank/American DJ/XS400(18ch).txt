@@ -1,0 +1,54 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = tilt_rotation
+ no_function,0,0 right_rotate,56,127 left_rotate,128,199 
+
+Channel = pan_rotation
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = color_macro
+ no_function,0,0 single_color_change,81,123 color_mix,124,166 color_fade,167,209 color_change,210,249 audio,255,255 
+
+Channel = shutter
+ closed,0,0 strobe,8,139 pulse_open,140,189 pulse_close,190,231 random_strobe,255,255 
+
+Channel = dimmer
+
+Channel = effect_macro
+ no_function,0,0 macro_1,30,30 macro_2,50,50 macro_3,80,80 macro_4,100,100 macro_5,130,130 macro_6,150,150 macro_7,180,180 macro_8,200,200 auto1,216,240 auto2,241,255 
+
+Channel = effect_speed
+
+Channel = pantilt_speed
+
+Channel = control
+ no_function,0,0 blackout_moves,75,75 blackout_changes,95,95 reset,205,205 
+
+Channel = dimmer_mode
+ no_function,0,0 stage,30,30 TV,50,50 architectural,70,70 theater,90,90 dimmer_setting,101,255 
+

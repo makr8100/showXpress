@@ -1,0 +1,33 @@
+Name = MARTIN_SCX500
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 180
+ViewAngleTilt = 72
+ViewAngleBeam = 15
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewColor = 16777215
+
+Channel = shutter
+ open,0,0 strobe,5,68 auto,84,84 reset,255,255
+
+Channel = dimmer
+
+Channel = color
+ white,0,0 blue,15,15 orange,27,27 red,39,39 light_yellow,51,51 pink,63,63 light_blue,75,75 light_red,87,87 light_green,99,99 blue,111,111 pink,123,123 light_blue,135,135 yellow,147,147 red,159,159 green,171,171 mixed,177,177 mixed,183,183 mixed,189,189 mixed,195,195 mixed,201,201 right_rotate,204,229 left_rotate,230,255
+
+Channel = gobo
+ Miscellaneous\open,0,0 Miscellaneous\gobo2,17,17 Miscellaneous\gobo3,29,29 Miscellaneous\gobo4,41,41 Miscellaneous\gobo5,53,53 Miscellaneous\gobo6,65,65 Miscellaneous\gobo7,77,77 Miscellaneous\gobo8,89,89 Miscellaneous\gobo9,101,101 Miscellaneous\gobo10,113,113 Miscellaneous\gobo11,125,125 Miscellaneous\gobo12,137,137 gobo13,149,149 gobo14,161,161 gobo15,173,173 gobo16,185,185 Miscellaneous\right_rotate,192,223 Miscellaneous\left_rotate,224,255
+
+Channel = pan
+
+Channel = tilt
+
+Channel = pantilt_speed
+ tracking,0,0 index,3,255
+
+Channel = wheels_speed
+ tracking,0,0 index,3,255
+

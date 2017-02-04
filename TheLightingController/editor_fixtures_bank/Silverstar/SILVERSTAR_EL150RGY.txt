@@ -1,0 +1,38 @@
+Name = SILVERSTAR_EL150RGY
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = mode
+ audio,0,0 manual,100,100 diode_off,160,160 auto,255,255
+
+Channel = shape
+ line1,0,0 line2,7,7 line3,12,12 special_line,17,17 line_mov1,22,22 line_mov2,27,27 line_mov3,32,32 line_mov4,37,37 line_mov5,42,42 special_line_mov2,47,47 circle_left,62,62 circle_right,67,67 rotate_circle,72,72 rotate_bow,77,77 evolente,82,82 wave,87,87 special_wave,92,92 cross1,97,97 cross2,102,102 room,107,107 specoal_room,112,112 room_right,117,117 rotating_room,122,122 spec_rot_room,127,127 three_corner_right,132,132 star_angels,137,137 five_corner1,142,142 five_corner2,147,147 rotating_big_line,152,152 spec_rot_line,157,157 rotating_line,162,162 big_line,167,167 special_big_line,172,172 flying_bird,177,177 special_flying_bird,182,182 rotating_line1,187,187 rotating_line2,192,192 rotating_line3,197,197 rotating_line4,202,202 jumping_point1,207,207 jumping_point2,212,212 jumping_point3,217,217 stars,222,222 point,227,227 line,232,232 tilled_line,237,237 rotating_line,242,242 room,247,247 circle,255,255
+
+Channel = dot_speed
+
+Channel = line_speed
+
+Channel = pan
+
+Channel = tilt
+
+Channel = size
+
+Channel = pantilt_speed
+ stop,0,0 index,4,239 3s,255,255
+
+Channel = color_mode
+ mode1,0,0 mode2,120,120 mode3,255,255
+
+Channel = color
+ green,0,0 yellow,30,30 red,50,50 color_mode,255,255
+

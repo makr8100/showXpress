@@ -1,0 +1,16 @@
+﻿
+Name = ChromaQ_ColorForce72(mode3)
+XPixels = 8
+YPixels = 1
+LedShape = 1
+Universe = 1
+StartAddress = 1
+Type = 0
+StartCorner = 0
+Orientation = 0
+SnakeMode = 0
+X = 0
+Y = 0
+PixelWidth = 1
+PixelHeight = 1
+DMX_Matrix = 0|3|6|9|12|15|18|21|

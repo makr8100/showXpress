@@ -1,0 +1,42 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 21
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/SlimPAR Pro RGBA.png
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = red
+ Red,0,255
+
+Channel = green
+ Green,0,255
+
+Channel = blue
+ Blue,0,255
+
+Channel = amber
+ amber,0,255
+
+Channel = color_macro
+ no_function,0,10 red 100%/green up/blue 0%,11,30 red down/green100%/blue 0%,31,50 red0%/green100%/blue up,51,70 red0%/green down/blue 100%,71,90 red up/green0%/blue100%,91,110 red 100%/green0%/blue down,111,130 red 100%/green up/blue up,131,150 red down/green down/blue100%,151,170 red 100%/green100%/blue100%/amber100%,171,200 White1: 3200K,201,205 White 2: 3400K,206,210 White 3: 4200K,211,215 White 4: 4900K,216,220 White 5: 5600K,221,225 White 6: 5900K,226,230 White 7: 6500K,231,235 White 8: 7200K,236,240 White 9: 8000K,241,245 White 10: 8500K,246,250 White 11: 1000K,251,255
+
+Channel = shutter
+ Strobe off,0,9 strobe,10,255
+
+Channel = effect_macro
+ no_function,0,51 Auto program 1,52,101 Auto program 2,102,152 Auto program 3,153,203 Auto program 4,204,254 Auto program 5,255,255
+
+Channel = effect_speed
+ Auto program speed ,0,255
+
+Channel = mode
+ Default dimmer speed,0,51 Linear dimmer,52,101 Non-linear dimmer 1,102,152 Non-linear dimmer 2,153,203 Non-linear dimmer 3,204,255
+

@@ -1,0 +1,25 @@
+Name = LED PAR 64-36VW (4CH)
+
+ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = warm_white
+ warm_white(2900k),0,255
+
+Channel = cool_white
+ cool_white(6300K,0,255
+
+Channel = strobe_effect
+ no_function,0,15 dimmer,16,255
+

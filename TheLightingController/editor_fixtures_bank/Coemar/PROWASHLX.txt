@@ -1,0 +1,50 @@
+Name = COEMAR_PROWASHLX
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_250MSR
+ViewAnglePan = 530
+ViewAngleTilt = 284
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+ normal,0,0 fast,15,15 vector,26,127 tracking,128,255
+
+Channel = dimmer
+
+Channel = shutter
+ closed,0,0 strobe,10,66 pulse_in,69,125 pulse_out,128,184 random,188,244 open,255,255
+
+Channel = blackout
+ no_blackout,0,0 blackout,255,255
+
+Channel = fliter
+ normal,0,9 shape,10,230 wide,255,255
+
+Channel = color
+ open,0,0 color1,10,10 color2,19,19 color3,28,28 color4,37,37 color5,46,46 color6,55,55 index,61,127 right_rotate,128,190 stop,192,192 left_rotate,193,255
+
+Channel = cyan
+ index,9,255
+
+Channel = magenta
+ index,9,255
+
+Channel = yellow
+ index,9,255
+
+Channel = control
+ lamp_off,0,0 reset,136,136 reset_mov,186,186 fan_off,221,221 lam_on,255,255
+

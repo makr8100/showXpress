@@ -1,0 +1,45 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 17
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Contest/Architectural IP series/IPFLOOD-5x15QC.png
+
+Channel = red
+ dimmer,0,255 
+
+Channel = green
+ dimmer,0,255 
+
+Channel = blue
+ dimmer,0,255 
+
+Channel = white
+ dimmer,0,255 
+
+Channel = dimmer
+ dimmer,0,255 
+
+Channel = shutter
+ closed,0,31 open,32,63 strobe,64,95 open,96,127 pulse_strobe,128,159 open,160,191 random_strobe,192,223 open,224,255 
+
+Channel = color_macro
+ no_function,0,7 macro_1,8,14 macro_2,15,21 macro_3,22,28 macro_4,29,35 macro_5,36,41 macro_6,42,42 macro_7,43,49 macro_8,50,56 macro_9,57,63 macro_10,64,70 macro_11,71,77 macro_12,78,88 macro_13,92,98 macro_14,99,105 macro_15,106,112 macro_16,113,119 macro_17,120,126 macro_18,127,133 macro_19,134,140 macro_20,141,147 macro_21,148,154 macro_22,155,161 macro_23,162,168 macro_24,169,175 macro_25,176,182 macro_26,183,189 macro_27,190,196 macro_28,197,203 macro_29,204,210 macro_30,211,217 macro_31,218,224 macro_32,225,255 
+
+Channel = color_temp
+ no_function,0,7 2700K,8,124 7200K,125,255 
+
+Channel = animation
+ no_function,0,7 pattern_01,8,38 pattern_02,39,62 pattern_03,63,93 pattern_04,94,124 pattern_05,125,155 pattern_06,156,186 pattern_07,187,217 pattern_08,218,255 
+
+Channel = white_balance_memory
+ no_function,0,7 white_balance_memory,8,255 
+
+Channel = white_balance
+ no_function,0,7 white_balance_edit,8,124 white_balance_memory,125,255 
+

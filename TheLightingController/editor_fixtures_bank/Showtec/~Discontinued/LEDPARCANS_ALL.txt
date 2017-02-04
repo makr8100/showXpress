@@ -1,0 +1,26 @@
+Name = LEDPARCANS_ALL
+
+ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = color
+
+Channel = shutter
+
+Channel = effect
+ RGB Control,0,63 Color_Fade,64,127 Auto_color_fade,128,191 Sound_Control,192,255
+

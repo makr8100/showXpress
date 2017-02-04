@@ -1,0 +1,42 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/PRO/WELLFlex-2D.png
+
+Channel = dimmer
+ dimmer,0,255 
+
+Channel = red
+ dimmer,0,255 
+
+Channel = green
+ dimmer,0,255 
+
+Channel = blue
+ dimmer,0,255 
+
+Channel = white
+ dimmer,0,255 
+
+Channel = shutter
+ No Function,0,4 0-20Hz,5,255
+
+Channel = color_macro
+ No Function,0,10 R:100% Green Up B:0% ,11,30 Red Down G:100%  B:0%,31,50 R:0% G:100% Blue Up,51,70 R:0% Green Down B:100%,71,90 R:0% G:100% Blue Up,91,110 R:100% G:0% Blue Down,111,130 R:100% Green Up Blue Up,131,150 Red Down Green Down B:100%,151,170 RGBW: 100%,171,200 White 1: 3200K,201,205 White 2: 4200K,206,210 White 3: 4200K,211,215 White 4: 4900K,216,220 White 5: 5600K,221,225 White 6: 5900K,226,230 White 7: 6500K,231,235 White 8: 7200K,236,240 White 9: 8000K,241,245 White 10: 8500K,246,250 White 11: 10000K,251,255
+
+Channel = mode
+ No Fuction,0,51 Auto 1,51,101 Auto 2,102,152 Auto 3,153,203 Auto 4,204,254 Auto 0(1-4),255,255 
+
+Channel = effect_speed
+ Slow to Fast,0,255 
+
+Channel = Dimmer Speed
+ Preset dimming curve from display,0,51 Dimmer speed mode off,52,101 Dimmer speed mode 1(fast speed),102,152 Dimmer speed mode 2(middle speed),153,203 Dimmer speed mode 3(slowest),204,255
+

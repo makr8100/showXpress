@@ -1,0 +1,24 @@
+Name = NICOLS_BIRDYHQ150
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_150HTI
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewColor = 13158600
+
+Channel = shutter
+ closed,0,0 dimmer,5,131 strobe,132,252 open,255,255
+
+Channel = gobo
+ Miscellaneous\open,0,0 Miscellaneous\gobo1,24,24 Miscellaneous\gobo2,40,40 Miscellaneous\gobo3,56,56 Miscellaneous\gobo4,72,72 Miscellaneous\gobo5,88,88 Miscellaneous\gobo6,104,104 Miscellaneous\gobo7,120,120 Miscellaneous\rotate,128,255
+
+Channel = color
+ white,0,0 blue,17,17 yellow,30,30 green,44,44 light_blue,57,57 orange,70,70 pink,84,84 magenta,97,97 amber,111,111 light_green,124,124 rotate,128,255
+
+Channel = pan
+
+Channel = tilt
+

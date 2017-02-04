@@ -1,0 +1,56 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LAMP700W
+ViewAnglePan = 540
+ViewAngleTilt = 265
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Contest/Discontinued Products/MSP-575 .png
+
+Channel = color
+ open,0,13 pink,14,27 orange,28,41 blue,42,55 green,56,69 yellow,70,83 purple,84,97 light_green,98,111 purple,112,127 right_rotate,128,187 stop,188,193 left_rotate,194,255 
+
+Channel = gobo
+ Miscellaneous/open,0,9 Contest/GM022,10,19 Contest/GD005,20,29 Contest/GV004,30,39 Contest/GM021,40,49 Contest/GM035,50,59 Contest/GD011,60,69 Miscellaneous/shake_gobo1,70,89 Miscellaneous/shake_gobo2,90,109 Miscellaneous/shake_gobo3,110,129 Miscellaneous/shake_gobo4,130,149 Miscellaneous/shake_gobo5,150,169 Miscellaneous/shake_gobo6,170,189 Miscellaneous/right_rotate,190,255 
+
+Channel = gobo_rotate
+ index,0,127 right_rotate,128,187 stop,188,193 left_rotate,194,255 
+
+Channel = gobo2
+ Miscellaneous/open,0,13 Contest/GM041,14,27 Contest/GM028,28,41 Contest/GM006,42,55 Contest/GM070,56,69 Contest/GM015,70,83 Contest/GM026,84,97 Contest/GM033,98,111 Miscellaneous/shake_gobo1,112,127 Miscellaneous/shake_gobo2,128,143 Miscellaneous/shake_gobo3,144,159 Miscellaneous/shake_gobo4,160,175 Miscellaneous/shake_gobo5,176,191 Miscellaneous/shake_gobo6,192,207 Miscellaneous/shake_gobo7,208,223 Miscellaneous/rotate,224,224 
+
+Channel = pan
+
+Channel = tilt
+
+Channel = pantilt_speed
+ index,0,225 blackout_moves,226,235 blackout_changes,236,245 no_function,246,255 
+
+Channel = prism
+ open,0,3 right_rotate,4,63 stop,64,67 left_rotate,68,127 macro_1,128,135 macro_2,136,143 macro_3,144,151 macro_4,152,159 macro_5,160,167 macro_6,168,175 macro_7,176,183 macro_8,184,191 macro_9,192,199 macro_10,200,207 macro_11,208,215 macro_12,216,223 macro_13,224,231 macro_14,232,239 macro_15,240,247 macro_16,248,255 
+
+Channel = focus
+ macro_1,0,85 macro_2,86,171 macro_3,172,255 
+
+Channel = shutter
+ closed,0,31 dimmer,32,63 strobe,64,95 open,96,127 pulse_strobe,128,159 open,160,191 random_strobe,192,223 open,224,255 
+
+Channel = dimmer
+ closed,0,15 dimmer,16,255 
+
+Channel = iris
+ iris,0,191 pulse_close,192,223 pulse_open,224,255 
+
+Channel = frost
+ frost,0,191 pulse_close,192,223 pulse_open,224,255 
+
+Channel = control
+ step_colors,0,0 linear_colors,30,30 lamp_on,50,50 lamp_off,70,70 reset_motors,90,90 macro_1,110,110 macro_2,130,130 macro_3,150,150 macro_4,170,170 macro_5,190,190 macro_6,210,210 macro_7,230,230 macro_8,255,255 
+
+Channel = upan
+
+Channel = utilt
+

@@ -1,0 +1,20 @@
+Name = FUTURELIGHT_SC370
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = pan
+
+Channel = tilt
+
+Channel = color
+ white,0,0 turquoise,10,10 red,21,21 cyan,32,32 green,42,42 magenta,53,53 l_blue,64,64 yellow,74,74 green2,85,85 pink,96,96 blue,106,106 orange,117,117 for_rain,159,159 back_rain,224,224
+
+Channel = gobo
+ dimmer,0,63 strobe,64,127 closed1,130,130 reset,134,134 closed2,138,138 gobo1,147,147 gobo2,160,160 gobo3,173,173 gobo4,185,185 gobo5,198,198 gobo6,211,211 gobo7,224,224 gobo8,237,237 gobo9,255,255
+

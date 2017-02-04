@@ -1,0 +1,43 @@
+Name = HIGH-END_TECHNOPRO12
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = color
+ index,0,0 spin_1,23,23 spin_2,39,39 cont,55,55 sc,64,95 random,103,103 blink,119,119 index,135,135 spin_1,151,151 spin_2,167,167 cont,183,183 sc,192,223 random,231,231 blink,255,255
+
+Channel = color
+ color_1.1,0,0 color_1.2,12,12 color_1.3,20,20 color_2,28,28 color_3,36,36 color_4,44,44 color_5,52,52 color_6,60,60 color_7,68,68 color_8,76,76 color_9,84,84 color_10,92,92 color_11,100,100 color_12,108,108 color_13,116,116 color_1.2&2,132,132 color_1.3&2,140,140 color_2&3,148,148 color_3&4,156,156 color_4&5,164,164 color_5&6,172,172 color_6&7,180,180 color_7&8,188,188 color_8&9,196,196 color_9&10,204,204 color_10&11,212,212 color_11&12,220,220 color_12&13,228,228 color_13&1.1,236,236 color_13&1.2,244,244 color_1,255,255
+
+Channel = color
+ index,0,0 spin_1,23,23 spin_2,39,39 cont,55,55 sc,64,95 random,103,103 blink,119,119 index,135,135 spin_1,151,151 spin_2,167,167 cont,183,183 sc,192,223 random,231,231 blink,255,255
+
+Channel = color
+ color_1,0,0 color_2,32,32 color_3,64,64 color_4,96,96 color_5,128,128 color_6,159,159 color_7,191,191 color_8,223,223 color_9,255,255
+
+Channel = prism
+ effect_1,0,0 effect_2,38,38 effect_3,64,64 effect_4,89,89 effect_5,115,115 effect_1,140,140 effect_2,166,166 effect_3,191,191 effect_4,217,217 effect_5,255,255
+
+Channel = prism_rotate
+ clock,0,120 stop,127,127 counterclock,135,255
+
+Channel = focus
+
+Channel = shutter
+ closed,0,0 strobe,8,67 random_strobe,97,97 ram_sna,157,157 sna_ram,217,217 open,255,255
+
+Channel = dimmer
+
+Channel = pantilt_speed
+
+Channel = effect
+ off,0,0 macro_1,9,9 macro_2,13,13 macro_3,17,17 macro_4,21,21 macro_5,25,25 macro_6,29,29 macro_7,33,33 macro_8,37,37 macro_9,41,41 macro_10,45,45 macro_11,49,49 macro_12,53,53 macro_13,57,57 macro_14,61,61 macro_15,65,65 macro_16,69,69 macro_17,73,73 macro_18,77,77 macro_19,81,81 macro_20,85,85 macro_21,89,89 macro_22,93,93 macro_23,97,97 macro_24,101,101 macro_25,105,105 macro_26,109,109 macro_27,113,113 macro_28,117,117 lad_off,123,123 lad,128,247 lad_cont,255,255
+
+Channel = control
+ safe,0,0 off,25,25 dimmer,33,33 bright,41,41 home,65,65 lamp_on,81,81 lamp_off,97,97 shut_down,129,129
+

@@ -1,0 +1,33 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Contest/Club series/THUNDER-80 .png
+
+Channel = pan
+
+Channel = tilt
+
+Channel = dimmer
+
+Channel = shutter
+ closed,0,7 open,8,15 strobe,16,131 open,132,139 pulse_strobe,140,181 open,182,189 reverse_pulse_strobe,190,231 open,232,239 random_strobe,240,247 open,248,255 
+
+Channel = color
+ open,0,7 white+red,8,14 red,15,22 red+orange,23,29 orange,30,37 orange+yellow,38,44 yellow,45,52 yellow+green,53,59 green,60,67 green+blue,68,74 blue,75,82 blue+magenta,83,89 magenta,90,97 magenta+sky_blue,98,104 pastel_sky_blue,105,112 sky_blue+pink,113,119 pink,120,127 right_rotate,128,189 stop,190,193 left_rotate,194,255 
+
+Channel = gobo
+ Miscellaneous/open,0,7 Miscellaneous/gobo1,8,15 Miscellaneous/gobo2,16,23 Miscellaneous/gobo3,24,31 Miscellaneous/gobo4,32,39 Miscellaneous/gobo5,40,47 Miscellaneous/gobo6,48,55 Miscellaneous/gobo7,56,63 Miscellaneous/shake_gobo1,64,73 Miscellaneous/shake_gobo2,74,82 Miscellaneous/shake_gobo3,83,91 Miscellaneous/shake_gobo4,92,100 Miscellaneous/shake_gobo5,101,109 Miscellaneous/shake_gobo6,110,118 Miscellaneous/shake_gobo7,119,127 Miscellaneous/right_rotate,128,189 Miscellaneous/stop,190,193 Miscellaneous/left_rotate,194,255 
+
+Channel = gobo_rotate
+ index,0,127 left_rotate,128,189 stop,190,193 right_rotate,194,255 
+
+Channel = control
+ no_function,0,69 blackout_moves,70,79 no_blackout_moves,80,89 blackout_colors,90,99 no_blackout_colors,100,109 blackout_changes,110,119 no_blackout_changes,120,129 no_function,130,199 reset,200,209 no_function,210,249 audio,250,255 
+

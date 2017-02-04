@@ -1,0 +1,16 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = mode
+ closed,0,0 open,12,12 Half strobe,20,20 Individual Right,28,28 Individual Left,36,36 Individual Back and forth,44,44 Individual Alternate Left Right,52,52 Double Right and Forth,60,60 Double Left and Forth,68,68 Double Back and Forth,75,75 Double Alternate Left Right,84,84 In and Out Toggle,212,212 Cascade Right,92,92 Cascade Left,100,100 Cascade Back and Forth,108,108 Cascade In,115,115 Cascade Out,124,124 Cascade In and Out,132,132 Cascade Right,140,140 Half Cascade Left,148,148 Half Cascade Back and Forth,155,155 Even Odd Toggle,164,164 Squiggle Right,172,172 Squiggle Left,180,180 Squiggle Back,188,188 Individual Off Back and Forth,195,195 Left and Right Toggle,204,204 In and Out Toggle,212,212 Full Random,220,220 Individual Head Random,228,228 Individual Head Select Mode,235,235 Advanced Head Select Mode,244,244 Auto Mode,255,255
+
+Channel = speed

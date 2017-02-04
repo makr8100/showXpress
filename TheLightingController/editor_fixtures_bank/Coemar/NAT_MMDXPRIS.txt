@@ -1,0 +1,44 @@
+Name = COEMAR_NAT_MMDXPRIS
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = shutter
+ closed,0,0 open,100,100 strobe,128,255
+
+Channel = iris
+ open,0,0 large_to_small,36,115 small,160,160 pulse,194,251 large,255,255
+
+Channel = focus
+
+Channel = gobo
+ full,0,0 gobo1,45,45 gobo2,75,75 gobo3,105,105 gobo4,140,140 rotate,152,255
+
+Channel = gobo_rotate
+ position,0,128 clock,129,190 stop,192,192 counterclock,194,255
+
+Channel = prism
+ clear,0,0 effect_1,60,60 effect_2,100,100 effect_3,150,150 effect_4,190,190 effect_5,255,255
+
+Channel = prism_rotate
+ position,0,128 clock,130,189 stop,191,191 counterclock,194,255
+
+Channel = color
+ white,0,0 co11_col2,12,12 color_2,24,24 col2_col3,36,36 color_3,52,52 col3_col4,64,64 color_4,76,76 col4_col5,88,88 color_5,104,104 col5_col6,116,116 color_6,128,128 col6_col7,140,140 color_7,152,152 col7_col1,164,164 rotate,180,255
+
+Channel = control
+ lamp_off,0,0 motor_reset,100,100 lamp_on,255,255
+

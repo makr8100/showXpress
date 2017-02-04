@@ -1,0 +1,16 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewAnglePan = 0
+ViewAngleTilt = 0
+ViewAngleBeam = 0
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = dimmer
+ dimmer,0,255 
+
+Channel = effect
+ Water effect (moving),0,63 Water effect static ,64,127 Color effect static,128,191 Both Pans static,192,255 
+

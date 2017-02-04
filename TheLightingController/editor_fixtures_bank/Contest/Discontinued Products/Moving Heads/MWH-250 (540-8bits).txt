@@ -1,0 +1,42 @@
+Name = MWH-250 (540°-8bits)
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_250MSR
+ViewAnglePan = 540
+ViewAngleTilt = 265
+ViewAngleBeam = 28
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = color
+ open,0,25 red,26,51 blue,52,77 green,78,103 orange,104,127 right_rotate,128,189 stop,190,193 left_rotate,194,255
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = yellow
+
+Channel = pan
+
+Channel = tilt
+
+Channel = pantilt_speed
+ no_function,0,14 index,15,225 blackout_moves,226,235 blackout_changes,236,245 no_function,255,255
+
+Channel = beam
+ open,0,70 index,71,230 frost,231,255
+
+Channel = focus
+
+Channel = shutter
+ closed,0,31 dimmer,32,63 strobe,64,95 open,96,127 pulse_strobe,128,159 open,160,191 random_strobe,192,223 open,224,255
+
+Channel = dimmer
+
+Channel = control
+ step_colors,0,19 linear_colors,20,39 lamp_on,40,59 lamp_off,60,79 reset_motors,80,99 macro_1,100,119 macro_2,120,139 macro_3,140,159 macro_4,160,179 macro_5,180,199 macro_6,200,219 macro_7,220,239 macro_8,240,255
+

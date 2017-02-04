@@ -1,0 +1,26 @@
+Name = SHOWTEC_UNICORN
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_150HTI
+ViewAnglePan = 570
+ViewAngleTilt = 270
+ViewAngleBeam = 24
+ViewReversePan = TRUE
+ViewReverseTilt = FALSE
+
+Channel = pan
+
+Channel = tilt
+
+Channel = color
+ white,0,0 dark_green,20,20 red,25,25 dark_blue,40,40 light_green,50,50 pink,60,60 cyan,70,70 yellow,80,80 green,90,90 pink,100,100 uv,110,110 magenta,120,120 left_rotate,130,150 right_rotate,220,255
+
+Channel = gobo
+ Miscellaneous\open,0,0 Showtec\BS10,36,36 Showtec\triangle,60,60 Showtec\BS12,84,84 Showtec\CT2,108,108 Showtec\more_dots,132,132 new_level,156,156 Showtec\BS13,255,255
+
+Channel = gobo_rotate
+ index,0,127 right_rotate,128,189 stop,192,192 left_rotate,194,255
+
+Channel = shutter
+ closed,0,0 dimmer,5,76 strobe,100,127 closed,130,130 open,255,255
+

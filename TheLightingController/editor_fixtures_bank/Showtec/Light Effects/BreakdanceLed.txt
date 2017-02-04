@@ -1,0 +1,28 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Showtec/Light Effects/Breakdance LED#43083.png
+
+Channel = right_mirror_rotation
+ right_rotate,0,0 index,2,199 left_rotate,255,255 
+
+Channel = left_mirror_rotation
+ right_rotate,0,0 index,2,199 left_rotate,255,255 
+
+Channel = mirror_rotation_speed
+
+Channel = right_mirror_patterns
+ closed,0,0 Right mirror auto letter run,7,7 Right mirror rotating pattern,12,12 Right mirror letter selection,15,144 Right mirror pattern selector,145,255 
+
+Channel = left_mirror_patterns
+ closed,0,0 Left mirror auto letter run,7,7 Left mirror rotating pattern,12,12 Left mirror letter selection,15,144 Left mirror pattern selector,145,255 
+
+Channel = pattern_speed
+
