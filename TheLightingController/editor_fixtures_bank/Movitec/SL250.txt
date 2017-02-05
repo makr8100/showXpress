@@ -1,0 +1,50 @@
+Name = MOVITEC_SL250
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+ max_tracking,0,0 max_vector,2,2 min_vector,249,249 max_blackout,255,255
+
+Channel = control
+ fan_max,0,0 fan_min,127,127 lamp_on_reset,132,132 lamp_off_3s,232,232
+
+Channel = color
+ white,0,0 congo_blue,10,10 red,21,21 cyan,32,32 turquoise,42,42 magenta,53,53 light_blue,64,64 yellow,74,74 green,85,85 pink,96,96 blue,106,106 orange,117,117 clock,128,189 stop,192,192 counterclock,194,255
+
+Channel = reserved
+
+Channel = prism
+ open,0,0 3_facets,120,120 macro1,163,163 macro2,172,172 macro3,180,180 macro4,187,187 macro5,195,195 macro6,204,204 macro7,212,212 macro8,220,220 macro9,227,227 macro10,236,236 macro11,243,243 macro12,255,255
+
+Channel = prism_rotate
+ stop,0,0 clock,2,126 stop,128,128 counterclock,130,255
+
+Channel = gobo
+ open,0,0 multicolor,46,46 glass,78,78 metal1,110,110 metal2,143,143 metal3,175,175 metal4,207,207 rotate,224,255
+
+Channel = gobo_rotate
+ index,0,127 clock,128,190 stop,192,192 counterclock,194,255
+
+Channel = reserved
+
+Channel = focus
+
+Channel = shutter
+ closed,0,0 strobe,64,95 pulse_sequence,128,159 random_strobe,192,223 open,255,255
+
+Channel = dimmer
+

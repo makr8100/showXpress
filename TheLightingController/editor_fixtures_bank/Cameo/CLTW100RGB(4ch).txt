@@ -1,0 +1,23 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 24
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = dimmer
+
+Channel = shutter
+ open,0,0 closed,8,8 pulse_strobe,11,33 pulse_open,34,56 pulse_close,57,79 random_strobe,80,102 strobe_break,103,127 strobe,128,250 open,255,255 
+
+Channel = color
+ white,0,0 red,10,10 amber,18,18 warm_yellow,26,26 yellow,34,34 green,42,42 turquoise,50,50 cyan,58,58 blue,66,66 lavender,74,74 mauve,82,82 magenta,90,90 pink,98,98 warm_white,106,106 white,114,114 cold_white,122,122 color_jumping,129,192 color_fading,193,255 
+
+Channel = mode
+ no_function,0,0 audio,255,255 
+

@@ -1,0 +1,39 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = effect_macro
+ pattern_01,0,0 pattern_02,48,48 pattern_03,80,80 pattern_04,110,110 pattern_05,140,140 pattern_06,180,180 pattern_07,210,210 pattern_08,255,255 
+
+Channel = pattern_behaviour
+ soft_chase,0,0 hard_chase,255,255 
+
+Channel = effect_speed
+
+Channel = minimum_intensity
+
+Channel = maximum_intensity
+
+Channel = color_macro
+ 1_color,0,0 2_color,48,48 3_color,70,70 4_color,110,110 4_color_rotating,128,159 3_color_rotating,161,190 2_color_rotating,192,222 rotate,224,255 
+
+Channel = color
+ blue,0,0 white,32,32 yellow,64,64 green,96,96 cyan,128,128 blue,160,160 magenta,192,192 red,224,224 yellow,255,255 
+
+Channel = color
+ blue,0,0 white,32,32 yellow,64,64 green,96,96 cyan,128,128 blue,160,160 magenta,192,192 red,224,224 yellow,255,255 
+
+Channel = color
+ blue,0,0 white,32,32 yellow,64,64 green,96,96 cyan,128,128 blue,160,160 magenta,192,192 red,224,224 yellow,255,255 
+
+Channel = color
+ blue,0,0 white,32,32 yellow,64,64 green,96,96 cyan,128,128 blue,160,160 magenta,192,192 red,224,224 yellow,255,255 
+

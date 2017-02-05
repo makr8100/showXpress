@@ -1,0 +1,20 @@
+﻿ViewType = VIEW_TYPE_PAR_CAN
+ViewPower = VIEW_POWER_LED60W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = cool white
+
+Channel = warm white
+
+Channel = white preset temperatures
+ no_function,0,0 3400k,1,13 3800k,14,27 4000k,28,41 4300k,42,55 4600k,56,69 4800k,70,83 5000k,84,97 5100k,98,111 5400k,112,125 5600k,126,139 5800k,140,153 6000k,154,167 6200k,168,181 6400k,182,195 6600k,196,209 6800k,210,223 7000k,224,236 7200k,237,248 7400k,249,255 
+
+Channel = strobe_speed
+

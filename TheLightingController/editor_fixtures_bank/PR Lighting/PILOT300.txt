@@ -1,0 +1,35 @@
+Name = PEARL-RIVER_PILOT300
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_250MSR
+ViewAnglePan = 370
+ViewAngleTilt = 265
+ViewAngleBeam = 12
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = gobo
+ gobo1,0,0 gobo2,80,80 gobo3,115,115 gobo4,146,146 gobo5,180,180 gobo7,255,255
+
+Channel = gobo_rotate
+ stop,0,0 index,9,163 right_rotate,164,205 stop,210,210 left_rotate,214,214
+
+Channel = color
+ white,0,0 red,40,40 yellow,70,70 orange,100,100 blue,125,125 light_green,150,150 cyan,180,180 uv,210,210 green,255,255
+
+Channel = shutter
+ closed,0,0 dimmer,14,195 strobe,196,251 open,255,255
+
+Channel = pan
+
+Channel = pan
+
+Channel = focus
+
+Channel = prism
+ clear,0,0 static,1,48 index,49,127 right_rotate,128,189 stop,192,192 left_rotate,194,194
+
+Channel = upan
+
+Channel = utilt
+

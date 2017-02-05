@@ -1,0 +1,26 @@
+Name = ROBE_DJSCAN250XT
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_250MSR
+ViewAnglePan = 147
+ViewAngleTilt = 115
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = pan
+
+Channel = tilt
+
+Channel = color
+ white,0,0 red,20,20 cyan,28,28 light_green,36,36 yellow,60,60 green,68,68 pink,76,76 blue,84,84 orange,92,92 uv,100,100 red/blue,108,108 yellow/green,116,116 blue/purple,124,124 clock,128,190 stop,192,192 counterclock,193,255
+
+Channel = gobo
+ Miscellaneous\open,0,0 Miscellaneous\gobo1,36,36 Miscellaneous\gobo2,60,60 Miscellaneous\gobo3,92,92 Miscellaneous\gobo4,116,116 Miscellaneous\gobo5,140,140 Miscellaneous\gobo6,164,164 Miscellaneous\gobo7,188,188 Miscellaneous\gobo8,220,220 Miscellaneous\gobo9,255,255
+
+Channel = gobo_rotate
+ index,0,127 right_rotate,128,190 stop,192,192 left_rotate,193,255
+
+Channel = shutter
+ closed,0,0 dimmer,1,63 open,80,80 strobe,96,127 reset,134,134 closed,150,150 pulse increase,160,175 pulse decrease,176,191 random strobe,192,223 open,255,255
+

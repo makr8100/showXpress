@@ -1,0 +1,62 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/Intimidator Wave 360 IRC.png
+
+Channel = pan
+ 0–540°,0,255
+
+Channel = upan
+ 16-bit,0,255
+
+Channel = pantilt_speed
+ Pan Speed,0,255
+
+Channel = Continunous Pan Ratating
+ 0–270°,0,255
+
+Channel = Head 1 Tilt
+ 0–270°,0,255
+
+Channel = Head 2 Tilt
+ 0–270°,0,255
+
+Channel = Head 3 Tilt
+ 0–270°,0,255
+
+Channel = Head 4 Tilt
+ 0–270°,0,255
+
+Channel = movement_macro
+ no_function,0,47 Program 1,48,55 Program 2,56,63 Program 3,64,71 Program 4,72,79 Program 5,80,87 Program 6,88,95 Program 7,96,103 Program 8,104,111 Program 9,112,119 Program 10,120,127 Program 11,128,135 Program 12,136,143 Program 13,144,151 Program 14,152,159 Program 15,160,167 Program 16,168,175 Program 17,176,183 Program 18,184,191 Program 19,192,199 Program 20,200,207 Program 21,208,215 Program 22,216,223 Program 23,224,231 Program 24,232,239 Program 25,240,247 Sound program,248,255
+
+Channel = pantilt_speed
+ Fast to slow,0,255
+
+Channel = color
+ closed,0,7 Color 1,8,15 Color 2,16,23 Color 3,24,31 Color 4,32,39 Color 5,40,47 Color 6,48,55 Color 7,56,63 Color 8,64,71 Color 9,72,79 Color 10,80,87 Color 11,88,95 Color 12,96,103 Color 13,104,111 Color 14,112,119 Color 15,120,127 Reserved,128,179 Fade rainbow clockwise (speed fast to slow),180,201 Full on of current color,202,207 Fade rainbow counter-clockwise ,208,229 All colors 100%,230,234 Snap change (speed fast to slow),235,249 Sound color,250,255
+
+Channel = pods
+ ●●●●●,0,7 ●●●●○,8,15 ●●●○○,16,23 ●●○○○,24,31 ●○○○○,32,39 ○○○○○,40,47 ○○○○●,48,55 ○○○●●,56,63 ○○●●●,64,71 ○●●●●,72,79 ●●●●●,80,87 ○○○○●,88,95 ○○○●○,96,103 ○○●○○,104,111 ○●○○○,112,119 ●○○○○,120,127 ○○○●●,128,135 ○○●●○,136,143 ○●●○○,144,151 ●●○○○,152,159 ●○○○●,160,167 ○○●●●,168,175 ○●●●○,176,183 ○○●●●,184,191 ●●○○●,192,199 ●○○●●,200,207 ○●●●●,208,215 ●●●●○,216,223 ●●●○●,224,231 ●●○●●,232,239 ●○●●●,240,247 ●●●●●,248,255
+
+Channel = effect_macro
+ no_function,0,15 Program 1,16,20 Program 2,21,25 Program 3,26,30 Program 4,31,35 Program 5,36,40 Program 6,41,45 Program 7,46,50 Program 8,51,55 Program 9,56,60 Program 10,61,65 Program 11,66,70 Program 12,71,75 Program 13,76,80 Program 14,81,85 Program 15,86,90 Program 16,91,95 Program 17,96,100 Program 18,101,105 Program 19,106,110 Program 20,111,115 Program 21,116,120 Program 22,121,125 Program 23,126,130 Program 24,131,135 Program 25,136,140 Program 26,141,145 Program 27,146,150 Program 28,151,155 Program 29,156,160 Program 30,161,165 Program 31,166,170 Program 32,171,175 Program 33,176,180 Program 34,181,185 Program 35,186,190 Program 36,191,195 Program 37,196,200 Program 38,201,205 Program 39,206,210 Program 40,211,215 Program 41,216,220 Program 42,221,225 Program 43,226,230 Program 44,231,235 Program 45,236,240 Program 46,241,245 Program 47,246,250 Program 48 (built-in for all),251,255
+
+Channel = effect_speed
+ Slow to fast,0,255
+
+Channel = dimmer
+ 0–100%,0,255
+
+Channel = shutter
+ closed,0,19 open,20,24 Shutter 1 even on/even off (fast to slow),25,64 open,65,69 Shutter 2 fast on/slow off (fast to slow),70,84 open,85,89 Shutter 3 slow on/fast off (fast to slow),90,104 open,105,109 Shutter 4 random shutter (fast to slow),110,124 open,125,129 Shutter 5 random shutter fast on/slow off ,130,144 open,145,149 Shutter 6 random shutter slow on/fast off (fast to slow),150,164 open,165,169 Shutter 7 pulse shutter (fast to slow),170,184 open,185,189 Shutter 8 random pulse shutter (fast to slow),190,204 open,205,209 Shutter 9 on and off gradually (fast to slow),210,224 open,225,229 Shutter 10 pulse shutter (fast to slow),230,244 open,245,255
+
+Channel = control
+

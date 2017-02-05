@@ -1,0 +1,45 @@
+﻿ViewType = VIEW_TYPE_HEAD_WASH
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 32
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+2DViewImage = Showtec/Moving Heads/Phantom25LedWashE#40186.png
+
+Channel = pan
+
+Channel = tilt
+
+Channel = upan
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = shutter
+ closed,0,0 dimmer,8,132 strobe,135,239 open,255,255
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = color_saturation
+
+Channel = color_macro
+ no_function,0,0 RGBW_full_on,15,15 macro_1,84,84 macro_2,98,98 macro_3,112,112 macro_4,126,126 macro_5,140,140 macro_6,154,154 macro_7,168,168 macro_8,184,184 macro_9,196,196 macro_10,210,210 macro_11,224,224 rainbow,232,232
+
+Channel = LED_speed
+
+Channel = control
+ no_function,0,0 blackout_moves,15,15 reset,235,235
+
+Channel = effect_macro
+ no_function,0,0 macro_1,16,16 macro_2,30,30 macro_3,48,48 macro_4,64,64 macro_5,78,78 macro_6,94,94 macro_7,110,110 macro_8,128,128 audio1,142,142 audio2,158,158 audio3,176,176 audio4,190,190 audio5,208,208 audio6,222,222 audio7,238,238 audio8,255,255
+

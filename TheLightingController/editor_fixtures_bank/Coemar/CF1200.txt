@@ -1,0 +1,61 @@
+Name = COEMAR_CF1200
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = dimmer
+
+Channel = shutter
+ closed,0,0 strobe,10,127 random_strobe,128,247 open,255,255
+
+Channel = iris
+ open,0,0 large_to_small,16,115 small,160,160 iris_pulse,194,251 wide_beam,255,255
+
+Channel = beam
+ small,0,0 large,255,255
+
+Channel = focus
+
+Channel = gobo
+ full,0,0 gobo1,45,45 gobo2,75,75 gobo3,105,105 gobo4,140,140 rotate,152,255
+
+Channel = gobo_rotate
+ no_effect,0,0 position,12,255
+
+Channel = gobo_urotate
+ position,0,100 clock,102,176 stop,178,178 counterclock,180,255
+
+Channel = gobo
+ full,0,0 gobo1,45,45 gobo2,75,75 gobo3,105,105 gobo4,140,140 rotate,152,255
+
+Channel = prism
+ clear,0,0 effect_1,90,90 effect_2,160,160 effect_3,255,255
+
+Channel = prism_rotate
+ stop,0,0 rotate,28,255
+
+Channel = color
+ white,0,0 color_1,37,37 color_2,62,62 color_3,86,86 color_4,112,112 color_5,136,136 rotate,152,255
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = yellow
+
+Channel = control
+ lamp_off,0,0 pan/tilt_senso,60,60 motor_reset,120,120 soft_focus,200,200 lamp_on,255,255
+

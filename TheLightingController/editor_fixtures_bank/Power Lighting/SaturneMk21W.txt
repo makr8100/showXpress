@@ -1,0 +1,56 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = mode
+ dmx,0,0 auto,100,100 audio,255,255 
+
+Channel = pattern_group
+ pattern_01,0,0 pattern_02,75,75 pattern_03,125,125 pattern_04,175,175 pattern_05,255,255 
+
+Channel = pattern
+
+Channel = color
+ closed,0,0 mix,25,25 red,45,45 green,64,64 yellow,82,82 blue,100,100 purple,115,115 cyan,133,133 white,154,154 change,172,172 multiple,190,190 multiple_move,210,210 strobe,217,255 
+
+Channel = draw
+ no_function,0,0 graduation,1,127 progress,128,255 
+
+Channel = zoom
+ index,0,127 pulse_close,128,169 pulse_open,170,209 shaking,210,255 
+
+Channel = zoom_speed
+
+Channel = Y_rotate
+ 0_to_359°,0,127 right_rotate,128,191 left_rotate,192,255 
+
+Channel = Y_rotate_speed
+
+Channel = X_rotate
+ 0_to_359°,0,127 right_rotate,128,191 left_rotate,192,255 
+
+Channel = X_rotate_speed
+
+Channel = Z_rotate
+ 0_to_359°,0,127 right_rotate,128,191 left_rotate,192,255 
+
+Channel = Z_rotate_speed
+
+Channel = X_movement
+ index,0,127 right_rotate,128,191 left_rotate,192,255 
+
+Channel = X_movement_speed
+
+Channel = Y_movement
+ index,0,127 right_rotate,128,191 left_rotate,192,255 
+
+Channel = Y_movement_speed
+

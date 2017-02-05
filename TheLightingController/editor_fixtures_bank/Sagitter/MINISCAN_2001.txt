@@ -1,0 +1,26 @@
+Name = SAGITTER_MINISCAN_2001
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = pan
+
+Channel = tilt
+
+Channel = color
+ open/white,0,0 turquoise,12,12 red,20,20 cyan,28,28 light_green,36,36 magenta,44,44 light_blue,52,52 yellow,60,60 green,68,68 pink,76,76 blue,84,84 orange,92,92 UV,100,100 red/blue,108,108 yellow/green,116,116 lightblue/mage,124,124 forwards_rain,128,190 no_rotation,192,192 backwards_rai,193,193
+
+Channel = gobo
+ open,0,0 gobo1,30,30 gobo2,54,54 gobo3,90,90 gobo4,114,114 gobo5,138,138 gobo6,162,162 gobo7,186,186 gobo8,218,218 gobo9,255,255
+
+Channel = gobo_rotate
+ gobo_indexing,0,127 forwards_gobo,128,190 no_rotation,192,192 backwards_gobo,193,255
+
+Channel = dimmer
+ dimmer,0,63 shtter_open,80,80 strobe_effect,96,127 reset,130,130 shutter_open,150,150 increasing_spe,160,175 decreasing_spe,176,191 random_strobe,192,223 shutter_open,255,255
+

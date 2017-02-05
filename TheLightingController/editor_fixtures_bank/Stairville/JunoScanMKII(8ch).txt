@@ -1,0 +1,33 @@
+﻿ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 180
+ViewAngleTilt = 60
+ViewAngleBeam = 24
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = pan
+
+Channel = tilt
+
+Channel = color
+ white,0,0 yellow,8,8 pink,14,14 green,20,20 red,26,26 blue,32,32 orange,38,38 dark_blue,44,44 light_green,50,50 light_red,56,56 right_rotate,128,191 left_rotate,192,255
+
+Channel = shutter
+ closed,0,0 open,5,5 strobe,8,215 open,255,255
+
+Channel = dimmer
+
+Channel = gobo
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,8,8 Miscellaneous/gobo2,14,14 Miscellaneous/gobo3,20,20 Miscellaneous/gobo4,26,26 Miscellaneous/gobo5,32,32 Miscellaneous/gobo6,38,38 Miscellaneous/gobo7,44,44 Miscellaneous/gobo8,50,50 Miscellaneous/gobo9,56,56 Miscellaneous/shake_gobo9,64,73 Miscellaneous/shake_gobo8,74,79 Miscellaneous/shake_gobo7,80,85 Miscellaneous/shake_gobo6,86,91 Miscellaneous/shake_gobo5,92,97 Miscellaneous/shake_gobo4,98,103 Miscellaneous/shake_gobo3,104,109 Miscellaneous/shake_gobo2,110,115 Miscellaneous/shake_gobo1,116,121 Miscellaneous/open,125,125 Miscellaneous/right_rotate,128,191 Miscellaneous/left_rotate,192,255
+
+Channel = control
+ no_function,0,0 blackout_moves,12,12 reset_color,115,115 reset_gobo,124,124 reset,155,155 
+
+Channel = effect_speed
+ no_function,0,0 macro_1,16,16 macro_2,32,32 macro_3,48,48 macro_4,64,64 macro_5,80,80 macro_6,96,96 macro_7,112,112 macro_8,128,128 audio,136,255 
+

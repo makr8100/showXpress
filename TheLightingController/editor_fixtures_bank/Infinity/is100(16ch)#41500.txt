@@ -1,0 +1,53 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LAMP575W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Showtec/Moving Heads/Infinity iS-100.png
+
+Channel = pan
+
+Channel = tilt
+
+Channel = upan
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = dimmer
+
+Channel = shutter
+ closed,0,0 open,6,6 strobe,8,76 pulse_strobe,77,145 random_strobe,146,215 open,255,255
+
+Channel = color
+ white,0,0 red,10,16 orange,17,17 light_green,24,24 light_yellow,32,32 blue,38,38 white,46,46 pink,51,51 uv,59,59 index,64,127 right_rotate,128,191 left_rotate,192,255
+
+Channel = gobo
+ Miscellaneous/open,0,0 color/GD005,12,12 metal/GM015,20,20 metal/GM032,28,28 metal/GM073,36,36 Miscellaneous/gobo5,44,44 Miscellaneous/gobo6,52,52 metal/L330SS8,60,60 Miscellaneous/shake_gobo7,64,71 Miscellaneous/shake_gobo6,72,79 Miscellaneous/shake_gobo5,80,87 Miscellaneous/shake_gobo4,88,95 Miscellaneous/shake_gobo3,96,103 Miscellaneous/shake_gobo2,104,111 Miscellaneous/shake_gobo1,112,119 Miscellaneous/open,124,124 Miscellaneous/right_rotate,128,191 Miscellaneous/left_rotate,192,255
+
+Channel = gobo_rotate
+ index,0,63 right_rotate,64,147 left_rotate,148,231 gobo_bouncing,255,255
+
+Channel = gobo2
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,10,10 Miscellaneous/gobo2,18,18 Miscellaneous/gobo3,24,24 Miscellaneous/gobo4,31,31 Miscellaneous/gobo5,38,38 Miscellaneous/gobo6,45,45 Miscellaneous/gobo7,52,52 Miscellaneous/gobo8,60,60 Miscellaneous/shake_gobo8,64,71 Miscellaneous/shake_gobo7,72,78 Miscellaneous/shake_gobo6,79,85 Miscellaneous/shake_gobo5,86,92 Miscellaneous/shake_gobo4,93,99 Miscellaneous/shake_gobo3,100,106 Miscellaneous/shake_gobo2,107,113 Miscellaneous/shake_gobo1,114,120 Miscellaneous/open,124,124 Miscellaneous/right_rotate,128,191 Miscellaneous/left_rotate,192,255
+
+Channel = prism3D
+ open,0,0 prism,10,10 right_rotate,13,130 left_rotate,131,247 prism,255,255 
+
+Channel = prism_rotation
+ index,0,127 right_rotate,128,189 stop,192,192 left_rotate,194,255 
+
+Channel = iris
+ index,0,63 auto,64,127 pulse_open,128,191 pulse_close,192,255 
+
+Channel = focus
+
+Channel = control
+ no_function,0,0 blackout_moves,11,11 blackout_color,20,20 blackout_gobo,28,28 reset_xy,100,100 reset_xy,108,108 reset_color,115,115 reset_gobo,124,124 reset,155,155 
+

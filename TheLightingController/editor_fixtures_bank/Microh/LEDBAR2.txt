@@ -1,0 +1,36 @@
+Name = MICROH_LEDBAR2
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = effect
+ closed,0,0 open,6,6 strobe,10,39 fade_in&out,40,69 auto_color_change,70,99 chase1&12,100,231 chase_all,238,238 sound_chase,248,248 sound_strobe,255,255
+
+Channel = dimmer
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+

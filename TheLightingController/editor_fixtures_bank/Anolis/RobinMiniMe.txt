@@ -1,0 +1,71 @@
+﻿ViewType = VIEW_TYPE_HEAD_WASH
+ViewPower = VIEW_POWER_LED60W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+ standard,0,0 index,1,255 
+
+Channel = control
+ no_function,0,0 blackout_moves,75,75 reset_xy,145,145 reset,205,205 
+
+Channel = zoom
+
+Channel = focus
+
+Channel = Keystoning Vertical
+
+Channel = Keystoning Horizontal
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = yellow
+
+Channel = color
+ white,0,0 blue,16,16 cyan,56,56 green,96,96 yellow,135,255 red,0,0 magenta,215,215 blue,247,247 
+
+Channel = color_macro
+ no_function,0,0 Horizontal linear shade white-->black,1,1 Horizontal Linear shade black-->white,2,2 Vertical linear shade black-->white,3,3 Vertical linear shade white-->black,4,4 Diagonal shade white -->black,5,5 Diagonal shade black -->white,6,6 Horizontal linear shade white-->red,7,7 Horizontal Linear shade red-->white,8,8 Vertical linear shade red-->white,9,9 Vertical linear shade white-->red,10,10 Diagonal shade white -->red,11,11 Diagonal shade red -->white,12,12 Horizontal linear shade white-->green,13,13 Horizontal Linear shade green-->white,14,14 Vertical linear shade green-->white,15,15 Vertical linear shade white-->green,16,16 Diagonal shade white -->green,17,17 Diagonal shade green -->white,18,18 Horizontal linear shade white-->blue,19,19 Horizontal Linear shade blue-->white,20,20 Vertical linear shade blue-->white,21,21 Vertical linear shade white-->blue,22,22 Diagonal shade white -->blue,23,23 Diagonal shade blue -->white,24,24 Horizontal linear shade white-->cyan,25,25 Horizontal Linear shade cyan-->white,26,26 Vertical linear shade cyan-->white,27,27 Vertical linear shade white-->cyan,28,28 Diagonal shade white -->cyan,29,29 Diagonal shade cyan -->white,30,30 Horizontal linear shade white-->magenta,31,31 Horizontal Linear shade magenta-->white,32,32 Vertical linear shade magenta-->white,33,33 Vertical linear shade white-->magenta,34,34 Diagonal shade white -->magenta,35,35 Diagonal shade magenta -->white,36,36 Horizontal linear shade white-->yellow,37,37 Horizontal Linear shade yellow-->white,38,38 Vertical linear shade yellow-->white,39,39 Vertical linear shade white-->yellow,40,40 Diagonal shade white -->yellow,41,41 Diagonal shade yellow -->white,42,42 RGBW shades,43,43 CMYW shades,44,44 RGBY shades,45,45 RMBG shades,46,46 Colour changing black -->white slowly,50,50 Colour changing black -->white fast,51,51 Colour changing red -->white slowly,52,52 Colour changing red -->white fast,53,53 Colour changing  green -->white slowly,54,54 Colour changing  green -->white fast,55,55 Colour changing  blue -->white slowly56,56,0 Colour changing  blue -->white fast,57,57 Colour changing  yellow -->white slowly,58,58 Colour changing  yellow -->white fast,59,59 Colour changing  magenta -->white slowly,60,60 Colour changing  magenta -->white fast,61,61 Colour changing  cyan -->white slowly,62,62 Colour changing  cyan -->white fast,63,63 Colour changing red -->green -->blue -->yellow,64,66 Horizontal linear shade white-->black and vice versa slowly,70,70 Horizontal linear shade white-->black and vice versa fast,71,71 Vertical linear shade white-->black and vice versa slowly,72,72 Vertical linear shade white-->black and vice versa fast,73,73 Diagonal shade black -->white and vice versa slowly,74,74 Diagonal shade black -->white and vice versa fast,75,75 Shade black -->white slow rotation clockwise,76,76 Shade black -->white fast rotation clockwise,77,77 Shade black -->white slow rotation anticlockwise,78,78 Shade black -->white fast rotation anticlockwise,79,79 Horizontal linear shade white-->red and vice versa slowly,80,80 Horizontal linear shade white-->red and vice versa fast,81,81 Vertical linear shade white-->red and vice versa slowly,82,82 Vertical linear shade white-->red and vice versa fast,83,83 Diagonal shade red -->white and vice versa slowly,84,84 Diagonal shade red -->white and vice versa fast,85,85 Shade red -->white slow rotation clockwise,86,86 Shade red -->white fast rotation clockwise,87,87 Shade red -->white slow rotation anticlockwise,88,88 Shade red -->white fast rotation anticlockwise,89,89 Horizontal linear shade white-->green and vice versa slowly,90,90 Horizontal linear shade white-->green and vice versa fast,91,91 Vertical linear shade white-->green and vice versa slowly,92,92 Vertical linear shade white-->green and vice versa fast,93,93 Diagonal shade green -->white and vice versa slowly,94,94 Diagonal shade green -->white and vice versa fast,95,95 Shade green -->white slow rotation clockwise,96,96 Shade green -->white fast rotation clockwise,97,97 Shade green -->white slow rotation anticlockwise,98,98 Shade green -->white fast rotation anticlockwise,99,99 Horizontal linear shade,0,0 white-->blue and vice versa slowly,100,100 Horizontal linear shade white-->blue and vice versa fast,101,101 Vertical linear shade white-->blue and vice versa slowly,102,0 Vertical linear shade white-->blue and vice versa fast,103,103 Diagonal shade blue -->white and vice versa slowly,104,104 Diagonal shade blue -->white and vice versa fast,105,105 Shade blue -->white slow rotation clockwise,106,106 Shade blue -->white fast rotation clockwise,107,107 Shade blue -->white slow rotation anticlockwise,108,108 Shade blue -->white fast rotation anticlockwise,109,109 Horizontal linear shade white-->cyan and vice versa slowly,110,110 Horizontal linear shade white-->cyan and vice versa fast,111,111 Vertical linear shade white-->cyan and vice versa slowly,112,112 Vertical linear shade white-->cyan and vice versa fast,113,113 Diagonal shade cyan -->white and vice versa slowly,114,114 Diagonal shade cyan -->white and vice versa fast,115,115 Shade cyan -->white slow rotation clockwise,116,116 Shade cyan -->white fast rotation clockwise,117,117 Shade cyan -->white slow rotation anticlockwise,118,118 Shade cyan -->white fast rotation anticlockwise,119,119 Horizontal linear shade white-->magenta and vice versa slowly,120,120 Horizontal linear shade white-->magenta and vice versa fast,121,121 Vertical linear shade white-->magenta and vice versa slowly,122,122 Vertical linear shade white-->magenta and vice versa fast,123,123 Diagonal shade magenta -->white and vice versa slowly,124,124 Diagonal shade magenta -->white and vice versa fast,125,125 Shade magenta -->white slow rotation clockwise,126,126 Shade magenta -->white fast rotation clockwise,127,127 Shade magenta -->white slow rotation anticlockwise,128,128 Shade magenta -->white fast rotation anticlockwise,129,129 Horizontal linear shade white-->yellow and vice versa slowly,130,130 Horizontal linear shade white-->yellow and vice versafast,131,131 Vertical linear shade white-->yellow and vice versa slowly,132,132 Vertical linear shade white-->yellow and vice versa fast,133,133 Diagonal shade yellow -->white and vice versa slowly,134,134 Diagonal shade yellow -->white and vice versa fast,135,135 Shade yellow -->white slow rotation clockwise,136,136 Shade yellow -->white fast rotation clockwise,137,137 Shade yellow -->white slow rotation anticlockwise,138,138 Shade yellow -->white fast rotation anticlockwise,139,139 RGBW shades slow rotation clockwise,140,140 RGBW shades fast rotation clockwise,141,141 RGBW shades slow rotation anticlockwise,142,142 RGBW shades fast rotation anticlockwise,143,143 Random colours slowly black between colours,144,144 Random colours fast black between colours,145,145 Random colours slowly white between colours,146,146 Random colours fast white between colours,147,147 Random colours slowly,148,148 Random colours fast,149,149 Horizontal black shade -->random colour slowly,150,150 Horizontal black shade -->random colour fast,151,151 Vertical black shade -->random colour slowly,152,152 Vertical black shade -->random colour fast,153,153 Diagonal black shade -->random colour slowly,154,154 Diagonal black shade -->random colour fast,155,155 Black shade  -->random colour slow rotation clockwise,156,156 Black shade  -->random colour fast rotation clockwise,157,157 Black shade  -->random colour slow rotation anticlockwise,158,158 Black shade  -->random colour fast rotation anticlockwise,159,159 Random colour in two corners slow rotation clockwise,160,160 Random colour in two corners fast rotation clockwise,161,161 Random colour in two corners slow rotation anticlockwise,162,162 Random colour in two corners fast rotation anticlockwise,163,163 Random colour in four corners slow rotation clockwise,164,164 Random colour in four corners fast rotation clockwise,165,165 Random colour in four corners slow rotation anticlockwise,166,166 Random colour in four corners fast rotation anticlockwise,167,167 Horizontal colour transition slowly random,168,168 Horizontal colour transition fast random,169,169 Vertical colour transition slowly random,170,170 Vertical colour transition fast random,171,171 Diagonal colour transition slowly,172,172 Diagonal colour transition Fast,173,173 Horizontal/Vertical/Diagonal colour transition slowly,174,174 Horizontal/Vertical/Diagonal colour transition fast,175,175 
+
+Channel = Digital gobo wheel selection
+ no_function,0,0 Internal Custom,48,48 External Custom ,80,80 
+
+Channel = Digital gobo wheel
+ open,0,0 Black and white gobos,1,59 Colour pictures,60,202 Animations,203,216 Gobos presentation (gobos selected randomly),251,251 Gobos presentation (gobos selected in alphabetical order),252,252 
+
+Channel = Video speed control
+ no_function,0,0 Standing in first frame,1,1 Speed from min. to max.,2,254 
+
+Channel = gobo_rotate
+ index,0,127 right_rotate,128,191 stop,192,192 left_rotate,194,255 
+
+Channel = gobo_urotate
+
+Channel = Effect wheel
+ open,0,0 Random transition,1,1 Transition with blending,2,2 Transition from left --> right horizontally,3,3 Transition from right --> left horizontally,4,4 Stripe transition from left --> right horizontally,5,5 Stripe transition from right -->left horizontally,6,6 3-stripe transition from left-->right horizontally,7,7 3-stripe transition from right-->left horizontally,8,8 6-stripe transition from left-->right horizontally,9,9 6-stripe transition from right-->left horizontally,10,10 Transition up --> down vertically,11,11 Transition down -->up vertically,12,12 Stripe transition up --> down vertically,13,13 Stripe transition down -->up vertically,14,14 3-stripe transition up-->down vertically,15,15 3-stripe transition down-->up vertically,16,16 6-stripe transition up-->down vertically,17,17 6-stripe transition down-->up vertically,18,18 Transition 2 from left --> right horizontally (diffusion edge),19,19 Transition 2 from right --> left horizontally (diffusion edge),20,20 Transition 2 up --> down vertically (diffusion edge),21,21 Transition 2 down -->up vertically (diffusion edge),22,22 Iris transition out--> in,23,23 Iris transition in--> out,24,24 Iris transition out--> in (Diffusin edge),25,25 Iris transition in--> out (Diffusion edge),26,26 Iris transition 3 out--> in (more diffusion edge),27,27 Iris transition 3 in--> out (more diffusion edge),28,28 Moving transition from left --> right,29,29 Moving transition from left --> right,30,30 Moving transition up --> down,31,31 Moving transition from down --> up,32,32 Drop transition,33,33 Simple transition,34,34 Pixel transition,35,35 Transition via blending,36,36 Transition with white output,37,37 Crossing transition,38,38 Picture in picture transition,39,39 Direct transition,40,40 Transition with vertical rotation,41,41 Transition with horizontal rotation,42,42 Transition with diagonal rotation,43,43 Transition with diagonal rotation-opposite direction,44,44 Zoom out transition,45,45 Zoom in transition,46,46 Zoom transition in horizontal direction,47,47 Zoom transition in vertical direction,48,48 Kaleidoscope 1,80,80 Kaleidoscope 2,81,81 Kaleidoscope 3,82,82 Kaleidoscope 4,83,83 Kaleidoscope 5,84,84 Sunflower Kaleidoscope (coarse),85,85 Sunflower Kaleidoscope (soft),86,86 Sunflower kaleidoscope (slow),87,87 Sunflower kaleidoscope (faster),88,88 Sunflower kaleidoscope (fastest),89,89 Circle Iris in/out,100,100 Circle Iris in/out (diffusion edge),101,101 Vertical Ellipse Iris in/out,102,102 Horizontal Ellipse Iris in/out,103,103 Positive/negative (black and white),105,105 White/negative (black and white),106,106 Positive/negative (coloured),107,107 Pixeling,108,108 Circular Iris,180,180 Elliptical Iris -vertical,181,181 Elliptical Iris-horizontal,182,182 Black mask,183,183 Inverse black mask,184,184 White mask,185,185 Inverse white mask,186,186 Gobo/video movement in horizontal (X) axis,187,187 Gobo/video movement in vertical (Y) axis,188,188 Crossfade effect,190,190 Addition effect,191,191 Substraction effect,192,192 Multiplication effect,193,193 Minimum effect,194,194 Maximum effect,195,195 
+
+Channel = Effect Speed/Time
+ Presentation,0,0 index,1,255 
+
+Channel = shutter
+ closed,0,0 open,48,48 strobe,64,95 pulse_open,128,143 pulse_close,144,159 random_strobe,192,223 open,255,255 
+
+Channel = dimmer
+

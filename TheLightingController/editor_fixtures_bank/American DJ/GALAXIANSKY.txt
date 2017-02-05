@@ -1,0 +1,27 @@
+Name = GALAXIANSKY
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = control
+ closed,0,0 open,255,255
+
+Channel = effect_macro
+ macro_1,0,0 macro_2,18,18 macro_3,32,32 macro_4,45,45 macro_5,58,58 macro_6,72,72 macro_7,83,83 macro_8,96,96 macro_9,109,109 macro_10,122,122 macro_11,134,134 macro_12,147,147 macro_13,160,160 macro_14,173,173 macro_15,186,186 macro_16,198,198 macro_17,211,211 macro_18,224,224 macro_19,237,237 macro_20,255,255
+
+Channel = movement
+ stop,0,0 left_rotate,10,120 stop,127,127 right_rotate,135,245 stop,255,255
+ 
+Channel = rotation
+ stop,0,0 left_rotate,10,120 stop,127,127 right_rotate,135,245 stop,255,255
+
+Channel = zoom
+
+

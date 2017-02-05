@@ -1,0 +1,32 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED60W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = pan
+
+Channel = tilt
+
+Channel = color
+ index,0,127 right_rotate,128,192 left_rotate,193,255 
+
+Channel = gobo
+ Miscellaneous/open,0,0 Miscellaneous/dimmer,9,107 Miscellaneous/shaking,108,206 Miscellaneous/rotate,207,255 
+
+Channel = shutter
+ closed,0,0 open,15,15 strobe,20,127 strobe2,138,201 open,255,255 
+
+Channel = dimmer
+
+Channel = effect_macro
+ no_function,0,0 color_wheel_rotation,60,79 reset_motors,85,85 macro_1,100,255 
+
+Channel = effect_speed
+

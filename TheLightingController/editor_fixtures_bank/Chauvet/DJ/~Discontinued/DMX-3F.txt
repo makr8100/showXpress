@@ -1,0 +1,20 @@
+Name = DMX-3F
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewColor = 0
+
+Channel = smoke_machine
+ closed,0,5 on,10,10 Timer_activate,14,15 full_fog,255,255
+
+Channel = interval
+
+Channel = duration
+
+Channel = volume
+

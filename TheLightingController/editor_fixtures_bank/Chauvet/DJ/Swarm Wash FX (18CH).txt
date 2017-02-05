@@ -1,0 +1,66 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/Swarm Wash FX.png
+
+Channel = mode
+ Blackout,0,15 Wash Only,16,30 Lasers Only,31,45 Derby Only,46,60 Strobes Only,61,75 Wash,0,0 Laser and Derby,76,90 Wash,0,0 Laser and Strobes,91,105 Wash,0,0 Derby and Strobes,106,120 Laser,0,0 Derby and Strobes,121,135 Wash and Laser,136,150 Wash and Derby,151,165 Wash and Strobes,166,180 Laser and Derby,181,195 Laser and Strobes,196,210 Derby and Strobes,211,225 All effects,226,255 
+
+Channel = mode
+ Selects speedSelects speed,1,200 audio,201,255 
+
+Channel = Wash
+ no_function,1,51 red,52,102 green,103,153 b;ue,154,204 UV,205,255 
+
+Channel = Wash
+ no_function,1,51 red,52,102 green,103,153 b;ue,154,204 UV,205,255 
+
+Channel = Wash
+ no_function,1,51 red,52,102 green,103,153 b;ue,154,204 UV,205,255 
+
+Channel = Wash
+ no_function,1,51 red,52,102 green,103,153 b;ue,154,204 UV,205,255 
+
+Channel = Wash
+ no_function,1,51 red,52,102 green,103,153 b;ue,154,204 UV,205,255 
+
+Channel = Wash
+ no_function,1,51 red,52,102 green,103,153 b;ue,154,204 UV,205,255 
+
+Channel = Wash
+ no_function,1,51 red,52,102 green,103,153 b;ue,154,204 UV,205,255 
+
+Channel = Wash
+ no_function,1,51 red,52,102 green,103,153 b;ue,154,204 UV,205,255 
+
+Channel = Wash strobe
+ strobe speed,0,255 
+
+Channel = Derby
+ ?,0,9 red,10,14 green,15,19 blue,20,24 amber,25,29 white,30,34 white/red,35,39 red/green,40,44 green/blue,45,49 blue/amber,50,54 amber/white,55,59 white/green,60,64 green/amber,65,69 amber/red,70,74 red/blue,75,79 blue/white,80,84 Red + Green + Blue,85,89 Red + Green + Amber,90,94 Red + Green + White,95,99 Red + Amber + Blue,100,104 Red + White + Blue,105,109 Red + Amber + White,110,114 Amber + Green + Blue,115,119 Blue + Green + White,120,129 Amber + White + Blue,130,134 Red + Green + Blue + Amber,135,139 Red + Green + Blue + White,140,144 Green + Blue + Amber + White,145,149 Red + Green + Amber + White,150,154 Red + Blue + Amber + White,155,159 Red + Green + Blue + Amber + White,160,164 Automatic (single colors only),165,209 Automatic (two colors at a time),210,222 Automatic Sound,223,255 
+
+Channel = Derby Strobe
+ strobe,0,200 audio,201,255 
+
+Channel = Derby speed
+ no_function,0,4 right_rotate,5,127 stop,128,133 left_rotate,134,255 
+
+Channel = Smd Strobe
+ no_function,0,9 Auto Program 1 (fast to slow),10,19 Auto Program 2 (fast to slow),20,29 Auto Program 3 (fast to slow),30,39 Auto Program 4 (fast to slow),40,49 Auto Program 5 (fast to slow),50,59 Auto Program 6 (fast to slow),60,69 Auto Programs 7 (fast to slow),70,79 Auto Programs 8 (fast to slow),80,89 Auto Programs 9 (fast to slow),90,99 Auto Programs 10 (fast to slow),100,109 Full on,110,200 audio,201,255 
+
+Channel = laser
+ no_function,0,9 red,10,49 green,50,89 Green and red,0,0 alternating strobe,90,129 Red on and green strobe,130,169 Green on and red strobe,170,209 Red and Green Strobe,210,255 
+
+Channel = strobe_effect
+ no_function,0,4 strobe,5,254 audio,255,255 
+
+Channel = motor
+ stop,0,4 right_rotate,5,127 stop,128,133 ?,134,255 
+

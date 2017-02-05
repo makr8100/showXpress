@@ -1,0 +1,72 @@
+Name = SHOWTEC_EXPLORER1200
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_1200MSR
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+2DViewImage = Showtec/Discontinued/explorer_1200.png
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = effect
+ NO FUNCTION,0,127 LAMP ON 3sec,130,130 STANDBY,140,229 LAMP OFF 3sec,235,235 NO FUNCTION,240,255
+
+Channel = color
+ white,0,13 dark_red,14,14 uv,28,28 green,42,42 orange,56,56 6000K,69,69 UV,83,83 white,104,104 dark_red,117,117 uv,130,130 green,143,143 orange,156,156 6000K,169,169 UV,182,182 ROTATE,197,255
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = yellow
+
+Channel = CTO
+
+Channel = effect_speed
+
+Channel = gobo
+ Miscellaneous\open,0,15 Showtec\explo1200-WHA-01,16,31 Showtec\explo1200-WHA-02,32,47 Showtec\explo1200-WHB-06,48,63 Showtec\explo575-WHB-01,64,79 Showtec\explo1200-WHA-05,80,95 Showtec\explo1200-WHA-06,96,111 Shake 1,112,129 Shake 2,130,147 Shake 3,148,165 Shake 4,166,183 Shake 5,184,201 Shake 6,202,219 Gobo Flow,220,255
+
+Channel = gobo_rotate
+ stop,0,0 left_rotate,1,100 right_rotate,101,255
+
+Channel = gobo2
+ Miscellaneous\open,0,15 Showtec\explo1200-WHB-01,16,31 Showtec\explo1200-WHB-02,32,47 Showtec\explo1200-WHB-03,48,63 Showtec\explo1200-WHB-04,64,79 Showtec\explo1200-WHB-05,80,95 Showtec\explo1200-WHB-06,96,111 Shake 1,112,129 Shake 2,130,147 Shake 3,148,165 Shake 4,166,183 Shake 5,184,201 Shake 6,202,219 Gobo Flow,220,255
+
+Channel = gobo_rotate2
+ new_level,0,0 left_rotate,1,100 right_rotate,101,255
+
+Channel = prism
+ open,0,51 DIAMANT,52,104 3_FACET_PRISM,105,157 STRIPE,158,210 5_FACET PRISM,211,255
+
+Channel = prism_rotate
+ NO ROTATION,0,4 FAST ROT,5,126 SLOW ROT,127,127 stop,128,128 FAST ROT,133,133 SLOW ROT,255,255
+
+Channel = frost
+
+Channel = iris
+
+Channel = ZOOM
+
+Channel = focus
+ focus_far,0,126 focus_mid,127,127 focus_near,128,255
+
+Channel = shutter
+ closed,0,31 open,32,63 strobe,64,95 open,96,191 strobe,192,223 open,224,255
+
+Channel = dimmer
+

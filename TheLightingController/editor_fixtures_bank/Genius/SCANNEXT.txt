@@ -1,0 +1,25 @@
+Name = GENIUS_SCANNEXT
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = reserved
+
+Channel = color
+ white,0,0 yellow,12,12 green,22,22 blue,32,32 red,42,42 orange,52,52 cyan,62,62 magenta,72,72 yellow,82,82 green,92,92 white,102,102 pink,112,112 yel_green,122,122 mag_blue,132,132 ora_blue,142,142 multi_color,154,154 rotate,160,255
+
+Channel = gobo
+ full,0,0 gobo1,14,14 sun1,24,24 gobo3,34,34 gobo4,44,44 gobo5,54,54 gobo6,64,64 star,74,74 gobo7,84,84 gobo8,94,94 gobo9,104,104 gobo10,114,114 sun2,124,124 gobo12,134,134 flower,144,144 atom,154,154 rotate,160,255
+
+Channel = shutter
+ closed,0,0 open,60,60 strobe,80,255
+
+Channel = pan
+
+Channel = tilt
+

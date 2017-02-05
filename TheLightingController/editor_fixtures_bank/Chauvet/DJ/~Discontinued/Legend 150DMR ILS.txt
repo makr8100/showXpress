@@ -1,0 +1,33 @@
+Name = Legend 150DMR ILS
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_150HTI
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 13
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewColor = 0
+
+Channel = pan
+ new_level,0,255
+
+Channel = tilt
+ new_level,0,255
+
+Channel = shutter
+ closed,0,0 stutter,5,5 stutter,9,9 stutter,11,11 Slow Shaking,133,133 Fast Shaking,240,240 open,249,249
+
+Channel = gobo
+ Miscellaneous\open,0,0 Chauvet\open,5,5 Chauvet\phone,30,30 Chauvet\glass,45,45 Chauvet\swirl3,50,50 Chauvet\4B,78,78 Chauvet\144009,0,91 Showtec\CHALLENGER-005,100,100 Chauvet\4 dots,125,125 Miscellaneous\rotate,128,255
+
+Channel = color
+ white,0,0 white,5,5 green,20,20 magenta,29,29 light_blue,45,45 yellow,55,55 orange,69,69 blue,80,80 uv,100,100 light_green,110,110 pink,117,117 rotate,118,158 rotate,159,248 rotate,250,255
+
+Channel = gobo_rotate
+ stop,0,0 left_rotate,10,10 left_rotate,119,119 stop,125,125 right_rotate,133,133 right_rotate,144,144 stop,250,250
+
+Channel = dimmer
+ dimmer,1,255
+

@@ -1,0 +1,23 @@
+Name = JB-SYSTEM_DYNAMO250
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_250HALO
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = pan
+
+Channel = tilt
+
+Channel = shutter
+ closed,0,0 strobe,16,131 shaking,132,247 open,255,255
+
+Channel = gobo
+ open,0,0 yellow,17,17 blue,30,30 blue-red-green,40,40 green,52,52 pink,64,64 red-yel-green-blue,75,75 magenta,87,87 red,99,99 blue-magenta,110,110 white,122,122 rotate,128,255
+

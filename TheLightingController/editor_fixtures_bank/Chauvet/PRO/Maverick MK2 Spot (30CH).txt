@@ -1,0 +1,102 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LAMP575W
+ViewAnglePan = 540
+ViewAngleTilt = 240
+ViewAngleBeam = 18
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/PRO/Maverick-MKII-FRONT.png
+
+Channel = pan
+ dimmer,0,255
+
+Channel = upan
+ dimmer,0,255
+
+Channel = tilt
+ dimmer,0,255
+
+Channel = utilt
+ dimmer,0,255
+
+Channel = pantilt_speed
+ dimmer,0,255
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = udimmer
+ dimmer,0,255
+
+Channel = Shutter
+ Off,0,3 On,4,7 Strobe w/ Increasing Speed,8,76 Pulse Strobe w/ Increasing Speed,77,145 Random Strobe W/ Increasing Speed,146,215 On,216,255
+
+Channel = Virtual Shutter
+ No Function,0,3 Virtual Strobe W/ Increasing Speed,4,255
+
+Channel = cyan
+ dimmer,0,255
+
+Channel = magenta
+ dimmer,0,255
+
+Channel = yellow
+ dimmer,0,255
+
+Channel = CTO
+ dimmer,0,255
+
+Channel = color
+ open,0,6 Color 1,7,13 Color 2,14,20 Color 3,21,27 Color 4,28,34 Color 5,35,41 Color 6,42,47 Color 7,48,59 Split Colors,60,187 Positive Rainbow Decreasing Speed,188,219 Stop,220,223 Negative Rainbow Increasing Speed,224,255
+
+Channel = gobo
+ Miscellaneous/open,0,8 Gobo 1,9,17 Gobo 2,18,26 Gobo 3,27,35 Gobo 4,36,44 Gobo 5,45,53 Gobo 6,54,63 Gobo 6 Shaking,64,73 Gobo 5 Shaking,74,82 Gobo 4 Shaking,83,91 Gobo 3 Shaking,92,100 Gobo 2 Shaking,101,109 Gobo 1 Shaking,110,118 White ,119,127 Positive Scroll Increasing Speed,128,191 Negative Scroll Increasing Speed,192,255
+
+Channel = gobo_rotate
+ Rotating Gobo Index,0,63 Positive Rotating Increasing Speed,64,145 Stop,146,149 Negative rotating gobo increasing speed,150,231 Gobo rotating back and forth scroll,232,255
+
+Channel = gobo2
+ Miscellaneous/open,0,8 Gobo 1,9,17 Gobo 2,18,26 Gobo 3,27,35 Gobo 4,36,44 Gobo 5,45,53 Gobo 6,54,63 Gobo 6 Shaking,64,73 Gobo 5 Shaking,74,82 Gobo 4 Shaking,83,91 Gobo 3 Shaking,92,100 Gobo 2 Shaking,101,109 Gobo 1 Shaking,110,118 White ,119,127 Positive Scroll Increasing Speed,128,191 Negative Scroll Increasing Speed,192,255
+
+Channel = gobo_rotate2
+ Rotating Gobo Index,0,63 Positive Rotating decreasing speed,64,145 Stop,146,149 Negative rotating with increasing speed,150,231 Gobo rotating back and forth rainbow,232,255
+
+Channel = focus
+ dimmer,0,255
+
+Channel = Focus fine
+ dimmer,0,255
+
+Channel = Auto Focus
+ No Function,0,10 0-5M Auto,11,30 6M Auto Focus,31,50 7M Auto,51,70 8M Auto,71,90 9M Auto,91,110 10M Auto,111,130 12.5 Auto,131,150 15M Auto,151,170 17.5M Auto,171,190 20-60M Auto,191,210 Auto distance detect,211,255
+
+Channel = zoom
+ dimmer,0,255
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = prism
+ No Function,0,4 Prism Effect,5,255
+
+Channel = prism_rotate
+ Prism Rotating Position,0,127 Positive Rotating Increasing Speed,128,189 Stop,190,193 Negative Rotating Decreasing Speed,194,255
+
+Channel = Iris
+ Iris Open to Close,0,63 Auto with Increasing Speed,64,127 Slow in Fast Out Increasing Speed,128,191 Slow Out Fast In Increasing Speed,192,255
+
+Channel = Frost
+ dimmer,0,255
+
+Channel = CMY Macro
+ no_function,0,9 CMY Macro,10,255
+
+Channel = CMY Macro Speed
+ dimmer,0,255
+
+Channel = control
+ No Function,0,7 Pan/Tilt Blackout,8,15 C Blackout,16,23 G Blackout,24,31 XYC Blackout,32,39 XYG Blackout,40,47 XYCG Blackout,48,55 No Function,56,95 X Reset,96,103 Y Reset,104,111 Color Reset,112,119 Gobo & Gobo Rotating Reset,120,127 No Function,128,135 Prism Reset,136,143 Focus Reset,144,151 All Reset,152,159 Iris Reset,160,167 Frost Reset,168,175 Zoom Reset,176,183 CMY+CTO Reset,184,191 Fan Low Speed,192,199 Fan Full Speed,200,207 Fan Auto,208,215 no_function,216,220 Iris fast mode,221,225 Iris smooth mode,226,230 XY swap on,231,235 XY swap off,236,240 no_function,241,245 XY smooth mode,246,250 XY fast mode,251,255
+

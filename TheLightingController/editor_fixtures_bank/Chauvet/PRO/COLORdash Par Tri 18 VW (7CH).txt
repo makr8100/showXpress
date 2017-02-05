@@ -1,0 +1,31 @@
+﻿COLORdash TRI par 18 VW (7CH)
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = dimmer
+
+Channel = warm white
+
+Channel = cool white
+
+Channel = strobe_effect
+ no function,0,10 slow to fast,11,255 
+
+Channel = auto program
+ no function,0,51 auto 1,52,101 auto 2,102,152 auto 3,153,203 auto 4,204,254 auto 5,255,255 
+
+Channel = auto speed
+
+Channel = dimmer speed
+ preset dimmer speed from display menu,0,51 linear dimmer,52,101 curve 1,102,152 curve 2,153,203 curve 3,204,255 
+

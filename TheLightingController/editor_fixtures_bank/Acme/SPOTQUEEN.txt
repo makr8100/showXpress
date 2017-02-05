@@ -1,0 +1,27 @@
+Name = ACME_SPOTQUEEN
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_250HALO
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewColor = 13158600
+
+Channel = shutter
+ closed,0,0 dimmer,5,131 strobe,132,255
+
+Channel = gobo
+ Miscellaneous\open,0,0 Miscellaneous\gobo1,24,24 Miscellaneous\gobo2,40,40 Miscellaneous\gobo3,56,56 Miscellaneous\gobo4,70,70 Miscellaneous\gobo5,88,88 Miscellaneous\gobo6,104,104 Miscellaneous\gobo7,120,120 Miscellaneous\rotate,128,255
+
+Channel = gobo_rotate
+ stop,0,0 right_rotate,10,120 stop,127,127 left_rotate,135,245 stop,255,255
+
+Channel = color
+ white,0,0 blue,19,19 yellow,32,32 green,45,45 light_blue,58,58 orange,60,60 pink,83,83 magenta,96,96 amber,111,111 light_green,122,122 rotate,128,255
+
+Channel = pan
+
+Channel = tilt
+

@@ -1,0 +1,48 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED60W
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 15
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+2DViewImage = Chauvet/PRO/WELL2-2D.png
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = red
+ dimmer,0,255
+
+Channel = green
+ dimmer,0,255
+
+Channel = blue
+ dimmer,0,255
+
+Channel = red
+ dimmer,0,255
+
+Channel = green
+ dimmer,0,255
+
+Channel = blue
+ dimmer,0,255
+
+Channel = color_macro
+ no_function,0,10 red full/green to full,11,30 red to 0/green full,31,50 green full/Blue to full,51,70 blue full/green to 0,71,90 blue full/red to full,91,110 red full/blue to 0,111,130 red full/BlueGreen to full,131,150 BGR full/RG to 0,151,170 All Full,171,200 3200k,201,205 3400k,206,210 4200k,211,215 4900k,216,220 5600k,221,225 5900k,226,230 6500k,231,235 7200k,236,240 8000k,241,245 8500k,246,250 10000,251,255
+
+Channel = shutter
+ no_function,0,10 strobe,11,255
+
+Channel = mode
+ no_function,0,40 auto 1,41,50 auto 2,51,60 auto 3,61,70 auto 4,71,80 auto 5,81,90 auto 6,91,100 auto 7,101,110 auto 8,111,120 auto 9,121,130 auto 10,131,140 custom 1,141,150 custom 2,151,160 custom 3,161,170 custom 4,171,180 custom 5,181,190 custom 6,191,200 custom 7,201,210 custom 8,211,220 custom 9,221,230 custom 10,231,255 
+
+Channel = effect_speed
+ 0-100%,0,255 
+
+Channel = dimmer_speed
+ Preset dimmer from display,0,9 Linear Dimmer,10,29 Nonlinear Dim Curve 1 (Fastest),30,69 Nonlinear Dim Curve 2,70,129 Nonlinear Dim Curve 3,130,189 Nonlinear Dim Curve 4 (Slowest),190,255 
+

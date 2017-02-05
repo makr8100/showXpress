@@ -1,0 +1,23 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 40
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+2DViewImage = Contest/Discontinued Products/LEDCOLOR .png
+
+Channel = mode
+ RGB B F,0,29 auto,30,94 audio,95,159 step_colors,160,184 macro_1,185,209 macro_2,222,222 macro_3,255,255 
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = dimmer
+

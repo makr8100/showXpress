@@ -1,0 +1,18 @@
+﻿ViewType = VIEW_TYPE_STROBE
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/Shocker Panel180 USB.png
+
+Channel = shutter
+ no_function,0,1 strobe,2,249 
+
+Channel = dimmer
+ dimmer,0,255 
+

@@ -1,0 +1,15 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Contest/Light DJ/QUADROLL .png
+
+Channel = animation
+ closed,0,7 auto,8,15 macro_1,16,29 macro_2,30,43 macro_3,44,57 macro_4,58,71 macro_5,72,85 macro_6,86,99 macro_7,100,113 macro_8,114,127 macro_9,128,141 macro_10,142,155 macro_11,156,169 macro_12,170,183 macro_13,184,197 macro_14,198,211 macro_15,212,225 macro_16,226,239 audio,240,255 
+

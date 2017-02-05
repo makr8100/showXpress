@@ -1,0 +1,38 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = TRUE
+ViewReverseTilt = TRUE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Contest/Club series/RAY1R .png
+
+Channel = pan
+
+Channel = tilt
+
+Channel = pantilt_speed
+
+Channel = dimmer
+
+Channel = shutter
+ closed,0,3 strobe,4,103 open,104,107 pulse_strobe,108,207 open,208,212 random_strobe,213,251 open,252,255 
+
+Channel = color
+ open,0,4 split_1,5,8 red,9,12 split_2,13,17 orange,18,21 split_3,22,25 cyan,26,29 split_4,30,34 green,35,38 split_5,39,42 light_green,43,46 split_6,47,51 satin_white,52,55 split_7,56,59 pink,60,63 split_8,64,68 yellow,69,72 split_9,73,76 magenta,77,81 split_10,82,85 blue,86,89 split_11,90,93 T1,94,98 T1 T2,99,102 T2,103,106 T2 T3,107,110 T3,111,115 T3 UV,116,119 uv,120,123 uv blanc,124,127 right_rotate,128,255 
+
+Channel = gobo
+ Miscellaneous/open,0,3 metal_basic/H1,4,10 metal_basic/H2,11,16 metal_basic/H3,17,22 metal_basic/H4,23,27 metal_basic/RR1B7,28,31 metal_basic/RR1B8,32,35 metal_basic/L230B9,36,39 metal_basic/RR1B10,40,43 metal_basic/L230B11,44,47 metal_basic/RR1B12,48,51 metal_basic/RR1B15,52,55 metal_basic/sh28,56,59 metal_basic/sh16,60,63 metal_basic/Z03748-7,64,67 metal_basic/GM012,68,71 Miscellaneous/left_rotate,72,113 Miscellaneous/open,114,117 Miscellaneous/right_rotate,118,159 Miscellaneous/shake_gobo1,160,167 Miscellaneous/shake_gobo2,168,174 Miscellaneous/shake_gobo3,175,181 Miscellaneous/shake_gobo4,182,189 Miscellaneous/shake_gobo5,190,194 Miscellaneous/shake_gobo6,195,199 Miscellaneous/shake_gobo7,200,204 Miscellaneous/shake_gobo8,205,209 Miscellaneous/shake_gobo9,210,214 Miscellaneous/shake_gobo10,215,219 Miscellaneous/shake_gobo11,220,224 Miscellaneous/shake_gobo12,225,229 Miscellaneous/shake_gobo13,230,234 Miscellaneous/shake_gobo14,235,239 Miscellaneous/shake_gobo15,240,255 
+
+Channel = prism
+ no_function,0,127 prism,128,255 
+
+Channel = prism_rotate
+ index,0,127 left_rotate,128,190 stop,191,192 right_rotate,193,255 
+
+Channel = control
+ no_function,0,79 reset effects,80,84 reset_xy,85,87 reset,88,90 no_function,91,100 lamp_off,101,120 open,121,140 no_function,141,160 macro_1,161,180 macro_2,181,200 macro_3,201,220 macro_4,221,239 audio,240,255 
+

@@ -1,0 +1,41 @@
+Name = FAL_2500_XLD_PF3071
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = iris
+ open,0,0 closed,255,255
+
+Channel = color
+ white,0,0 dark_blue,37,37 light_blue,49,49 purple,61,61 pink,73,73 green,85,85 yellow,97,97 red,109,109 clock,116,179 stop,185,185 counterclock,192,255
+
+Channel = beam
+ 15°,42,42 12°,128,128 9°,255,255
+
+Channel = shutter
+ dimmer,0,131 strobe,136,246 open,255,255
+
+Channel = pan
+
+Channel = tilt
+
+Channel = focus
+ near,0,0 far,255,255
+
+Channel = gobo
+ full,0,0 gobo1,76,76 gobo2,127,127 gobo3,178,178 gobo4,255,255
+
+Channel = gobo_rotate
+ direction,0,119 clock,120,183 stop,187,187 counterclock,192,255
+
+Channel = prism
+ full,0,0 prism1,76,76 prism2,127,127 prism3,178,178 prism4,255,255
+
+Channel = prism_rotate
+ direction,0,119 clock,120,183 stop,187,187 counterclock,192,255
+

@@ -1,0 +1,24 @@
+Name = MARTIN_QFX150_V1
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = control
+ nc,0,0 reset,105,105 nc,135,135 lamp_on,165,165 nc,225,225 lamp_off,255,255
+
+Channel = dimmer
+
+Channel = color
+ white,0,0 blue_108,16,16 green_206,32,32 yellow_603,48,48 red_308,64,64 color_5,80,80 color_6,96,96 color_7,112,112 color_8,128,128 color_9,144,144 color_9,146,146 color_8,150,150 color_7,154,154 color_6,158,158 color_5,162,162 red_308,166,166 yellow_603,170,170 green_206,174,174 blue_108,178,178 white,182,182 clock,186,220 counter_clock,222,255
+
+Channel = effect_speed
+ stop,0,0 clock,2,125 stop,128,128 counterclock,132,255
+
+Channel = effect_speed
+ tracking,0,0 fast__&_shortc,4,4 fast-slow,6,255
+

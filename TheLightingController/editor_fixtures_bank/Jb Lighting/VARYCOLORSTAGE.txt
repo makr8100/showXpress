@@ -1,0 +1,21 @@
+Name = JB-LIGHTING_VARYCOLORSTAGE
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = color
+ white,0,0 white_red,11,11 red,19,19 red_yellow,27,27 yellow,35,35 yellow_magenta,43,43 magenta,51,51 magenta_green,59,59 green,67,67 green_orange,75,75 orange,83,83 orange_blue,91,91 blue,99,99 blue_aqua,107,107 aqua,115,115 aqua_white,123,123 rotation_left,128,190 stop,191,191 rotation_right,194,255
+
+Channel = shutter
+ closed,0,0 dimmer,20,127 open,133,133 closed_immed.,138,138 strobe,140,243 open,255,255
+
+Channel = iris
+
+Channel = prism
+ open,0,0 artificial_lig,48,48 daylight,80,80 prism,112,112 flood,144,144 variable_flood,160,255
+

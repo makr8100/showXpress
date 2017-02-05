@@ -1,0 +1,43 @@
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LED60W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Showtec/Moving Heads/indigo_150.png
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = color
+ open,0,14 red,15,29 yellow,30,44 green,45,59 pink,60,74 blue,75,89 orange,90,104 magenta,105,119 light_blue,120,134 light_green,135,149 rainbow,150,255
+
+Channel = gobo
+ ???,0,9 ???,10,19 ???,20,29 ???,30,39 ???,40,49 ???,50,59 ???,60,69 ???,70,79 ???,80,99 ???,100,119 ???,120,139 ???,140,159 ???,160,179 ???,180,199 ???,200,219 ???,220,255
+
+Channel = gobo_rotate
+ stop,0,2 slowest,3,6 slow to fast,7,128 stop,129,132 reverse,133,136 reverse slow to fast,137,255
+
+Channel = prism
+ open,0,127 prism,128,255
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = shutter
+ closed,0,31 open,32,63 slow to fast,64,95 open,96,127 pulse_strobe,128,159 open,160,191 random_strobe,192,223 open,224,255
+
+Channel = effect_macro
+ no_function,0,19 P/T Black on,20,39 P/T black off,40,59 Auto 1,60,79 Auto 2,80,99 Sound 1,100,119 Sound 2,120,139 Custom,140,159 Test,160,179 no_function,180,199 reset,200,219 no_function,220,255
+

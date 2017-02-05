@@ -1,0 +1,75 @@
+Name = yx-2111
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 540
+ViewAngleTilt = 280
+ViewAngleBeam = 22
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = pan
+ new_level,0,255
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = control
+ reset,128,139 closed,230,255
+
+Channel = color
+ white,0,13 dark_red,14,27 blue,28,41 orange,42,55 green,56,68 5500-3400k,69,82 uv,83,97 white,104,104 dark_red,130,130 blue,143,143 orange,156,156 green,169,169 5500-3400k,182,182 uv,197,197 rainbow,198,255
+
+Channel = cyan
+ new_level,0,255
+
+Channel = magenta
+ new_level,0,255
+
+Channel = yellow
+
+Channel = effect
+
+Channel = effect_speed
+
+Channel = gobo
+ American DJ\big_spot,0,15 Yagang\11,16,31 Yagang\16,32,47 Yagang\20,48,63 Yagang\15,64,79 Yagang\30,80,95 Yagang\29,96,111 Yagang\11,112,129 Yagang\16,130,147 Yagang\20,148,165 Yagang\15,166,183 Yagang\30,184,201 Yagang\29,202,219 _no_icon,220,255
+
+Channel = gobo_rotate
+ index,0,60 left_rotate,61,158 right_rotate,159,255
+
+Channel = gobo2
+ American DJ\big_spot,0,15 Yagang\3,16,31 Yagang\25,32,47 Yagang\24,48,63 Yagang\22,64,79 Yagang\31,80,95 Yagang\34,96,111 Yagang\3,112,129 Yagang\25,130,147 Yagang\24,148,165 Yagang\22,166,183 Yagang\31,184,201 Yagang\34,202,219 _no_icon,220,255
+
+Channel = gobo_rotate2
+ index,0,60 left_rotate,61,158 right_rotate,159,255
+
+Channel = prism
+ open,0,51 prism,52,104 prism,105,157 prism,158,210 prism,211,255
+
+Channel = prism_rotate
+ _no_icon,0,4 left_rotate,5,127 stop,128,132 right_rotate,133,255
+
+Channel = frost
+
+Channel = iris
+ new_level,0,255
+
+Channel = beam
+
+Channel = focus
+
+Channel = shutter
+ closed,0,31 open,32,63 strobe,64,223 open,224,255
+
+Channel = dimmer
+ new_level,0,255
+

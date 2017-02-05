@@ -1,0 +1,43 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 24
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = color_macro
+ no_function,0,0 3200K-1000K,201,255 
+
+Channel = dimmer
+
+Channel = shutter
+ open,0,0 strobe,16,255 
+
+Channel = dimmer_speed
+
+Channel = control
+ no_function,0,0 blackout_moves,30,30 fan_auto,70,70 fan2,110,110 fan3,130,130 auto1,155,155 auto2,165,165 reset,210,210 
+

@@ -1,0 +1,33 @@
+Name = EQUINOX_CARINA
+
+ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = control
+ audio,0,0 mode1,76,76 mode2,127,127 auto,178,178 closed,255,255
+
+Channel = laser
+ circle_zoom,0,0 line_rotate,5,5 circle_rotate_x,9,9 cicle_rotate_y,13,13 circle,17,17 circle_move,25,25 halfcircle,29,29 halfcircle_rotate_x,33,33 halfcircle_rotate_y,37,37 halfcircle_move,41,41 w_rotate_x,45,45 w_rotate_y,49,49 wave_rotate_x,53,53 line_flow,57,57 wave_move,61,61 square_zoom,65,65 square_move_x,69,69 square_move_y,73,73 square_rotate,77,77 triangle_zoom,81,81 triangle_rotate,85,85 triangle_move,89,89 line_move,93,93 pentangle_move,97,97 pentangle_move,101,101 line_moveup,105,105 line_rotate,109,109 line_rotate_y,113,113 vline_move,117,117 vline_rotate_x,121,121 leaf_rotate,125,125 leaf_zoom,129,129 hexagon_zoom,133,133 hexagon_rotate,137,137 circlesmall_moveleft,141,141 circlesmall_move,145,145 dot_move,153,153 lineshort_flow,157,157 cloud_move,161,161 cloud_rotate_y,165,165 cloud_rotate_x,169,169 v_move,173,173 v_rotate_x,177,177 v_rotate_y,181,181 v_zoom,185,185 v_rotate_z,189,189 wave_rotate,193,193 line_wave,197,197 line_2wave,201,201 2wave_zoom,205,205 plus_rotate,209,209 plus_zoom,213,213 line_circle,217,217 lineshort_eight,221,221 eight_rotate,225,225 rectangle_rotate,255,255
+
+Channel = gobo
+ line,0,0 circle,76,76 square,157,157 dot,178,178 triangle,229,229 zoom,255,255
+
+Channel = zoom
+
+Channel = gobo_rotate
+ stop,0,0 left_rotate,100,100 right_rotate,255,255
+
+Channel = move_x
+
+Channel = move_y
+
+Channel = effect_speed
+

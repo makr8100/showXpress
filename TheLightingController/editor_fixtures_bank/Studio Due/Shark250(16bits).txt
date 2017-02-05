@@ -1,0 +1,42 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = gobo_rotate
+ stop,0,0 right_rotate,4,123 stop,130,130 left_rotate,136,255
+
+Channel = color
+ white,0,0 yellow,24,24 red,40,40 purple,55,55 orange,72,72 pink,88,88 light_blue,104,104 cyan,120,120 dark_green,136,136 orange,152,152 3200-4100K,184,184 rotate,192,255
+
+Channel = gobo
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,48,48 Miscellaneous/gobo2,80,80 Miscellaneous/gobo3,112,112 Miscellaneous/gobo4,144,144 Miscellaneous/gobo5,176,176 Miscellaneous/gobo6,208,208 Miscellaneous/gobo7,255,255
+
+Channel = shutter
+ open,0,0 strobe,11,255 
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = dimmer
+
+Channel = pantilt_speed
+
+Channel = focus
+ focus_near,0,0 focus_far,255,255 
+
+Channel = prism
+ no_function,0,0 prism,6,6 right_rotate,9,123 stop,130,130 left_rotate,141,255 
+

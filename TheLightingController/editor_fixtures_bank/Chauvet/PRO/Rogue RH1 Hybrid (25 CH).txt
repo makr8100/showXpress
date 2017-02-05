@@ -1,0 +1,87 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/PRO/Rogue-R1-Hybrid-Zoom-FRONT.png
+
+Channel = pan
+ dimmer,0,255
+
+Channel = upan
+ dimmer,0,255
+
+Channel = tilt
+ dimmer,0,255
+
+Channel = utilt
+ dimmer,0,255
+
+Channel = pantilt_speed
+ dimmer,0,255
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = udimmer
+ dimmer,0,255
+
+Channel = shutter
+ no_function,0,7 On,8,15 Strobe ,16,131 Fast off slow ,132,167 Slow off fast,168,203 Pulse Strobe,204,239 Random Strobe,240,247 On,248,255
+
+Channel = color
+ Open,0,3 Color 1,4,7 Color 2,8,11 Color 3,12,15 Color 4,16,19 Color 5,20,23 Color 6,24,27 Color 7,28,31 Color 8,32,35 Color 9,36,39 Color 10,40,43 Color 11,44,47 Color 12,48,51 Color 13,52,59 Split Colors,60,187 Color scroll  Clockwise,188,219 Stop,220,223 Color scroll Counter clockwise,224,255
+
+Channel = gobo
+ Open,0,3 Gobo 1,4,6 Gobo 2,7,9 Gobo 3,10,12 Gobo 4,13,15 Gobo 5,16,18 Gobo 6,19,21 Gobo 7,22,24 Gobo 8,25,27 Gobo 9,28,30 Gobo 10,31,33 Gobo 11,34,36 Gobo 12,37,39 Gobo 13,40,42 Open,43,59 Gobo 1 shake,60,63 Gobo 2 shake,64,67 Gobo 3 shake,68,71 Gobo 4 shake,72,75 Gobo 5 shake,76,79 Gobo 6 shake,80,83 Gobo 7 shake,84,87 Gobo 8 shake,88,91 Gobo 9 shake,92,95 Gobo 10 shake,96,99 Gobo 11 shake,100,103 Gobo 12 shake,104,107 Gobo 13 shake,108,111 Open,112,127 Gobo scroll Clockwise,128,189 Stop,190,193 Gobo Scroll Counter clockwise,194,255
+
+Channel = gobo2
+ Open,0,5 Gobo 1,6,11 Gobo 2,12,17 Gobo 3,18,23 Gobo 4,24,29 Gobo 5,30,35 Gobo 6,36,41 Gobo 7,42,47 Gobo 8,48,53 Gobo 9,54,63 Gobo 9 shaking,64,73 Gobo 8 shaking,74,79 Gobo 7 shaking,80,85 Gobo 6 shaking,86,91 Gobo 5 shaking,92,97 Gobo 4 shaking,98,103 Gobo 3 shaking,104,109 Gobo 2 shaking,110,115 Gobo 1 shaking,116,121 Open,122,127 Gobo Scroll Clockwise,128,191 Gobo Scroll Counter Clockwise,192,255
+
+Channel = gobo_rotate2
+ Gobo Index,0,63 Clockwise Rotation,64,147 Counter Clockwise Rotation,148,231 Gobo Bounce,232,255
+
+Channel = focus
+ dimmer,0,255
+
+Channel = ufocus
+ dimmer,0,255
+
+Channel = zoom
+ dimmer,0,255
+
+Channel = uzoom
+ dimmer,0,255
+
+Channel = prism
+ no_function,0,4 Prism,5,255
+
+Channel = prism_rotate
+ Prism Index,0,127 Clockwise Prism Rotation,128,189 Stop,190,193 Counter Clockwise Prism Rotation,194,255
+
+Channel = prism_5
+ no_function,0,4 Prism,5,255
+
+Channel = prism_rotate
+ Prism Index,0,127 Clockwise Prism Rotation,128,189 Stop,190,193 Counter Clockwise Prism Rotation,194,255
+
+Channel = frost
+ dimmer,0,255
+
+Channel = Beam Diffraction
+ no_function,0,7 Beam Difraction,8,255
+
+Channel = movement_macro
+ no_function,0,7 Macro 1,8,15 Macro 2,16,23 Macro 3,24,31 Macro 4,32,39 Macro 5,40,47 Macro 6,48,55 Macro 7,56,63 Macro 8,64,71 Macro 9,72,79 Macro 10,80,87 Macro 11,88,95 Macro 12,96,103 Macro 13,104,111 Macro 14,112,119 Macro 15,120,127 Macro 16,128,135 Macro 17,136,143 Macro 18,144,151 Macro 19,152,159 Macro 20,160,167 Macro 21,168,175 Macro 22,176,183 Macro 23,184,191 Macro 24,192,199 Macro 25,200,207 Macro 26,208,215 Macro 27,216,223 Macro 28,224,231 Macro 29,232,239 Macro 30,240,247 Macro 31,248,255
+
+Channel = movement_macro_speed
+ dimmer,0,255
+
+Channel = control
+ no_function,0,29 Regular dimmer mode,30,39 Linear dimmer mode,40,49 Pan/tilt speed fast,50,59 Pan/tilt speed normal,60,69 Blackout during pan/tilt,70,79 Disable blackout during Pan/tilt,80,89 Blackout during color change,90,99 Color blackout disabled,100,109 Blackout during gobo change,110,119 Gobo blackout diabled,120,129 On,130,139 Pan/tilt reset,140,149 Color wheel reset,150,159 Gobo wheel reset,160,169 Strobe/Prism reset,170,179 no_function,180,189 Frost/focus/zoom reset,190,199 Reset all,200,209 All blackouts enabled,210,219 All blackouts disabled,220,229 Off,230,239 Pan/tilt smooth mode on,240,249 Pan/tilt smooth mode off,250,255
+

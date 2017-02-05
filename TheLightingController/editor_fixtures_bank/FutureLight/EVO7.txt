@@ -1,0 +1,24 @@
+Name = FUTURELIGHT_EVO7
+
+ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewColor = 16777215
+
+Channel = color
+ index,0,127 right_rotate,128,187 stop,190,190 left_rotate,194,255
+
+Channel = prism
+ stop,0,0 right_rotate,8,127 left_rotate,136,255
+
+Channel = shutter
+ dimmer,0,63 strobe,64,95 pulse_strobe,143,143 random_strobe,192,223 open,255,255
+
+Channel = control
+ normal,0,0 prog1,35,35 prog2,59,59 prog3,83,83 prog4,107,107 prog5,131,131 prog6,155,155 prog7,179,179 prog8,203,203 prog9,227,227 prog10,255,255
+

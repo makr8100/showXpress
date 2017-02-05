@@ -1,0 +1,39 @@
+﻿Name = MACSPOT575-2
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LAMP575W
+ViewAnglePan = 540
+ViewAngleTilt = 280
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = shutter
+ dimmer,0,127 strobe,128,247 open,255,255
+
+Channel = color
+ white,0,0 magenta,24,24 yellow,40,40 orange,56,56 green,72,72 red,88,88 blue,104,104 purple,120,120 rotate,128,255
+
+Channel = gobo
+ white,0,0 Miscellaneous/gobo1,24,24 Miscellaneous/gobo2,40,40 Miscellaneous/gobo3,56,56 Miscellaneous/gobo4,72,72 Miscellaneous/gobo5,88,88 Miscellaneous/gobo6,104,104 Miscellaneous/gobo7,120,120 rotate,128,255
+
+Channel = gobo_rotate
+ right_rotate,0,127 stop,128,128 left_rotate,129,255
+
+Channel = focus
+
+Channel = prism
+ open,0,0 2_gobos,80,80 3_gobos,140,140 4_gobos,200,200 5_gobos,255,255 
+
+Channel = prism_rotate
+ stop,0,0 left_rotate,64,159 right_rotate,160,255 
+
+Channel = pantilt_speed
+
+Channel = pan
+
+Channel = tilt
+

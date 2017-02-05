@@ -1,0 +1,44 @@
+Name = FUTURELIGHT_PHS250
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_250MSR
+ViewAnglePan = 540
+ViewAngleTilt = 280
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewColor = 16777215
+
+Channel = pan
+
+Channel = tilt
+
+Channel = pantilt_speed
+ max_speed,0,0 index,15,225 blackout_pan,231,231 blackout_colour,240,240 stop,255,255
+
+Channel = color
+ white,0,0 light_blue,20,20 red,34,34 blue,50,50 green,62,62 yellow,76,76 magenta,90,90 light_green,104,104 dark_green,118,118 clock,128,187 stop,190,190 counterclock,224,255
+
+Channel = gobo
+ Futurelight\00,0,0 Futurelight\01,20,20 Futurelight\02,34,34 Futurelight\03,48,48 Futurelight\04,62,62 Futurelight\05,76,76 Futurelight\06,90,90 Futurelight\07,104,104 gobo1_shake,112,127 gobo2_shake,128,143 gobo3_shake,144,159 gobo4_shake,160,175 gobo5_shake,176,191 gobo6_shake,192,207 gobo7_shake,208,223
+
+Channel = gobo2
+ open,0,0 gobo1,15,15 gobo2,25,25 gobo3,35,35 gobo4,45,45 gobo5,55,55 gobo6,65,65 gobo1_shake,70,89 gobo2_shake,90,109 gobo3_shake,110,129 gobo4_shake,130,149 gobo5_shake,150,169 gobo6_shake,170,189 left_rotate,190,255
+
+Channel = gobo_rotate2
+ index,0,127 right_rotate,128,187 stop,190,190 left_rotate,194,255
+
+Channel = prism
+ open,0,0 right_rotate,4,63 stop,65,65 left_rotate,68,127 macro1,131,131 macro2,139,139 macro3,147,147 macro4,155,155 macro5,163,163 macro6,171,171 macro7,179,179 macro8,187,187 macro9,195,195 macro10,203,203 macro11,211,211 macro12,219,219 macro13,227,227 macro14,235,235 macro15,243,243 macro16,255,255
+
+Channel = focus
+
+Channel = shutter
+ closed,0,0 dimmer,32,63 right_rotate,64,159 left_rotate,192,223 open,255,255
+
+Channel = dimmer
+
+Channel = control
+ normal_colour,0,0 colour_change,39,39 lamp_on,71,71 reset,87,87 prog1,101,101 prog2,119,119 prog3,135,135 prog4,151,151 prog5,167,167 prog6,183,183 prog7,199,199 prog8,215,215 lamp_off,231,231
+

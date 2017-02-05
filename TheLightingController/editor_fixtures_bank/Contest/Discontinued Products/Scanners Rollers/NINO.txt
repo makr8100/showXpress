@@ -1,0 +1,23 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = pan
+
+Channel = tilt
+
+Channel = shutter
+ closed,0,7 open,8,15 lighting_strobe,16,131 open,132,139 pulse_strobe,140,181 open,182,189 pulse_strobe2,190,231 open,232,239 random_strobe,240,247 ???,248,255
+
+Channel = gobo
+ Miscellaneous/open,0,7 Contest/Z04771-13,8,14 Contest/Z03748-4,15,21 Contest/Z04771-10,22,28 Contest/GM075,29,35 Contest/Z04806-2,36,42 Contest/Z04771-11,43,49 Contest/Z04773-3,50,56 Contest/Z04773-6,57,63 Miscellaneous/shaking,64,71 Miscellaneous/shake_gobo1,72,78 Miscellaneous/shake_gobo2,79,85 Miscellaneous/shake_gobo3,86,92 Miscellaneous/shake_gobo4,93,99 Miscellaneous/shake_gobo5,100,106 Miscellaneous/shake_gobo6,107,113 Miscellaneous/shake_gobo7,114,120 Miscellaneous/shake_gobo8,121,127 Miscellaneous/rotate,128,255
+
+Channel = dimmer
+

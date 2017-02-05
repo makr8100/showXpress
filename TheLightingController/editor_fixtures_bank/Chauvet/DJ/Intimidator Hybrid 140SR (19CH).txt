@@ -1,0 +1,69 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = C:/CHAUVET/DJ/Intimidator Hybrid 140SR.png
+
+Channel = pan
+ dimmer,0,255 
+
+Channel = upan
+ 16 bit ,0,255 
+
+Channel = tilt
+ dimmer,0,255 
+
+Channel = utilt
+ 16 bit,0,255 
+
+Channel = pantilt_speed
+ dimmer,0,255 
+
+Channel = color
+ white,0,3 red,4,7 yellow,8,11 green,12,15 pastel_sky_blue,16,19 purple,20,23 dark_yellow,24,28 blue,29,33 magenta,34,38 light_green,39,43 natural_white,44,48 cold_white,49,53 uv,54,59 index,60,187 right_rotate,188,219 stop,220,223 left_rotate,224,255 
+
+Channel = gobo
+ Miscellaneous/open,0,2 Miscellaneous/gobo1,3,5 Miscellaneous/gobo2,6,8 Miscellaneous/gobo3,9,11 Miscellaneous/gobo4,12,14 Miscellaneous/gobo5,15,17 Miscellaneous/gobo6,18,20 Miscellaneous/gobo7,21,23 Miscellaneous/gobo8,24,26 Miscellaneous/gobo9,27,29 Miscellaneous/gobo10,30,32 Miscellaneous/gobo11,33,35 Miscellaneous/gobo12,36,38 Miscellaneous/gobo13,39,41 Miscellaneous/gobo14,42,44 Miscellaneous/gobo15,45,47 Miscellaneous/gobo16,48,50 Miscellaneous/shake_gobo16,51,54 Miscellaneous/shake_gobo15,55,58 Miscellaneous/shake_gobo14,59,62 Miscellaneous/shake_gobo13,63,66 Miscellaneous/shake_gobo12,67,70 Miscellaneous/shake_gobo11,71,74 Miscellaneous/shake_gobo10,75,78 Miscellaneous/shake_gobo9,79,82 Miscellaneous/shake_gobo8,83,86 Miscellaneous/shake_gobo7,87,90 Miscellaneous/shake_gobo6,91,94 Miscellaneous/shake_gobo5,95,98 Miscellaneous/shake_gobo4,99,102 Miscellaneous/shake_gobo3,103,106 Miscellaneous/shake_gobo2,107,110 Miscellaneous/shake_gobo1,111,114 Miscellaneous/open,115,127 Miscellaneous/right_rotate,128,189 Miscellaneous/stop,190,193 Miscellaneous/left_rotate,194,255 
+
+Channel = gobo
+ open,0,11 Miscellaneous/gobo1,12,17 Miscellaneous/gobo2,18,23 Miscellaneous/gobo3,24,29 Miscellaneous/gobo4,30,35 Miscellaneous/gobo5,36,41 Miscellaneous/gobo6,42,47 Miscellaneous/gobo7,48,53 Miscellaneous/gobo8,54,63 Miscellaneous/shake_gobo8,64,73 Miscellaneous/shake_gobo7,74,79 Miscellaneous/shake_gobo6,80,85 Miscellaneous/shake_gobo5,86,91 Miscellaneous/shake_gobo4,92,97 Miscellaneous/shake_gobo3,98,103 Miscellaneous/shake_gobo2,104,109 Miscellaneous/shake_gobo1,110,115 Miscellaneous/open,116,127 Miscellaneous/right_rotate,128,189 Miscellaneous/stop,190,193 Miscellaneous/left_rotate,194,255 
+
+Channel = gobo_rotate
+ no_function,0,5 right_rotate,6,116 stop,117,120 left_rotate,121,231 bounce,232,255 
+
+Channel = 8 facet prism
+ no_function,0,7 8 facet prsim,8,12 right_rotate,13,130 left_rotate,131,247 8 facet prism,248,255 
+
+Channel = linear prism
+ stop,0,7 6 facet linear prism,8,12 right_rotate,13,130 left_rotate,131,247 6 facet linear prism,248,255 
+
+Channel = focus
+ focus_far,0,255 
+
+Channel = Auto focus
+ stop,0,10 auto focus gobo 1,11,127 auto focus gobo 2,128,255 
+
+Channel = zoom
+ zoom-zoom in,0,255 
+
+Channel = frost
+ dimmer,0,255 
+
+Channel = dimmer
+ dimmer,0,255 
+
+Channel = shutter
+ closed,0,7 open,8,15 strobe,16,131 slow open ,0,0 fast close,132,167 fast open,0,0 slow close,168,203 pulse_strobe,204,239 random_strobe,240,247 open,248,255 
+
+Channel = mode
+ no_function,0,7 blackout on pan/tilt movement,8,15 blackout color wheel movement,16,23 blackout gobo wheel movement,24,31 blackout color wheel ,32,39 blackout on pan/tilt gobo wheel movement,40,47 blackout on pan/tilt gobo/color wheel movement,48,55 no_function,56,87 lamp_on,88,95 reset_xy,96,103 reset_xy,104,111 reset_color,112,119 reset_gobo,120,127 frost reset,128,135 prism_8,136,143 reset_focus,144,151 reset,152,159 reset_shutter,160,167 no_function,168,231 lamp_off,232,239 no_function,240,255 
+
+Channel = movement_macro
+ no_function,0,7 macro_1,8,23 macro_2,24,39 macro_3,40,55 macro_4,56,71 macro_5,72,87 macro_6,88,103 macro_7,104,119 macro_8,120,135 audio1,136,151 audio2,152,167 sound active movemenet macro 3,168,183 sound active movemenet macro 4,184,199 sound active movemenet macro 5,200,215 sound active movemenet macro 6,216,231 sound active movemenet macro 7,232,247 sound active movemenet macro 8,248,255 
+

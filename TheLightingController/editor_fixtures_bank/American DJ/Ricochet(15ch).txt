@@ -1,0 +1,52 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = pan
+ pan,0,127 shaking,128,255 
+
+Channel = upan
+
+Channel = tilt
+ pan,0,127 shaking,128,255 
+
+Channel = utilt
+
+Channel = color
+ open,0,0 color_1,10,10 color_2,18,18 color_3,25,25 color_4,33,33 color_5,41,41 color_6,48,48 color_7,56,56 color_8,62,62 index,64,128 right_rotate,129,190 stop,192,192 left_rotate,194,255 
+
+Channel = pattern_zero_X
+
+Channel = pattern_zero_Y
+
+Channel = pattern_spin
+ 0°,0,0 90°,100,100 180°,160,160 270°,255,255 
+
+Channel = effect_macro
+ no_function,0,0 macro_1,12,12 macro_2,21,21 macro_3,30,30 macro_4,38,38 macro_5,47,47 macro_6,54,54 macro_7,63,63 macro_8,72,72 macro_9,80,80 macro_10,88,88 macro_11,97,97 macro_12,105,105 macro_13,114,114 macro_14,123,123 macro_15,131,131 macro_16,140,140 macro_17,148,148 macro_18,157,157 macro_19,165,165 macro_20,174,174 macro_21,183,183 macro_22,191,191 macro_23,200,200 macro_24,208,208 macro_25,217,217 macro_26,225,225 macro_27,233,233 macro_28,241,241 macro_29,255,255 
+
+Channel = pattern_rotation
+ stop,0,0 right_rotate,10,120 stop,125,125 left_rotate,135,245 stop,255,255 
+
+Channel = pattern_movement
+ stop,0,0 horizontal_rotation,10,120 stop,125,125 vertical_rotation,135,245 stop,255,255 
+
+Channel = zoom
+ index,0,127 rotate,128,255 
+
+Channel = shutter
+ closed,0,0 open,12,12 strobe,16,131 pulse_open,140,181 pulse_close,190,231 random_strobe,240,247 open,255,255 
+
+Channel = dimmer
+
+Channel = control
+ no_function,0,0 reset,82,82 reset_xy,86,86 reset_color,89,89 blackout_moves,105,105 
+

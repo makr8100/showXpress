@@ -1,0 +1,77 @@
+Name = COEMAR_ISPOTEXTREME
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_575MSR
+ViewAnglePan = 385
+ViewAngleTilt = 260
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+ normal,0,0 fast,18,18 vector,26,127 tracking,128,247 slow,255,255
+
+Channel = dimmer
+
+Channel = shutter
+ closed,0,0 strobe,10,66 pulse,69,125 reverse_pulse,128,184 random_strobe,188,244 open,255,255
+
+Channel = iris
+ closed,0,0
+
+Channel = focus
+
+Channel = beam
+
+Channel = gobo
+ Miscellaneous\stop,0,0 Miscellaneous\gobo1,26,26 Miscellaneous\gobo2,56,56 Miscellaneous\gobo3,86,86 Miscellaneous\gobo4,116,116 Miscellaneous\gobo5,146,146 Miscellaneous\gobo6,176,176 Miscellaneous\rotate,193,255
+
+Channel = gobo_rotate
+
+Channel = gobo_urotate
+
+Channel = gobo_rotate
+ stop,0,0 right_rotate,11,131 stop,133,133 left_rotate,135,255
+
+Channel = gobo2
+ Miscellaneous\stop,0,0 Miscellaneous\gobo1,26,26 Miscellaneous\gobo2,56,56 Miscellaneous\gobo3,86,86 Miscellaneous\gobo4,116,116 Miscellaneous\gobo5,146,146 Miscellaneous\gobo6,176,176 Miscellaneous\rotate,193,255
+
+Channel = gobo_rotate2
+
+Channel = gobo_urotate2
+
+Channel = gobo_rotate2
+ stop,0,0 right_rotate,11,131 stop,133,133 left_rotate,135,255
+
+Channel = prism
+ frost,11,99 prism1,102,102 left_rotate,106,137 stop,140,140 right_rotate,143,174 prism2,182,182 left_rotate,185,216 stop,219,219 right_rotate,222,255
+
+Channel = color
+ open,0,0 color1,10,10 color2,19,19 color3,27,27 color4,35,35 color5,43,43 index,46,127 left_rotate,128,190 right_rotate,191,255
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = yellow
+
+Channel = filter
+ open,0,0 6000k,82,82 5200k,129,129 4200k,177,177 3200k,225,225 10000k,255,255
+
+Channel = effect
+ stop,0,0 zap_synchro,20,20 zap,140,140 blackout,255,255
+
+Channel = control
+ lamp_off,20,20 mov_reset,47,47 reset1,83,83 reset2,118,118 reset,153,153 lamp_on,255,255
+

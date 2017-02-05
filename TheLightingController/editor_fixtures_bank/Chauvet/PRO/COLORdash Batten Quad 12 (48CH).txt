@@ -1,0 +1,110 @@
+﻿Name=COLORdash Batten Quad 12 (48CH)
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = red 1
+
+Channel = green 1
+
+Channel = blue 1
+
+Channel = amber 1
+
+Channel = red 2
+
+Channel = green 2
+
+Channel = blue 2
+
+Channel = amber 2
+
+Channel = red 3
+
+Channel = green 3
+
+Channel = blue 3
+
+Channel = amber 3
+
+Channel = red 4
+
+Channel = green 4
+
+Channel = blue 4
+
+Channel = amber 4
+
+Channel = red 5
+
+Channel = green 5
+
+Channel = blue 5
+
+Channel = amber 5
+
+Channel = red 6
+
+Channel = green 6
+
+Channel = blue 6
+
+Channel = amber 6
+
+Channel = red 7
+
+Channel = green 7
+
+Channel = blue 7
+
+Channel = amber 7
+
+Channel = red 8
+
+Channel = green 8
+
+Channel = blue 8
+
+Channel = amber 8
+
+Channel = red 9
+
+Channel = green 9
+
+Channel = blue 9
+
+Channel = amber 9
+
+Channel = red 10
+
+Channel = green 10
+
+Channel = blue 10
+
+Channel = amber 10
+
+Channel = red 11
+
+Channel = green 11
+
+Channel = blue 11
+
+Channel = amber 11
+
+Channel = red 12
+
+Channel = green 12
+
+Channel = blue 12
+
+Channel = amber 12
+

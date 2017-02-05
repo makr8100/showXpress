@@ -1,0 +1,35 @@
+﻿ViewType = VIEW_TYPE_STROBE
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 65
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = TRUE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/SHOCKER 90 IRC.png
+
+Channel = Ring 1
+ closed,0,5 strobe,6,249 Blinder,250,255
+
+Channel = Ring 2
+ closed,0,5 strobe,6,249 Blinder,250,255
+
+Channel = Ring 3
+ closed,0,5 strobe,6,249 Blinder,250,255
+
+Channel = Ring 4
+ closed,0,5 strobe,6,249 Blinder,250,255
+
+Channel = effect_macro
+ no_function,0,20 pattern_01,21,40 pattern_02,41,60 pattern_03,61,80 pattern_04,81,100 pattern_05,101,120 pattern_06,121,140 pattern_07,141,160 pattern_08,161,180 audio1,181,225 audio2,226,255
+
+Channel = effect_speed
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = shutter
+ no_function,0,5 strobe,6,255
+

@@ -1,0 +1,16 @@
+Name = FAL_GOBOSTAR
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = gobo
+ off,0,0 full,34,34 gobo1,48,48 gobo2,65,65 gobo3,79,79 gobo4,96,96 gobo5,125,125 gobo6,136,136 gobo7,159,159 gobo8,178,178 rotate,187,255
+
+Channel = prism_rotate
+ stop,0,0 counterclock,74,74 stop,133,133 clock,255,255
+

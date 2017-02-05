@@ -1,0 +1,42 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Contest/Light DJ/QUADROLL .png
+
+Channel = barrel
+ no_function,0,7 right_rotate,8,132 stop,133,140 left_rotate,141,255 
+
+Channel = barrel
+ no_function,0,7 right_rotate,8,132 stop,133,140 left_rotate,141,255 
+
+Channel = barrel
+ no_function,0,7 right_rotate,8,132 stop,133,140 left_rotate,141,255 
+
+Channel = barrel
+ no_function,0,7 right_rotate,8,132 stop,133,140 left_rotate,141,255 
+
+Channel = movement_macro
+ no_function,0,7 macro_1,8,21 macro_2,22,35 macro_3,36,49 macro_4,50,63 macro_5,64,77 macro_6,78,91 macro_7,92,105 macro_8,106,119 macro_9,120,133 macro_10,134,147 macro_11,148,161 macro_12,162,175 macro_13,176,189 macro_14,190,203 macro_15,204,217 macro_16,218,231 audio,232,255 
+
+Channel = effect_speed
+ no_function,0,7 index,8,247 audio,248,255 
+
+Channel = dimmer
+ closed,0,7 dimmer,8,255 
+
+Channel = shutter
+ closed,0,7 strobe,8,131 open,132,139 pulse_strobe,140,181 open,182,189 reverse_pulse_strobe,190,231 open,232,239 random_strobe,240,247 open,248,255 
+
+Channel = effect_macro
+ no_function,0,7 macro_1,8,24 macro_2,25,38 macro_3,39,52 macro_4,53,66 macro_5,67,80 macro_6,81,94 macro_7,95,108 macro_8,109,122 macro_9,123,136 macro_10,137,150 macro_11,151,164 macro_12,165,178 macro_13,179,192 macro_14,193,206 macro_15,207,220 macro_16,221,234 macro_17,235,248 open,249,255 
+
+Channel = effect_speed
+ no_function,0,7 index,8,247 audio,248,255 
+

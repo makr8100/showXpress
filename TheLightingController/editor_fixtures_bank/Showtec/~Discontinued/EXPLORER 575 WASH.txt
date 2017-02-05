@@ -1,0 +1,46 @@
+Name = EXPLORER_WASH575
+
+ViewType = VIEW_TYPE_HEAD_WASH
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+2DViewImage = Showtec/Discontinued/explorer_575.png
+
+Channel = pan
+
+Channel = tilt
+
+Channel = upan
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = KEEP
+
+Channel = color
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = yellow
+
+Channel = reserved
+
+Channel = color
+
+Channel = effect
+
+Channel = beam
+
+Channel = shutter
+
+Channel = dimmer
+

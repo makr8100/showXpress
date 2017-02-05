@@ -1,0 +1,30 @@
+Name = Q Spot
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_150HTI
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = pan
+
+Channel = tilt
+ new_level,0,9 new_level,10,120 new_level,121,134 new_level,135,245 new_level,246,255
+
+Channel = shutter
+ closed,0,0 stutter,5,5 stutter,9,9 stutter,11,11 shaking,133,240 open,249,249
+
+Channel = gobo
+ Chauvet\open,0,15 Chauvet\Qmix5,16,31 Chauvet\575gobo5,32,47 Standard\turbine,48,63 Chauvet\Qmix2,64,79 Chauvet\4B,80,95 Chauvet\Qmix4,96,111 Chauvet\dots_gobos,112,127 Chauvet\open,128,132 Chauvet\Qmix5,133,144 Chauvet\575gobo5,145,156 Standard\turbine,157,168 Chauvet\bigline,169,180 Chauvet\4B,181,192 Chauvet\Qmix4,193,204 Chauvet\dots_gobos,205,216 Chauvet\open,217,228 Miscellaneous\rotate,229,255
+
+Channel = color
+ white,0,12 red,13,24 blue,25,37 yellow,38,49 green,50,62 pink,63,74 uv,75,87 light_blue,88,99 orange,100,112 purple,113,127 Linar color,128,190 rotate,191,220 stop,221,225 rotate,226,255
+
+Channel = gobo_rotate
+ stop,0,0 left_rotate,10,119 stop,125,125 right_rotate,133,144 stop,250,250
+

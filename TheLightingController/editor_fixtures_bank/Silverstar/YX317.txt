@@ -1,0 +1,26 @@
+Name = YX317
+
+ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = effect_speed
+
+Channel = yellow
+
+Channel = magenta
+
+Channel = cyan
+
+Channel = color
+ white,0,0 yellow,37,37 aubergine,63,63 blue,89,89 red,115,115 green,141,141 dark_blue,167,167 change_30sec,193,193 change_20sec,219,219 change_10sec,255,255
+
+Channel = dimmer
+

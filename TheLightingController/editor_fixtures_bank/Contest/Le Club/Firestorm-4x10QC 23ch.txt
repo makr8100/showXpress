@@ -1,0 +1,81 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Contest/Club series/FIRESTORM-4x10QC .png
+
+Channel = pan
+ rotate,0,255 
+
+Channel = pan
+ rotate,0,255 
+
+Channel = pan
+ rotate,0,255 
+
+Channel = pan
+ rotate,0,255 
+
+Channel = tilt
+ rotate,0,255 
+
+Channel = dimmer
+ closed,0,7 dimmer,8,255 
+
+Channel = shutter
+ closed,0,15 strobe,16,131 open,132,139 pulse_strobe,140,181 open,182,189 reverse_pulse_strobe,190,231 open,232,239 random_strobe,240,247 open,248,255 
+
+Channel = red
+ dimmer,0,255 
+
+Channel = green
+ dimmer,0,255 
+
+Channel = blue
+ dimmer,0,255 
+
+Channel = white
+ dimmer,0,255 
+
+Channel = red
+ dimmer,0,255 
+
+Channel = green
+ dimmer,0,255 
+
+Channel = blue
+ dimmer,0,255 
+
+Channel = white
+ dimmer,0,255 
+
+Channel = red
+ dimmer,0,255 
+
+Channel = green
+ dimmer,0,255 
+
+Channel = blue
+ dimmer,0,255 
+
+Channel = white
+ dimmer,0,255 
+
+Channel = red
+ dimmer,0,255 
+
+Channel = green
+ dimmer,0,255 
+
+Channel = blue
+ dimmer,0,255 
+
+Channel = white
+ dimmer,0,255 
+

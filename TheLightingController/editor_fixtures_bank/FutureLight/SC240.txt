@@ -1,0 +1,20 @@
+Name = FUTURELIGHT_SC240
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = pan
+
+Channel = tilt
+
+Channel = color
+ white,0,0 turquoise,11,11 red,19,19 cyan,27,27 green,35,35 magenta,43,43 light_blue,51,51 yellow,59,59 green,67,67 pink,75,75 blue,83,83 orange,91,91 uv,99,99 red/blue,107,107 yellow/green,115,115 l-blue/magenta,123,123 forwards_rotat,128,190 stop,191,191 backwards_rota,193,255
+
+Channel = gobo
+ blackout,0,0 open,34,34 strobe,64,127 closed,130,130 reset,134,134 open,140,140 closed,148,148 gobo1,155,155 gobo2,163,163 gobo3,171,171 gobo4,180,180 gobo5,188,188 gobo6,196,196 gobo7,204,204 gobo8,211,211 gobo9,219,219 gobo10,227,227 gobo11,235,235 gobo12,243,243 gobo13,255,255
+

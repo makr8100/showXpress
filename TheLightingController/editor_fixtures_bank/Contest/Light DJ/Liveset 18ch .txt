@@ -1,0 +1,54 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Contest/Light DJ/LIVESET .png
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = dimmer
+ dimmer,0,255 
+
+Channel = shutter
+ No function,0,9 Pulse dark to bright,10,83 Pulse bright to dark,84,163 strobe,164,243 Strobe sound,244,255 
+
+Channel = strobe_effect
+ no_function,0,9 strobe,10,255 
+
+Channel = strobe_effect
+ no_function,0,9 strobe,10,255 
+
+Channel = strobe_effect
+ no_function,0,9 strobe,10,255 
+
+Channel = strobe_effect
+ no_function,0,9 strobe,10,255 
+

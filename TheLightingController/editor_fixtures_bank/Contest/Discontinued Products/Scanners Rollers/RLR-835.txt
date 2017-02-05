@@ -1,0 +1,26 @@
+﻿ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 9
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+2DViewImage = Contest/Discontinued Products/RLR-835.png
+
+Channel = shutter
+ open,0,16 gobo_swap,17,92 color_swap,93,136 swap,137,195 shaking,196,255 
+
+Channel = gobo
+ Miscellaneous/closed,0,7 Contest/Z04773-1,8,15 Contest/Z04773-2,16,23 Contest/Z04773-3,24,31 Contest/Z04773-4,32,39 Contest/Z04773-5,40,47 Contest/Z04773-6,48,55 Contest/Z04773-7,56,63 Contest/Z04773-8,64,71 Contest/Z04773-9,72,79 Contest/Z04773-10,80,87 Contest/Z04773-11,88,95 Contest/Z04773-12,96,103 Contest/Z04773-13,104,111 Contest/Z04773-14,112,119 Contest/Z04773-15,120,127 Miscellaneous/right_rotate,128,255 
+
+Channel = color
+ white,0,10 green,11,21 orange,22,32 light_blue,33,43 amber,44,54 red,55,65 violet,66,76 pink,77,87 light_green,88,98 blue,99,109 yellow,110,120 magenta,121,127 rainbow,255,255 
+
+Channel = pan
+
+Channel = motor
+ left_rotate,0,127 stop,128,128 right_rotate,129,255 
+

@@ -1,0 +1,39 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 47
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/Core 3x3.png
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = red
+ Red,0,255
+
+Channel = green
+ Green,0,255
+
+Channel = blue
+ Blue,0,255
+
+Channel = shutter
+ no_function,0,10 strobe,11,255
+
+Channel = color_macro
+ no_function,0,10 R 100%  G 0~100% B  0%,11,30 R 100%~0%  G 100% B  0%,31,50 R 0% G 100% B 0~100%,51,70 R 0%  G 100%~0% B 100%,71,90 R 0%~100%  G 0%  B 100%,91,110 R 100%  G 0%  B 100%~0%,111,130 R 100%       G 0%~100% B 0%~100%,131,150 R 100%~0% G 100%~0% B 100%,151,170 R 100%  G 100%  B 100%      ,171,200 Color temperature1,201,205 Color temperature2,206,210 Color temperature3,211,215 Color temperature4,216,220 Color temperature5,221,225 Color temperature6,226,230 Color temperature7,231,235 Color temperature8,236,240 Color temperature9,241,245 Color temperature10,246,250 Color temperature11,251,255
+
+Channel = effect_macro
+ no_function,0,10 Chase 1,11,40 Chase 2,41,80 Chase 3,81,120 Chase 4,121,160 Chase 5,161,200 Chase 6(run1~4Chase),201,240 Sound Mode,241,255
+
+Channel = effect_speed
+ Speed Slow to Fast,0,255
+
+Channel = Dim Mode
+ Setting dimmer mode,0,51 dimmer mode off,52,101 dimmer mode 1,102,152 dimmer mode 2,153,203 dimmer mode 3,204,255
+

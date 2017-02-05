@@ -1,0 +1,35 @@
+Name = GRIVEN_CRUISER
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = yellow
+
+Channel = red
+
+Channel = tilt
+
+Channel = tilt
+
+Channel = pan
+
+Channel = pan
+
+Channel = gobo
+ open,0,0 dart,20,20 block,40,40 circle_dots,60,60 dots,80,80 dotcircle,100,100 star,120,120 dots,140,140 darts,160,160 circle,180,180 rainbowslow,200,200 rainbowmed,220,220 rainbowfast,255,255
+
+Channel = shutter
+ strobo,0,237 open,255,255
+
+Channel = shutter
+ strobo,0,237 open,255,255
+

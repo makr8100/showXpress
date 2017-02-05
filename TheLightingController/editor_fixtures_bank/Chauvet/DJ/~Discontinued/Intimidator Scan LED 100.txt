@@ -1,0 +1,30 @@
+﻿ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/Intimidator Scan LED 100.png
+
+Channel = dimmer
+ Bright-Dark,0,249 blackout_moves,250,255
+
+Channel = shutter
+ open,0,5 strobe,6,255
+
+Channel = pan
+ Pan,0,255
+
+Channel = tilt
+ Tilt,0,255
+
+Channel = gobo
+ Gobo1,0,29 Gobo2,30,59 Gobo3,60,89 Gobo4,90,119 Gobo5,120,149 Gobo6,150,179 Gobo7,180,209 Gobo8,210,239 Auto,240,249 Sound,250,255
+
+Channel = gobo_rotate
+ Stop,0,9 left_rotate,10,255
+

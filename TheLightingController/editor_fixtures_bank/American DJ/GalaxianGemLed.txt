@@ -1,0 +1,26 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = laser
+ closed,0,0 strobe,16,239 audio,243,243 open,255,255
+
+Channel = rotation
+ stop,0,0 left_rotate,10,120 stop,127,127 right_rotate,135,245 stop,255,255
+
+Channel = effect_macro
+ closed,0,0 macro_1,24,24 macro_2,54,54 macro_3,84,84 macro_4,114,114 macro_5,144,144 macro_6,174,174 macro_7,204,204 macro_8,224,224 audio,255,255
+
+Channel = effect_speed
+
+Channel = shutter
+ open,0,0 strobe,8,247 audio,255,255 
+

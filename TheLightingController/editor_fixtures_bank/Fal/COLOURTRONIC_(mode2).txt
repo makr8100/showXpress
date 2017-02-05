@@ -1,0 +1,25 @@
+Name = FAL_COLOURTRONIC_(mode2)
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = color
+ white,0,0 white+color1,22,22 color_1,27,27 color1+color2,32,32 color_2,37,37 color2+color3,42,42 color_3,47,47 color3+color4,52,52 color_4,57,57 color4+color5,62,62 color_5,67,67 color5+color6,72,72 color_6,77,77 color6+color7,82,82 color_7,87,87 color7+color8,92,92 color_8,97,97 color8+color9,102,102 color_9,107,107 color9+white,112,112 white+color1,117,117 color_1,122,122 color1+color2,127,127 color_2,132,132 color2+color3,137,137 color_3,142,142 color3+color4,174,147 color_4,152,152 color4+color5,157,157 color_5,162,162 color5+color6,167,167 color_6,172,172 color6+color7,177,177 color_7,182,182 color7+color8,187,187 color_8,192,192 color8+color9,197,197 color_9,202,202 color9+white,207,207 individual_rai,220,220 rainbow_seq,255,255
+
+Channel = color
+ white,0,0 mix1,10,10 mix2,18,18 mix3,27,27 mix4,35,35 mix5,44,44 mix6,52,52 mix7,60,60 mix8,68,68 mix9,76,76 mix10,84,84 mix11,92,92 mix12,100,100 mix13,107,107 mix14,116,116 mix15,124,124 mix16,132,132 mix17,140,140 mix18,148,148 mix19,156,156 mix20,164,164 mix21,172,172 mix22,180,180 mix23,188,188 mix24,196,196 mix25,204,204 mix26,212,212 mix27,220,220 mix28,228,228 mix29,236,236 mix30,244,244 mix31,255,255
+
+Channel = effect
+ clear,0,0 aperture_1,48,48 aperture_2,80,80 aperture_3,112,112 ctc_filt_6000,144,144 ctc_filt_3200,176,176 effect_glass_1,208,208 effect_glass_2,255,255
+
+Channel = shutter
+ closed,0,0 dimmer,8,128 open,131,131 strobe,135,246 open,255,255
+
+Channel = control
+ color_mode_1,0,0 color_mode_2,128,128 reset,255,255
+

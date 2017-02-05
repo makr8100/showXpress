@@ -1,0 +1,69 @@
+Name = LT215
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = control
+ music,0,0 auto,90,90 sound_accelerated,160,160 auto_accelerated,255,255
+
+Channel = color
+ closed,0,0 basic,34,34 red,58,58 yellow,84,84 green,102,102 cyan,125,125 purple,172,172 white,195,195 rotate,207,229 stochastic,230,252 rotate,255,255
+
+Channel = pattern
+
+Channel = speed
+
+Channel = pattern_rotate
+ stop,0,0 horizontal,64,127 vertical,128,191 both,192,192
+
+Channel = dot_rotate
+ stop,0,0 rotate,64,127 dotting,128,191 dot_rotating,192,255
+
+Channel = move
+ stop,0,0 horizontal,64,127 vertical,128,191 sidelong,192,255
+
+Channel = extend
+ stop,0,0 vertical,64,127 horizontal,128,191 both,192,255
+
+Channel = zoom
+ stop,0,0 small_to_large,64,127 large_to_small,128,191 both,192,255
+
+Channel = draw_speed
+
+Channel = scan_speed
+
+Channel = color_speed
+
+Channel = pattern_size
+ original,0,0 index,1,255
+
+Channel = _no_icon
+
+Channel = _no_icon
+
+Channel = _no_icon
+
+Channel = _no_icon
+
+Channel = _no_icon
+
+Channel = _no_icon
+
+Channel = _no_icon
+
+Channel = _no_icon
+
+Channel = _no_icon
+
+Channel = _no_icon
+
+Channel = _no_icon
+

@@ -1,0 +1,26 @@
+Name = AMERICAN-DJ_SCANTRON250
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_250HALO
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = pan
+
+Channel = tilt
+
+Channel = color
+ open,10,10 red,30,30 blue,50,50 green,72,72 yellow,94,94 orange,115,115 pink,136,136 mixed,157,157 rotate,168,254 audio,255,255
+
+Channel = gobo
+ Miscellaneous\open,0,0 Miscellaneous\gobo1,11,11 Miscellaneous\gobo2,19,19 Miscellaneous\gobo3,27,27 Miscellaneous\gobo4,35,35 Miscellaneous\gobo5,43,43 Miscellaneous\gobo6,51,51 Miscellaneous\gobo7,59,59 Miscellaneous\gobo8,67,67 Miscellaneous\gobo9,75,75 Miscellaneous\gobo10,83,83 spot_shake,99,99 gobo1_shake,107,107 gobo2_shake,115,115 gobo3_shake,123,123 gobo4_shake,131,131 gobo5_shake,139,139 gobo6_shake,147,147 gobo7_shake,155,155 gobo8_shake,163,163 gobo9_shake,171,171 gobo10_shake,172,172 Miscellaneous\closed,187,187 Miscellaneous\rotate,192,254 audio,255,255
+
+Channel = shutter
+ lamp_off,0,0 closed,3,3 strobe,7,29 reset,30,30 open,255,255
+

@@ -1,0 +1,36 @@
+﻿ViewType = VIEW_TYPE_COLOR_PANEL
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = red 1
+
+Channel = green 1
+
+Channel = blue 1
+
+Channel = red 2
+
+Channel = green 2
+
+Channel = blue 2
+
+Channel = red 3
+
+Channel = green 3
+
+Channel = blue 3
+
+Channel = red 4
+
+Channel = green 4
+
+Channel = blue 4
+

@@ -1,0 +1,22 @@
+Name = LED-36RGB
+
+ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = shutter
+ dimmer,0,189 strobe,190,250 open,251,255
+

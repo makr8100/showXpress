@@ -1,0 +1,39 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/PRO/STRIKE 4-LEFT.png
+
+Channel = dimmer
+ dimmer,0,255 
+
+Channel = udimmer
+ dimmer,0,255 
+
+Channel = strobe_effect
+ no_function,0,10 Slow to fast (All Pods),11,132 Slow to fast (Random Macros),133,255 
+
+Channel = Pod 1
+ dimmer,0,255 
+
+Channel = Pod 2
+ dimmer,0,255 
+
+Channel = Pod 3
+ dimmer,0,255 
+
+Channel = Pod 4
+ dimmer,0,255 
+
+Channel = effect_macro
+ no_function,0,10 Auto 1 (slow to fast),11,40 Auto 2 (slow to fast),41,80 Auto 3 (slow to fast),81,120 Auto 4 (slow to fast),121,160 Auto 5 (slow to fast),161,200 Auto 6 (slow to fast),201,240 Auto 7 (slow to fast),241,255 
+
+Channel = Dimmer Speed
+ Dimmer speed modes off,0,10 Dimmer speed module 1,11,40 Dimmer speed mode 2,41,80 Dimmer speed mode 3,81,120 Dimmer speed mode off,121,255 
+

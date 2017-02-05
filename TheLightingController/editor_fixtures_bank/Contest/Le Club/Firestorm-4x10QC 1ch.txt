@@ -1,0 +1,15 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Contest/Club series/FIRESTORM-4x10QC .png
+
+Channel = animation
+ closed,0,7 auto,8,15 pattern_01,16,41 pattern_02,42,67 pattern_03,68,93 pattern_04,94,119 pattern_05,120,145 pattern_06,146,171 pattern_07,172,197 pattern_08,198,223 audio,224,255 
+

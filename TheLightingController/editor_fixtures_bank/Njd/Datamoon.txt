@@ -1,0 +1,22 @@
+Name = NJD_DATAMOON
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_250HALO
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewColor = 16777215
+
+Channel = motor
+
+Channel = reserved
+
+Channel = gobo
+ magenta_squares,0,0 yellow_tunnel,48,48 cyan_dots,80,80 pink_star,112,112 green_triangle,144,144 red_segments,176,176 blue_spiral,200,200 white_circle,255,255
+
+Channel = shutter
+ closed,0,0 open,128,128 closed,255,255
+

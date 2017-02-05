@@ -1,0 +1,30 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Contest/Light DJ/OCTODANGLE .png
+
+Channel = mode
+ no_function,0,9 beam_effect_macro_speed,10,72 flash_color_macro_speed ,73,132 mix_macro_speed,133,195 beam_effect_macro_sound,196,210 flash_color_macro_sound,211,225 mix_macro_sound,226,240 dmx,241,255 
+
+Channel = color_macro
+ no_function,0,9 Red,10,14 Green,15,19 Blue,20,24 Amber,25,29 White,30,34 White+Red,35,39 Red+Green,40,44 Green+Blue,45,49 Blue+Amber,50,54 Amber+White,55,59 White+Green,60,64 Green+Amber,65,69 Amber+Red,70,74 Red+Blue,75,79 Blue+White,80,84 Red+Green+Blue,85,89 Red+Green+Amber,90,94 Red+Green+White,95,99 Red+Amber+Blue,100,104 Red+White+Blue,105,109 Red+Amber+White,110,114 Amber+Green+Blue,115,119 Blue+Green+White,120,124 Amber+Green+White,125,129 Amber+White+Blue,130,134 Red+Green+Blue+Amber,135,139 Red+Green+Blue+White,140,144 Green+Blue+White+Amber,145,149 Red+Green+White+Amber,150,154 Red+Blue+White+Amber,155,159 Red+Green+Blue+White+Amber,160,164 macro (one color) from slow to fast,165,210  macro (two color) from slow to fast,211,255 
+
+Channel = shutter
+ no_function,0,4 strobe,5,249 strobe_sound,250,255 
+
+Channel = animation_rotary
+ stop,0,4 right_rotate,5,127 stop,128,133 left_rotate,134,255 
+
+Channel = flash_color_macro
+ no_function,0,9 macro_1 from slow to fast,10,34 macro_2 from slow to fast,35,59 macro_3 from slow to fast,60,84 macro_4 from slow to fast,85,108 macro_5 from slow to fast,109,132 macro-6 from slow to fast,133,156 macro_7  from slow to fast,157,180 macro_8  from slow to fast,181,204 macro_9 from slow to fast,205,228 macro_10 from slow to fast,229,250 full_on,251,255 
+
+Channel = uv
+ closed,0,9 strobe,10,249 open,250,255 
+

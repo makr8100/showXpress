@@ -1,0 +1,65 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 630
+ViewAngleTilt = 265
+ViewAngleBeam = 15
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = color
+ open,0,13 red,14,27 blue,28,41 green,42,55 yellow,56,69 magenta,70,83 orange,84,97 light_blue,98,111 pink,112,127 right_rotate,128,189 stop,190,193 left_rotate,194,255
+
+Channel = color_fine
+ Fine Tilit Control,0,255
+
+Channel = gobo
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,15,15 Rotate Gobo 2,20,29 Rotate Gobo 3,30,39 Rotate Gobo 4,40,49 Rotate Gobo 5,50,59 Rotate Gobo 6,60,69 Rotate Gobo 7,70,79 Miscellaneous/shake_gobo1,90,90 Gobo 2 Shake,100,119 Gobo 3 Shake,120,139 Gobo 4 Shake,140,159 Gobo 5 Shake,160,179 Gobo 6 Shake,180,199 Gobo 7 Shake,200,219 Miscellaneous/rotate,220,255
+
+Channel = gobo_rotate
+ index,0,127 right_rotate,128,189 stop,192,192 left_rotate,194,255
+
+Channel = gobo_rotate_fine
+
+Channel = gobo2
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,20,20 Gobo 2,28,41 Gobo 3,42,55 Gobo 4,56,69 Gobo 5,70,83 Gobo 6,84,97 Gobo 7,98,111 Miscellaneous/shake_gobo1,120,120 Gobo 2 Shake,128,143 Gobo 3 Shake,144,159 Gobo 4 Shake,160,175 Gobo 5 Shake,176,191 Gobo 6 Shake,192,207 Gobo 7 Shake,208,223 Miscellaneous/rotate,224,255
+
+Channel = prism
+ open,0,0 right_rotate,4,63 stop,65,65 left_rotate,68,127 Macro 1,128,135 Macro 2,136,143 Macro 3,144,151 Macro 4,152,159 Macro 5,160,167 Macro 6,168,175 Macro 7,176,183 Macro 8,184,191 Macro 9,192,199 Macro 10,200,207 Macro 11,208,215 Macro 12,216,223 Macro 13,224,231 Macro 14,232,239 Macro 15,240,247 Macro 16,248,255
+
+Channel = focus
+ focus_far,0,0 focus_near,255,255
+
+Channel = focus_fine
+
+Channel = shutter
+ closed,0,0 strobe,64,95 pulse_strobe,128,159 random_strobe,192,223 open,224,255 
+
+Channel = dimmer
+
+Channel = iris
+ index,0,191 pulse_open,192,223 pulse_close,224,255 
+
+Channel = iris_fine
+
+Channel = frost
+ index,0,191 pulse_open,192,223 pulse_close,224,254 100% Frost,255,255 
+
+Channel = frost_fine
+
+Channel = pantilt_speed
+ Max to Min,0,225 Blackout Movement,226,235 Blackout Wheel,236,245 No Function,246,255
+
+Channel = control
+ Open,0,19 Color Change,20,29 Split Colors,30,39 No Function,40,79 All Motor Reset,80,84 Scan Motor Reset,85,87 Colors Motor Reset,88,90 Gobo Motor Reset,91,93 No Function,94,96 Other Motor Reset,97,99 Scenes 1-8,100,119 Scenes 9-16,120,139 Scenes 17-24,140,159 Scenes 25-32,160,179 Scenes 33-40,180,199 Scenes 41-48,200,219 Scenes 49-56,220,239 Music Control,240,255
+

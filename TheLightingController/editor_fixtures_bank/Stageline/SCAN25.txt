@@ -1,0 +1,23 @@
+Name = STAGELINE_SCAN25
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_250HALO
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 13158600
+
+Channel = shutter
+
+Channel = gobo
+
+Channel = color
+
+Channel = pan
+
+Channel = tilt
+

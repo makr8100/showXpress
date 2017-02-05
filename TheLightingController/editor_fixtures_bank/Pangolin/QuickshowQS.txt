@@ -1,0 +1,43 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = access
+ closed,0,0 standard,70,70 extended,190,190 full,255,255 
+
+Channel = page
+
+Channel = cue
+
+Channel = speed_control
+
+Channel = fade
+
+Channel = zoom
+
+Channel = X_size
+
+Channel = Y_size
+
+Channel = Z_angle
+
+Channel = pan
+
+Channel = tilt
+
+Channel = visible_points
+
+Channel = scan_rate
+
+Channel = reserved
+
+Channel = color_macro
+

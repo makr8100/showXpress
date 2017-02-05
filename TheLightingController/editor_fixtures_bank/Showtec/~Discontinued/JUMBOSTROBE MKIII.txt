@@ -1,0 +1,17 @@
+Name = JUMBOSTROBE MKIII
+
+ViewType = VIEW_TYPE_STROBE
+ViewPower = VIEW_POWER_1200MSR
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 60
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = strobe_speed
+
+Channel = strobe_dimmer
+

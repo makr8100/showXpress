@@ -1,0 +1,42 @@
+Name = GLP_YPOC250COLOR
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_250MSR
+ViewAnglePan = 540
+ViewAngleTilt = 280
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewColor = 16777215
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = color
+ open,0,0 light_blue,5,5 blue,9,9 mixed,13,13 pink,17,17 orange,21,21 italian_blue,25,25 turquoise,29,29 jade,33,33 ctb,37,37 cto,41,41 red,45,45 open,65,65 light_blue,69,69 blue,73,73 mixed,77,77 pink,81,81 orange,85,85 italian_blue,89,89 turquoise,93,93 jade,97,97 ctb,101,101 cto,105,105 red,109,109 clock,128,191 audio,255,255
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = yellow
+
+Channel = shutter
+ closed,0,0 random_strobe,23,23 pulse,32,47 strobe,48,239 open,255,255
+
+Channel = dimmer
+
+Channel = beam
+
+Channel = effect
+ audio,0,0 rotating_color,47,47 right_rotate,64,79 left_rotate,80,95 pan_tilt,111,111 lamp_off,240,240 reset,255,255
+
+Channel = movement
+ stop,0,0 pan,1,31 tilt,32,63 pan_tilt,64,127 rotate,128,191 lying_eight,192,223 random,255,255
+

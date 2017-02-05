@@ -1,0 +1,30 @@
+Name = LT8
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 370
+ViewAngleTilt = 265
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = pan
+
+Channel = tilt
+
+Channel = gobo
+
+Channel = vertical_roll
+
+Channel = horizontal_rol
+
+Channel = gobo_rotate
+
+Channel = size
+
+Channel = control
+ open,0,0 closed,191,191 reset,255,255
+

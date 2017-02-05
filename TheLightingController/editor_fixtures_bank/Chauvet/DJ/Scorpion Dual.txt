@@ -1,0 +1,42 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/Scorpion DuaL.png
+
+Channel = mode
+ dmx,0,85 auto,86,170 audio,171,255
+
+Channel = strobe_effect
+ no_function,0,9 strobe,10,249 laser on,250,255 
+
+Channel = pattern
+ Lazer Patterns,0,255 
+
+Channel = zoom
+ size,0,127 zoom in,128,191 zoom out,192,255
+
+Channel = y axis
+ fixed axes,0,127 clockwise,128,191 anticlockwise,192,255
+
+Channel = x axis rolling
+ x axis ,0,127 clockwise,128,191 anticlockwise,192,255
+
+Channel = z axis rotating
+ z axis,0,127 clockwise,128,191 counterclockwise,192,255
+
+Channel = x axis moving
+ random position,0,127 clockwise,128,191 counterclockwise,192,255
+
+Channel = y axis moving
+ random position,0,127 clockwise,128,191 counterclockwise,192,255
+
+Channel = effect_speed
+ scan speed,0,127 slow- fast,128,169 fast - slow,170,209 auto speed,210,255
+

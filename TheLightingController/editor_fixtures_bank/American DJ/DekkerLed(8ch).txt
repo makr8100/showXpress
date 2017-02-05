@@ -1,0 +1,31 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = movement_macro
+ stop,0,0 right_rotate,1,127 left_rotate,128,255 
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = dimmer
+
+Channel = effect_macro
+ no_function,0,0 4_color_fade_change,1,26 9_color_fade_change,27,51 4_color_loop_change,52,76 9_color_fade_change,77,101 strobe_1_dim_bright,102,126 strobe_2_bright_dim,127,151 strobe_3_dim_bright_dim,152,176 strobe_4_WO_dim_effect,177,201 strobe_5_with_9_color,202,226 strobe_6_with_gradual_dim,227,254 all_programs_will_cycle,255,255 
+
+Channel = effect_speed
+ index,0,254 audio,255,255 
+

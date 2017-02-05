@@ -1,0 +1,22 @@
+Name = GENIUS_COLORPRO
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = dimmer
+
+Channel = color
+ color1,0,0 color2,23,23 color3,39,39 color4,55,55 color5,71,71 color6,87,87 color7,103,103 color8,119,119 color9,135,135 color10,151,151 color11,167,167 color12,183,183 rotate,193,193
+
+Channel = gobo
+ hole1,0,0 hole2,23,23 hole3,39,39 hole4,55,55 gobo1,71,71 gobo2,87,87 gobo3,103,103 cyan,119,119 yellow,135,135 magenta,151,151 cold,167,167 warm,183,183
+
+Channel = shutter
+
+Channel = frost
+

@@ -1,0 +1,39 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = pan
+
+Channel = tilt
+
+Channel = upan
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = color
+ white,0,0 yellow,24,24 pink,40,40 green,56,56 red,72,72 light_blue,88,88 orange,104,104 blue,120,120 right_rotate,128,191 left_rotate,192,255 
+
+Channel = shutter
+ closed,0,0 open,5,5 strobe,8,215 open,255,255 
+
+Channel = dimmer
+
+Channel = gobo
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,12,12 Miscellaneous/gobo2,20,20 Miscellaneous/gobo3,28,28 Miscellaneous/gobo4,36,36 Miscellaneous/gobo5,44,44 Miscellaneous/gobo6,52,52 Miscellaneous/gobo7,60,60 Miscellaneous/shake_gobo8,64,71 Miscellaneous/shake_gobo7,72,79 Miscellaneous/shake_gobo6,80,87 Miscellaneous/shake_gobo5,88,95 Miscellaneous/shake_gobo4,96,103 Miscellaneous/shake_gobo3,104,111 Miscellaneous/shake_gobo2,112,119 Miscellaneous/open,124,124 
+
+Channel = control
+ no_function,0,0 blackout_moves,15,15 blackout_changes,54,54 reset_xy,155,155 reset_xy,175,175 reset_color,200,200 reset_gobo,220,220 reset,235,235 
+
+Channel = effect_macro
+ no_function,0,0 auto,8,135 audio,136,255 
+

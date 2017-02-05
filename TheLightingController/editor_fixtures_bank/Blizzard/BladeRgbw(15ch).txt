@@ -1,0 +1,46 @@
+﻿ViewType = VIEW_TYPE_HEAD_WASH
+ViewPower = VIEW_POWER_LED60W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 12
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = pan
+
+Channel = tilt
+
+Channel = upan
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = color
+
+Channel = shutter
+ open,0,0 strobe,10,255
+
+Channel = dimmer
+
+Channel = effect_macro
+ 256-Step Linear Dimming,0,25 Fade Step Increase,26,50 Color Macros,51,90 Color Fade In/Out,91,130 Color Snap,131,170 Color Fade,171,210 auto,230,230 audio,255,255
+
+Channel = color_macro
+ Red/Yellow,0,0 Yellow/Green,30,30 Green/Aqua,50,50 Aqua/Blue,70,70 Blue/Magenta,90,90 Magenta/Red,110,110 Red/White,130,130 White/Blue,150,150 White,165,165 CTO – 3800K,203,203 CTO - 4200K,208,208 CTO - 4500K,213,213 CTO - 4800K,218,218 CTO - 5000K,223,223 CTO - 5200K,228,228 CTO - 5600K,233,233 CTO - 5800K,238,238 CTO - 6000K,243,243 CTO - 6200K,248,248 CTO - 6500K,255,255
+
+Channel = fixture_ID
+ no_function,0,0 Fixture ID 1,10,19 Fixture ID 2,20,29 Fixture ID 3,30,39 Fixture ID 4,40,49 Fixture ID 5,50,59 Fixture ID 6,60,69 Fixture ID 7,70,79 Fixture ID 8,80,89 Fixture ID 9,90,99 Fixture ID 10,100,109 Fixture ID 11,110,119 Fixture ID 12,120,129 Fixture ID 13,130,139 Fixture ID 14,140,149 Fixture ID 15,150,159 Fixture ID 16,160,169 Fixture ID 17,170,179 Fixture ID 18,180,189 Fixture ID 19,190,199 Fixture ID 20,200,209 Fixture ID 21,210,219 Fixture ID 22,220,229 Fixture ID 23,230,239 Fixture ID 24,240,249 Fixture ID 25,250,255
+

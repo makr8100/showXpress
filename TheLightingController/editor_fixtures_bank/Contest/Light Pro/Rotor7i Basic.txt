@@ -1,0 +1,50 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = TRUE
+ViewReverseTilt = TRUE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Contest/Light Pro/ROTOR7i .png
+
+Channel = pan
+
+Channel = tilt
+
+Channel = pantilt_speed
+ dimmer,0,225 blackout_moves,226,235 no_function,236,255 
+
+Channel = pan_continuous
+ no_function,0,127 continuous clockwise,128,189 stop,190,193 continuous unclock,194,255 
+
+Channel = tilt_continuous
+ no_function,0,127 continuous clockwise,128,189 stop,190,193 continuous unclock,194,255 
+
+Channel = shutter
+ closed,0,7 open,8,14 strobe,15,54 open,55,61 pulse_strobe,62,101 open,102,108 random_strobe,109,148 open,149,155 PULSE PIXEL,156,195 open,196,202 RANDOM PIXEL,203,242 open,243,255 
+
+Channel = dimmer
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = animation
+ no_function,0,10 pattern_01,11,15 pattern_02,16,20 pattern_03,21,25 pattern_04,26,30 pattern_05,31,35 pattern_06,36,40 pattern_07,41,45 pattern_08,46,50 pattern_09,51,55 pattern_10,56,60 pattern_11,61,65 pattern_12,66,70 pattern_13,71,75 pattern_14,76,80 pattern_15,81,85 pattern_16,86,90 pattern_17,91,95 pattern_18,96,100 pattern_19,101,105 pattern_20,106,110 pattern_21,111,115 pattern_22,116,120 macro_1,121,125 macro_2,126,130 macro_3,131,135 macro_4,136,140 macro_5,141,145 macro_6,146,150 macro_7,151,155 macro_8,156,160 macro_9,161,165 macro_10,166,170 macro_11,171,175 macro_12,176,180 macro_13,181,185 macro_14,186,190 macro_15,191,195 macro_16,196,200 macro_17,201,205 macro_18,206,210 macro_19,211,215 macro_19,216,220 macro_21,221,225 macro_21,226,255 
+
+Channel = animation_speed
+ dimmer,0,255 
+
+Channel = animation_fade
+ dimmer,0,255 
+
+Channel = control
+ no_function,0,79 reset_motors,80,84 reset_xy,85,87 no_function,88,99 macro_1,100,119 macro_2,120,139 macro_3,140,159 macro_4,160,179 macro_5,180,199 macro_6,200,219 macro_7,220,239 audio,240,255 
+

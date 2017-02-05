@@ -1,0 +1,21 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = TRUE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/GigBar IRC.png
+
+Channel = control
+ no_function,0,9 auto,10,229 audio,230,239 details show setting ch2/3 activated,240,255
+
+Channel = led_ct
+ no_function,0,9 pars only,10,19 kinta only,20,29 laser only,30,39 strobe only,40,49 auto par/kinta only,50,59 auto par/laser only,60,69 auto par/strobe only,70,79 auto kinta/laser only,80,89 auto strobe/kinta only,90,99 par/kinta/laser,100,109 par/kinta/strobe,110,119 par/laser/strobe,120,129 kinta/laser/strobe,130,139 sound par effect,140,149 sound kinta effect,150,159 sound laser effect,160,169 sound strobe effect,170,179 sound par + kinta,180,189 sound par + laser,190,199 sound par + strobe,200,209 sound kinta + laser,210,219 sound kinta + strobe,220,229 par/kinta/laser,230,239 par/kinta/strobe,240,244 par/laser/strobe,245,249 kinta/laser/strobe,250,255
+
+Channel = auto speed
+ speed ch.2 only,0,255
+

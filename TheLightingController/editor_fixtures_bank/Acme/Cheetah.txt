@@ -1,0 +1,29 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = shutter
+ closed,0,0 strobe,4,103 pulse_strobe,108,207 random_strobe,213,251 open,255,255
+
+Channel = dimmer
+
+Channel = gobo
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,5,5 Miscellaneous/gobo2,9,9 Miscellaneous/gobo3,13,13 Miscellaneous/gobo4,17,17 Miscellaneous/gobo5,21,21 Miscellaneous/gobo6,25,25 Miscellaneous/gobo7,29,29 Miscellaneous/gobo8,33,33 Miscellaneous/gobo9,37,37 Miscellaneous/gobo10,41,41 Miscellaneous/gobo11,45,45 Miscellaneous/gobo12,49,49 Miscellaneous/gobo13,53,53 Miscellaneous/gobo14,57,57 Miscellaneous/gobo15,61,61 Miscellaneous/shake_open,64,67 Miscellaneous/shake_gobo1,68,71 Miscellaneous/shake_gobo2,72,75 Miscellaneous/shake_gobo3,76,79 Miscellaneous/shake_gobo4,80,83 Miscellaneous/shake_gobo5,84,87 Miscellaneous/shake_gobo6,88,91 Miscellaneous/shake_gobo7,92,95 Miscellaneous/shake_gobo8,96,99 Miscellaneous/shake_gobo9,100,103 Miscellaneous/shake_gobo10,104,107 Miscellaneous/shake_gobo11,108,111 Miscellaneous/shake_gobo12,112,115 Miscellaneous/shake_gobo13,116,119 Miscellaneous/shake_gobo14,120,123 Miscellaneous/shake_gobo15,124,127 Miscellaneous/rotate,128,255 
+
+Channel = color
+ white,0,0 color_1,20,20 color_2,31,31 color_3,41,41 color_4,52,52 color_5,62,62 color_6,73,73 color_7,83,83 color_8,93,93 color_9,104,104 color_10,114,114 color_11,124,124 rotate,128,255 
+
+Channel = reflectro_rotation
+ stop,0,0 left_rotate,10,120 stop,128,128 right_rotate,136,245 stop,255,255 
+
+Channel = control
+ no_function,0,0 blackout_color,95,95 blackout_gobo,115,115 reset,204,204 auto,255,255 
+

@@ -1,0 +1,45 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LAMP575W
+ViewAnglePan = 630
+ViewAngleTilt = 265
+ViewAngleBeam = 14
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+2DViewImage = Contest/Discontinued Products/EVORA-SP60 .png
+
+Channel = color
+ open,0,14 green,15,29 blue,30,44 dark_green,45,59 yellow,60,74 magenta,75,89 orange,90,104 light_blue,105,119 pink,120,127 left_rotate,128,189 stop,190,193 left_rotate,194,255 
+
+Channel = gobo
+ Miscellaneous/open,0,9 Contest/GM001,10,19 Contest/GM064,20,29 Contest/GM033,30,39 Contest/GM012,40,49 Contest/GD011,50,59 Contest/GD016,60,69 Contest/GD007,70,79 Miscellaneous/shake_gobo1,80,95 Miscellaneous/shake_gobo2,96,111 Miscellaneous/shake_gobo3,112,127 Miscellaneous/shake_gobo4,128,143 Miscellaneous/shake_gobo5,144,159 Miscellaneous/shake_gobo6,160,175 Miscellaneous/shake_gobo7,176,191 Miscellaneous/right_rotate,192,255 
+
+Channel = gobo_rotate
+ index,0,127 right_rotate,128,189 stop,190,193 left_rotate,194,255 
+
+Channel = pantilt_speed
+ fade_speed,0,225 blackout_moves,226,235 blackout_changes,236,245 no_function,246,255 
+
+Channel = pan
+
+Channel = tilt
+
+Channel = effect wheel
+ open,0,31 prism,32,63 prism3d,64,95 frost,96,127 macro_1,128,135 macro_2,136,143 macro_3,144,151 macro_4,152,159 macro_5,160,167 macro_6,168,175 macro_7,176,183 macro_8,184,191 macro_9,192,199 macro_10,200,207 macro_11,208,215 macro_12,216,223 macro_13,224,231 macro_14,232,239 macro_15,240,247 macro_16,248,255 
+
+Channel = prism_rotate
+ index,0,127 right_rotate,128,189 stop,190,193 left_rotate,194,255 
+
+Channel = focus
+ dimmer,0,255 
+
+Channel = shutter
+ closed,0,31 open,32,63 lighting_strobe,64,95 open,96,127 pulse_strobe,128,159 open,160,191 random_strobe,192,223 open,224,255 
+
+Channel = dimmer
+
+Channel = control
+ step_colors,0,19 linear_colors,20,29 linear_color_gobos,30,39 no_function,40,59 no_function,60,79 reset_motors,80,84 reset_xy,85,87 reset_color,88,90 reset_gobo,91,93 no_function,94,96 reset_others,97,99 macro_1,100,119 macro_2,120,139 macro_3,140,159 macro_4,160,179 macro_5,180,199 macro_6,200,219 macro_7,220,239 audio,240,255 
+

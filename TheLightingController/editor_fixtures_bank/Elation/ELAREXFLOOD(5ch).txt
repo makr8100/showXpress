@@ -1,0 +1,24 @@
+Name = ELATION_ELAREXFLOOD(5ch)
+
+ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = dimmer
+
+Channel = shutter
+ open,0,0 strobe,11,255
+

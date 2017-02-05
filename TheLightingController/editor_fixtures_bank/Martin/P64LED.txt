@@ -1,0 +1,28 @@
+Name = AMERICAN-DJ_P64LED
+
+ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 60
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = color_macro
+ open,0,0 macro,8,255
+
+Channel = shutter
+ open,0,0 strobe,16,255
+
+Channel = effect
+ closed,0,0 dim_bright,32,63 bright_dim,64,95 dim_bright_dim,96,127 color_mixing,128,159 3 _color_change,160,191 7_color_change,192,223 sound_active,224,255
+

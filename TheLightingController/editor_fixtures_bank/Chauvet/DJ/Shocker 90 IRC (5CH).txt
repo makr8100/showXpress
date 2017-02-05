@@ -1,0 +1,26 @@
+﻿ViewType = VIEW_TYPE_STROBE
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 64
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = TRUE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/SHOCKER 90 IRC.png
+
+Channel = dimmer
+ closed,0,5 dimmer,6,255
+
+Channel = effect_speed
+
+Channel = shutter
+ no_function,0,5 pulse_strobe,6,255 
+
+Channel = effect_macro
+ no_function,0,5 pulse_strobe,6,42 reverse_pulse_strobe,43,85 Ramp Up-Down,86,128 random_strobe,129,171 lighting_strobe,172,214 Spikes,215,255
+
+Channel = pattern
+ no_function,0,5 macro_1,6,42 macro_2,43,85 macro_3,86,128 macro_4,129,171 macro_5,172,214 macro_6,215,255
+

@@ -1,0 +1,26 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED60W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = mode
+ no_function,0,10 red,11,21 yellow,22,32 green,33,43 cyan,44,54 blue,55,65 purple,66,76 white,77,87 slow dream,88,98 fast dream,99,109 color fade,110,120 color change,121,131 flow 1,132,142 flow 2,143,153 flow 3,154,164 flow 4,165,175 double flow 1,176,186 double flow 2,187,197 multi color,198,208 2 color flow 1,209,219 2 color flow 2,220,230 sound active,231,255 
+
+Channel = speed_control
+
+Channel = strobe_speed
+
+Channel = dimmer
+

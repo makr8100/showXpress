@@ -1,0 +1,25 @@
+Name = NJD_PREDATORHX
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_250HALO
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewColor = 16777215
+
+Channel = pan
+
+Channel = tilt
+
+Channel = gobo
+ Standard\square,0,0 Standard\cone,48,48 Standard\dots,80,80 Standard\star,112,112 Standard\triangle,144,144 Standard\flower,176,176 Miscellaneous\open,200,200 Miscellaneous\closed,255,255
+
+Channel = color
+ magenta,0,0 yellow,48,48 cyan,80,80 pink,112,112 green,144,144 red,176,176 blue,200,200 white,255,255
+
+Channel = shutter
+ lamp_off,0,0 open,128,128 closed,255,255
+

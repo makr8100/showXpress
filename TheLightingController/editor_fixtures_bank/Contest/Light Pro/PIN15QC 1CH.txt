@@ -1,0 +1,15 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Contest/Light Pro/PIN15QC .png
+
+Channel = color_macro
+ no_function,0,4 White 2700K,5,9 White 3200K,10,14 White 4200K,15,19 White 5600K,20,24 White 6500K,25,29 White 8000K,30,34 Yellow,35,39 Magenta,40,44 Cyan,45,49 Salmon,50,54 Turquoise,55,59 Light green,60,64 Steel blue,65,69 Orange,70,74 Straw,75,79 Pale lavander,80,84 Pink,85,89 Red,90,94 Green,95,99 Blue,100,104 White,105,109 Rainbow1,110,114 Rainbow2,115,119 Rainbow3,120,124 Rainbow4,125,129 Rainbow5,130,134 Rainbow6,135,139 Rainbow7,140,144 Rainbow8,145,149 Rainbow9,150,154 Rainbow10,155,159 Rainbow11,160,164 Rainbow12,165,169 Rainbow13,170,174 Rainbow14,175,179 Rainbow15,180,184 Rainbow16,185,189 Rainbow17,190,194 Rainbow18,195,199 Rainbow19,200,224 audio,225,255 
+

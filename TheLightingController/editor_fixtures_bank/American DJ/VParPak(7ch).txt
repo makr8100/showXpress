@@ -1,0 +1,28 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED60W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 20
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = amber
+
+Channel = dimmer
+
+Channel = shutter
+ open,0,0 strobe,16,255
+
+Channel = color_macro
+ no_function,0,0 RED,24,24 GREEN,40,40 BLUE,56,56 AMBER,72,72 RED & GREEN,88,88 RED & BLUE,104,104 RED & AMBER,120,120 GREEN & BLUE,136,136 GREEN & AMBER,152,152 BLUE & AMBER,168,168 RED & GREEN & BLUE,184,184 RED & GREEN & AMBER,200,200 RED & BLUE & AMBER,220,220 GREEN & BLUE & AMBER,232,232 RED & GREEN & BLUE & AMBER,255,255
+

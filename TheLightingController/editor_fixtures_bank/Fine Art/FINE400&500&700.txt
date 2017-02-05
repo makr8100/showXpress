@@ -1,0 +1,72 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 540
+ViewAngleTilt = 246
+ViewAngleBeam = 22
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = shutter
+ closed,0,0 strobe,20,207 reset,212,212 (light),232,232 open,255,255
+
+Channel = dimmer
+
+Channel = dimmer(16bits)
+
+Channel = color
+ white,0,0 red,25,25 magenta,50,50 indigo,75,75 dark_blue,100,100 dark_green,125,125 light_yellow,150,150 orange,175,175 violet,200,200 rotate,201,255
+
+Channel = color(16bits)
+
+Channel = color
+ white,0,0 green,25,25 blue,50,50 pink,75,75 light_red,100,100 yellow,125,125 dark_green,150,150 55004200,175,175 cyan,200,200 rotate,201,255
+
+Channel = color(16bits)
+
+Channel = gobo
+ Miscellaneous/gobo1,0,0 Miscellaneous/gobo2,50,50 Miscellaneous/gobo3,100,100 Miscellaneous/gobo4,150,150 Miscellaneous/gobo5,200,200 Miscellaneous/gobo6,255,255
+
+Channel = gobo_rotate
+ stop,0,0 right_rotate,3,127 left_rotate,128,252 stop,255,255
+
+Channel = gobo(16bits)
+
+Channel = gobo2
+ Miscellaneous/gobo1,0,0 Miscellaneous/gobo2,30,30 Miscellaneous/gobo3,60,60 Miscellaneous/gobo4,90,90 Miscellaneous/gobo5,120,120 Miscellaneous/gobo6,150,150 Miscellaneous/gobo7,180,180 Miscellaneous/gobo8,210,210 Miscellaneous/gobo9,255,255
+
+Channel = color_macro
+
+Channel = effect_macro
+
+Channel = effect_macro_rotating
+
+Channel = prism
+ stop,0,0 left_rotate,20,79 prism,85,85 right_rotate,90,149 stop,255,255
+
+Channel = iris
+
+Channel = iris(16bits)
+
+Channel = focus
+
+Channel = focus(16bits)
+
+Channel = zoom
+
+Channel = zoom(16bits)
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = effect_speed
+

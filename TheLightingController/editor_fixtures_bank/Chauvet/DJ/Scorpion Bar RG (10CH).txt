@@ -1,0 +1,42 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/Scorpion Bar RG.png
+
+Channel = mode
+ no_function,0,15 auto,16,255
+
+Channel = speed_control
+ auto,0,200 audio,201,255
+
+Channel = laser
+ no_function,0,15 laser output,16,255
+
+Channel = pattern
+ pattern,0,255
+
+Channel = zoom
+ index,0,127 zoom out,128,169 zoom in,170,209 zoom in/out,210,255
+
+Channel = Rolling X axis
+ fixed position,0,127 right_rotate,128,191 left_rotate,192,255
+
+Channel = Rolling Y axis
+ fixed position,0,127 right_rotate,128,191 left_rotate,192,255
+
+Channel = Rolling Z axis
+ fixed position,0,127 right_rotate,128,191 left_rotate,192,255
+
+Channel = Moving Z axis
+ fixed position,0,127 right_rotate,128,191 left_rotate,192,255
+
+Channel = Moving Y axis
+ fixed position,0,127 right_rotate,128,191 left_rotate,192,255
+

@@ -1,0 +1,28 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED60W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 24
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = effect_speed
+ no_function,0,0 raimbow_colors,8,220 crossfading,221,255
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = shutter
+ open,0,0 strobe,64,95 pulse_strobe,128,159 random_strobe,192,223 open,255,255
+
+Channel = color_macro
+ no_function,0,0 macro_1,105,105 macro_2,120,120 macro_3,135,135 macro_4,150,150 macro_5,168,168 macro_6,185,185 macro_7,200,200 macro_8,215,215 no_function,255,255 
+
+Channel = dimmer
+

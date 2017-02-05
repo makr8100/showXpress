@@ -1,0 +1,43 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Contest/Light DJ/MINISET .png
+
+Channel = animation
+ color_swap,0,9 pattern_01,10,29 pattern_02,30,49 pattern_03,50,69 pattern_04,70,89 pattern_05,90,109 pattern_06,110,129 pattern_07,130,149 pattern_08,150,169 pattern_09,170,189 pattern_10,190,209 pattern_11,210,229 pattern_12,230,249 audio,250,255 
+
+Channel = dimmer
+
+Channel = shutter
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+

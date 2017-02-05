@@ -1,0 +1,42 @@
+Name = GLP_YPOCBASIC250
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_250MSR
+ViewAnglePan = 530
+ViewAngleTilt = 285
+ViewAngleBeam = 15
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewColor = 13158600
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = color
+ white,0,0 light_blue,4,4 blue,8,8 purple,12,12 magenta,16,16 pink,20,20 orange,24,24 canary,28,28 blue,32,32 turquoise,36,36 jade,40,40 red,44,44 light_blue,68,68 blue,72,72 purple,76,76 magenta,80,80 pink,84,84 orange,88,88 canary,92,92 blue,96,96 turquoise,100,100 jade,104,104 red,108,108 right_rotate,128,191 left_rotate,192,253 audio,255,255
+
+Channel = gobo
+ Miscellaneous\gobo1,0,0 Miscellaneous\gobo2,5,5 Miscellaneous\gobo3,9,9 Miscellaneous\gobo4,13,13 Miscellaneous\gobo5,17,17 Miscellaneous\gobo6,21,21 Miscellaneous\gobo7,25,25 Miscellaneous\gobo8,29,29 Miscellaneous\gobo9,33,33 Miscellaneous\gobo1,62,62 Miscellaneous\gobo2,66,66 Miscellaneous\gobo3,69,69 Miscellaneous\gobo4,73,73 Miscellaneous\gobo5,77,77 Miscellaneous\gobo6,82,82 Miscellaneous\gobo7,85,85 Miscellaneous\gobo8,89,89 Miscellaneous\gobo9,93,93 Miscellaneous\right_rotate,101,101 Miscellaneous\left_rotate,105,105 audio 1,108,191 audio 2,192,253
+
+Channel = shutter
+ closed,0,0 random strobe,16,31 strobe pulse,32,47 strobe,48,239 open,255,255
+
+Channel = dimmer
+
+Channel = special
+ nothing,0,0 gobo +/- 10°,16,31 gobo +/- 20°,32,47 gobo +/- 30°,48,63 color c/c+1,64,79 color c/c+2,80,95 audio slow,105,105 audio fast,120,120 lamp off,240,240 reset,255,255
+
+Channel = movement
+ nothing,0,0 pan1 0°,1,1 pan1 90°,2,2 pan1 180°,4,4 pan1 270°,6,6 pan2 0°,8,8 pan2 90°,10,10 pan2 180°,12,12 pan2 270°,14,14 pan3 0°,16,16 pan3 90°,18,18 pan3 180°,20,20 pan3 270°,22,22 pan4 0°,24,24 pan4 90°,26,26 pan4 180°,28,28 pan4 270°,30,30 tilt,32,63 pan/tilt,64,95 pan/tilt reverse,96,127 circle,128,159 circle reverse,160,191 lying eight,192,223 random move,224,255
+
+Channel = pantilt_speed
+ relative,0,0 slow to fast,16,255
+
+Channel = laser
+ closed,0,0 random flash,24,24 audio,40,40 blinking,48,127 flashing,128,239 laser on,255,255
+

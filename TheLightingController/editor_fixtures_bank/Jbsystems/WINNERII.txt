@@ -1,0 +1,26 @@
+Name = JB-SYSTEM_WINNERII
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_250HALO
+ViewAnglePan = 180
+ViewAngleTilt = 100
+ViewAngleBeam = 13
+ViewReversePan = TRUE
+ViewReverseTilt = TRUE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = effect
+ open,0,9 Gobo+Color 01,10,29 Gobo+Color 02,30,50 Gobo+Color 03,51,71 Gobo+Color 04,72,92 Color 01,93,109 Color 02,110,130 Color 03,131,152 Color 04,153,173 Gobo 01,174,192 Gobo 02,193,213 Gobo 03,214,234 Gobo 04,235,255
+
+Channel = gobo
+ Miscellaneous\closed,0,7 Miscellaneous\open,8,15 Chauvet\small circle,16,23 Chauvet\cut square,24,31 Chauvet\cone,32,39 Chauvet\phone,40,47 Chauvet\shell,48,55 Chauvet\maze,56,63 Chauvet\4 dots,64,71 Chauvet\hand,72,79 Chauvet\2,80,87 Chauvet\pling,88,95 Chauvet\whire pool,96,103 Chauvet\bubbles assorted,104,111 Chauvet\super star,112,119 Chauvet\swirl 2,120,128 Miscellaneous\rotate,129,255
+
+Channel = color
+ white,0,10 green,11,21 orange,22,32 light_blue,33,43 amber,44,54 red,55,65 purple,66,76 pink,77,87 light_green,88,98 blue,99,109 yellow,110,120 magenta,121,127 clock,128,170 counterclock,171,212 counterclock,213,213
+
+Channel = pan
+
+Channel = tilt
+

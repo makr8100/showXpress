@@ -1,0 +1,23 @@
+Name = MAD_ITM250
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = pan
+
+Channel = tilt
+
+Channel = gobo
+ full,0,0 gobo1,80,80 gobo2,120,120 gobo3,150,150 gobo4,170,170 gobo5,255,255
+
+Channel = color
+ white,0,0 blue,30,30 yellow,56,56 green,83,83 orange,116,116 magenta,140,140 warm_blue,169,169 rotate,255,255
+
+Channel = shutter
+ dimmer,0,127 open,127,127 strobe,129,254 closed,255,255
+

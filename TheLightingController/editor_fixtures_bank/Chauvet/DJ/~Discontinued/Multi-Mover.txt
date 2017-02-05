@@ -1,0 +1,25 @@
+Name = Multi-Mover
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = pan
+ new_level,0,255
+
+Channel = upan
+ new_level,0,255
+
+Channel = pantilt_speed
+ new_level,0,255
+
+Channel = control
+ no_function,0,129 reset,130,139 no_function,140,209 lamp_on,210,219 no_function,220,229 lamp_off,230,239 no_function,240,255
+

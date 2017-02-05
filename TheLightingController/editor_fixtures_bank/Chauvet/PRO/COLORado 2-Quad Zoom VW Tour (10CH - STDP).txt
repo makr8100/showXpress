@@ -1,0 +1,42 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/PRO/COLORado2QuadVWZoom-2D.png
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = udimmer
+ dimmer,0,255
+
+Channel = amber
+ dimmer,0,255
+
+Channel = uamber
+ dimmer,0,255
+
+Channel = white
+ dimmer,0,255
+
+Channel = uwhite
+ dimmer,0,255
+
+Channel = color_macro
+ no_function,0,10 White 1,11,50 White 2,51,80 White 3,81,110 White 4,111,140 White 5,141,255
+
+Channel = shutter
+ no_function,0,9 0-20 Hz,10,255
+
+Channel = zoom
+ 0-100%,0,255
+
+Channel = Zoom Reset
+ no_function,0,200 Zoom Reset,201,220 no_function,221,255
+

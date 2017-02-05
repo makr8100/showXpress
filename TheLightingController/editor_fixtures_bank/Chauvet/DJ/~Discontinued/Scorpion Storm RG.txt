@@ -1,0 +1,25 @@
+Name = Scorpion Storm RG
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = mode
+ closed,0,4 red,5,33 green,34,62 red/green,63,91 auto red,92,120 auto green,121,149 auto red/green,150,178 sound red,179,207 sound green,208,236 sound red/green,237,255
+
+Channel = motor
+ stop,0,4 right_rotate,5,125 stop,126,131 left_rotate,132,249 audio,250,255
+
+Channel = shutter
+ closed,0,4 strobe,5,255
+
+Channel = shutter
+ closed,0,4 strobe,5,255
+

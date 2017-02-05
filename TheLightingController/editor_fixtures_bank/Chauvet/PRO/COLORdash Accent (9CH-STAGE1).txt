@@ -1,0 +1,39 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 18
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = TRUE
+ViewReverseIris = FALSE
+ViewColor = 0
+2DViewImage = Chauvet/PRO/COLORdashAccent-2D.png
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = red
+ dimmer,0,255
+
+Channel = green
+ dimmer,0,255
+
+Channel = blue
+ dimmer,0,255
+
+Channel = white
+ dimmer,0,255
+
+Channel = color_macro
+ no_function,0,10 R100% G0-100% B0%,11,35 R100-0% G100% B0%,36,60 R0% G100% B0-100%,61,85 R0% G0-100% B100%,86,110 R0-100% G0% B100%,111,135 R100% G0% B100-0%,136,160 R100% G0-100% B0-100%,161,185 R100-0% G100-0% B100%,186,210 White 1:3200K,211,215 White 2: 3400K,216,220 White 3: 4200K,221,225 White 4: 4900K,226,230 White 5: 5600K,231,235 White 6: 5900K,236,240 White 7: 6500K,241,245 White 8: 7200K,246,250 White 9: 8500K,251,255
+
+Channel = shutter
+ no_function,0,4 strobe,5,255
+
+Channel = Auto Program
+ no_function,0,20 auto0,21,30 auto1,31,40 auto2,41,50 auto3,51,60 auto4,61,70 auto5,71,80 auto6,81,90 auto7,91,100 auto8,101,110 auto9,111,120 auto10,121,130 auto11,131,140 auto12,141,150 auto13,151,160 auto14,161,170 auto15,171,180 auto16,181,190 auto17,191,200 auto18,201,210 auto19,211,220 auto20,221,223 auto21,224,226 auto22,227,229 auto23,230,232 auto24,233,235 auto25,236,238 auto26,239,241 auto27,242,244 auto28,245,247 auto29,248,250 auto30,251,253 auto31,254,255
+
+Channel = speed_control
+ dimmer,0,255
+

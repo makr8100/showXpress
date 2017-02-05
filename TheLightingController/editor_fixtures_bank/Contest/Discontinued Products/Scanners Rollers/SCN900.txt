@@ -1,0 +1,29 @@
+Name = CONTEST_SCN900
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_250HALO
+ViewAnglePan = 150
+ViewAngleTilt = 85
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = pan
+
+Channel = tilt
+
+Channel = color
+ white,0,0 turquoise,12,12 red,20,20 cyan,28,28 light_green,36,36 magenta,44,44 light_blue,52,52 yellow,60,60 green,68,68 pink,76,76 blue,84,84 orange,92,92 blacklight,100,100 mixed,108,108 mixed,116,116 mixed,124,124 right_rotate,128,190 stop,192,192 left_rotate,193,255
+
+Channel = gobo
+ Miscellaneous\open,0,0 gobo1,36,36 gobo2,60,60 gobo3,92,92 gobo4,116,116 gobo5,140,140 gobo6,164,164 gobo7,188,188 gobo8,220,220 gobo9,255,255
+
+Channel = gobo_rotate
+ index,0,127 right_rotate,128,191 stop,192,192 left_rotate,193,255
+
+Channel = shutter
+ closed,0,0 dimmer,1,95 strobe,97,127 strobe_pulse1,136,175 strobe_pulse2,177,191 strobe_random,193,223 open,255,255
+

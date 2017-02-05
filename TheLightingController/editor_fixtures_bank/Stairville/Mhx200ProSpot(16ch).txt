@@ -1,0 +1,52 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = pan
+
+Channel = tilt
+
+Channel = upan
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = color
+ white,0,0 blue,12,255 yellow,0,0 pink,28,28 green,36,36 red,44,44 light_blue,52,52 magenta,60,60 index,67,170 right_rotate,171,212 left_rotate,213,255 
+
+Channel = shutter
+ closed,0,0 open,15,15 strobe,23,85 triple_strobe,101,165 irregular_strobe,181,245 open,255,255 
+
+Channel = dimmer
+
+Channel = gobo
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,15,15 Miscellaneous/gobo2,25,25 Miscellaneous/gobo3,35,35 Miscellaneous/gobo4,45,45 Miscellaneous/gobo5,55,55 Miscellaneous/gobo6,65,65 Miscellaneous/gobo7,75,75 Miscellaneous/shake_gobo1,80,99 Miscellaneous/shake_gobo2,100,119 Miscellaneous/shake_gobo3,120,139 Miscellaneous/shake_gobo4,140,159 Miscellaneous/shake_gobo5,160,179 Miscellaneous/shake_gobo6,180,199 Miscellaneous/shake_gobo7,200,219 Miscellaneous/right_rotate,220,237 Miscellaneous/left_rotate,238,255 
+
+Channel = gobo_rotate
+ stop,0,0 index,11,127 right_rotate,128,191 left_rotate,192,255 
+
+Channel = gobo2
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,15,15 Miscellaneous/gobo2,25,25 Miscellaneous/gobo3,35,35 Miscellaneous/gobo4,45,45 Miscellaneous/gobo5,55,55 Miscellaneous/gobo6,65,65 Miscellaneous/gobo7,75,75 Miscellaneous/gobo8,85,85 Miscellaneous/shake_gobo2,108,123 Miscellaneous/shake_gobo3,124,139 Miscellaneous/shake_gobo4,140,155 Miscellaneous/shake_gobo5,156,171 Miscellaneous/shake_gobo6,172,187 Miscellaneous/shake_gobo7,188,203 Miscellaneous/shake_gobo8,204,219 Miscellaneous/right_rotate,220,237 Miscellaneous/left_rotate,238,255 
+
+Channel = focus
+
+Channel = zoom
+ index,0,63 auto,64,127 pulse_open,128,191 pulse_close,192,255 
+
+Channel = prism
+ no_function,0,0 prism,12,12 right_rotate,16,127 left_rotate,128,239 prism,255,255 
+
+Channel = control
+ no_function,0,0 blackout_moves,12,12 blackout_changes,27,27 reset_xy,47,47 reset_xy,52,52 reset_color,57,57 reset_gobo,67,67 reset_gobo2,77,77 reset_focus,82,82 reset_prism,87,87 reset_channels,95,95 auto,130,192 audio,255,255 
+
+Channel = effect_macro
+

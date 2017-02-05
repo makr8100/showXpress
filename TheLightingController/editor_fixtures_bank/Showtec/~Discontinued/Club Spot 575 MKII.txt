@@ -1,0 +1,50 @@
+Name = Club Spot 575 MKII
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_575MSR
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = shutter
+
+Channel = dimmer
+
+Channel = color
+ white,0,12 light_blue,13,25 red,26,38 magenta,39,51 light_green,52,64 yellow,65,77 purple,78,90 blue,91,103 green,104,116 orange,117,127 rainbow,128,255
+
+Channel = gobo
+ Miscellaneous\open,0,18 gobo 1,19,37 gobo 2,38,56 gobo 3,57,75 gobo 4,76,94 gobo 5,95,113 gobo 6,114,127 Miscellaneous\right_rotate,128,192 Miscellaneous\left_rotate,193,255
+
+Channel = gobo_rotate
+ right_rotate,0,116 stop,117,118 left_rotate,119,244 shaking,245,255
+
+Channel = gobo2
+ Miscellaneous\open,0,6 gobo 1,7,12 gobo 2,13,19 gobo 3,20,25 gobo 4,26,32 gobo 5,33,38 gobo 6,39,45 gobo 7,46,51 gobo 8,52,58 gobo 9,59,63 Miscellaneous\open,64,70 gobo 1 shake,71,76 gobo 2 shake,77,83 gobo 3 shake,84,89 gobo 4 shake,90,96 gobo 5 shake,97,102 gobo 6 shake,103,109 gobo 7 shake,110,115 gobo 8 shake,116,122 gobo 9 shake,123,127 Miscellaneous\right_rotate,128,191 Miscellaneous\left_rotate,192,255
+
+Channel = prism
+ open,0,127 prism,128,255
+
+Channel = prism_rotate
+ stop,0,8 right_rotate,9,119 stop,121,231 left_rotate,232,255
+
+Channel = focus
+
+Channel = control
+ no function,0,250 reset,251,255
+

@@ -1,0 +1,15 @@
+Name = DMX Abyss
+
+ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_250HALO
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 45
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewColor = 0
+
+Channel = color
+ closed,0,0 white,20,20 pink,30,30 light_green,50,50 blue,60,60 yellow,80,80 magenta,90,90 mixed,100,100 green,120,120 orange,130,130 turquoise,150,150 mixed,160,160 red,170,170 scroll_r_slow,184,184 scroll_ r_med,210,210 scroll_r_fast,255,255
+

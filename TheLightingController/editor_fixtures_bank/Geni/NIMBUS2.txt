@@ -1,0 +1,21 @@
+Name = GENI_NIMBUS2
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewColor = 16777215
+
+Channel = color
+ white,0,0 pink_orange,20,20 yellow,35,35 light_blue,52,52 green,68,68 orange,84,84 purple,100,100 red,115,115 dark_blue,130,130 magenta,148,148 white,164,164 rotate,168,255
+
+Channel = gobo
+ Miscellaneous\closed,0,0 Miscellaneous\open,15,15 Geni\NS-2-CH2-22-32,27,27 Geni\NS-2-CH2-33-43,38,38 Geni\NS-2-CH2-44-54,49,49 Geni\NS-2-CH2-55-65,60,60 Geni\NS-2-CH2-66-76,71,71 Geni\NS-2-CH2-77-87,82,82 Geni\NS-2-CH2-88-98,93,93 Geni\NS-2-CH2-99-109,105,105 Miscellaneous\closed,120,120 Miscellaneous\rotate,128,207 Miscellaneous\strobe,208,255
+
+Channel = pan
+
+Channel = tilt
+

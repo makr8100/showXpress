@@ -1,0 +1,30 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = mode
+ stepper_motor,0,0 standalone_mode,201,254 reset,255,255 
+
+Channel = patterns
+
+Channel = patterns_rotation
+
+Channel = zoom
+
+Channel = X-axis
+
+Channel = Y-axis
+
+Channel = blanking
+ closed,0,0 index,1,254 no_blanking,255,255 
+
+Channel = color_macro
+ no_function,0,0 off_red,40,40 green_green,70,70 green_yellow,100,100 green_red&green,130,130 green_yellow&green,155,155 green_yellow&red,180,180 green_yellow&red&green,220,220 random_color,255,255 
+

@@ -1,0 +1,47 @@
+﻿ViewType = VIEW_TYPE_HEAD_WASH
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 430
+ViewAngleTilt = 300
+ViewAngleBeam = 36
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = control
+ full_led,0,0 8500K,12,12 6500K,20,20 50Hz,212,212 60Hz,220,220 flex,228,228 reset,244,244
+
+Channel = shutter
+ closed,0,0 open,60,60 strobe,96,110 pulse_close,144,158 shutter_fade_0,160,174 shutter_face_100,176,190 random_strobe,192,206 random_strobe,208,222 random_shutter_fade_0,224,238 random_shutter_fade_100,240,254 open,255,255
+
+Channel = dimmer
+
+Channel = frost
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = CTC
+
+Channel = color
+ inactive,0,0 white,2,2 red,9,9 yellow,17,17 magenta,25,25 green,33,33 amber,41,41 blue,49,49 cyan,57,57 rotate,64,191 right_rotate,192,222 stop,223,223 left_rotate,225,255
+
+Channel = pantilt_speed
+
+Channel = effect_speed
+
+Channel = movement_blackout
+ no_function,0,0 pan&tilt,100,100 color,140,140 pan&tilt_color,255,255
+

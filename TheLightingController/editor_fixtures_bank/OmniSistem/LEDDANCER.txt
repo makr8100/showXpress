@@ -1,0 +1,34 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = motor 1
+
+Channel = motor 2
+
+Channel = motor 3
+
+Channel = motor 4
+
+Channel = motor 5
+
+Channel = motor 6
+
+Channel = motor 7
+
+Channel = motor 8
+
+Channel = motor_speed
+ index,0,254 audio,255,255 
+
+Channel = gobo
+
+Channel = gobo_rotate
+

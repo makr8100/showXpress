@@ -1,0 +1,85 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 18
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = shutter
+ closed,0,0 strobe,50,64 pulse_open,70,84 pulse_close,90,104 random_strobe,110,124 random_pulse_open,130,144 random_pulse_close,150,164 burst_pulse,170,184 random_burst_pulse,190,204 electronic_sin_strobe,210,224 electronic_burst_strobe,230,244 open,255,255
+
+Channel = dimmer
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = yellow
+
+Channel = CTO
+
+Channel = color
+ white,0,0 index,1,160 red,162,162 dark_blue,166,166 yellow,170,170 light_green,174,174 orange,178,178 green,182,182 blue,186,186 right_rotate,193,214 stop,218,218 left_rotate,222,243 random,244,255
+
+Channel = gobo
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,12,12 Miscellaneous/gobo2,17,17 Miscellaneous/gobo3,22,22 Miscellaneous/gobo4,27,27 Miscellaneous/gobo5,32,32 Miscellaneous/gobo1_rotate,37,37 Miscellaneous/gobo2_rotate,42,42 Miscellaneous/gobo3_rotate,47,47 Miscellaneous/gobo4_rotate,52,52 Miscellaneous/gobo5_rotate,57,57 Miscellaneous/shake_gobo1,60,89 Miscellaneous/shake_gobo2,90,119 Miscellaneous/shake_gobo3,120,149 Miscellaneous/shake_gobo4,150,179 Miscellaneous/shake_gobo5,180,209 Miscellaneous/right_rotate,210,232 Miscellaneous/left_rotate,233,255
+
+Channel = gobo_rotate
+ stop,0,0 right_rotate,3,126 stop,128,128 left_rotate,130,253
+
+Channel = gobo_urotate
+
+Channel = framing_blade1_position
+
+Channel = framing_blade1_angle
+
+Channel = framing_blade2_position
+
+Channel = framing_blade2_angle
+
+Channel = framing_blade3_position
+
+Channel = framing_blade3_angle
+
+Channel = framing_blade4_position
+
+Channel = framing_blade4_angle
+
+Channel = frame_rotation
+ 0-395°,0,199 right_rotate,200,225 stop,227,227 left_rotate,230,255
+
+Channel = frame_rotation_fine
+
+Channel = CMY_macro
+ no_function,0,0 color_wheel_shake,19,57 speed,58,135 gobo_crossfading,136,207
+
+Channel = gobo_animation_position
+ open,0,0 index_hor,6,10 index_vert,11,15 rotation_hor,16,20 rotation_vert,21,25 angle_vert_hor,26,110 angle_hor_vert,111,195 angle_vert,196,255 
+
+Channel = gobo_animation
+
+Channel = beam_effect
+ no_function,0,0 index,20,39 rotate,40,59 
+
+Channel = beam_effect_angle
+
+Channel = iris
+ index,0,200 pulse_open,216,229 pulse_close,230,243 random_open,244,249 random_close,250,255 
+
+Channel = focus
+
+Channel = zoom
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+

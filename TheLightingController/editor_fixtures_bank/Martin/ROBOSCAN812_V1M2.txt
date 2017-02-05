@@ -1,0 +1,29 @@
+Name = MARTIN_ROBOSCAN812_V1M2
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = shutter
+ default,0,0 gobo_strobe,12,74 color_strobe,76,138 autotrig,140,170 musictrig,172,202 reset,220,220 lamp_on,255,255
+
+Channel = color
+ black,0,0 white_col1,22,22 col1_col2,37,37 col2_col3,52,52 col3_col4,67,67 col4_col5,82,82 col5_col6,97,97 col6_col7,112,112 col7_col8,127,127 col8_col9,142,142 col9_col10,157,157 col10_col11,172,172 color_11,182,182 color_10,187,187 color_9,192,192 color_8,197,197 color_7,202,202 color_6,207,207 color_5,212,212 color_4,217,217 color_3,222,222 color_2,227,227 color_1,232,232 white,237,237 black,255,255
+
+Channel = gobo
+ closed,0,0 open_gob1,22,22 gob1_gob2,37,37 gob2_gob3,52,52 gob3_gob4,67,67 gob4_gob5,82,82 gob5_gob6,97,97 gob6_gob7,112,112 gob7_gob8,127,127 gob8_gob9,142,142 gob9_gob10,157,157 gob10_gob11,172,172 gobo11,182,182 gobo10,187,187 gobo9,192,192 gobo8,197,197 gobo7,202,202 gobo6,207,207 gobo5,212,212 gobo4,217,217 gobo3,222,222 gobo2,227,227 gobo1,232,232 white,237,237 black,255,255
+
+Channel = pan
+
+Channel = tilt
+
+Channel = pantilt_speed
+ tracking,0,0 fast-slow,2,255
+
+Channel = gobo_rotate
+ tracking,0,0 fast-slow,2,255
+

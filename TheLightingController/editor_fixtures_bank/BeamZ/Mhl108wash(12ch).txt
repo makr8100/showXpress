@@ -1,0 +1,39 @@
+﻿ViewType = VIEW_TYPE_HEAD_WASH
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 20
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = shutter
+ blank,0,0 dimmer,8,134 strobe,135,239 open,255,255
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = color
+ blank,0,0 white,15,15 red,28,28 dark_green,43,43 dark_blue,58,58 light_blue,72,72 magenta,86,86 yellow,98,98 purple,114,114 orange,128,128 light_green,143,143 pink,156,156 brown,170,170 gold,184,184 crimson,198,198 violet,212,212 dark_purple,226,226 rotate,232,255
+
+Channel = color_speed
+
+Channel = effect_macro
+ no_function,0,0 auto,8,112 audio,113,255 
+

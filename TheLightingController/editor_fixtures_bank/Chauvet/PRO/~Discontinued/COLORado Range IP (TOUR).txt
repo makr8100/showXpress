@@ -1,0 +1,59 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED60W
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 15
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = red
+ dimmer,0,255
+
+Channel = green
+ dimmer,0,255
+
+Channel = blue
+ dimmer,0,255
+
+Channel = white
+ dimmer,0,255
+
+Channel = amber
+ dimmer,0,255
+
+Channel = red
+ dimmer,0,255
+
+Channel = green
+ dimmer,0,255
+
+Channel = blue
+ dimmer,0,255
+
+Channel = white
+ dimmer,0,255
+
+Channel = amber
+ dimmer,0,255
+
+Channel = color_macro
+ no_function,0,10 red full/green to full,11,30 red to 0/green full,31,50 green full/Blue to full,51,70 blue full/green to 0,71,90 blue full/red to full,91,110 red full/blue to 0,111,130 red full/BlueGreen to full,131,150 BGR full/RG to 0,151,170 All Full,171,200 3200k,201,205 3400k,206,210 4200k,211,215 4900k,216,220 5600k,221,225 5900k,226,230 6500k,231,235 7200k,236,240 8000k,241,245 8500k,246,250 10000,251,255 
+
+Channel = strobe_effect
+ no_function,0,10 strobe,11,255
+
+Channel = control
+ no_function,0,40 auto,41,50 auto,51,60 auto,61,70 auto,71,80 auto,81,90 auto,91,100 auto,101,110 auto,111,120 auto,121,130 auto,131,140 custom,141,150 custom,151,160 custom,161,170 custom,171,180 custom,181,190 custom,191,200 custom,201,210 custom,211,220 custom,221,230 custom,231,255 
+
+Channel = speed_control
+ auto1,0,255
+
+Channel = dimmer_speed
+ dimmer,0,9 dimmer,10,29 dimmer,30,69 dimmer,70,129 dimmer,130,189 dimmer,190,255
+

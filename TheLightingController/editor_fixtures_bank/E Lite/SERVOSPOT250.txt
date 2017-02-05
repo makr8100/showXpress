@@ -1,0 +1,50 @@
+Name = E-LITE_SERVOSPOT250
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+ tracking,0,0 speed,2,249 blackout,255,255
+
+Channel = control
+ fan,0,127 lamp-on_reset,134,134 lamp-off,234,234
+
+Channel = color
+ white,0,0 turquoise,10,10 red,21,21 cyan,32,32 green,42,42 magenta,53,53 light_blue,54,54 yellow,74,74 green,85,85 pink,96,96 blue,106,106 orange,117,117 clock,128,190 stop,192,192 counterclock,194,255
+
+Channel = reserved
+
+Channel = effect
+ open,0,0 3_facet,120,120 macro_1,164,164 macro_2,172,172 macro_3,180,180 macro_4,188,188 macro_5,196,196 macro_6,204,204 macro_7,212,212 macro_9,228,228 macro_10,236,236 macro_11,244,244 macro_12,255,255
+
+Channel = effect_speed
+ stop,0,0 clock,2,126 stop,128,128 counterclock,130,255
+
+Channel = gobo
+ full,0,0 multicolor,45,45 glass,80,80 metal_1,110,110 metal_2,145,145 metal_3,175,175 metal_4,210,210 rotate,224,255
+
+Channel = gobo_rotate
+ position,0,127 clock,128,190 stop,192,192 counterclock,194,255
+
+Channel = reserved
+
+Channel = focus
+
+Channel = shutter
+ closed,0,0 open,50,50 strobe,64,95 pulse,128,159 open,180,180 random_strobe,192,223 open,255,255
+
+Channel = dimmer
+

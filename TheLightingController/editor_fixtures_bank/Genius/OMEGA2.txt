@@ -1,0 +1,24 @@
+Name = GENIUS_OMEGA2
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = pantilt_speed
+
+Channel = color
+ color1,0,0 color2,19,19 color3,35,35 color4,51,51 color5,67,67 color6,83,83 color7,99,99 color8,115,115 color9,131,131 color10,147,147 color11,163,163 color12,179,179
+
+Channel = gobo
+ gobo1,0,0 gobo2,47,47 gobo3,79,79 gobo4,111,111 gobo5,143,143 gobo6,175,175 gobo7,207,207 gobo8,255,255
+
+Channel = shutter
+
+Channel = pan
+
+Channel = tilt
+

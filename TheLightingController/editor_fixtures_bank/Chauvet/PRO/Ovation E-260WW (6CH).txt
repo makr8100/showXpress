@@ -1,0 +1,30 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 26
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/PRO/Ovation-E-260WW-FRONT.png
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = udimmer
+ dimmer,0,255
+
+Channel = strobe_effect
+ no_function,0,10 Strobe slow to fast,11,255
+
+Channel = Auto Programs
+ no_function,0,10 Auto 1,11,70 Auto 2,71,130 Auto 3,131,190 Auto 4,191,255
+
+Channel = Auto Program Speed
+ Slow to fast,0,255
+
+Channel = Dimmer Speed Mode
+ Preset dimmer speed from display,0,51 Dimmer speed OFF,52,101 Dimmer speed 1 (fast),102,152 Dimmer speed 2 (middle),153,203 Dimmer speed 3 (slow),204,255
+

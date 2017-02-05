@@ -1,0 +1,102 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/Intimidator Trio.png
+
+Channel = pan
+ pan,0,255
+
+Channel = upan
+ fine pan,0,255
+
+Channel = tilt
+ tilt,0,255
+
+Channel = utilt
+ fine tilt,0,255
+
+Channel = pantilt_speed
+ slow-fast,0,255
+
+Channel = red
+ dimmer,0,255
+
+Channel = green
+ dimmer,0,255
+
+Channel = blue
+ dimmer,0,255
+
+Channel = white
+ dimmer,0,255
+
+Channel = red
+ dimmer,0,255
+
+Channel = green
+ dimmer,0,255
+
+Channel = blue
+ dimmer,0,255
+
+Channel = white
+ dimmer,0,255
+
+Channel = red
+ dimmer,0,255
+
+Channel = green
+ dimmer,0,255
+
+Channel = blue
+ dimmer,0,255
+
+Channel = white
+ dimmer,0,255
+
+Channel = no function
+ no_function,0,255
+
+Channel = no function
+ no_function,0,255
+
+Channel = no function
+ no_function,0,255
+
+Channel = no function
+ no_function,0,255
+
+Channel = color
+ no_function,0,4 macro_1,5,9 macro_2,10,14 macro_3,15,19 macro_4,20,24 macro_5,25,29 macro_6,30,34 macro_7,35,39 macro_8,40,44 macro_9,45,49 macro_10,50,54 macro_11,55,59 macro_12,60,64 macro_13,65,69 macro_14,70,74 macro_15,75,79 macro_16,80,84 macro_17,85,89 macro_18,90,94 macro_19,95,99 macro_20,100,104 macro_21,105,109 macro_22,110,114 macro_23,115,119 macro_24,120,124 macro_25,125,129 macro_26,130,134 macro_27,135,139 macro_28,140,144 macro_29,145,149 macro_30,150,154 macro_31,155,159 macro_32,160,164 macro_33,165,169 macro 34,170,174 no_function,175,179 right_rotate,180,201 stop,202,207 left_rotate,208,229 no_function,230,234 color jump,235,249 audio,250,255
+
+Channel = mode
+ no_function,0,15
+
+Channel = speed_control
+ slow - fast,0,255
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = shutter
+ closed,0,19 open,20,24 strobe,25,64 open,65,69 fast on ,0,0 slow off,70,84 open,85,89 slow on ,0,0 fast off,90,104 open,105,109 random_strobe,110,124 open,125,129 random_strobe,130,144 open,145,149 random_strobe,150,164 open,165,169 pulse_strobe,170,184 open,185,189 pulse_strobe,190,204 open,205,209 gradual on,0,0 off,210,224 open,225,229 pulse_strobe,230,244 open,245,255
+
+Channel = zoom
+ zoom in out,0,255
+
+Channel = mode
+ no_function,0,9 blackout_moves,10,14 no_function,15,19 reserved,20,49 reset_xy,50,54 reset_xy,55,59 reset zoom,60,64 reset_others,65,69 reset,70,74 no_function,75,79 reverse pan/tilt,80,84 reverse pan,85,89 reverse tilt,90,94 cancel reverse pan,95,99 cancel reverse tilt,100,104 cancel reverse pan/tilt,105,109 pan/tilt normal speed,110,114 pan/tilt fast speed,115,119 pan/titl slow speed,120,124 fan4,125,129 fan_auto,130,134 dimmer fast,135,139 dimmer smooth,140,144 no_function,145,255 
+
+Channel = effect_macro
+ no_function,0,7 macro_1,8,23 macro_2,24,39 macro_3,40,55 macro_4,56,71 macro_5,72,87 macro_6,88,103 macro_7,104,119 macro_8,120,135 audio,136,151 audio,152,167 audio,168,183 audio,184,199 audio,200,215 audio,216,231 audio,232,247 audio,248,255 
+
+Channel = gobo_rotate
+ rotate,0,63 shaking,64,95 shaking,96,127 rotate,128,191 left_rotate,192,255 
+

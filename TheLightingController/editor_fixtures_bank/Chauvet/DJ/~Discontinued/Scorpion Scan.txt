@@ -1,0 +1,34 @@
+Name = Scorpion Scan
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = Mode
+ Laser off,0,10 Dynamic Patterns,11,120 Static Patterns,121,250 Sound Active Mode,251,255
+
+Channel = Patterns_Selec
+ new_level,0,4 new_level,5,9 new_level,10,14 new_level,15,19 new_level,20,24 new_level,25,29 new_level,30,34 new_level,35,39 new_level,40,44 new_level,45,49 new_level,50,54 new_level,55,59 new_level,60,64 new_level,65,69 new_level,70,74 new_level,75,79 new_level,80,84 new_level,85,89 new_level,90,94 new_level,95,99 new_level,100,104 new_level,105,109 new_level,110,114 new_level,115,119 new_level,120,124 new_level,125,129 new_level,130,134 new_level,135,139 new_level,140,144 new_level,145,149 new_level,150,154 new_level,155,159 new_level,160,164 new_level,165,169 new_level,170,174 new_level,175,179 new_level,180,184 185,185,189 new_level,190,194 new_level,195,199 new_level,200,204 new_level,205,209 new_level,210,214 _no_icon,215,219 new_level,220,224 new_level,225,229 new_level,230,234 new_level,235,239 new_level,240,244 new_level,245,249 Static Dynamic Patterns,250,255
+
+Channel = pan
+ new_level,0,255
+
+Channel = tilt
+ new_level,0,255
+
+Channel = Scan_Speed
+ Fast_Slow,0,255
+
+Channel = Pattern_Speed_
+ Fast_Slow,0,255
+
+Channel = Pattern_Size
+ new_level,0,255
+

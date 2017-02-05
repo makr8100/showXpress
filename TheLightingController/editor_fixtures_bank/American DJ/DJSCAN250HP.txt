@@ -1,0 +1,23 @@
+Name = AMERICAN-DJ_DJSCAN250HP
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_250HALO
+ViewAnglePan = 45
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 13158600
+
+Channel = pan
+
+Channel = tilt
+
+Channel = color
+ closed,0,0 white,45,45 red,72,72 blue,101,101 green,130,130 yellow,159,159 orange,190,190 pink,217,217 purple,255,255
+
+Channel = gobo
+ Miscellaneous\open,0,0 open _shake,14,14 gobo1,26,26 gobo1_shake,37,37 gobo2,48,48 gobo2_shake,59,59 gobo3,70,70 gobo3_shake,81,81 gobo4,92,92 gobo4_shake,103,103 gobo5,114,114 gobo5_shake,125,125 gobo6,136,136 gobo6_shake,147,147 gobo7,157,157 gobo7_shake,169,169 gobo8,180,180 gobo8_shake,190,190 gobo9,202,202 gobo9_shake,213,213 gobo10,224,224 gobo10_shake,235,235 Miscellaneous\closed,246,246 closed_shake,255,255
+

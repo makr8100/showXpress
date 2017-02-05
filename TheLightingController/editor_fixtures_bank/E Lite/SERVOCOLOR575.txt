@@ -1,0 +1,49 @@
+Name = E-LITE_SERVOCOLOR575
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+ tracking,0,0 speed,2,249 black_col,251,251 black_col&mov,255,255
+
+Channel = control
+ fan,0,127 lamp-on_reset,134,134 lamp-off,234,234
+
+Channel = color
+ white,0,0 deep_red,16,16 blue,32,32 green,48,48 orange,64,64 CTF_3200K,80,80 CTF_5600K,96,96 UV_filter,112,112 clock,128,190 stop,192,192 counterclock,194,255
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = yellow
+
+Channel = effect_speed
+
+Channel = effect
+ off,0,0 macro_1,12,12 macro_2,20,20 macro_3,28,28 macro_4,34,34 macro_5,44,44 macro_6,52,52 macro_7,60,60 macro_8,68,68 macro_9,76,76 macro_10,84,84 macro_11,92,92 macro_12,100,100 macro_13,108,108 macro_14,116,116 macro_15,124,124 macro_16,132,132 macro_17,140,140 macro_18,148,148 macro_19,156,156 macro_20,164,164 macro_21,172,172 macro_22,180,180 macro_23,188,188 macro_24,196,196 macro_25,204,204 macro_26,212,212 macro_27,228,228 macro_29,236,236 macro_30,244,244 macro_31,255,255
+
+Channel = frost
+ full_beam,0,0 beam_sharper,72,180 frost,255,255
+
+Channel = beam
+ 28°,0,0 middle,128,128 7°,255,255
+
+Channel = shutter
+ closed,0,0 open,50,50 strobe,64,95 pulse,128,159 open,180,180 random_strobe,192,223 open,255,255
+
+Channel = dimmer
+

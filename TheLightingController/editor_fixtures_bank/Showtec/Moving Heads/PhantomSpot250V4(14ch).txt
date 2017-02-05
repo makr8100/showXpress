@@ -1,0 +1,49 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LAMP575W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 13158600
+2DViewImage = Showtec/Moving Heads/Phantom 250 Wash#40171.png
+
+Channel = pan
+
+Channel = tilt
+
+Channel = upan
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = color
+ open,0,0 blue,8,8 red,16,16 pink,24,24 green,32,32 yellow,40,40 magenta,48,48 uv,56,56 ???,64,64 ???,80,80 ???,93,93 ???,108,108 ???,123,123 ???,139,139 ???,152,152 right_rotate,171,171 left_rotate,213,255
+
+Channel = gobo
+ Miscellaneous/open,0,9 Showtec/PH250-001,10,19 Showtec/PH250-002,20,29 Showtec/PH250-003,30,39 Showtec/PH250-004,40,49 Showtec/PH250-005,50,59 Showtec/PH250-007,60,69 Showtec/PH250-006,70,79 ???,80,99 ???,100,119 ???,120,139 ???,140,159 ???,160,179 ???,180,199 ???,200,219 ???,220,255
+
+Channel = gobo_rotate
+ index,0,127 right_rotate,128,191 left_rotate,192,255
+
+Channel = shutter
+ closed,0,7 open,8,22 strobe,23,85 open,86,100 pulse_open,101,165 open,166,180 Random,181,245 open,246,255
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = mode
+ no_function,0,9 Blackout Movement,10,14 no_function,15,79 reset,80,89 no_function,90,111 lamp_off,112,119 no_function,120,129 auto,130,145 auto1,146,161 auto2,162,177 auto3,178,193 Sound Control 1,194,209 Sound Control 2,210,225 Sound Control 3,226,241 Sound Control 4,242,255
+
+Channel = effect
+ No Effect,0,9 Effect 01,10,19 Effect 02,20,29 Effect 03,30,39 Effect 04,40,49 Effect 05,50,59 Effect 06,60,69 Effect 07,70,79 Effect 08,80,89 Effect 09,90,99 Effect 10,100,109 Effect 11,110,119 Effect 12,120,129 Effect 13,130,139 Effect 14,140,149 Effect 15,150,159 Effect 16,160,169 Effect 17,170,179 Effect 18,180,189 Effect 19,190,199 Effect 20,200,209 Effect 21,210,219 Effect 22,220,229 Effect 23,230,239 Effect 24,240,249 Effect 25,250,255
+
+Channel = prism
+ stop,0,15 prism,16,239 prism,240,255
+
+Channel = focus
+ focus_mid,0,255
+

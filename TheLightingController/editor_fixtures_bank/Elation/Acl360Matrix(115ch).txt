@@ -1,0 +1,250 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 24
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = Pan continuous
+ no_function,0,0 right_rotate,128,189 stop,192,192 left_rotate,194,255 
+
+Channel = Tilt continuous
+ no_function,0,0 right_rotate,128,189 stop,192,192 left_rotate,194,255 
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = color_macro
+ no_function,0,0 macro_1,2,2 macro_2,6,6 macro_3,10,10 macro_4,14,14 macro_5,18,18 macro_6,22,22 macro_7,26,26 macro_8,30,30 macro_9,34,34 macro_10,38,38 macro_11,42,42 macro_12,46,46 macro_13,50,50 macro_14,54,54 macro_15,58,58 macro_16,62,62 macro_17,66,66 macro_18,70,70 macro_19,74,74 macro_20,78,78 macro_21,82,82 macro_22,86,86 macro_23,90,90 macro_24,94,94 macro_25,98,98 macro_26,102,102 macro_27,106,106 macro_28,110,110 macro_29,114,114 macro_30,118,118 macro_31,122,122 macro_32,126,126 macro_33,130,130 macro_34,134,134 macro_35,138,138 macro_36,142,142 macro_37,146,146 macro_38,150,150 macro_39,154,154 macro_40,158,158 macro_41,162,162 macro_42,166,166 macro_43,170,170 macro_44,174,174 macro_45,178,178 macro_46,182,182 macro_47,186,186 macro_48,190,190 macro_49,194,194 macro_50,198,198 macro_51,202,202 macro_52,206,206 macro_53,210,210 macro_54,214,214 macro_55,218,218 macro_56,222,222 macro_57,226,226 macro_58,230,230 macro_59,234,234 macro_60,238,238 macro_61,242,242 macro_62,246,246 macro_63,250,250 macro_64,255,255 
+
+Channel = shutter
+ closed,0,0 open,48,48 strobe,64,95 pulse_open,128,159 random_strobe,192,223 open,255,255 
+
+Channel = dimmer
+
+Channel = udimmer
+
+Channel = effect_macro
+ no_function,0,19 macro_1,5,5 macro_2,15,15 macro_3,25,25 macro_4,35,35 macro_5,45,45 macro_6,55,55 macro_7,65,65 macro_8,75,75 macro_9,85,85 macro_10,95,95 macro_11,105,105 macro_12,115,115 macro_13,125,125 macro_14,135,135 macro_15,145,145 macro_16,155,155 macro_17,165,165 macro_18,175,175 macro_19,185,185 macro_20,195,195 macro_21,205,205 macro_22,215,215 macro_23,225,225 macro_24,235,235 macro_25,245,245 gradient_effect,255,255 
+
+Channel = effect_speed
+
+Channel = dimming_curve_mode
+ no_function,0,0 stage,30,30 TV,50,50 archi,70,70 theatre,90,90 default_unit_setting,255,255 
+
+Channel = pantilt_speed
+ index,0,225 blackout_moves,230,230 
+
+Channel = control
+ no_function,0,0 reset,82,82 auto,100,239 
+

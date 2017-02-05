@@ -1,0 +1,23 @@
+﻿ViewType = VIEW_TYPE_PAR_CAN
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 3
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = TRUE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/BEAMShot.png
+
+Channel = white
+ White,0,255
+
+Channel = shutter
+ no_function,0,10 strobe,11,255
+
+Channel = effect_macro
+ no_function,0,10 Chase 1,11,90 Chase 2,91,170 Chase 3,171,250 Sound Mode,251,255
+
+Channel = effect_speed
+

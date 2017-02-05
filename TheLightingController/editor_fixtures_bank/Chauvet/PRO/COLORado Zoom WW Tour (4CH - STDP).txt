@@ -1,0 +1,22 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED60W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 5
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/PRO/COLORadoZoomWW-2D.png
+
+Channel = dimmer
+
+Channel = color_macro
+ No Function,0,10 macro_1,11,50 macro_2,51,80 macro_3,81,110 macro_4,111,140 macro_5,141,255
+
+Channel = zoom
+
+Channel = zoom reset
+ no_function,0,200 reset_zoom,201,220 no_function,221,255
+

@@ -1,0 +1,33 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = TRUE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/Cubix 2.0.png
+
+Channel = color
+ closed,0,4 red,5,28 green,29,56 blue,57,84 cyan,85,112 purple,113,140 yellow,141,168 white,169,197 RGB 3 colors switching,198,224 7 colors switching,225,255
+
+Channel = shutter
+ no_function,0,4 strobe,5,255
+
+Channel = Motor Rotation
+ Motor rotation clockwise,0,127 Motor rotation back and forth,128,255
+
+Channel = Auto Programs
+ no_function,0,14 Auto program 1,15,20 Auto program 2,21,26 Auto program 3,27,32 Auto program 4,33,38 Auto program 5,39,44 Auto program 6,45,50 Auto program 7,51,56 Auto program 8,57,62 Auto program 9,63,68 Auto program 10,69,74 Auto program 11,75,80 Auto program 12,81,86 Auto program 13,87,92 Auto program 14,93,98 Auto program 15,99,104 Auto program 16,105,110 Auto program 17,111,116 Auto program 18,117,122 Auto program 19,123,128 Auto program 20,129,134 Auto program 21,135,140 Auto program 22,141,146 Auto program 23,147,152 Auto program 24,153,158 Auto program 25,159,164 Auto program 26,165,170 Auto program 27,171,176 Auto program 28,177,182 Auto program 29,183,188 Auto program 30,189,194 Auto program 31,195,200 Auto program 32,201,206 Auto program 33,207,212 Auto program 34,213,218 Auto program 35,219,224 Auto program 36,225,230 Auto program 37,231,236 Auto program 38,237,242 Auto program 39,243,248 Auto program 40,249,255
+
+Channel = Auto Program Speed
+ no_function,0,15 Auto Programs speed (Slow~Fast),16,255
+
+Channel = shutter
+ stop,0,15 strobe,16,255
+
+Channel = Auto Programs (All Lenses)
+ no_function,0,9 auto,10,250 audio,251,255
+

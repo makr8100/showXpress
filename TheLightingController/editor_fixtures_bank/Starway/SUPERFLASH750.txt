@@ -1,0 +1,16 @@
+Name = STARWAY_SUPERFLASH750
+
+ViewType = VIEW_TYPE_STROBE
+ViewPower = VIEW_POWER_1200MSR
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 70
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = strobe_speed
+
+Channel = strobe_dimmer

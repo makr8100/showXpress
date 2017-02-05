@@ -1,0 +1,34 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = Level
+
+Channel = Brightness
+
+Channel = Contrast
+
+Channel = Live Mask
+
+Channel = Video Map Enable
+ closed,0,0 open,255,255 
+
+Channel = Video Map Mixmode
+
+Channel = Mix Morph
+ closed,0,0 open,255,255 
+
+Channel = Map Select A
+
+Channel = Map Select B
+
+Channel = Audio Volume
+

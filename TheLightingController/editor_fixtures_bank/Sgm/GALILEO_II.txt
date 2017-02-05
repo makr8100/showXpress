@@ -1,0 +1,36 @@
+Name = SGM_GALILEO_II
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = iris
+
+Channel = color
+ white,0,0 yellow,16,16 magenta,32,32 red,48,48 cyan,64,64 blue,80,80 green,96,96 speed1,116,116 speed2,124,124 speed3,132,132 speed4,140,140 hard_white,151,151 hard_yellow,165,165 hard_magenta,179,179 hard_red,193,193 hard_cyan,207,207 hard_blue,221,221 hard_green,234,234 music_change,255,255
+
+Channel = gobo
+ white_A_-B,0,0 whiteA_gobo1B,13,13 whiteA_gobo2B,22,22 whiteA_gobo3B,31,31 whiteA_gobo4B,40,40 gobo1A_whiteB,49,49 gobo2A_whiteB,58,58 gobo3A_whiteB,67,67 gobo4A_white_B,76,76 gobo4A_gobo1B,85,85 gobo3A_gobo1B,94,94 gobo2A_gobo1B,103,103 gobo1A_gobo1B,112,112 gobo1A_gobo2B,121,121 gobo2A_gobo2B,130,130 gobo3A_gobo2B,139,139 gobo4A_gobo2B,148,148 gobo4A_gobo3B,157,157 gobo3A_gobo3B,166,166 gobo2A_gobo3B,175,175 gobo1A_gobo3B,184,184 gobo1A_gobo4B,193,193 gobo2A_gobo4B,202,202 gobo3A_gobo4B,211,211 gobo4A_gobo4B,220,220 speed1,230,230 speed2,237,237 speed3,245,245 music_change,255,255
+
+Channel = shutter
+ closed,0,0 strobe_0.5Hz,12,12 strobe_1.42Hz,20,20 strobe_1.7Hz,28,28 strobe_2Hz,36,36 strobe_2.42Hz,44,44 strobe_2.9Hz,52,52 strobe_3.46Hz,60,60 strobe_4.15Hz,68,68 strobe_4.89Hz,76,76 strobe_5.03Hz,84,84 strobe_6.91Hz,92,92 strobe_8.29Hz,100,100 strobe_9.95Hz,108,108 strobe_11.83Hz,116,116 bass_beat,126,126 music_low,139,139 music_high,152,152 autoshade_gobo,165,165 autoshade_colo,178,178 autoshade_go-c,191,191 change_gobo,204,204 change_color,217,217 change_gob_col,230,230 open,255,255
+
+Channel = pan
+
+Channel = tilt
+
+Channel = gobo_rotate
+ positioning,0,127 rotat_down,128,175 stop,202,202 rotat_up,203,255
+
+Channel = dimmer
+
+Channel = prism
+ fixed_prism,40,40 prism+filter,80,80 filter,110,110 filter+frost,140,140 frost,170,170 frost+wood,200,200 wood,255,255
+
+Channel = control
+ lamp_off,0,0 hysteresis,100,100 lamp_on,150,150 hysteresis_res,200,200 reset,255,255
+

@@ -1,0 +1,27 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/Mega Strobe FX12.png
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = shutter
+ no_function,0,15 sound control shutter,16,32 random pulse strobe on fast,33,49 random slow,50,66 random fast on slow off,67,83 random slow on slow off,84,100 random strobe slow on slow,101,117 random strobe,118,134 pulse strobe 1,135,151 pulse strobe 2,152,168 slow on fast off,169,185 fast on slow off,186,202 slow on slow,203,219 strobe slow on slow off,220,236 shutter,237,255
+
+Channel = shutter
+ Shutter speed ,0,255
+
+Channel = effect_speed
+ Pixel control and auto program speed ,0,255
+
+Channel = effect_macro
+ no_function,0,48 program 1,49,64 program 2,65,80 program 3,81,96 program 4,97,112 program 5,113,128 program 6,129,144 program 7,145,160 program 8,161,176 program 9,177,192 program 10,193,208 program 11,209,224 program 12,225,240 auto sound ,241,255
+

@@ -1,0 +1,25 @@
+Name = OCTOSTRIP
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = color
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = shutter
+
+Channel = effect
+

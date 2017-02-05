@@ -1,0 +1,39 @@
+Name = MARTIN_CX10EXTREME
+
+ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_250MSR
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 22
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = shutter
+ closed,0,0 open,35,35 strobe,50,72 opening_pulse,80,99 closing_pulse,100,119 ramdom_strobe,128,187 rand_opening_pulse,191,196 rand_closing_pulse,197,202 reset_5s,212,212 lamp_off,255,255
+
+Channel = dimmer
+
+Channel = color
+ white,0,0 uv,12,12 yellow,24,24 blue,36,36 pink,48,48 green,60,60 blue,72,72 red,84,84 magenta,96,96 blue,108,108 orange,120,120 dark_green,132,132 purple,144,144 random_color,208,217 rotate,218,255
+
+Channel = effect
+ open,0,0 effect1,12,12 effect2,24,24 effect3,36,36 effect4,48,48 effect5,60,60 effect6,72,72 effect7,84,84 effect8,96,96 effect9,108,108 effect10,120,120 effect11,132,132 effect12,144,144 random_effect,208,217 rotate,218,255
+
+Channel = color_rotate
+ stop,0,0 rotate,6,255
+
+Channel = effect_rotate
+ stop,0,0 rotate,6,255
+
+Channel = frost
+
+Channel = focus
+
+Channel = reserved
+
+Channel = effect_speed
+ tracking_mode,0,0 speed,3,245 tracking,246,251 speed_max,255,255
+

@@ -1,0 +1,155 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = red #1
+ 0-100%,0,255 
+
+Channel = green #1
+ 0-100%,0,255 
+
+Channel = blue #1
+ 0-100%,0,255 
+
+Channel = red #2
+ 0-100%,0,255 
+
+Channel = green #2
+ 0-100%,0,255 
+
+Channel = blue #2
+ 0-100%,0,255 
+
+Channel = red #3
+ 0-100%,0,255 
+
+Channel = green #3
+ 0-100%,0,255 
+
+Channel = blue #3
+ 0-100%,0,255 
+
+Channel = red #4
+ 0-100%,0,255 
+
+Channel = green #4
+ 0-100%,0,255 
+
+Channel = blue #4
+ 0-100%,0,255 
+
+Channel = red #5
+ 0-100%,0,255 
+
+Channel = green #5
+ 0-100%,0,255 
+
+Channel = blue #5
+ 0-100%,0,255 
+
+Channel = red #6
+ 0-100%,0,255 
+
+Channel = green #6
+ 0-100%,0,255 
+
+Channel = blue #6
+ 0-100%,0,255 
+
+Channel = red #7
+ 0-100%,0,255 
+
+Channel = green #7
+ 0-100%,0,255 
+
+Channel = blue #7
+ 0-100%,0,255 
+
+Channel = red #8
+ 0-100%,0,255 
+
+Channel = green #8
+ 0-100%,0,255 
+
+Channel = blue #8
+ 0-100%,0,255 
+
+Channel = red #9
+ 0-100%,0,255 
+
+Channel = green #9
+ 0-100%,0,255 
+
+Channel = blue #9
+ 0-100%,0,255 
+
+Channel = red #10
+ 0-100%,0,255 
+
+Channel = green #10
+ 0-100%,0,255 
+
+Channel = blue #10
+ 0-100%,0,255 
+
+Channel = red #11
+ 0-100%,0,255 
+
+Channel = green #11
+ 0-100%,0,255 
+
+Channel = blue #11
+ 0-100%,0,255 
+
+Channel = red #12
+ 0-100%,0,255 
+
+Channel = green #12
+ 0-100%,0,255 
+
+Channel = blue #12
+ 0-100%,0,255 
+
+Channel = red #13
+ 0-100%,0,255 
+
+Channel = green #13
+ 0-100%,0,255 
+
+Channel = blue #13
+ 0-100%,0,255 
+
+Channel = red #14
+ 0-100%,0,255 
+
+Channel = green #14
+ 0-100%,0,255 
+
+Channel = blue #14
+ 0-100%,0,255 
+
+Channel = red #15
+ 0-100%,0,255 
+
+Channel = green #15
+ 0-100%,0,255 
+
+Channel = blue #15
+ 0-100%,0,255 
+
+Channel = red #16
+ 0-100%,0,255 
+
+Channel = green #16
+ 0-100%,0,255 
+
+Channel = blue #16
+ 0-100%,0,255 

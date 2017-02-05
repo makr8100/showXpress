@@ -1,0 +1,16 @@
+Name = MORPHEUS_COLORFADER
+
+ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_250MSR
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = yellow
+
+Channel = magenta
+
+Channel = cyan
+

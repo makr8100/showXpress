@@ -1,0 +1,48 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = mode
+ audio,0,0 auto,100,100 manual_sound,160,160 dmx,255,255 
+
+Channel = effects_mode
+ Blanking,0,0 Pattern multiplication (colors next to each other),75,75 Multi-pattern effect,125,125 3D effect,175,175 Pattern without 3D effect,225,225 
+
+Channel = color
+ manual color selection,0,0 automatic color mix,41,110 automatic color selection,111,180 running color mix,200,200 static color mix,255,255 
+
+Channel = pattern
+
+Channel = Y axis
+ index,0,127 auto,128,255 
+
+Channel = X axis
+ index,0,127 auto,128,255 
+
+Channel = X rotation
+ index,0,127 auto,128,255 
+
+Channel = Y rotation
+ index,0,127 auto,128,255 
+
+Channel = circle rotation
+ index,0,127 right_rotate,128,191 left_rotate,192,255 
+
+Channel = zoom
+ positive automatic zoom,0,85 negative automatic zoom,86,170 positive / negative automatic,171,255 
+
+Channel = pattern size zoom
+
+Channel = dot effect
+
+Channel = drawing
+ auto1,0,127 auto2,128,255 
+

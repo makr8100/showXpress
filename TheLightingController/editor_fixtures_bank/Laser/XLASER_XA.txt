@@ -1,0 +1,41 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = mode
+ audio,0,0 auto_aerial_mode,70,70 auto_animation_mode,120,120 manual_to_sound_active,170,170 full_manual,255,255
+
+Channel = color_macro
+ closed,0,0 single_colors,6,39 color_swap,41,255
+
+Channel = pattern
+
+Channel = X_axis
+
+Channel = Y_axis
+
+Channel = X_axis_3D_spin
+ manual_spin,0,127 automatic_spin,128,255
+
+Channel = Y_axis_3D_spin
+ manual_spin,0,127 automatic_spin,128,255
+
+Channel = rotation
+ index,0,127 right_rotate,128,191 left_rotate,192,255
+
+Channel = Z_axis
+ auto_zoom_larger,0,85 auto_zoom_smaller,86,170 auto_zoom_speed_control,171,255 
+
+Channel = pattern_size
+
+Channel = beam_cohesion
+
+Channel = drawing_modes
+

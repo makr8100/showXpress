@@ -1,0 +1,21 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+2DViewImage = Chauvet/Trident.png
+
+Channel = color
+ new_level,0,4 red,5,28 green,29,56 blue,57,84 green-blue,85,112 red-blue,113,140 red-green,141,168 red-green-blue,169,197 automatic-3color,198,224 automatic-7color,225,255
+
+Channel = strobe_speed
+ no_function,0,4 dimmer,5,254 strobe-to-sound,255,255
+
+Channel = motor
+ no-rotation,0,4 left_rotate,5,127 stop,128,133 right_rotate,134,250 motor_move_to_sound,251,255
+

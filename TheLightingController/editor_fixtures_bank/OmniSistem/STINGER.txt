@@ -1,0 +1,28 @@
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = beam&color select
+ Beam Off,00,10 Beam On (Green/Red/Blue Stingers),11,50 Green/Blue Only,51,90 Red Only,91,130 Beam On (Green/Red Stingers),131,170 Beam Off (Slow),171,255
+
+Channel = color mode
+
+Channel = pattern select
+ Beam Off,0,0 Beam Chase #1,14,14 Split Sky Horizontal,22,22 Split Sky Vertical,31,31 Flat Beam Fan,40,40 Rotating Beam Fan,49,49 Dual Counter Rotating Beam Fans,58,58 Tight Square Cone (rotates),67,67 Dual Flat Beam Scan,76,76 Dual Sky (opens then closes),85,85 Bouncing Beam Fan,94,94 Box Tunnel #1 (Closes "X" Axis Only),103,103 Quad Tunnel (rotates),112,112 Quad Tunnel (rotates),120,120 V-Sky,130,130 Dual Diagonal Fans #1,139,139 Dual Diagonal Fans #2,148,148 Box Tunnel #2 (Closes on "X" and "Y"),157,157 Quad Tunnel (fixed),166,166 Counter Rotating Fans,175,175 Dual Beam Cones (tight),184,184 Single Rotating Beam Fan,193,193 Dual Beam Fans (tight),202,202 Dual Beam Fans (one flat one rotates),211,211 Beam Cone,220,220 Dual Rotating Square Cones,229,229 Beam Chase #2 (adjust channel 4 for effect),238,238 Beam Chase #3 (adjust channel 4 for effect),255,255
+
+Channel = pattern speed
+ index,0,230 freeze,255,255
+
+Channel = X axis
+
+Channel = y axis
+
+Channel = Y axis offset (up and down)
+ normal,0,0 lowers y axis offset,14,53 raises y axis offset,54,127 snap to center,128,255

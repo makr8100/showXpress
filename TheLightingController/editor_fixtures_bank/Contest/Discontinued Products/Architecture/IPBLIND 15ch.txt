@@ -1,0 +1,44 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED60W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 30
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Contest/Discontinued Products/Digilind.png
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = color_macro
+ no_function,0,10 macro_1,11,40 macro_2,41,70 macro_3,71,100 macro_4,101,130 macro_5,131,160 macro_6,161,190 macro_7,191,220 macro_8,221,255 
+
+Channel = shutter
+ open,0,0 lighting_strobe,1,95 open,96,127 pulse_strobe,128,159 open,160,191 random_strobe,192,223 open,224,255 
+
+Channel = dimmer
+

@@ -1,0 +1,75 @@
+﻿ViewType = VIEW_TYPE_HEAD_WASH
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/PRO/Q-Wash419Z-2D.png
+
+Channel = pan
+ dimmer,0,255
+
+Channel = upan
+ dimmer,0,255
+
+Channel = tilt
+ dimmer,0,255
+
+Channel = utilt
+ dimmer,0,255
+
+Channel = pantilt_speed
+ dimmer,0,255
+
+Channel = dimmer
+ dimmer,0,255 
+
+Channel = shutter
+ no_function,0,9 0-20Hz,10,255 
+
+Channel = zoom
+ dimmer,0,255 
+
+Channel = control
+ no_function,0,19 blackout_moves,20,39 blackout_changes,40,59 fan_auto,60,79 fade_speed,80,99 fade_speed,100,119 fade_speed,120,139 auto1,140,149 auto2,150,159 macro_1,160,169 custom,170,179 no_function,180,199 reset,200,219 dimmer,220,239 dimmer,240,243 dimmer,244,247 dimmer,248,251 dimmer,252,255
+
+Channel = red
+ dimmer,0,255
+
+Channel = green
+ dimmer,0,255
+
+Channel = blue
+ dimmer,0,255
+
+Channel = white
+ dimmer,0,255
+
+Channel = red
+ dimmer,0,255
+
+Channel = green
+ dimmer,0,255
+
+Channel = blue
+ dimmer,0,255
+
+Channel = white
+ no_function,0,10 macro_1,11,30 macro_2,31,50 macro_3,51,70 macro_4,71,90 macro_5,91,110 macro_5,111,130 macro_6,131,150 macro_7,151,170 macro_8,171,200 macro_9,201,205 macro_10,206,210 macro_11,211,215 macro_12,216,220 macro_13,221,225 macro_14,226,230 macro_15,231,235 macro_16,236,240 macro_17,241,245 macro_18,246,250 macro_19,251,255
+
+Channel = red
+ no_function,0,9 pattern_01,10,19 pattern_02,20,29 pattern_03,30,39 pattern_04,40,49 pattern_05,50,59 pattern_06,60,69 pattern_07,70,79 pattern_08,80,89 pattern_09,90,99 pattern_10,100,109 pattern_11,110,149 pattern_12,150,159 pattern_13,160,169 pattern_14,170,179 pattern_15,180,189 pattern_16,190,199 pattern_20,200,209 pattern_21,210,219 pattern_22,220,229 pattern_23,230,239 pattern_24,240,249 pattern_25,250,255
+
+Channel = green
+ dimmer,0,255
+
+Channel = blue
+ dimmer,0,255
+
+Channel = white
+ dimmer,0,255
+

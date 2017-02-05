@@ -1,0 +1,42 @@
+﻿ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 66
+ViewAngleTilt = 47
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+2DViewImage = Chauvet/Scorpion GVC.png
+
+Channel = mode
+ manual_mode,1,27 auto,28,139 audio,140,251 dmx,252,255
+
+Channel = Patterns_Selec
+ 32 Pattern ,0,255
+
+Channel = Laser on/off
+ closed,0,24 open,25,255
+
+Channel = strobe_effect
+ stop,0,4 slow-fast,5,255
+
+Channel = zoom
+ 100%-5%,0,127 zoom_in_macro,128,169 zoom_out_macro,170,209 zoom_in-out_macro,210,255
+
+Channel = pan
+ 128-positions,0,127 move_left-right-left_slow-fas,128,191 move_left-right-left_fast-slo,192,255
+
+Channel = tilt
+ 128-position,0,127 move-up-down-up,128,191 move-up-down-up,192,255
+
+Channel = x-axis-roll
+ axis-roll,0,127 roll_slow-fast,128,191 roll_fast-slow,192,255
+
+Channel = y-axis-roll
+ y-axis-roll,0,127 roll_slow-fast,128,191 roll_fast-slow,192,255
+
+Channel = rotate
+ z-axis-roll,0,127 right_rotate,128,191 left_rotate,192,255
+

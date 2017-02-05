@@ -1,0 +1,56 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = Level
+
+Channel = Mixermode
+ Additive Dissolve,0,0 Subtractive Dissolve,10,10 Darken,20,20 Lighten,30,30 Softlight,40,40 Softlight Inverse,50,50 Hardlight,60,60 Overlay,70,70 Difference,80,80 Multiply,90,90 Screen, 100,100 Opaque,110,110 Sprite,120,120 Luminance Key,130,130 Mask,140,140 Alpha,150,150
+
+Channel = Live Mask
+
+Channel = Source Type
+ MediaPLayer,0,0 Live Input,15,15 Generator,25,25 Relays,35,35 Screen Thief,45,45 Text Engine,55,55
+
+Channel = Bank
+
+Channel = Clip
+
+Channel = Playmode
+ Forward,0,0 Forward Loop,15,15 Backward,25,25 Backward Loop,35,35 Ping Pong,45,45 Random,55,55 In,65,65 Out,75,75 reserved,80,80
+
+Channel = Speed
+
+Channel = In point
+
+Channel = In point fine
+
+Channel = Out point
+
+Channel = Out point fine
+
+Channel = Live input select
+ disabled,0,0 input 1,10,10 input 2,20,20 input 3,30,30 input 4,40,40 input 5,50,50 input 6,60,60 input 7,70,70 input 8,80,80
+
+Channel = Generator Select
+
+Channel = Generator Level
+
+Channel = Generator Param1
+
+Channel = Generator Param2
+
+Channel = Generator Param3
+
+Channel = Audio Volume
+
+Channel = Audio Pan
+

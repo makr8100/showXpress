@@ -1,0 +1,34 @@
+Name = Q Roll
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_250MSR
+ViewAnglePan = 180
+ViewAngleTilt = 70
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = pan
+ new_level,0,255
+
+Channel = tilt
+ new_level,0,255
+
+Channel = shutter
+ closed,0,5 dimmer,6,63 strobe,64,95 open,96,127 no_function,128,159 pulse_strobe,160,191 pulse_strobe,192,223 open,224,255
+
+Channel = gobo
+ Chauvet\open,0,13 Chauvet\Qmix5,14,27 Chauvet\575gobo5,28,41 Showtec\51836257,42,55 Chauvet\Qmix2,56,69 Chauvet\Qmix7,70,83 Chauvet\33,84,97 Chauvet\dots_gobos,98,111 Chauvet\Qmix6,112,126 Chauvet\open,127,136 Chauvet\Qmix5,137,146 Chauvet\575gobo5,147,156 Showtec\51836257,157,166 Chauvet\Qmix2,167,176 Chauvet\Qmix7,177,186 Chauvet\Qmix4,187,196 Chauvet\dots_gobos,197,206 Chauvet\Qmix6,207,217 Chauvet\open,218,219 Miscellaneous\rotate,220,255
+
+Channel = color
+ white,0,9 red,10,20 blue,21,31 yellow,32,41 green,42,52 magenta,53,63 uv,64,73 cyan,74,84 orange,85,95 pink,96,105 Tri Color,106,116 Quad color,117,128 Liner progression of wheel,129,190 clock,191,220 stop,221,222 counterclock,223,255
+
+Channel = gobo_rotate
+ index,0,127 left_rotate,128,189 stop,190,193 right_rotate,194,255
+
+Channel = pantilt_speed
+ Tracking Control MAX,0,0 Vector Control Max,1,200 reset,201,204 Tracking Control MAX,205,255
+

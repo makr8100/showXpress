@@ -1,0 +1,53 @@
+Name = SAGITTER_575
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+ speed,0,249 blackout,251,251 blackout_all,255,255
+
+Channel = control
+ open_max_fan,0,0 decreasing_fan,2,126 reset_lamp_on,134,134 switch_off_3",235,235
+
+Channel = color
+ open/white,0,0 light_blue,13,13 red,26,26 blue,38,38 light_green,51,51 yellow,64,64 magenta,77,77 cyan,90,90 green,102,102 orange,115,115 forwards_rainb,128,190 no_rotation,192,192 backwards,194,255
+
+Channel = color
+ white,0,0 deep_red,18,18 deep_blue,30,30 pink,42,42 cyancyan,54,54 magenta,66,66 yellow,78,78 filter_5600K,90,90 filter_3200K,102,102 UV_filter,114,114 white,126,126 enable_macro7,255,255
+
+Channel = prism
+ open,0,0 forwards_rotat,2,63 no_rotation,64,64 backwards_rot,65,127 macro1,132,132 macro2,140,140 macro3,148,148 macro4,156,156 macro5,164,164 macro6,172,172 macro7,180,180 macro8,188,188 macro9,196,196 macro10,204,204 macro11,212,212 macro12,220,220 macro13,228,228 macro14,236,236 macro15,244,244 macro16,255,255
+
+Channel = gobo
+ open,0,0 gobo1,12,12 gobo2,20,20 gobo3,28,28 gobo4,36,36 gobo5,44,44 gobo6,52,52 gobo7,60,60 gobo8,68,68 gobo9,76,76 shaking_gobo1,80,95 shaking_gobo2,96,111 shaking_gobo3,112,127 shaking_gobo4,128,143 shaking_gobo5,144,159 shaking_gobo6,160,175 shaking_gobo7,176,191 shaking_gobo8,192,207 shaking_gobo9,208,223 rotat_gobos,224,255
+
+Channel = gobo_rotate
+ open,0,0 rotat_gobo1,32,63 rotat_gobo2,64,95 rotat_gobo3,96,127 rotat_gobo4,128,159 rotat_gobo5,160,191 rotat_gobo6,192,223 rotat_gobos,224,255
+
+Channel = gobo_urotate
+ gobo_indexing,0,127 forwards_rotat,128,191 no_rotation,192,192 backwards_rot,193,255
+
+Channel = iris
+ open,0,0 max_to_min,2,179 closed,185,185 pulse_closing,192,223 pulse_open,224,255
+
+Channel = beam
+ zoom_15°,0,85 zoom18°,86,170 zoom22°,171,255
+
+Channel = shutter
+ closed,0,0 open,44,44 strobe_s/f,64,95 open,110,110 pulse,140,140 open,170,170 random_strobe,192,223 open,255,255
+
+Channel = dimmer
+

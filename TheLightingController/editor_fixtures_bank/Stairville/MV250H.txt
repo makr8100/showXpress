@@ -1,0 +1,29 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = pan
+
+Channel = tilt
+
+Channel = shutter
+ closed,0,0 open,12,12 strobe,16,131 shaking,132,247 open,255,255
+
+Channel = gobo
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,13,13 Miscellaneous/gobo2,22,22 Miscellaneous/gobo3,30,30 Miscellaneous/gobo4,39,39 Miscellaneous/gobo5,48,48 Miscellaneous/gobo6,56,56 Miscellaneous/gobo7,64,64 Miscellaneous/gobo8,73,73 Miscellaneous/gobo9,81,81 Miscellaneous/gobo10,90,90 Miscellaneous/gobo11,98,98 Miscellaneous/gobo12,107,107 Miscellaneous/gobo13,115,115 Miscellaneous/gobo14,124,124 Miscellaneous/rotate,128,255
+
+Channel = color
+ white,0,0 green,15,15 magenta,26,26 light_blue,37,37 amber,48,48 red,59,59 blue,69,69 uv,80,80 light_green,91,91 orange,102,102 yellow,112,112 pink,122,122 rotate,128,255
+
+Channel = reserved
+
+Channel = dimmer
+

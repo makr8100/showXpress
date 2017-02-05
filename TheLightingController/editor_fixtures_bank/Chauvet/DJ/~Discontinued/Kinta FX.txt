@@ -1,0 +1,21 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/Mini Kinta.png
+
+Channel = color
+ closed,0,5 red,6,20 green,21,35 blue,36,50 white,51,65 red/green,66,80 red/blue,81,95 red/white,96,110 green/blue,111,125 green/white,126,140 blue/white,141,155 red/green/blue,156,170 red/green/white,171,185 green/blue/white,186,200 red/green/blue/white,201,215 auto1,216,230 auto2,231,255
+
+Channel = strobe_effect
+ no_function,0,5 strobe,6,255
+
+Channel = motor
+ left_rotate,0,127 rotate,128,255
+

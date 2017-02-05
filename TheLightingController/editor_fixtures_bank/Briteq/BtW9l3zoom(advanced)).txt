@@ -1,0 +1,45 @@
+﻿ViewType = VIEW_TYPE_HEAD_WASH
+ViewPower = VIEW_POWER_LED60W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 20
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = amber
+
+Channel = color_macro
+ no_function,0,0 full_power,8,8 3200K,203,203 3400K,208,208 4200K,213,213 4900K,218,218 5600K,223,223 5900K,228,228 6500K,233,233 7200K,238,238 8000K,243,243 8500K,248,248 10000K,255,255
+
+Channel = dimmer
+
+Channel = shutter
+ open,0,0 strobe,10,255 
+
+Channel = zoom
+
+Channel = control
+ no_function,0,0 blackout_moves,30,30 fan,60,139 auto1,145,145 auto2,155,155 audio,185,185 reset,210,210 dim,236,255 
+

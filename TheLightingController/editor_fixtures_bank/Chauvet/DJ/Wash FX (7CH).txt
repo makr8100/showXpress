@@ -1,0 +1,33 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 25
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = TRUE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/Wash FX.png
+
+Channel = red
+ dimmer,1,255
+
+Channel = green
+ dimmer,1,255
+
+Channel = blue
+ dimmer,1,255
+
+Channel = shutter
+ strobe,1,255
+
+Channel = effect_macro
+ pattern_01,6,20 pattern_02,21,35 pattern_03,36,50 pattern_04,51,65 pattern_05,66,81 pattern_06,82,96 pattern_07,97,111 pattern_08,112,126 pattern_09,127,141 pattern_10,142,156 pattern_11,157,171 pattern_12,172,186 pattern_13,187,201 pattern_13,202,216 pattern_14,217,231 pattern_15,232,246 audio,247,255
+
+Channel = effect_speed
+ slow - fast,0,255
+
+Channel = effect_macro
+ auto,11,128 audio,129,255
+

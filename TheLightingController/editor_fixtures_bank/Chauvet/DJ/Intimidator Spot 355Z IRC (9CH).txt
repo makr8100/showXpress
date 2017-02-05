@@ -1,0 +1,39 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LED60W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/Intimidator Spot 355Z IRC.png
+
+Channel = pan
+ Pan,0,255
+
+Channel = tilt
+ Tilt,0,255
+
+Channel = color
+ open,0,6 yellow,7,13 pink,14,20 green,21,27 red,28,34 light_blue,35,41 Kelly,42,48 orange,49,55 dark_blue,56,63 White + Yellow,64,70 Yellow + Pink,71,77 Pink + Green,78,84 Green + Red,85,91 Red + Light Blue,92,98 Light Blue + Kelly Green,99,105 Kelly Green + Orange,106,112 Orange + Dark Blue,113,119 Dark Blue + White,120,127 clock,128,191 counterclock,192,255
+
+Channel = gobo
+ Chauvet/open,0,7 ok_for_3DView/Purplel dots Gobo,8,15 ok_for_3DView/Glass Gobo,16,23 ok_for_3DView/Fan Gobo,24,31 ok_for_3DView/Bio Gobo,32,39 ok_for_3DView/Cloud Gobo,40,47 ok_for_3DView/Maze Gobo,48,55 ok_for_3DView/Atomic Gobo1,56,63 Miscellaneous/shake_gobo7,64,71 Miscellaneous/shake_gobo6,72,79 Miscellaneous/shake_gobo5,80,87 Miscellaneous/shake_gobo4,88,95 Miscellaneous/shake_gobo3,96,103 Miscellaneous/shake_gobo2,104,111 Miscellaneous/shake_gobo1,112,119 Chauvet/open,120,127 Miscellaneous/right_rotate,128,191 Miscellaneous/left_rotate,192,255
+
+Channel = gobo_rotate
+ index,0,63 right_rotate,64,147 left_rotate,148,231 Gobo Bounce,232,255
+
+Channel = prism
+ open,0,7 prism,8,12 right_rotate,13,130 left_rotate,131,247
+
+Channel = focus
+ focus_far,0,255
+
+Channel = shutter
+ closed,0,3 open,4,7 strobe,8,76 pulse_strobe,77,145 Random shutter,146,215 open,216,255
+
+Channel = zoom
+ Motorized zoom (big to small),0,255
+

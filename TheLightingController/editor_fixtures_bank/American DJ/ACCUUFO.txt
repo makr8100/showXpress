@@ -1,0 +1,35 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = rotation
+ stop,0,0 right_rotate,4,127 stop,130,130 left_rotate,132,255
+
+Channel = color
+ closed,0,0 red,16,16 green,25,25 blue,35,35 white,45,45 red+green,55,55 red+blue,65,65 red+white,75,75 green+blue,85,85 green+white,95,95 blue+white,105,105 red+green+blue,115,115 red+green+white,125,125 red+blue+white,135,135 green+blue+white,145,145 RGBW,155,155 auto1,165,165 auto2,175,175 auto3,185,185 auto4,195,195 auto5,205,205 auto6,215,215 auto7,225,225 auto8,235,235 auto9,255,255
+
+Channel = led_speed
+
+Channel = shutter
+ no_function,0,0 strobe,1,95 pulse_strobe,128,159 random_strobe,192,223
+
+Channel = control
+ no_function,0,0 reset_motors,82,82 reset_xy,86,86 macro_1,110,110 macro_2,130,130 macro_3,150,150 macro_4,170,170 macro_5,190,190 macro_6,210,210 macro_7,230,230 audio,255,255
+

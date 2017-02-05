@@ -1,0 +1,50 @@
+Name = MARTIN_ROBOSCAN1220CMYR_V1M1
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = shutter
+ nothing,0,0 strobe,50,177
+
+Channel = dimmer
+
+Channel = color
+ white,0,0 position,1,89 purple,95,95 turquois,100,100 orange,110,110 blue,120,120 green,125,125 red,135,135 light_blue,140,140 fern_green,150,150 amber,160,160 clock,162,208 counterclock,209,255
+
+Channel = color
+ white,0,0 position,1,89 light_green,95,95 pink,100,100 dark_lavender,110,110 dark_blue,120,120 uv_pass,125,125 red,135,135 dark_orange,140,140 ctc_cold,150,150 ctc_hot,160,160 clock,162,208 counterclock,209,255
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = yellow
+
+Channel = gobo
+ open,0,0 position,1,180 turbine,185,185 flower,190,190 bells,200,200 dot_circle,210,210 pling,215,215 cone,225,225 dots,230,230 star,240,240 stars,255,255
+
+Channel = select
+ open,0,0 gobo1_set,40,40 gobo2_set,60,60 gobo3_set,80,80 gobo4_set,110,110 gobo1_spin,140,140 gobo2_spin,170,170 gobo3_spin,210,210 gobo4_spin,255,255
+
+Channel = gobo_rotate
+ clock,0,127 counterclock,128,255
+
+Channel = focus
+
+Channel = iris
+
+Channel = prism
+ open,0,0 CTC,60,60 frost,100,100 3_facets,160,160 5_facets,255,255
+
+Channel = special
+ off,0,0 fan_low,230,230 lamp_off,245,245 reset,250,250 lamp_on,255,255
+
+Channel = pan
+
+Channel = tilt
+

@@ -1,0 +1,56 @@
+Name = GLP_PATENDLIGHT1200
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_1200MSR
+ViewAnglePan = 360
+ViewAngleTilt = 360
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = head_speed
+
+Channel = mirror_speed
+
+Channel = control
+ relative,0,0 pos1,10,10 pos2,25,25 pos3,35,35 pos4,45,45 pos5,55,55 pos6,65,65 pos7,75,75 pos8,85,85 pos9,95,95 pos10,105,105 pos11,115,115 pos12,125,125 pos13,135,135 pos14,145,145 pos15,155,155 pos16,165,165 reset_pos,254,254 reset,255,255
+
+Channel = color
+ white,0,0 green,12,12 red,22,22 dark_blue,32,32 yellow,42,42 pink,52,52 turquoise,62,62 orange,72,72 cyan,82,82 magenta,92,92 right_rotate,128,191 stop,192,192 left_rotate,193,255
+
+Channel = gobo
+ Miscellaneous\open,0,0 Miscellaneous\gobo1,15,15 Miscellaneous\gobo2,25,25 Miscellaneous\gobo3,35,35 Miscellaneous\gobo4,45,45 Miscellaneous\gobo5,88,88 Miscellaneous\right_rotate,128,191 Miscellaneous\stop,192,192 Miscellaneous\left_rotate,193,255
+
+Channel = shutter
+ closed,15,15 closed_2,25,25 strobe,30,99 open,255,255
+
+Channel = gobo_rotate
+ stop,0,0 right_rotate,5,24 left_rotate,30,49 index,55,255
+
+Channel = iris
+
+Channel = focus
+
+Channel = gobo2
+ ok_for_3DView\open,0,0 Standard\cyclone,15,15 Standard\ray_horizontal,25,25 Standard\chiclet,35,35 Standard\bubbles,42,42 Standard\triangle,85,85 Miscellaneous\right_rotate,124,191 Miscellaneous\stop,192,192 Miscellaneous\left_rotate,193,255
+
+Channel = gobo_rotate2
+ stop,0,0 right_rotate,16,143 left_rotate,145,255
+
+Channel = prism
+ open,0,0 prism,15,15 right_rotate,20,69 left_rotate,71,119 stop,120,120 frost,125,125 prism_2,135,135 right_rotate2,140,189 left_rotate2,190,191 stop2,255,255
+
+Channel = dimmer
+ index,10,249
+

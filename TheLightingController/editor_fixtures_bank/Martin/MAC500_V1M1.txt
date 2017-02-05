@@ -1,0 +1,42 @@
+Name = MARTIN_MAC500_V1M1
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = shutter
+ closed,0,0 open,34,34 strobe,50,72 open,76,76 pulse_o,89,89 pulse_c,109,109 open,123,123 rotate_strobe,128,187 open,189,189 random_o,191,196 random_c,197,202 open,205,205 reset,212,212 open,222,222 lamp_on,232,232 open,242,242 lamp_off,255,255
+
+Channel = dimmer
+
+Channel = color
+ white,0,0 white_blue1,8,8 blue1,16,16 blue1_red,24,24 red,32,32 red_magenta,40,40 magenta,48,48 magenta_green,56,56 green,64,64 green_yellow,72,72 yellow,80,80 yellow_purple,88,88 purple,96,96 purple_blue2,104,104 blue2,112,112 blue2_pink,120,120 pink,128,128 pink_cyan,136,136 cyan,144,144 cyan,146,146 pink,150,150 blue2,154,154 purple,158,158 yellow,162,162 green,166,166 magenta,170,170 red,174,174 blue1,178,178 white,182,182 counterclock,186,214 stop,215,215 clock,216,245 altern,255,255
+
+Channel = color
+ white,0,0 white_hot,8,8 ctc3200_4100,16,16 hotcol,24,24 ctc3200_5600,32,32 ctc_blue1,40,40 blue1,48,48 blue1_blue2,56,56 blue2,64,64 blue2_green,72,72 green,80,80 green_red,88,88 red,96,96 red_yellow,104,104 yellow603,112,112 yellow55,120,120 ctc5500_2900,128,128 ctc5500_4200,144,144 ctc3200_4100,146,146 ctc3200_5600,150,150 blue1,154,154 blue2,158,158 green,162,162 red,166,166 yellow603,170,170 ctc5500_2900,174,174 ctc5500_4200,178,178 white,182,182 counterclock,186,214 stop,215,215 clock,216,245 random,246,255
+
+Channel = gobo
+ full,0,0 triangle,65,65 hbar,85,85 fan,105,105 thin_bar,125,125 grid_ball,145,145 grid_bar,165,165 thin_bar,185,185 fan,205,205 hbar,225,225 triangle,255,255
+
+Channel = gobo_rotate
+ stop,0,0 clock,3,127 counterclock,128,251 stop,254,254
+
+Channel = gobo
+ full,0,0 cone,14,14 stardust,24,24 burst,34,34 rects,44,44 clouds,54,54 pipes,64,64 worms,74,74 mars_map,84,84 pling,96,96 pling,111,111 mars_map,128,128 worms,145,145 pipes,162,162 clouds,179,179 rects,196,196 burst,213,213 stardust,230,230 cone,255,255
+
+Channel = focus
+
+Channel = iris
+ aperture,0,215 pulse_open,225,225 pulse_closed,255,255
+
+Channel = prism
+ open,0,0 counterclock,20,79 stop,84,84 clock,90,149 off,182,182 macro_1,218,218 macro_2,223,223 macro_3,228,228 macro_4,233,233 macro_5,238,238 macro_6,243,243 macro_7,248,248 macro_8,255,255
+
+Channel = pan
+
+Channel = tilt
+

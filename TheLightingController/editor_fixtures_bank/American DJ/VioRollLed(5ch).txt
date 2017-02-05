@@ -1,0 +1,26 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = pan
+
+Channel = barrel
+ stop,0,0 left_rotate,10,120 stop,128,128 right_rotate,135,245 stop,255,255 
+
+Channel = shutter
+ no_function,0,0 dimmer,8,199 strobe,200,247 open,255,255 
+
+Channel = color
+ closed,0,0 red,16,16 green,33,33 blue,50,50 white,66,66 yellow,83,83 pink,100,100 light_red,116,116 cyan,133,133 light_green,150,150 light_blue,166,166 white,255,255 
+
+Channel = gobo_rotate
+ stop,0,0 left_rotate,10,120 stop,128,128 right_rotate,135,245 stop,255,255 
+

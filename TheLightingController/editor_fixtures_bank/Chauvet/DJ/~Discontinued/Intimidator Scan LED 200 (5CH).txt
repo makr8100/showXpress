@@ -1,0 +1,27 @@
+﻿ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_LED60W
+ViewAnglePan = 180
+ViewAngleTilt = 90
+ViewAngleBeam = 15
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/Intimidator Scan LED 200.png
+
+Channel = pan
+ Pan,0,255
+
+Channel = tilt
+ Tilt,0,255
+
+Channel = color
+ open,0,7 dark_blue,8,15 yellow,16,23 pink,24,31 green,32,39 red,40,47 blue,48,55 Salmon Pink,56,63 split_color,64,127 right_rotate,128,191 left_rotate,192,255
+
+Channel = shutter
+ closed,0,3 open,4,7 strobe,8,215 open,216,255
+
+Channel = gobo
+ Open,0,7 metal/Atomic Gobo2,8,15 metal/curve lines Gobo,16,23 metal/Fan Gobo,24,31 metal/Bio Gobo,32,39 metal/Cloud Gobo,40,47 metal/Maze Gobo,48,55 metal/Atomic Gobo1,56,63 Miscellaneous/shake_gobo7,64,71 Miscellaneous/shake_gobo6,72,79 Miscellaneous/shake_gobo5,80,87 Miscellaneous/shake_gobo4,88,95 Miscellaneous/shake_gobo3,96,103 Miscellaneous/shake_gobo2,104,111 Miscellaneous/shake_gobo1,112,119 Chauvet/open,120,127 Miscellaneous/right_rotate,128,191 Miscellaneous/left_rotate,192,255
+

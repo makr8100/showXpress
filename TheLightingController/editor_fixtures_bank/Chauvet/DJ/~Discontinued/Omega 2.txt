@@ -1,0 +1,26 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = gobo
+ Miscellaneous/closed,0,9 Chauvet/open,10,19 Miscellaneous/gobo1,20,29 Miscellaneous/gobo2,30,39 Miscellaneous/gobo3,40,49 Miscellaneous/gobo4,50,59 Miscellaneous/gobo5,60,69 Miscellaneous/gobo6,70,79 Miscellaneous/gobo7,80,89 Miscellaneous/gobo8,90,99 Miscellaneous/gobo9,100,109 Miscellaneous/gobo10,110,119 Miscellaneous/gobo11,120,129 Miscellaneous/gobo12,130,139 Miscellaneous/gobo13,140,149 Miscellaneous/gobo14,150,159 Miscellaneous/rotate,160,255
+
+Channel = color
+ white,0,9 Color 1,10,19 Color 2,20,29 Color 3,30,39 Color 4,40,49 Color 5,50,59 Color 6,60,69 Color 7,70,79 Color 8,80,89 Color 9,90,99 Color 10,100,109 Color 11,110,119 rotate,120,255
+
+Channel = strobe_effect
+ no_function,0,45 Gobo/Color Strobe,46,115 Color Strobe,116,185 Gobo Strobe,186,255
+
+Channel = pan
+ Pan,0,255
+
+Channel = tilt
+ Tilt,0,255
+

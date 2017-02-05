@@ -1,0 +1,54 @@
+Name = JB-SYSTEM_SPOTEMPEROR
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_250MSR
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = pan
+
+Channel = tilt
+
+Channel = pantilt_speed
+
+Channel = dimmer
+
+Channel = shutter
+ stop,0,0 strobe,16,136 shaking,137,255
+
+Channel = color
+ white,0,0 blue,19,19 yellow,32,32 green,45,45 light_blue,58,58 orange,70,70 pink,83,83 magenta,96,96 amber,109,109 light_green,122,122 rotate,128,255
+
+Channel = reserved
+
+Channel = reserved
+
+Channel = gobo
+ Miscellaneous\open,0,0 ok_for_3DView\phone,24,24 Chauvet\conoid,40,40 Chauvet\2A,56,56 Chauvet\4B,72,72 Chauvet\water glass effect,88,88 ok_for_3DView\triangle,104,104 Chauvet\4 dots,120,120 Miscellaneous\rotate,128,255
+
+Channel = gobo_rotate
+ right_rotate,10,121 left_rotate,135,246 stop,255,255
+
+Channel = prism
+ stop,0,0 prism,255,255
+
+Channel = prism_rotate
+ right_rotate,10,121 left_rotate,135,246 stop,255,255
+
+Channel = focus
+
+Channel = show_prog
+ dmx,0,0 show1_auto,32,127 show2_auto,128,223 show1_audio,233,233 show2_audio,255,255
+
+Channel = beam_prog
+ gobo_color,0,47 gobo_rotate,48,95 strobe,96,143 shaking,144,191 prism,192,239 mixed,255,255
+
+Channel = control
+ reset,255,255
+

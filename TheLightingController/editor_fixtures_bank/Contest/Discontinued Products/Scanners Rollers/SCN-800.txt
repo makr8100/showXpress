@@ -1,0 +1,22 @@
+﻿ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 150
+ViewAngleTilt = 85
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Contest/Discontinued Products/SCN-835.png
+
+Channel = pan
+
+Channel = tilt
+
+Channel = color
+ open,0,8 turquoise,9,16 red,17,24 cyan,25,32 pastel_green_pearl,33,40 magenta,41,48 pastel_blue_pearl,49,56 yellow,57,64 green,65,72 pink,73,80 blue,81,88 orange,89,96 blacklight,97,104 red_blue,105,112 yellow_green,113,120 blue_magenta,121,126 clock,127,191 stop,192,193 counterclock,194,255 
+
+Channel = gobo
+ Miscellaneous/closed,0,8 Miscellaneous/open,9,64 Miscellaneous/strobe,65,128 Miscellaneous/closed,129,133 Miscellaneous/reset,134,136 Miscellaneous/open,137,144 Miscellaneous/closed,145,152 Miscellaneous/gobo1,153,160 Miscellaneous/gobo2,161,168 Miscellaneous/gobo3,169,176 Miscellaneous/gobo4,177,184 Miscellaneous/gobo5,185,192 Miscellaneous/gobo6,193,200 Miscellaneous/gobo7,201,208 Miscellaneous/gobo8,209,216 Miscellaneous/gobo9,217,224 Miscellaneous/gobo10,225,232 Miscellaneous/gobo11,233,240 Miscellaneous/gobo12,241,248 Miscellaneous/gobo13,249,255 
+

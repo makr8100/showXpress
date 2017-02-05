@@ -1,0 +1,42 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED60W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/PRO/Well Fit - BACK.png
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = red
+ dimmer,0,255
+
+Channel = green
+ dimmer,0,255
+
+Channel = blue
+ dimmer,0,255
+
+Channel = amber
+ dimmer,0,255
+
+Channel = strobe_effect
+ no_function,0,10 Slow to Fast,11,255
+
+Channel = color_macro
+ no_function,0,10 Red 100% Green 0-100% B 0%,11,30 Red 100-0 Green 100% Blue,31,50 Red 0 Green 100 Blue 0-100,51,70 Red 0 Green 100-0 Blue 100,71,90 Red 0-100 Green 0 Blue 100,91,110 Red 100 Green 0 Blue 100-0,111,130 Red 100 Green 0-100 Blue 0-100,131,150 Red 100-0 Green 100-0 Blue 100,151,170 All Full ,171,195 2700k,196,200 3000k,201,205 3200k,206,210 3500k,211,215 4000k,216,220 4200k,221,225 4500k,226,230 5600k,231,235 6000k,236,240 6500k,241,245 7200k,246,250 8000k,251,255
+
+Channel = mode
+ no_function,0,51 Auto 1,52,101 Auto 2,102,152 Auto 3,153,203 Auto 4,204,254 Auto 5,255,255
+
+Channel = effect_speed
+ Slow to Fast,0,255
+
+Channel = Dimmer Speed
+ Preset from display,0,51 Linear Dimmer,52,101 Dimming curve 1 (fastest),102,152 Dimming curve 2,153,203 Dimming curve 3 (slowest),204,255
+

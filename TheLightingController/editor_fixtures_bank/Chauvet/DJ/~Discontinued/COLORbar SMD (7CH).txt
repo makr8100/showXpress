@@ -1,0 +1,32 @@
+﻿ViewType = VIEW_TYPE_COLOR_PANEL
+ViewAnglePan = 0
+ViewAngleTilt = 0
+ViewAngleBeam = 0
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+2DViewImage = Chauvet/DJ/COLORbar SMD.png
+
+Channel = red
+ Red,0,255
+
+Channel = green
+ Green,0,255
+
+Channel = blue
+ Blue,0,255
+
+Channel = color_macro
+ no_function,0,15 Color Macro in random,16,255
+
+Channel = strobe_effect
+ no_function,0,15 strobe,16,255
+
+Channel = effect_macro
+ no_function,0,31 Fading 0--100%,32,63 Fading 100%--0,64,95 Fading 100%--0--100%,96,114 Auto program P1--P4,115,223 Auto Porgram (sound),224,255
+
+Channel = dimmer
+ dimmer,0,255
+

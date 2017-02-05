@@ -1,0 +1,47 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = pattern
+ no_function,0,0 index,5,255 
+
+Channel = speed_control
+
+Channel = shutter
+ open,0,0 strobe,5,255 
+
+Channel = effect_macro
+ no_function,0,0 spread_effect,36,49 static_effect,50,255 
+
+Channel = effect_macro
+ no_function,0,0 spread_effect,36,49 static_effect,50,255 
+
+Channel = effect_macro
+ no_function,0,0 spread_effect,36,49 static_effect,50,255 
+
+Channel = effect_macro
+ no_function,0,0 spread_effect,36,49 static_effect,50,255 
+
+Channel = effect_macro
+ no_function,0,0 spread_effect,36,49 static_effect,50,255 
+
+Channel = effect_macro
+ no_function,0,0 spread_effect,36,49 static_effect,50,255 
+
+Channel = effect_macro
+ no_function,0,0 spread_effect,36,49 static_effect,50,255 
+
+Channel = effect_macro
+ no_function,0,0 spread_effect,36,49 static_effect,50,255 
+
+Channel = color
+ closed,0,0 red,70,70 green,110,110 blue,150,150 white,255,255 
+

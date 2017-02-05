@@ -1,0 +1,27 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 24
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = effect_macro
+
+Channel = shutter
+ open,0,0 strobe,16,255 
+
+Channel = effect
+ open,0,0 white 0-100%,48,48 white 100%-0,80,80 white,110,110 7 colors fading,145,145 3 colors chasing,175,175 7 colors chasing,210,210 audio,255,255 
+
+Channel = dimmer
+

@@ -1,0 +1,50 @@
+Name = SHOWTEC_SP250
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = pan
+
+Channel = tilt
+
+Channel = upan
+
+Channel = utilt
+
+Channel = pantilt_speed
+ vector,0,0 speed,2,249 black_while_mo,255,255
+
+Channel = control
+ lamp_on,0,0 reset,133,133 lamp_off,235,235
+
+Channel = color
+ white,0,0 turquoise,10,10 red,21,21 cyan,32,32 green,42,42 magenta,53,53 light-blue,64,64 yellow,74,74 light-green,85,85 pink,96,96 blue,106,106 orange,117,117 clock,128,189 stop,192,192 counterclock,194,255
+
+Channel = reserved
+
+Channel = prism
+ no_effect,0,0 prism,127,127 macro1,163,163 macro2,171,171 macro3,179,179 macro4,187,187 macro5,195,195 macro6,203,203 macro7,211,211 macro8,219,219 macro9,227,227 macro10,235,235 macro11,243,243 macro12,255,255
+
+Channel = prism_rotate
+ stop,0,0 clock,6,120 stop,128,128 counterclock,135,255
+
+Channel = gobo
+ open,0,0 gobo1,47,47 gobo2,79,79 gobo3,111,111 gobo4,143,143 gobo5,175,175 gobo6,207,207 rotate,224,255
+
+Channel = gobo_rotate
+ index,0,127 clock,128,190 stop,192,192 counterclock,194,255
+
+Channel = reserved
+
+Channel = focus
+
+Channel = shutter
+ closed,0,0 open,45,45 strobe,64,95 pulse1,128,159 pulse2,192,223 open,255,255
+
+Channel = dimmer
+

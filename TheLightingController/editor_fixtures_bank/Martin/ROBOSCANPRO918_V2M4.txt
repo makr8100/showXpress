@@ -1,0 +1,53 @@
+Name = MARTIN_ROBOSCANPRO918_V2M4
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = shutter
+ closed,0,0 open,37,37 strobe,50,72 open,75,75 opening_pulse,80,99 closing_pulse,100,119 open,125,125 random_strobe,128,187 open,189,189 rand._open._pu,191,196 rand._clos._pu,197,202 open,205,205 reset,212,212 open,222,222 lamp_on,232,232 open,242,242 lamp_off,255,255
+
+Channel = dimmer
+ off,0,0 on,255,255
+
+Channel = color
+ white,0,0 blue_111,16,16 red_301,32,32 magenta_507,48,48 green_202,64,64 yellow_604,80,80 purple_502,96,96 blue_101,112,112 pink_312,128,128 cyan_401,144,144 cyan_401,146,148 pink_312,150,152 blue_101,154,156 purple_502,158,160 yellow_604,162,164 green_202,166,168 magenta_507,170,172 red_301,174,176 blue_111,178,180 white,182,184 clock,186,215 counterclock,216,245 altern._col._(,255,255
+
+Channel = color
+ white,0,0 CTC_3200-4100,16,16 CTC_3200-5600,32,32 blue_104,48,48 blue_108,64,64 green_206,80,80 red_308,96,96 yellow_603,112,112 CTC_5500-2900,128,128 CTC_5500-4200,144,144 CTC_5500-4200,146,148 CTC_5500-2900,150,152 yellow_603,154,156 red_308,158,160 green_206,162,164 blue_108,166,168 blue_104,170,172 CTC_3200-5600,174,176 CTC_3200-4100,178,180 white,182,184 clock,186,215 counterclock,216,245 random_color,246,255
+
+Channel = gobo
+ full,0,0 gobo1_index,65,65 gobo2_index,85,85 gobo3_index,105,105 gobo4_index,125,125 gobo5_index,145,145 gobo5_cont._ro,165,165 gobo4_cont._ro,185,185 gobo3_cont._ro,205,205 gobo2_cont._ro,225,225 gobo1_cont._ro,255,255
+
+Channel = gobo_rotate
+ stop,0,0 counterclock,4,127 clock,128,251 stop,255,255
+
+Channel = gobo
+ open,0,0 gobo1,15,15 gobo2,25,25 gobo3,35,35 gobo4,45,45 gobo5,55,55 gobo6,65,65 gobo7,75,75 gobo8,85,85 gobo9,95,95 gobo9_shake,104,119 gobo8_shake,120,136 gobo7_shake,138,153 gobo6_shake,154,170 gobo5_shake,172,187 gobo4_shake,188,204 gobo3_shake,206,221 gobo2_shake,222,238 gobo1_shake,240,255
+
+Channel = focus
+
+Channel = iris
+ aperture,0,199 close,208,208 opening_pulse,216,229 closing_pulse,230,243 rand._open._pu,244,249 rand._clos._pu,250,255
+
+Channel = prism
+ off,0,0 clock,20,79 stop,84,84 counterclock,90,149 off,200,200 macro_1,218,218 macro_2,223,223 macro_3,228,228 macro_4,233,233 macro_5,238,238 macro_6,243,243 macro_7,248,248 macro_8,255,255
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+ tracking,0,0 fast_slow,4,245 track._normal,247,247 track._fast,250,250 black._while_m,255,255
+
+Channel = effect_speed
+ tracking,0,0 fast_slow,4,245 SCUT_ON,247,247 SCUT_OFF,250,250 fast,255,255
+

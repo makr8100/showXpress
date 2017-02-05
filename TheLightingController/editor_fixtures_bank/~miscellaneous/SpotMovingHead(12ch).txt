@@ -1,0 +1,41 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LED60W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = pan
+
+Channel = tilt
+
+Channel = pantilt_speed
+
+Channel = color
+ white,0,0 color_1,21,21 color_2,34,34 color_3,48,48 color_4,62,62 color_5,75,75 color_6,90,90 color_7,105,105 color_8,117,117 color_9,125,125 right_rotate,128,192 left_rotate,193,255 
+
+Channel = gobo
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,28,28 Miscellaneous/gobo2,47,47 Miscellaneous/gobo3,66,66 Miscellaneous/gobo4,85,85 Miscellaneous/gobo5,103,103 Miscellaneous/gobo6,123,123 Miscellaneous/gobo7,138,138 Miscellaneous/right_rotate,145,208 Miscellaneous/left_rotate,209,255 
+
+Channel = gobo_rotate
+ stop,0,0 right_rotate,12,130 left_rotate,131,255 
+
+Channel = shutter
+ open,0,0 reset,21,21 strobe,31,250 open,255,255 
+
+Channel = dimmer
+
+Channel = upan
+
+Channel = utilt
+
+Channel = prism
+ no_function,0,0 prism,255,255 
+
+Channel = focus
+

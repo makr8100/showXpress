@@ -1,0 +1,29 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Contest/Architectural IP series/IPSPOT-7QC .png
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = dimmer
+ dimmer,0,189 strobe,190,250 open,251,251 
+
+Channel = shutter
+ no_function,0,0 lighting_strobe,1,255 
+
+Channel = color
+ closed,0,7 red,8,15 orange,16,23 yellow,24,30 green,31,38 cyan,39,45 blue,46,53 pink,54,60 magenta,61,68 cold_white,69,75 warm_white,76,83 full_white,84,90 pastel_pale_rose,91,98 pastel_light_apricot,99,105 pastel_light_ocre,106,113 pastel_yellow_green,114,120 pastel_green_pearl,121,128 pastel_grey_pearl,129,135 pastel_pearl,136,143 pastel_blue_pearl,144,150 pastel_veronese_green,151,158 pastel_light_lagoon,159,165 pastel_sky_blue,166,173 pastel_clear_blue,174,180 pastel_cerulean_blue,181,188 macro_1,189,195 macro_2,196,203 macro_3,204,210 macro_4,211,218 macro_5,219,225 macro_6,226,233 macro_7,234,240 no_function,241,248 no_function,249,255 
+
+Channel = white
+

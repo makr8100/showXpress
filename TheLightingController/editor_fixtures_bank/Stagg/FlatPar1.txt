@@ -1,0 +1,25 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 20
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = dimmer
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = speed
+
+Channel = color_macro
+ no_function,0,0 R-G-B-RG-G,16,31 G-GB-B-RB-R,32,47 R-B-G-RG-G,48,63 R-G-GB-RBG-G,64,79 B-BG-RGB-RG-G,80,95 sync_strobe,96,111 fade,112,127 change,128,143 change&strobe,144,159 fast-in_slow-out,160,175 slow-in_fast-out,176,191 slow-in_slow-out,192,207 glide,208,223 audio1,230,230 audio2,255,255 
+

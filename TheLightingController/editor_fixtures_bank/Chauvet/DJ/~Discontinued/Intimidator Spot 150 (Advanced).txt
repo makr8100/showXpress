@@ -1,0 +1,49 @@
+Name = Intimidator Spot 150 (Advanced)
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_250MSR
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 21
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = pan
+ dimmer,0,255
+
+Channel = tilt
+ dimmer,0,255
+
+Channel = upan
+ dimmer,0,255
+
+Channel = utilt
+ dimmer,0,255
+
+Channel = pantilt_speed
+ dimmer,0,255
+
+Channel = color
+ white,0,7 uv,8,15 pink,16,23 green,24,31 red,32,39 blue,40,47 yellow,48,55 magenta,56,63 white,64,66 split_color,67,170 clock,171,212 counterclock,213,255
+
+Channel = gobo
+ Chauvet\open,0,9 Yagang\29,10,19 Martin\Cross 2,20,29 Chauvet\575gobo5,30,39 Martin\triangle,40,49 Chauvet\A2,50,59 Chauvet\144009,60,69 Chauvet\575glass1,70,79 gobo 1 shake,80,99 gobo 2 shake,100,119 gobo 3 shake,120,139 gobo 4 shake,140,159 gobo 5 shake,160,179 gobo 6 shake,180,199 gobo 7 shake,200,219 Miscellaneous\left_rotate,220,255
+
+Channel = gobo_rotate
+ stop,0,10 right_rotate,11,131 stop,132,132 left_rotate,133,255
+
+Channel = shutter
+ closed,0,22 strobe,23,85 open,86,100 pulse_strobe,101,165 open,166,180 lightning_strobe,181,245 open,246,255
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = control
+ open,0,9 x/y black,10,14 x/y no black,15,19 color black,20,24 color no black,25,29 gobo black,30,34 gobo no black,35,39 all black,40,44 all no black,45,49 reset_xy,50,54 reset_color,55,59 reset_gobo,60,69 no_function,70,79 reset,80,89 no_function,90,111 lamp_off,112,119 lamp_on,120,127 no_function,128,129 auto,130,192 audio,193,255
+
+Channel = effect
+ open,0,9 effect macros,10,255
+

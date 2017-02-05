@@ -1,0 +1,42 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = strobe_dimmer
+ no_function,0,10 0-20 Hz,11,255
+
+Channel = red
+ dimmer,0,255
+
+Channel = green
+ dimmer,0,255
+
+Channel = blue
+ dimmer,0,255
+
+Channel = white
+ dimmer,0,255
+
+Channel = Color Macro + White Balance
+ no_function,0,10 R:100% G:0-100% B:0,11,30 R:100%-0 G:100% B:0,31,50 R:0 G:100% B:0-100%,51,70 R:0 G:100%-0 B:100%,71,90 R:0-100% G:0 B:100%,91,110 R:100% G:0 B:100%-0,111,130 R:100% G:0-100% B:0-100%,131,150 R:100%-0 G:100%-0 B:100%,151,170 RGBW: 100%,171,200 White 1,201,205 White 2,206,210 White 3,211,215 White 4,216,220 White 5,221,225 White 6,226,230 White 7,231,235 White 8,236,240 White 9,241,245 White 10,246,250 White 11,251,255
+
+Channel = Auto Programs
+ no_function,0,10 Auto 1,11,31 Auto 2,32,51 Auto 3,52,72 Auto 4,73,92 Auto 5,93,112 Auto 6,113,133 Auto 7,134,153 Auto 8,154,173 Auto 9,174,194 Fade,195,234 Auto 0,235,255
+
+Channel = Auto Speed
+ dimmer,0,255
+
+Channel = Dimmer Speed
+ Preset Dimmer Speed,0,51 Linear Dimmer,52,101 Nonlinear Dimming Curve 1,102,152 Nonlinear Dimming Curve 2,153,203 Nonlinear Dimming Cuve 3,204,255
+

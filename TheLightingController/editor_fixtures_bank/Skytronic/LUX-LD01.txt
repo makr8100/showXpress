@@ -1,0 +1,49 @@
+Name = LUX-LD01
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 13
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = pan
+ Pan,0,255
+
+Channel = upan
+ Pan Fine,0,255
+
+Channel = tilt
+ Tilt,0,255
+
+Channel = utilt
+ Tilt Fine,0,255
+
+Channel = pantilt_speed
+ Vector Speed,0,255
+
+Channel = shutter
+ closed,0,7 dimmer,8,134 strobe,135,239 open,240,255
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = color
+ Unused,0,7 white,8,21 red,22,35 green,36,49 blue,50,63 cyan,64,77 magenta,78,91 yellow,92,105 purple,106,119 orange,120,133 dark_yellow,134,147 pink,148,161 amber,162,175 5500-3400k,176,189 dark_red,190,203 violet,204,217 Crape,218,231 Colour Scroll,232,255
+
+Channel = rgb vector
+ custom,0,255
+
+Channel = _no_icon
+ no_function,0,7 Auto Prog 1,8,22 Auto Prog 2,23,37 Auto Prog 3,38,52 Auto Prog 4,53,67 Auto Prog 5,68,82 Auto Prog 6,83,97 Auto Prog 7,98,112 Auto Prog 8,113,127 Sound Active1,128,142 Sound Active2,143,157 Sound Active3,158,172 Sound Active 4,173,187 Sound Active 5,188,202 Sound Active 6,203,217 Sound Active 7,218,232 Sound Active 8,233,255
+
+Channel = gobo
+ Chauvet\open,0,7 Contest\scn-930_gobo7,8,15 Contest\king_gobos-15,16,23 Showtec\Scorpion_13,24,31 Martin\dibs,32,39 Chauvet\zzzgobo,40,47 Chauvet\littlestar,48,55 Contest\mvh930-g6-60a69,56,63 Chauvet\line square,64,71 Chauvet\575gobo11,72,79 Gobo Shake 1,80,94 Gobo Shake 2,95,109 Gobo Shake 3,110,124 Gobo Shake 4,125,139 Gobo Shake 5,140,154 Gobo Shake 6,155,169 Gobo Shake 7,170,184 Gobo Shake 8,185,199 Gobo Shake 9,200,214 + Rainbow + Speed,215,235 - Rainbow - Speed,236,255
+

@@ -1,0 +1,45 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/Swarm 4 FX.png
+
+Channel = color
+ black,0,9 1000K,10,19 green,20,29 blue,30,39 orange,40,49 Red+Green,50,59 Red+Blue,60,69 Red+Amber,70,79 Green+Blue,80,89 Green+Amber,90,99 Blue+Amber,100,109 Red+Green+Blue,110,119 Red+Green+Amber,120,129 Red+Blue+Amber,130,139 Green+Blue+Amber,140,149 Red+Green+Blue+Amber,150,159 auto1,160,224 auto2,225,255
+
+Channel = strobe_effect
+ no_function,0,9 Strobe Speed,10,254 audio,255,255
+
+Channel = motor
+ stop,0,4 right_rotate,5,127 stop,128,133 left_rotate,134,255
+
+Channel = color
+ black,0,9 1000K,10,19 green,20,29 blue,30,39 orange,40,49 Red+Green,50,59 Red+Blue,60,69 Red+Amber,70,79 Green+Blue,80,89 Green+Amber,90,99 Blue+Amber,100,109 Red+Green+Blue,110,119 Red+Green+Amber,120,129 Red+Blue+Amber,130,139 Green+Blue+Amber,140,149 Red+Green+Blue+Amber,150,159 auto1,160,224 auto2,225,255
+
+Channel = strobe_effect
+ no_function,0,9 Strobe Speed,10,254 audio,255,255
+
+Channel = motor
+ stop,0,4 right_rotate,5,127 stop,128,133 left_rotate,134,255
+
+Channel = strobe_speed
+ no_function,0,9 strobe,10,254 audio,255,255 
+
+Channel = laser
+ stop,0,4 right_rotate,5,127 stop,128,133 left_rotate,134,255 
+
+Channel = strobe_effect
+ no_function,0,9 open,10,19 pattern_01,20,29 pattern_02,30,39 pattern_03,40,49 pattern_04,50,59 pattern_05,60,69 pattern_06,70,79 pattern_07,80,89 pattern_08,90,99 pattern_09,100,109 pattern_10,110,119 pattern_11,120,129 pattern_12,130,139 pattern_13,140,149 pattern_14,150,159 pattern_15,160,169 pattern_16,170,179 pattern_17,180,189 pattern_18,190,199 pattern_19,200,255 
+
+Channel = strobe_effect
+ strobe,0,255 
+
+Channel = strobe_speed
+ no_function,0,9 strobe,10,254 audio,255,255 
+

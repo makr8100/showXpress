@@ -1,0 +1,43 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = mode
+ closed,0,0 ild,60,60 prg,100,100 audio,150,150 auto,190,190 manuel,255,255
+
+Channel = pattern
+
+Channel = shutter
+ open,0,0 strobe,11,199 audio_strobe,255,255
+
+Channel = X_axis
+ index,0,125 auto,126,185 left_right,186,225 auto,230,230 audio,255,255
+
+Channel = Y_axis
+ index,0,125 auto,126,185 up_down,186,225 auto,230,230 audio,255,255
+
+Channel = zoom
+ index,0,100 auto1,101,150 auto2,151,200 auto,255,255 
+
+Channel = X_rotate
+ index,0,110 auto,111,255 
+
+Channel = Y_rotate
+ index,0,110 auto,111,255 
+
+Channel = Z_rotate
+ index,0,110 auto,111,255 
+
+Channel = text
+ manual,0,74 auto,75,104 auto_reverse,105,179 auto_cycle,181,255 
+
+Channel = color
+

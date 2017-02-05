@@ -1,0 +1,86 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LAMP575W
+ViewAnglePan = 450
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = shutter
+ closed,0,0 open,20,20 strobe,26,225 open,255,255
+
+Channel = dimmer
+
+Channel = color_macro
+ white,0,0 red,25,25 yellow,45,45 green,65,65 cyan,85,85 blue,105,105 magenta,120,120 rotate,129,255
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = yellow
+
+Channel = linear
+
+Channel = color
+ white,0,0 color_1,28,28 color_2,45,45 color_3,60,60 color_4,77,77 color_5,92,92 color_6,108,108 white,124,124 right_rotate,128,187 stop,192,192 left_rotate,196,255
+
+Channel = iris
+ index,0,135 macro,136,231 minimal,255,255
+
+Channel = gobo
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,24,24 Miscellaneous/gobo2,40,40 Miscellaneous/gobo3,56,56 Miscellaneous/gobo4,72,72 Miscellaneous/gobo5,88,88 Miscellaneous/gobo6,104,104 Miscellaneous/gobo7,120,120 Miscellaneous/left_rotate,128,150 Miscellaneous/right_rotate,151,171 Miscellaneous/shake_gobo1,172,183 Miscellaneous/shake_gobo2,184,195 Miscellaneous/shake_gobo3,196,207 Miscellaneous/shake_gobo4,208,219 Miscellaneous/shake_gobo5,220,231 Miscellaneous/shake_gobo6,232,243 Miscellaneous/shake_gobo7,244,255
+
+Channel = gobo2
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,32,32 Miscellaneous/gobo2,53,53 Miscellaneous/gobo3,75,75 Miscellaneous/gobo4,96,96 Miscellaneous/gobo5,117,117 Miscellaneous/left_rotate,128,156 Miscellaneous/right_rotate,157,184 Miscellaneous/shake_gobo1,185,198 Miscellaneous/shake_gobo2,199,212 Miscellaneous/shake_gobo3,213,226 Miscellaneous/shake_gobo4,227,240 Miscellaneous/shake_gobo5,241,255
+
+Channel = gobo_rotate
+ index,0,128 left_rotate,129,188 stop,192,192 right_rotate,196,255 
+
+Channel = gobo_urotate
+
+Channel = framing_blade_1
+
+Channel = framing_blade_1_angle
+
+Channel = framing_blade_2
+
+Channel = framing_blade_2_angle
+
+Channel = framing_blade_3
+
+Channel = framing_blade_3_angle
+
+Channel = framing_blade_4
+
+Channel = framing_blade_4_angle
+
+Channel = framing_rotation
+
+Channel = prism
+ frost,0,143 prism_1,180,180 prism_2,255,255 
+
+Channel = prism_rotate
+ index,0,120 left_rotate,121,183 stop,189,189 right_rotate,192,255 
+
+Channel = focus
+
+Channel = zoom
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = control
+ no_function,0,0 reset,60,60 lamp_off,130,130 lamp_50%,180,180 lamp_on,255,255 
+

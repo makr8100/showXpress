@@ -1,0 +1,47 @@
+Name = YX2009
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 530
+ViewAngleTilt = 280
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = control
+ sport_off,0,0 sport_on,255,255
+
+Channel = color
+ closed,0,0 white,34,34 red,57,57 yellow,80,80 green,103,103 cyan,126,126 blue,149,149 purple,172,172 mixed,195,195 stoch_single,218,218 stoch_multi,241,241 fluent,255,255
+
+Channel = gobo
+
+Channel = speed
+
+Channel = roll
+ stop,0,0 horizontal,95,95 vertical,159,159 both,255,255
+
+Channel = draw
+ stop,0,0 rotation,95,95 draw,159,159 both,255,255
+
+Channel = move
+ stop,0,0 horizontal,95,95 vertical,159,159 both,255,255
+
+Channel = strech
+ stop,0,0 horizontal,95,95 vertical,159,159 both,255,255
+
+Channel = zoom
+ stop,0,0 focus_far,86,169 focus_near,170,255
+
+Channel = draw_speed
+
+Channel = scan_speed
+
+Channel = color_speed
+
+Channel = size
+ original,0,0 index,1,255
+

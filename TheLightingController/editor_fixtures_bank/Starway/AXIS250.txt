@@ -1,0 +1,38 @@
+Name = STARWAY_AXIS250
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_250MSR
+ViewAnglePan = 630
+ViewAngleTilt = 265
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewColor = 16777215
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+ max,0,0 index,5,225 black_mov,230,230 black_wheel,240,240
+
+Channel = color
+ white,0,0 light_blue,19,19 pink,32,32 green,45,45 dark_yellow,58,58 magenta,71,71 light_yellow,84,84 dark_green,97,97 dark_blue,110,110 red,123,123 right_rotate,128,187 stop,190,190 left_rotate,194,255
+
+Channel = gobo
+ Miscellaneous\open,0,0 gobo1,20,20 gobo2,34,34 gobo3,48,48 gobo4,62,62 gobo5,76,76 gobo6,90,90 gobo7,106,106 gobo1_shake,125,125 gobo2_shake,145,145 gobo3_shake,165,165 gobo4_shake,185,185 gobo5_shake,205,205 gobo6_shake,225,225 gobo7_shake,255,255
+
+Channel = gobo_rotate
+ stop,0,0 right_rotate,8,127 left_rotate,136,255
+
+Channel = shutter
+ closed,0,0 dimmer,32,63 strobe,64,95 flash,143,143 random_strobe,207,207 open,255,255
+
+Channel = control
+ color_norm,0,0 color_pos,30,30 lamp_on,50,50 lamp_off,70,70 reset,90,90 prog1,110,110 prog2,130,130 prog3,150,150 prog4,170,170 prog5,190,190 prog6,210,210 prog7,230,230 prog8,255,255
+

@@ -1,0 +1,28 @@
+Name = Min Wash (5CH)
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 540
+ViewAngleTilt = 260
+ViewAngleBeam = 13
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = TRUE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = pan
+ new_level,0,255
+
+Channel = tilt
+ new_level,0,255
+
+Channel = shutter
+ closed,0,7 dimmer,8,134 strobe,135,239 open,240,255
+
+Channel = color
+ closed,0,7 magenta,8,18 purple,19,31 orange,32,43 pink,44,55 yellow,56,67 light_green,68,79 light_blue,80,91 cyan,92,103 turquoise,104,115 blue,116,127 amber,128,139 turquoise,140,151 orange,152,163 yellow,164,175 magenta,176,187 white,188,199 macro 1,200,212 macro 2,213,225 macro 3,226,239 macro 4,240,255
+
+Channel = gobo
+ ok_for_3DView\open,0,12 new_level,13,25 new_level,26,38 new_level,39,51 new_level,52,64 new_level,65,77 new_level,78,90 new_level,91,103 new_level,104,116 _no_icon,117,127 ok_for_3DView\rotate,128,255
+

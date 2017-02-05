@@ -1,0 +1,48 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/SlimPAR PRO H.png
+
+Channel = dimmer
+ dimmer,0,255 
+
+Channel = red
+ dimmer,0,255 
+
+Channel = green
+ dimmer,0,255 
+
+Channel = blue
+ dimmer,0,255 
+
+Channel = amber
+ dimmer,0,255 
+
+Channel = white
+ dimmer,0,255 
+
+Channel = uv
+ dimmer,0,255 
+
+Channel = strobe_effect
+ no_function,0,15 strobe,16,255 
+
+Channel = color_macro
+ no_function,0,15 color macros,16,255 
+
+Channel = mode
+ no_function,0,31 pulse_strobe,32,63 pulse_strobe,64,95 pulse_strobe,96,127 auto fade,128,159 auto snap 6 colors,160,191 auto snap 32 color,192,223 sound 6 colors,224,249 sound 32 colors,250,255 
+
+Channel = speed_control
+ program speed,0,255 
+
+Channel = speed_control
+ dimmer speed set from display,0,51 dimmer speed mode off,52,101 dimmer speed fast,102,152 dimmer speed medium,153,203 dimmer speed slow,204,255 
+

@@ -1,0 +1,30 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 13
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/Intimidator Spot 100 IRC.png
+
+Channel = pan
+ Pan,0,255
+
+Channel = tilt
+ Tilt,0,255
+
+Channel = color
+ white,0,15 blue,16,31 yellow,32,47 pink,48,63 green,64,79 orange,80,95 light_blue,96,111 red,112,127 right_rotate,128,191 left_rotate,192,255
+
+Channel = shutter
+ closed,0,3 open,4,7 strobe,8,215 open,216,255
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = gobo
+ Chauvet/open,0,7 metal/Flower Gobo,8,15 metal/snow Gobo,16,23 metal/ball Gobo,24,31 metal/wheel Gobo2,32,39 metal/RR1SR7,40,47 metal/Razer Gobo,48,55 metal/Z03748-12,56,63 Miscellaneous/shake_gobo7,64,71 Miscellaneous/shake_gobo6,72,79 Miscellaneous/shake_gobo5,80,87 Miscellaneous/shake_gobo4,88,95 Miscellaneous/shake_gobo3,96,103 Miscellaneous/shake_gobo2,104,111 Miscellaneous/shake_gobo1,112,119 Miscellaneous/open,120,127 Miscellaneous/right_rotate,128,191 Miscellaneous/left_rotate,192,255
+

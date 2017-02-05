@@ -1,0 +1,81 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/COLORband HEX 9 IRC.png
+
+Channel = red
+ 0~100%,0,255
+
+Channel = green
+ 0~100%,0,255
+
+Channel = blue
+ 0~100%,0,255
+
+Channel = amber
+ 0~100%,0,255
+
+Channel = white
+ 0~100%,0,255
+
+Channel = uv
+ 0~100%,0,255
+
+Channel = red
+ 0~100%,0,255
+
+Channel = green
+ 0~100%,0,255
+
+Channel = blue
+ 0~100%,0,255
+
+Channel = amber
+ 0~100%,0,255
+
+Channel = white
+ 0~100%,0,255
+
+Channel = uv
+ 0~100%,0,255
+
+Channel = red
+ 0~100%,0,255
+
+Channel = green
+ 0~100%,0,255
+
+Channel = blue
+ 0~100%,0,255
+
+Channel = amber
+ 0~100%,0,255
+
+Channel = white
+ 0~100%,0,255
+
+Channel = uv
+ 0~100%,0,255
+
+Channel = color_macro
+ no_function,0,16 Color Macros,17,255
+
+Channel = strobe_effect
+ no_function,0,15 strobe,16,255
+
+Channel = effect_macro
+ no_function,0,31 Pulse effect 0%-100%,32,63 Pulse effect 100%-0%,64,95 Pulse effect 100%-0%-100%,96,114 Auto program 1,115,122 Auto program 2,123,130 Auto program 3,131,138 Auto program 4,139,146 Auto program 5,147,154 Auto program 6,155,162 Auto program 7,163,170 Auto program 8,171,178 Auto program 9,179,186 Auto program 10,187,194 Auto program 11,195,202 Auto program 12,203,210 Auto program 13,211,218 Auto program 14,219,226 Sound program,227,255
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = udimmer
+ Preset dimmer speed from display menu,0,51 Dimming profile off (linear dimmer),52,101 Nonlinear dimming profile 1 (fastest),102,152 Nonlinear dimming profile 2,153,203 Nonlinear dimming profile 3 (slowest),204,255
+

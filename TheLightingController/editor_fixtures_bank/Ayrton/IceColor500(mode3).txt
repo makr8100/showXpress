@@ -1,0 +1,41 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LAMP575W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 24
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = shutter
+ open,0,0 strobe,16,255 
+
+Channel = color_macro
+ no_function,0,0 index,8,255 
+
+Channel = color
+ white,0,0 2700K,7,7 3200K,12,12 4300K,17,17 5600K,22,22 6500K,27,27 8000K,32,32 red,37,37 green,42,42 dark_blue,47,47 natural_white,52,52 full_white,57,57 yellow,62,62 magenta,67,67 cyan,72,72 salmon,77,77 turquoise,82,82 light_green,87,87 steel_blue,92,92 orange,97,97 straw,102,102 pale_lavender,107,107 pink,112,112 index,115,255 
+
+Channel = color_dimmer
+
+Channel = chase_pattern
+ no_function,0,0 macro_1,22,22 macro_2,38,38 macro_3,56,56 macro_4,71,71 macro_5,86,86 macro_6,101,101 macro_7,118,118 macro_8,135,135 macro_9,151,151 macro_10,166,166 macro_11,181,181 macro_12,198,198 macro_13,214,214 macro_14,230,230 macro_15,255,255 
+
+Channel = chase_speed
+ left_rotate,0,125 stop,128,128 right_rotate,131,255 
+
+Channel = chase_fade
+
+Channel = dimmer
+

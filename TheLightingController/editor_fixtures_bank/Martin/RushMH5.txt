@@ -1,0 +1,53 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LAMP575W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = dimmer
+
+Channel = udimmer
+
+Channel = shutter
+ closed,0,0 open,12,12 strobe,16,131 pulse_open,132,167 pulse_close,168,203 pulse_strobe,240,247 open,255,255 
+
+Channel = color
+ white,0,0 red,15,15 dark_blue,30,30 lavender,45,45 magenta,60,60 yellow,75,75 orange,90,90 light_green,105,105 light_blue,120,120 right_rotate,193,214 stop,218,218 left_rotate,222,243 random,244,255 
+
+Channel = color2
+ white,0,0 pink,15,15 CTO_3200K,30,30 uv,45,45 light_yellow,60,60 green,75,75 aquamarine,90,90 CTO_5600K,105,105 blue,120,120 right_rotate,193,214 stop,218,218 left_rotate,222,243 random,244,255 
+
+Channel = gobo
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,7,7 Miscellaneous/gobo2,12,12 Miscellaneous/gobo3,17,17 Miscellaneous/gobo4,22,22 Miscellaneous/gobo5,27,27 Miscellaneous/gobo6,32,32 Miscellaneous/gobo1,37,37 Miscellaneous/gobo2,42,42 Miscellaneous/gobo3,47,47 Miscellaneous/gobo4,52,52 Miscellaneous/gobo5,57,57 Miscellaneous/gobo6,62,62 Miscellaneous/shake_gobo1,65,88 Miscellaneous/shake_gobo2,89,112 Miscellaneous/shake_gobo3,113,136 Miscellaneous/shake_gobo4,137,160 Miscellaneous/shake_gobo5,161,184 Miscellaneous/shake_gobo6,185,208 Miscellaneous/right_rotate,210,232 Miscellaneous/left_rotate,233,255 
+
+Channel = gobo_rotate
+ no_function,0,0 right_rotate,3,126 stop,128,128 left_rotate,130,253 stop,255,255 
+
+Channel = gobo2
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,15,15 Miscellaneous/gobo2,30,30 Miscellaneous/gobo3,45,45 Miscellaneous/gobo4,60,60 Miscellaneous/gobo5,75,75 Miscellaneous/gobo6,90,90 Miscellaneous/gobo7,105,105 Miscellaneous/right_rotate,193,214 Miscellaneous/stop,218,218 Miscellaneous/left_rotate,222,243 
+
+Channel = prism
+ open,0,0 index,11,138 prism_rotate,139,255 
+
+Channel = prism_rotate
+ no_function,0,0 right_rotate,3,126 stop,128,128 left_rotate,130,253 stop,255,255 
+
+Channel = focus
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = control
+ no_function,0,0 reset,12,12 reset_color,17,17 reset_gobo,22,22 reset_focus,27,27 reset_prism,32,32 reset_xy,37,37 
+

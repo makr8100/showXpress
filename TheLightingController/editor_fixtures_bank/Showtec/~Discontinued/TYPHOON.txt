@@ -1,0 +1,26 @@
+Name = SHOWTEC_TYPHOON
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = color
+ white,0,0 red,34,34 orange,65,65 green,93,93 magenta,113,113 uv,142,142 blue,173,173 green,198,198 uv,221,221 red,255,255
+
+Channel = gobo
+ full,0,0 gobo1,45,45 gobo2,74,74 gobo3,108,108 gobo4,139,139 gobo5,170,170 gobo6,210,210 gobo7,255,255
+
+Channel = shutter
+ off,0,0 on,26,26 strobe,50,250 on,255,255
+
+Channel = gobo_rotate
+ stop,0,0 clock,6,120 stop,130,130 counterclock,140,255
+
+Channel = pan
+
+Channel = tilt
+

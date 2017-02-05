@@ -1,0 +1,36 @@
+Name = TECHNYLIGHT_TRIDENT100
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = mode
+ laser_off,0,0 laser_and_scanner_off,150,150 shapes,200,255
+
+Channel = shape
+
+Channel = pan
+
+Channel = tilt
+
+Channel = pantilt_speed
+ fast,0,0 slow,255,255
+
+Channel = _no_icon
+ fast,0,0 slow,255,255
+
+Channel = shape_size
+ small,0,0 big,255,255
+
+Channel = color
+ red_green_yellow,0,44 2_colors,45,134 3_colors,135,224 multicolor,225,255
+
+Channel = color_segment
+

@@ -1,0 +1,47 @@
+Name = GENI_POINTER5
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = dimmer
+
+Channel = shutter
+ closed,0,0 strobe,8,255
+
+Channel = color
+ white,0,0 blue,60,60 red,100,100 green,140,140 rotate,168,255
+
+Channel = color
+ white,0,0 yellow,60,60 12000_K,100,100 3200_K,140,140 rotate,168,255
+
+Channel = iris
+ closed,0,0 aperture,2,159 fade_in,160,207 fade_out,208,254 open,255,255
+
+Channel = frost
+ normal,0,0 frost,255,255
+
+Channel = focus
+ near,0,0 middle,128,128 far,255,255
+
+Channel = beam
+ narrow,0,0 standard,127,127 magnify,255,255
+
+Channel = pan
+
+Channel = tilt
+
+Channel = upan
+
+Channel = utilt
+
+Channel = control
+ normal,0,0 reset_after_3s,255,255
+
+Channel = control
+ on_standby,0,0 on_after_3s,75,75 on_standby,130,130 on_after_3s,180,180 on_standby,255,255
+

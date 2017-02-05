@@ -1,0 +1,18 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = dimmer
+
+Channel = effect_speed
+
+Channel = effect_macro
+ dimmer,0,30 strobe,31,61 increasing_intensity,62,92 decreasing_intensity,93,123 inc_dec_intensity,124,154 three_flash,155,185 one_and_two_flash,186,216 flash,217,247 audio,255,255 
+

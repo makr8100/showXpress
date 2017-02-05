@@ -1,0 +1,26 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED60W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 30
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Contest/Architectural IP series/IPLINE-18TC .png
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = dimmer
+
+Channel = shutter
+ open,0,15 lighting_strobe,16,255 
+
+Channel = color_macro
+ no_function,0,15 red,16,31 green,32,47 blue,48,63 cyan,64,79 yellow,80,95 purple,96,111 white,112,127 mix_1,128,135 mix_2,136,143 mix_3,144,151 mix_4,152,159 mix_5,160,167 mix_6,168,175 mix_7,176,183 mix_8,184,191 macro_1,192,199 macro_2,200,207 macro_3,208,215 macro_4,216,223 macro_5,224,231 macro_6,232,239 macro_7,240,247 macro_8,248,255 
+

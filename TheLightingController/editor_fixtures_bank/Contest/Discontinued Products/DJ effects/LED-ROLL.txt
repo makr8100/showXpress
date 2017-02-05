@@ -1,0 +1,20 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = dimmer
+ closed,0,15 dimmer,16,255
+
+Channel = color_macro
+ macro_1,0,16 macro_2,17,33 macro_3,34,50 macro_4,51,67 macro_5,68,84 macro_6,85,101 macro_7,102,118 macro_8,119,135 macro_9,136,152 macro_10,153,169 macro_11,170,186 macro_12,187,203 macro_13,204,220 macro_14,221,237 macro_15,238,255
+
+Channel = effect
+ stop,0,9 right_rotate,10,120 stop,121,134 left_rotate,135,245 stop,246,255 
+

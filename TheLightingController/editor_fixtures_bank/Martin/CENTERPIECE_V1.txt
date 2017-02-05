@@ -1,0 +1,31 @@
+Name = MARTIN_CENTERPIECE_V1
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = control
+ manual_control,0,0 rand._music,74,74 rand._auto,124,124 music,174,174 auto,223,223 reset,250,250 lamp_on,255,255
+
+Channel = tilt
+ closed-open,0,198 full_open,255,255
+
+Channel = tilt
+ closed-open,0,198 full_open,255,255
+
+Channel = tilt
+ closed-open,0,198 full_open,255,255
+
+Channel = tilt
+ closed-open,0,198 full_open,255,255
+
+Channel = color
+ rotate_right,0,123 stop,128,128 rotate_left,132,255
+
+Channel = effect_speed
+ rotate_right,0,123 stop,128,128 rotate_left,132,255
+

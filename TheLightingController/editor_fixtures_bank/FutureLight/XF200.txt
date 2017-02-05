@@ -1,0 +1,21 @@
+Name = FUTURELIGHT_XF200
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_250HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewColor = 16777215
+
+Channel = gobo
+ Miscellaneous\closed,0,0 Miscellaneous\open,16,16 Miscellaneous\gobo1,27,27 Miscellaneous\gobo2,38,38 Miscellaneous\gobo3,49,49 Miscellaneous\gobo4,60,60 Miscellaneous\gobo5,71,71 Miscellaneous\gobo6,82,82 Miscellaneous\gobo7,93,93 Miscellaneous\gobo8,104,104 Miscellaneous\gobo9,115,115 Miscellaneous\gobo10,126,126 Miscellaneous\left_rotate,132,193 Miscellaneous\right_rotate,194,255
+
+Channel = color
+ mixed,0,240 rainbow,241,250 sound,255,255
+
+Channel = effect
+ stop,0,0 right_rotate,16,130 left_rotate,131,245 audio,255,255
+

@@ -1,0 +1,19 @@
+Name = COEF_FRESNEL
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = shutter
+ blackout,0,0 strobe,12,245 open,255,255
+
+Channel = color
+ white,0,0 yellow,30,30 blue,50,50 magenta,64,64 green,79,79 orange,100,100 cyan,120,120 pink,134,134 red,150,150 purple,170,170 green2,184,184 wood,194,194 rotate,200,255
+
+Channel = frost
+ blackout,0,0 frost_hard,45,45 frost_soft,105,105 ctc3200_5600,165,165 ctc5500_2900,255,255
+

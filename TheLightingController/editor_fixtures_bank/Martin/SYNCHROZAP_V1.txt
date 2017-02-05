@@ -1,0 +1,28 @@
+Name = MARTIN_SYNCHROZAP_V1
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = shutter
+ blackout,0,0 lamp_on,15,15 open,30,30 strobe,40,100 random_strobe,120,120 music_trigger,155,155 reset,244,244 lamp_off,255,255
+
+Channel = color
+ white,0,0 pink,22,22 light_green,40,40 yellow,58,58 magenta,76,76 light_blue,94,94 green,112,112 orange,130,130 blue,148,148 deep_orange,166,166 white,184,184 rotate,188,237 white,242,242 music_trigger,255,255
+
+Channel = gobo
+ open,0,0 gobo1,13,13 gobo2,22,22 gobo3,31,31 gobo4,40,40 gobo5,49,49 gobo6,58,58 gobo7,67,67 gobo8,76,76 gobo9,85,85 gobo10,94,94 gobo11,103,103 gobo12,112,112 gobo13,121,121 gobo14,130,130 gobo15,139,139 gobo16,148,148 gobo17,157,157 gobo18,166,166 gobo19,175,175 rotate,188,237 music_trigger,255,255
+
+Channel = effect_speed
+ no_rotation,0,0 counterclock,4,89 clock,90,176 drum_1_music_t,255,255
+
+Channel = effect_speed
+ no_rotation,0,0 counterclock,4,89 clock,90,176 drum_2_music_t,255,255
+
+Channel = effect
+ off,0,0 0_degree,30,30 90_degree,50,50 180_degree,70,70 270_degree,90,90 music_trig_spe,100,255
+

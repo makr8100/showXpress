@@ -1,0 +1,24 @@
+Name = CCH-850
+
+ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_575MSR
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = color
+ open,0,21 red,22,43 blue,44,65 pink,66,87 dark_yellow,88,109 light_blue,110,127 right_rotate,128,187 stop,188,193 left_rotate,194,255
+
+Channel = color
+ open,0,42 violet,43,85 green,86,128 yellow,129,171 pink,172,214 closed,255,255
+
+Channel = dimmer
+
+Channel = control
+ step_colors,0,0 linear_colors,30,30 lamp_on,50,50 lamp_off,70,70 reset_motors,90,90 macro_1,110,110 macro_2,130,130 macro_3,150,150 macro_4,170,170 program5,190,190 macro_6,210,210 macro_7,230,230 macro_8,255,255
+

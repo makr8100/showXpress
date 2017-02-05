@@ -1,0 +1,22 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 24
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = animation
+ pattern,0,0 chase,180,180 audio,255,255
+
+Channel = chase
+ closed,0,0 chase1,15,15 chase2,25,25 chase3,35,35 chase4,45,45 chase5,55,55 chase6,65,65 chase7,75,75 chase8,85,85 chase9,95,95 chase10,105,105 chase11,115,115 chase12,125,125 chase13,135,135 chase14,145,145 chase15,155,155 chase16,165,165 chase17,175,175 chase18,185,185 chase19,195,195 chase20,205,205 chase21,215,215 chase22,225,225 chase23,235,235 chase24,245,245 chase25,255,255
+
+Channel = shutter
+ open,0,0 strobe,10,255
+
+Channel = dimmer
+

@@ -1,0 +1,25 @@
+Name = ACME_FALCON
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HTI
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = shutter
+ stop,0,0 strobe,16,135 shaking,136,255
+
+Channel = gobo
+ Miscellaneous\closed,0,0 Miscellaneous\open,11,11 Chauvet\575gobo3,19,19 Contest\king_gobos-3,27,27 Chauvet\gobo8_100,35,35 Chauvet\gobo3_100,43,43 Chauvet\bubbles assorted,51,51 Geni\BR-2X-CH1-60-69,59,59 Miscellaneous\gobo7,67,67 Geni\MJS-3-CH1-90-99,75,75 Chauvet\swirl,83,83 Contest\king_gobos-11,91,91 Miscellaneous\gobo11,99,99 Chauvet\fan_4blades,107,107 Chauvet\3d star,115,115 Chauvet\gobo11_615,123,123 Miscellaneous\rotate,128,255
+
+Channel = gobo_rotate
+ left_rotate,10,120 right_rotate,160,245 stop,255,255
+
+Channel = beam
+ index,0,159 rotate,160,255
+

@@ -1,0 +1,14 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = laser
+ closed,0,0 effect_1,7,7 effect_2,12,12 effect_3,17,17  effect_4,22,22  effect_5,27,27  effect_6,32,32  effect_7,37,37  effect_8,42,42  effect_9,47,47  effect_10,52,52  effect_11,57,57  effect_12,62,62  effect_13,67,67  effect_14,72,72  effect_15,77,77  effect_16,82,82  effect_17,87,87  effect_18,92,92  effect_19,97,97  effect_20,102,102  effect_21,107,107  effect_22,112,112  effect_23,117,117  effect_24,122,122  effect_25,127,127  effect_26,132,132  effect_27,137,137  effect_28,142,142  effect_29,147,147  effect_30,152,152  effect_31,157,157  effect_32,162,162  effect_33,167,167  effect_34,172,172  effect_35,177,177  effect_36,182,182  effect_37,187,187  effect_38,192,192  effect_39,197,197  effect_40,202,202  effect_41,207,207  effect_42,212,212  effect_43,217,217  effect_44,222,222  effect_45,227,227 audio,255,255 
+

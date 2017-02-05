@@ -1,0 +1,36 @@
+Name = FUTURELIGHT_PSD200
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = pan
+
+Channel = tilt
+
+Channel = color
+ white,0,0 red,18,18 cyan,31,31 green,44,44 magenta,57,57 yellow,70,70 green2,84,84 orange,98,98 blue,111,111 white2,127,127 rainbow,128,255
+
+Channel = gobo
+ full,0,0 dia121,21,25 dia3,29,29 dia4,33,33 gobo1,37,37 gobo2,41,41 gobo3,45,45 gobo4,49,49 gobo5,53,53 d1_g1,57,57 d1_g2,61,61 d1_g3,65,65 d1_g4,69,69 d1_g5,73,73 d2_g1,77,77 d2_g2,81,81 d2_g3,85,85 d2_g4,89,89 d2_g5,91,91 d3_g1,95,95 d3_g2,101,101 d3_g3,105,105 d3_g4,109,109 d3_g5,113,113 d4_g1,117,117 d4_g2,121,121 d4_g3,125,125 d4_g4,129,129 d4_g5,133,133 rot_slide,151,151 rot_gobo,168,168 rot_slide&gobo,227,227
+
+Channel = gobo_rotate
+ position,0,127 clock,128,190 stop,191,191 counterclock,194,255
+
+Channel = shutter
+ dimmer,0,129 open,135,135 shutter_closed,145,145 strobe,151,199 page1,201,201 page2,205,205 page3,209,209 page4,213,213 page5,217,217 page6,221,221 page7,225,225 page8,229,229 page9,233,233 page10,237,237 test_page,241,241 reset,245,245 disable,248,248 lamp_off,250,250 open,255,255
+
+Channel = focus
+
+Channel = beam
+
+Channel = fade
+
+Channel = upan
+
+Channel = utilt
+

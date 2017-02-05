@@ -1,0 +1,18 @@
+Name = STAGETECH_IMAGINE
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = shutter
+
+Channel = gobo
+ gobo1,0,0 gobo2,20,20 gobo3,32,32 gobo4,46,46 gobo5,60,60 gobo6,72,72 gobo7,88,88 gobo8,100,100 gobo9,112,112 gobo10,128,128 gobo11,140,140 gobo12,155,155 gobo13,170,170 gobo14,180,180 gobo15,194,194 gobo16,208,208 gobo17,220,220 gobo18,235,235 gobo19,246,246 rotate,252,255
+
+Channel = effect
+ clock,0,123 counterclock,124,255
+

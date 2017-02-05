@@ -1,0 +1,18 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 28
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/COLORrail IRC.png
+
+Channel = color_macro
+ no_function,0,7 Red,8,15 Yellow,16,23 Green,24,31 Cyan,32,39 Blue,40,47 Purple,48,55 White,56,63 auto Program 1,64,71 auto Program 2,72,79 auto Program 3,80,87 auto Program 4,88,95 auto Program 5,96,103 auto Program 6,104,111 auto Program 7,112,119 auto Program 8,120,127 auto Program 9,128,135 auto Program 10,136,143 auto Program 11,144,151 auto Program 12,152,159 auto Program 13,160,167 auto Program 14,168,175 auto Program 15,176,183 auto Program 16,184,191 auto Program 17,192,199 auto Program 18,200,207 auto Program 19,208,215 auto Program 20,216,223 auto Program 21,224,231 Sound Mode,232,255
+
+Channel = Auto program sleep
+ auto Program Speed,0,255
+

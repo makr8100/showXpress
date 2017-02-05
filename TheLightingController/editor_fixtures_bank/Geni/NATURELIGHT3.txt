@@ -1,0 +1,26 @@
+Name = GENI_NATURELIGHT3
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = pan
+
+Channel = tilt
+
+Channel = gobo
+ slide_1,0,0 slide_2,50,50 slide_3,80,80 slide_4,110,110 rotate,128,255
+
+Channel = gobo_rotate
+ slide_angle,0,127 clock,128,190 counterclock,192,255
+
+Channel = focus
+ near,0,0 middle,128,128 far,255,255
+
+Channel = shutter
+ closed,0,0 open,10,10 dimmer,16,95 strobe,96,190 open,200,200 lamp_on,220,220 lamp_off,240,240 motor_reset,255,255
+

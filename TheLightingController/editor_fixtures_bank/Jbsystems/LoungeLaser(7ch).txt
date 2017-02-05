@@ -1,0 +1,32 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = mode
+ closed,0,0 auto1,75,75 auto2,125,125 audio,180,180 dmx,255,255
+
+Channel = red
+ closed,0,0 open,100,100 strobe,128,254 audio,255,255
+
+Channel = green
+ closed,0,0 open,100,100 strobe,128,254 audio,255,255
+
+Channel = rotation_laser_dots
+ stop,0,0 right_rotate,5,127 stop,131,131 left_rotate,134,255
+
+Channel = rotation_led_effect
+ stop,0,0 right_rotate,5,127 stop,131,131 left_rotate,134,255
+
+Channel = dimmer
+
+Channel = shutter
+ closed,0,0 open,100,100 strobe,128,254 audio,255,255 
+

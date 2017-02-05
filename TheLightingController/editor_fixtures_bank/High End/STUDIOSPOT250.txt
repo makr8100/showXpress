@@ -1,0 +1,60 @@
+Name = HIGH-END_STUDIOSPOT250
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_250MSR
+ViewAnglePan = 570
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = color_macro
+ indexed,0,0 right_rotate,23,23 left_rotate,39,39 continuous,55,55 slow_scan,71,71 fast_scan,87,87 random,103,103 blink,119,119 mspeed_indexed,135,135 mspeed_rightspin,151,151 mspped_leftspin,167,167 mspeed_continuous,183,183 mspeed_slowscan,199,199 mspeed_fastscan,215,215 mspeed_random,231,231 mspeed_blink,255,255
+
+Channel = color
+ white,0,0 pink,19,19 aqua,39,39 dark_magenta,58,58 green,78,78 amber,98,98 yellow,117,117 dark_blue,137,137 red,156,156 indigo,176,176 orange,196,196 light_blue,215,215 cto,235,235 white,255,255
+
+Channel = litho_function
+ indexed,0,0 right_rotate,23,23 left_rotate,39,39 spin,55,55 fast_scan,71,71 random,87,87 blink,103,103 blink_aperture,119,119 mspeed_indexed,135,135 mspeed_rightrotate,151,151 mspped_leftrotate,167,167 mspeed_spin,183,183 mspeed_fastscan,199,199 mspeed_random,215,215 mspeed_blink,231,231 mspeed_blinkaperture,255,255
+
+Channel = litho_position
+ position0,0,0 position1,31,31 position2,65,65 position3,95,95 position4,127,127 position5,159,159 position6,191,191 position7,225,225 position0,255,255
+
+Channel = litho_rotate
+
+Channel = effect
+ position0,0,0 position1,38,38 position2,64,64 position3,89,89 position4,115,115 mspeed_pos0,140,140 mspeed_pos1,166,166 mspeed_pos2,191,191 mspeed_pos3,217,217 mspeed_pos4,255,255
+
+Channel = effect_rotate
+ left_rotate,0,120 stop,127,127 right_rotate,135,255
+
+Channel = focus
+
+Channel = iris
+ index,0,127 strobe,143,143 random_strobe,159,159 snapshut,175,175 rampshut,207,207 random_snap,223,223 random_ramp,239,239 open,255,255
+
+Channel = shutter
+ closed,0,0 strobe,36,36 random_strobe,62,62 random_sync,88,88 snapshut,114,114 rampshut,140,140 ramp_open,166,166 random_snap,192,192 random_ramp,218,218 open,255,255
+
+Channel = dimmer
+
+Channel = mspeed
+ controller,0,0 index,4,255
+
+Channel = effect_macro
+ stop,0,0 macro1,9,9 macro2,13,13 macro3,17,17 macro4,21,21 macro5,25,25 macro6,29,29 macro7,33,33 macro8,37,37 macro9,41,41 macro10,45,45 macro11,49,49 macro12,53,53 macro13,57,57 macro14,61,61 macro15,65,65 macro16,69,69 macro17,73,73 macro18,77,77 macro19,81,81 macro20,85,85 macro21,89,89 macro22,93,93 macro23,97,97 macro24,101,101 macro25,105,105 macro26,109,109 macro27,113,113 macro28,117,117 macro29,121,121 macro30,125,125 macro31,129,129 macro32,133,133 random,151,151 modulate,215,215 lad_on,255,255
+
+Channel = control
+ normal,0,0 mspeed_off,15,15 display_off,24,24 display_dim,34,34 display_bright,44,44 home,64,64 lamp_on,84,84 lamp_off,94,94 shutdown,125,125 no_function,255,255
+

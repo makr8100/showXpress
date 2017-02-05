@@ -1,0 +1,70 @@
+Name = DUNE5LASERLIGHT
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_1200MSR
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = program
+ audio,0,0 auto,96,96 manu_audio,154,154 active_auto,255,255
+
+Channel = line
+ discontinuous,0,0 flash,96,96 continuous,154,154 closed,255,255
+
+Channel = gobo
+
+Channel = gobo_rotate
+ open,0,0 rotate,128,255
+
+Channel = rotate
+ stop,0,0 horizontal,64,127 vertical,128,191 both,192,255
+
+Channel = strech
+ stop,0,0 horizontal,64,127 vertical,128,191 both,192,255
+
+Channel = move
+ stop,0,0 horizontal,64,127 vertical,128,191 both,192,255
+
+Channel = projection
+
+Channel = speed
+
+Channel = size
+ normal,0,0 left_rotate,1,12 right_rotate,13,24
+
+Channel = position
+ center,0,0 right,46,46 up_right,77,77 up,108,108 up_left,139,139 left,168,168 down_left,201,201 down,232,232 down_right,255,255
+
+Channel = display
+ both,0,0 gobo1,128,128 gobo2,255,255
+
+Channel = gobo2
+
+Channel = gobo_rotate2
+ open,0,0 rotate,128,255
+
+Channel = rotate2
+ stop,0,0 horizontal,64,127 vertical,128,191 both,192,255
+
+Channel = strech2
+ stop,0,0 horizontal,64,127 vertical,128,191 both,192,255
+
+Channel = move2
+ stop,0,0 horizontal,64,127 vertical,128,191 both,192,255
+
+Channel = projection2
+
+Channel = speed2
+
+Channel = size2
+ normal,0,0 left_rotate,1,12 right_rotate,13,24
+
+Channel = position2
+ center,0,0 right,46,46 up_right,77,77 up,108,108 up_left,139,139 left,168,168 down_left,201,201 down,232,232 down_right,255,255
+

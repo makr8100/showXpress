@@ -1,0 +1,30 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = red_laser
+ closed,0,0 open,12,12 dash_effect,16,131 dot_on_line,132,247 open,255,255 
+
+Channel = red_laser
+ closed,0,0 open,12,12 dash_effect,16,131 dot_on_line,132,247 open,255,255 
+
+Channel = patterns
+ pattern1,0,0 pattern2,19,19 pattern3,32,32 pattern4,45,45 pattern5,58,58 pattern6,72,72 pattern7,83,83 pattern8,96,96 pattern9,109,109 pattern10,122,122 pattern11,136,136 pattern12,17,147 pattern13,160,160 pattern14,174,174 pattern15,186,186 pattern16,198,198 pattern17,211,211 pattern18,224,224 pattern19,237,237 pattern20,255,255
+
+Channel = movement
+ no_function,0,0 left_right,10,120 up_down,135,245 
+
+Channel = rotation
+ no_function,0,0 left_rotate,10,120 right_rotate,135,245 
+
+Channel = zoom
+ index,0,127 in_out,128,255 
+

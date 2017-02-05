@@ -1,0 +1,68 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LAMP575W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = shutter
+ closed,0,0 open,5,5 strobe,8,127 pulse_strobe,128,191 random_strobe,240,240 open,255,255 
+
+Channel = shutter_macro
+ no_function,0,0 blackout_moves,48,48 blackout_changes,80,80 blackout_color,140,140 blackout_all,255,255 
+
+Channel = dimmer
+
+Channel = color
+ white,0,0 green,134,134 pink,138,138 red,142,142 3200K,145,145 5600K,149,149 light_blue,154,154 pink,158,158 dark_blue,162,162 
+
+Channel = iris
+ index,0,63 pulse_iris,64,191 iris_effect,192,255 
+
+Channel = gobo
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,12,12 Miscellaneous/gobo2,20,20 Miscellaneous/gobo3,28,28 Miscellaneous/gobo4,36,36 Miscellaneous/gobo5,44,44 Miscellaneous/gobo6,52,52 Miscellaneous/gobo7,60,60 Miscellaneous/shaking,64,71 Miscellaneous/shake_gobo1,72,79 Miscellaneous/shake_gobo2,80,87 Miscellaneous/shake_gobo3,88,95 Miscellaneous/shake_gobo4,96,103 Miscellaneous/shake_gobo5,104,111 Miscellaneous/shake_gobo6,112,119 Miscellaneous/shake_gobo7,120,127 Miscellaneous/left_rotate,128,191 Miscellaneous/right_rotate,192,255 
+
+Channel = gobo2
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,15,15 Miscellaneous/gobo2,25,25 Miscellaneous/gobo3,35,35 Miscellaneous/gobo4,45,45 Miscellaneous/gobo5,55,55 Miscellaneous/gobo6,65,65 Miscellaneous/open,70,70 Miscellaneous/shake_gobo1,72,80 Miscellaneous/shake_gobo2,81,89 Miscellaneous/shake_gobo3,90,98 Miscellaneous/shake_gobo4,99,107 Miscellaneous/shake_gobo5,108,116 Miscellaneous/shake_gobo6,117,127 Miscellaneous/right_rotate,128,191 Miscellaneous/left_rotate,192,255 
+
+Channel = gobo_rotate2
+ index,0,63 rotate,64,127 right_rotate,128,191 left_rotate,192,255 
+
+Channel = focus
+
+Channel = zoom
+
+Channel = prism
+ no_function,0,0 index,4,63 rotate,64,126 right_rotate,127,191 left_rotate,192,255 
+
+Channel = color_macro
+
+Channel = color_speed
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = yellow
+
+Channel = effect_macro
+
+Channel = effect_rotation
+ index,0,63 rotate,64,127 right_rotate,128,191 left_rotate,192,255 
+
+Channel = control
+ no_function,0,0 fan4,160,160 fan_auto,170,170 fan1,190,190 lamp_off,225,225 reset,240,240 lamp_on,255,255 
+

@@ -1,0 +1,41 @@
+Name = MARTIN_MAC1200_V1M4
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = shutter
+ closed,0,0 strobe,50,177 reset,212,212 lamp_on,232,232 lamp_off,255,255
+
+Channel = dimmer
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = yellow
+
+Channel = color
+ white,0,0 col1_col2,40,79 col2_col3,80,119 col3_col4,120,159 color_4,164,164 color_3,170,170 color_2,175,175 color_1,182,182 white,188,188 rotate,192,255
+
+Channel = gobo
+ open,0,0 gob1_gob2,32,57 gob2_gob3,58,82 gob3_gob4,83,105 gob4_gob5,106,125 gob5_gob6,126,161 gobo6,164,164 gobo5,168,168 gobo4,172,172 gobo3,176,176 gobo2,180,180 gobo1,184,184 open,188,188 rotate,192,255
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+ tracking,0,0 fast-slow,4,251 black_while_mo,255,255
+
+Channel = effect_speed
+ tracking,0,0 fast-slow,4,251 fast_speed,255,255
+

@@ -1,0 +1,26 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = motor
+ index,0,100 rotate,101,255
+
+Channel = color_macro
+ dimmer,0,35 strobe,36,70 shadow,71,105 color_over,106,140 color_over&strobe,141,175 glide,176,210 glide&strobe,211,255
+
+Channel = timing
+
+Channel = dimmer
+
+Channel = dimmer
+
+Channel = dimmer
+

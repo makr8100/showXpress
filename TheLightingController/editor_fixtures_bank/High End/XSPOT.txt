@@ -1,0 +1,107 @@
+Name = HIGH-END_XSPOT
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_575MSR
+ViewAnglePan = 630
+ViewAngleTilt = 240
+ViewAngleBeam = 30
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewColor = 0
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = control
+ normal,0,0 strobe_boost,48,48 effects_boost,80,80 dual_dimming,96,127 elect_dimming,128,159 normal,255,255
+
+Channel = shutter
+ closed,0,0 periodic_strobes,36,36 random_strobes,64,64 synch_strobes,92,92 boost_lamp,102,153 lighting_strikes,154,179 open,255,255
+
+Channel = dimmer
+
+Channel = frost
+ index,0,135 periodic_strobe,136,151 random_strobe,152,167 ramp_open,168,183 snap_open,184,199 ramp_open,200,215 random_ramp,216,231 random_snap,232,247 open,255,255
+
+Channel = focus
+ zoom_track,0,0 manual_focus,50,50
+
+Channel = focus
+
+Channel = beam
+
+Channel = effect_speed
+
+Channel = effect
+ open,0,0 pan_sweet,35,35 tilt_sweep,85,85 clock_circle,126,160 counter_circle,164,198
+
+Channel = control
+ safe,0,0 mspeed off,15,15 display_off,24,24 display_dim,34,34 display_bright,44,44 home_all,64,64 lamp_on,84,84 lamp_off,94,94 shutdown,124,124 home_pantilt,164,164 home_color,174,174 home_gobo,184,184 home_strobe,194,194 home_focus,204,204 home_iris,214,214
+
+Channel = color
+ index,0,0 right_rotate,24,24 left_rotate,40,40 continuous,56,56 slow_scan,72,72 fast_scan,88,88 random,104,104 blink_index,120,120 index,128,143 right_rotate,144,159 left_rotate,160,175 continuous,176,191 slow_scan,200,200 fast_scan,216,216 random,232,232 blink,255,255
+
+Channel = color
+ white,0,0 color1,52,52 color2,90,90 color3,130,130 color4,170,170 color5,208,208 white,255,255
+
+Channel = mix_color
+ pure_mix,0,0 continuous,24,24 spin,54,54 cycle,70,70 random,105,105 blink,120,120 pure_mix,135,135 continuous,152,152 spin,184,184 cycle,200,200 random,230,230 blink,255,255
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = yellow
+
+Channel = temp_orange
+ open,0,0 full_CTO,170,170 beam_flatness,213,213 open,255,255
+
+Channel = temp_blue
+ beam_flatten,0,0 open,43,43 full_CTB,213,213 beam_flatness,255,255
+
+Channel = gobo_rotate
+ index,0,0 right_rotate,16,31 left_rotate,32,47 scan,54,54 random,68,68 blink,88,88 TBC,104,104 continuous,120,120 index,136,136 right_rotate,152,152 left_rotate,168,168 scan,184,184 random,200,200 blink,216,216 TBC,232,232 continuous,255,255
+
+Channel = gobo
+ open,0,0 gobo1,24,24 gobo2,56,56 gobo3,88,88 gobo4,120,120 gobo5,152,152 gobo6,184,184 gobo7,216,216 open,255,255
+
+Channel = gobo_rotate
+ index,0,0 right_rotate,16,31 left_rotate,32,47 scan,54,54 blink,70,70 index,136,136 right_rotate,152,152 left_rotate,168,168 scan,184,184 blink,200,200
+
+Channel = gobo_rotate
+
+Channel = gobo_urotate
+
+Channel = effect_speed
+ index,0,0 right_rotate,16,31 left_rotate,32,47 scan,54,54 blink,70,70 index,136,136 right_rotate,152,152 left_rotate,168,168 scan,184,184 blink,200,200
+
+Channel = effect
+
+Channel = effect_speed
+ index,0,0 right_rotate,16,31 left_rotate,32,47 scan,54,54 blink,70,70 index,136,136 right_rotate,152,152 left_rotate,168,168 scan,184,184 blink,200,200
+
+Channel = effect_coarse
+
+Channel = effect_fine
+
+Channel = gobo_rotate
+ index,0,0 right_rotate,16,31 left_rotate,32,47 scan,54,54 random,68,68 blink,88,88 TBC,104,104 continuous,120,120 index,136,136 right_rotate,152,152 left_rotate,168,168 scan,184,184 random,200,200 blink,216,216 TBC,232,232 continuous,255,255
+
+Channel = gobo
+ open,0,0 gobo1,24,24 gobo2,56,56 gobo3,88,88 gobo4,120,120 gobo5,152,152 gobo6,184,184 gobo7,216,216 open,255,255
+
+Channel = gobo_rotate
+ index,0,0 right_rotate,16,31 left_rotate,32,47 scan,54,54 blink,70,70 index,136,136 right_rotate,152,152 left_rotate,168,168 scan,184,184 blink,200,200
+
+Channel = gobo_rotate
+
+Channel = gobo_urotate
+
+Channel = iris
+ index,0,128 periodic_strobe,144,144 random_strobe,160,160 open,161,255
+

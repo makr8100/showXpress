@@ -1,0 +1,56 @@
+Name = ROBE_MSZOOM250XT
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_250MSR
+ViewAnglePan = 530
+ViewAngleTilt = 280
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 13158600
+
+Channel = pan
+
+Channel = tilt
+
+Channel = upan
+
+Channel = utilt
+
+Channel = pantilt_speed
+ tracking,0,0 max_to_min,1,249 black_colgob,251,251 black_pantillt,255,255
+
+Channel = control
+ fan_speed,0,127 reset,132,132 lamp_off,234,234
+
+Channel = color
+ white,0,0 blue,16,16 red,32,32 green,48,48 yellow,64,64 magenta,80,80 cyan,96,96 light_green,112,112 right_rotate,128,189 stop,191,191 left_rotate,194,255
+
+Channel = gobo
+ Miscellaneous\open,0,0 light_blue,24,24 pink,44,44 umber,60,60 gobo1,80,80 gobo2,96,96 gobo3,116,116 macro_color,160,160 stop,192,192 Miscellaneous\rotate,194,255
+
+Channel = effect
+ open,0,0 prism,96,159 macro1,164,164 macro2,172,172 macro3,180,180 macro4,188,188 macro5,198,198 macro6,204,204 macro7,212,212 macro8,220,220 macro9,228,228 macro10,236,236 macro11,244,244 macro12,255,255
+
+Channel = prism
+ stop,0,0 right_rotate,1,126 stop,128,128 left_rotate,129,255
+
+Channel = gobo2
+ Miscellaneous\open,0,0 gobo1,48,48 gobo2,80,80 gobo3,112,112 gobo4,144,144 gobo5,190,190 Miscellaneous\rotate,224,255
+
+Channel = gobo_rotate2
+ index,0,127 right_rotate,128,190 stop,192,192 left_rotate,193,255
+
+Channel = beam
+ zoom_no_focus,0,95 frost,105,105 UV-fliter,120,120 zoom_focus,128,223 frost,230,230 UV-filter,255,255
+
+Channel = focus
+ focus_far,0,0 focus_mid,128,128 focus_near,255,255
+
+Channel = shutter
+ closed,0,0 strobe,64,95 pulse_strobe,128,159 random_strobe,192,223 open,255,255
+
+Channel = dimmer
+

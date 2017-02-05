@@ -1,0 +1,53 @@
+Name = BRITEQ_BT575S
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_575MSR
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 14
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = pan
+
+Channel = tilt
+
+Channel = pantilt_speed
+
+Channel = dimmer
+
+Channel = shutter
+ closed,0,0 strobe,16,131 shake_gobo1,132,185 shake_gobo2,186,239 audio,243,243 open,255,255
+
+Channel = color
+ white,0,0 green,19,19 magenta,32,32 light_blue,45,45 yellow,57,57 red,70,70 blue,83,83 uv,95,95 light_green,108,108 pink,121,121 right_rotate,128,191 left_rotate,192,255
+
+Channel = reserved
+
+Channel = gobo
+ ok_for_3DView\open,0,0 Miscellaneous\gobo1,19,19 Chauvet\3d star2,32,32 Geni\OBY-5-CH3-64-79,45,45 Martin\radialbreakup,57,57 Martin\highways,70,70 Chauvet\575icon2,83,83 Martin\thinbars,95,95 Martin\dotbreakup2,108,108 Martin\water4,121,121 Miscellaneous\right_rotate,128,191 Miscellaneous\left_rotate,192,255
+
+Channel = gobo2
+ ok_for_3DView\open,0,0 ok_for_3DView\phone,23,23 Miscellaneous\gobo2,39,39 Geni\OBY-2000-CH10-48-63,55,55 ok_for_3DView\triangle,71,71 Miscellaneous\gobo5,87,87 ok_for_3DView\bar,103,103 Showtec\explo575-WHB-05,119,119 Miscellaneous\right_rotate,128,191 Miscellaneous\left_rotate,192,255
+
+Channel = gobo_rotate2
+ right_rotate,10,120 left_rotate,135,245 stop,255,255
+
+Channel = prism
+ open,0,0 auto1,128,128 auto2,255,255
+
+Channel = prism_rotate
+ stop,0,0 right_rotate,10,120 left_rotate,135,245 stop,255,255
+
+Channel = focus
+
+Channel = upan
+
+Channel = utilt
+
+Channel = control
+ stop,0,0 reset,255,255
+

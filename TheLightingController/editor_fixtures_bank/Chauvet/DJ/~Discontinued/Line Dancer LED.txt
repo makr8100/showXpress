@@ -1,0 +1,24 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+2DViewImage = Chauvet/Line Dancer LED.png
+
+Channel = mode
+ no_function,0,20 red,21,40 green,41,60 blue,61,80 red_green,81,100 red_blue,101,120 green_blue,121,140 red_green_blue,141,160 mode1,161,180 mode2,181,200 mode3,201,220 mode4,221,240 audio,241,255
+
+Channel = strobe_speed
+ no_function,0,9 new_level,10,255
+
+Channel = speed_control
+ no_function,0,9 slow_fast,10,255
+
+Channel = motor
+ no_function,0,9 slow_fast,10,255
+

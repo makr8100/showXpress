@@ -1,0 +1,20 @@
+Name = GENIUS_COLORECO
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = reserved
+
+Channel = color
+ blackout,0,0 color1,20,20 color2,40,40 color3,55,55 color4,70,70 color5,85,85 color6,105,105 color7,120,120 color8,135,135 color9,150,150 color10,170,170 color11,180,180 rotate,192,255
+
+Channel = reserved
+
+Channel = shutter
+ open,0,0 strobe,4,255
+

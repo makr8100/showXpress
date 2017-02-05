@@ -1,0 +1,60 @@
+Name = Legend 5000X
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_575MSR
+ViewAnglePan = 540
+ViewAngleTilt = 240
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 13158600
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = shutter
+ closed,0,0 open,1,7 strobe,8,63 open,64,71 pulse_strobe,72,127 open,128,135 pulse_strobe,136,191 open,192,199 random_strobe,200,253 open,254,255
+
+Channel = color
+ white,0,13 blue,14,27 orange,28,41 green,42,55 dark_blue,56,69 blacklight,70,83 red,84,97 light_blue,98,111 yellow,112,125 pink,126,139 green,140,153 cyan,154,160 rotate,168,255
+
+Channel = color
+ white,0,13 cyan,14,27 pink,28,41 yellow,42,55 3200-4100k,56,69 5500-4200k,70,83 split_color,84,97 split_color,98,111 split_color,112,125 split_color,126,139 quad_color,140,153 quad_color,154,167 rotate,168,255
+
+Channel = gobo2
+ Chauvet\open,0,15 Chauvet\575gobo17,16,31 Chauvet\141181,32,47 Chauvet\New_wave,48,63 Chauvet\machine,64,79 Chauvet\littlestar,80,95 Chauvet\grid_ball,96,111 Chauvet\5000gobo,112,127 Chauvet\cool,128,143 Chauvet\small_stars,144,159 Miscellaneous\rotate,160,255
+
+Channel = gobo
+ Chauvet\open,0,12 Chauvet\142031,13,25 Chauvet\Qmix3,26,38 Chauvet\575gobo16,39,51 Chauvet\575gobo5,52,64 Chauvet\144009,65,77 Chauvet\3,78,95 Chauvet\142031,96,111 Chauvet\Qmix2,112,127 Chauvet\575gobo16,128,143 Chauvet\575gobo5,144,159 Chauvet\144009,160,175 Chauvet\3,176,191 Miscellaneous\rotate,192,221 Miscellaneous\stop,222,225 Miscellaneous\rotate,226,255
+
+Channel = gobo_rotate
+ index,0,127 left_rotate,128,151 right_rotate,152,255
+
+Channel = prism
+ no_function,0,1 stop,2,7 right_rotate,8,131 left_rotate,134,253 stop,255,255
+
+Channel = iris
+ closed,0,0 dimmer,2,159 pulse_strobe,160,207 pulse_strobe,208,254 open,255,255
+
+Channel = focus
+
+Channel = pan
+ new_level,0,255
+
+Channel = tilt
+ new_level,0,255
+
+Channel = upan
+ new_level,0,255
+
+Channel = utilt
+ new_level,0,255
+
+Channel = control
+ pantilt_speed,0,63 no_function,64,127 reset,128,255
+
+Channel = control
+ no_function,0,47 lamp_on,48,95 no_function,96,159 lamp_off,160,207 no_function,208,208
+

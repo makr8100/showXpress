@@ -1,0 +1,24 @@
+Name = OPTIMA_EXB240
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_250MSR
+ViewAnglePan = 180
+ViewAngleTilt = 360
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = pan
+
+Channel = tilt
+ stop,0,0 right_rotate,20,135 left_rotate,140,255
+
+Channel = color
+ white,0,0 light_red,16,16 salmon,27,27 blue,38,38 light_green,49,49 pink,60,60 dark_blue,71,71 red,82,82 yellow,93,93 light_blue,104,104 orange,115,115 dark_green,126,126 right_rotate,128,191 left_rotate,197,255
+
+Channel = gobo
+ Miscellaneous\closed,0,0 Standard\iris_medium,19,19 Standard\square,27,27 Standard\cone,35,35 Standard\stars_circle,43,43 Standard\laser_ray,51,51 Standard\inner_circle,59,59 Standard\beam_splitter4,67,67 High End Systems\141159,75,75 Standard\groovy,83,83 Standard\pling,91,91 Standard\sharp_burst,99,99 Standard\egyptian_space,107,107 Standard\lotus,115,115 Standard\cyclone,123,123 Miscellaneous\reset,135,135 Miscellaneous\rotate,138,159 Miscellaneous\strobe,160,200 Miscellaneous\open,255,255
+

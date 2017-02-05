@@ -1,0 +1,18 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/PRO/Atmos-2D.png
+
+Channel = volume
+ no_function,0,5 0~100% Output,6,255 
+
+Channel = Continuous Output
+ no_function,0,5 Continuous output preset,6,255 
+

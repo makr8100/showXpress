@@ -1,0 +1,54 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LAMP575W
+ViewAnglePan = 530
+ViewAngleTilt = 285
+ViewAngleBeam = 25
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+2DViewImage = 
+
+Channel = pan
+
+Channel = tilt
+
+Channel = pantilt_speed
+
+Channel = shutter
+ dimmer,0,127 strobe,128,249 open,250,255
+
+Channel = color
+ white,0,21 magenta,22,43 orange,44,65 yellow,66,87 pink,88,109 blue,110,127 rotate,128,191 rotate,192,255
+
+Channel = color2
+ white,0,15 purple,16,31 3500-5600K,32,47 cold_white,48,69 3200-4100K,70,79 green,80,95 cyan,96,111 1000K,112,127 rotate,128,190 rotate,191,255
+
+Channel = gobo
+ ok_for_3DView/open,0,25 Chauvet/Qmix7,26,51 Chauvet/swirl,52,77 Chauvet/11,78,103 Chauvet/star 3D,104,127 ok_for_3DView/rotate,128,191 ok_for_3DView/rotate,192,255
+
+Channel = gobo_rotate
+ stop,0,0 right_rotate,1,85 left_rotate,86,170 stop,171,178 index,179,255
+
+Channel = gobo2
+ ok_for_3DView/open,0,10 Chauvet/target2,11,25 Chauvet/swirl 5,26,40 Chauvet/575gobo12,41,55 Chauvet/575gobo9,56,70 Chauvet/2,71,85 Chauvet/target2,86,100 Chauvet/swirl 5,101,115 Chauvet/575gobo12,116,130 Chauvet/575gobo9,131,145 Chauvet/2,146,160 ok_for_3DView/rotate,161,208 ok_for_3DView/rotate,209,255
+
+Channel = focus
+
+Channel = prism
+ open,0,31 prism,32,255
+
+Channel = prism_rotate
+ left_rotate,0,85 right_rotate,86,170 stop,171,178 open,179,255
+
+Channel = iris
+ open,0,10 iris,11,199 stop,200,255
+
+Channel = control
+ stop,0,9 macro_1,10,24 macro_2,25,39 closed,40,54 macro_3,55,69 macro_4,70,84 macro_5,85,99 macro_6,100,114 macro_7,115,129 macro_8,130,144 macro_9,145,159 macro_10,160,174 macro_11,175,189 macro_12,190,204 macro_13,205,219 macro_14,220,230 open,231,255
+
+Channel = upan
+
+Channel = utilt
+

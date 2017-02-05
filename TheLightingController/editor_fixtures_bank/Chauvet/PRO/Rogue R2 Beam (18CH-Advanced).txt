@@ -1,0 +1,66 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/PRO/R2Beam-2D.png
+
+Channel = pan
+ dimmer,0,255
+
+Channel = upan
+ dimmer,0,255
+
+Channel = tilt
+ dimmer,0,255
+
+Channel = utilt
+ dimmer,0,255
+
+Channel = pantilt_speed
+ dimmer,0,255
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = udimmer
+ dimmer,0,255
+
+Channel = shutter
+ lamp_off,0,7 lamp_on,8,15 strobe,16,131 pulse_open,132,167 pulse_close,168,203 pulse_strobe,204,239 random_strobe,240,247 lamp_on,248,255
+
+Channel = color
+ open,0,4 dark_red,5,8 dark_yellow,9,12 cyan,13,16 green,17,20 light_green,21,24 light_blue,25,28 light_red,29,32 light_yellow,33,36 purple,37,40 blue,41,44 5500-3400K,45,48 5500-4200K,49,52 3200-4100K,53,56 uv,57,60 split_color,61,127 right_rotate,128,189 stop,190,193 left_rotate,194,255
+
+Channel = gobo
+ Miscellaneous/open,0,3 Miscellaneous/gobo1,4,6 Miscellaneous/gobo2,7,9 Miscellaneous/gobo3,10,12 Miscellaneous/gobo4,13,15 Miscellaneous/gobo5,16,18 Miscellaneous/gobo6,19,21 Miscellaneous/gobo7,22,24 Miscellaneous/gobo8,25,27 Miscellaneous/gobo9,28,30 Miscellaneous/gobo10,31,33 Miscellaneous/gobo11,34,36 Miscellaneous/gobo12,37,39 Miscellaneous/gobo13,40,42 Miscellaneous/gobo14,43,45 Miscellaneous/gobo15,46,48 Miscellaneous/gobo16,49,51 Miscellaneous/gobo17,52,55 Miscellaneous/open,56,59 Miscellaneous/shake_gobo1,60,63 Miscellaneous/shake_gobo2,64,67 Miscellaneous/shake_gobo3,68,71 Miscellaneous/shake_gobo4,72,75 Miscellaneous/shake_gobo5,76,79 Miscellaneous/shake_gobo6,80,83 Miscellaneous/shake_gobo7,84,87 Miscellaneous/shake_gobo8,88,91 Miscellaneous/shake_gobo9,92,95 Miscellaneous/shake_gobo10,96,99 Miscellaneous/shake_gobo11,100,103 Miscellaneous/shake_gobo12,104,107 Miscellaneous/shake_gobo13,108,111 Miscellaneous/shake_gobo14,112,115 Miscellaneous/shake_gobo15,116,119 Miscellaneous/shake_gobo16,120,123 Miscellaneous/shake_gobo17,124,127 Miscellaneous/left_rotate,128,189 Miscellaneous/stop,190,193 Miscellaneous/right_rotate,194,255
+
+Channel = prism
+ no_function,0,4 Prism Effects,5,255
+
+Channel = prism_rotate
+ index,0,127 left_rotate,128,189 stop,190,193 right_rotate,194,255
+
+Channel = prism_zoom
+ dimmer,0,255
+
+Channel = focus
+ dimmer,0,255
+
+Channel = frost
+ dimmer,0,255
+
+Channel = movement_macro
+ no_function,0,7 macro_1,8,15 macro_2,16,23 macro_3,24,31 macro_4,32,39 macro_5,40,47 macro_6,48,55 macro_7,56,63 macro_8,64,71 macro_9,72,79 macro_10,80,87 macro_11,88,95 macro_12,96,103 macro_13,104,111 macro_14,112,119 macro_15,120,127 macro_16,128,135 macro_17,136,143 macro_18,144,151 macro_19,152,159 macro_20,160,167 macro_21,168,175 macro_22,176,183 macro_23,184,191 macro_24,192,199 macro_25,200,207 macro_26,208,215 macro_27,216,223 macro_28,224,231 macro_29,232,239 macro_30,240,247 macro_31,248,255
+
+Channel = effect_speed
+ dimmer,0,255
+
+Channel = control
+ no_function,0,29 Dimmer Conventional Mode,30,39 Dimmer Linear Mode,40,49 pan/tilt fast mode,50,59 pan/tilt normal mode,60,69 pan/tilt blackout mode enabled,70,79 pan/tilt blackout mode disabled,80,89 color change blackout mode enable,90,99 color change blackout mode disabled,100,109 gobo change blackout mode enabled,110,119 gobo change blackout mode disabled,120,129 lamp_on,130,139 reset_xy,140,149 reset_color,150,159 reset_gobo,160,169 reset_shutter,170,179 no_function,180,189 reset_others,190,199 reset,200,209 enable all movement blackout modes,210,219 disable all movement blackout modes,220,229 lamp_off,230,239 no_function,240,255
+

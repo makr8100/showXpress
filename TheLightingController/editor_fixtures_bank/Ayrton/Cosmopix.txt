@@ -1,0 +1,69 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = pan
+
+Channel = tilt
+
+Channel = upan
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = tilt_rotation
+ no_function,0,0 rotate,255,255 
+
+Channel = dimmer
+
+Channel = lamp_1
+ no_function,0,0 ColorMacro,3,119 RGBW Gradual change,120,169 RGBW flowing LED,170,219 RGBW strobe change,220,255 
+
+Channel = lamp_2
+ no_function,0,0 ColorMacro,3,119 RGBW Gradual change,120,169 RGBW flowing LED,170,219 RGBW strobe change,220,255 
+
+Channel = lamp_3
+ no_function,0,0 ColorMacro,3,119 RGBW Gradual change,120,169 RGBW flowing LED,170,219 RGBW strobe change,220,255 
+
+Channel = lamp_4
+ no_function,0,0 ColorMacro,3,119 RGBW Gradual change,120,169 RGBW flowing LED,170,219 RGBW strobe change,220,255 
+
+Channel = lamp_5
+ no_function,0,0 ColorMacro,3,119 RGBW Gradual change,120,169 RGBW flowing LED,170,219 RGBW strobe change,220,255 
+
+Channel = lamp_6
+ no_function,0,0 ColorMacro,3,119 RGBW Gradual change,120,169 RGBW flowing LED,170,219 RGBW strobe change,220,255 
+
+Channel = lamp_7
+ no_function,0,0 ColorMacro,3,119 RGBW Gradual change,120,169 RGBW flowing LED,170,219 RGBW strobe change,220,255 
+
+Channel = lamp_8
+ no_function,0,0 ColorMacro,3,119 RGBW Gradual change,120,169 RGBW flowing LED,170,219 RGBW strobe change,220,255 
+
+Channel = lamp_9
+ no_function,0,0 ColorMacro,3,119 RGBW Gradual change,120,169 RGBW flowing LED,170,219 RGBW strobe change,220,255 
+
+Channel = lamp_10
+ no_function,0,0 ColorMacro,3,119 RGBW Gradual change,120,169 RGBW flowing LED,170,219 RGBW strobe change,220,255 
+
+Channel = lamp_11
+ no_function,0,0 ColorMacro,3,119 RGBW Gradual change,120,169 RGBW flowing LED,170,219 RGBW strobe change,220,255 
+
+Channel = lamp_12
+ no_function,0,0 ColorMacro,3,119 RGBW Gradual change,120,169 RGBW flowing LED,170,219 RGBW strobe change,220,255 
+
+Channel = effect_macro
+ no_function,0,0 index,5,255 
+
+Channel = mode
+ no_function,0,0 auto,255,255 
+

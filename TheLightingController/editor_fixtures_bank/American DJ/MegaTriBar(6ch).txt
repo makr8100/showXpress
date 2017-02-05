@@ -1,0 +1,26 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 24
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = color_macro
+ no_function,0,0 bastard_amber,4,4 medium_amber,12,12 pale_amber_gold,20,20 gallo_gold,28,28 golden_amber,36,36 light_red,44,44 medium_red,50,50 medium_pink,60,60 broadway_pink,68,68 follies_pink,75,75 light_lavender,92,92 lavender,100,100 indigo,108,108 hemsley_blue,115,115 tipton_blue,125,125 light_steel_blue,132,132 light_sky_blue,140,140 sky_blue,148,148 brilliant_blue,156,156 light_green_blue,164,164 brught_blue,172,172 primary_blue,180,180 congo_blue,188,188 pale_yellow_green,195,195 moss_green,204,204 primary_green,212,212 double_ctb,220,220 full_ctb,236,236 dark_blue,244,244 white,255,255
+
+Channel = shutter
+ open,0,0 strobe,16,255
+
+Channel = dimmer
+

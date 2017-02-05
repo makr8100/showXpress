@@ -1,0 +1,63 @@
+﻿ViewType = VIEW_TYPE_HEAD_WASH
+ViewPower = VIEW_POWER_LAMP700W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 24
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = yellow
+
+Channel = color
+ white,0,0 red,11,11 orange,22,22 aquamarine,32,32 green,43,43 light_green,54,54 pink,64,64 uv,75,75 TC260,86,86 TC190,96,96 half_minus_green,107,107 blue,118,118 left_rotate,128,190 stop,192,192 right_rotate,193,255 
+
+Channel = shutter
+ closed,0,0 strobe,4,103 open,105,105 pulse_strobe,108,207 random_strobe,213,251 open,255,255 
+
+Channel = dimmer
+
+Channel = udimmer
+
+Channel = beam_sharper_insertion
+ no_function,0,0 sharper,255,255 
+
+Channel = beam_sharper_rotation
+ index,0,127 left_rotate,128,190 stop,191,191 right_rotate,193,255 
+
+Channel = heavy_frost
+
+Channel = light_frost
+
+Channel = zoom
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = mode
+ no_function,0,0 pantilt_fast,20,20 pantilt_normal,30,30 dimmer_conventional,45,45 dimmer_linear,55,55 CMY_full,70,70 CMY_limited,80,80 CMY_shortcut_on,90,90 CMY_shortcut_off,110,110 
+
+Channel = control
+ no_function,0,0 reset_others,50,50 reset_xy,90,90 reset,255,255 
+
+Channel = lamp_on
+ no_function,0,0 lamp_off,60,60 lamp_on,255,255 
+
+Channel = pantilt_time
+
+Channel = color_time
+
+Channel = beam_time
+

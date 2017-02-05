@@ -1,0 +1,39 @@
+﻿Name=COLORdash Batten Quad 12 (10CH)
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = dimmer
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = amber
+
+Channel = strobe_effect
+ no strobe,0,10 slow to fast,11,255 
+
+Channel = color macro
+ no function,0,10 R: 100% G:0-100% B:0,11,30 R:100%-0 G:100%  B:0,31,50 R:0 G: 100% B: 0-100%,51,70 R:0 G:100%-0 B:100%,71,90 R: 0-100% G:0 B:100%,91,110 R"100% G:0 B:100%-0,111,130 R:100% G:0-100% B:0-100%,131,150 R:100%-0 G:100%-0 B:100%,151,170 R:100% G:100% B:100% A:100%,171,200 White 1,201,205 White 2,206,210 White 3,211,211 White 4,216,220 White 5,221,225 White 6,226,230 White 7,231,235 White 8,236,240 White 9,241,245 White 10,246,250 White 11,251,255 
+
+Channel = auto programs
+ no function,0,10 auto 1,11,30 auto 2,31,50 auto 3,51,70 auto 4,71,90 auto 5,91,110 aoto 6,111,130 auto 7,131,150 auto 8,151,170 auto 9,171,190 auto 10,191,210 auto 11,211,230 auto 12,231,250 auto 1-12,251,255 
+
+Channel = auto speed
+ slow to fast,0,255 
+
+Channel = dimmer speed
+ preset dimmer from display menu,0,51 linear dimmer,52,101 curve 1,102,152 curve 2,153,203 curve 3,204,255 
+

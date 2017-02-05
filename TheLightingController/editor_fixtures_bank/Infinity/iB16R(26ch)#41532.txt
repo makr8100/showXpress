@@ -1,0 +1,74 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LAMP700W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = pan
+
+Channel = tilt
+
+Channel = upan
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = eye_dimmer
+
+Channel = eye_shutter
+ closed,0,0 open,6,6 strobe,8,76 pulse_strobe,77,145 random_strobe,146,215 open,255,255 
+
+Channel = eye_red
+
+Channel = eye_green
+
+Channel = eye_blue
+
+Channel = dimmer
+
+Channel = shutter
+ closed,0,0 open,12,12 strobe,16,131 pulse_open,132,167 pulse_close,168,203 pulse_strobe,204,239 random_strobe,240,247 open,255,255 
+
+Channel = color
+ white,0,0 dark_red,6,6 red,10,10 cyan,14,14 green,18,18 yellow,22,22 dark_green,26,26 uv,30,30 blue,34,34 dark_yellow,38,38 turquoise,42,42 orange,46,46 warm_white,50,50 dark_blue,58,58 index,60,187 right_rotate,188,219 stop,222,222 left_rotate,224,255 
+
+Channel = gobo
+ Miscellaneous/open,0,0 metal_basic/H5,5,5 metal_basic/H4,8,8 metal_basic/H3,10,10 metal_basic/L230B15,14,14 Miscellaneous/gobo5,17,17 metal_basic/RR1B17,20,20 Miscellaneous/gobo7,23,23 metal_basic/pling,26,26 metal_basic/RR2B16,29,29 Miscellaneous/gobo10,32,32 Miscellaneous/gobo11,35,35 Miscellaneous/gobo12,38,38 metal_basic/circle2,41,41 Miscellaneous/shake_gobo1,60,63 Miscellaneous/shake_gobo2,64,67 Miscellaneous/shake_gobo3,68,71 Miscellaneous/shake_gobo4,72,75 Miscellaneous/shake_gobo5,76,79 Miscellaneous/shake_gobo6,80,83 Miscellaneous/shake_gobo7,84,87 Miscellaneous/shake_gobo8,88,91 Miscellaneous/shake_gobo9,92,95 Miscellaneous/shake_gobo10,96,99 Miscellaneous/shake_gobo11,100,103 Miscellaneous/shake_gobo12,104,107 Miscellaneous/shake_gobo13,108,111 Miscellaneous/right_rotate,128,189 Miscellaneous/stop,192,192 Miscellaneous/left_rotate,194,255 
+
+Channel = gobo2
+ Miscellaneous/open,0,0 metal_complex/GM001,9,9 metal_basic/sh10,15,15 metal_basic/RR1B17,21,21 Miscellaneous/gobo4,27,27 metal_complex/L330SS2,33,33 metal_basic/sh14,39,39 Miscellaneous/gobo7,45,45 color/red_1,51,51 Miscellaneous/gobo9,61,61 Miscellaneous/shake_gobo9,64,73 Miscellaneous/shake_gobo8,74,79 Miscellaneous/shake_gobo7,80,85 Miscellaneous/shake_gobo6,86,91 Miscellaneous/shake_gobo5,92,97 Miscellaneous/shake_gobo4,98,103 Miscellaneous/shake_gobo3,104,109 Miscellaneous/shake_gobo2,110,115 Miscellaneous/shake_gobo1,116,121 Miscellaneous/right_rotate,128,191 Miscellaneous/left_rotate,192,255 
+
+Channel = gobo_rotate2
+ index,0,63 right_rotate,64,147 left_rotate,148,231 bounce,255,255 
+
+Channel = focus
+
+Channel = auto_focus
+ no_function,0,0 auto,255,255 
+
+Channel = zoom
+
+Channel = prism
+
+Channel = prism_rotate
+ index,0,127 right_rotate,128,189 stop,192,192 left_rotate,194,255 
+
+Channel = prism_5
+
+Channel = prism_rotate
+ index,0,127 right_rotate,128,189 stop,192,192 left_rotate,194,255 
+
+Channel = frost
+
+Channel = beam_defract
+
+Channel = control
+ no_function,0,0 regular_dimmer,35,35 linear_dimming,45,45 lamp_on,135,135 reset_xy,145,145 reset_color,155,155 reset_gobo,165,165 reset_shutter_prism,175,175 reset_frost_focus_zoom,195,195 lamp_off,235,235 
+

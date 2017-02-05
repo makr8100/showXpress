@@ -1,0 +1,36 @@
+﻿ViewType = VIEW_TYPE_HEAD_WASH
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = TRUE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Showtec/Moving Heads/Phantom 250 Wash#40171.png
+
+Channel = pan
+
+Channel = tilt
+
+Channel = upan
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = color
+ white,0,15 blue,16,31 red,32,47 pink,48,63 green,64,79 yellow,80,95 violet,96,111 uv,112,127 rotate,128,255
+
+Channel = shutter
+ closed,0,7 open,8,22 strobe,23,85 open,86,100 pulse_strobe,101,165 open,166,180 random_strobe,181,245 open,246,255
+
+Channel = dimmer
+
+Channel = mode
+ No Function.,0,9 blackout_moves,10,19 No Function,20,99 reset,100,109 No Function,110,129 pattern_01,130,145 pattern_02,146,161 pattern_03,162,177 pattern_04,178,193 audio,194,209 audio,210,225 audio,226,241 audio,242,255
+
+Channel = effect_macro
+ No Effect,0,9 macro_1,10,19 macro_2,20,29 macro_3,30,39 macro_4,40,49 macro_5,50,59 macro_6,60,69 macro_7,70,79 macro_8,80,89 macro_9,90,99 macro_10,100,109 macro_11,110,119 macro_12,120,129 macro_13,130,139 macro_14,140,149 macro_15,150,159 macro_16,160,169 macro_17,170,179 macro_18,180,189 macro_19,190,199 macro_20,200,209 macro_21,210,219 macro_22,220,229 macro_23,230,239 macro_24,240,249 macro_25,250,255
+

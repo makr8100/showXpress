@@ -1,0 +1,25 @@
+﻿ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = strobe_channel
+ no_function,0,0 gobo_strobe,16,91 color_strobe,92,135 color&gobo_strobe,136,195 gobo_shake,196,255
+
+Channel = gobo
+ Miscellaneous/closed,0,0 Miscellaneous/gobo1,20,20 Miscellaneous/gobo2,28,28 Miscellaneous/gobo3,36,36 Miscellaneous/gobo4,44,44 Miscellaneous/gobo5,52,52 Miscellaneous/gobo6,60,60 Miscellaneous/gobo7,68,68 Miscellaneous/gobo8,76,76 Miscellaneous/gobo9,84,84 Miscellaneous/gobo10,92,92 Miscellaneous/gobo11,100,100 Miscellaneous/gobo12,108,108 Miscellaneous/gobo13,116,116 Miscellaneous/gobo14,124,124 Miscellaneous/rotate,128,255
+
+Channel = color
+ white,0,0 red,11,11 cyan,22,22 yellow,33,33 green,44,44 magenta,55,55 light_blue,66,66 dark_yellow,77,77 light_green,88,88 orange,99,99 tri_color,115,115 quad_color,124,124 rotate,128,255 
+
+Channel = pan
+
+Channel = tilt
+

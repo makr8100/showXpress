@@ -1,0 +1,45 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 540
+ViewAngleTilt = 250
+ViewAngleBeam = 20
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = yellow
+
+Channel = color
+ white,0,0 red,20,20 CTB,34,34 3000K,48,48 2500K,62,62 green,76,76 aquamarine,90,90 orange,104,104 blue,118,118 rotate,128,255
+
+Channel = shutter
+ closed,0,0 strobe,4,103 pulse_strobe,108,207 random_strobe,213,251 open,255,255
+
+Channel = dimmer
+
+Channel = gobo
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,12,12 Miscellaneous/gobo2,20,20 Miscellaneous/gobo3,28,28 Miscellaneous/gobo4,36,36 Miscellaneous/gobo5,44,44 Miscellaneous/gobo6,52,52 Miscellaneous/gobo7,60,60 Miscellaneous/gobo8,68,68 Miscellaneous/rotate,118,159 Miscellaneous/shake_gobo2,160,175 Miscellaneous/shake_gobo3,176,191 Miscellaneous/shake_gobo4,192,207 Miscellaneous/shake_gobo5,208,223 Miscellaneous/shake_gobo6,224,239 Miscellaneous/shake_gobo7,240,255
+
+Channel = frost
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = control
+ no_function,0,0 reset_others,25,25 reset_xy,77,77 reset,255,255
+
+Channel = lamp
+ no_function,0,0 lamp_off,100,100 lamp_on,255,255
+

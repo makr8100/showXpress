@@ -1,0 +1,28 @@
+Name = SPACE-CANNON_FOCUS
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = magenta
+
+Channel = cyan
+
+Channel = yellow
+
+Channel = light
+ off,0,0 on,255,255
+
+Channel = dimmer
+
+Channel = beam
+
+Channel = reserved
+
+Channel = control
+ reset_off,0,0 reset_on,255,255
+

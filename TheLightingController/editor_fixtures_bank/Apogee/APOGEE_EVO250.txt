@@ -1,0 +1,53 @@
+Name = APOGEE_EVO250
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 540
+ViewAngleTilt = 230
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = shutter
+ closed,0,0 strobe,64,95 electronic_strobe,96,127 open,255,255
+
+Channel = dimmer
+
+Channel = control
+ no_action,0,0 lamp_strike,40,40 lamp_shutdown,55,55
+
+Channel = color_mode
+ continuous,0,0 index,255,255
+
+Channel = color
+ white,0,0 magenta,34,34 dark_blue,65,65 blue,92,92 cyan,120,120 green,150,150 yellow,175,175 amber,205,205 red,233,233 white,255,255
+
+Channel = gobo_mode
+ continuous,0,0 index,255,255
+
+Channel = gobo
+ Miscellaneous/open,0,0 Contest/GM047,36,36 Contest/Z03748-6,73,73 press_wavy,108,108 Contest/GM011,109,109 press_ripple,182,182 Martin/radialdashes,219,219 Miscellaneous/open,255,255
+
+Channel = gobo_rotate
+ continuous,0,0 right_rotate,16,31 left_rotate,32,47 continuous,255,255 
+
+Channel = gobo_rotate_speed
+
+Channel = effect_aperture
+ continuous,0,0 right_rotate,16,31 left_rotate,48,239 continuous,255,255 
+
+Channel = effect_speed
+
+Channel = focus
+

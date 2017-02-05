@@ -1,0 +1,21 @@
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = pan
+
+Channel = tilt
+
+Channel = gobo
+ Miscellaneous/closed,0,0 Miscellaneous/open,10,10 red dot tunnel,26,26 blue slash,43,43 green segment,59,59 yellow triangle,75,75 cyan tunnel,91,91 orange bubbles,108,108 pink stars,124,124 Miscellaneous/rotate,140,140 red,255,255 
+
+Channel = shutter
+ closed,0,0 open,120,120 strobe,226,255 
+

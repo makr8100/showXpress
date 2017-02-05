@@ -1,0 +1,24 @@
+Name = HIGH-END_COLOR_PRO_HX_i
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = dimmer
+ closed,0,0 dimmer,1,127 open,135,135 periodic_strob,160,160 open,190,190 random_strob,220,220 open,255,255
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = iris
+
+Channel = control
+ safe,0,0 display_off,24,24 display_dim,34,34 display_bright,44,44 home,64,64 lamp_on,84,84 lamp_off,94,94 shutdown_(2"),125,125
+

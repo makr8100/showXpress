@@ -1,0 +1,48 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 23
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/Freedom Par Hex-4.png
+
+Channel = dimmer
+ dimmer,0,255 
+
+Channel = red
+ Red,0,255 
+
+Channel = green
+ Green,0,255 
+
+Channel = blue
+ Blue,0,255 
+
+Channel = amber
+ Amber,0,255 
+
+Channel = white
+ White,0,255 
+
+Channel = uv
+ Ultraviolet,0,255 
+
+Channel = shutter
+ no_function,0,10 strobe,11,255 
+
+Channel = color_macro
+ no_function,0,10 color macro,11,255 
+
+Channel = effect_macro
+ no_function,0,10 auto1,11,60 auto2,61,120 auto3,121,180 auto4,181,240 audio,241,255 
+
+Channel = speed_control
+ Auto Program Speed ,0,255 
+
+Channel = mode
+ Dimmer Mode Manually set in menu options,0,51 Dimmer off ,52,101 Dimmer Mode 1,102,152 Dimmer Mode 2,153,203 Dimmer Mode 3,204,255 
+

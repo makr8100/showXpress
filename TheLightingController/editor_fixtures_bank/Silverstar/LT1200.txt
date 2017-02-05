@@ -1,0 +1,35 @@
+Name = LT1200
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_1200MSR
+ViewAnglePan = 180
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = shutter
+ closed,0,0 dimmer,13,127 strobe,128,250 open,251,255
+
+Channel = gobo
+ Miscellaneous\open,0,0 Yagang\14,62,62 Geni\MJC-2-CH1-60-69,105,105 Geni\NS-2-CH2-66-76,146,146 Chauvet\gun barrel,188,188 Contest\scn950-g5-70a83,255,255
+
+Channel = color
+ white,0,15 red,16,31 light_blue,32,47 green,48,63 yellow,64,79 pink,80,95 dark_blue,96,111 orange,112,127 rotate,128,255
+
+Channel = gobo_rotate
+ stop,0,0 right_rotate,8,127 left_rotate,136,255
+
+Channel = prism
+ stop,0,0 prism,64,64 stop,155,155 comet,215,255
+
+Channel = pan
+
+Channel = tilt
+
+Channel = prism_rotate
+ stop,0,0 left_rotate,8,127 right_rotate,136,255
+

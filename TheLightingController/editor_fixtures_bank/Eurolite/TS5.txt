@@ -1,0 +1,25 @@
+Name = EUROLITE_TS5
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_250MSR
+ViewAnglePan = 90
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = pan
+
+Channel = tilt
+
+Channel = color
+ white,0,0 green,15,15 red,26,26 cyan,37,37 light_green,47,47 pink,58,58 light_blue,69,69 yellow,79,79 green,89,89 pink,101,101 purple,111,111 orange,122,122 rotate,159,159 sound,192,192 right_rotate,194,223 stop,224,224 left_rotate,226,255
+
+Channel = gobo
+ Miscellaneous\closed,0,0 Miscellaneous\strobe,18,18 Miscellaneous\open,37,37 ok_for_3DView\star,47,47 Chauvet\141215,58,58 ok_for_3DView\bambus,69,69 ok_for_3DView\glass,79,79 Chauvet\4,90,90 Chauvet\New_wave,101,101 Chauvet\3,111,111 ok_for_3DView\phone,122,122 ok_for_3DView\cone,133,133 gobo1_shake,148,155 gobo2_shake,156,163 gobo3_shake,164,171 gobo4_shale,172,179 gobo5_shake,180,187 gobo6_shake,188,195 gobo7_shake,196,203 gobo8_shake,204,210 gobo9_shake,211,217 audio,220,220 Miscellaneous\stop,224,224 Miscellaneous\rotate,226,255
+
+Channel = dimmer
+

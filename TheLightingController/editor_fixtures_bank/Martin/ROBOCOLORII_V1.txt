@@ -1,0 +1,28 @@
+Name = MARTIN_ROBOCOLORII_V1
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = shutter
+ lamp_off,0,0 lamp_on,20,20 music,65,65 auto,100,100 strobe,122,252 reset,255,255
+
+Channel = color
+ black,0,0 white,25,25 magenta,45,45 pink,65,65 red,85,85 orange,105,105 dark_yellow,125,125 yellow,145,145 light_green,165,165 green,185,185 cyan,205,205 light_blue,225,225 dark_blue,255,255
+
+Channel = color
+ black,0,0 white,25,25 magenta,45,45 pink,65,65 red,85,85 orange,105,105 dark_yellow,125,125 yellow,145,145 light_green,165,165 green,185,185 cyan,205,205 light_blue,225,225 dark_blue,255,255
+
+Channel = color
+ black,0,0 white,25,25 magenta,45,45 pink,65,65 red,85,85 orange,105,105 dark_yellow,125,125 yellow,145,145 light_green,165,165 green,185,185 cyan,205,205 light_blue,225,225 dark_blue,255,255
+
+Channel = color
+ black,0,0 white,25,25 magenta,45,45 pink,65,65 red,85,85 orange,105,105 dark_yellow,125,125 yellow,145,145 light_green,165,165 green,185,185 cyan,205,205 light_blue,225,225 dark_blue,255,255
+
+Channel = effect_speed
+ fast,0,0 slow,255,255
+

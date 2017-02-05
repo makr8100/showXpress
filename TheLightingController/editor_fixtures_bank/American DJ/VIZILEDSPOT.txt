@@ -1,0 +1,41 @@
+ViewType = VIEW_TYPE_HEAD
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = color
+ open,0,0 color1,22,22 color2,37,37 color3,52,52 color4,67,67 color5,82,82 color6,97,97 color7,112,112 color8,123,123 right_rotate,128,189 stop,192,192 left_rotate,194,255
+
+Channel = gobo
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,15,15 Miscellaneous/gobo2,25,25 Miscellaneous/gobo3,35,35 Miscellaneous/gobo4,45,45 Miscellaneous/gobo5,55,55 Miscellaneous/gobo6,65,65 Miscellaneous/gobo7,75,75 Miscellaneous/rotate,192,255
+
+Channel = gobo_rotate
+ index,0,127 right_rotate,128,189 stop,192,192 left_rotate,194,255
+
+Channel = effect_macro
+ open,0,0 prism,50,50 prism,80,80 macro_1,132,132 macro_2,140,140 macro_3,148,148 macro_4,156,156 macro_5,164,164 macro_6,172,172 macro_7,180,180 macro_8,188,188 macro_9,196,196 macro_10,204,204 macro_11,212,212 macro_12,220,220 macro_13,228,228 macro_14,236,236 macro_15,244,244 macro_16,254,254
+
+Channel = shutter
+ closed,0,0 strobe,64,95 pulse_strobe,128,159 random_strobe,192,223 open,255,255
+
+Channel = dimmer
+
+Channel = pantilt_speed
+ index,0,225 
+
+Channel = control
+ normal,0,0 reset_motors,82,82 audio,255,255 
+

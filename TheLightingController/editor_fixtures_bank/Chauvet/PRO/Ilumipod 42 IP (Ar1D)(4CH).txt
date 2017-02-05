@@ -1,0 +1,24 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/Ilumipod 42 IP.png
+
+Channel = dimmer
+ 0-100%,0,255
+
+Channel = red
+ 0-100%,0,255
+
+Channel = green
+ 0-100%,0,255
+
+Channel = blue
+ 0-100%,0,255
+

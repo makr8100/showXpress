@@ -1,0 +1,36 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = pattern_macro
+ closed,0,0 pattern_1,15,15 pattern_2,25,25 pattern_3,35,35 pattern_4,45,45 pattern_5,55,55 pattern_6,65,65 pattern_7,75,75 pattern_8,85,85 pattern_9,95,95 pattern_10,105,105 pattern_11,115,115 pattern_12,125,125 pattern_13,135,135 pattern_14,145,145 pattern_15,155,155 macro_1,165,165 macro_2,175,175 macro_3,185,185 macro_4,195,195 macro_5,205,205 macro_6,215,215 macro_7,225,225 macro_8,235,235 macro_9,245,245 macro_10,255,255
+
+Channel = shutter
+ open,0,0 strobe,10,255 
+
+Channel = pattern_macro
+ closed,0,0 pattern_1,15,15 pattern_2,25,25 pattern_3,35,35 pattern_4,45,45 pattern_5,55,55 pattern_6,65,65 pattern_7,75,75 pattern_8,85,85 pattern_9,95,95 pattern_10,105,105 pattern_11,115,115 pattern_12,125,125 pattern_13,135,135 pattern_14,145,145 pattern_15,155,155 macro_1,165,165 macro_2,175,175 macro_3,185,185 macro_4,195,195 macro_5,205,205 macro_6,215,215 macro_7,225,225 macro_8,235,235 macro_9,245,245 macro_10,255,255
+
+Channel = shutter
+ open,0,0 strobe,10,255 
+
+Channel = pattern_macro
+ closed,0,0 pattern_1,15,15 pattern_2,25,25 pattern_3,35,35 pattern_4,45,45 pattern_5,55,55 pattern_6,65,65 pattern_7,75,75 pattern_8,85,85 pattern_9,95,95 pattern_10,105,105 pattern_11,115,115 pattern_12,125,125 pattern_13,135,135 pattern_14,145,145 pattern_15,155,155 macro_1,165,165 macro_2,175,175 macro_3,185,185 macro_4,195,195 macro_5,205,205 macro_6,215,215 macro_7,225,225 macro_8,235,235 macro_9,245,245 macro_10,255,255
+
+Channel = shutter
+ open,0,0 strobe,10,255 
+
+Channel = pattern_macro
+ closed,0,0 pattern_1,15,15 pattern_2,25,25 pattern_3,35,35 pattern_4,45,45 pattern_5,55,55 pattern_6,65,65 pattern_7,75,75 pattern_8,85,85 pattern_9,95,95 pattern_10,105,105 pattern_11,115,115 pattern_12,125,125 pattern_13,135,135 pattern_14,145,145 pattern_15,155,155 macro_1,165,165 macro_2,175,175 macro_3,185,185 macro_4,195,195 macro_5,205,205 macro_6,215,215 macro_7,225,225 macro_8,235,235 macro_9,245,245 macro_10,255,255
+
+Channel = shutter
+ open,0,0 strobe,10,255 
+

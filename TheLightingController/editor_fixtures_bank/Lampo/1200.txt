@@ -1,0 +1,44 @@
+Name = LAMPO_1200
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = iris
+ closed,0,0 open,255,255
+
+Channel = pan
+
+Channel = tilt
+
+Channel = color
+ white,0,0 magenta,38,38 blue,62,62 yellow,88,88 purple,112,112 blue,138,138 pink,162,162 uv,187,187 rotate,200,255
+
+Channel = gobo
+ open,0,0 gobo1,80,80 gobo2,130,130 gobo3,180,180 gobo4,255,255
+
+Channel = shutter
+ dimmer,0,125 strobe,126,249 open,255,255
+
+Channel = gobo_rotate
+ stop,0,0 clock,110,174 stop,177,177 counterclock,180,248 stop,255,255
+
+Channel = focus
+ near,0,0 far,255,255
+
+Channel = gobo
+ full,0,0 gobo1,48,48 gobo2,80,80 gobo3,112,112 gobo4,144,144 gobo5,176,176 gobo6,208,208 gobo7,255,255
+
+Channel = effect
+ no_effect,0,0 ctc5500_2900,76,76 ctc3200_4100,128,128 4_facets,178,178 frost,255,255
+
+Channel = gobo
+ full,0,0 gobo1,48,48 gobo2,80,80 gobo3,112,112 gobo4,144,144 gobo5,176,176 gobo6,208,208 gobo7,255,255
+
+Channel = effect_speed
+ stop,0,0 rotate,14,255
+

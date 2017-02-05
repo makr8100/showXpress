@@ -1,0 +1,57 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/PRO/OVATION E-910FC - 2D.png
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = udimmer
+ dimmer,0,255
+
+Channel = red
+ dimmer,0,255
+
+Channel = ured
+ dimmer,0,255
+
+Channel = green
+ dimmer,0,255
+
+Channel = ugreen
+ dimmer,0,255
+
+Channel = blue
+ dimmer,0,255
+
+Channel = ublue
+ dimmer,0,255
+
+Channel = amber
+ dimmer,0,255
+
+Channel = uamber
+ dimmer,0,255
+
+Channel = white
+ dimmer,0,255
+
+Channel = uwhite
+ dimmer,0,255
+
+Channel = strobe_effect
+ no_function,0,10 Slow to fast,11,255
+
+Channel = Virtual Color Wheel
+ no_function,0,5 Cal Color Yellow,6,13 Light Straw,14,21 Canary,22,28 Dark Bamber,29,35 Flame,36,43 Medium Amber,44,51 Golden Amber,52,59 Light Red,60,67 Medium Red,68,75 No Color Pink,76,83 True Pink,84,91 Light Rose,92,99 Salmon,100,107 Deep Salmon,108,115 Middle Rose,116,121 Fisher Fuschia,122,130 Special Lavender,131,138 Light Steel Blue,139,146 Blue Bell,147,154 Daylight Blue,155,162 Primary Blue,163,170 Urband Blue,171,178 Surprise Blue,179,186 Congo Blue,187,194 Medium Blue,195,202 Sapphire Blue,203,210 Dark Yellow Green,211,218 Primary Green,219,226 Turquoise,227,234 Blue Green,235,242 Emerald Green,243,250 no_function,251,255
+
+Channel = Color Temp Presets
+ no_function,0,5 2800K,6,25 3200K,26,50 3500K,51,75 4000k,76,100 4500K,101,125 5000K,126,150 5600K,151,175 6000K,176,200 6500K,201,225 no_function,226,255
+

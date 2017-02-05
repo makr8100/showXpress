@@ -1,0 +1,55 @@
+Name = SGM_GIOTTO_SPOT_1200
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = iris
+
+Channel = color
+ white,0,0 pink,11,11 magenta,18,18 lavender,25,25 blue_light,32,32 azure,39,39 cyan,46,46 yellow,53,53 amber,60,60 flame_red,67,67 wood,74,74 primary_red,81,81 light_green,88,88 green_azure,95,95 green_amber,102,102 yellow_green,109,109 green_cyan,116,116 green_yellow,123,123 dark_red,130,130 light_med_blue,137,137 green,144,144 medium_blue,151,151 medium_red,158,158 orange,165,165 dark_purple,172,172 speed1_slow,179,179 speed2_slow/me,186,186 speed3_med/fas,193,193 speed4_fast,200,200 music_bass_bea,207,207 2_bass_beat,214,214 3_bass_beat,221,221 4_bass_beat,255,255
+
+Channel = gobo
+ white_A_-B,0,0 whiteA_gobo1B,13,13 whiteA_gobo2B,22,22 whiteA_gobo3B,31,31 whiteA_gobo4B,40,40 gobo1A_whiteB,49,49 gobo2A_whiteB,58,58 gobo3A_whiteB,67,67 gobo4A_white_B,76,76 gobo4A_gobo1B,85,85 gobo3A_gobo1B,94,94 gobo2A_gobo1B,103,103 gobo1A_gobo1B,112,112 gobo1A_gobo2B,121,121 gobo2A_gobo2B,130,130 gobo3A_gobo2B,139,139 gobo4A_gobo2B,148,148 gobo4A_gobo3B,157,157 gobo3A_gobo3B,166,166 gobo2A_gobo3B,175,175 gobo1A_gobo3B,184,184 gobo1A_gobo4B,193,193 gobo2A_gobo4B,202,202 gobo3A_gobo4B,211,211 gobo4A_gobo4B,220,220 speed1,230,230 speed2,237,237 speed3,245,245 music_change,255,255
+
+Channel = shutter
+ closed,0,0 strobe_1Hz,12,12 strobe_1.38Hz,20,20 strobe_1.6Hz,28,28 strobe_1.9Hz,36,36 strobe_2.3Hz,44,44 strobe_2.7Hz,52,52 strobe_3.4Hz,60,60 strobe_4Hz,68,68 strobe_5Hz,76,76 strobe_6Hz,84,84 strobe_7Hz,92,92 strobe_8Hz,100,100 strobe_9Hz,108,108 strobe_10Hz,116,116 bass_beat,126,126 music_low,139,139 music_high,152,152 autoshade_gobo,165,165 autoshade_colo,178,178 autoshade_go-c,191,191 change_gobo,204,204 change_color,217,217 change_gob_col,230,230 open,255,255
+
+Channel = dimmer
+
+Channel = gobo_rotate
+ positionning,0,127 rotat_down,128,175 stopped,190,190 rotat_up,203,255
+
+Channel = prism
+ 4_faced_prism,100,100 9_faced_prism,255,255
+
+Channel = prism_rotate
+ rotation_down,0,111 stop,130,130 rotation_up,144,255
+
+Channel = focus
+
+Channel = effect
+ 9.6°_lens,0,0 no_lens,64,64 14.5°_lens,107,107 17.7°_lens,150,150 multi_focal,193,193 frost,255,255
+
+Channel = color
+ white,0,0 yellow/cyan,55,55 verde/red,92,92 red/yellow,129,129 blue/cyan,166,166 D46CTOTC3256,203,203 D461/2CTOTC,255,255
+
+Channel = frost
+
+Channel = effect_speed
+
+Channel = control
+ lamp_off,0,0 hysteresis,100,100 lamp_on,150,150 hysteresis_res,200,200 reset,255,255
+

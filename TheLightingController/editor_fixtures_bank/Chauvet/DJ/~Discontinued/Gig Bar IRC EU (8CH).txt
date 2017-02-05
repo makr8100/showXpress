@@ -1,0 +1,36 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = TRUE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/Gig Bar IRC.png
+
+Channel = red
+ dimmer,0,255
+
+Channel = green
+ dimmer,0,255
+
+Channel = blue
+ dimmer,0,255
+
+Channel = control
+ dimmer,0,127 strobe,128,239 audio,240,249 pars/kinta full on,250,255
+
+Channel = motor
+ right_rotate,0,127 stop,128,133 left_rotate,134,255
+
+Channel = laser
+ green laser (static),0,54 strobe,55,255
+
+Channel = motor
+ no_function,0,4 right_rotate,5,127 stop,128,133 left_rotate,134,255
+
+Channel = strobe_speed
+ static,0,54 strobe,55,255
+

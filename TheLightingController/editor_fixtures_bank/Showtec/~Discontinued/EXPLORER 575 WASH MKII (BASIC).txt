@@ -1,0 +1,41 @@
+Name = EXPLORER 575 WASH MKII (BASIC)
+
+ViewType = VIEW_TYPE_HEAD_WASH
+ViewPower = VIEW_POWER_575MSR
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+2DViewImage = Showtec/Discontinued/explorer_575.png
+
+Channel = pan
+
+Channel = tilt
+
+Channel = upan
+
+Channel = color
+ white,0,24 red,25,49 blue,50,74 green,75,99 orange,100,124 5500-4200k,125,149 3500-5600k,150,174 blacklight,175,199 rainbow,200,255
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = yellow
+
+Channel = macro_color
+
+Channel = effect
+
+Channel = beam
+
+Channel = shutter
+ closed,0,31 open,32,63 strobe,64,95 open,96,127 strobe,128,159 open,160,191 strobe,192,223 open,224,255
+
+Channel = dimmer
+ dimmer,0,255
+

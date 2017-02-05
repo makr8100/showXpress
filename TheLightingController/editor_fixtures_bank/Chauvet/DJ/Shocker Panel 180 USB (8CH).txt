@@ -1,0 +1,36 @@
+﻿ViewType = VIEW_TYPE_STROBE
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/Shocker Panel180 USB.png
+
+Channel = Zone 1
+ no_function,0,5 strobe,6,249 open,250,255 
+
+Channel = Zone 2
+ no_function,0,5 strobe,6,249 open,250,255 
+
+Channel = Zone 3
+ no_function,0,5 strobe,6,249 open,250,255 
+
+Channel = Zone 4
+ no_function,0,5 strobe,6,249 open,250,255 
+
+Channel = effect_macro
+ no_function,0,20 macro_1,21,40 macro_2,41,60 macro_3,61,80 macro_4,81,100 macro_5,101,120 macro_6,121,140 macro_7,141,160 macro_8,161,161 macro_9,162,180 audio1,181,225 audio2,226,255 
+
+Channel = effect_speed
+ Auto Speed/Sound Sensitivity,0,255 
+
+Channel = dimmer
+ dimmer,0,255 
+
+Channel = shutter
+ no_function,0,5 strobe,6,255 
+

@@ -1,0 +1,16 @@
+Name = FAL_FIBERLIGHTER
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = color
+ white,0,0 dark_blue,37,37 light_blue,49,49 purple,61,61 pink,73,73 green,85,85 yellow,97,97 red,109,109 clock,116,179 stop,185,185 counterclock,192,255
+
+Channel = shutter
+ closed,0,0 color_3200,45,45 color_5600,75,75 color_6500,105,135 strobe,136,238 open,255,255
+

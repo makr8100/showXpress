@@ -1,0 +1,24 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 22
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = TRUE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/LFS-75DMX.png
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = shutter
+ closed,0,3 open,4,7 strobe,8,215 open,216,255 
+
+Channel = fan
+ fan_auto,0,1 Manual Fan ,2,255
+
+Channel = color
+ white,0,6 yellow,7,13 pink,14,20 green,21,27 red,28,34 light_blue,35,41 Kelly,42,48 orange,49,55 dark_blue,56,63 white + yellow,64,70 yellow + pink,71,84 pink + green,85,91 red + light blue,92,98 light blue +kelly,99,105 kelly + orange red,106,112 orange red + dark blue,113,119 dark blue + white ,120,127 Rainbow effect ,128,191 Reverse rainbow effect ,192,255
+

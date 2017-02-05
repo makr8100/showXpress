@@ -1,0 +1,24 @@
+Name = ABSTRACT_XP3
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = pan
+
+Channel = effect_speed
+ stop,0,0 right_rotate,12,112 left_rotate,141,244 stop,255,255
+
+Channel = color
+ white,0,0 red,26,26 light_blue,43,43 green,59,59 yellow,75,75 cyan,91,91 orange,108,108 magenta,124,124 pink,140,140 uv,156,156 rotate,238,254
+
+Channel = gobo
+ Miscellaneous\closed,0,0 Miscellaneous\open,24,24 Miscellaneous\gobo1,40,40 Miscellaneous\gobo2,56,56 Miscellaneous\gobo3,72,72 Miscellaneous\gobo4,88,88 Miscellaneous\gobo5,104,104 Miscellaneous\gobo6,120,120 Miscellaneous\gobo7,136,136 Miscellaneous\gobo8,152,152 Miscellaneous\gobo9,168,168 Miscellaneous\strobe,226,254
+

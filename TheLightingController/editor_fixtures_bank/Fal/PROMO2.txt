@@ -1,0 +1,26 @@
+Name = FAL_PROMO2
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = focus
+ near,0,0 far,255,255
+
+Channel = gobo_urotate
+ 0°,0,0 9°,255,255
+
+Channel = gobo_rotate
+ 0°_to_540°,0,119 clock,120,183 stop,188,188 counterclock,192,255
+
+Channel = shutter
+ closed,0,0 negative_strob,16,104 open,112,112 strobe,122,239 open,255,255
+
+Channel = pan
+
+Channel = tilt
+

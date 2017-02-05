@@ -1,0 +1,26 @@
+Name = SAGITTER_PRINCE
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = pan
+
+Channel = tilt
+
+Channel = gobo
+ open,0,0 tunnel,10,10 wirlpool,21,21 multistars,32,32 bars,42,42 windmill,53,53 multidots,64,64 spider's_web,74,74 stars,85,85 sun,96,96 dichroray,106,106 small_dot,117,117 rotat_min,128,128 rotat_med,192,192 rotat_max,255,255
+
+Channel = color
+ open/white,0,0 yellow,10,10 fuchsia,21,21 light_green,32,32 light_blue,42,42 magenta,53,53 orange,64,64 deep_blue,74,74 red,85,85 dark_green,96,96 pink,106,106 turquoise,117,117 rotat_min,128,128 rotat_med,192,192 rotat_max,255,255
+
+Channel = shutter
+ open,0,0 blackout,44,44 strob_speed1,70,70 strob_speed2,90,90 strob_speed3,110,110 strob_speed4,140,140 strob_speed5,170,170 strob_speed6,200,200 strob_speed7,255,255
+
+Channel = control
+ lamp_off,0,0 reset_(5"),128,128 lamp_on,255,255
+

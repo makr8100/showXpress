@@ -1,0 +1,20 @@
+Name = CLAY-PAKY_MINISCAN
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = color
+ white,0,0 red_white,8,8 red,16,16 yellow_red,24,24 yellow,33,33 magenta_yellow,41,41 magenta,48,48 green_magenta,57,57 green,66,66 orange_green,74,74 orange,82,82 blue_orange,88,88  blue,97,97 violet_blue,106,106 violet,115,115 white_violet,123,123 rotate,128,255
+
+Channel = gobo
+ dimmer,0,75 strobe,78,127 open,128,128 gobo1,153,153 gobo2,169,169 gobo3,185,185 gobo4,201,201 gobo5,217,217 open,255,255
+
+Channel = pan
+
+Channel = tilt
+

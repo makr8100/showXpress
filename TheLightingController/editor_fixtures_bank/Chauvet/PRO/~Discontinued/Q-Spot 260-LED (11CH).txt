@@ -1,0 +1,41 @@
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/Q-Spot 260 LED.png
+
+Channel = pan
+
+Channel = tilt
+
+Channel = color
+ white,0,16 dark_red,17,33 yellow,34,50 magenta,51,67 green,68,84 orange,85,101 blue,102,118 light_blue,119,135 light_green,136,152 rainbow,153,255
+
+Channel = gobo
+ Miscellaneous/open,0,9 Showtec/Scorpion_04,10,19 Contest/GM038,20,29 Chauvet/650 qspot 260,30,39 Contest/GD011-inv,40,49 Yagang/17,50,59 Contest/GM015,60,69 Chauvet/554 qspot 260,70,79 Chauvet/649 qspot 260,80,89 Geni/OBY-2000-CH8-32-47,90,99 Miscellaneous/shake_gobo9,100,114 Miscellaneous/shake_gobo8,115,129 Miscellaneous/shake_gobo7,130,144 Miscellaneous/shake_gobo6,145,159 Miscellaneous/shake_gobo5,160,174 Miscellaneous/shake_gobo4,175,189 Miscellaneous/shake_gobo3,190,204 Miscellaneous/shake_gobo2,205,219 Miscellaneous/shake_gobo1,220,234 Miscellaneous/rotate,235,255
+
+Channel = gobo2
+ Miscellaneous/open,0,9 Chauvet/Qmix4,10,19 Chauvet/Spot 250 LED rotating gobo and color,20,29 Showtec/explo575-WHB-09,30,39 Showtec/GEN-6-006,40,49 Chauvet/bar,50,59 Showtec/explo1200-WHB-03,60,69 Contest/GD005,70,79 Miscellaneous/shake_gobo16,80,99 Miscellaneous/shake_gobo15,100,119 Miscellaneous/shake_gobo14,120,139 Miscellaneous/shake_gobo13,140,159 Miscellaneous/shake_gobo12,160,179 Miscellaneous/shake_gobo11,180,199 Miscellaneous/shake_gobo10,200,219 Miscellaneous/rotate,220,255
+
+Channel = gobo_rotate2
+ index,0,60 right_rotate,61,158 left_rotate,159,255
+
+Channel = prism_rotate
+ no_function,0,0 prism,1,4 left_rotate,5,127 no_function,128,132 right_rotate,133,255
+
+Channel = focus
+
+Channel = dimmer
+
+Channel = strobe_effect
+ closed,0,31 open,32,63 strobe,64,95 open,96,127 pulse_strobe,128,159 open,160,191 random_strobe,192,223 open,224,255
+
+Channel = control
+ no_function,0,19 blackout_moves,20,39 blackout_changes,40,59 auto1,60,79 auto2,80,99 audio1,100,119 audio2,120,139 custom,140,159 macro_1,160,179 no_function,180,199 reset,200,219 no_function,220,255
+

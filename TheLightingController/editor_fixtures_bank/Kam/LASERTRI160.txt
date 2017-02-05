@@ -1,0 +1,38 @@
+Name = KAM_LASERTRI160
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = sound
+ sound_active,0,0 automation,92,92 manual_with_sound,164,164 auto,255,255
+
+Channel = pulse
+ closed,0,0 on_blanking_off,92,92 pulse,164,164 off_blanking_on,255,255
+
+Channel = patterns
+
+Channel = gobo_speed
+
+Channel = gobo_flat_effe
+ static,0,0 flat_effect,64,255
+
+Channel = gobo_pulse
+ static,0,0 pulse_fast,64,127 pulse_middle,128,191 pulse_slow,192,255
+
+Channel = gobo_up&down
+ static,0,0 up_and_down,64,255
+
+Channel = projection_spe
+
+Channel = gobo_zoom
+
+Channel = draw_speed
+

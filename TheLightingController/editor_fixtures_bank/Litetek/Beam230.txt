@@ -1,0 +1,52 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = color
+ white,0,0 red,10,10 orange,20,20 cyan,28,28 green,37,37 light_green,45,45 purple,54,54 pink,62,62 yellow,71,71 magenta,80,80 blue,88,88 cto1,97,97 cto2,105,105 ctb,114,114 congo,122,122 right_rotate,128,191 left_rotate,192,255 
+
+Channel = shutter
+ closed,0,0 strobe,4,103 open,106,106 pulse_strobe,108,207 random_strobe,213,251 open,255,255 
+
+Channel = dimmer
+
+Channel = gobo
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,6,6 Miscellaneous/gobo2,10,10 Miscellaneous/gobo3,14,14 Miscellaneous/gobo4,17,17 Miscellaneous/gobo5,22,22 Miscellaneous/gobo6,26,26 Miscellaneous/gobo7,30,30 Miscellaneous/gobo8,34,34 Miscellaneous/gobo9,38,38 Miscellaneous/gobo10,42,42 Miscellaneous/gobo11,46,46 Miscellaneous/gobo12,50,50 Miscellaneous/gobo13,54,54 Miscellaneous/gobo14,58,58 Miscellaneous/gobo15,62,62 Miscellaneous/gobo16,66,66 Miscellaneous/gobo17,70,70 Miscellaneous/right_rotate,72,113 Miscellaneous/open,116,116 Miscellaneous/left_rotate,118,159 Miscellaneous/shake_gobo1,160,166 Miscellaneous/shake_gobo2,167,172 Miscellaneous/shake_gobo3,173,179 Miscellaneous/shake_gobo4,180,185 Miscellaneous/shake_gobo5,186,191 Miscellaneous/shake_gobo6,192,198 Miscellaneous/shake_gobo7,199,204 Miscellaneous/shake_gobo8,205,211 Miscellaneous/shake_gobo9,212,217 Miscellaneous/shake_gobo10,218,223 Miscellaneous/shake_gobo11,224,230 Miscellaneous/shake_gobo12,231,236 Miscellaneous/shake_gobo13,237,243 Miscellaneous/shake_gobo14,244,249 Miscellaneous/shake_gobo15,250,255 
+
+Channel = prism
+ closed,0,0 open,255,255 
+
+Channel = prism_rotate
+ index,0,127 right_rotate,128,190 stop,191,191 left_rotate,193,255 
+
+Channel = macro_color_prism
+
+Channel = frost
+
+Channel = focus
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = effect_macro
+ no_function,0,0 macro_1,18,18 macro_2,31,31 macro_3,46,46 macro_4,57,57 ?,255,255 
+
+Channel = control
+ no_function,0,0 reset,63,63 
+
+Channel = lamp
+ no_function,0,0 lamp_off,63,63 lamp_on,178,178 
+

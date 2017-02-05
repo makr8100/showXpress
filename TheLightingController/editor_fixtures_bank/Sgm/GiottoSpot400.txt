@@ -1,0 +1,68 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = iris
+
+Channel = color
+ white,0,0 red,41,41 yellow,68,68 green,97,97 cyan,125,125 blue,153,153 magenta,181,181 azure,209,209 orange,255,255 
+
+Channel = gobo
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,31,31 Miscellaneous/gobo2,52,52 Miscellaneous/gobo3,73,73 Miscellaneous/gobo4,94,94 Miscellaneous/gobo5,115,115 Miscellaneous/gobo6,136,136 Miscellaneous/gobo7,157,157 Miscellaneous/gobo8,178,178 Miscellaneous/rotate,190,242 audio,255,255 
+
+Channel = shutter
+ closed,0,0 strobe,8,119 synch_bass,128,128 music_flash,145,145 autoshade_open_gobos,162,162 autoshade_open_colors,179,179 autoshade_open_gobos_colors,196,196 slow_gobo_change,213,254 open,255,255 
+
+Channel = dimmer
+
+Channel = gobo_rotate
+ right_rotate,0,111 stop,130,130 right_rotate,145,255 
+
+Channel = prism
+ no_function,0,0 comet,110,110 4_facets,255,255 
+
+Channel = prism_rotate
+ right_rotate,0,111 stop,130,130 right_rotate,145,255 
+
+Channel = focus
+
+Channel = zoom
+
+Channel = gobo2
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,41,41 Miscellaneous/gobo2,68,68 Miscellaneous/gobo3,97,97 Miscellaneous/gobo4,125,125 Miscellaneous/gobo5,153,153 Miscellaneous/gobo6,181,181 Miscellaneous/gobo7,209,209 Miscellaneous/gobo8,255,255 
+
+Channel = frost
+
+Channel = pantilt_speed
+
+Channel = control
+ lamp_off,0,0 Hysteresis,100,100 lamp_on,150,150 Hysteresis,200,200 reset,255,255 
+
+Channel = gobo_shake
+ no_function,0,0 index,48,255 
+
+Channel = color_mode
+ full_color,0,0 half_color,75,75 soft_color,125,125 soft_rainbow,175,175 audio,255,255 
+
+Channel = gobo_mode
+ index,0,127 rotate,128,255 
+
+Channel = effect_macro
+ no_function,0,0 Slow dimmer opening ramp and fast closing ,12,12 Slow dimmer closing ramp and fast opening ,20,20 Odd-numbered fixtures1,28,28 Odd-numbered fixtures2,36,36 pulse_open,52,52 pulse_close,60,60 random_strobe,108,108 Slow Frost 1,116,116 Slow Frost 2,124,124 Slow Frost 3,132,132 
+

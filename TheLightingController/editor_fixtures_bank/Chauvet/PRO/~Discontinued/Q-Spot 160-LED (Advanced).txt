@@ -1,0 +1,49 @@
+Name = Q-Spot 150-LED (Advanced)
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 530
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = TRUE
+ViewReverseTilt = TRUE
+ViewReverseDimmer = TRUE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = pan
+ new_level,0,255
+
+Channel = upan
+ new_level,0,255
+
+Channel = tilt
+ new_level,0,255
+
+Channel = utilt
+ new_level,0,255
+
+Channel = pantilt_speed
+ new_level,0,255
+
+Channel = color
+ open,0,14 red,15,29 yellow,30,44 green,45,59 pink,60,74 blue,75,89 orange,90,104 magenta,105,119 light_blue,120,134 light_green,135,149 rainbow,150,255
+
+Channel = gobo
+ ok_for_3DView\open,0,9 Chauvet\Qmix4,10,19 Miscellaneous\gobo2,20,29 Chauvet\575gobo12,30,39 Chauvet\cut square,40,49 Chauvet\bar,50,59 Chauvet\Qmix7,60,69 Chauvet\142029,70,79 Gobo Shake 7,80,99 Gobo Shake 6,100,119 Gobo Shake 5,120,139 Gobo Shake 4,140,159 Gobo Shake 3,160,179 Gobo Shake 2,180,199 Gobo Shake 1,200,219 Gobo Scroll (slow_fast),220,255
+
+Channel = gobo_rotate
+ no_function,0,2 right_rotate,3,6 right_rotate,7,128 no_function,129,132 left_rotate,133,136 left_rotate,137,255
+
+Channel = prism
+ no_function,0,127 prism,128,255
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = strobe_dimmer
+ closed,0,31 open,32,63 strobe,64,95 open,96,127 pulse_strobe,128,159 open,160,191 random_strobe,192,223 open,224,255
+
+Channel = control
+ no_function,0,19 Pan/Tilt Move in Black (activ,20,39 Pan/Tilt Move in Black (Deact,40,59 auto1,60,79 auto2,80,99 audio1,100,119 audio2,120,139 custom,140,159 Test,160,179 no_function,180,199 reset,200,219 no_function,220,255
+

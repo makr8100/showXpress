@@ -1,0 +1,42 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = control
+ closed,0,0 dmx,255,255 
+
+Channel = RGBWAP
+ closed,0,0 index,10,198 auto1,199,225 auto2,226,255 
+
+Channel = auto_run_speed
+ ?,0,0 
+
+Channel = shutter
+ open,0,0 strobe,10,244 audio,255,255 
+
+Channel = white
+ closed,0,0 output_position,10,135 output_chase,136,255 
+
+Channel = white_strobe
+ chase,0,127 chase_strobe,128,255 
+
+Channel = laser
+ closed,0,0 red,30,30 green,70,70 red_green,110,110 red_green_flickers,130,169 green_red_flickers,170,209 red_green_flickers,210,249 red_green_alternate_flicker,255,255 
+
+Channel = laser_shutter
+ open,0,0 strobe,10,244 audio,255,255 
+
+Channel = LED_rotation
+ stop,0,0 right_rotate,9,127 left_rotate,128,255 
+
+Channel = laser_rotation
+ patterns,0,127 patterns_chase,128,255 
+

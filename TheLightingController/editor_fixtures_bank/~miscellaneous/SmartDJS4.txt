@@ -1,0 +1,37 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 24
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = dimmer
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = amber
+
+Channel = white
+
+Channel = uv
+
+Channel = shutter
+ open,0,0 strobe,16,255 
+
+Channel = control
+ dmx,0,0 auto,60,60 rainbow_fade,120,120 audio,255,255 
+
+Channel = speed_control
+
+Channel = color_macro mode
+ no_function,0,0 linear,40,40 curve,90,90 theater,160,160 studio,255,255 
+

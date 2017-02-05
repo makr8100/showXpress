@@ -1,0 +1,27 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = Auto Programs
+ no_function,0,10 Auto 1,11,31 Auto 2,32,51 Auto 3,52,72 Auto 4,73,92 ???,93,93 
+
+Channel = Auto Speed
+ dimmer,0,255 
+
+Channel = Dimmer
+ dimmer,0,255 
+
+Channel = Shutter
+ no_function,0,10 0-20 Hz,11,255 
+
+Channel = Dimmer Modes
+ Preset Dimmer Speed,0,51 Linear Dimmer,52,101 Nonlinear Dimming Curve 1,102,152 Nonlinear Dimming Curve 2,153,203 Nonlinear Dimming Curve 3,204,255 
+

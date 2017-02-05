@@ -1,0 +1,48 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = red
+ red,0,255
+
+Channel = green
+ green,0,255
+
+Channel = blue
+ blue,0,255
+
+Channel = amber
+ amber,0,255
+
+Channel = white
+ white,0,255
+
+Channel = UV
+ Uv,0,255
+
+Channel = strobe_effect
+ no function,0,10 strobe slow -fast,11,255
+
+Channel = color macro
+ no function,0,10 R100% G0-100% B0,11,30 R100%-0 G100% B0-100%,31,50 R 0 G100% B0-100%,51,70 R0 G100%-0 B100%,71,90 R0-100% G0 B100%,91,110 R100% G0 B100%-0,111,130 R100% G0-1-0% B0-100%,131,150 R100%-0 G100%-0 B100%,151,170 R100% G100% B100% A 100%,171,200 color temp 1,201,205 color temp 2,206,210 color temp 3,211,215 color temp 4,216,220 color temp 5,221,225 color temp 6,226,230 color temp 7,231,235 color temp 8,236,240 color temp 9,241,245 color temp 10,246,250 color temp 11,251,255 
+
+Channel = Auto Program
+ no function,0,10 auto program 1,11,60 auto program 2,61,120 auto program 3,121,180 auto program 4,181,240 auto program 0 (1-5),241,255 
+
+Channel = Auto Speed
+ auto speed slow - fast,0,255 
+
+Channel = Dimmer Mode
+ preset dimmer speed from display menue,0,51 dimmer speed mode off,52,101 dimmer speed mode 1,102,152 dimmer speed mode 2,153,203 dimmer speed mode 3,204,255 
+

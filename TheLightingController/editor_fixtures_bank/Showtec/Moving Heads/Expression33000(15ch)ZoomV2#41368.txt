@@ -1,0 +1,45 @@
+﻿ViewType = VIEW_TYPE_HEAD_WASH
+ViewPower = VIEW_POWER_LED60W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 24
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Showtec/Moving Heads/Expression33000#41368.png
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = amber
+
+Channel = color_macro
+ no_function,0,0 3200K,203,203 3400K,208,208 4200K,213,213 4900K,218,218 5600K,223,223 5900K,228,228 6500K,233,233 7200K,238,238 8000K,243,243 8500K,248,248 10000K,255,255
+
+Channel = dimmer
+
+Channel = shutter
+ open,0,0 strobe,10,255
+
+Channel = zoom
+
+Channel = control
+ no_function,0,0 blackout_move,30,30 fan_auto,65,65 fan,80,139 auto1,140,140 auto2,155,155 test,165,165 reset,227,227 
+

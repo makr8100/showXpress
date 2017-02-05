@@ -1,0 +1,18 @@
+Name = CLAY-PAKY_TIGER_CC
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = color
+ white,0,0 red,38,38 yellow,72,72 violet,110,110 green,170,170 orange,184,184 blue,220,220 pink,255,255
+
+Channel = shutter
+ dimmer,0,128 open,132,132 speed_strobe,140,243 open,255,255
+
+Channel = frost
+

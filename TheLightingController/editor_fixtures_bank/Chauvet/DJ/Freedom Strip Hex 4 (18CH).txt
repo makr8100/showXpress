@@ -1,0 +1,65 @@
+﻿ViewType = VIEW_TYPE_COLOR_PANEL
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/Freedom Strip HEX 4.png
+
+Channel = dimmer
+
+Channel = red
+ dimmer,0,255
+
+Channel = green
+ dimmer,0,255
+
+Channel = blue
+ dimmer,0,255
+
+Channel = amber
+ dimmer,0,255
+
+Channel = white
+ dimmer,0,255
+
+Channel = uv
+ dimmer,0,255
+
+Channel = red
+ dimmer,0,255
+
+Channel = green
+ dimmer,0,255
+
+Channel = blue
+ dimmer,0,255
+
+Channel = amber
+ dimmer,0,255
+
+Channel = white
+ dimmer,0,255
+
+Channel = uv
+ dimmer,0,255
+
+Channel = strobe_dimmer
+ no_function,0,10 strobe,11,255
+
+Channel = color_macro
+ no_function,0,10 macro_1,11,30 macro_2,31,50 macro_3,51,70 macro_4,71,90 macro_5,91,110 macro_6,111,130 macro_7,131,150 macro_8,151,170 macro_9,171,200 color_swap,201,255 
+
+Channel = effect_macro
+ auto,0,10 pattern_01,11,25 pattern_02,26,50 pattern_03,51,75 pattern_04,76,100 pattern_05,101,125 pattern_06,126,150 pattern_07,151,175 pattern_08,176,200 pattern_09,201,240 auto1,241,255 
+
+Channel = effect_speed
+ auto speed,0,255 
+
+Channel = dimmer
+ dimmer speed,0,255 
+

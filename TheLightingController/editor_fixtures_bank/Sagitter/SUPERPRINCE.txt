@@ -1,0 +1,36 @@
+Name = SAGITTER_SUPERPRINCE
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = color
+ color1/open,0,0 color1/color2,16,16 color2,26,26 color2/color3,36,36 color3,46,46 color3/color4,56,56 color4,67,67 color4/color5,77,77 color5,87,87 color5/color6,98,98 color6,108,108 color6/color7,118,118 color7,128,128 color7/color8,139,139 speed,159,255
+
+Channel = gobo
+ gobo1_open,0,0 gobo2,80,80 gobo3,128,128 gobo4,180,180 gobo5,255,255
+
+Channel = gobo_rotate
+ indexed,0,150 forwards_spin,154,190 stop,202,202 reverse_spin,216,255
+
+Channel = effect
+ open,0,0 col_3200°,67,67 col_6000°,95,95 col_coor_pink,150,150 frost_filter,193,193 multiface_pris,255,255
+
+Channel = iris
+
+Channel = dimmer
+
+Channel = shutter
+ open,0,0 closed,40,40 speed,54,255
+
+Channel = control
+ lamp_off_(20"),0,0 self_test_(20",90,90 reset_(5"),128,128 lamp_on,255,255
+
+Channel = pan
+
+Channel = tilt
+

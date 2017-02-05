@@ -1,0 +1,86 @@
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = dimmer
+
+Channel = dimmer
+
+Channel = shutter
+ closed,0,7 open,8,15 macro_1,16,131 macro_2,132,167 macro_3,168,203 random_strobe,204,239 open,240,255
+
+Channel = color
+ open,0,7 red,8,15 dark_blue,16,23 pink,24,31 green,32,39 yellow,40,47 orange,48,55 uv,56,63 split_color,64,127 left_rotate,128,189 stop,190,193 right_rotate,194,255
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = yellow
+
+Channel = amber
+
+Channel = speed_control
+
+Channel = gobo
+ Miscellaneous/open,0,9 Miscellaneous/gobo1,10,19 Miscellaneous/gobo2,20,28 Miscellaneous/gobo3,29,38 Miscellaneous/gobo4,39,47 Miscellaneous/gobo5,48,57 Miscellaneous/gobo6,58,67 Miscellaneous/shake_gobo1,68,77 Miscellaneous/shake_gobo2,78,87 Miscellaneous/shake_gobo3,88,97 Miscellaneous/shake_gobo4,98,107 Miscellaneous/shake_gobo5,108,117 Miscellaneous/shake_gobo6,118,127 Miscellaneous/left_rotate,128,189 Miscellaneous/stop,190,193 Miscellaneous/right_rotate,194,255
+
+Channel = gobo_rotate
+ index,0,127 left_rotate,128,189 stop,190,193 right_rotate,194,255
+
+Channel = gobo_urotate
+
+Channel = gobo2
+ Miscellaneous/open,0,9 Miscellaneous/gobo7,10,19 Miscellaneous/gobo8,20,28 Miscellaneous/gobo9,29,38 Miscellaneous/gobo10,39,47 Miscellaneous/gobo11,48,57 Miscellaneous/gobo12,58,67 Miscellaneous/shake_gobo7,68,77 Miscellaneous/shake_gobo8,78,87 Miscellaneous/shake_gobo9,88,97 Miscellaneous/shake_gobo10,98,107 Miscellaneous/shake_gobo11,108,117 Miscellaneous/shake_gobo12,118,127 Miscellaneous/left_rotate,128,189 Miscellaneous/stop,190,193 Miscellaneous/right_rotate,194,255
+
+Channel = gobo_rotate2
+ index,0,127 left_rotate,128,189 stop,190,193 right_rotate,194,255
+
+Channel = gobo_urotate2
+
+Channel = focus
+
+Channel = zoom
+
+Channel = effect
+ open,0,25 macro_1,26,50 macro_2,51,76 macro_3,77,101 macro_4,102,127 custom,128,255
+
+Channel = effect_macro
+ index,0,127 left_rotate,128,189 stop,190,193 right_rotate,194,255
+
+Channel = iris
+
+Channel = frost
+ frost,0,179 pulse_close,180,201 pulse_open,202,223 frost,224,245 frost,246,246
+
+Channel = movement_macro
+ no_function,0,7 macro_1,8,15 macro_2,16,23 macro_3,24,31 macro_4,32,39 macro_5,40,47 macro_6,48,55 macro_7,56,63 macro_8,64,71 macro_9,72,79 macro_10,80,87 macro_11,88,95 macro_12,96,103 macro_13,104,120 macro_14,121,127 macro_15,128,135 macro_16,136,143 macro_17,144,151 macro_18,152,159 macro_19,160,167 macro_20,168,175 macro_21,176,183 macro_22,184,191 macro_23,192,207 macro_24,208,223 macro_25,224,231 macro_26,232,247 macro_27,248,255
+
+Channel = movement_macro
+
+Channel = color
+ open,0,21 color 1,22,42 color 2,43,63 color 3,64,85 color 4,86,106 color 5,107,127 color 6,128,148 color 7,149,170 color 8,171,191 color 9,192,212 color 10,213,233 color 11,234,255
+
+Channel = color_macro
+ open,0,7 macro_1,8,28 macro_2,29,49 macro_3,50,69 macro_4,70,90 macro_5,91,110 macro_6,111,131 macro_7,132,152 macro_8,153,173 macro_9,174,194 macro_10,195,215 macro_11,216,235 macro_12,236,255
+
+Channel = control
+ no_function,0,9 auto,10,19 auto1,20,29 fan_auto,30,39 fan,40,49 no_function,50,69 blackout_moves,70,79 blackout_changes,80,89 macro_1,90,99 custom,100,109 custom,110,119 custom,120,129 lamp_on,130,139 reset_xy,140,149 reset_color,150,159 reset_others,160,169 reset_shutter,170,179 reset_focus,180,189 reset,190,199 reset,200,209 custom,210,219 custom,220,229 lamp_off,230,239 no_function,240,255
+

@@ -1,0 +1,19 @@
+Name = Stage Wash 950 (RGB Mode)
+
+ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_1200MSR
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 70
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewColor = 0
+
+Channel = red
+ dimmer,4,255
+
+Channel = green
+ dimmer,4,255
+
+Channel = blue
+ dimmer,4,255

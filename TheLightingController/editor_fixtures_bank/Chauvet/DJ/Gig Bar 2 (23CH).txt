@@ -1,0 +1,78 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/GigBAR-2.0.png
+
+Channel = red
+ dimmer,0,255
+
+Channel = green
+ dimmer,0,255
+
+Channel = blue
+ dimmer,0,255
+
+Channel = uv
+ dimmer,0,255
+
+Channel = RGB BASED ON CH 1 . 2 . 3
+ rgb,0,127 strobe,128,239 audio,240,249 RGB,250,255
+
+Channel = red
+ rgb,0,127 strobe,128,239 audio,240,249 RGB,250,255
+
+Channel = green
+
+Channel = blue
+
+Channel = uv
+
+Channel = RGB BASED ON CH 6. 7. 8
+ rgb,0,127 strobe,128,239 audio,240,249 RGB,250,255
+
+Channel = DERBY CONTROL
+ BLACKOUT,0,24 RED,25,49 GREEN,50,74 BLUE,75,99 RED + GREEN,100,124 RED + BLUE,125,149 GREEN + BLUE,150,174 RED + GREEN + BLUE,175,199 auto,200,224 auto2,225,255
+
+Channel = Derby 1 strobe rate
+ no_function,0,9 strobe,10,239 auto,240,255 
+
+Channel = Derby  1 rotation
+ stop,0,4 right_rotate,5,127 stop,128,133 left_rotate,134,255 
+
+Channel = Derby 2 control
+ Blackout,0,24 Red,25,49 Green,50,74 Blue,75,99 Red + Green,100,124 Red + Blue,125,149 Green + Blue,150,174 Red + Green + Blue,175,199 auto,200,224 Two colors at a time,225,255 
+
+Channel = Derby 2 Strobe 
+ no_function,0,9 strobe,10,239 audio,240,255 
+
+Channel = Derby 2 Rotation
+ stop,0,4 right_rotate,5,127 stop,128,133 left_rotate,134,255 
+
+Channel = laser
+ Blackout,1,39 Red on,40,79 Green,80,119 Red + Green on,120,159 Red on + Green strobe,160,199 Green on + Red strobe,200,239 Red + Green alternate strobe,240,255 
+
+Channel = strobe_effect
+ no_function,0,9 strobe,10,239 audio,240,255 
+
+Channel = pattern
+ stop,0,4 right_rotate,5,127 stop,128,133 left_rotate,134,255 
+
+Channel = strobe_effect
+ blackout,0,9 white auto srtobe program 1,10,19 white auto srtobe program 2,20,29 white auto srtobe program 3,30,39 white auto srtobe program 4,40,49 white auto srtobe program 5,50,59 white auto srtobe program 6,60,69 white auto srtobe program 7,70,79 white auto srtobe program 8,80,89 white auto srtobe program 9,90,99 strobe,100,109 UV Auto Strobe Program 1,110,119 UV Auto Strobe Program 2,120,129 UV Auto Strobe Program 3,130,139 UV Auto Strobe Program 4,140,149 UV Auto Strobe Program 5,150,159 UV Auto Strobe Program 6,160,169 UV Auto Strobe Program 7,170,179 UV Auto Strobe Program 8,180,189 UV Auto Strobe Program 9,190,199 strobe,200,209 audio,210,229 audio,230,255 
+
+Channel = dimmer
+ dimmer,0,255 
+
+Channel = uv
+ dimmer,0,255 
+
+Channel = speed_control
+ strobe,0,255 
+

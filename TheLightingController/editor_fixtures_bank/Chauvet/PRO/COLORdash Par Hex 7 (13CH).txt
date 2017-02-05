@@ -1,0 +1,51 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = red
+ red,0,255
+
+Channel = ured
+ red fine,0,255 
+
+Channel = green
+ green,0,255
+
+Channel = ugreen
+ green fine,0,255 
+
+Channel = blue
+ blue,0,255
+
+Channel = ublue
+ blue fine,0,255 
+
+Channel = amber
+ amber,0,255
+
+Channel = uamber
+ amber fine,0,255 
+
+Channel = white
+ white,0,255
+
+Channel = uwhite
+ white fine,0,255 
+
+Channel = UV
+ Uv,0,255
+
+Channel = uUV
+ UV fine,0,255 
+
+Channel = Dimmer Speed Mode
+ preset dimmer speed from display,0,51 dimmer speed mode off,52,101 dimmer speed mode 1,102,152 dimmer speed mode 2,153,203 dimmer speed mode 3,204,255 
+

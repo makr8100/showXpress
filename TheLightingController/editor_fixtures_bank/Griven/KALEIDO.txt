@@ -1,0 +1,21 @@
+Name = GRIVEN_KALEIDO
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = reserved
+
+Channel = shutter
+ dimmer,0,159 strobe,160,239 open,255,255
+
+Channel = yellow
+
+Channel = cyan
+
+Channel = magenta
+

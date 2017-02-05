@@ -1,0 +1,33 @@
+Name = MICROH_DUOBEAM
+
+ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = control
+ closed,0,0 audio,75,75 mode1,127,127 mode2,178,178 auto,255,255
+
+Channel = laser
+ circle_zoom,0,3 line_rotate,5,5 circle_x,9,9 circle_z,13,13 circle_write,17,17 circle_y,21,21 circle_move,25,25 half_rotate,29,29 half_x,33,33 half_y,37,37 half_move,41,41 w_x,45,45 w_y,49,49 wave_x,53,53 wave,57,57 wave_move,61,61 square_zoom,65,65 square_x,68,68 square_y,73,73 square_change,77,77 triangle_zoom,81,81 triangle_change,85,85 triangle_draw,89,89 line_wave,93,93 star_rotate,97,97 star_move,101,101 line_move,105,105 line_rotate,109,109 hline_size,113,113 vline_move,117,117 vline_size,121,121 line_rotate,125,125 hexagon_zoom,133,133 hexagon_rotate,137,137 scircle_move,141,141 scircle_8,145,145 dot_move,149,149 dot_path,153,153 image_wave,157,157 cloud_move,161,161 cloud_y,165,165 cloud_x,169,169 v_move,173,173 v_x,177,177 v_y,181,181 v_zoom,185,185 v_rotate,188,188 wave_rotate,193,193 wave_flow,197,197 line_rotate,204,204 plus_rotate,209,209 plus_zoom,213,213 line_center,217,217 8_flow,221,221 8_rotate,225,225 rectangle rotate,255,255
+
+Channel = gobo
+ image1,0,0 image2,76,76 image3,127,127 image4,178,178 image5,255,255
+
+Channel = focus
+
+Channel = gobo_rotate
+ stop,0,0 left_rotate,100,100 right_rotate,255,255
+
+Channel = pan
+
+Channel = tilt
+
+Channel = effect_speed
+

@@ -1,0 +1,47 @@
+Name = GENI_OBY3U
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_250MSR
+ViewAnglePan = 570
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = dimmer
+
+Channel = shutter
+ open,0,0 dimmer,8,63 strobe,72,127 random_shutter,200,253 open,255,255
+
+Channel = color
+ white,0,0 cyan,20,20 orange,35,35 green,48,48 uv,60,60 violet,76,76 red,90,90 light_blue,104,104 yellow,118,118 pink,132,132 green,146,146 blue,160,160 rotate,168,255
+
+Channel = gobo
+ Miscellaneous\open,0,0 Geni\OBY-3-CH2-14-27,38,38 Geni\OBY-3-CH2-28-41,60,60 Geni\OBY-3-CH2-42-55,80,80 Geni\OBY-3-CH2-56-69,110,110 Geni\OBY-3-CH2-70-83,130,130 Geni\OBY-3-CH2-84-97,155,155 Miscellaneous\rotate,168,255
+
+Channel = gobo_rotate
+ index,0,127 left_rotate,128,151 right_rotate,152,255
+
+Channel = prism
+ open,0,0 prism,5,5 right_rotate,8,132 left_rotate,134,253 prism,255,255
+
+Channel = focus
+ focus_near,0,0 focus_mid,128,128 focus_far,255,255
+
+Channel = pan
+
+Channel = tilt
+
+Channel = upan
+
+Channel = utilt
+
+Channel = control
+ auto_pan_tilt,0,0 manual_pan_tilt,40,40 reset_after_3s,255,255
+
+Channel = control
+ on_standby,0,0 on_after_3s,75,75 on_standby,130,130 on_after_3s,180,180 on_standby,255,255
+

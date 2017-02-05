@@ -1,0 +1,45 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 15
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/Intimidator 155.png
+
+Channel = pan
+ Pan,0,255
+
+Channel = tilt
+ Tilt,0,255
+
+Channel = upan
+ Pan fine,0,255
+
+Channel = utilt
+ Tilt fine ,0,255
+
+Channel = pantilt_speed
+ Pan/Tilt speed,0,255
+
+Channel = color
+ white,0,5 yellow,6,11 magenta,12,17 green,18,23 red,24,28 cyan,29,35 orange,36,41 blue,42,47 light_green,48,53 light_red,54,63 split_color,64,127 clock,128,191 counterclock,192,255
+
+Channel = shutter
+ no_function,0,3 open,4,7 strobe,8,215 open,216,255
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = gobo
+ Chauvet/open,0,5 metal/Flower Gobo,6,11 metal/snow Gobo,12,17 metal/L330SS8,18,23 metal/GM045,24,29 metal/sun2,30,35 metal/multi star Gobo,36,41 metal/shell Gobo,42,47 metal/whirepool,48,53 metal/Z03748-12,54,63 Miscellaneous/shake_gobo1,64,73 Miscellaneous/shake_gobo3,74,79 Miscellaneous/shake_gobo3,80,85 Miscellaneous/shake_gobo4,86,91 Miscellaneous/shake_gobo5,92,97 Miscellaneous/shake_gobo6,98,103 Miscellaneous/shake_gobo7,104,109 Miscellaneous/shake_gobo8,110,115 Miscellaneous/shake_gobo9,116,121 Miscellaneous/open,122,127 Miscellaneous/right_rotate,128,191 Miscellaneous/left_rotate,192,255
+
+Channel = control
+ no_function,0,7 Blackout while pan/tilt moving,8,27 Blackout while moving gobo wheel,28,47 Disable blackout while pan/tilt/moving gobo wheel,48,67 Blackout while moving color wheel,68,87 Disable blackout while pan/tilt/moving color wheel,88,107 Disable blackout while moving gobo/color wheel,108,127 Disable blackout while pan/tilt/moving,128,147 reset_xy,148,167 reset_color,168,177 reset_gobo,178,187 reset_Prism,188,197 reset,198,207 no_function,208,255
+
+Channel = movement_macro
+ no_function,0,7 macro_1,8,23 macro_2,24,39 macro_3,40,55 macro_4,56,71 macro_5,72,87 macro_6,88,103 macro_7,104,119 macro_8,120,135 Sound Controlled program 1,136,151 Sound Controlled program 2,152,167 Sound Controlled program 3,168,183 Sound Controlled program 4,184,199 Sound Controlled program 5,200,215 Sound Controlled program 6,216,231 Sound Controlled program 7,232,247 Sound Controlled program 8,248,255
+

@@ -1,0 +1,27 @@
+Name = GENI_STRATUS5X
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewColor = 13158600
+
+Channel = shutter
+ dimmer,0,159 strobe,160,253 open,255,255
+
+Channel = color
+ white,0,0 pink_orange,20,20 yellow,35,35 pink,52,52 dark_blue,68,68 red,84,84 green,100,100 orange,115,115 purple,130,130 light_blue,148,148 white,164,164 rotate,170,255
+
+Channel = gobo
+ Miscellaneous\open,0,0 Geni\SA-5-CH2-14-27,20,20 Geni\SA-5-CH2-28-42,35,35 Geni\SA-5-CH2-43-55,50,50 Geni\SA-5-CH2-56-69,65,65 Geni\SA-5-CH2-70-85,77,77 Geni\SA-5-CH2-86-98,92,92 Geni\SA-5-CH2-99-112,105,105 Geni\SA-5-CH2-113-127,120,120 Geni\SA-5-CH2-128-140,135,135 Geni\SA-5-CH2-141-154,150,150 Geni\SA-5-CH2-155-170,160,160 Geni\SA-5-CH2-171-183,180,180 Geni\SA-5-CH2-184-197,190,190 Geni\SA-5-CH2-198-213,205,205 Geni\SA-5-CH2-214-225,220,220 Geni\SA-5-CH2-226-239,232,232 Geni\SA-5-CH2-240-252,245,245 Geni\SA-5-CH2-253-255,255,255
+
+Channel = gobo_rotate
+ stop,0,0 left_rotate,8,131 right_rotate,132,255
+
+Channel = pan
+
+Channel = tilt
+

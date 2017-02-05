@@ -1,0 +1,44 @@
+﻿ViewType = VIEW_TYPE_HEAD_WASH
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 24
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Showtec/Moving Heads/KanjoWashRGB#45000.png
+
+Channel = pan
+
+Channel = tilt
+
+Channel = upan
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = dimmer
+
+Channel = shutter
+ open,0,0 strobe,16,255 
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = color
+ no_function,0,0 cyan,7,7 purple,20,20 purple-red,34,34 orange,46,46 white,60,60 pastel_pale_rose,73,73 light_green,86,86 light_blue,98,98 yellow,112,112 satin_white,124,124 red,137,137 green,150,150 blue,163,163 amber,176,176 white,190,190 7_colors_gradient,196,223 7_color_change,224,237 7_color_jump,238,255 
+
+Channel = speed_control
+
+Channel = effect_macro
+ no_function,0,0 macro_1,50,50 macro_2,125,125 macro_3,175,175 macro_4,255,255 
+
+Channel = control
+ no_function,0,0 reset,255,255 
+

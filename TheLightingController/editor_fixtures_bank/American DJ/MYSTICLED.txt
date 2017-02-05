@@ -1,0 +1,25 @@
+Name = AMERICAN-DJ_MYSTICLED
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 32
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = shutter
+ closed,0,0 strobe,2,127 random_strobe,136,253 open,255,255
+
+Channel = color
+ red,0,0 red_green,63,63 green,104,104 green_blue,146,146 blue,188,188 blue_red,230,230 white,255,255
+
+Channel = rainbow_effect
+ off,0,0 on,96,96 off,255,255
+
+Channel = led_rotation
+ off,0,0 right_rotate,2,85 left_rotate,86,170 random_rotate,179,255
+

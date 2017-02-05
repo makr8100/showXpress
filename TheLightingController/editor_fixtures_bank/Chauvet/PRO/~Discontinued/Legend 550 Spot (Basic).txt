@@ -1,0 +1,49 @@
+Name = Legend 550 Spot (Basic)
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = TRUE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = pan
+ dimmer,0,255
+
+Channel = tilt
+ dimmer,0,255
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = strobe_dimmer
+ closed,0,7 open,8,15 strobe,16,131 shaking,132,185 shaking,186,239 random_strobe,240,247 open,248,255
+
+Channel = color
+ open,0,6 pink,7,12 purple,13,18 uv,19,25 dark_blue,26,31 blue,32,37 green,38,44 magenta,45,50 red,51,56 yellow,57,63 split_color,64,127 right_rotate,128,191 left_rotate,192,255
+
+Channel = color
+ open,0,6 orange,7,12 light_yellow,13,18 light_blue,19,25 light_green,26,31 pink,32,37 light_yellow,38,44 3200-5600k,45,50 3200-4100k,51,56 white,57,63 split_color,64,127 right_rotate,128,191 left_rotate,192,255
+
+Channel = iris
+ dimmer,0,127 auto,128,170 auto,171,212 auto,213,255
+
+Channel = gobo
+ Miscellaneous\open,0,12 Miscellaneous\gobo1,13,25 Miscellaneous\gobo2,26,38 Miscellaneous\gobo3,39,50 Miscellaneous\gobo4,51,63 Miscellaneous\gobo5,64,76 Miscellaneous\gobo6,77,88 Miscellaneous\gobo7,89,101 Miscellaneous\gobo8,102,114 Miscellaneous\gobo9,115,127 Miscellaneous\right_rotate,128,191 Miscellaneous\left_rotate,192,255
+
+Channel = gobo2
+ Miscellaneous\open,0,15 Miscellaneous\gobo1,16,31 Miscellaneous\gobo2,32,47 Miscellaneous\gobo3,48,63 Miscellaneous\gobo4,64,79 Miscellaneous\gobo5,80,95 Miscellaneous\gobo6,96,111 Miscellaneous\gobo7,112,127 Miscellaneous\right_rotate,128,191 Miscellaneous\left_rotate,192,255
+
+Channel = gobo_rotate2
+ index,0,127 right_rotate,128,191 left_rotate,192,255
+
+Channel = focus
+ focus_far,0,255
+
+Channel = prism
+ open,0,7 prism,8,15 left_rotate,16,135 right_rotate,136,255
+

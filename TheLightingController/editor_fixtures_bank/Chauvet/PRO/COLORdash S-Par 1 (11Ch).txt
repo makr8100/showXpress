@@ -1,0 +1,44 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 15
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/PRO/Colordash S-Par 1-2D.png
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = red
+ dimmer,0,255
+
+Channel = green
+ dimmer,0,255
+
+Channel = blue
+ dimmer,0,255
+
+Channel = amber
+ dimmer,0,255
+
+Channel = strobe_effect
+ no_function,0,10 Strobe slow to fast,11,255
+
+Channel = color_macro
+
+Channel = Color Temp
+ no_function,0,5 Warm White 1,6,25 Warm White 2,26,50 Warm White 3,51,75 Neutral White 1,76,100 Neutral White 2,101,125 Neutral White 3,126,150 Daylight 1,151,175 Daylight 2,176,200 Daylight 3,201,225 Moving Head White,226,250 no_function,251,255
+
+Channel = mode
+ no_function,0,10 Auto Program 1,11,60 Auto Program 2,61,110 Auto Program 3,111,160 Auto Program 4,161,210 Auto Program 5 (Auto 1-4),211,255
+
+Channel = effect_speed
+ Slow to fast,0,255
+
+Channel = Dimmer Mode
+ Preset from display,0,51 Dimmer speed off,52,101 Dimmer speed mode 1 (fast),102,152 Dimmer speed mode 2 (middle),153,203 Dimmer speed mode 3 (slow),204,255
+

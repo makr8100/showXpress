@@ -1,0 +1,25 @@
+Name = FAL_COLOURTRONIC_(mode2_bis)
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = color
+ white,0,0 white+color1,22,22 color_1,27,27 color1+color2,32,32 color_2,37,37 color2+color3,42,42 color_3,47,47 color3+color4,52,52 color_4,57,57 color4+color5,62,62 color_5,67,67 color5+color6,72,72 color_6,77,77 color6+color7,82,82 color_7,87,87 color7+color8,92,92 color_8,97,97 color8+color9,102,102 color_9,107,107 color9+white,112,112 white+color1,117,117 color_1,122,122 color1+color2,127,127 color_2,132,132 color2+color3,137,137 color_3,142,142 color3+color4,174,147 color_4,152,152 color4+color5,157,157 color_5,162,162 color5+color6,167,167 color_6,172,172 color6+color7,177,177 color_7,182,182 color7+color8,187,187 color_8,192,192 color8+color9,197,197 color_9,202,202 color9+white,207,207 individual_rai,220,220 rainbow_seq,255,255
+
+Channel = effect_speed
+ stop,0,0 clock_speed1,12,22 clock_speed2,23,33 clock_speed3,34,44 clock_speed5,45,55 clock_speed6,67,77 clock_speed7,78,88 clock_speed8,89,99 clock_speed9,100,110 clock_speed10,111,121 stop,130,130 speed1,135,146 speed2,147,158 speed3,159,170 speed4,171,182 speed5,183,194 speed6,195,206 speed7,207,218 speed8,219,230 speed9,231,242 speed10,243,255
+
+Channel = effect
+ clear,0,0 aperture_1,48,48 aperture_2,80,80 aperture_3,112,112 ctc_filt_6000,144,144 ctc_filt_3200,176,176 effect_glass_1,208,208 effect_glass_2,255,255
+
+Channel = shutter
+ closed,0,0 dimmer,8,128 open,131,131 strobe,135,246 open,255,255
+
+Channel = control
+ color_mode_1,0,0 color_mode_2,128,128 reset,255,255
+

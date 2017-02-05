@@ -1,0 +1,45 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = mode
+ off,0,0 dmx_mode,60,60 auto_Build-in cartoon,100,100 auto_Build-in beam,140,140 sound_Build-in beam,180,180 sound_Build-in cartoon,230,230 dmx_mode,255,255
+
+Channel = pattern
+
+Channel = rotation
+ index,0,127 left_rotate,128,191 right_rotate,192,255
+
+Channel = X_axis_rolling
+ index,0,127 rotate,128,255
+
+Channel = Y_axis_rolling
+ index,0,127 rotate,128,255
+
+Channel = X_axis_moving
+ index,0,127 auto,128,255
+
+Channel = Y_axis_moving
+ index,0,127 auto,128,255
+
+Channel = pattern_size
+ index,0,63 pulse_close,64,127 pulse_open,128,191 manual_zooming,192,255 
+
+Channel = drawing
+
+Channel = effect_speed
+ index,0,127 display_dot,128,255 
+
+Channel = color
+ normal,0,0 index,25,199 changing one by one,200,224 all_together,225,225 
+
+Channel = color_speed
+

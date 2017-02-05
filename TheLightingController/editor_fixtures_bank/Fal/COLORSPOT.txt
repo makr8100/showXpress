@@ -1,0 +1,13 @@
+Name = FAL_COLORSPOT
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = color
+ off,0,0 white,28,28 cyan,54,54 orange,68,68 green,93,93 uv,110,110 red,125,125 magenta,161,161 blue,178,178 rotate,181,255
+

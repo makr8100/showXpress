@@ -1,0 +1,19 @@
+Name = DMX Mega Strobe 2
+
+ViewType = VIEW_TYPE_STROBE
+ViewPower = VIEW_POWER_1200MSR
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 90
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = strobe_speed
+ new_level,0,255
+
+Channel = strobe_dimmer
+ dimmer,2,255
+

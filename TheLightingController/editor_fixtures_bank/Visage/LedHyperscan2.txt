@@ -1,0 +1,35 @@
+﻿ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_LED60W
+ViewAnglePan = 175
+ViewAngleTilt = 80
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = pan
+
+Channel = tilt
+
+Channel = color
+ white,0,0 light_yellow,22,22 purple,37,37 green,53,53 light_blue,67,67 yellow,81,81 pink,97,97 blue,112,112 orange,123,123 rotate,127,255 
+
+Channel = gobo
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,11,11 Miscellaneous/gobo2,20,20 Miscellaneous/gobo3,28,28 Miscellaneous/gobo4,36,36 Miscellaneous/gobo5,44,44 Miscellaneous/gobo6,52,52 Miscellaneous/gobo7,60,60 Miscellaneous/shake_gobo1,72,78 Miscellaneous/shake_gobo2,79,88 Miscellaneous/shake_gobo3,89,94 Miscellaneous/shake_gobo4,95,102 Miscellaneous/shake_gobo5,103,114 Miscellaneous/shake_gobo6,115,119 Miscellaneous/shake_gobo7,120,127 Miscellaneous/rotate,128,255 
+
+Channel = prism
+ no_function,0,0 right_rotate,15,135 left_rotate,136,255 
+
+Channel = dimmer
+
+Channel = shutter
+ dimmer,0,8 strobe,17,130 dimmer_effect,131,239 effects,240,248 open,255,255 
+
+Channel = effect_macro
+ no_function,0,0 macro_1,16,16 macro_2,34,34 macro_3,53,53 macro_4,70,70 macro_5,88,88 macro_6,107,107 macro_7,124,124 macro_8,141,141 macro_9,161,161 macro_10,178,178 macro_11,197,197 macro_12,214,214 macro_13,232,232 macro_14,255,255 
+
+Channel = effect_speed
+

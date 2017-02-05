@@ -1,0 +1,32 @@
+Name = MARTIN_WIZARD_V2
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = shutter
+ closed,0,0 dimmer_close/o,2,129 strobe_fast/sl,130,189 closed,195,195 random_strobe,205,205 standalone_mus,215,215 standalone_aut,225,225 closed,235,235 reset_(5"),245,245 lamp_off,255,255
+
+Channel = effect
+ no_rotation,0,0 clock_slow/fas,2,122 no_rotation,128,128 counterclock,133,253 no_rotation,255,255
+
+Channel = color
+ open,0,0 open/blue,8,8 blue_108,14,14 blue/orange,20,20 orange306,26,26 orange/purple,32,32 purple502,38,38 purple/green,44,44 green206,50,50 green/blue,56,56 blue101,62,62 blue/yellow,68,68 yellow603,74,74 yellow/magenta,80,80 magenta507,86,86 magenta/open,92,92 open,98,98 rotation,102,169 no_rotation,172,172 twinkle_rotat,176,243 no_rotation,246,246 remote_auto_tr,255,255
+
+Channel = gobo
+ open,0,0 gridball,16,16 virus,28,28 tunnel,40,40 triple_dot,52,52 whirl,64,64 cone,76,76 wizard,88,88 spokes,100,100 splat,112,112 ellipse_halo,124,124 ying_yang_yung,136,136 dot,148,148 butterfly,160,160 rotation,170,239 no_rotation,245,245 remote_auto_tr,255,255
+
+Channel = pan
+ left,0,0 left_to_right,1,126 neutral,127,127 left_to_right,128,254 right,255,255
+
+Channel = gobo_rotate
+ no_rotation,0,0 clock,2,122 no_rotation,128,128 counterclock,133,253 no_rotation,255,255
+
+Channel = pantilt_speed
+
+Channel = effect_speed
+

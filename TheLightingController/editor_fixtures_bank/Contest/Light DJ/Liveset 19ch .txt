@@ -1,0 +1,56 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Contest/Light DJ/LIVESET .png
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = dimmer
+
+Channel = shutter
+ no_function,0,9 pulse_dark_to_bright,10,83 pulse_bright_to_dark,84,163 strobe,164,243 strobe_sound,244,255 
+
+Channel = strobe_effect
+ strobe,0,255 
+
+Channel = beam_effect_macro
+ no_function,0,9 macro_1,10,28 macro_2,29,47 macro_3,48,66 macro_4,67,85 macro_5,86,104 macro_6,105,123 macro_7,124,142 macro_8,143,161 macro_9,162,180 macro_10,181,199 macro_11,200,218 macro_12,219,237 macro_13,238,255 
+
+Channel = beam_effect_mode
+ speed_control,0,243 audio,244,255 
+
+Channel = flash_macro
+ no_function,0,9 macro_1,10,31 macro_2,32,53 macro_3,54,75 macro_4,76,97 macro_5,98,119 macro_6,120,141 macro_7,142,163 macro_8,164,185 macro_9,186,207 macro_10,208,229 macro_11,230,255 
+
+Channel = flash_mode
+ speed_control,0,243 audio,244,255 
+

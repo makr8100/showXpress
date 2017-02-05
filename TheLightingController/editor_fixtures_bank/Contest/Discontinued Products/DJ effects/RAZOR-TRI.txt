@@ -1,0 +1,33 @@
+Name = RAZOR-TRI
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = mode
+ closed,0,0 dynamic,11,120 static,121,250 audio,255,255
+
+Channel = gobo
+
+Channel = pan
+
+Channel = tilt
+
+Channel = pantilt_speed
+
+Channel = effect_speed
+
+Channel = beam
+
+Channel = color_macro
+ step_colors,0,0 3_colors,45,134 2_colors,135,224 random,225,255
+
+Channel = color
+

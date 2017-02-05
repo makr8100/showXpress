@@ -1,0 +1,22 @@
+Name = AMERICAN-DJDECO250
+
+ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_250HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 24
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = gobo
+ Miscellaneous\closed,0,0 spot,10,10 Miscellaneous\gobo1,32,32 Miscellaneous\gobo2,54,54 Miscellaneous\gobo3,76,76 Miscellaneous\gobo4,98,98 Miscellaneous\gobo5,120,120 Miscellaneous\gobo6,142,142 Miscellaneous\gobo7,164,164 Miscellaneous\gobo8,186,186 Miscellaneous\gobo9,208,208 Miscellaneous\gobo10,230,230 Miscellaneous\gobo11,253,253 Miscellaneous\rotate,255,255
+
+Channel = color
+ closed,0,0 multicolor,1,254 rotate,255,255
+
+Channel = mirror
+ stop,0,0 left_rotate,1,127 right_rotate,129,255
+

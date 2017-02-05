@@ -1,0 +1,51 @@
+Name = ROBE_RECESSEDSPOT170M4
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_150HTI
+ViewAnglePan = 530
+ViewAngleTilt = 280
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = pan
+
+Channel = tilt
+
+Channel = upan
+
+Channel = utilt
+
+Channel = pantilt_speed
+ max,0,0 vector,1,249 track_black,250,250 vector_black,255,255
+
+Channel = control
+ no_function,0,0 lamp_on,133,133 lamp_off,235,235
+
+Channel = color
+ white,0,0 dark_green,11,11 red,23,23 cyan,35,35 magenta,46,46 blue,58,58 yellow,70,70 green,81,81 pink,93,93 dark_blue,105,105 orange,116,116 right_rotate,128,189 stop,191,191 left_rotate,194,255
+
+Channel = reserved
+
+Channel = reserved
+
+Channel = reserved
+
+Channel = gobo
+ open,0,0 Miscellaneous\gobo1,17,17 Miscellaneous\gobo2,29,29 Miscellaneous\gobo3,41,41 Miscellaneous\gobo4,53,53 Miscellaneous\gobo5,65,65 Miscellaneous\gobo6,77,77 Miscellaneous\gobo7,89,89 shake_gobo1,96,115 shake_gobo2,116,135 shake_gobo3,136,155 shake_gobo4,156,175 shake_gobo5,176,195 shake_gobo6,196,215 shake_gobo7,216,235 Miscellaneous\rotate,236,255
+
+Channel = gobo_rotate
+ index,0,127 right_rotate,128,189 stop,191,191 left_rotate,194,255
+
+Channel = reserved
+
+Channel = focus
+
+Channel = shutter
+ closed,0,0 strobe,64,95 pulse_strobe,143,143 random_strobe,192,223 open,255,255
+
+Channel = dimmer
+

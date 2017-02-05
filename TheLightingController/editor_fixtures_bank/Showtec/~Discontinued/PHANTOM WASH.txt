@@ -1,0 +1,30 @@
+Name = PHANTOM WASH
+
+ViewType = VIEW_TYPE_HEAD_WASH
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = pan
+
+Channel = tilt
+
+Channel = upan
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = dimmer
+
+Channel = reserved
+
+Channel = color
+ open,0,12 dark_red,13,24 blue,25,37 dark_yellow,38,49 green,50,62 pink,63,74 indigo,75,87 light_blue,88,99 orange,100,112 magenta,113,127 right_rotate,128,190 left_rotate,191,220 stop,221,225 rotate,226,255
+

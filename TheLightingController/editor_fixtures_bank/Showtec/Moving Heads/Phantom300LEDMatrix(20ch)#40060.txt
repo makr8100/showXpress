@@ -1,0 +1,60 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = pan_continous
+ no_function,0,0 right_rotate,16,135 left_rotate,136,255 
+
+Channel = tilt_continous
+ no_function,0,0 right_rotate,16,135 left_rotate,136,255 
+
+Channel = dimmer
+
+Channel = shutter
+ open,0,0 strobe,11,255 
+
+Channel = random_strobe
+ no_function,0,0 random_strobe,11,255 
+
+Channel = color_macro
+ no_function,0,0 index,8,255 
+
+Channel = color_switch-flow-rainbow
+ no_function,0,0 switch_1,18,18 switch_2,30,30 switch_3,40,40 switch_4,55,55 switch_5,65,65 switch_6,80,80 switch_7,90,90 switch_8,102,102 color_flow_1,115,115 color_flow_2,125,125 color_flow_3,140,140 color_flow_4,150,150 color_flow_5,162,162 color_flow_6,175,175 color_flow_7,186,186 rainbow_1,198,198 rainbow_2,210,210 Blue-red color flow,222,222 Blue-green color flow,235,235 Yellow-red color flow,255,255 
+
+Channel = color_flow_speed
+
+Channel = characters
+ no_function,0,0 digits_(0-9),8,37 letters_(A-Z),38,115 patterns,116,255 
+
+Channel = pattern_speed
+
+Channel = effect_macro
+ no_function,0,0 macro_1,8,8 macro_2,15,15 macro_3,25,25 macro_4,35,35 macro_5,45,45 macro_6,55,55 macro_7,65,65 macro_8,75,75 slave_1,85,85 slave_2,95,95 audio,97,160 pan_invert,165,165 tilt_invert,195,195 blackout_moves,205,205 
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+

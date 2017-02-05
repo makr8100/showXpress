@@ -1,0 +1,27 @@
+Name = LED-RUSH
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = effect_macro
+ dimmer,0,27 macro_1,28,55 macro_3,56,83 macro_4,84,111 macro_4,112,139 auto,140,167 audio1,168,195 audio2,196,223 audio3,224,255
+
+Channel = effect_speed
+
+Channel = shutter
+ open,0,15 strobe,16,255
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+

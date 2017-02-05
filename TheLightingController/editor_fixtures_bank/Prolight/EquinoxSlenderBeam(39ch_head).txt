@@ -1,0 +1,25 @@
+﻿ViewType = VIEW_TYPE_HEAD_WASH
+ViewPower = VIEW_POWER_LED60W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = color
+ closed,0,0 red,16,16 green,33,33 blue,50,50 white,66,66 R+G,83,83 R+B,98,98 R+W,116,116 G+B,132,132 G+W,149,149 B+W,165,165 R+G+B,182,182 R+G+W,198,198 R+B+W,215,215 G+B+W,255,255 
+

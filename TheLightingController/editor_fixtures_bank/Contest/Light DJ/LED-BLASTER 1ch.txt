@@ -1,0 +1,15 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Contest/Light DJ/LED-BLASTER .png
+
+Channel = pattern
+ closed,0,29 macro_1,30,49 macro_2,50,69 macro_3,70,89 macro_4,90,109 macro_5,110,129 macro_6,130,149 macro_7,150,169 macro_8,170,189 macro_9,190,209 macro_10,210,229 macro_11,230,249 random,250,255 
+

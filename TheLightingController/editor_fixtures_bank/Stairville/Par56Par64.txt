@@ -1,0 +1,29 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 20
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = color_macro
+ no_function,0,0 index,8,255 
+
+Channel = shutter
+ open,0,0 strobe,16,255 
+
+Channel = mode
+ color_setting,0,0 fade_out,32,63 fade_in,64,95 fade_in/out,96,127 auto,140,140 3_color_chase,180,180 7_color_chase,200,200 audio,255,255 
+
+Channel = dimmer
+

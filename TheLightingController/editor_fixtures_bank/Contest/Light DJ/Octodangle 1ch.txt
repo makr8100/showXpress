@@ -1,0 +1,15 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Contest/Light DJ/OCTODANGLE .png
+
+Channel = mode
+ no_function,0,9 beam_effect_macro_speed,10,72 flash_macro_speed,73,132 mix_macro_speed,133,195 beam_effect_macro_sound,196,215 flash_macro sound,216,235 mix_macro_sound,236,255 
+

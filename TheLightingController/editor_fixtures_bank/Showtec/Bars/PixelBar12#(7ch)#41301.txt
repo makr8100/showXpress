@@ -1,0 +1,28 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED60W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 20
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Showtec/Bars/PixelsBar12#41301.png
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = dimmer
+
+Channel = effect_macro
+ no_function,0,0 macro_1,10,10 macro_2,17,17 macro_3,24,24 macro_4,31,31 macro_5,38,38 macro_6,45,45 macro_7,52,52 macro_8,59,59 macro_9,67,67 macro_10,73,73 macro_11,80,80 macro_12,87,87 macro_13,94,94 macro_14,101,101 macro_15,108,108 macro_16,115,115 macro_17,122,122 macro_18,129,129 macro_19,136,136 macro_20,143,143 macro_21,150,150 macro_22,157,157 macro_23,164,164 macro_24,171,171 macro_25,178,178 macro_26,185,185 macro_27,192,192 macro_28,199,199 macro_29,207,207 macro_30,213,213 macro_31,220,220 macro_32,227,227 macro_33,234,234 macro_34,241,241 macro_35,248,248 audio,255,255
+
+Channel = effect_speed
+
+Channel = mode
+ audio,0,0 closed,255,255 
+

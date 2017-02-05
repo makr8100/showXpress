@@ -1,0 +1,126 @@
+Name = ARKAOS_FULL
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = dimmer
+
+Channel = type_of_visual
+ picture,0,31 movie,32,63 live_camera,64,95 flash_text,96,127
+
+Channel = index_of_visua
+
+Channel = Effect_categor
+ 3D_effects,0,31 video,32,63 transitions,64,95 artistic,96,127 free_frame,128,159
+
+Channel = Associated_eff
+
+Channel = copy_mode
+ transparent,0,31 addition,32,63 substraction,64,95 multiplication,96,127 minimum,128,159 maximum,160,191
+
+Channel = mask_mode
+ none,0,31 luminance_band_reject,32,63 luminance_band_pass,64,95 chrominance_band_reject,96,127 luminance_band_pass,128,159 alpha_from_source,160,191
+
+Channel = lum&chr_center
+ default,128,128
+
+Channel = lum&chr_width
+ default,50,50
+
+Channel = lum&chr_smooth
+ default,50,50
+
+Channel = movie_speed_co
+ stopped,0,0 normal_speed,64,64 2X_speed,128,128 4X_speed,255,255
+
+Channel = speed_ctrl_mod
+ C11_is_speed_control,0,0 C11_is_forward_backward,48,48 C11_is_ping_pong,80,80
+
+Channel = looping_mode
+ play_all_frames,0,0 select_frames_with_C14_to_C17,48,48 random_jumps1,80,80 random_jumps2,112,112
+
+Channel = start_of_loop
+ default,0,0
+
+Channel = start_of_loop_
+ default,0,0
+
+Channel = end_of_loop
+ default,255,255
+
+Channel = end_of_loop_fi
+ default,255,255
+
+Channel = pan
+ default,128,128
+
+Channel = upan
+
+Channel = tilt
+ default,128,128
+
+Channel = utilt
+
+Channel = Z_position
+ default,128,128
+
+Channel = Z_position_fin
+
+Channel = horiz_size
+ default,255,255
+
+Channel = horiz_size_fin
+ default,255,255
+
+Channel = vert_size
+ default,255,255
+
+Channel = vert_size_fine
+ default,255,255
+
+Channel = rotation_X
+ default,128,128
+
+Channel = rotation_X_fin
+
+Channel = rotation_Y
+ defaut,128,128
+
+Channel = rotation_Y_fin
+
+Channel = rotation_Z
+ default,128,128
+
+Channel = rotation_Z_fin
+
+Channel = red
+ default,128,128
+
+Channel = green
+ default,128,128
+
+Channel = blue
+ default,128,128
+
+Channel = text_to_flash
+
+Channel = E1
+
+Channel = E2
+
+Channel = E3
+
+Channel = E4
+
+Channel = E5
+
+Channel = E6
+

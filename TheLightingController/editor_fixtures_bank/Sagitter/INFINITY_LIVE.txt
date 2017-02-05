@@ -1,0 +1,60 @@
+Name = SAGITTER_INFINITY_LIVE
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = dimmer
+ off,0,0 dimmer,128,255
+
+Channel = shutter
+ closed,0,0 open,40,40 strobe,54,255
+
+Channel = iris
+
+Channel = beam
+
+Channel = focus
+
+Channel = gobo
+ gobo1/open,0,0 gobo2,37,37 gobo3_dichro,64,64 gobo4,88,88 gobo5_tunnel,112,112 gobo6,136,136 forwards_rotat,153,201 stop,206,206 reverse_spin,210,255
+
+Channel = gobo_urotate
+ gobo1/open,0,0 gobo2,80,80 gobo3,128,128 gobo4,180,180 gobo5,255,255
+
+Channel = gobo_rotate
+ position,0,153 clock,156,198 stop,204,204 counterclock,212,255
+
+Channel = prism
+ full,0,0 prism1,100,100 prism2,160,160 prism3,255,255
+
+Channel = prism_rotate
+ indexed,0,153 forward_spin,156,198 stop,204,204 reverse_spin,212,255
+
+Channel = effect
+ open,0,0 frost1,80,80 frost2,128,128 empty,180,180 multiface_pris,255,255
+
+Channel = color
+ white,0,0 white_red,16,16 red,25,25 red_yellow,35,35 yellow,47,47 yellow_magenta,56,56 magenta,65,65 magenta_green,77,77 green,87,87 green_orange,96,96 orange,107,107 orange_blue,118,118 blue,128,128 blue_pink,137,137 pink,147,147 pink_white,158,158 clock,166,204 stop,209,209 counterclock,216,255
+
+Channel = cyan
+
+Channel = yellow
+
+Channel = magenta
+
+Channel = control
+ lamp_off,0,0 self_test,90,90 reset,128,128 lamp_on,255,255
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+

@@ -1,0 +1,33 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = shutter
+ closed,0,0 dimmer,8,190 audio,195,195 strobe,201,247 open,255,255
+
+Channel = moon_flower
+ closed,0,0 dimmer,8,190 audio,195,195 strobe,201,247 open,255,255
+
+Channel = color
+ red,0,0 red & green,26,26 green,47,47 green & blue,66,66 blue,85,85 red & blue,104,104 red & green & blue,123,123 red & green,146,146 green & blue,179,179 red & blue,211,211 red & green & blue,255,255
+
+Channel = moon_flower_rotation
+ stop,0,0 right_rotate,10,120 stop,125,125 left_rotate,135,245 stop,255,255 
+
+Channel = red_laser
+ closed,0,0 open,255,255 
+
+Channel = green_laser
+ closed,0,0 open,255,255 
+
+Channel = laser_rotation
+ stop,0,0 right_rotate,10,120 stop,125,125 left_rotate,135,245 stop,255,255 
+

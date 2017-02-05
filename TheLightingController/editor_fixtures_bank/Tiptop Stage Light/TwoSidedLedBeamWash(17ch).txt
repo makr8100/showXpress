@@ -1,0 +1,55 @@
+﻿ViewType = VIEW_TYPE_HEAD_WASH
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 20
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = pan
+
+Channel = X_move
+ stop,0,0 index,8,255 
+
+Channel = tilt
+
+Channel = Y_move
+ stop,0,0 index,8,255 
+
+Channel = Y_mode
+ Y1,0,0 Y2,255,255 
+
+Channel = dimmer
+
+Channel = shutter
+ closed,0,0 strobe,5,250 open,255,255 
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = color_Y1
+ no_function,0,0 index,8,127 rotate,128,255 
+
+Channel = color_Y2
+ no_function,0,0 index,8,127 rotate,128,255 
+
+Channel = LED_auto_play
+ no_function,0,0 macro_1,23,23 macro_2,54,54 macro_3,86,86 macro_4,114,114 macro_5,144,144 macro_6,174,174 macro_7,204,204 color_line,218,247 audio,255,255 
+
+Channel = LED_auto_play_speed
+
+Channel = XY_auto_run
+ no_function,0,0 macro_1,20,20 macro_2,45,45 macro_3,71,71 macro_4,97,97 macro_5,123,123 macro_6,149,149 macro_7,175,175 macro_8,201,201 macro_9,227,227 audio,255,255 
+
+Channel = control
+ no_function,0,0 reset,255,255 
+

@@ -1,0 +1,21 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = TRUE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/Gig Bar IRC.png
+
+Channel = control
+ no_function,0,9 auto,10,229 audio,230,239 details show setting ch2/3 activated,240,255
+
+Channel = led_ct
+ no_function,0,9 pattern_01,10,19 pattern_02,20,29 pattern_03,30,39 pattern_04,40,49 pattern_05,50,59 pattern_06,60,69 pattern_07,70,79 pattern_08,80,89 pattern_09,90,99 pattern_10,100,109 pattern_11,110,119 pattern_12,120,129 pattern_13,130,139 pattern_14,140,149 pattern_15,150,159 pattern_16,160,169 pattern_17,170,179 pattern_18,180,189 pattern_19,190,199 pattern_20,200,209 pattern_21,210,219 pattern_22,220,229 pattern_23,230,239 pattern_24,240,244 pattern_25,245,249 pattern_26,250,255
+
+Channel = auto speed
+ speed ch.2 only,0,255
+

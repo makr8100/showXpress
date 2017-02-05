@@ -1,0 +1,36 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 14
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Contest/Club series/BLAST-60 .png
+
+Channel = pan
+ rotate,0,255 
+
+Channel = tilt
+ rotate,0,255 
+
+Channel = dimmer
+ closed,0,7 dimmer,8,255 
+
+Channel = shutter
+ open,0,15 strobe,16,131 open,132,139 pulse_strobe,140,181 open,182,189 reverse_pulse_strobe,190,231 open,232,239 random_strobe,240,247 open,248,255 
+
+Channel = color
+ open,0,14 red,15,28 orange,29,42 yellow,43,56 green,57,70 blue,71,84 violet,85,98 light_blue,99,112 pink,113,127 rainbow_right_rotate,128,189 stop,190,193 rainbow_left_rotate,194,255 
+
+Channel = gobo
+ Miscellaneous/open,0,9 metal_basic/circle2,10,18 metal_basic/GM033,19,27 metal_basic/GM012,28,36 metal_basic/GM064,37,45 metal_basic/triplebeam,46,54 metal_basic/GM036,55,63 Miscellaneous/shaking,64,73 Miscellaneous/shake_gobo1,74,82 Miscellaneous/shake_gobo2,83,91 Miscellaneous/shake_gobo3,92,100 Miscellaneous/shake_gobo4,101,110 Miscellaneous/shake_gobo5,111,119 Miscellaneous/shake_gobo6,120,127 Miscellaneous/right_rotate,128,189 Miscellaneous/stop,190,193 Miscellaneous/left_rotate,194,255 
+
+Channel = gobo_rotate
+ stop,0,9 left_rotate,10,120 stop,121,134 right_rotate,135,245 stop,246,255 
+
+Channel = control
+ no_function,0,69 blackout_moves,70,79 no_function,80,89 blackout_changes,90,99 no_function,100,109 blackout_changes,110,119 no_function,120,199 reset,200,209 no_function,210,255 
+

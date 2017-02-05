@@ -1,0 +1,21 @@
+﻿ViewType = VIEW_TYPE_STROBE
+ViewPower = VIEW_POWER_LAMP1200W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 24
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = strobe_dimmer
+
+Channel = strobe_dimmer
+
+Channel = strobe_speed
+
+Channel = dimmer_curve
+ no_function,0,0 linear,16,135 square,136,255 
+

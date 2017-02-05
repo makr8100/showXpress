@@ -1,0 +1,33 @@
+Name = ACME_DYNAROLLMH636B
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_250HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = pan
+
+Channel = tilt
+
+Channel = shutter
+ closed,0,0 strobe,16,131 shaking,132,247 open,255,255
+
+Channel = gobo
+ Miscellaneous\open,0,0 Contest\msp-575-roue1-gobo5,17,17 Chauvet\8 sided star,29,29 Chauvet\mover,40,40 Chauvet\atom,52,52 Chauvet\virus,64,64 Chauvet\4 dots,75,75 Chauvet\bubbles assorted,87,87 Chauvet\1,99,99 ok_for_3DView\cone,110,110 Geni\SY-250-CH1-96-111,122,122 Miscellaneous\rotate,128,255
+
+Channel = pan2
+
+Channel = tilt2
+
+Channel = shutter2
+ closed,0,0 strobe,16,131 shaking,132,247 open,255,255
+
+Channel = gobo2
+ Miscellaneous\open,0,0 Contest\msp-575-roue1-gobo5,17,17 Chauvet\8 sided star,29,29 Chauvet\mover,40,40 Chauvet\atom,52,52 Chauvet\virus,64,64 Chauvet\4 dots,75,75 Chauvet\bubbles assorted,87,87 Chauvet\1,99,99 ok_for_3DView\cone,110,110 Geni\SY-250-CH1-96-111,122,122 Miscellaneous\rotate,128,255
+

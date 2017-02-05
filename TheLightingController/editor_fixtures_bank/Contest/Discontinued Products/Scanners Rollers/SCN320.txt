@@ -1,0 +1,22 @@
+﻿ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 180
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Contest/Discontinued Products/SCN-835.png
+
+Channel = gobo
+ Miscellaneous/closed,0,0 Miscellaneous/open,15,15 Miscellaneous/gobo1,25,25 Miscellaneous/gobo2,35,35 Miscellaneous/gobo3,45,45 Miscellaneous/gobo4,55,55 Miscellaneous/gobo5,65,65 Miscellaneous/gobo6,75,75 Miscellaneous/gobo7,85,85 Miscellaneous/gobo8,95,95 Miscellaneous/gobo9,105,105 Miscellaneous/gobo10,115,115 Miscellaneous/gobo11,125,125 Miscellaneous/gobo12,135,135 Miscellaneous/gobo13,145,145 Miscellaneous/gobo14,155,155 Miscellaneous/rotate,160,249 prog,255,255 
+
+Channel = shutter
+ strobe,0,249 open,255,255 
+
+Channel = pan
+
+Channel = tilt
+

@@ -1,0 +1,25 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Contest/Club series/BEAM-4x10WH .png
+
+Channel = dimmer
+
+Channel = shutter
+ open,0,15 strobe,16,131 open,132,139 pulse_strobe,140,181 open,182,189 reverse_pulse_strobe,190,231 open,232,255 
+
+Channel = white
+
+Channel = white
+
+Channel = white
+
+Channel = white
+

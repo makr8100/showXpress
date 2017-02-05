@@ -1,0 +1,24 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Showtec/Light Effects/XBWave#43071.png
+
+Channel = color
+ closed,0,0 red,30,30 green,50,50 blue,70,70 cyan,90,90 pink,110,110 yellow,130,130 white,150,150 3_colors,160,179 7_colors,180,255
+
+Channel = color
+ closed,0,0 red,30,30 green,50,50 blue,70,70 cyan,90,90 pink,110,110 yellow,130,130 white,150,150 3_colors,160,179 7_colors,180,255
+
+Channel = shutter
+ no_function,0,0 strobe,5,255
+
+Channel = effect_macro
+ index,0,127 rotate,128,255
+

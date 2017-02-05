@@ -1,0 +1,41 @@
+Name = FAL_PROSCANX
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = iris
+ open,0,0 closed,255,255
+
+Channel = color
+ white,0,0 dark_blue,30,30 light_blue,40,40 purple,50,50 pink,60,60 cyan,70,70 green,80,80 orange,100,100 red,109,109 clock,118,177 stop,185,185 counterclock,195,195
+
+Channel = gobo
+ full,0,0 gobo1,22,22 gobo2,37,37 gobo3,52,52 gobo4,67,67 gobo5,82,82 gobo6,97,97 gobo7,112,112 clock,120,183 stop,185,185 counterclock,192,255
+
+Channel = shutter
+ dimmer,0,131 strobe,136,244 open,255,255
+
+Channel = pan
+
+Channel = tilt
+
+Channel = focus
+ near,0,0 far,255,255
+
+Channel = gobo
+ full,0,0 gobo1,76,76 gobo2,110,110 gobo3,140,140 gobo4,180,180 gobo5,255,255
+
+Channel = gobo_rotate
+ 0°_to_540°,0,119 clock,120,183 stop,188,188 counterclock,192,255
+
+Channel = prism
+ clear,0,0 3_facet,60,60 5_facet,100,100 5_facet_linear,150,150 9_facet_linear,190,190 4_facet,255,255
+
+Channel = prism_rotate
+ 0°_to_540°,0,119 clock,120,183 stop,188,188 counterclock,192,255
+

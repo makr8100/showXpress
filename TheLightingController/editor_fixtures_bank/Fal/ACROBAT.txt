@@ -1,0 +1,16 @@
+Name = FAL_ACROBAT
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = color
+ off,0,0 white,34,34 red,50,50 blue,68,68 cyan,88,88 pink,108,108 green,125,125 magenta,144,144 yellow,164,164 rotate,180,255
+
+Channel = gobo_rotate
+ stop,0,0 counterclock,60,60 stop,130,130 clock,255,255
+

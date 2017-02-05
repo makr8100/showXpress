@@ -1,0 +1,32 @@
+Name = COEF_MP250_FRESNEL
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = shutter
+ closed,0,0 dimmer_ch9,50,50 auto_open_6",105,105 auto_close_6",116,116 open_slow,124,124 open_middle,130,130 open_fast,136,136 close_slow,142,142 close_middle,148,148 close_fast,154,154 ope/clo_slow,160,160 ope/clo_middle,166,166 ope/clo_fast,172,172 strobe1,178,178 strobe2,184,184 strobe3,196,196 strobe_speed,197,250 open,255,255
+
+Channel = color
+ neutral,0,0 yellow,10,10 blue,20,20 magenta,30,30 green_light,40,40 orange,50,50 cyano,60,60 pink,70,70 red,80,80 blue_light,90,90 green,100,100 wood,110,110 white/yellow,120,120 yellow/blue,130,130 blue/magenta,140,140 green/orange,150,150 orange/cyano,160,160 cyano/pink,170,170 red/blue_light,180,180 blue_light/gre,190,190 random_slow,200,200 random_fast,203,203 CW_rotation,220,220 CWW_rotation,255,255
+
+Channel = color
+ neutral,0,0 violet,10,10 emerald,20,20 pink,30,30 purple,40,40 red,50,50 cyan,60,60 blue,70,70 yellow,80,80 cream,90,90 3200°K,100,100 5600°K,110,110 neutral/violet,120,120 violet/emerald,130,130 emerald/pink,140,140 purple/red,150,150 red/cyan,160,160 cyan/blue,170,170 yellow/cream,180,180 3200°K_cream,190,190 random_slow,198,198 random_fast,203,203 CW_rotation,206,230 CCW_rotation,231,255
+
+Channel = frost
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = dimmer
+ closed,0,0 adjustement,6,250 open,255,255
+

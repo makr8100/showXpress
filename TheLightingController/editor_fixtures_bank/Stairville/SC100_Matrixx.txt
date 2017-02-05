@@ -1,0 +1,22 @@
+﻿ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_LED60W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = pan
+
+Channel = tilt
+
+Channel = animation
+ closed,0,0 macro_1,15,15 macro_2,25,25 macro_3,35,35 macro_4,45,45 macro_5,55,55 macro_6,65,65 macro_7,75,75 macro_8,85,85 macro_9,95,95 macro_10,105,105 macro_11,115,115 macro_12,125,125 macro_13,135,135 macro_14,145,145 macro_15,155,155 macro_16,165,165 macro_17,175,175 macro_18,185,185 macro_19,195,195 macro_20,205,205 macro_21,215,215 macro_22,225,225 macro_23,235,235 macro_24,245,245 macro_25,255,255
+
+Channel = shutter
+ open,0,0 strobe,10,249 auto,255,255 
+

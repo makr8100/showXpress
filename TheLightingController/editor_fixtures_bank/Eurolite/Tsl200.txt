@@ -1,0 +1,35 @@
+﻿ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_LED60W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = pan
+
+Channel = tilt
+
+Channel = color
+ white,0,0 dark_blue,16,16 orange,32,32 yellow,48,48 pink,64,64 light_blue,80,80 green,96,96 magenta,112,112 rotate,128,255
+
+Channel = gobo
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,8,8 Miscellaneous/gobo2,16,16 Miscellaneous/gobo3,24,24 Miscellaneous/gobo4,32,32 Miscellaneous/gobo5,40,40 Miscellaneous/gobo6,48,48 Miscellaneous/gobo7,56,56 Miscellaneous/open_shake,64,64 Miscellaneous/shake_gobo1,72,72 Miscellaneous/shake_gobo2,80,80 Miscellaneous/shake_gobo3,88,88 Miscellaneous/shake_gobo4,96,96 Miscellaneous/shake_gobo5,104,104 Miscellaneous/shake_gobo6,112,112 Miscellaneous/shake_gobo7,120,120 Miscellaneous/rotate,128,255
+
+Channel = gobo_rotate
+ stop,0,0 right_rotate,16,135 left_rotate,136,255
+
+Channel = shutter
+ closed,0,0 open,8,8 strobe,16,131 pulse_strobe,140,180 pulse_strobe,190,231 reset,235,235 random_strobe,244,244 open,255,255
+
+Channel = dimmer
+
+Channel = movement_macro
+ no_function,0,0 index,8,255 
+
+Channel = effect_speed
+

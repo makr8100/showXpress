@@ -1,0 +1,63 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = TRUE
+ViewReverseTilt = TRUE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Contest/Light Pro/ROTOR7i .png
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+ dimmer,0,225 blackout_moves,226,235 no_function,236,255 
+
+Channel = pan_continuous
+ no_function,0,127 continuous clockwise,128,189 stop,190,193 continuous unclock,194,255 
+
+Channel = tilt_continuous
+ no_function,0,127 continuous clockwise,128,189 stop,190,193 continuous unclock,194,255 
+
+Channel = shutter
+ closed,0,7 open,8,14 strobe,15,54 open,55,61 pulse_strobe,62,101 open,102,108 random_strobe,109,148 open,149,155 PULSE PIXEL,156,195 open,196,202 RANDOM PIXEL,203,242 open,243,255 
+
+Channel = dimmer
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = color_macro
+ no_function,0,7 macro_1,8,39 macro_2,40,71 macro_3,72,103 macro_4,104,135 macro_5,136,167 macro_6,168,199 macro_7,200,231 macro_8,232,255 
+
+Channel = color_preset
+ no_function,0,4 2700K,5,9 3200K,10,14 4300K,15,19 5600K,20,24 6500K,25,29 8000K,30,34 yellow,35,39 magenta,40,44 cyan,45,49 pastel_light_ocre,50,54 turquoise,55,59 light_green,60,64 light_blue,65,69 orange,70,74 light_yellow,75,79 pastel_clear_blue,80,84 pink,85,89 green,90,94 red,95,99 blue,100,104 white,105,109 macro_1,110,114 macro_2,115,119 macro_3,120,124 macro_4,125,129 macro_5,130,134 macro_6,135,139 macro_7,140,144 macro_8,145,149 macro_9,150,154 macro_10,155,159 macro_11,160,164 macro_12,165,169 macro_13,170,174 macro_14,175,179 macro_15,180,184 macro_16,185,189 macro_17,190,194 macro_18,195,199 macro_19,200,255 
+
+Channel = color_preset_dimmer
+ dimmer,0,255 
+
+Channel = animation
+ no_function,0,10 pattern_01,11,19 pattern_02,20,27 pattern_03,28,35 pattern_04,36,42 pattern_05,43,49 pattern_06,50,56 pattern_07,57,63 pattern_08,64,70 pattern_09,71,77 pattern_10,78,84 pattern_11,85,91 pattern_12,92,98 pattern_13,99,105 pattern_14,106,112 pattern_15,113,119 prog auto 1 avec couleur perso,120,126 prog auto 2 avec couleur perso,127,133 prog auto 3 avec couleur perso,134,140 prog auto 4 avec couleur perso,141,147 prog auto 5 avec couleur perso,148,154 prog auto 6 avec couleur perso,155,161 prog auto 7 avec couleur perso,162,168 prog auto 8 avec couleur perso,169,175 prog auto 9 avec couleur perso,176,182 prog auto 10 avec couleur perso,183,189 prog auto 11 avec couleur perso,190,196 prog auto 12 avec couleur perso,197,203 prog auto 13 avec couleur perso,204,210 prog auto 14 avec couleur perso,211,217 prog auto 15 avec couleur perso,218,255 
+
+Channel = animation_speed
+ dimmer,0,255 
+
+Channel = animation_fade
+ dimmer,0,255 
+
+Channel = control
+ no_function,0,79 reset_motors,80,84 reset_xy,85,87 no_function,88,99 macro_1,100,119 macro_2,120,139 macro_3,140,159 macro_4,160,179 macro_5,180,199 macro_6,200,219 macro_7,220,239 audio,240,255 
+

@@ -1,0 +1,22 @@
+Name = TAS_COLOURBEAM
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = color
+ white,0,0 turquoise,10,10 red,21,21 cyan,32,32 green,42,42 magenta,53,53 light_blue,64,64 yellow,74,74 green,85,85 pink,96,96 blue,106,106 orange,117,117 proportional,128,255
+
+Channel = effect
+ full,0,0 3200K,30,30 5600K,50,50 magenta,70,70 cyan,100,100 yellow,120,120 wood_light,140,140 gobo1,160,160 gobo2,180,180 beam_reducer1,200,200 beam_reducer2,220,220 beam_reducer3,255,255
+
+Channel = shutter
+ open_fan_max,0,0 open_fan_min,127,127 reset,134,134 strobe,150,219 shutter_half,235,235 open,255,255
+
+Channel = dimmer
+ dimmer,0,126 frost,194,254 on,255,255
+

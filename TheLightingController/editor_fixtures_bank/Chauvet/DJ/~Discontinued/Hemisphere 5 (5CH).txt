@@ -1,0 +1,27 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/Hemisphere 5.png
+
+Channel = mode
+ blackout_changes,0,9 red,10,19 green,20,29 blue,30,39 white,40,49 amber,50,59 red/green,60,69 red/blue,70,79 red/white,80,89 red/amber,90,99 green/blue,100,109 green/white,110,119 green/amber,120,129 blue/white,130,139 blue/amber,140,149 white/amber,150,159 red/green/blue,160,169 red/green/blue/white,170,179 red/green/blue/amber,180,189 red/green/blue/white/amber,190,199 auto,200,229 audio,230,255
+
+Channel = strobe_effect
+ no_function,0,9 slow-fast,10,255
+
+Channel = speed_control
+ no_function,0,9 slow-fast,10,255
+
+Channel = motor
+ no rotation,0,9 rotate_left_slow-fast,10,119 stop,120,129 rotate_right_slow-fast,130,255
+
+Channel = dimmer
+ dimmer,0,255 
+

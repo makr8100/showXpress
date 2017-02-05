@@ -1,0 +1,36 @@
+﻿ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_LED60W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/Intimidator Barrel LED 300.png
+
+Channel = pan
+ Pan,0,255
+
+Channel = tilt
+ Tilt,0,255
+
+Channel = color
+ open,0,6 yellow,7,13 pink,14,20 green,21,27 red,28,34 light_blue,35,41 light_green,42,48 orange,49,55 dark_blue,56,63 white + yellow,64,70 yellow + pink,71,77 pink + green,78,84 green + red,85,91 red + light blue,92,98 light blue + light green,99,105 light green + orange,106,112 orange + dark blue,113,119 dark blue + white,120,127 right_rotate,128,191 left_rotate,192,255
+
+Channel = shutter
+ closed,0,3 open,4,7 strobe,8,215 open,216,255
+
+Channel = gobo
+ ok_for_3DView/open,0,7 Showtec/IND150_1,8,15 Yagang/43,16,23 Chauvet/2A,24,31 Showtec/neo_3,32,39 Showtec/PHPRO575 2-4,40,47 Showtec/PHPRO575 2-1,48,55 ok_for_3DView/Atomic Gobo1,56,63 Miscellaneous/shake_gobo7,64,71 Miscellaneous/shake_gobo6,72,79 Miscellaneous/shake_gobo5,80,87 Miscellaneous/shake_gobo4,88,95 Miscellaneous/shake_gobo3,96,103 Miscellaneous/shake_gobo2,104,111 Miscellaneous/shake_gobo1,112,119 Chauvet/open,120,127 Miscellaneous/right_rotate,128,191 Miscellaneous/left_rotate,192,255 
+
+Channel = gobo_rotate
+ stop,0,15 rotate,16,239 Gobo Bounce,240,255
+
+Channel = prism
+ open,0,3 prism,4,255
+
+Channel = focus
+ focus_far,0,255
+

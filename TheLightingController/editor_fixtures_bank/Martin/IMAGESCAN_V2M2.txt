@@ -1,0 +1,32 @@
+Name = MARTIN_IMAGESCAN_V2M2
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = shutter
+ off,0,9 on,10,138 lamp_on,139,139 reset,220,220 lamp_on,245,245 lamp_off,255,255
+
+Channel = focus
+ far-near,0,218 near,220,255
+
+Channel = gobo_rotate
+ stop,0,0 counterclock,6,94 clock,96,184 stop,190,190 orientation,200,249 stop,255,255
+
+Channel = gobo_urotate
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+ tracking,0,0 fast-slow,6,255
+

@@ -1,0 +1,72 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/Intimidator Spot Duo 150.png
+
+Channel = pan
+ Pan,0,255
+
+Channel = upan
+ Fine Pan,0,255
+
+Channel = tilt
+ Tilt,0,255
+
+Channel = utilt
+ Fine Tilt,0,255
+
+Channel = pan
+ Pan,0,255
+
+Channel = upan
+ Fine Pan,0,255
+
+Channel = tilt
+ Tilt,0,255
+
+Channel = utilt
+ Fine Tilt,0,255
+
+Channel = pantilt_speed
+ Pan/Tilt Speed,0,255
+
+Channel = color
+ white,0,5 yellow,6,11 magenta,12,17 green,18,23 red,24,29 orange,30,41 blue,42,47 light_green,48,53 amber,54,63 White + Yellow,64,69 Yellow + Magenta,70,75 Magenta + Green,76,81 Green + Red,82,87 Red + Cyan,88,93 Cyan + Orange,94,99 Orange + Blue,100,105 Blue + Light Green,106,111 Light Green + Amber,112,117 Amber + White,118,127 Rainbow effect with increasing speed,128,191 Reverse rainbow effect with increasing speed,192,255
+
+Channel = color
+ white,0,5 yellow,6,11 magenta,12,17 green,18,23 red,24,29 orange,30,41 blue,42,47 light_green,48,53 amber,54,63 White + Yellow,64,69 Yellow + Magenta,70,75 Magenta + Green,76,81 Green + Red,82,87 Red + Cyan,88,93 Cyan + Orange,94,99 Orange + Blue,100,105 Blue + Light Green,106,111 Light Green + Amber,112,117 Amber + White,118,127 Rainbow effect with increasing speed,128,191 Reverse rainbow effect with increasing speed,192,255
+
+Channel = gobo
+ Chauvet/open,0,5 ok_for_3DView/Flower Gobo,6,11 ok_for_3DView/snow Gobo,12,17 ok_for_3DView/White dots Gobo,18,23 ok_for_3DView/ball Gobo,24,29 ok_for_3DView/wheel Gobo2,30,35 ok_for_3DView/multi star Gobo,36,41 ok_for_3DView/shell Gobo,42,47 ok_for_3DView/Razer Gobo,48,53 ok_for_3DView/Star ray Gobo,54,63 Miscellaneous/shake_gobo1,64,73 Miscellaneous/shake_gobo3,74,79 Miscellaneous/shake_gobo3,80,85 Miscellaneous/shake_gobo4,86,91 Miscellaneous/shake_gobo5,92,97 Miscellaneous/shake_gobo6,98,103 Miscellaneous/shake_gobo7,104,109 Miscellaneous/shake_gobo8,110,115 Miscellaneous/shake_gobo9,116,121 Miscellaneous/open,122,127 Miscellaneous/right_rotate,128,191 Miscellaneous/left_rotate,192,255
+
+Channel = gobo
+ Chauvet/open,0,5 ok_for_3DView/Flower Gobo,6,11 ok_for_3DView/snow Gobo,12,17 ok_for_3DView/White dots Gobo,18,23 ok_for_3DView/ball Gobo,24,29 ok_for_3DView/wheel Gobo2,30,35 ok_for_3DView/multi star Gobo,36,41 ok_for_3DView/shell Gobo,42,47 ok_for_3DView/Razer Gobo,48,53 ok_for_3DView/Star ray Gobo,54,63 Miscellaneous/shake_gobo1,64,73 Miscellaneous/shake_gobo3,74,79 Miscellaneous/shake_gobo3,80,85 Miscellaneous/shake_gobo4,86,91 Miscellaneous/shake_gobo5,92,97 Miscellaneous/shake_gobo6,98,103 Miscellaneous/shake_gobo7,104,109 Miscellaneous/shake_gobo8,110,115 Miscellaneous/shake_gobo9,116,121 Miscellaneous/open,122,127 Miscellaneous/right_rotate,128,191 Miscellaneous/left_rotate,192,255
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = shutter
+ no_function,0,3 open,4,7 strobe,8,215 open,216,255
+
+Channel = shutter
+ no_function,0,3 open,4,7 strobe,8,215 open,216,255
+
+Channel = control
+ no_function,0,9 Pan/Tilt Blackout,10,14 Color blackout,15,19 Gobo blackout,20,24 Pan/Tilt/Color blackout,25,29 Pan/Tilt/Color blackout,30,34 color/gobo blackout,35,39 pan/tilr/color/gobo blackout,40,44 no_function,45,49 first two heads setting,50,54 latter two heads setting,55,59 cancel four heads,60,64 no_function,65,69 reset,70,74 no_function,75,79 Reverse pan/tilt for both heads,80,84 Reverse pan for head 1,85,89 Reverse pan for head 2,90,94 Reverse tilt for head 1,95,99 Reverse tilt for head 2,100,104 Cancel reverse pan for head 1,105,109 Cancel reverse pan for head 2,110,114 Cancel reverse tilt for head 1,115,119 Cancel reverse tilt for head 2	,120,124 Cancel reverse pan/tilt for both heads,125,129 no_function,130,135 Color chase 1 with increasing speed,136,175 Color chase 2 with increasing speed,176,215 Color chase 3 with increasing speed,216,225
+
+Channel = effect_macro
+ no_function,0,7 Auto program 1,8,22 Auto program 2,23,37 Auto program 3,38,52 Auto program 4,53,67 Auto program 5,68,82 Auto program 6,83,97 Auto program 7,98,112 Auto program 8,113,127 Auto program 9,128,142 Auto program 10,143,157 Auto program 11,158,172 Auto program 12,173,187 Auto program 13,188,202 Auto program 14,203,217 Auto program 15,218,232 Auto program 16,233,247 Sound-active program,248,255
+
+Channel = effect_speed
+ Fast to slow,0,255
+

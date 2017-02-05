@@ -1,0 +1,85 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LAMP700W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+2DViewImage = 
+
+Channel = shutter
+ closed,0,0 open,12,19 strobe,20,28 pulse_open,30,39 pulse_close,40,47 random_strobe,51,73 random_opening_pulse,75,76 random_closing_pulse,77,79 reset,84,84 lamp_on,92,92 400w,95,95 700w,97,97 lamp_off,255,255 
+
+Channel = dimmer
+
+Channel = udimmer
+
+Channel = cyan
+
+Channel = ucyan
+
+Channel = magenta
+
+Channel = umagenta
+
+Channel = yellow
+
+Channel = uyellow
+
+Channel = color
+ open,0,0 blue,17,17 green,34,34 pink,51,51 orange,68,68 half_minus_green,85,85 3200-4100k,102,102 5500-2800k,119,119 red,136,136 right_rotate,199,219 left_rotate,220,240 random,241,255 
+
+Channel = color_fine
+
+Channel = gobo
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,13,13 Miscellaneous/gobo2,17,17 Miscellaneous/gobo3,21,21 Miscellaneous/gobo4,25,25 Miscellaneous/gobo5,29,29 Miscellaneous/gobo6,33,33 Miscellaneous/gobo1,37,37 Miscellaneous/gobo2,41,41 Miscellaneous/gobo3,45,45 Miscellaneous/gobo4,49,49 Miscellaneous/gobo5,53,53 Miscellaneous/gobo6,57,57 Miscellaneous/gobo1,65,65 Miscellaneous/gobo2,77,77 Miscellaneous/gobo3,89,89 Miscellaneous/gobo4,101,101 Miscellaneous/gobo5,113,113 Miscellaneous/gobo6,125,125 Miscellaneous/gobo6,137,137 Miscellaneous/gobo5,149,149 Miscellaneous/gobo4,161,161 Miscellaneous/gobo3,173,173 Miscellaneous/gobo2,185,185 Miscellaneous/gobo1,197,197 Miscellaneous/right_rotate,204,229 Miscellaneous/left_rotate,230,255 
+
+Channel = gobo_rotate
+ stop,0,0 right_rotate,3,127 left_rotate,128,252 stop,255,255 
+
+Channel = gobo_urotate
+
+Channel = gobo2
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,11,11 Miscellaneous/gobo2,22,22 Miscellaneous/gobo3,33,33 Miscellaneous/gobo4,44,44 Miscellaneous/gobo5,55,55 Miscellaneous/gobo6,66,66 Miscellaneous/gobo7,77,77 Miscellaneous/gobo8,88,88 Miscellaneous/gobo9,99,99 Miscellaneous/gobo9,117,117 Miscellaneous/gobo8,126,126 Miscellaneous/gobo7,135,135 Miscellaneous/gobo6,144,144 Miscellaneous/gobo5,153,153 Miscellaneous/gobo4,162,162 Miscellaneous/gobo3,171,171 Miscellaneous/gobo2,180,180 Miscellaneous/gobo1,189,189 Miscellaneous/right_rotate,203,221 Miscellaneous/left_rotate,222,240 Miscellaneous/random,243,255 
+
+Channel = static_gobo-color
+ stop,0,0 gobo2_shake,16,55 color_shake,56,95 both_shake,96,135 cmy,136,255 
+
+Channel = gobo_animation_wheel
+ no_function,0,0 horizontal_indexed,10,19 vertical_indexed,20,29 horizontal_position,30,39 vertical_position,40,49 indexed_angle_position,50,139 angle_position,140,229 open,255,255 
+
+Channel = gobo_animation_index
+
+Channel = prism
+ no_function,0,0 left_rotate,20,79 stop,85,85 right_rotate,90,149 
+
+Channel = iris
+ index,0,199 closed,207,207 pulse_open,216,229 pulse_close,230,243 random_opening_pulse,244,249 random_closing_pulse,250,255 
+
+Channel = iris_fine
+
+Channel = focus
+
+Channel = focus_fine
+
+Channel = zoom
+
+Channel = zoom_fine
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+ tracking,0,0 vector,3,242 slow,244,244 normal,247,247 fast,250,250 black_mov,255,255 
+
+Channel = effect_speed
+ tracking,0,0 index,3,245 max,255,255 
+

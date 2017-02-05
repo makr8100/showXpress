@@ -1,0 +1,32 @@
+Name = COEMAR_PC2500
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = dimmer
+
+Channel = iris
+ open,0,0 large_to_small,36,115 small,160,160 pulse,194,251 large,255,255
+
+Channel = beam
+ spot,0,0 flood,255,255
+
+Channel = focus
+
+Channel = frost
+ no_fr_to_frost,0,150 frost_pulse,192,251 frost,255,255
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = yellow
+
+Channel = control
+ lamp_off,0,0 motor_reset,100,100 lamp_on,255,255
+

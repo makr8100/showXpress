@@ -1,0 +1,32 @@
+Name = AYRTON_EYECOLOR
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 530
+ViewAngleTilt = 300
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewColor = 16777215
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = effect
+ open,0,0 rotate,10,255
+
+Channel = shutter
+ open,0,0 strobe,10,255
+

@@ -1,0 +1,26 @@
+﻿Name = KAM_STARCLUSTER
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = control
+ closed,0,0 mode_control,75,75 auto,125,125 audio,255,255 
+
+Channel = grid_selection
+ index,0,224 right_rotate,225,240 left_rotate,241,255 
+
+Channel = moving_speed
+
+Channel = shutter
+ strobe,0,255 
+
+Channel = color
+

@@ -1,0 +1,61 @@
+Name = Q Wash 575
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_575MSR
+ViewAnglePan = 540
+ViewAngleTilt = 240
+ViewAngleBeam = 34
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = pan
+ new_level,0,255
+
+Channel = tilt
+ new_level,0,255
+
+Channel = upan
+ new_level,0,255
+
+Channel = utilt
+ new_level,0,255
+
+Channel = pantilt_speed
+ new_level,0,255
+
+Channel = control
+ no_function,0,127 lamp_on,128,139 no_function,140,229 lamp_off,230,239 no_function,240,255
+
+Channel = color
+ open,0,17 red,18,35 blue,36,51 green,52,71 purple,72,89 5500-4200k,90,107 5500-3400k,108,127 clock,128,187 no_function,188,195 counterclock,196,255
+
+Channel = cyan
+ new_level,0,255
+
+Channel = magenta
+ new_level,0,255
+
+Channel = yellow
+ new_level,0,255
+
+Channel = rgb_vector
+ new_level,0,255
+
+Channel = color
+ no_function,0,15 macro 1,16,23 macro 2,24,31 macro 3,32,39 macro 4,40,47 macro 5,48,55 macro 6,56,63 macro 7,64,71 macro 8,72,79 macro 9,80,87 macro 10,88,95 macro 11,96,103 macro 12,104,111 macro 13,112,119 macro 14,120,127 macro 15,128,135 macro 16,136,143 macro 17,144,151 macro 18,152,159 macro 19,160,167 macro 20,168,175 macro 21,176,183 macro 22,184,191 macro 23,192,199 macro 24,200,207 macro 25,208,215 macro 26,216,223 macro 27,224,231 macro 28,232,239 macro 29,240,247 macro 30,248,255
+
+Channel = beam
+ no_function,0,70 beam shaper,71,180 frost,181,255
+
+Channel = zoom
+ zoom,0,255
+
+Channel = shutter
+ no_function,0,31 open,32,63 strobe,64,95 open,96,127 no_function,128,130 pulse_strobe,131,159 open,160,191 random_strobe,192,223 open,224,255
+
+Channel = dimmer
+ dimmer,0,255
+

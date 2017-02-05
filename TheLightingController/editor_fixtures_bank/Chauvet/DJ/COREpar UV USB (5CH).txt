@@ -1,0 +1,27 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 19
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/COREpar UV USB.png
+
+Channel = uv
+ 0–100%,0,255 
+
+Channel = shutter
+ no_function,0,15 strobe,16,255 
+
+Channel = effect_macro
+ no_function,0,31 Pulse effect 0–100%,32,95 Pulse effect 100%–0,96,159 Pulse effect 100%–0–100%,160,223 Sound triggering mode1,224,240 Sound triggering mode2,241,255 
+
+Channel = dimmer
+ dimmer,0,255 
+
+Channel = udimmer
+ Dimmer speed set from menu options,0,51 Dimmer speed mode off,52,101 Dimmer speed fast,102,152 Dimmer speed middle,153,203 Dimmer speed slow,204,225 
+

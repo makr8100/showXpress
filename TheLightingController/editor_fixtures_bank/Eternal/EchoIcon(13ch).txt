@@ -1,0 +1,41 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = amber
+
+Channel = uv
+
+Channel = dimmer_RGBW
+
+Channel = dimmer_WA
+
+Channel = dimmer_UV
+
+Channel = color_macro
+ no_function,0,0 auto,255,255 
+
+Channel = speed_control
+
+Channel = shutter
+ open,0,0 strobe,10,255 
+
+Channel = mode
+ dmx,0,0 auto1,80,80 auto2,255,255 
+

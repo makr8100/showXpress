@@ -1,0 +1,29 @@
+Name = ABSTRACT_VRXSCAN
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HTI
+ViewAnglePan = 160
+ViewAngleTilt = 100
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = pan
+
+Channel = tilt
+
+Channel = color
+ white,0,0 red,26,26 blue,43,43 green,59,59 yellow,75,75 cyan,91,91 orange,108,108 pink,124,124 magenta,140,140 uv,156,156 rotate,208,254
+
+Channel = gobo
+ Miscellaneous\dimmer,0,16 gobo1_right,20,20 gobo1,24,24 gobo1_left,28,28 gobo2_right,36,36 gobo2,40,40 gobo2_left,44,44 gobo3_right,52,52 gobo3,56,56 gobo3_left,60,60 gobo4_right,68,68 gobo4,72,72 gobo4_left,76,76 gobo5_right,84,84 gobo5,88,88 gobo5_left,92,92 gobo6_right,100,100 gobo6,104,104 gobo6_left,108,108 gobo7_right,116,116 gobo7,120,120 gobo7_left,124,124 gobo8_right,132,132 gobo8,136,136 gobo8_left,140,140 Miscellaneous\strobe,226,254
+
+Channel = gobo_rotate
+ right_rotate,32,112 left_rotate,141,223 stop,255,255
+
+Channel = shutter
+ dimmer,0,128 strobe,226,255
+

@@ -1,0 +1,32 @@
+Name = CLAY-PAKY_GOLDENSCAN3
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = iris
+ iris,0,63 angle,64,191 clock,192,220 stop,222,222 counterclock,224,255
+
+Channel = color
+ white,0,0 red_white,8,8 red,16,16 yellow_red,24,24 yellow,33,33 magenta_yellow,41,41 magenta,48,48 green_magenta,57,57 green,66,66 orange_green,74,74 orange,82,82 blue_orange,88,88  blue,97,97 violet_blue,106,106 violet,115,115 white_violet,123,123 rotate,128,255
+
+Channel = prism
+ open,0,0 warm,64,64 cold,128,128 prism,192,192 frost,255,255
+
+Channel = shutter
+ dimmer,0,128 strobe,130,255
+
+Channel = pan
+
+Channel = tilt
+
+Channel = gobo
+ off,0,0 gobo1,64,64 gobo2,128,128 gobo3,192,192 gobo4,255,255
+
+Channel = gobo_rotate
+ position,0,126 counterclock,128,190 stop,192,192 clock,195,255
+

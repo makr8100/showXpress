@@ -1,0 +1,26 @@
+Name = STRONG_SCAN300
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = gobo_rotate
+ position,0,140 counterclock,142,193 stop,201,201 clock,210,255
+
+Channel = gobo
+ full,0,0 gobo1,66,66 gobo2,109,109 gobo3,152,152 gobo4,195,195 gobo5,255,255
+
+Channel = color
+ white,0,0 color_1,32,32 color_2,56,56 color_3,80,80 color_4,104,104 color_5,128,128 color_6,152,152 color_7,176,176 rotation,184,255
+
+Channel = shutter
+ closed,0,0 dimmer,52,127 open,132,132 strobe,138,242 open,255,255
+
+Channel = pan
+
+Channel = tilt
+

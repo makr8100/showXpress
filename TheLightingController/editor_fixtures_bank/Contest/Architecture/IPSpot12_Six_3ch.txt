@@ -1,0 +1,21 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Contest/Architectural IP series/IPSPOT-12SIX .png
+
+Channel = color_macro
+ closed,0,3 red,4,7 orange,8,11 yellow,12,15 green,16,19 cyan,20,23 blue,24,27 pink,28,31 magenta,32,35 cold_white,36,39 warm_white,40,43 full,44,47 light_pink,48,51 pastel_apricot,52,55 pastel_ocre,56,59 pearl_green,60,63 pearl_grey,64,67 verona_green,68,71 royal_blue,72,75 sky_blue,76,79 light_blue,80,83 pastel_blue,84,87 fluo,88,91 candy,92,95 amber,96,99 sunset,100,103 uv,104,107 ultra_green,108,111 ultra_blue,112,115 ultra_pink,116,119 ultra_light,120,123 macro_1,124,127 macro_2,128,131 macro_3,132,135 macro_4,136,139 macro_5,140,143 macro_6,144,147 macro_7,148,151 macro_8,152,155 macro_9,156,159 macro_10,160,163 macro_11,164,167 macro_12,168,171 macro_13,172,175 macro_14,176,179 macro_15,180,183 macro_16,184,187 macro_17,188,191 pattern_01,192,195 pattern_02,196,199 pattern_03,200,203 pattern_04,204,207 pattern_05,208,211 pattern_06,212,215 pattern_07,216,219 pattern_08,220,223 pattern_09,224,227 pattern_10,228,231 pattern_11,232,235 pattern_12,236,239 pattern_13,240,243 pattern_14,244,247 pattern_15,248,251 pattern_16,252,255 
+
+Channel = dimmer
+ dimmer,0,255 
+
+Channel = effect_speed
+ index,0,255 
+

@@ -1,0 +1,29 @@
+Name = SHOWTEC_SCORPIONBARREL240
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_250MSR
+ViewAnglePan = 180
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = pan
+
+Channel = tilt
+
+Channel = color
+ white,0,0 uv,19,19 purple,36,36 green,54,54 orange,72,72 blue,90,90 yellow,108,108 violet,127,127 rainbow,145,191 rainbow,192,255
+
+Channel = gobo
+ Miscellaneous\open,0,15 Showtec\Scorpion_10,16,16 Showtec\Scorpion_02,32,32 Showtec\Scorpion_03,48,48 Showtec\Scorpion_04,64,64 Showtec\Scorpion_05,80,80 Showtec\Scorpion_06,96,96 Showtec\Scorpion_07,112,112 Miscellaneous\rotate,125,191 Miscellaneous\rotate,192,255
+
+Channel = gobo_rotate
+ open,0,15 right_rotate,16,135 left_rotate,136,255
+
+Channel = shutter
+ dimmer,0,128 reset,129,131 open,132,139 strobe,140,199 strobe,200,249 open,250,255
+

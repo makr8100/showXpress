@@ -1,0 +1,23 @@
+Name = GENIUS_COLORGOBO
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = reserved
+
+Channel = frost
+
+Channel = color
+ color_1,14,14 color_2,24,24 color_3,34,34 color_4,44,44 color_5,54,54 color_6,64,64 color_7,74,74 color_8,84,84 color_9,94,94 color_10,104,104 color_11,114,114 color_12,124,124 color_13,134,134 color_14,144,144 color_15,154,154 rotate,160,255
+
+Channel = gobo
+ gobo1,14,14 gobo2,24,24 gobo3,34,34 gobo4,44,44 gobo5,54,54 gobo6,64,64 gobo7,74,74 gobo8,84,84 gobo9,94,94 gobo10,104,104 gobo11,114,114 gobo12,124,124 gobo13,134,134 gobo14,144,144 gobo15,154,154 rotate,160,255
+
+Channel = shutter
+ dimmer,0,127 strobe,128,255
+

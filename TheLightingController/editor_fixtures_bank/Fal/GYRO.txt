@@ -1,0 +1,22 @@
+Name = FAL_GYRO
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = color
+ white,0,0 dark_blue,37,37 light_blue,49,49 purple,61,61 pink,73,73 green,85,85 yellow,97,97 red,109,109 clock,116,179 stop,185,185 counterclock,192,255
+
+Channel = gobo
+ full,0,0 gobo1,76,76 gobo2,110,110 gobo3,140,140 gobo4,180,180 gobo5,255,255
+
+Channel = gobo_rotate
+ stop,0,0 clock,16,121 stop,132,132 counterclock,144,255
+
+Channel = shutter
+ dimmer,0,131 strobe,144,240 open,255,255
+

@@ -1,0 +1,47 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Contest/Club series/STORM-8x10QC .png
+
+Channel = pan
+
+Channel = tilt
+
+Channel = tilt
+
+Channel = dimmer
+
+Channel = shutter
+ closed,0,7 strobe,8,131 open,132,139 pulse_strobe,140,181 open,182,189 reverse_pulse_strobe,190,231 open,232,239 audio,240,247 open,248,255 
+
+Channel = color_macro
+ closed,0,0 macro_1,8,15 macro_2,16,23 macro_3,24,31 macro_4,32,39 macro_5,40,47 macro_6,48,55 macro_7,56,63 macro_8,64,71 macro_9,72,79 macro_10,80,87 macro_11,88,95 macro_12,96,103 macro_13,104,110 macro_14,111,119 macro_15,120,127 color_swap,128,247 audio,248,255 
+
+Channel = color_macro
+ closed,0,0 macro_1,8,15 macro_2,16,23 macro_3,24,31 macro_4,32,39 macro_5,40,47 macro_6,48,55 macro_7,56,63 macro_8,64,71 macro_9,72,79 macro_10,80,87 macro_11,88,95 macro_12,96,103 macro_13,104,110 macro_14,111,119 macro_15,120,127 color_swap,128,247 audio,248,255 
+
+Channel = color_macro
+ closed,0,0 macro_1,8,15 macro_2,16,23 macro_3,24,31 macro_4,32,39 macro_5,40,47 macro_6,48,55 macro_7,56,63 macro_8,64,71 macro_9,72,79 macro_10,80,87 macro_11,88,95 macro_12,96,103 macro_13,104,110 macro_14,111,119 macro_15,120,127 color_swap,128,247 audio,248,255 
+
+Channel = color_macro
+ closed,0,0 macro_1,8,15 macro_2,16,23 macro_3,24,31 macro_4,32,39 macro_5,40,47 macro_6,48,55 macro_7,56,63 macro_8,64,71 macro_9,72,79 macro_10,80,87 macro_11,88,95 macro_12,96,103 macro_13,104,110 macro_14,111,119 macro_15,120,127 color_swap,128,247 audio,248,255 
+
+Channel = color_macro
+ closed,0,0 macro_1,8,15 macro_2,16,23 macro_3,24,31 macro_4,32,39 macro_5,40,47 macro_6,48,55 macro_7,56,63 macro_8,64,71 macro_9,72,79 macro_10,80,87 macro_11,88,95 macro_12,96,103 macro_13,104,110 macro_14,111,119 macro_15,120,127 color_swap,128,247 audio,248,255 
+
+Channel = color_macro
+ closed,0,0 macro_1,8,15 macro_2,16,23 macro_3,24,31 macro_4,32,39 macro_5,40,47 macro_6,48,55 macro_7,56,63 macro_8,64,71 macro_9,72,79 macro_10,80,87 macro_11,88,95 macro_12,96,103 macro_13,104,110 macro_14,111,119 macro_15,120,127 color_swap,128,247 audio,248,255 
+
+Channel = color_macro
+ closed,0,0 macro_1,8,15 macro_2,16,23 macro_3,24,31 macro_4,32,39 macro_5,40,47 macro_6,48,55 macro_7,56,63 macro_8,64,71 macro_9,72,79 macro_10,80,87 macro_11,88,95 macro_12,96,103 macro_13,104,110 macro_14,111,119 macro_15,120,127 color_swap,128,247 audio,248,255 
+
+Channel = color_macro
+ closed,0,0 macro_1,8,15 macro_2,16,23 macro_3,24,31 macro_4,32,39 macro_5,40,47 macro_6,48,55 macro_7,56,63 macro_8,64,71 macro_9,72,79 macro_10,80,87 macro_11,88,95 macro_12,96,103 macro_13,104,110 macro_14,111,119 macro_15,120,127 color_swap,128,247 audio,248,255 
+

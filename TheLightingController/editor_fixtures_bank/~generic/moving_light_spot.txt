@@ -1,0 +1,37 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LAMP700W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = gobo
+ Miscellaneous/open,0,0 metal_basic/L230B9,50,50 metal_basic/Z03748-13,100,100 metal_complex/Q260S4,150,150 metal_basic/RR2B9,200,200 glass/011,255,255 
+
+Channel = gobo_rotate
+ stop,0,0 index,50,150 left_rotate,151,190 stop,200,200 right_rotate,210,255
+
+Channel = shutter
+ closed,0,0 strobe,50,200 open,255,255
+
+Channel = dimmer
+

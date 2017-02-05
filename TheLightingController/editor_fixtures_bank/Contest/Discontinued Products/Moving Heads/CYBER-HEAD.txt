@@ -1,0 +1,36 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 540
+ViewAngleTilt = 280
+ViewAngleBeam = 27
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+2DViewImage = Contest/Discontinued Products/CyberHead.png
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = effect_macro
+ closed,0,0 open,15,15 macro_1,25,25 macro_2,35,35 macro_3,45,45 macro_4,55,55 macro_5,65,65 macro_6,75,75 macro_7,85,85 macro_8,95,95 macro_9,105,105 macro_10,115,115 macro_11,125,125 macro_12,135,135 macro_13,145,145 macro_14,155,155 macro_15,165,165 macro_16,175,175 macro_17,185,185 macro_18,195,195 macro_19,205,205 macro_20,215,215 macro_21,225,225 prog22,235,235 macro_23,245,245 macro_24,255,255 
+
+Channel = effect_speed
+
+Channel = shutter
+ stop,0,0 strobe,2,95 pulse_strobe,128,159 random_strobe,192,223 no_function,255,255 
+
+Channel = alphabet
+ stop,0,0 0,3,3 1,11,11 2,18,18 3,25,25 4,32,32 5,39,39 6,46,46 7,53,53 8,60,60 9,67,67 a,74,74 b,81,81 c,88,88 d,95,95 e,102,102 f,109,109 g,116,116 h,123,123 i,130,130 j,137,137 k,144,144 l,151,151 m,158,158 n,165,165 o,172,172 p,179,179 q,186,186 r,193,193 s,200,200 t,207,207 u,214,214 v,221,221 w,228,228 x,235,235 y,242,242 z,255,255 
+
+Channel = control
+ normal,0,0 user,50,50 reset_xy,90,90 macro_1,110,110 macro_2,130,130 macro_3,150,150 macro_4,170,170 macro_5,190,190 macro_6,210,210 macro_7,230,230 macro_8,255,255 
+

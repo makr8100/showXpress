@@ -1,0 +1,36 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Contest/Le Club/STORM-8x10QC.png
+
+Channel = pan
+
+Channel = tilt
+
+Channel = tilt
+
+Channel = dimmer
+
+Channel = shutter
+ closed,0,0 strobe,10,250 open,255,255 
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = pattern
+ closed,0,7 pattern_01,8,22 pattern_02,23,37 pattern_03,38,52 pattern_04,53,67 pattern_05,68,82 pattern_06,83,97 pattern_07,98,112 pattern_08,113,127 pattern_09,128,142 pattern_10,143,157 pattern_11,158,172 pattern_12,173,187 pattern_13,188,202 pattern_14,203,217 pattern_15,218,232 pattern_16,233,247 full,248,255 
+
+Channel = effect_speed
+

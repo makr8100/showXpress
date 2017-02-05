@@ -1,0 +1,21 @@
+﻿ViewType = VIEW_TYPE_COLOR_TUBE
+ViewAnglePan = 0
+ViewAngleTilt = 0
+ViewAngleBeam = 0
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+2DViewImage = Chauvet/Freedom Strip Mini.PNG
+
+Channel = color_macro
+
+Channel = speed_control
+
+Channel = strobe_effect
+
+Channel = blue
+
+Channel = amber
+

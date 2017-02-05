@@ -1,0 +1,51 @@
+Name = ELATION_POWERSPOT250
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 530
+ViewAngleTilt = 270
+ViewAngleBeam = 15
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewColor = 16777215
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = color
+ open,0,0 blue,4,4 violet,8,8 purple,12,12 magenta,16,16 pink,20,20 orange,24,24 yellow,28,28 cyan,32,32 green,36,36 light_green,40,40 red,44,44 laser,48,48 blue,68,68 violet,72,72 purple,76,76 magenta,80,80 pink,84,84 orange,88,88 yellow,92,92 cyan,96,96 green,100,100 light_green,104,104 red,108,108 laser,112,112 right_rotate,128,191 left_rotate,192,253 audio_slow,254,254 audio_fast,255,255
+
+Channel = gobo
+ Miscellaneous\open,0,0 Miscellaneous\gobo1,12,12 Miscellaneous\gobo2,20,20 Miscellaneous\gobo3,28,28 Miscellaneous\gobo4,36,36 Miscellaneous\gobo5,44,44 Miscellaneous\gobo6,52,52 Miscellaneous\gobo1,76,76 Miscellaneous\gobo2,84,84 Miscellaneous\gobo3,92,92 Miscellaneous\gobo4,100,100 Miscellaneous\gobo5,108,108 Miscellaneous\gobo6,116,116 Miscellaneous\right_rotate,128,191 Miscellaneous\left_rotate,192,253 audio_slow,254,254 audio_fast,255,255
+
+Channel = gobo_rotate
+ index,0,131 right_rotate,132,191 left_clock,192,253 audio_slow,254,254 audio_fast,255,255
+
+Channel = prism
+ stop,0,0 index,6,129 right_rotate,130,191 left_rotate,192,253 audio_slow,254,254 audio_fast,255,255
+
+Channel = shutter
+ closed,0,0 random_strobe,24,24 pulse_strobe,32,47 strobe,48,239 open,255,255
+
+Channel = dimmer
+
+Channel = focus
+
+Channel = control
+ nothing,0,0 gobo _10°,16,31 gobo_20°,32,47 gobo_30°,48,54 color_1,64,79 color_2,80,95 audio_slow,120,120 audio_fast,240,240 reset,255,255
+
+Channel = movement
+ stop,0,0 pan,1,31 tilt,32,63 pan/tilt,64,95 pan/tilt_reverse,96,127 circle,128,159 circle_reverse,160,191 lying_eight,192,223 random,224,255
+
+Channel = pantilt_speed
+ relative,0,0 slow_fast,16,255
+
+Channel = laser
+ closed,0,0 strobe,16,239 open,255,255
+

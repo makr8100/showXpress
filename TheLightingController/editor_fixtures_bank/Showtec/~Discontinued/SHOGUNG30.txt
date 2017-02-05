@@ -1,0 +1,28 @@
+Name = SHOWTEC_SHOGUNG30
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = beam
+ Dynamic Patterns,0,120 closed,121,250 Static Patterns,251,255
+
+Channel = Pattern_Select
+
+Channel = X-Position
+
+Channel = Y-Position
+
+Channel = scan_speed
+
+Channel = dyn_pat_speed
+
+Channel = stat_pat_size
+

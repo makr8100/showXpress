@@ -1,0 +1,39 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 20
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/SlimPAR QUAD 3 IRC.png
+
+Channel = red
+ Red,0,255
+
+Channel = green
+ Green,0,255
+
+Channel = blue
+ Blue,0,255
+
+Channel = amber
+ Amber,0,255
+
+Channel = color_macro
+ no_function,0,15 Slow~fast,16,255
+
+Channel = shutter
+ strobe,0,255 
+
+Channel = mode
+ RGBA mode,0,31 Pulse effect 0~100%,32,63 Pulse effect 100%~0,64,95 Pulse effect 100%~0~100%,96,127 Auto fade transition,128,159 Auto snap transition (4 colors),160,191 Auto snap transition (15 colors),192,223 Sound-active mode,224,255
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = mode
+ Dimmer Mode Manually set in menu options,0,51 Dimmer off ,52,101 Dimmer Mode 1,102,152 Dimmer Mode 2,153,203 Dimmer Mode 3,204,255
+

@@ -1,0 +1,32 @@
+Name = QTXlLIGHT_TOP3SLASER
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = control
+ motor_speed,0,200 stand_alone,201,254 reset,255,255
+
+Channel = 32_graphics
+
+Channel = rotation
+
+Channel = size
+
+Channel = pan
+
+Channel = tilt
+
+Channel = shutter
+ open,0,0 dimmer,1,254 closed,255,255
+
+Channel = color
+ green_yellow,0,0 red,40,40 green_yellow1,100,100 green_yellow2,130,130 green_yellow3,155,155 green_ yellow,255,255
+

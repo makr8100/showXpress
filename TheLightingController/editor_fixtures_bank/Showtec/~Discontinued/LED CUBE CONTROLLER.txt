@@ -1,0 +1,24 @@
+Name = Led_Cube_Controller
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = color
+ closed,0,15 red,16,31 green,32,47 blue,48,63 yellow,64,79 turquoise,80,95 violet,96,111 white,112,127 closed,128,255
+
+Channel = effect
+ 0,0,15 1,16,31 2,32,47 3,48,63 4,64,79 5,80,95 6,96,111 7,112,127 8,128,143 9,144,159 10,160,175 11,176,192 12,193,208 13,209,224 14,225,240 15,241,255
+
+Channel = effect_speed
+ stop,0,15 1,16,31 2,32,47 3,48,63 4,64,79 5,80,95 6,96,111 7,112,127 8,128,143 9,144,159 10,160,175 11,176,192 12,193,208 13,209,224 14,225,240 15,241,255
+
+Channel = dimmer
+

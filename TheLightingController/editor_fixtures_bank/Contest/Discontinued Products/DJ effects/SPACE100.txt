@@ -1,0 +1,32 @@
+Name = CONTEST_SPACE100
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = control
+ closed,0,0 open,255,255
+
+Channel = effect
+ effect1,0,0 effect2,12,12 effect3,20,20 effect4,28,28, effect5,36,36 effect5,44,44 effect6,52,52 effect7,60,60 effect8,68,68 effect9,76,76 effect10,84,84 effect11,92,92 effect12,100,100 effect13,108,108 effect14,116,116 effect15,124,124 effect16,124,124 effect17,132,132 effect18,140,140 effect19,148,148 effect20,156,156 effect21,164,164 effect22,172,172 effect23,180,180 effect24,188,188 effect25,196,196 effect26,204,204 effect27,212,212 effect28,220,220 effect29,228,228 effect30,236,236 effect31,244,244 effect32,255,255
+
+Channel = shutter
+ strobe,0,255
+
+Channel = circle_rotate
+
+Channel = horizontal_rot
+
+Channel = vertical_rotat
+
+Channel = horizontal_pos
+
+Channel = vertical_pos
+

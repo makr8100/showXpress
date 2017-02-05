@@ -1,0 +1,81 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = dimmer
+
+Channel = udimmer
+
+Channel = strobe_dimmer
+
+Channel = ???
+
+Channel = control
+ no_function,0,19 blackout_moves,20,39 blackout_changes,40,59 fan_auto,60,79 fade_speed,80,99 fade_speed,100,119 fade_speed,120,139 auto1,140,149 auto2,150,159 macro_1,160,169 custom,170,179 no_function,180,199 reset,200,219 dimmer,220,239 dimmer,240,243 dimmer,244,247 dimmer,248,251 dimmer,252,255
+
+Channel = red
+
+Channel = ured
+
+Channel = green
+
+Channel = ugreen
+
+Channel = blue
+
+Channel = ublue
+
+Channel = white
+
+Channel = uwhite
+
+Channel = red
+
+Channel = ured
+
+Channel = green
+
+Channel = ugreen
+
+Channel = blue
+
+Channel = ublue
+
+Channel = white
+
+Channel = uwhite
+
+Channel = red
+
+Channel = ured
+
+Channel = green
+
+Channel = ugreen
+
+Channel = blue
+
+Channel = ublue
+
+Channel = white
+
+Channel = uwhite
+

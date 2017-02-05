@@ -1,0 +1,41 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LED60W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 15
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = color
+ white,0,0 red,22,22 yellow,37,37 green,52,52 pink,67,67 blue,82,82 orange,97,97 magenta,112,112 light_blue,127,127 light_green,142,142 rotate,150,255
+
+Channel = gobo
+ Miscellaneous/open,0,0 Contest/GD005,15,15 Yagang/28,25,25 Chauvet/bar,35,35 Contest/GM043,45,45 Yagang/10,55,55 Yagang/37,65,65 Yagang/20,75,75 Miscellaneous/rotate,220,255
+
+Channel = gobo_rotate
+ stop,0,0 right_rotate,3,128 stop,130,130 left_rotate,133,255
+
+Channel = prism
+ open,0,0 prism,255,255
+
+Channel = dimmer
+
+Channel = shutter
+ closed,0,0 strobe,64,95 pulse_strobe,128,159 random_strobe,190,223 open,255,255
+
+Channel = control
+ nothing,0,0 pan&tilt_black,30,30 pan&tilt_not_black,50,50 auto1,70,70 auto2,90,90 audio1,110,110 audio2,130,130 custom,155,155 test,175,175 reset,210,210
+

@@ -1,0 +1,22 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = color
+ closed,0,0 red,18,18 green,30,30 yellow,42,42 blue,54,54 purple,66,66 cyan,80,80 white,90,90 rotate,102,102 slow_flow1,114,114 slow_flow2,126,126 roll_chase1,138,138 roll_chase2,150,150 multi_color,162,162 fast_flow1,174,174 fast_flow2,186,186 2_color_chase,198,198 2_color_flow,210,210 color_fade,222,222 auto,255,255
+
+Channel = effect_speed
+
+Channel = shutter
+ open,0,0 strobe,10,255
+
+Channel = option
+ R-G,0,0 R-Y,18,18 R-B,30,30 R-P,42,42 R-C,54,54 R-W,66,66 G-Y,80,80 G-B,90,90 G-P,102,102 G-C,114,114 G-W,126,126 Y-B,138,138 Y-P,150,150 Y-C,162,162 Y-W,174,174 B-P,186,186 B-C,198,198 B-W,210,210 P-C,222,222 P-W,232,232 C-W,251,251 
+

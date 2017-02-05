@@ -1,0 +1,39 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 18
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/SlimPAR Quad 12 USB.png
+
+Channel = red
+ 0-100%,0,255
+
+Channel = green
+ 0-100%,0,255
+
+Channel = blue
+ 0-100%,0,255
+
+Channel = amber
+ 0-100%,0,255
+
+Channel = color_macro
+ no_function,0,15 macro_1,16,255
+
+Channel = shutter
+ no_function,0,15 strobe,16,255
+
+Channel = mode
+ no_function,0,31 Pules effect 0-100%,32,63 Pules effect 100%-0,64,95 Pules effect 100-0-100%,96,127 Auto Fade Transition,128,159 Auto Snap Transition (4 color),160,191 Auto Snap Transition (15 color),192,223 audio,224,255
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = udimmer
+ Default Dimmer speed set from menu,0,51 Dimmer speed mode OFF,52,101 Dimmer speed mode 1 (fast speed),102,152 Dimmer speed mode 2 (middlet speed),153,203 Dimmer speed mode 3 (slow speed),204,255
+

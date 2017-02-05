@@ -1,0 +1,31 @@
+Name = LEDsplash 2
+
+ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_150HTI
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 30
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = control
+ RGB,0,29 pulse_strobe,30,119 Perset Color Macro,120,149 Chase,150,179 auto,180,209 Chase with fade,210,239 audio,240,255
+
+Channel = red
+ dimmer,0,255
+
+Channel = green
+ dimmer,0,255
+
+Channel = blue
+ dimmer,0,255
+
+Channel = shutter
+ open,0,4 strobe,5,255
+
+Channel = dimmer
+ dimmer,0,255
+

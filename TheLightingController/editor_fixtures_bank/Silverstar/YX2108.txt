@@ -1,0 +1,50 @@
+Name = YX2108
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_250MSR
+ViewAnglePan = 540
+ViewAngleTilt = 280
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = pan
+
+Channel = tilt
+
+Channel = upan
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = control
+ reset,128,139 lamp_off,230,239
+
+Channel = color
+ white,0,17 red,18,35 blue,36,53 green,54,72 3200-4100k,73,90 3200-5600k,91,108 uv,109,127 right_rotate,128,190 stop,191,191 left_rotate,193,255
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = yellow
+
+Channel = effect_speed
+
+Channel = effect
+ open,0,0 color1,11,11 color2,19,19 color3,27,27 color4,35,35 color5,43,43 color6,51,51 color7,59,59 color8,67,67 color9,75,75 color10,83,83 color11,91,91 color12,99,99 color13,107,107 color14,115,115 color15,123,123 color16,131,131 color17,139,139 color18,147,147 color19,155,155 color20,163,163 color21,171,171 color22,179,179 color23,187,187 color24,195,195 color25,203,203 color26,211,211 color27,219,219 color28,227,227 color29,235,235 color30,243,243 color31,255,255
+
+Channel = frost
+ open,0,0 frost,126,126 sheper,255,255
+
+Channel = reserved
+
+Channel = shutter
+ closed,0,0 strobe,1,230 open,231,255
+
+Channel = dimmer
+

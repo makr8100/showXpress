@@ -1,0 +1,25 @@
+Name = Scorpion Storm RGX
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = mode
+ dmx,0,19 automatic_fast_red,20,39 automatic_slow_red,40,59 automatic_fast_green,60,79 automatic_slow_green,80,99 automatic_fast_red/green,100,119 automatic_slow_red/green,120,139 sound_red,140,159 sound_green,160,179 sound_red/green,180,199 random,200,255
+
+Channel = color
+ blackout,0,4 red,5,28 green,29,56 red/green,57,84 red_off/green_strobing,85,112 green_off/red_strobing,113,140 red_on/strobing_green,141,168 green_on/strobing_red,169,197 red/green_strobing,198,224 alternate_strobing_red/green,225,255
+
+Channel = strobe_speed
+ no_strobe,0,4 strobe_slow/fast,5,254 strobe_to_sound,255,255
+
+Channel = motor
+ no_rotation,0,4 cw_rotation_slow/fast,5,127 stop,128,133 ccw_rotation_slow/fast ,134,255
+

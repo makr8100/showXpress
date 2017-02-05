@@ -1,0 +1,17 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = color
+ closed,0,0 red,23,23 red_green,53,53 green,83,83 green_blue,113,113 blue,143,143 red_blue,173,173 red_green_blue,203,203 audio,255,255 
+
+Channel = effect
+ stop,0,0 left_rotate,10,120 stop,128,128 right_rotate,135,245 stop,255,255 
+

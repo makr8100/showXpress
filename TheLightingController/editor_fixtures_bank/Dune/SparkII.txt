@@ -1,0 +1,36 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = mode
+ closed,0,0 audio,100,100 auto,160,160 dmx,255,255 
+
+Channel = pattern_group
+ group_line,0,0 group_tunnel,90,90 group_curve,160,160 
+
+Channel = pattern
+ pattern_01,0,0 pattern_02,48,48 pattern_03,80,80 pattern_04,112,112 pattern_05,144,144 pattern_06,176,176 pattern_07,208,208 pattern_08,255,255 
+
+Channel = rotation
+ index,0,128 speed,129,255 
+
+Channel = size
+ index,0,128 zoom_speed,129,255 
+
+Channel = horizontal
+ index,0,128 speed,129,255 
+
+Channel = vertical
+ index,0,128 speed,129,255 
+
+Channel = shape
+ basic,0,0 full,120,120 glittering,255,255 
+

@@ -1,0 +1,36 @@
+Name = LT250
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_250MSR
+ViewAnglePan = 450
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = color
+ white,0,19 red,20,39 yellow,40,59 light_green,60,79 dark_blue,80,99 pink,100,119 violet,120,139 green,140,159 light_blue,160,179 orange,180,199 right_rotate,200,255
+
+Channel = gobo
+ Miscellaneous\open,0,0 Chauvet\gobo6_100,37,37 Coemar\G027,62,62 High End Systems\141080,87,87 Futurelight\24,112,112 Chauvet\4B,137,137 Chauvet\gun barrel,162,162 Futurelight\07,187,187 Miscellaneous\rotate,200,255
+
+Channel = gobo_rotate
+ stop,0,0 right_rotate,5,120 left_rotate,140,255
+
+Channel = shutter
+ closed,0,81 dimmer,82,132 strobe,133,237 open,238,238
+
+Channel = pan
+
+Channel = tilt
+
+Channel = pantilt_speed
+
+Channel = focus
+
+Channel = prism
+ open,0,0 prism,36,36 rotate,51,255
+

@@ -1,0 +1,40 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = modes
+ mode_10ch-B,210,210
+
+Channel = patterns
+
+Channel = zoom
+ size,0,127 zoom_in,128,169 zoom_out,170,209 zoom_in_out,210,255
+
+Channel = Y_rolling
+ index,0,127 right_rotate,128,191 left_rotate,192,255
+
+Channel = X_rolling
+ index,0,127 right_rotate,128,191 left_rotate,192,255
+
+Channel = Z_rolling
+ index,0,127 right_rotate,128,191 left_rotate,192,255
+
+Channel = X_moving
+ index,0,127 right_rotate,128,191 left_rotate,192,255
+
+Channel = Y_moving
+ index,0,127 right_rotate,128,191 left_rotate,192,255
+
+Channel = color
+ red,0,0 green,24,24 red&green,40,40 rotate,50,255
+
+Channel = grating_rotation
+ stop,0,0 right_rotate,1,75 left_rotate,151,255
+

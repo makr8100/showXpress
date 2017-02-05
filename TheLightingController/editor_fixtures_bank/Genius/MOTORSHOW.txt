@@ -1,0 +1,45 @@
+Name = GENIUS_MOTORSHOW
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = dimmer
+
+Channel = color
+ white,0,0 yellow,24,24 red,44,44 green,64,64 blue,84,84 pink,104,104 green,124,124 orange,144,144 red,164,164 green,184,184 cyan,204,204 magenta,222,222 rotate,226,226
+
+Channel = gobo
+ gobo1,0,0 gobo2,32,32 gobo3,54,54 gobo4,76,76 gobo5,99,99 gobo6,120,120 gobo7,140,140 gobo8,160,160 gobo9,182,182 gobo10,210,210 gobo11,230,230 gobo12,255,255
+
+Channel = shutter
+ no_strobe,0,0 strobe,6,255
+
+Channel = pan
+
+Channel = tilt
+
+Channel = pantilt_speed
+
+Channel = gobo_rotate
+ gobo1,0,0 gobo2,45,45 gobo3,80,80 gobo4,110,110 gobo5,145,145 gobo6,175,175 gobo7,210,210 gobo8,255,255
+
+Channel = gobo_urotate
+ counterclock,0,127 clock,128,255
+
+Channel = prism
+ off,0,4 counterclock,6,127 clock,128,255
+
+Channel = focus
+
+Channel = control
+ no_function,0,0 lamp_on,140,140 no_function,170,170 lamp_on,210,210 no_function,230,230 reset,255,255
+
+Channel = upan
+
+Channel = utilt
+

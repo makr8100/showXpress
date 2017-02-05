@@ -1,0 +1,25 @@
+Name = PEARL-RIVER_MOON
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = color
+ white,0,0 red,25,25 yellow,45,45 orange,62,62 blue,80,80 green,100,100 cyan,116,116 uv,134,134 pink,152,152 green,169,169 rotate,178,255
+
+Channel = gobo
+ Miscellaneous\open,0,0 gobo1,47,47 gobo2,80,80 gobo3,110,110 gobo4,144,144 gobo5,175,175 gobo6,208,208 gobo7,255,255
+
+Channel = shutter
+ closed,0,0 open,22,22 strobe,30,250 open,255,255
+
+Channel = gobo_rotate
+
+Channel = pan
+
+Channel = tilt
+

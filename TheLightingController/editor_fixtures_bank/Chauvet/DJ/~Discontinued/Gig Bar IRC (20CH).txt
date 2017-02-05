@@ -1,0 +1,72 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = TRUE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/Gig Bar IRC.png
+
+Channel = par_can_red
+ dimmer,0,255
+
+Channel = par_can_green
+ dimmer,0,255
+
+Channel = par_can_blue
+ dimmer,0,255
+
+Channel = mode
+ dimmer,0,127 strobe,128,239 audio,240,249 dimmer,250,255
+
+Channel = par_can_red
+ dimmer,0,255
+
+Channel = par_can_green
+ dimmer,0,255
+
+Channel = par_can_blue
+ dimmer,0,255
+
+Channel = mode
+ dimmer,0,127 strobe,128,239 audio,240,249 dimmer,250,255
+
+Channel = effect_macro
+ no_function,0,24 red,25,49 green,50,74 blue,75,99 red/green,100,124 red/blue,125,149 green/blue,150,174 red/green/blue,175,199 auto,200,224 auto1,225,255
+
+Channel = strobe_effect
+ no_function,0,9 strobe,10,239 stop,240,255
+
+Channel = motor
+ stop,0,4 right_rotate,5,127 stop,128,133 left_rotate,134,255
+
+Channel = color
+ black,0,24 red,25,49 green,50,74 blue,75,99 3000K,100,124 purple,125,149 cyan,150,174 violet,175,199 auto,200,224 auto1,225,255
+
+Channel = strobe_effect
+ no_function,0,9 strobe,10,239 audio,240,255
+
+Channel = motor
+ stop,0,4 right_rotate,5,127 stop,128,133 left_rotate,134,255
+
+Channel = color
+ black,0,9 red,40,79 green,80,119 red/green,120,159 strobe,160,199 strobe,200,239 auto,240,255
+
+Channel = laser
+ no_function,0,9 strobe,10,239 audio,240,255
+
+Channel = pattern
+ no_function,0,9 strobe,10,239 audio,240,255
+
+Channel = strobe_effect
+ no_function,0,9 pattern_01,10,29 pattern_02,30,49 pattern_03,50,69 pattern_04,70,89 pattern_05,90,109 pattern_06,110,129 pattern_07,130,149 pattern_08,150,169 pattern_09,170,189 strobe,190,209 audio,210,255
+
+Channel = strobe_dimmer
+ dimmer,0,255
+
+Channel = strobe_speed
+ strobe,0,255
+

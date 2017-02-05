@@ -1,0 +1,22 @@
+Name = MARTIN_CX2_V1
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = shutter
+ off,0,0 dimmer,6,154 open,160,160 strobe,170,229 music_trigger,235,235 auto_trigger,245,245 reset,255,255
+
+Channel = color
+ white,0,0 light_blue_101,15,15 fern_green_205,26,26 red_304,38,38 yellow_603,50,50 magenta_507,62,62 medium_blue_10,75,75 deep_oran_302,87,87 light_gree_204,98,98 cyan_104,110,110 pink_312,122,122 blue_111,135,135 amber_604,147,147 prim_red_308,158,158 prim_green_206,170,170 orange_306,182,182 split_color1,194,194 split_color2,206,206 random,255,255
+
+Channel = gobo
+ open,0,0 frost,18,18 virus,30,30 dot_circle,42,42 spokes,54,54 atomic,65,65 dot_cross,78,78 dot_cone,90,90 holes_3,102,102 clouds_2,114,114 highways,125,125 worms_3,138,138 XL_iris,150,150 L_iris,161,161 M_iris,174,174 S_iris,185,185 XS_iris,198,198 closed,210,210 random,255,255
+
+Channel = gobo_rotate
+ tracking,0,0 fast-slow,4,255
+

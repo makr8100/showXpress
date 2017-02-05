@@ -1,0 +1,49 @@
+Name = LT212
+
+ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = control
+ audio,0,0 auto,95,95 music_edit,159,159 mannle_edit,255,255
+
+Channel = color
+ open,0,0 red,62,62 yellow,104,104 green,146,146 change,188,188 rainbow,230,230 closed,255,255
+
+Channel = gobo
+ group1,0,0 group2,64,64 group3,107,107 group4,150,150 group5,183,183 group6,255,255
+
+Channel = speed
+
+Channel = rotate
+ stop,0,0 horizontal,94,94 vertical,158,158 both,255,255
+
+Channel = dot_rotate
+ stop,0,0 rotate,94,94 dotting,255,255
+
+Channel = move
+ stop,0,0 horizontal,94,94 vertical,158,158 both,255,255
+
+Channel = extend
+ stop,0,0 horizontal,94,94 vertical,158,158 both,255,255
+
+Channel = zoom
+ stop,0,0 right_rotate,86,169 left_rotate,170,255
+
+Channel = draw_speed
+
+Channel = _no_icon
+
+Channel = color_speed
+
+Channel = size
+
+Channel = _no_icon
+

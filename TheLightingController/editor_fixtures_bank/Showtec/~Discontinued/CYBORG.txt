@@ -1,0 +1,23 @@
+Name = SHOWTEC_CYBORG
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_250HALO
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = shutter
+ new_level,0,15 new_level,16,196
+
+Channel = gobo
+ Showtec\still,0,7 new_level,8,15 new_level,16,23 new_level,24,31 new_level,32,39 new_level,40,47 new_level,48,55 new_level,56,63 new_level,64,71 new_level,72,79 new_level,80,87 new_level,88,95 new_level,96,103 new_level,104,111 new_level,112,119 new_level,120,127 new_level,128,255
+
+Channel = color
+ new_level,0,10 new_level,11,21 new_level,22,32 new_level,33,43 new_level,44,54 new_level,55,65 new_level,66,76 new_level,77,87 new_level,88,98 new_level,99,120 new_level,121,127 new_level,128,255
+
+Channel = pan
+
+Channel = tilt
+

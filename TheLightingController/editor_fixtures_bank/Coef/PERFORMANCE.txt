@@ -1,0 +1,32 @@
+Name = COEF_PERFORMANCE
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = shutter
+ blackout,0,0 dimmer,6,100 tempo,125,125 strobe,152,250 open,255,255
+
+Channel = color
+ white,0,0 yellow,30,30 blue,50,50 magenta,64,64 green,79,79 orange,100,100 cyan,120,120 pink,134,134 red,150,150 purple,170,170 green2,184,184 wood,194,194 rotate,200,255
+
+Channel = gobo
+ full,0,0 gobo1,20,20 gobo2,38,38 gobo3,55,55 gobo4,70,70 gobo5,85,85 gobo6,100,100 gobo7,110,110 rotate,152,255
+
+Channel = gobo_rotate
+ stop,0,0 index,12,180 counterclock,182,218 clock,220,255
+
+Channel = prism
+ no_effect,0,0 ctc3200_4100,30,30 ctc5500_2900,75,75 3_facets,125,125 9_facets,175,175 frost,255,255
+
+Channel = prism_rotate
+ stop,0,0 counterclock,12,132 clock,134,255
+
+Channel = pan
+
+Channel = tilt
+

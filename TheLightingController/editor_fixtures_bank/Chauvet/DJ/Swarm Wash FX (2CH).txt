@@ -1,0 +1,18 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/Swarm Wash FX.png
+
+Channel = mode
+ Blackout,0,15 Wash Only,16,30 Lasers Only,31,45 Derby Only,46,60 Strobes Only,61,75 Wash,0,0 Laser and Derby,76,90 Wash,0,0 Laser and Strobes,91,105 Wash,0,0 Derby and Strobes,106,120 Laser,0,0 Derby and Strobes,121,135 Wash and Laser,136,150 Wash and Derby,151,165 Wash and Strobes,166,180 Laser and Derby,181,195 Laser and Strobes,196,210 Derby and Strobes,211,225 All effects,226,255
+
+Channel = mode
+ Selects speed,1,200 Sound Active mode - all effects,201,255
+

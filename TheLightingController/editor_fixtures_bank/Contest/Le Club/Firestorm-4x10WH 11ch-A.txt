@@ -1,0 +1,45 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Contest/Club series/FIRESTORM-4x10WH .png
+
+Channel = pan
+ rotate,0,255 
+
+Channel = pan
+ rotate,0,255 
+
+Channel = pan
+ rotate,0,255 
+
+Channel = pan
+ rotate,0,255 
+
+Channel = tilt
+ rotate,0,255 
+
+Channel = pan_tilt_macro
+ no_function,0,7 macro_1,8,34 macro_2,35,61 macro_3,62,88 macro_4,89,115 macro_5,116,142 macro_6,143,169 macro_7,170,196 macro_8,197,223 macro_9,224,255 
+
+Channel = pan_tilt_macro_speed
+ no_function,0,7 speed_control,8,247 audio,248,255 
+
+Channel = dimmer
+ closed,0,7 dimmer,8,255 
+
+Channel = shutter
+ closed,0,15 strobe,16,131 open,132,139 pulse_strobe,140,181 open,182,189 reverse_pulse_strobe,190,231 open,232,239 random_strobe,240,247 open,248,255 
+
+Channel = animation
+ no_function,0,7 macro_1,8,32 macro_2,33,57 macro_3,58,82 macro_4,83,107 macro_5,108,132 macro_6,133,157 macro_7,158,182 macro_8,183,207 macro_9,208,232 open,233,255 
+
+Channel = animation_speed
+ no_function,0,7 index,8,247 audio,248,255 
+

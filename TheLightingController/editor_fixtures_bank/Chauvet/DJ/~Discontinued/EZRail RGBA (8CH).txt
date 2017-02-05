@@ -1,0 +1,35 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 15
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/EZrail RGBA.png
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = red
+ Red,0,255
+
+Channel = green
+ Green,0,255
+
+Channel = blue
+ Blue,0,255
+
+Channel = amber
+
+Channel = color_macro
+ no_function,0,7 Red,8,15 Green,16,23 Blue,24,31 Amber,32,39 Cyan,40,47 Magenta,48,55 Yellow,56,63 White,64,71 Red + Amber,72,79 Green + Amber,80,87 Blue + Amber,88,95 Red + Green + Amber,96,103 Red + Blue + Amber,104,111 Green + Blue + Amber,112,119 White (RGBA),120,127 auto Program 1,128,135 auto Program 2,136,143 auto Program 3,144,151 auto Program 4,152,159 auto Program 5,160,167 auto Program 6,168,175 auto Program 7,176,183 auto Program 8,184,191 auto Program 9,192,199 auto Program 10,200,207 auto Program 11,208,215 auto Program 12,216,223 auto Program 13,224,231 auto Program 14,232,239 auto Program 15,240,247 Sound Active Mode,248,255
+
+Channel = Auto program sleep
+ auto Program Speed,0,255
+
+Channel = shutter
+ no_function,0,0 strobe,1,255
+

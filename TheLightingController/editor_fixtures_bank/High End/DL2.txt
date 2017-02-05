@@ -1,0 +1,55 @@
+Name = HIGH-END_DL2
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 400
+ViewAngleTilt = 240
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = dimmer
+
+Channel = focus
+
+Channel = beam
+
+Channel = mspeed
+
+Channel = effect
+
+Channel = input_select
+
+Channel = cam_zoom
+
+Channel = cam_zoom_fine
+
+Channel = cam_focus
+
+Channel = cam_focus_fine
+
+Channel = infrared
+
+Channel = cam_shutter
+
+Channel = white_balance
+
+Channel = cam_orientatio
+
+Channel = cam_effects
+
+Channel = red_gain
+
+Channel = blue_gain
+

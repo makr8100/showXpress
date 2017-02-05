@@ -1,0 +1,21 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = TRUE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/Radius.png
+
+Channel = mode
+ no_function,0,9 Auto Programs 1-8,10,219 Sound active,220,225
+
+Channel = motor
+ no_function,0,9 Motor Speed ,10,255
+
+Channel = shutter
+ no_function,0,9 strobe,10,255
+

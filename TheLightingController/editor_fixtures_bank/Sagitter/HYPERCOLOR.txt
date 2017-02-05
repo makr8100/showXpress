@@ -1,0 +1,24 @@
+Name = SAGITTER_HYPERCOLOR
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = cyan
+
+Channel = yellow
+
+Channel = magenta
+
+Channel = dimmer
+
+Channel = shutter
+ closed,0,0 open,40,40 strobe,54,255
+
+Channel = color
+ disabled,0,0 white,1,1 cyan,2,2 yellow,3,3 magenta,4,4 deep_green,5,5 deep_blue,6,6 deep_red,7,7 change_mode1,32,32 speed,33,63 change_mode2,64,64 speed,65,95 change_mode3,96,96 speed,97,127 change_mode4,128,128 speed,129,159 change_mode5,160,160 speed,161,191 change_mode6,192,192 speed,193,223 change_mode7,224,224 speed,225,254 disabled,255,255
+

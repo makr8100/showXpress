@@ -1,0 +1,39 @@
+Name = yx-301
+
+ViewType = VIEW_TYPE_PAR_CAN
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = TRUE
+ViewColor = 16777215
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = yellow
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = color
+ white,0,255
+
+Channel = shutter
+ open,0,4 strobe,5,255
+
+Channel = Mode_selection
+
+Channel = ID
+
+Channel = _no_icon
+
+Channel = _no_icon
+

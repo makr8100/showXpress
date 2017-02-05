@@ -1,0 +1,80 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = dimmer
+
+Channel = shutter
+ open,0,0 strobe,16,255
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = color_macro
+ red,0,0 green,40,40 blue,70,70 white,100,100 red + green,130,130 green + blue,160,160 red + blue,185,185 red + green + blue + white,203,203 snap,205,229 fade,230,255 
+
+Channel = effect_macro
+ no_function,0,0 Color Snap,110,110 Color Fade,122,122 Red+Green+Blue+White+Strobe (slow),136,136 Red+Green+Blue+White+Strobe (fast),150,150 Red Chase (1 head on back and fourth),162,162 R/G/B/W Chase (1 head on left to right),175,175 R/G/B/W Chase (1 head on back and fourth),188,188 Green Chase (1 head on left to right),201,201 Green Chase (1 head on back and fourth),215,215 R/G/B/W Color Chase Head 1+2 | 3+4 (all on),228,228 R/G/B/W Color Chase Head 1+3 | 2+4 (all on),240,240 R/G/B/W Color Chase (all on),248,248 audio,255,255
+
+Channel = effect_speed
+
+Channel = pan
+
+Channel = tilt
+
+Channel = pan
+
+Channel = tilt
+
+Channel = pan
+
+Channel = tilt
+
+Channel = pan
+
+Channel = tilt
+
+Channel = pan_speed
+
+Channel = tilt_speed
+
+Channel = control
+ no_function,0,0 reset,255,255 
+

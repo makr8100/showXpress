@@ -1,0 +1,46 @@
+Name = COLORdash Block (STAGE1)
+
+ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 18
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = TRUE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = red
+ custom,0,255
+
+Channel = green
+ custom,0,255
+
+Channel = blue
+ custom,0,255
+
+Channel = white
+ custom,0,255
+
+Channel = color_macro
+ no_function,0,10 auto,11,35 auto,36,60 auto,61,85 auto,86,110 auto,111,135 auto,136,160 auto,161,185 auto,186,210 auto1,211,215 auto1,216,220 auto1,221,225 auto1,226,230 auto1,231,235 auto1,236,240 auto1,241,245 auto1,246,250 auto1,251,255
+
+Channel = strobe_dimmer
+ no_function,0,4 strobe,5,255
+
+Channel = animation
+ fan,0,10 fan0,11,20 fan1,21,30 fan2,31,40 fan3,41,50 fan_auto,51,60 auto2,61,70 auto2,71,80 auto2,81,90 auto2,91,100 auto2,101,110 auto2,111,120 auto2,121,130 auto2,131,140 auto2,141,150 auto2,151,160 custom,161,170 custom,171,180 custom,181,190 custom,191,200 custom,201,210 custom,211,220 custom,221,223 custom,224,226 custom,227,229 custom,230,232 custom,233,235 custom,236,238 custom,239,241 custom,242,244 custom,245,247 custom,248,250 custom,251,253 custom,254,255
+
+Channel = speed_control
+ shaking,0,255
+
+Channel = id
+ All,0,9 Id 1,10,19 Id 2,20,29 Id 3,30,39 Id 4,40,49 Id 5,50,59 Id 6,60,69 Id 7,70,79 Id 8,80,89 Id 9,90,99 Id 10,100,109 Id 11,110,119 Id 12,120,129 Id 13,130,139 Id 14,140,149 Id 15,150,159 Id 16,160,169 Id 17,170,179 Id 18,180,189 Id 19,190,199 Id 20,200,209 Id 21,210,210 Id 22,211,211 Id 23,212,212 Id 24,213,213 Id 25,214,214 Id 26,215,215 Id 27,216,216 Id 28,217,217 Id 29,218,218 Id 30,219,219 Id 31,220,220 Id 32,221,221 Id 33,222,222 Id 34,223,223 Id 35,224,224 Id 36,225,225 Id 37,226,226 Id 38,227,227 Id 39,228,228 Id 40,229,229 Id 41,230,230 Id 42,231,231 Id 43,232,232 Id 44,233,233 Id 45,234,234 Id 46,235,235 Id 47,236,236 Id 48,237,237 Id 49,238,238 Id 50,239,239 Id 51,240,240 Id 52,241,241 Id 53,242,242 Id 54,243,243 Id 55,244,244 Id 56,245,245 ID 57,246,246 ID 58,247,247 ID 59,248,248 ID 60,249,249 ID 61,250,250 ID 62,251,251 ID 63,252,252 ID 64,253,253 ID 65,254,254 ID 66,255,255
+
+Channel = effect
+ Block 1,255,255 3,255,0 Block 1,11,21 Block 2,22,32 Block 3,33,43 Block 4,44,54 Block 3,54,55 Block 1,55,66 Block 2,66,77 Block 3,77,88 Block 4,99,109 Block 1,109,109 3,110,120 Block 2,120,120 4,120,121 Block 3,121,132 Block 1,143,153 Block 2,153,154 Block 1,154,165 Block 2,176,186 Block 1,186,187 Block 1,187,187 4,198,208 Block 1,208,209 Block 4,220,230 Block 2,230,230 Block 4,231,241 Block 1,241,241 Block 3,241,242 242,0,0
+

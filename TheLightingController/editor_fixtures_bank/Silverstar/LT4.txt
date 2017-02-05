@@ -1,0 +1,29 @@
+Name = LT4
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = control
+ audio,0,0 auto,255,255
+
+Channel = laser
+ closed,0,0 open,255,255
+
+Channel = gobo
+
+Channel = roll
+ stop,0,0 horizontal,94,94 vertical,158,158 both,255,255
+
+Channel = rotate
+ stop,0,0 rotate,255,255
+
+Channel = speed
+

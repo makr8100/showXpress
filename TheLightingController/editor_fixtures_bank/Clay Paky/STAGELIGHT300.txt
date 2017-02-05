@@ -1,0 +1,35 @@
+Name = CLAY-PAKY_STAGELIGHT300
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = color
+ white,0,0 white_red,16,16 red,32,32 red_yellow,48,48 yellow,64,64 yellow_violet,80,80 violet,96,96 violet_green,112,112 green,128,128 green_orange,144,144 orange,160,160 orange_blue,176,176 blue,192,192 blue_magenta,208,208 magenta,224,224 magenta_white,240,240 white,255,255
+
+Channel = gobo_rotate
+ position,0,127 clock,128,190 stop,192,192 counterclock,194,255
+
+Channel = gobo
+ full,0,0 gobo1,37,37 gobo2,74,74 gobo3,111,111 gobo4,148,148 gobo5,185,185 gobo6,255,255
+
+Channel = shutter
+ dimmer,0,128 open,134,134 strobe,140,243 open,255,255
+
+Channel = pan
+
+Channel = tilt
+
+Channel = prism
+ white,0,0 warm_filter,37,37 cold_filter,75,75 light_frost,112,112 heavy_frost,147,147 prism_3_face,184,184 u_v,219,219 light_blue,255,255
+
+Channel = focus
+
+Channel = upan
+
+Channel = utilt
+

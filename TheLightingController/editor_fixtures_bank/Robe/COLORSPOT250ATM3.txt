@@ -1,0 +1,63 @@
+Name = ROBE_COLORSPOT250ATM3
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_250MSR
+ViewAnglePan = 530
+ViewAngleTilt = 280
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+ max,0,0 index,1,255
+
+Channel = reserved
+ xy_speed_mode,55,55 xy_time_mode,65,65 blackout_mov,75,75 blackout_color,95,95 blackout_gobo,115,115 xy_reset,145,145 color_reset,155,155 gobo_reset,165,165 shutter_reset,175,175 focus_reset,185,185 prism_reset,195,195 total_reset,205,205 lamp_off,235,235
+
+Channel = control
+ disable,0,0 circle,32,63 h_eight,64,95 v_height,96,127 rectangle,128,159 triangle,160,191 star,192,223 cross,224,255
+
+Channel = uspeed
+ right_rotate,1,127 left_rotate,130,255
+
+Channel = color
+ white,0,0 dark_green,132,132 red,138,138 light_blue,144,144 magenta,150,150 uv,156,156 yellow,162,162 green,168,168 pink,174,174 blue,180,180 light_red,186,186 right_rotate,190,215 stop,216,216 left_rotate,218,243 audio,246,246 random,255,255
+
+Channel = ucolor
+
+Channel = gobo
+ gobo1,0,0 gobo2,5,5 gobo3,13,13 gobo4,17,17 gobo5,21,21 gobo6,53,53 gobo7,57,57 shake_gobo1,65,65 shake_gobo2,75,75 shake_gobo3,85,85 shake_gobo4,95,95 shake_gobo5,105,105 shake_gobo6,115,115 shake_gobo7,125,125 Miscellaneous\open,200,200 Miscellaneous\right_rotate,202,221 Miscellaneous\stop,222,222 Miscellaneous\left_rotate,224,243 audio,246,246 random,255,255
+
+Channel = gobo_rotate
+ stop,0,0 right_rotate,1,127 left_rotate,130,255
+
+Channel = gobo_urotate
+
+Channel = prism
+ open,0,0 prism,20,159 macro1,163,163 macro2,171,171 macro3,179,179 macro4,187,187 macro5,195,195 macro6,203,203 macro7,211,211 macro8,219,219 macro9,227,227 macro10,235,235 macro11,243,243 macro12,251,251
+
+Channel = prism_rotate
+ stop,0,0 right_rotate,1,127 left_rotate,130,255
+
+Channel = focus
+
+Channel = ufocus
+
+Channel = shutter
+ closed,0,0 open,37,37 strobe,64,95 opening,128,143 closing,144,159 random_strobe,192,223
+
+Channel = dimmer
+
+Channel = udimmer
+

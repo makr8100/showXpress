@@ -1,0 +1,26 @@
+Name = GRIVEN_POPSCAN
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = gobo
+ off,0,0 gobo_rot1,48,48 gr1_prism,62,62 gr1_prism,76,76 gr2_prism,90,90 gr2_prism,104,104 gobo_rot2,118,118 gobo_rot3,132,132 gr3_prism,146,146 gr3_prism,160,160 gr4_prism,174,174 gr4_prism,188,188 gobo_rot4,202,202 gobo_rot5,216,216 gr5_prism,230,230 gr5_prism,255,255
+
+Channel = color
+ white,0,0 white_violet,27,27 violet,35,35 violet_yellow,43,43 yellow,51,51 yellow_blue,59,59 blue,67,67 blue_red,75,75 red,83,83 red_green,91,91 green,99,99 green_orange,107,107 orange,115,115 orange_blue2,123,123 blue2,131,131 blue2_magenta,139,139 magenta,147,147 magenta_blue3,155,155 blue3,163,163 blue3_white,171,171 rotate,176,255
+
+Channel = gobo_rotate
+ stop,0,0 counterclock,5,124 stop,128,128 clock,132,251 stop,255,255
+
+Channel = gobo
+ open1,0,0 open2,22,22 gobo1,37,37 gobo2,52,52 gobo3,67,67 gobo4,82,82 gobo5,97,97 gobo6,112,112 strobe,120,247 open3,255,255
+
+Channel = pan
+
+Channel = tilt
+

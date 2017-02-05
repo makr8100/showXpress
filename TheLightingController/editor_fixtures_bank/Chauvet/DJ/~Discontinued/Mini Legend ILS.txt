@@ -1,0 +1,28 @@
+Name = Mini Legend ILS
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_250HALO
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = pan
+ new_level,0,255
+
+Channel = tilt
+ new_level,0,255
+
+Channel = shutter
+ closed,0,7 open,8,15 strobe,16,131 strobe,132,247 open,248,255
+
+Channel = gobo
+ Miscellaneous\open,0,0 Chauvet\open,8,8 Chauvet\phone,13,13 Chauvet\4B,21,21 Chauvet\bio-wast,28,28 Chauvet\aeb,37,37 Chauvet\mover,48,48 Chauvet\144009,0,55 Chauvet\cut square,64,64 Chauvet\readio active,72,72 Chauvet\bat,80,80 Chauvet\glass star,88,88 Chauvet\gobo636_10,97,97 Chauvet\cone,107,107 Chauvet\atom2,115,115 Chauvet\shell,125,125 Miscellaneous\rotate,128,128 Miscellaneous\rotate,255,255
+
+Channel = color
+ white,0,10 green,11,21 magenta,22,31 light_blue,32,42 amber,43,53 red,54,63 blue,64,74 uv,75,85 light_green,86,95 orange,96,106 yellow,107,117 pink,118,127 rotate,128,255
+

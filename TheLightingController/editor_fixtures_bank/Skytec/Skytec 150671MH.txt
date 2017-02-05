@@ -1,0 +1,35 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 0
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = shutter
+ closed,0,7 strobe,8,229 open,230,255
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = pan
+
+Channel = tilt
+
+Channel = color
+ white,0,15 pink,16,31 cyan,32,47 yellow,48,63 magenta,64,79 green,80,95 purple,96,111 red,112,127 stop,128,128 Rainbow,129,255
+
+Channel = gobo
+ Miscellaneous/open,0,15 Miscellaneous/gobo1,16,31 Miscellaneous/gobo2,32,47 Miscellaneous/gobo3,48,63 Miscellaneous/gobo4,64,79 Miscellaneous/gobo5,80,95 Miscellaneous/gobo6,96,111 Miscellaneous/gobo7,112,127 Miscellaneous/right_rotate,128,255
+
+Channel = gobo_rotate
+ stop,0,7 left_rotate,8,119 right_rotate,120,131 rotate,132,255
+
+Channel = control
+ no_function,0,254 reset,255,255
+
+Channel = speed_control
+ P/T Speed,0,255
+

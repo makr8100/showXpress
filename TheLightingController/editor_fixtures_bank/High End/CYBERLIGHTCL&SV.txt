@@ -1,0 +1,57 @@
+Name = HIGH-END_CYBERLIGHTCL&SV
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_1200MSR
+ViewAnglePan = 170
+ViewAngleTilt = 110
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = color
+ white,0,0 red,30,30 purple,60,60 3500-5600k,90,90 light_blue,120,120 dark_blue,150,150 orange,180,180 indigo,255,255
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = yellow
+
+Channel = gobo
+ Miscellaneous\open,0,0 Miscellaneous\gobo1,30,30 Miscellaneous\gobo2,60,60 Miscellaneous\gobo3,90,90 Miscellaneous\gobo4,120,120 Miscellaneous\gobo5,150,150 Miscellaneous\gobo6,180,180 Miscellaneous\gobo7,255,255
+
+Channel = gobo2
+ Miscellaneous\gobo1,0,0 Miscellaneous\gobo2,30,30 Miscellaneous\open,60,60 Miscellaneous\gobo4,90,90 Miscellaneous\gobo5,255,255
+
+Channel = gobo_rotate2
+
+Channel = beam
+
+Channel = focus
+
+Channel = iris
+
+Channel = effect
+ prism,0,0 tri_color,30,30 yellow_corrector,60,60 open,90,90 magenta_corrector,120,120 wide_angle,150,150 cyan_corrector,255,255
+
+Channel = frost
+
+Channel = shutter
+
+Channel = dimmer
+
+Channel = pantilt_speed
+
+Channel = control
+

@@ -1,0 +1,13 @@
+Name = FAL_NEBULA_(mode_off)
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = effect
+ blackout,0,0 cylinders_1-2,14,17 cylinders_3-4,22,26 flowers_1-2,30,34 flowers_3-4,42,42 pairs_1-2,46,50 pairs_3-4,54,58 singles_1-2,62,66 singles_3-4,70,74 singles_5-6,78,82 singles_7-8,86,90 mixed_1-2,94,98 mixed_3-4,102,106 mixed_5-6,110,114 fast_1-2,118,122 fast_3-4,126,130 fast_5-6,134,138 dancing_1-2,142,146 dancing_3-4,150,154 dancing_5-6,158,162 dancing_7-8,166,170 romantic_1-2,174,178 romantic_3-4,182,186 romantic_5-6,190,194 romantic_7-8,198,202 static_1,205,205 static_2,210,210 static_3,214,214 cynlinders,218,218 flowers,222,222 pairs,226,226 singles,230,230 fast,238,238 dancing_beams,242,242 romantic_spot,244,244 mega_sequence,255,255
+

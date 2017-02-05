@@ -1,0 +1,59 @@
+﻿ViewType = VIEW_TYPE_HEAD_WASH
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 24
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+ no_function,0,0 fast,11,25 vector,26,127 variable,128,247 slow_reaction,248,255 
+
+Channel = pan_fpr
+ 540°,0,0 1_turn,15,15 2_turns,25,25 3_turns,35,35 4_turns,45,45 5_turns,55,55 6_turns,65,65 7_turns,75,75 8_turns,85,85 9_turns,95,95 10_turns,105,105 smart_path,115,115 right_rotate,121,182 stop,188,188 left_rotate,194,255 
+
+Channel = reserved
+
+Channel = shutter
+ closed,0,0 open,15,15 strobe,30,119 pulse_open,120,149 pulse_close,150,179 random_strobe,180,204 independent Random Strobe,205,229 open,255,255 
+
+Channel = dimmer
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = WHITE PREPROGRAMMED
+ no_function,0,0 Full (Red-Green-Blue at Full),80,80 White DTS,130,130 Custom White,180,180 White CTC,255,255 
+
+Channel = WHITE CTC
+
+Channel = color_macro
+ no_function,0,0 macro_1,20,20 macro_2,30,30 macro_3,40,40 macro_4,50,50 macro_5,60,60 macro_6,70,70 macro_7,80,80 macro_8,90,90 macro_9,100,100 macro_10,110,110 macro_11,120,120 macro_12,130,130 macro_13,140,140 macro_14,150,150 macro_15,160,160 macro_16,170,170 rainbow,175,255 
+
+Channel = functions
+ Custom White Recall,0,0 Custom White Recall,120,120 Custom White Store,255,255 
+
+Channel = zoom
+
+Channel = reserved
+
+Channel = control
+ no_function,0,0 reset,255,255 
+

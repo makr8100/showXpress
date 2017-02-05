@@ -1,0 +1,31 @@
+Name = GENESIS SCAN CDM-150
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = pan
+
+Channel = tilt
+
+Channel = shutter
+ closed,0,8  SLOW OPEN,9,60 open,61,63 strobe,64,95 open,96,159 SHUTTER SLOW OPEN FROM LEFT T,160,191 SHUTTER SLOW OPEN FROM RIGHT ,192,223 open,224,255
+
+Channel = gobo_rotate
+ open,0,13 GOBO 1 (GLASS),14,27 GOBO 2,28,41 GOBO 3,42,55 GOBO 4,56,69 GOBO 5 (GLASS),70,83 GOBO 6,84,97 GOBO 7,98,111 GOBO 8,112,126 open,127,136 shaking from slow to fast gob,137,146 shaking from slow to fast gob,147,156 shaking from slow to fast gob,157,166 shaking from slow to fast gob,167,176 shaking from slow to fast gob,177,186 shaking from slow to fast gob,187,196 shaking from slow to fast gob,197,206 shaking from slow to fast gob,207,217 open,218,219 gobowheel rotation from slow ,220,255
+
+Channel = color
+ open,0,9 dark_red,10,20 blue,21,31 yellow,32,41 green,42,52 pink,53,63 cyan,64,84 orange,85,95 magenta,96,105 tri_color,106,116 quad_color,117,128 change the colorwheel positio,129,189 change the colorwheel positio,190,222 colourwheel rotation from slo,223,255
+
+Channel = gobo_rotate
+ clockwise gobowheel rotation ,0,127 clockwise gobowheel rotation ,128,189 no_function,190,193 counter-clockwise gobowheel r,194,255
+
+Channel = pantilt_speed
+

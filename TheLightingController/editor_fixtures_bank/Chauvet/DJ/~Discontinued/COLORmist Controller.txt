@@ -1,0 +1,24 @@
+Name = COLORmist Controller
+
+ViewType = VIEW_TYPE_COLOR_SHAPE
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewColor = 0
+
+Channel = color
+ closed,0,11 red,12,23 green,24,35 blue,36,47 yellow,48,59 purple,60,71 light_blue,72,83 white,84,95 Color Change,96,114 Slow flow 1,115,119 Slow Flow 2,120,131 Roll Chase 1,132,143 Roll Chase 2,144,155 mixed,156,167 Fast Flow 1,168,179 Fast Flow 2,180,191 Fast Flow 3,192,203 Fast Flow 4,204,215 2 Color Chesa,216,227 2 Color Flow,228,239 Color Fade,240,251 AUTO,252,255
+
+Channel = effect_speed
+ Slow - Fast,0,255
+
+Channel = effect
+ Always ON,0,2 Slow - Fast,3,255
+
+Channel = color
+ RED - Green,0,11 Red - Yellow,12,23 Red - Blue,24,35 Red - Purple,36,47 Red - Cyan,48,59 Red -White,60,71 Green - Yellow,72,83 Green - Blue,84,95 Green - Purple,96,107 Green - Cyan,108,119 Green - White,120,131 Yellow - Blue,132,143 Yellow - Purple,144,155 Yellow - Cyan,156,167 Yellow - White,168,179 Blue - Purple,180,191 Blue - Cyan,192,203 Blue - White,204,215 Purple - Cyan,216,227 Purple - White,228,239 Cyan-White,240,255
+

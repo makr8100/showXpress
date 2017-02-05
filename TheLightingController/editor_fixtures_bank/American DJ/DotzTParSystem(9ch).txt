@@ -1,0 +1,35 @@
+﻿ViewType = VIEW_TYPE_PAR_CAN
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 20
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = effect_macro
+ no_function,0,0 macro_1,140,140 macro_2,148,148 macro_3,156,156 macro_4,164,164 macro_5,172,172 macro_6,180,180 macro_7,188,188 macro_8,196,196 macro_9,204,204 macro_10,212,212 macro_11,220,220 macro_12,228,228 macro_13,236,236 audio,255,255 
+
+Channel = dimmer
+
+Channel = shutter
+ open,0,0 strobe,10,255 
+
+Channel = dimmer curve
+ standard,0,0 stage,60,60 TV,160,160 archi,161,161 theater,200,200 default,255,255 
+
+Channel = light1
+ lamp_off,0,0 lamp_on,255,255 
+
+Channel = light2
+ lamp_off,0,0 lamp_on,255,255 
+

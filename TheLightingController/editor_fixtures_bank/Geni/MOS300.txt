@@ -1,0 +1,45 @@
+Name = GENI_MOS300
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewColor = 16777215
+
+Channel = shutter
+ dimmer,0,159 strobe,160,253 open,255,255
+
+Channel = color
+ white,0,0 blue,19,19 green,32,32 magenta,45,45 yellow,57,57 purple,70,70 red,84,84 purple,95,95 uv,108,108 orange,122,122 cyan,134,134 3200-4100k,148,148 right_rotate,154,202 stop,204,204 left_rotate,207,255
+
+Channel = gobo
+ Miscellaneous\open,0,0 Geni\MZ-12-CH3-204-255,36,36 Miscellaneous\gobo2,60,60 Geni\OBY-3-CH2-28-41,84,84 Miscellaneous\gobo3,108,108 Miscellaneous\gobo4,132,132 Miscellaneous\gobo5,156,156 Miscellaneous\rotate,168,255
+
+Channel = gobo_rotate
+ index,0,127 right_rotate,128,190 stop,192,192 left_rotate,194,255
+
+Channel = prism
+ open,0,0 stop,4,4 right_rotate,8,127 stop,131,131 left_rotate,134,255
+
+Channel = focus
+ focus_near,0,0 focus_mid,127,127 focus_far,255,255
+
+Channel = pan
+
+Channel = tilt
+
+Channel = pantilt_speed
+ x_stop_rotate,0,0 x_forward_rotate,4,127 stop,130,130 x_reverse_rotate,132,255
+
+Channel = pantilt_speed
+ y_stop_rotate,0,0 y_forward_rotate,4,127 stop,130,130 y_reverse_rotate,132,255
+
+Channel = control
+ open,0,0 reset,255,255
+
+Channel = control
+ on_standby,0,0 on_3_sec,70,70 on_standby,120,120 off_3_sec,180,180 on_standby,255,255
+

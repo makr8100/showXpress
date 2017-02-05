@@ -1,0 +1,41 @@
+Name = MARTIN_SCX700
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_250HALO
+ViewAnglePan = 198
+ViewAngleTilt = 72
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = shutter
+ closed,0,0 open,11,11 strobe,16,95 random_strobe,104,151 audio_shutter,180,180 lamp_on,213,213 lamp_off,243,243 reset,255,255
+
+Channel = color
+ white,0,0 blue,12,12 red,24,24 yellow,36,36 magenta,48,48 cyan,60,60 green,72,72 orange,84,84 congo,96,96 pink,108,108 white,120,128 blue,129,135 red,136,142 yellow,143,149 magenta,150,156 cyan,157,163 green,164,170 orange,171,177 congo,178,184 pink,185,191 right_rotate,192,215 left_rotate,216,239 audio_fast,242,242 audio_medium,248,248 audio_slow,255,255
+
+Channel = gobo
+ Miscellaneous\open,0,0 Miscellaneous\gobo1,23,23 Miscellaneous\gobo2,39,39 Miscellaneous\gobo3,55,55 Miscellaneous\gobo4,71,71 Miscellaneous\gobo5,87,87 Miscellaneous\gobo6,103,103 Miscellaneous\gobo7,119,119 gobo1_shake,128,143 gobo2_shake,144,159 gobo3_shake,160,175 gobo4_shake,176,191 gobo5_shake,192,207 gobo6_shake,208,223 gobo7_shake,224,239 audio_fast,242,242 audio_medium,248,248 audio_slow,255,255
+
+Channel = gobo_rotate
+ stop,0,0 right_rotate,8,77 left_rotate,78,147 shaking,224,239 audio_fast,240,245 audio_medium,246,250 audio_slow,255,255
+
+Channel = pan
+
+Channel = tilt
+
+Channel = pan&tilt_macro
+ stop,0,0 macro1,23,23 macro2,39,39 macro3,55,55 macro4,71,71 macro5,87,87 macro6,103,103 macro7,119,119 macro8,135,135 macro9,149,149 macro10,167,167 macro11,183,183 macro12,199,199
+
+Channel = effect
+ stop,0,0 macro1,23,23 macro2,39,39 macro3,55,55 macro4,71,71 macro5,87,87 macro6,103,103 macro7,119,119 macro8,135,135 macro9,149,149 macro10,167,167 macro11,183,183 macro12,199,199
+
+Channel = pantilt_speed
+ tracking,0,0 index,8,240 blackout_color,243,243 blackout_mov,248,248 blackout_all,255,255
+
+Channel = effect_speed
+ tracking,0,0 index,8,255
+

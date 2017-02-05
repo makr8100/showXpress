@@ -1,0 +1,45 @@
+Name = MARTIN_WIZARDEXTREME
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_250MSR
+ViewAnglePan = 280
+ViewAngleTilt = 360
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = shutter
+ dimmer,0,129 strobe,130,189 random_strobe,205,205 audio,215,215 auto,225,225 reset,245,245 lamp_off,255,255
+
+Channel = reflector
+ stop,0,0 right_rotate,2,63 left_rotate,66,127 narrow_shake,130,190 wide_shake,191,254 random_shake,255,255
+
+Channel = color
+ open,0,0 blue,14,14 orange,26,26 purple,38,38 green,50,50 light_blue,62,62 yellow,74,74 magenta,86,86 rotate,102,169 twinkle,176,243 stop,246,246 remote,255,255
+
+Channel = color_shake
+ stop,0,0 narrow,2,128 wide,129,255
+
+Channel = gobo
+ Miscellaneous\open,0,0 Martin\stardust2,16,16 Martin\splash,28,28 Martin\pipedreams,40,40 Martin\triplebeam,52,52 Martin\clouds,64,64 Martin\cone,76,76 Martin\sun,88,88 Martin\metalfiresun,100,100 Martin\thinbars,112,112 Martin\spacesun,124,124 Martin\dich_happyyins,136,136 Martin\decenteredbeam,148,148 Martin\lashes,160,160 Miscellaneous\rotate,170,239 Miscellaneous\stop,245,245 remote,255,255
+
+Channel = gobo_shake
+ stop,0,0 narrow,2,128 wide,129,255
+
+Channel = pan
+ index,0,127 narrow_shake,128,191 wide_shake,192,255
+
+Channel = tilt
+ stop,0,0 right_rotate,2,63 left_rotate,66,127 narrow_shake,130,191 wide_shake,192,255
+
+Channel = control
+ macro1,0,0 macro2,23,23 macro3,39,39 macro4,55,55 macro5,71,71 macro6,87,87 macro7,103,103 macro8,119,119 macro9,135,135 macro10,151,151 macro11,167,167 macro12,183,183
+
+Channel = pantilt_speed
+ tracking,0,0 index,2,255
+
+Channel = color_speed
+

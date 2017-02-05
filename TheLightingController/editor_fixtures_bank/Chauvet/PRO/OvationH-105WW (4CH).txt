@@ -1,0 +1,24 @@
+﻿ViewType = VIEW_TYPE_PAR_CAN
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/PRO/FRONT-DOWN.png 
+
+Channel = dimmer
+ dimmer,0,255 
+
+Channel = udimmer
+ dimmer,0,255 
+
+Channel = Shutter Speed
+ no_function,0,5 Strobe (slow to fast),6,255 
+
+Channel = shutter
+ no_function,0,5 Ramp up,6,42 Ramp Down,43,85 Ramp up/ramp down,86,128 Random Strobe,129,171 Lighting effect,172,214 Spike Effect,215,255 
+

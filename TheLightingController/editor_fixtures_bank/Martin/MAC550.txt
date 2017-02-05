@@ -1,0 +1,65 @@
+Name = MARTIN_MAC550
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_575MSR
+ViewAnglePan = 540
+ViewAngleTilt = 240
+ViewAngleBeam = 20
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewColor = 16777215
+
+Channel = shutter
+ closed,0,0 open,35,35 strobe,50,72 opening_pulse,80,99 closing_pulse,100,119 random_strobe,128,187 random_opening_pulse,191,196 random_closing_pulse,197,202 reset,212,212 lamp_on,232,232 lamp_off,255,255
+
+Channel = dimmer
+
+Channel = color
+ white,0,0 red,17,17 magenta,34,34 purple,51,51 blue,68,68 green,85,85 yellow,102,102 orange,119,119 purple,136,136 index,154,198 right_rotate,199,219 left_rotate,220,240 random_color,241,255
+
+Channel = color
+ white,0,0 green,17,17 blue,34,34 pink,51,51 red,68,68 yellow,85,85 dark_green,102,102 5500-4200k,119,119 3200-4100k,136,136 index,154,198 right_rotate,199,219 left_rotate,220,240 random_color,241,255
+
+Channel = gobo
+ Miscellaneous\open,0,0 Miscellaneous\gobo1,11,11 Miscellaneous\gobo2,22,22 Miscellaneous\gobo3,33,33 Miscellaneous\gobo4,44,44 Miscellaneous\gobo5,55,55 Miscellaneous\gobo6,66,66 Miscellaneous\gobo7,77,77 Miscellaneous\gobo8,88,88 Miscellaneous\gobo9,99,99 Miscellaneous\dimmer,113,202 Miscellaneous\right_rotate,203,221 Miscellaneous\left_rotate,222,240 random_gobo,241,255
+
+Channel = gobo_rotate
+
+Channel = gobo_urotate
+
+Channel = gobo
+ Miscellaneous\open,0,0 Miscellaneous\gobo1,11,11 Miscellaneous\gobo2,22,22 Miscellaneous\gobo3,33,33 Miscellaneous\gobo4,44,44 Miscellaneous\gobo5,55,55 Miscellaneous\gobo6,66,66 Miscellaneous\gobo7,77,77 Miscellaneous\gobo8,88,88 Miscellaneous\gobo9,99,99 Miscellaneous\dimmer,113,202 Miscellaneous\right_rotate,203,221 Miscellaneous\left_rotate,222,240 random_gobo,241,255
+
+Channel = gobo_shake
+ open,0,0 gobo_wheel2,16,55 color_wheel1,56,95 color_wheel2,96,135 gobo2_color1,136,175 gobo1_color2,176,215 gobo2_color12,216,255
+
+Channel = effect
+ open,0,0 macro1,237,237 macro2,241,241 macro3,245,245 macro4,249,249 macro5,255,255
+
+Channel = gobo_rotate
+ stop,0,0 left_rotate,3,127 right_rotate,128,252 stop,255,255
+
+Channel = prism
+ open,0,0 left_rotate,20,79 right_rotate,90,149 macro1,218,218 macro2,223,223 macro3,228,228 macro4,229,229 macro5,238,238 macro6,243,243 macro7,248,248 macro8,255,255
+
+Channel = iris
+ index,0,199 opening_pulse,216,229 closing_pulse,230,243 random_opening_pulse,244,249 random_closing_pulse,250,255
+
+Channel = focus
+
+Channel = beam
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+ tracking,0,0 fast_slow,3,242 blackout_while_mov,255,255
+
+Channel = effect_speed
+ tracking,0,0 fast_slow,3,245 tracking,248,248 speed_max,255,255
+

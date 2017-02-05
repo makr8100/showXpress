@@ -1,0 +1,23 @@
+Name = JB-SYSTEMS_DUALSCAN(half)
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_250HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = pan
+
+Channel = tilt
+
+Channel = shutter
+ stop,0,0 strobe,16,131 shake,132,247 open,255,255
+
+Channel = gobo
+ Miscellaneous\open,0,0 Martin\Cross 2,17,17 Chauvet\china star,29,29 Chauvet\ying_yang_yung,40,40 Chauvet\gobo3_100,52,52 Chauvet\bio-wast,64,64 Chauvet\4 dots,75,75 Chauvet\bubbles assorted,87,87 Chauvet\1,99,99 ok_for_3DView\cone,110,110 Geni\MJS-1-CH1-110-119,122,122 Miscellaneous\rotate,128,255
+

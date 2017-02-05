@@ -1,0 +1,48 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = geometric_shapes
+ off,0,0 geometric,45,45 geometric_show,78,78 geometric_show_auto,108,108 geometric_show_music,140,140 animation,170,170 animation_show,200,200 animation_show_auto,232,232 animation_show_music,255,255
+
+Channel = shapes A
+
+Channel = shapes B
+
+Channel = shapes C
+
+Channel = shapes D
+
+Channel = reserved
+
+Channel = rotation
+ index,0,127 left_rotate,128,191 right_rotate,192,255 
+
+Channel = vertical
+ index,0,127 speed,128,255 
+
+Channel = horizontal
+ index,0,127 speed,128,255 
+
+Channel = rotation_speed
+ horizontal,0,127 vertical,128,255 
+
+Channel = effect
+ more,0,0 less,60,60 pixels_intensity,128,255 
+
+Channel = vertical_angle
+
+Channel = horizontal_angle
+
+Channel = zoom
+ size,0,127 small_to_big,128,169 big_to_small,170,255 
+
+Channel = speed
+

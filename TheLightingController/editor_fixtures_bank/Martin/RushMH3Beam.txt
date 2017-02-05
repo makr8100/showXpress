@@ -1,0 +1,56 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = control
+ no_function,0,29 Dimmer Conventional Mode,30,39 Dimmer Linear Mode,40,49 pan/tilt fast mode,50,59 pan/tilt normal mode,60,69 pan/tilt blackout mode enabled,70,79 pan/tilt blackout mode disabled,80,89 color change blackout mode enable,90,99 color change blackout mode disabled,100,109 gobo change blackout mode enabled,110,119 gobo change blackout mode disabled,120,129 lamp_on,130,139 reset_xy,140,149 reset_color,150,159 reset_gobo,160,169 reset_shutter,170,179 no_function,180,189 reset_others,190,199 reset,200,209 enable all movement blackout modes,210,219 disable all movement blackout modes,220,229 lamp_off,230,239 no_function,240,255
+
+Channel = effect_macro
+
+Channel = effect_speed
+
+Channel = color
+ open,0,0 red,5,5 yellow,9,9 blue,13,13 blue_green,17,17 green,22,22 light_blue,26,26 light_pink,30,30 yellow_green,34,34 dark_pink,38,38 blue,43,43 light_yellow,47,47 off_white,51,51 light_blue,55,55 dark_blue,59,59 index,64,127 right_rotate,128,189 stop,191,191 left_rotate,194,255 
+
+Channel = gobo
+ Miscellaneous/open,0,3 Miscellaneous/gobo1,4,6 Miscellaneous/gobo2,7,9 Miscellaneous/gobo3,10,12 Miscellaneous/gobo4,13,15 Miscellaneous/gobo5,16,18 Miscellaneous/gobo6,19,21 Miscellaneous/gobo7,22,24 Miscellaneous/gobo8,25,27 Miscellaneous/gobo9,28,30 Miscellaneous/gobo10,31,33 Miscellaneous/gobo11,34,36 Miscellaneous/gobo12,37,39 Miscellaneous/gobo13,40,42 Miscellaneous/gobo14,43,45 Miscellaneous/gobo15,46,48 Miscellaneous/gobo16,49,51 Miscellaneous/gobo17,52,55 Miscellaneous/open,56,59 Miscellaneous/shake_gobo1,60,63 Miscellaneous/shake_gobo2,64,67 Miscellaneous/shake_gobo3,68,71 Miscellaneous/shake_gobo4,72,75 Miscellaneous/shake_gobo5,76,79 Miscellaneous/shake_gobo6,80,83 Miscellaneous/shake_gobo7,84,87 Miscellaneous/shake_gobo8,88,91 Miscellaneous/shake_gobo9,92,95 Miscellaneous/shake_gobo10,96,99 Miscellaneous/shake_gobo11,100,103 Miscellaneous/shake_gobo12,104,107 Miscellaneous/shake_gobo13,108,111 Miscellaneous/shake_gobo14,112,115 Miscellaneous/shake_gobo15,116,119 Miscellaneous/shake_gobo16,120,123 Miscellaneous/shake_gobo17,124,127 Miscellaneous/left_rotate,128,189 Miscellaneous/stop,190,193 Miscellaneous/right_rotate,194,255
+
+Channel = prism
+ no_function,0,0 prism,8,127 index,128,255 
+
+Channel = prism_rotate
+ index,0,127 right_rotate,128,189 stop,192,192 left_rotate,194,255 
+
+Channel = uprism_rotate
+
+Channel = zoom
+
+Channel = focus
+
+Channel = frost
+
+Channel = shutter
+ closed,0,0 open,12,12 strobe,16,131 pulse_open,132,167 pulse_close,168,203 pulse_strobe,204,239 random_strobe,240,247 open,255,255 
+
+Channel = dimmer
+
+Channel = udimmer
+

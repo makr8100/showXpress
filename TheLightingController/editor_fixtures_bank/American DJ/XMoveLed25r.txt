@@ -1,0 +1,36 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+2DViewImage = 
+
+Channel = pan
+
+Channel = tilt
+
+Channel = color
+ white,0,0 red,22,22 blue,37,37 green,52,52 yellow,67,67 pink,82,82 light_blue,97,97 light_green,112,112 light_yellow,123,123 rotate,128,254 audio,255,255
+
+Channel = gobo
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,14,14 Miscellaneous/gobo2,24,24 Miscellaneous/gobo3,32,32 Miscellaneous/gobo4,41,41 Miscellaneous/gobo5,51,51 Miscellaneous/gobo6,60,60 open_shake,67,67 gobo1_shake,77,77 gobo2_shake,86,86 gobo3_shake,96,96 gobo4_shake,105,105 gobo5_shake,115,115 gobo6_shake,124,124 Miscellaneous/rotate,128,254 audio,255,255
+
+Channel = gobo_rotate
+ stop,0,0 right_rotate,10,120 stop,128,128 left_rotate,135,247 stop,255,255
+
+Channel = shutter
+ closed,0,0 strobe,16,131 pulse_open,140,181 pulse_close,190,231 random_strobe,243,243 open,255,255
+
+Channel = dimmer
+
+Channel = movement_macro
+ no_function,0,0 macro_1,18,18 macro_2,39,39 macro_3,60,60 macro_4,81,81 macro_5,102,102 macro_6,123,123 macro_7,144,144 macro_8,165,165 macro_9,186,186 macro_10,207,207 macro_11,228,228 macro_12,255,255
+
+Channel = speed_control
+ fast,0,0 slow,255,255
+

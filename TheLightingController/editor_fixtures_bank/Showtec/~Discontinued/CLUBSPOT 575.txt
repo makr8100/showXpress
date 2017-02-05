@@ -1,0 +1,46 @@
+Name = SHOWTEC_CLUBSPOT_575
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_575MSR
+ViewAnglePan = 360
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewColor = 0
+2DViewImage = Showtec/Discontinued/clubspot_575.png
+
+Channel = color
+ white,0,0 purple,8,8 yellow,16,16 blue,24,24 orange,32,32 dark_green,40,40 pink,48,48 uv,56,56 white,64,64 FREE COLOURS,65,126 white,127,127 counterclock,191,191 clock,192,255
+
+Channel = gobo
+ Miscellaneous\open,0,16 Showtec\clubspot_01,17,17 Showtec\clubspot_08,32,32 Showtec\clubspot_03,48,48 Showtec\clubspot_11,64,64 Showtec\clubspot_02,80,80 Showtec\clubspot_09,96,96 Showtec\clubspot_10,112,112 Miscellaneous\left_rotate,128,128 Miscellaneous\right_rotate,192,192
+
+Channel = gobo_rotate
+ stop,0,15 right_rotate,16,135 left_rotate,136,255
+
+Channel = gobo2
+ Miscellaneous\open,0,7 Showtec\clubspot_16,8,8 Showtec\clubspot_15,16,16 Showtec\clubspot_13,24,24 Showtec\clubspot_14,32,32 Showtec\clubspot_04,40,40 Showtec\clubspot_03,48,48 Showtec\clubspot_12,56,56 Miscellaneous\open,64,64 Showtec\clubspot_16,72,72 Showtec\clubspot_15,80,80 Showtec\clubspot_13,88,88 Showtec\clubspot_14,96,96 Showtec\clubspot_04,104,104 Showtec\clubspot_03,112,112 Showtec\clubspot_12,120,120 Miscellaneous\left_rotate,128,128 Miscellaneous\right_rotate,192,255
+
+Channel = pan
+
+Channel = tilt
+
+Channel = prism
+ open,0,0 ROT-CLOCK,100,100 ROT-CCW,200,200 STOP,255,255
+
+Channel = focus
+
+Channel = shutter
+ CLOSED,0,0 DIM CONTROL,16,16 OPEN,129,129 STROBE,134,243 RESET,244,249 OPEN,250,255
+
+Channel = SPEED
+ static,0,0 forwards_rotat,1,127 static,128,128 backwards_rota,129,254 static,255,255
+
+Channel = upan
+ static,0,0 forwards_rotat,1,127 static,128,128 backwards_rota,129,254 static,255,255
+
+Channel = utilt
+ static,0,0 forwards_rotat,1,127 static,128,128 backwards_rota,129,254 static,255,255
+

@@ -1,0 +1,28 @@
+Name = LED Pinspot 360
+
+ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = pan
+ _no_icon,0,255
+
+Channel = pan_speed
+ _no_icon,0,255
+
+Channel = mode
+ no_function,0,6 auto1,7,26 auto2,27,46 auto3,47,66 auto4,67,86 auto5,87,106 auto6,107,126 auto7,127,146 auto8,147,166 auto9,167,186 auto10,187,206 auto11,207,226 auto12,227,255
+
+Channel = strobe_effect
+ no_function,0,8 pulse_open,9,126 pulse_strobe,127,191 pulse_close,192,254 no_function,255,255
+
+Channel = dimmer
+ dimmer,0,255
+

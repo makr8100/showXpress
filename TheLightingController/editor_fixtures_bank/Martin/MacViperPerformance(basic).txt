@@ -1,0 +1,88 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LAMP700W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = shutter
+ closed,0,0 open,30,30 strobe,50,200 random_strobe,211,255 
+
+Channel = dimmer
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = yellow
+
+Channel = CTO
+
+Channel = color
+ white,0,0 index,1,119 macro_1,162,162 macro_2,165,165 macro_3,168,168 macro_4,171,171 macro_5,174,174 macro_6,177,177 macro_7,180,180 right_rotate,193,214 stop,218,218 left_rotate,222,243 random,244,255 
+
+Channel = gobo
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,12,12 Miscellaneous/gobo2,16,16 Miscellaneous/gobo3,22,22 Miscellaneous/gobo4,27,27 Miscellaneous/gobo5,32,32 Miscellaneous/gobo1,36,36 Miscellaneous/gobo2,42,42 Miscellaneous/gobo3,47,47 Miscellaneous/gobo4,52,52 Miscellaneous/gobo5,57,57 Miscellaneous/shake_gobo1,60,89 Miscellaneous/shake_gobo2,90,119 Miscellaneous/shake_gobo3,120,149 Miscellaneous/shake_gobo4,150,179 Miscellaneous/shake_gobo5,180,209 Miscellaneous/right_rotate,210,232 Miscellaneous/left_rotate,233,255 
+
+Channel = gobo indexing angle rotation
+
+Channel = ugobo indexing angle rotation
+
+Channel = animation wheel rotation
+ open,0,0 index,11,20 rotate,31,40 macro_1,45,45 macro_2,55,55 macro_3,65,65 macro_4,75,75 macro_5,85,85 macro_7,95,95 open,255,255 
+
+Channel = animation wheel indexed angle rotation speed and direction
+ stop,0,0 right_rotate,3,126 stop,128,128 left_rotate,130,253 stop,255,255 
+
+Channel = Framing blade 1 position
+
+Channel = Framing blade 1 angle
+ angle-,0,126 parallel,127,127 angle+,129,255 
+
+Channel = Framing blade 2 position
+
+Channel = Framing blade 2 angle
+ angle-,0,126 parallel,127,127 angle+,129,255 
+
+Channel = Framing blade 3 position
+
+Channel = Framing blade 3 angle
+ angle-,0,126 parallel,127,127 angle+,129,255 
+
+Channel = Framing blade 4 position
+
+Channel = Framing blade 4 angle
+ angle-,0,126 parallel,127,127 angle+,129,255 
+
+Channel = Frame indexing angle 
+
+Channel = frost
+
+Channel = prism
+ no_function,0,0 index,11,138 rotate,139,255 
+
+Channel = Prism indexing angle rotation speed and direction
+ stop,0,0 right_rotate,3,126 stop,128,128 left_rotate,130,253 stop,255,255 
+
+Channel = iris
+
+Channel = zoom
+
+Channel = focus
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = control
+ no_function,0,0 reset,12,12 reset_shutter,17,17 reset_color,22,22 reset_effects,27,27 reset_xy,32,32 reset_framing,37,37 lamp_on,42,42 lamp_off,47,47 
+

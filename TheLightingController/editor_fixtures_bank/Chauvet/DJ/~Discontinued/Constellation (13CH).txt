@@ -1,0 +1,45 @@
+Name = Constellation (13CH)
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_575MSR
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = pan
+
+Channel = tilt
+
+Channel = pan
+
+Channel = tilt
+
+Channel = pan
+
+Channel = tilt
+
+Channel = pantilt_speed
+
+Channel = shutter
+ dimmer,0,99 open,100,133 strobe,134,243 no_function,244,249 open,250,255
+
+Channel = gobo
+ Chauvet\open,0,15 Yagang\29,16,31 Showtec\51836351,32,47 Showtec\Scorpion_02,48,63 Showtec\Scorpion_06,64,79 Showtec\HD 1,80,95 Geni\MJC-3-CH1-40-59,96,111 Showtec\Scorpion_07,112,127 ok_for_3DView\rotate,128,191 ok_for_3DView\rotate,192,255
+
+Channel = gobo
+ Chauvet\open,0,15 Yagang\29,16,31 Showtec\51836351,32,47 Showtec\Scorpion_02,48,63 Showtec\Scorpion_06,64,79 Showtec\HD 1,80,95 Geni\MJC-3-CH1-40-59,96,111 Showtec\Scorpion_07,112,127 ok_for_3DView\rotate,128,191 ok_for_3DView\rotate,192,255
+
+Channel = gobo
+ Chauvet\open,0,15 Yagang\29,16,31 Showtec\51836351,32,47 Showtec\Scorpion_02,48,63 Showtec\Scorpion_06,64,79 Showtec\HD 1,80,95 Geni\MJC-3-CH1-40-59,96,111 Showtec\Scorpion_07,112,127 ok_for_3DView\rotate,128,191 ok_for_3DView\rotate,192,255
+
+Channel = gobo_rotate
+ no_function,0,16 left_rotate,17,135 stop,136,136 right_rotate,137,255
+
+Channel = control
+ no_function,0,0 auto,1,7 auto,8,15 auto,16,23 auto,24,31 auto,32,39 auto,40,47 auto,48,55 auto,56,63 auto,64,71 auto,72,79 auto,80,87 auto,88,95 auto,96,103 auto,104,111 auto,112,119 audio,128,160 lamp_on,161,193 lamp_off,194,226 reset,227,254 no_function,255,255
+

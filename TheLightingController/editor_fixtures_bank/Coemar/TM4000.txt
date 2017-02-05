@@ -1,0 +1,61 @@
+Name = COEMAR_TM4000
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+ no_effect,0,0 X_counterclock,45,45 X_clock,80,80 Y_clock,110,110 Y_counterclock,145,145 Xccl_&_Ycl,175,175 Xcl_&_Yccl,205,205 X&Y_dbl_speed,255,255
+
+Channel = dimmer
+
+Channel = shutter
+ closed,0,0 open,100,100 strobe,128,255
+
+Channel = iris
+ open,0,0 large_to_small,36,115 small,160,160 pulse,194,251 large,255,255
+
+Channel = focus
+
+Channel = gobo
+ full,0,0 gobo1,37,37 gobo2,62,62 gobo3,86,86 gobo4,112,112 gobo5,136,136 rotate,152,255
+
+Channel = gobo_rotate
+ position,0,128 clock,130,190 stop,191,191 counterclock,192,255
+
+Channel = gobo
+ full,0,0 gobo1,37,37 gobo2,62,62 gobo3,86,86 gobo4,112,112 gobo5,136,136 rotate,152,255
+
+Channel = gobo_rotate
+ position,0,128 clock,130,190 stop,191,191 counterclock,192,255
+
+Channel = prism
+ no_effect,0,0 effect_1,60,60 effect_2,110,110 effect_3,145,145 effect_4,185,185 effect_5,255,255
+
+Channel = prism_rotate
+ position,0,128 clock,130,190 stop,191,191 counterclock,192,255
+
+Channel = color
+ white,0,0 yellow,37,37 red,162,162 rotate,194,255
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = yellow
+
+Channel = control
+ lamp_on,0,0 motor_reset,60,60 position_hires,200,200 lamp_on,255,255
+

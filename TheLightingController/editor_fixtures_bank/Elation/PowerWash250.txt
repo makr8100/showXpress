@@ -1,0 +1,46 @@
+﻿ViewType = VIEW_TYPE_HEAD_WASH
+ViewPower = VIEW_POWER_LAMP575W
+ViewAnglePan = 530
+ViewAngleTilt = 285
+ViewAngleBeam = 24
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = color
+ open,0,0 light_blue,5,5 blue,9,9 purple,13,13 pink,17,17 orange,21,21 italian_blue,25,25 turquoise,29,29 jade,33,33 CTB_001,37,37 CTO_02,41,41 red,49,49 open,65,65 light_blue,69,69 blue,73,73 purple,77,77 pink,81,81 orange,85,85 italian_blue,89,89 turquoise,93,93 jade,97,97 CTB_001,101,101 CTO_02,105,105 red,109,109 right_rotate,128,191 left_rotate,192,253 audio1,254,254 audio2,255,255 
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = yellow
+
+Channel = shutter
+ closed,0,0 random_strobe,16,31 pulse_strobe,32,47 strobe,48,239 open,255,255 
+
+Channel = dimmer
+
+Channel = beam_shape
+ no_function,0,0 sharper,16,239 frost,255,255 
+
+Channel = special
+ no_function,0,0 Audio CMY chaser slow,20,20 Audio CMY chaser fast,28,28 Rotating color chaser,32,63 Color chaser C / C+1,64,79 Color chaser C / C+2,80,95 PAN/Tilt chaser slow,96,111 PAN/Tilt chaser fast,112,127 lamp_off,240,240 reset,255,255 
+
+Channel = movement
+ no_function,0,0 pan,1,31 tilt,32,63 pan/tilt,64,95 pan/tilt_inverse,96,127 circle,128,159 circle_inverse,160,191 lying_eight,192,223 random,255,255 
+
+Channel = pantilt_speed
+ no_function,0,0 index,16,255 
+

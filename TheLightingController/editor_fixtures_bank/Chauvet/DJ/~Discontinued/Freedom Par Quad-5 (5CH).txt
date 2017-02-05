@@ -1,0 +1,26 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewAnglePan = 0
+ViewAngleTilt = 0
+ViewAngleBeam = 0
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+2DViewImage = 
+
+Channel = control
+ no_function,0,8 red,9,17 green,18,26 blue,27,35 amber,36,44 yellow,45,53 purple,54,62 red/amber,63,71 aqua,72,80 blue/amber,81,89 red/green/blue,90,98 green/amber,99,107 red/green/amber,108,116 red/blue/amber,117,125 green/blue/amber,126,134 red/green/blue/amber,135,143 color change 1,144,152 color change2,153,161 color chase1,162,170 color chase2,171,179 color chase3,180,188 color chase4,189,197 auto1,198,206 color mix,207,215 color snap,216,224 color fade,225,233 sound,234,255
+
+Channel = speed_control
+ run speed,0,127 sound active,128,255
+
+Channel = shutter
+ open,0,5 strobe,6,249 audio,250,255
+
+Channel = blue
+ dimmer,0,255 
+
+Channel = amber
+ dimmer,0,255 
+

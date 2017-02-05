@@ -1,0 +1,22 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = mode
+ closed,0,9 synchrone,10,85 asynchrone,86,160 asynchrone,161,239 audio,240,255 
+
+Channel = effect_macro
+ macro_1,0,21 macro_2,22,42 macro_3,43,63 macro_4,64,85 macro_5,86,106 macro_6,107,127 macro_7,128,149 macro_8,150,170 macro_9,171,191 macro_10,192,213 macro_11,214,234 macro_12,235,255 
+
+Channel = speed_control
+
+Channel = strobe_effect
+ open,0,9 lighting_strobe,10,255 
+

@@ -1,0 +1,54 @@
+Name = OPTIMA_MATRIX300
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_250MSR
+ViewAnglePan = 530
+ViewAngleTilt = 275
+ViewAngleBeam = 15
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewColor = 16777215
+
+Channel = pan
+
+Channel = tilt
+
+Channel = upan
+
+Channel = utilt
+
+Channel = pantilt_speed
+ tracking,0,0 index,1,249 tracking,255,255
+
+Channel = control
+ lamp_on,23,23 lamp_off,55,55 fans_auto,87,87 fans-high,119,119 reset,151,151
+
+Channel = color
+ white,0,0 light_blue,10,10 pink,21,21 dark_blue,32,32 pink,43,43 yellow,54,54 blue,64,64 red,75,75 purple,86,86 violet,107,107 amber,118,118 right_rotate,128,188 stop,192,192 left_rotate,195,255
+
+Channel = gobo
+ Miscellaneous\open,5,5 gobo1,15,15 gobo2,25,25 gobo3,35,35 gobo4,45,45 gobo5,55,55 gobo6,65,65 gobo7,75,75 gobo8,85,85 gobo9,95,95 gobo10,105,105 gobo11,115,115 Miscellaneous\right_rotate,128,188 Miscellaneous\stop,192,192 Miscellaneous\left_rotate,195,255
+
+Channel = gobo_shake
+ stop,0,0 small,4,127 high,128,255
+
+Channel = gobo2
+ open,0,0 gobo1,37,37 gobo2,62,62 gobo3,87,87 gobo4,112,112 gobo5,137,137 gobo6,162,162 gobo7,187,187 gobo8,212,212 Miscellaneous\rotate,224,255
+
+Channel = gobo_rotate2
+ index,0,127 right_rotate,128,189 stop,191,191 left_rotate,194,255
+
+Channel = prism
+ stop,0,0 prism,143,143 macro1,165,165 macro2,177,177 macro3,189,189 macro4,201,201 macro5,213,213 macro6,225,225 macro7,237,237 macro8,255,255
+
+Channel = prism_rotate
+ stop,0,0 right_rotate,1,125 left_rotate,131,255
+
+Channel = focus
+
+Channel = shutter
+ closed,0,0 index,64,95 pulse_open,128,143 pulse_close,144,159 random_strobe,192,223 open,255,255
+
+Channel = dimmer
+

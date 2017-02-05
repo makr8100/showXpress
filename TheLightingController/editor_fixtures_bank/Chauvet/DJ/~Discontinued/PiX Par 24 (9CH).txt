@@ -1,0 +1,39 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/PiXPar 24.png
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = red
+ Red,0,255
+
+Channel = green
+ Green,0,255
+
+Channel = blue
+ Blue,0,255
+
+Channel = color_macro
+ no_function,0,10 Color Macros,11,200 White 1: 3200K,201,205 White 2: 3400K,206,210 White 3: 4200K,211,215 White 4: 4900K,216,220 White 5: 5600K,221,225 White 6: 5900K,226,230 White 7: 6500K,231,235 White 8: 7200K,236,240 White 9: 8000K,241,245 White 10: 8500K,246,250 White 11: 10000K,251,255
+
+Channel = strobe_effect
+ strobe,0,255
+
+Channel = effect_macro
+ no_function,0,9 Fade transition (7 colors) 0%-100%-0%,10,19 Fade transition (7 colors) 0%-100%,20,29 Fade transition (7 colors) 100%-0%,30,39 Auto fade transition (random),40,49 Loop of P1-P4,50,59 Pixel program 1,60,69 Pixel program 2,70,79 Pixel program 3,80,89 Pixel program 4,90,99 Pixel program 5,100,109 Pixel program 6,110,119 Pixel program 7,120,129 Pixel program 8,130,139 Pixel program 9,140,149 Pixel program 10,150,159 Pixel program 11,160,169 Pixel program 12,170,179 Pixel program 13,180,189 Pixel program 14,190,199 Pixel program 15,200,209 Pixel program 16,210,219 Pixel program 17,220,229 Random pixel program,230,239 Pixel program scroll 1-17,240,249 Pixel program scroll sound active 1-17,250,255
+
+Channel = effect_speed
+ Slow to fast (when Ch. 7 is between 010-249),0,255 
+
+Channel = control
+ no_function,0,51 Linear,52,101 Dim1,102,152 Dim2,153,203 Dim3,204,255
+

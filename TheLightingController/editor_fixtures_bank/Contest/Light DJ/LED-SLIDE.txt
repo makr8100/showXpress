@@ -1,0 +1,41 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Contest/Light DJ/LED-SLIDE .png
+
+Channel = color
+ closed,0,7 red,8,25 yellow,26,42 green,43,59 turquoise,60,76 blue,77,93 pink,94,110 white,111,127 rainbow,128,255 
+
+Channel = color
+ closed,0,7 red,8,25 yellow,26,42 green,43,59 turquoise,60,76 blue,77,93 pink,94,110 white,111,127 rainbow,128,255 
+
+Channel = color
+ closed,0,7 red,8,25 yellow,26,42 green,43,59 turquoise,60,76 blue,77,93 pink,94,110 white,111,127 rainbow,128,255 
+
+Channel = color
+ closed,0,7 red,8,25 yellow,26,42 green,43,59 turquoise,60,76 blue,77,93 pink,94,110 white,111,127 rainbow,128,255 
+
+Channel = color
+ closed,0,7 red,8,25 yellow,26,42 green,43,59 turquoise,60,76 blue,77,93 pink,94,110 white,111,127 rainbow,128,255 
+
+Channel = color
+ closed,0,7 red,8,25 yellow,26,42 green,43,59 turquoise,60,76 blue,77,93 pink,94,110 white,111,127 rainbow,128,255 
+
+Channel = dimmer
+
+Channel = shutter
+ open,0,7 lighting_strobe,8,255 
+
+Channel = control
+ no_function,0,10 macro_1,11,25 macro_2,26,40 macro_3,41,55 macro_4,56,70 macro_5,71,85 macro_6,86,100 macro_7,101,115 macro_8,116,130 macro_9,131,145 macro_10,146,160 macro_11,161,175 macro_12,176,190 macro_13,191,205 macro_14,206,220 macro_15,221,235 random,236,255 
+
+Channel = effect_speed
+ effect_speed,0,127 audio,128,255 
+

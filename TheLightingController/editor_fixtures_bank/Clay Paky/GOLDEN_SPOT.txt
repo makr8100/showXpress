@@ -1,0 +1,41 @@
+Name = CLAY-PAKY_GOLDEN_SPOT
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = iris
+ iris,0,63 angle,64,191 clock,192,220 stop,222,222 counterclock,224,255
+
+Channel = color
+ white,0,0 red_white,22,22 red,38,38 yellow_red,54,54 yellow,70,70 violet_yellow,86,86 violet,102,102 green_violet,118,118 green,134,134 orange_green,150,150 orange,166,166 blue_orange,182,182  blue,198,198 pink_blue,214,214 pink,230,230 white_pink,255,255
+
+Channel = prism
+ white,0,0 warm,42,42 cold,74,74 turquoise,106,106 light_green,136,136 light_yellow,170,170 5_faces_prism,202,202 frost,255,255
+
+Channel = shutter
+ dimmer,0,128 open,132,132 speed_strobe,140,243 open,255,255
+
+Channel = pan
+
+Channel = tilt
+
+Channel = gobo
+ off,0,0 gobo1,64,64 gobo2,128,128 gobo3,192,192 gobo4,255,255
+
+Channel = gobo_rotate
+ 0起position,0,0 90起position,21,21 180起position,42,42 270起position,63,63 360起position,64,64 450起position,106,106 540起position,127,127 rotation,128,190 stop,192,192 rotation,193,255
+
+Channel = gobo
+ off,0,0 gobo1,64,64 gobo2,128,128 gobo3,192,192 gobo4,255,255
+
+Channel = focus
+
+Channel = upan
+
+Channel = utilt
+

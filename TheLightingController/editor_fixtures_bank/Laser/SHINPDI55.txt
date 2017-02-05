@@ -1,0 +1,26 @@
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_1200MSR
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = mode
+ off,0,0 static_patterns,70,70 dynamic_patterns,125,125 audio,170,170 auto,255,255
+
+Channel = pattern
+ circle,0,0 dot_circle,7,7 dot circle,12,12 scan circle,17,17 horiz_line,22,22 horiz_dot_line,27,27 vert_line,32,32 vert_dot_line,37,37 45°_diag, 42,42 dot_diag,47,47 135°_diag,52,52 dot_diag,57,57 v_line1,62,62 v_dot_line1,67,67 V_line2,72,72 V_dot_line2,77,77 triangle1,82,82 dot_triangle1,87,87 triangle2,92,92 dot_triangle2,97,97 sauqre,102,102 dot_square,107,107 rectangle1,112,112 dot_rectangle1,117,117 rectangle2,122,122 dot_rectangle2,127,127 circle_to_big,132,132 dot_circle_to_big,137,137 scan_circle_to_big,142,142 circle_flash,147,147 dot_circle_fladh,152,152 circle_roll,157,157 dot_circle_roll,162,162 circle_turn,167,167 dot_circle_turn,172,172 dot_circle_to_add,177,177 scan_circle_extend,182,182 circle_jump,187,187 dot_circle_jump,192,192 lader_line4,197,197 tetragon1,202,202 tetragon2,207,207 pentagon1,212,212 pentagon2,217,217 pentagon3,222,222 pentagon4,227,227 wave_line,232,232 wave_dot_line,237,237 spinality_line,242,242 many_dot1,247,247 square_dot,255,255
+
+Channel = position_X
+
+Channel = position_Y
+
+Channel = scanning_speed
+
+Channel = dynamic_patterns_play_speed
+
+Channel = static_pattern_size

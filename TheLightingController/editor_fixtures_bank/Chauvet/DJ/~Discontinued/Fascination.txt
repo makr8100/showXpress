@@ -1,0 +1,20 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = shutter
+ no_function,0,14 strobe,15,255 
+
+Channel = gobo
+ blackout,0,7 open,8,15 gobo #1-14,16,128 gobo spin,129,255 
+
+Channel = effect
+ no_function,0,9 right_rotate,10,121 stop,122,135 left_rotate,136,246 stop,247,255 
+

@@ -1,0 +1,45 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = mode
+ closed,0,0 audio,100,100 auto,160,160 dmx,255,255
+
+Channel = pattern
+ static beams,0,0 Horizontal Lines,12,12 Vertical Lines,20,20 Squares,28,28 Diagonal Lines Bottom left to top right),36,36 Diagonal Lines (Bottom right to top left),44,44 Wavy squares,52,52 Small squares,60,60 Small squares (high),68,68 "L"s,76,76 Circles,84,84 Vertical Lines (short),92,92 Horizontal Lines (short),100,100 Diamonds,108,108 Rectangles (tall narrow),116,116 Diagonal lines (top center to middle right),124,124 Diagonal lines (middle left to top center),132,132 Diagonal lines (bottom center to middle left),140,140 Diagonal lines (middle right to bottom center),148,148 Diamonds (small),156,156 Triangles (upward pointing),164,164 Half diamond (left),172,172 Half diamond (right),180,180 Half diamond (top),188,188 Half diamond (bottom),196,196 Half "X" (left),204,204 Half "X" (right),212,212 Half "X" (top),220,220 Half "X" (bottom),228,228 Quarter Diamond auto chase,236,236 Half Diamond auto chase,238,238 Half "X" auto chase,242,242 Quarter Diamond sound chase,245,245 Half diamond sound chase,250,250 Half "X" sound chase,255,255 
+
+Channel = X_axis
+ index,0,24 auto_left_right,25,87 auto_right_left,88,151 auto_back_forth,152,215 audio_left_right,216,231 audio_right_left,232,239 audio_back_forth,240,255
+
+Channel = Y_axis
+ index,0,24 auto_down_up,25,87 auto_up_down,88,151 auto_up_down,152,183 audio_down_up,184,191 audio_up_down,192,207 audio_up_down,208,215 auto_random_xy,216,247 audio,248,255
+
+Channel = pattern_size
+ no_function,0,0 index,2,63 auto_small_big,64,95 auto_big_small,96,127 auto_big_small,128,159 audio_small_big,160,191 audio_big_small,192,223 audio_big_small,224,255
+
+Channel = X_axis_rotation
+ index,0,128 auto,129,223 audio,224,255
+
+Channel = Y_axis_rotation
+ index,0,128 auto,129,223 audio,224,255
+
+Channel = Z_axis_rotation
+ index,0,71 right_rotate,72,135 left_rotate,136,199 audio_right_clock,200,231 audio_left_clock,232,255
+
+Channel = color_macro
+ index,0,55 auto1,56,87 auto2,88,119 auto3,120,151 auto4,152,183 auto5,184,199 auto6,200,215 audio1,216,223 audio2,224,231 audio3,232,239 audio4,240,247 audio5,248,251 audio6,252,255
+
+Channel = X_axis_mirroring
+ no_function,0,0 Split red+green_magenta+violet,64,127 Split green+violet_magenta+red,128,191 Split green+magenta_red+violet,192,255
+
+Channel = Y_axis_mirroring
+ no_function,0,0 Split red+green_magenta+violet,64,127 Split green+violet_magenta+red,128,191 Split green+magenta_red+violet,192,255
+

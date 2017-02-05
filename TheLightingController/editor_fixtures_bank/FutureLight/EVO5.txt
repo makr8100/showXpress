@@ -1,0 +1,26 @@
+Name = FUTURELIGHT_EVO5
+
+ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 530
+ViewAngleTilt = 280
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewColor = 0
+
+Channel = color
+ index,0,3 index_reset,4,7 index,8,127 right_rotate,128,187 stop,190,190 left_rotate,194,255
+
+Channel = gobo
+ Miscellaneous\closed,0,0 Miscellaneous\gobo1,30,30 Miscellaneous\gobo2,50,50 Miscellaneous\gobo3,70,70 Miscellaneous\gobo4,90,90 Miscellaneous\gobo5,110,110 gobo1_shake,134,134 gobo2_shake,161,161 gobo3_shake,188,188 gobo4_shake,215,215 gobo5_shake,255,255
+
+Channel = gobo_rotate
+ stop,0,0 rotate,255,255
+
+Channel = prism_rotate
+ stop,0,0 right_rotate,8,127 left_rotate,136,255
+
+Channel = control
+ normal,0,0 prog1,35,35 prog2,59,59 prog3,83,83 prog4,107,107 prog5,131,131 prog6,155,155 prog7,179,179 prog8,203,203 prog9,227,227 prog10,255,255
+

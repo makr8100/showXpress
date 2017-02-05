@@ -1,0 +1,65 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = color
+ white,0,0 red,12,12 orange,18,18 yellow,25,25 green,32,32 blue,38,38 purple,45,45 light_blue,53,53 pink,60,60 index,64,127 left_rotate,128,189 stop,192,192 right_rotate,194,255 
+
+Channel = gobo
+ Chauvet/open,0,0 Miscellaneous/gobo1,12,12 Miscellaneous/gobo2,20,20 Miscellaneous/gobo3,28,28 Miscellaneous/gobo4,36,36 Miscellaneous/gobo5,44,44 Miscellaneous/gobo6,52,52 Miscellaneous/gobo7,56,63 Miscellaneous/shake_gobo1,64,72 Miscellaneous/shake_gobo2,73,81 Miscellaneous/shake_gobo3,82,90 Miscellaneous/shake_gobo4,91,99 Miscellaneous/shake_gobo5,100,108 Miscellaneous/shake_gobo6,109,117 Miscellaneous/shake_gobo7,118,127 Miscellaneous/left_rotate,128,189 Miscellaneous/stop,192,192 Miscellaneous/right_rotate,194,255 
+
+Channel = gobo2
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,14,14 Miscellaneous/gobo2,23,23 Miscellaneous/gobo3,32,32 Miscellaneous/gobo4,40,40 Miscellaneous/gobo5,50,50 Miscellaneous/gobo6,59,59 Miscellaneous/shake_gobo1,74,82 Miscellaneous/shake_gobo2,83,91 Miscellaneous/shake_gobo3,92,100 Miscellaneous/shake_gobo4,101,109 Miscellaneous/shake_gobo5,110,118 Miscellaneous/shake_gobo6,119,127 Miscellaneous/left_rotate,128,189 Miscellaneous/stop,192,192 Miscellaneous/right_rotate,194,255 
+
+Channel = gobo_rotate
+ index,0,127 right_rotate,128,189 stop,192,192 left_rotate,194,255 
+
+Channel = prism
+ no_function,0,0 prism,100,100 linear,129,255 
+
+Channel = prism_rotate
+ no_function,0,0 right_rotate,4,127 stop,129,129 left_rotate,132,255 
+
+Channel = shutter
+ closed,0,0 open,12,12 strobe,16,131 pulse_open,140,181 pulse_close,190,231 random_strobe,240,247 open,255,255 
+
+Channel = dimmer
+
+Channel = udimmer
+
+Channel = focus
+
+Channel = auto_focus
+ no_function,0,0 index,8,255 
+
+Channel = zoom
+
+Channel = effect_macro
+ no_function,0,0 1,10,10 2,30,30 3,50,50 4,70,70 audio,255,255 
+
+Channel = effect_speed
+
+Channel = dimmer_mode
+ standard,0,0 stage,30,30 tv,50,50 archi,70,70 theatre,90,90 
+
+Channel = pantilt_speed
+
+Channel = control
+ no_function,0,0 blackout_moves,75,75 blackout_color,95,95 blackout_gobo,115,115 reset_xy,135,135 reset_color,145,145 reset_gobo,155,155 reset,205,205 
+

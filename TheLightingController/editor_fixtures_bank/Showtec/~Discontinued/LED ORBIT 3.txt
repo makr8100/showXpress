@@ -1,0 +1,37 @@
+Name = LED ORBIT 3
+
+ViewType = VIEW_TYPE_HEAD_WASH
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = pan
+
+Channel = tilt
+
+Channel = pantilt_speed
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = effect
+ NO FUNCTION,0,5 new_level,6,35 new_level,36,65 new_level,66,95 new_level,96,125 new_level,126,155 new_level,156,185 new_level,186,215 new_level,216,240 new_level,241,250 new_level,251,255
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = shutter
+ open,0,5 strobe,6,255
+
+Channel = control
+ Normal,0,45 reset,46,55 auto1,56,95 auto2,96,135 audio1,136,175 audio2,176,215 custom,216,255
+

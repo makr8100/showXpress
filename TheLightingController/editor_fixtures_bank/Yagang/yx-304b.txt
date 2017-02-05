@@ -1,0 +1,32 @@
+Name = yx-304b
+
+ViewType = VIEW_TYPE_PAR_CAN
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = dimmer
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = color
+
+Channel = shutter
+ open,0,9 strobe,10,255
+
+Channel = effect
+
+Channel = ID
+
+Channel = effect
+

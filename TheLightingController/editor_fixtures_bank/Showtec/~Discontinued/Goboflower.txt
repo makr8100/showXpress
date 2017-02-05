@@ -1,0 +1,20 @@
+Name = Goboflower
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 13158600
+
+Channel = mode
+ Blackout,0,0 Dmx Mode,1,127 Auto Mode,128,191 Sound Mode,192,255
+
+Channel = gobo
+
+Channel = gobo_rotate
+

@@ -1,0 +1,18 @@
+Name = LED-64SUN
+
+ViewType = VIEW_TYPE_PAR_CAN
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = dimmer
+
+Channel = shutter
+ closed,0,10 strobe,11,250
+

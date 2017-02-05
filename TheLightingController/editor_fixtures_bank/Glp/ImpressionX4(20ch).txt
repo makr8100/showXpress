@@ -1,0 +1,57 @@
+﻿ViewType = VIEW_TYPE_HEAD_WASH
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 660
+ViewAngleTilt = 330
+ViewAngleBeam = 24
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = color_macro
+ no_function,0,0 red,12,12 amber,20,20 warm_yellow,28,28 yellow,36,36 green,44,44 turquoise,52,52 cyan,60,60 blue,68,68 lavender,76,76 malve,84,84 magenta,92,92 pink,100,100 3200K,108,108 5600K,116,116 7200K,124,124 rotate,129,223 random,255,255 
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = shutter
+ closed,0,0 random_strobe,16,47 Up-dimming then Shutter closing ,48,79 Shutter open then down-dimming ,80,111 Up-dimming then down-dimming ,112,143 Strobe effect pause ,160,199 strobe,200,239 open,255,255 
+
+Channel = dimmer
+
+Channel = CTO
+
+Channel = special
+ Pattern Block 1 channel 17 ,0,0 Pattern Block 2 channel 17 ,5,5 Change PWM frequency ,100,200 reset,255,255 
+
+Channel = effect_macro
+ no_function,0,0 pan,1,31 tilt,32,63 pan&tilt,64,95 pan&tiltrev,96,127 circle,128,159 circle_rev,160,191 eight,192,223 random,255,255 
+
+Channel = pantilt_speed
+
+Channel = zoom
+
+Channel = pattern
+ no_function,0,0 index,3,253 direct access to LED Pattern,255,255 
+
+Channel = pattern_byte1
+
+Channel = pattern_byte2
+
+Channel = pattern_byte3
+

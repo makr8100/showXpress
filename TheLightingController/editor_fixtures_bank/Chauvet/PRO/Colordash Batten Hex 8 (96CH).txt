@@ -1,0 +1,300 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/PRO/COLORdashBatten-Hex8-2D.png
+
+Channel = red 1
+ red 1,0,255
+
+Channel = ured
+ red fine 1,0,255
+
+Channel = green 1
+ green 1,0,255
+
+Channel = ugreen
+ green fine 1,0,255
+
+Channel = blue 1
+ blue 1,0,255
+
+Channel = ublue
+ blue fine 1,0,255
+
+Channel = amber 1
+ amber 1,0,255
+
+Channel = uamber
+ amber fine 1,0,255
+
+Channel = white 1
+ white 1,0,255
+
+Channel = uwhite
+ white fine 1,0,255
+
+Channel = UV 1
+ UV 1,0,255
+
+Channel = udimmer
+ UV fine 1,0,255
+
+Channel = red 2
+ red 2,0,255
+
+Channel = ured
+ red fine 2,0,255
+
+Channel = green 2
+ green 2,0,255
+
+Channel = ugreen
+ green fine 2,0,255
+
+Channel = blue 2
+ blue 2,0,255
+
+Channel = ublue
+ blue fine 2,0,255
+
+Channel = amber 2
+ amber 2,0,255
+
+Channel = uamber
+ amber fine 2,0,255
+
+Channel = white 2
+ white 2,0,255
+
+Channel = uwhite
+ white fine 2,0,255
+
+Channel = UV 2
+ UV 2,0,255
+
+Channel = udimmer
+ UV fine 2,0,255
+
+Channel = red 3
+ red 3,0,255
+
+Channel = ured
+ red fine 3,0,255
+
+Channel = green 3
+ green 3,0,255
+
+Channel = ugreen
+ green fine 3,0,255
+
+Channel = blue 3
+ blue 3,0,255
+
+Channel = ublue
+ blue fine 3,0,255
+
+Channel = amber 3
+ amber 3,0,255
+
+Channel = uamber
+ amber fine 3,0,255
+
+Channel = white 3
+ white 3,0,255
+
+Channel = uwhite
+ white fine 3,0,255
+
+Channel = UV 3
+ UV 3,0,255
+
+Channel = udimmer
+ UV fine 3,0,255
+
+Channel = red 4
+ red 4,0,255
+
+Channel = ured
+ red fine 4,0,255
+
+Channel = green 4
+ green 4,0,255
+
+Channel = ugreen
+ green fine 4,0,255
+
+Channel = blue 4
+ blue 4,0,255
+
+Channel = ublue
+ blue fine 4,0,255
+
+Channel = amber 4
+ amber 4,0,255
+
+Channel = uamber
+ amber fine 4,0,255
+
+Channel = white 4
+ white 4,0,255
+
+Channel = uwhite
+ white fine 4,0,255
+
+Channel = UV 4
+ UV 4,0,255
+
+Channel = udimmer
+ UV fine 4,0,255
+
+Channel = red 5
+ red 5,0,255
+
+Channel = ured
+ red fine 5,0,255
+
+Channel = green 5
+ green 5,0,255
+
+Channel = ugreen
+ green fine 5,0,255
+
+Channel = blue 5
+ blue 5,0,255
+
+Channel = ublue
+ blue fine 5,0,255
+
+Channel = amber 5
+ amber 5,0,255
+
+Channel = uamber
+ amber fine 5,0,255
+
+Channel = white 5
+ white 5,0,255
+
+Channel = uwhite
+ white fine 5,0,255
+
+Channel = UV 5
+ UV 5,0,255
+
+Channel = udimmer
+ UV fine 5,0,255
+
+Channel = red 6
+ red 6,0,255
+
+Channel = ured
+ red fine 6,0,255
+
+Channel = green 6
+ green 6,0,255
+
+Channel = ugreen
+ green fine 6,0,255
+
+Channel = blue 6
+ blue 6,0,255
+
+Channel = ublue
+ blue fine 6,0,255
+
+Channel = amber 6
+ amber 6,0,255
+
+Channel = uamber
+ amber fine 6,0,255
+
+Channel = white 6
+ white 6,0,255
+
+Channel = uwhite
+ white fine 6,0,255
+
+Channel = UV 6
+ UV 6,0,255
+
+Channel = udimmer
+ UV fine 6,0,255
+
+Channel = red 7
+ red 7,0,255
+
+Channel = ured
+ red fine 7,0,255
+
+Channel = green 7
+ green 7,0,255
+
+Channel = ugreen
+ green fine 7,0,255
+
+Channel = blue 7
+ blue 7,0,255
+
+Channel = ublue
+ blue fine 7,0,255
+
+Channel = amber 7
+ amber 7,0,255
+
+Channel = uamber
+ amber fine 7,0,255
+
+Channel = white 7
+ white 7,0,255
+
+Channel = uwhite
+ white fine 7,0,255
+
+Channel = UV 7
+ UV 7,0,255
+
+Channel = udimmer
+ UV fine 7,0,255
+
+Channel = red 8
+ red 8,0,255
+
+Channel = ured
+ red fine 8,0,255
+
+Channel = green 8
+ green 8,0,255
+
+Channel = ugreen
+ green fine 8,0,255
+
+Channel = blue 8
+ blue 8,0,255
+
+Channel = ublue
+ blue fine 8,0,255
+
+Channel = amber 8
+ amber 8,0,255
+
+Channel = uamber
+ amber fine 8,0,255
+
+Channel = white 8
+ white 8,0,255
+
+Channel = uwhite
+ white fine 8,0,255
+
+Channel = UV 8
+ UV 8,0,255
+
+Channel = udimmer
+ UV fine 8,0,255
+

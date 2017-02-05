@@ -1,0 +1,78 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/FXpar 9.png
+
+Channel = red
+ dimmer,0,255
+
+Channel = green
+ dimmer,0,255
+
+Channel = blue
+ dimmer,0,255
+
+Channel = uv
+ dimmer,0,255
+
+Channel = strobe_dimmer
+ strobe,6,250 audio,251,255
+
+Channel = red
+ dimmer,0,255
+
+Channel = green
+ dimmer,0,255
+
+Channel = blue
+ dimmer,0,255
+
+Channel = uv
+ dimmer,0,255
+
+Channel = strobe_dimmer
+ strobe,6,250 audio,251,255
+
+Channel = red
+ dimmer,0,255
+
+Channel = green
+ dimmer,0,255
+
+Channel = blue
+ dimmer,0,255
+
+Channel = uv
+ dimmer,0,255
+
+Channel = strobe_dimmer
+ strobe,6,250 audio,251,255
+
+Channel = red
+ dimmer,0,255
+
+Channel = green
+ dimmer,0,255
+
+Channel = blue
+ dimmer,0,255
+
+Channel = strobe_dimmer
+ strobe,6,250 audio,251,255
+
+Channel = strobe_effect
+ On,6,20 strobe,21,250 audio,251,255
+
+Channel = Auto
+ pattern_01,6,24 pattern_02,25,43 pattern_03,44,62 pattern_04,63,81 pattern_05,82,100 pattern_06,101,119 pattern_07,120,138 pattern_08,139,157 pattern_09,158,176 pattern_10,177,195 pattern_11,196,214 pattern_12,215,233 pattern_13,234,255
+
+Channel = speed_control
+ Program speed,6,250 audio,251,255
+

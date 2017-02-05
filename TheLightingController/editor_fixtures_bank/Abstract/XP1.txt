@@ -1,0 +1,45 @@
+Name = ABSTRACT_XP1
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_250HALO
+ViewAnglePan = 160
+ViewAngleTilt = 100
+ViewAngleBeam = 31
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = dimmer
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = dimmer
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = dimmer
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = dimmer
+

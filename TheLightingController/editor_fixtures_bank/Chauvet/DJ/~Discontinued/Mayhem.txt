@@ -1,0 +1,34 @@
+Name = Mayhem
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = mode
+ static-color,0,20 mode1,21,40 mode2,41,60 mode3,61,80 mode4,81,100 mode5,101,120 mode6,121,140 mode7,141,160 mode8,161,180 mode9,181,200 mode10,201,220 mode11,221,240 audio,241,255
+
+Channel = strobe_speed
+ no_function,0,9 dimmer,10,255
+
+Channel = speed_control
+ no_function,0,9 dimmer,10,255
+
+Channel = pod
+ no_function,0,20 red,21,40 green,41,60 blue,61,80 red-green,81,100 red-blue,101,120 green-blue,121,140 red-green-blue,141,255
+
+Channel = pod
+ no_function,0,20 red,21,40 green,41,60 blue,61,80 red-green,81,100 red-blue,101,120 green-blue,121,140 red-green-blue,141,255
+
+Channel = motor
+ static_color,0,20 (clockwise)speed1-slowest,21,40 (clockwise)speed2,41,60 (clockwise)speed3,61,80 (clockwise)speed4,81,100 (clockwise)speed5-fastest,101,120 no_rotation,121,140 (counter-clockwise)sp1-slowes,141,160 (counter-clockwise)speed2,161,180 (counter-clockwise)speed3,181,200 (counter-clockwise)speed4,201,220 (counter-clockwise)sp5-fastes,221,240 audio,241,255
+
+Channel = motor
+ static_color,0,20 (clockwise)speed1-slowest,21,40 (clockwise)speed2,41,60 (clockwise)speed3,61,80 (clockwise)speed4,81,100 (clockwise)speed5-fastest,101,120 no_rotation,121,140 (counter-clockwise)sp1-slowes,141,160 (counter-clockwise)speed2,161,180 (counter-clockwise)speed3,181,200 (counter-clockwise)speed4,201,220 (counter-clockwise)sp5-fastes,221,240 audio,241,255
+

@@ -1,0 +1,27 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = pan
+
+Channel = barrel
+
+Channel = shutter
+ closed,0,0 open,10,10 strobe,16,131 pulse_close,140,181 pulse_open,190,231 random_strobe,244,244 open,255,255
+
+Channel = gobo
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,11,11 Miscellaneous/gobo2,18,18 Miscellaneous/gobo3,25,25 Miscellaneous/gobo4,32,32 Miscellaneous/gobo5,38,38 Miscellaneous/gobo6,46,46 Miscellaneous/gobo7,53,53 Miscellaneous/gobo8,60,60 open_shake,68,68 Miscellaneous/shake_gobo1,75,75 Miscellaneous/shake_gobo2,82,82 Miscellaneous/shake_gobo3,89,89 Miscellaneous/shake_gobo4,96,96 Miscellaneous/shake_gobo5,103,103 Miscellaneous/shake_gobo6,110,110 Miscellaneous/shake_gobo7,117,117 Miscellaneous/shake_gobo8,124,124 Miscellaneous/rotate,128,255
+
+Channel = dimmer
+
+Channel = dimmer_curve
+ standard,0,0 stage,30,30 TV,50,50 archi,70,70 theater,90,90 default,255,255
+

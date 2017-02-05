@@ -1,0 +1,28 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = mode
+ closed,0,0 static_patterns,75,75 dynamic_patterns,125,125 audio,175,175 auto,255,255
+
+Channel = pattern
+ pattern_01,0,0 pattern_02,7,7 pattern_03,12,12 pattern_04,17,17 pattern_05,22,22 pattern_06,27,27 pattern_07,32,32 pattern_08,37,37 pattern_09,42,42 pattern_10,47,47 pattern_11,52,52 pattern_12,57,57 pattern_13,62,62 pattern_14,67,67 pattern_15,72,72 pattern_16,77,77 pattern_17,82,82 pattern_18,87,87 pattern_19,92,92 pattern_20,97,97 pattern_21,102,102 pattern_22,107,107 pattern_23,112,112 pattern_24,117,117 pattern_25,122,122 pattern_26,127,127 pattern_27,132,132 pattern_28,137,137 pattern_29,142,142 pattern_30,147,147 pattern_31,152,152 pattern_32,157,157 pattern_33,162,162 pattern_34,167,167 pattern_35,172,172 pattern_36,177,177 pattern_37,182,182 pattern_38,187,187 pattern_39,192,192 pattern_40,197,197 pattern_41,202,202 pattern_42,207,207 pattern_43,212,212 pattern_44,217,217 pattern_45,222,222 pattern_46,227,227 pattern_47,232,232 pattern_48,237,237 pattern_49,242,242 pattern_50,247,247 pattern_51,252,252 pattern_52,255,255
+
+Channel = X_axis
+
+Channel = Y_axis
+
+Channel = scanning_speed
+
+Channel = dynamic_patterns_speed
+
+Channel = static_patterns_size
+

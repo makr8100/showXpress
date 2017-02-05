@@ -1,0 +1,43 @@
+Name = MARTIN_MX10
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_250HALO
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = shutter
+ closed,0,19 open,20,49 strobe,50,72 open,73,79 puls_open,80,99 puls_close,100,119 open,120,127 random_fast,128,147 random_medium,148,167 random_slow,168,187 open,188,190 pulse_fast,191,193 pulse_slow,194,196 pulse_fast,197,199 pulse_slow,200,202 open,203,207 RESET,208,217 open,218,227 LAMP_ON,228,237 open,238,247 LAMP_OFF,248,255
+
+Channel = dimmer
+ 0-100%,0,255
+
+Channel = color
+ white,0,0 CTC,12,12 Yellow_603,24,24 Blue_104,36,36 Pink_312,48,48 Green_206,60,60 Blue_108,72,72 Red_301,84,84 Magenta_507,96,96 Blue_101,108,108 Orange_306,120,120 Dark_Green,132,132 Purple_502,144,144 Purple_502,156,159 Dark_Green,160,163 Orange_306,164,167 Blue_101,168,171 Magenta_507,172,175 Red_301,176,179 Blue_108,180,183 Green_206,184,187 Pink_312,188,191 Blue_104,192,195 Yellow_603,196,199 CTC,200,203 White,204,207 CW,208,226 CCW,227,245 Color_fast,246,248 Color_medium,249,251 Color_slow,252,255
+
+Channel = gobo
+ open,0,4 gobo_1,5,9 gobo_2,10,14 gobo_3,15,19 gobo_4,20,24 gobo_5,25,29 gobo_6,30,34 gobo_7,35,39 gobo_8,40,44 rotation_1,45,49 rotation_2,50,54 rotation_3,55,59 rotation_4,60,64 rotation_5,65,69 rotation_6,70,74 rotation_7,75,79 rotation_8,80,84 rotation_9,85,89 shake_8,90,104 shake_7,105,119 shake_6,120,134 shake_5,135,149 shake_4,150,164 shake_3,165,179 shake_2,180,194 shake_1,195,209 CW,210,232 CCw,233,255
+
+Channel = gobo_rotate
+ No_Rotation,0,2 CW,3,127 CCW,128,252 No_Rotation,253,255
+
+Channel = focus
+
+Channel = prism
+ Prism_Off,0,19 CCW,20,79 No_Rotation,80,89 CW,90,149 Prism_Off,150,215 Macro_1,216,220 Macro_2,221,225 Macro_3,226,230 Macro_4,231,235 Macro_5,236,240 Macro_6,241,245 Macro_7,246,250 Macro_8,251,255
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+ Tracking,0,2 Fast/Slow,3,245 PTSP_NORM,246,248 PTSP_FAST,249,251 BO_while_movin,252,255
+
+Channel = effect_speed
+

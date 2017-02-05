@@ -1,0 +1,87 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 530
+ViewAngleTilt = 260
+ViewAngleBeam = 24
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = dimmer
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = mode
+
+Channel = zoom
+
+Channel = CTO
+
+Channel = cyan
+
+Channel = yellow
+
+Channel = magenta
+
+Channel = color
+ white,0,0 congo_blue,31,31 orange,62,62 kelly_green,93,107 dark_fushia,124,143 magenta,155,155 deep_red,186,186 
+
+Channel = gobo
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,16,16 Miscellaneous/gobo2,35,35 Miscellaneous/gobo3,54,54 Miscellaneous/gobo4,73,73 Miscellaneous/gobo5,91,91 Miscellaneous/rotate_gobo1,117,134 Miscellaneous/rotate_gobo2,135,153 Miscellaneous/rotate_gobo2,154,172 Miscellaneous/rotate_gobo4,173,191 Miscellaneous/rotate_gobo5,192,209 Miscellaneous/left_rotate,217,233 Miscellaneous/stop,235,235 Miscellaneous/right_rotate,236,255 
+
+Channel = gobo_rotate
+
+Channel = gobo_urotate
+
+Channel = gobo2
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,28,28 Miscellaneous/gobo2,58,58 Miscellaneous/gobo3,90,90 Miscellaneous/gobo4,123,123 Miscellaneous/gobo5,155,155 Miscellaneous/gobo6,187,187 Miscellaneous/left_rotate,217,233 Miscellaneous/stop,235,235 Miscellaneous/right_rotate,237,255 
+
+Channel = shutter
+ open,0,0 closed,255,255 
+
+Channel = shutter_1a
+ open,0,0 closed,255,255 
+
+Channel = shutter_1b
+ open,0,0 closed,255,255 
+
+Channel = shutter_2a
+ open,0,0 closed,255,255 
+
+Channel = shutter_2b
+ open,0,0 closed,255,255 
+
+Channel = shutter_3a
+ open,0,0 closed,255,255 
+
+Channel = shutter_3b
+ open,0,0 closed,255,255 
+
+Channel = shutter_4a
+ open,0,0 closed,255,255 
+
+Channel = shutter_4b
+ open,0,0 closed,255,255 
+
+Channel = rotation
+
+Channel = focus_time
+
+Channel = color_time
+
+Channel = beam_time
+
+Channel = gobo_time
+
+Channel = control
+ no_function,0,0 reset,85,85 lamp_off,168,168 lamp_on,255,255 
+

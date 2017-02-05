@@ -1,0 +1,61 @@
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = dimmer
+
+Channel = fine_dim
+
+Channel = shutter
+ closed,0,7 open,8,15 macro_1,16,131 macro_2,132,167 macro_3,168,203 random_strobe,204,239 open,240,255
+
+Channel = color
+ open,0,7 uv,8,15 orange,16,23 yellow,24,31 green,32,39 pink,40,47 blue,48,55 red,56,63 split_color,64,127 left_rotate,128,189 stop,190,193 right_rotate,194,255
+
+Channel = color
+ open,0,7 dark_blue,8,15 pink,16,23 light_yellow,24,31 light_green,32,39 light_blue,40,47 magenta,48,55 5500-4200K,56,63 split_color,64,127 left_rotate,128,189 stop,190,193 right_rotate,194,255
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = yellow
+
+Channel = 3200 cto
+
+Channel = speed_control
+
+Channel = zoom
+ no_function,0,7 dimmer,8,255
+
+Channel = mode
+ open,0,21 macro_1,22,42 macro_2,43,63 macro_3,64,85 macro_4,86,106 macro_5,107,127 macro_6,128,148 macro_7,149,170 macro_8,171,191 macro_9,192,212 macro_10,213,233 macro_11,234,255
+
+Channel = color_macro
+ open,0,7 macro_1,8,49 macro_2,50,91 macro_3,92,133 macro_4,134,175 macro_5,176,217 macro_6,218,255
+
+Channel = movement_macro
+ no_function,0,7 macro_1,8,15 macro_2,16,23 macro_3,24,31 macro_4,32,39 macro_5,40,47 macro_6,48,55 macro_7,56,63 macro_8,64,71 macro_9,72,79 macro_10,80,87 macro_11,88,95 macro_12,96,103 macro_13,104,120 macro_14,121,127 macro_15,128,135 macro_16,136,143 macro_17,144,151 macro_18,152,159 macro_19,160,167 macro_20,168,175 macro_1,176,183 macro_2,184,191 macro_3,192,207 macro_4,208,223 macro_5,224,231 macro_6,232,247 macro_7,248,255
+
+Channel = p/t_range
+
+Channel = control
+ no_function,0,69 b/o p/t move,70,79 no b/o p/t move,80,89 b/o color,90,99 no b/o color ,100,109 no_function,110,129 lamp_on,130,139 reset_xy,140,149 reset_color,150,159 no_function,160,169 reset_shutter,170,179 zoom reset,180,189 no_function,190,199 reset,200,209 no_function,210,229 lamp_off,230,239 no_function,240,255
+

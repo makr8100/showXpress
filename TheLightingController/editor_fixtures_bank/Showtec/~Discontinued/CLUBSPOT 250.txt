@@ -1,0 +1,36 @@
+Name = SHOWTEC_CLUBSPOT_250
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_250MSR
+ViewAnglePan = 360
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewColor = 0
+2DViewImage = Showtec/Discontinued/clubspot_250.png
+
+Channel = color
+ open,0,0 uv,8,8 pink,16,16 green,24,24 red,32,32 light_blue,40,40 yellow,48,48 magenta,56,56 white,64,64 FREE COLOURS,66,66 counterclock,128,191 right_rotate,192,255
+
+Channel = gobo
+ OPEN,0,15 Showtec\clubspot_01,16,16 Showtec\GEN-6-004,32,32 Showtec\clubspot_03,48,48 Showtec\clubspot_04,64,64 Showtec\clubspot_05,80,80 Showtec\clubspot_06,96,111 Showtec\clubspot_07,112,127 Miscellaneous\left_rotate,128,191 Miscellaneous\right_rotate,192,255
+
+Channel = gobo_rotate
+ stop,0,0 right_rotate,16,135 left_rotate,136,255
+
+Channel = shutter
+
+Channel = pan
+
+Channel = tilt
+
+Channel = prism
+ open,0,15 right_rotate,16,240 stop,241,255
+
+Channel = upan
+
+Channel = utilt
+ closed,0,0 adjustement,6,250 open,255,255
+

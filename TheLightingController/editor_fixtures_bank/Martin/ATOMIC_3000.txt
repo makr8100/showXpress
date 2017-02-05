@@ -1,0 +1,23 @@
+Name = MARTIN_ATOMIC_3000
+
+ViewType = VIEW_TYPE_STROBE
+ViewPower = VIEW_POWER_150HTI
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 48
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = strobe_dimmer
+
+Channel = strobe_duratio
+
+Channel = strobe_speed
+ closed,0,0 rate,1,255
+
+Channel = effect
+ no_effect,0,0 ramp_up,6,42 ramp_down,43,85 ramp_up_down,86,128 randon,150,150 lightning,200,200 spikes,255,255
+

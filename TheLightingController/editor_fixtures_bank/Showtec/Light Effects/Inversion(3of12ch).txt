@@ -1,0 +1,19 @@
+﻿ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_LED60W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Showtec/Light Effects/Inversion#43094.png
+
+Channel = gobo
+ Miscellaneous/closed,0,0 Miscellaneous/gobo1,18,18 Miscellaneous/gobo2,39,39 Miscellaneous/gobo3,60,60 Miscellaneous/gobo4,80,80 Miscellaneous/gobo5,100,100 Miscellaneous/gobo6,120,120 Miscellaneous/gobo7,140,140 Miscellaneous/gobo8,163,163 Miscellaneous/gobo9,184,184 Miscellaneous/gobo10,204,204 Miscellaneous/gobo11,225,225 Miscellaneous/gobo12,255,255 
+
+Channel = pan
+
+Channel = tilt
+

@@ -1,0 +1,28 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 20
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = color_macro
+ no_function,0,0 slow_dream,85,85 fast_dream,95,95 color_fade,105,105 color_change,115,115 flow1,125,125 flow2,135,135 flow3,145,145 flow4,155,155 double_flow1,165,165 double_flow2,175,175 multi_color,185,185 2_color_flow1,195,195 2_color_flow2,205,205 fade1,215,215 fade2,225,225 fade3,235,235 audio,255,255 
+
+Channel = speed_control
+
+Channel = shutter
+ open,0,0 strobe,1,255 
+
+Channel = dimmer
+

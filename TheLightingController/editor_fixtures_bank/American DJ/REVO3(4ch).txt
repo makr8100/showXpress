@@ -1,0 +1,25 @@
+Name = AMERICAN-DJ_REVO3(4ch)
+
+ViewType = VIEW_TYPE_PAR_CAN
+ViewPower = VIEW_POWER_150HTI
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = Mode
+ Pattern,0,119 Chase,120,239 Stand_Alone,240,255
+
+Channel = Pattern
+ closed,0,9 Red,10,19 Green,20,29 Blue,30,39 White,40,49 Red Sm Dot,50,59 RedYelGreen,60,69 RedBlue,70,79 Red White,80,89 Red Red,90,99 GreenBlue,100,109 GreenWhite,110,119 GreenRed,120,129 BlueWhite,130,139 RedBlueRed,140,149 RedWhiteRed,150,159 RedYelGrnBlu,160,169 RedYelGnWhite,170,179 RedYelGrnRed,180,189 GreBluWhite,190,199 GreBluRed,200,209 BluWhiteRed,210,219 RedYelWtGrnBluWt,220,229 RedYelWtGrnBluRed,230,239 GrnBluWhtRed,240,249 RedYelWtGrnBluWyRed,250,255
+
+Channel = effect_speed
+ closed,0,9 Pattern_1,10,19 Pattern_2,20,29 Pattern_3,30,39 Pattern_4,40,49 Pattern_5,50,59 Pattern_6,60,69 Pattern_7,70,79 Pattern_8,80,89 Pattern_9,90,99 Pattern_10,100,109 Pattern_11,110,119 Pattern_12,120,129 Pattern_13,130,139 Pattern_14,140,149 Pattern_15,150,159 Pattern_16,160,169 Pattern_17,170,179 Pattern_18,180,189 Pattern_19,190,199 Pattern_20,200,209 Pattern_21,210,219 Pattern_22,220,229 Pattern_23,230,239 Pattern_24,240,249 Pattern_25,250,255
+
+Channel = dimmer
+ dimmer,0,255
+

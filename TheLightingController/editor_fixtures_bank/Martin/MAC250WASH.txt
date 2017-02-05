@@ -1,0 +1,43 @@
+Name = MARTIN_MAC250WASH
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_250MSR
+ViewAnglePan = 540
+ViewAngleTilt = 247
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = control
+ closed,0,0 open,35,35 strobe,50,72 opening,80,99 closing,100,119 random_fast,138,138 random_med,158,158 random_slow,178,178 opening_fast,192,192 opening_slow,195,195 closing_fast,198,198 closing_slow,201,201 reset,213,213 lamp_on,233,233 lamp_off,255,255
+
+Channel = dimmer
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = yellow
+
+Channel = color
+ blue,181,181 green,185,185 red,189,189 uv,193,193 pink,197,197 5500-3400k,201,201 white,205,205 right_rotate,208,226 left_rotate,227,245 cmy_fast,247,247 cmy_medium,250,250 cmy_slow,255,255
+
+Channel = frost
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+ tracking,0,0 index,3,245 normal,247,247 fast,250,250 blackout_mov,255,255
+
+Channel = effect_speed
+ tracking,0,0 vector,3,245 vector_fast,255,255
+

@@ -1,0 +1,20 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Contest/Light DJ/NIGHTFURY .png
+
+Channel = Mode
+ no_function,0,9 beam_effect_macro_speed,10,49 flash_macro_speed,50,89 mix_macro_speed,90,129 beam_effect_macro_sound,130,169 flash_macro_sound,170,209 mix_macro_sound,210,255 
+
+Channel = pattern
+
+Channel = pattern_speed
+ speed_control,0,255 
+

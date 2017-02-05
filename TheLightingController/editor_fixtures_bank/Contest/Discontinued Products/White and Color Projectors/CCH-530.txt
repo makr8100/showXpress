@@ -1,0 +1,16 @@
+Name = CCH-530
+
+ViewType = VIEW_TYPE_HEAD_WASH
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = color
+ closed,0,15 white,16,31 red,32,47 yellow,48,63 blue,64,79 green,80,95 amber,96,111 orange,112,127 light_green,128,143 light_blue,144,159 magenta,160,175 pink,176,191 rainbow,192,223 strobe,224,255
+

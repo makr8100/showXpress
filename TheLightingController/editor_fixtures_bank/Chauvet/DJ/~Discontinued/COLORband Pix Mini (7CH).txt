@@ -1,0 +1,33 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 20
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+2DViewImage = Chauvet/DJ/COLORband PiX Mini.png
+
+Channel = red
+ Red,0,255
+
+Channel = green
+ Green,0,255
+
+Channel = blue
+ Blue,0,255
+
+Channel = color_macro
+ no_function,0,15 Color Macros,16,255
+
+Channel = shutter
+ no_function,0,15 strobe,16,255
+
+Channel = rgb
+ no_function,0,31 Pulse effect 0~100%,32,63 Pulse effect 100~0%,64,95 Pulse effect 100~0~100%,96,114 Auto fade,115,159 Auto snap (3 color),160,191 Auto snap (7 color),192,223 Sound mode,224,255
+
+Channel = dimmer
+ dimmer,0,255
+

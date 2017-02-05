@@ -1,0 +1,57 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = mode
+ Laser Off,0,0 Sound Active 3D Animations,69,69 Sound Active Single 3D Shapes,85,85 Sound Active Galaxy 3D Shape Effects,103,103 Sound Active Star Field Effects,113,113 Sound Active 4-in-1 Effects,123,123 Automated 3D Animations,133,133 Automated Single 3D Shapes,150,150 Automated Galaxy 3D Shape Effects,166,166 Automated Star Field Effects,177,177 Automated 4-in-1 Effects,187,187 DMX Manual Mode,255,255
+
+Channel = pattern_mode
+ Single 3D Shapes,0,0 Galaxy 3D Shape Effects,128,191 Star Field Effects,192,255
+
+Channel = pattern1_selection
+ 118 Static Patterns,0,235 Cityscape Animation Cycle,240,240 Halloween Theme Animation Cycle,242,242 Dancer Animation Cycle,244,244 Whale Jump Animation Cycle,246,246 Horse Running Animation Cycle,248,248 Bird Flying Animation Cycle,250,250 Dinosaur Walk Animation Cycle,255,255
+
+Channel = pattern1_color
+ Laser Off,0,0 R--G--B--RG--RB--GB--RGB,35,35 R--G--B (8 Points),75,75 RG--RB--GB--RGB (8 Points),85,85 R--G--B--RG--RB--GB--RGB (8 Points),95,95 R--G--B--RG--RB--GB--RGB (Flowing),105,105 R--G--B (Inflection Point),115,115 RG--RB--GB--RGB (Inflection Point),125,125 R--G--B--RG--RB--GB--RGB (Inflection Point),135,135 R--G--B (Auto),165,165 RG--RB--GB--RGB (Auto),205,205 R--G--B--RG--RB--GB--RGB (Auto),255,255
+
+Channel = pattern2_selection
+ index,0,239
+
+Channel = pattern2_color
+ Laser Off,0,0 R--G--B--RG--RB--GB--RGB,35,35 R--G--B (8 Points),75,75 RG--RB--GB--RGB (8 Points),85,85 R--G--B--RG--RB--GB--RGB (8 Points),95,95 R--G--B--RG--RB--GB--RGB (Flowing),105,105 R--G--B (Inflection Point),115,115 RG--RB--GB--RGB (Inflection Point),125,125 R--G--B--RG--RB--GB--RGB (Inflection Point),135,135 R--G--B (Auto),165,165 RG--RB--GB--RGB (Auto),205,205 R--G--B--RG--RB--GB--RGB (Auto),255,255
+
+Channel = dual_pattern_mode
+ Single Pattern Mode (Channels 5 & 6 no Func),0,27 X Phase,28,55 Y Phase,56,83 X/Y Phase Together,84,111 Zoom Phase,112,139 Pattern 1 (No Sine) Pattern 2 (Sine Wave),140,167 Pattern 1 (No Zoom) Pattern 2(Zoom),168,195 Pattern 1 (No Rotation) Pattern 2 (Rotation),196,223 Rotation Phase,224,251 Pattern 1 (Adjustable X Position) Pattern 2 (Adjustable Y Position),252,255 
+
+Channel = moving_X
+ dimmer,0,127 left_rotate,128,160 right_rotate,161,192 rotate,193,224 jumping,230,230 rhombus,245,245 upper_corner,255,255 
+
+Channel = moving_Y
+ dimmer,0,127 left_rotate,128,160 right_rotate,161,192 rotate,193,224 circular,228,228 auto x fluctuation,243,243 auto square fluctuation,245,245 lower_corner,255,255 
+
+Channel = X_rotate
+ dimmer,0,150 auto,151,255 
+
+Channel = Y_rotate
+ dimmer,0,150 auto,151,255 
+
+Channel = rotate
+ dimmer,0,127 right_rotate,128,159 left_rotate,160,191 rotate,192,223 Ellipse Tracking Rotation,224,255 
+
+Channel = zoom
+ no_function,0,0 index,1,159 auto1,160,191 auto2,192,223 auto,224,255 
+
+Channel = sine_wave_fluctuation
+ X,0,128 Y,129,255 
+
+Channel = drawing
+ index,0,64 auto,65,255 
+

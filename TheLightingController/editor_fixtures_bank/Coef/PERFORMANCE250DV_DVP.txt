@@ -1,0 +1,35 @@
+Name = COEF_PERFORMANCE250DV_DVP
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = shutter
+ closed,0,0 dimmer_ch9,50,50 auto_open_6",105,105 auto_close_6",116,116 open_slow,124,124 open_middle,130,130 open_fast,136,136 close_slow,142,142 close_middle,148,148 close_fast,154,154 ope/clo_slow,160,160 ope/clo_middle,166,166 ope/clo_fast,172,172 strobe1,178,178 strobe2,184,184 strobe3,196,196 strobe_speed,197,250 open,255,255
+
+Channel = color
+ neutral,0,0 yellow,10,10 blue,20,20 magenta,30,30 green_light,40,40 orange,50,50 cyano,60,60 pink,70,70 red,80,80 blue_light,90,90 green,100,100 wood,110,110 white/yellow,120,120 yellow/blue,130,130 blue/magenta,140,140 green/orange,150,150 orange/cyano,160,160 cyano/pink,170,170 red/blue_light,180,180 blue_light/gre,190,190 random_slow,200,200 random_fast,203,203 CW_rotation,220,220 CWW_rotation,255,255
+
+Channel = gobo
+ neutral,0,0 ch4_rotat_G1,15,15 ch4_rotat_G2,25,25 ch4_rotat_G3,35,35 ch4_rotat_G4,45,45 ch4_rotat_G5,55,55 ch4_rotat_G6,65,65 ch4_rotat_G7,75,75 ch4_rotat_G8,85,85 ch4_rotat_G9,95,95 ch4_posit_G1,105,105 ch4_posit_G2,115,115 ch4_posit_G3,125,125 ch4_posit_G4,135,135 ch4_posit_G5,145,145 ch4_posit_G6,155,155 ch4_posit_G7,165,165 ch4_posit_G8,175,175 ch4_posit_G9,185,185 random_fast,195,195 random_slow,203,203 CW_rotation,220,220 CWW_rotation,255,255
+
+Channel = gobo_rotate
+ stop,0,0 CW_positioning,6,130 CCW_positionin,132,255
+
+Channel = prism
+ neutral,0,0 3_facets,20,20 6_facets,40,40 cold_filter,60,60 warm_filter,80,80 auto_frost_ope,100,100 auto_frost_clo,120,120 manual_frost,131,250 full_frost,255,255
+
+Channel = prism_rotate
+ stop,0,0 CW_rotation,6,130 CCW_rotation,131,255
+
+Channel = pan
+
+Channel = tilt
+
+Channel = dimmer
+ closed,0,0 adjustement,11,250 open,255,255
+

@@ -1,0 +1,24 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/Fallout.png
+
+Channel = mode
+ blackout_moves,0,20 Red,21,40 Green,41,60 Blue,61,80 Red/Green,81,100 Red/Blue,101,120 Green/Blue,121,140 RGB,141,160 Model 1,161,180 Model 2,181,200 Model 3,201,220 Model 4,221,240 Sound,241,255
+
+Channel = strobe_speed
+ no_function,0,9 Strobe Slow-Fast,10,255
+
+Channel = Run Speed
+ Run Slow-Fast,0,255
+
+Channel = motor
+ stop,0,9 Motor speed Slow-Fast,10,255
+

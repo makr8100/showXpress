@@ -1,0 +1,52 @@
+Name = COEMAR_IWASH575MB
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_575MSR
+ViewAnglePan = 538
+ViewAngleTilt = 260
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+ normal,0,0 fast,18,18 vector,26,127 tracking,128,247 slow,255,255
+
+Channel = dimmer
+
+Channel = shutter
+ closed,0,0 strobe,10,66 pulse,69,125 reverse_pulse,128,184 random_strobe,188,244 open,255,255
+
+Channel = focus
+
+Channel = effect
+ stop,0,0 oval,10,230 cto,255,255
+
+Channel = color
+ open,0,0 color1,17,17 color2,37,37 color3,57,57 color4,77,77 color5,97,97 color6,117,117 left_rotate,128,190 stop,191,191 right_rotate,193,255
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = yellow
+
+Channel = color_pos
+ centred,0,0 adjust,132,132
+
+Channel = _no_icon
+ stop,0,0 black_out,255,255
+
+Channel = control
+ lamp_off,20,20 mov_reset,47,47 reset1,83,83 reset2,118,118 reset,153,153 max_fans,214,214 lamp_on,255,255
+

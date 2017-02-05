@@ -1,0 +1,29 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewAnglePan = 0
+ViewAngleTilt = 0
+ViewAngleBeam = 0
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+2DViewImage = 
+
+Channel = Module 1 Red
+ Red,0,255
+
+Channel = Module 1 Green
+ Green,0,255
+
+Channel = Module 1 Blue
+ Blue,0,255
+
+Channel = Module 2 Red
+ Red,0,255
+
+Channel = Module 2 Green
+ Green,0,255
+
+Channel = Module 2 Blue
+ Blue,0,255
+

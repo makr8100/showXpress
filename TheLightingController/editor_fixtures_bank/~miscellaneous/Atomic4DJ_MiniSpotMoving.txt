@@ -1,0 +1,39 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LED60W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = pan
+
+Channel = tilt
+
+Channel = upan
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = dimmer
+
+Channel = shutter
+ open,0,0 strobe,16,255 
+
+Channel = color
+ white,0,0 pink,30,30 green,50,50 blue,70,70 yellow,90,90 purple,110,110 blue,130,130 orange,150,150 right_rotate,160,207 left_rotate,208,255 
+
+Channel = gobo
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,15,15 Miscellaneous/gobo2,25,25 Miscellaneous/gobo3,35,35 Miscellaneous/gobo4,45,45 Miscellaneous/gobo5,55,55 Miscellaneous/gobo6,65,65 Miscellaneous/gobo7,75,75 Miscellaneous/gobo8,85,85 Miscellaneous/gobo9,95,95 Miscellaneous/shake_gobo9,100,109 Miscellaneous/shake_gobo8,110,119 Miscellaneous/shake_gobo7,120,129 Miscellaneous/shake_gobo6,130,139 Miscellaneous/shake_gobo5,140,149 Miscellaneous/shake_gobo4,150,159 Miscellaneous/shake_gobo3,160,169 Miscellaneous/shake_gobo2,170,179 Miscellaneous/shake_gobo1,180,189 Miscellaneous/right_rotate,190,222 Miscellaneous/left_rotate,223,255 
+
+Channel = mode
+ no_function,0,0 auto,100,100 audio,255,255 
+
+Channel = control
+ no_function,0,0 reset,255,255 
+

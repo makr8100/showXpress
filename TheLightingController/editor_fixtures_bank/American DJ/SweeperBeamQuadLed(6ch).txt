@@ -1,0 +1,27 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = tilt
+
+Channel = tilt_macro
+ no_function,0,0 60°-120°,8,43 45°-135°,44,79 30°-150°,80,115 0°-180°,116,151 -30°-210°,152,187 0°-90°,188,223 90°-180°,224,255 
+
+Channel = pantilt_speed
+ no_function,0,0 index,8,255 
+
+Channel = effect_macro
+ no_function,0,0 macro_1,15,15 macro_2,30,30 macro_3,44,44 macro_4,61,61 macro_5,76,76 macro_6,91,91 macro_7,106,106 macro_8,121,121 macro_9,136,136 macro_10,151,151 macro_11,166,166 macro_12,181,181 macro_13,196,196 macro_14,211,211 macro_15,226,226 open,255,255 
+
+Channel = effect_speed
+
+Channel = dimmer
+

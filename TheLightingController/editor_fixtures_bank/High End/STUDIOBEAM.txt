@@ -1,0 +1,50 @@
+Name = HIGH-END_STUDIOBEAM
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_575MSR
+ViewAnglePan = 540
+ViewAngleTilt = 287
+ViewAngleBeam = 30
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewColor = 0
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = dimmer
+
+Channel = shutter
+ open,0,0 periodic,1,26 random/ran,27,52 random/synch,53,78 ramp_open,79,104 snap_open,105,120 ramp_open,121,146 random_ramp,147,172 random_snap,173,198 closed,255,255
+
+Channel = control
+ full_power,0,0 dim,1,128 assists strobes,129,129 dimming,130,130 periodic_strobes,131,156 random_strobes,157,172 synch_ran_strobes,173,198 boost_lamp,199,210 lighting_strike,211,216
+
+Channel = cyan
+ dimmer,0,128 discrete_color,129,129 open_white,130,130 media_scan,131,172 left_rotate,173,213 stop,214,214 right_rotate,215,255
+
+Channel = magenta
+ dimmer,0,128 discrete_color,129,129 open_white,130,130 media_scan,131,172 left_rotate,173,213 stop,214,214 right_rotate,215,255
+
+Channel = yellow
+ dimmer,0,128 discrete_color,129,129 open_white,130,130 media_scan,131,172 left_rotate,173,213 stop,214,214 right_rotate,215,255
+
+Channel = color
+ safe,0,0 blink,1,1 cycle,2,65 random,66,129
+
+Channel = beam_shaping
+ open,0,0 index,1,127 left_rotate,128,191 stop,192,192 right_rotate,193,255
+
+Channel = beam
+
+Channel = frost
+ index,0,26 periodic_strobe,128,143 random_strobe,144,159 ramp_open,160,175 snap_open,176,191 ramp_open,192,207 random_ramp,208,223 random_snap,224,239 open,255,255
+
+Channel = control
+ safe,0,0 display_off,24,24 display_dim,34,34 display_bright,44,44 home,64,64 lamp_on,84,84 lamp_off,94,94 lock,114,114 fixture_shutdown,124,124
+

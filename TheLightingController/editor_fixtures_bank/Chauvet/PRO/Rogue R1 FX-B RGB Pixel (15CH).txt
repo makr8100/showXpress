@@ -1,0 +1,56 @@
+﻿ViewType = VIEW_TYPE_HEAD_WASH
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/PRO/ROGUE R1 FX-B-FRONT.png
+
+Channel = Red1
+ dimmer,0,255 
+
+Channel = Green1
+ dimmer,0,255 
+
+Channel = Blue1
+ dimmer,0,255 
+
+Channel = Red2
+ dimmer,0,255 
+
+Channel = Green2
+ dimmer,0,255 
+
+Channel = Blue2
+ dimmer,0,255 
+
+Channel = Red3
+ dimmer,0,255 
+
+Channel = Green3
+ dimmer,0,255 
+
+Channel = Blue3
+ dimmer,0,255 
+
+Channel = Red4
+ dimmer,0,255 
+
+Channel = Green4
+ dimmer,0,255 
+
+Channel = Blue4
+ dimmer,0,255 
+
+Channel = Red5
+ dimmer,0,255 
+
+Channel = Green5
+ dimmer,0,255 
+
+Channel = Blue5
+ dimmer,0,255 

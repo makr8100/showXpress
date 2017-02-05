@@ -1,0 +1,34 @@
+Name = CLAY-PAKY_ASTROSCAN
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = iris
+
+Channel = color
+ white,0,0 white_red,16,16 red,32,32 red_yellow,48,48 yellow,64,64 yellow_violet,80,80 violet,96,96 violet_green,112,112 green,128,128 green_orange,144,144 orange,160,160 orange_blue,176,176 blue,192,192 blue_magenta,208,208 magenta,224,224 magenta_white,240,240 white,255,255
+
+Channel = control
+ lamp_off,0,0 lamp_on,255,255
+
+Channel = shutter
+ closed,0,0 open,129,129 strobe_speed,140,243 open,255,255
+
+Channel = pan
+
+Channel = tilt
+
+Channel = gobo
+ white,0,0 gobo1,72,72 gobo2,123,123 gobo3,176,176 gobo4,255,255
+
+Channel = gobo_rotate
+ 0起position,0,0 90起position,21,21 180起position,42,42 270起position,63,63 360起position,64,64 450起position,106,106 540起position,127,127 rotation,128,190 stop,192,192 rotation,193,255
+
+Channel = effect
+ 0起position,0,0 90起position,31,31 180起position,63,63 270起position,95,95 360起position,127,127 speed,128,190 stop,192,192 speed,193,255
+

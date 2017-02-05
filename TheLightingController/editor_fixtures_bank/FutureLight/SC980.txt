@@ -1,0 +1,50 @@
+Name = FUTURELIGHT_SC980
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = pan
+
+Channel = tilt
+
+Channel = upan
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = control
+ reset,133,133 off,235,235
+
+Channel = color
+ white,0,0 red,14,14 blue,28,28 green,43,43 yellow,57,57 magenta,71,71 cyan,85,85 turquoise,100,100 orange,114,114 clock,128,189 stop,192,192 counterclock,194,255
+
+Channel = color
+ white,0,0 pink,14,14 yellow_green,28,28 light_blue,43,43 yellow,57,57 magenat,71,71 5600K,85,85 3200K,100,100 uv_filter,114,114 clock,128,189 stop,192,192 counterclock,194,255
+
+Channel = prism
+ no_effect,0,0 frost,111,111 3_facets,143,143 5_facets,175,175 3d,207,207 5_lin,255,255
+
+Channel = gobo
+ open,0,0 gobo1,47,47 gobo2,79,79 gobo3,111,111 gobo4,143,143 gobo5,175,175 rotate,192,255
+
+Channel = gobo
+ open,0,0 rot_gobo1,79,79 rot_gobo2,111,111 rot_gobo3,143,143 rot_gobo4,175,175
+
+Channel = gobo_rotate
+ index,0,127 clock,128,190 stop,192,192 counterclock,194,255
+
+Channel = iris
+
+Channel = beam
+
+Channel = shutter
+ closed,0,0 open,45,45 strobe,64,95 pulse1,128,159 pulse2,192,223 open,255,255
+
+Channel = dimmer
+

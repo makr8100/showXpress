@@ -1,0 +1,26 @@
+Name = GRIVEN_SCANVISION2
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = gobo_rotate
+ stop,0,0 counterclock,6,124 stop,128,128 clock,132,251 stop,255,255
+
+Channel = color
+ white,0,0 white_violet,27,27 violet,35,35 violet_yellow,43,43 yellow,51,51 yellow_blue,59,59 blue,67,67 blue_red,75,75 red,83,83 red_green,91,91 green,99,99 green_orange,107,107 orange,115,115 orange_blue2,123,123 blue2,131,131 blue2_magenta,139,139 magenta,147,147 magenta_blue3,155,155 blue3,163,163 blue3_white,171,171 rotate,176,255
+
+Channel = gobo
+ white,0,0 gobo1_rotat,20,20 gobo2,45,45 gobo3_rotat,70,70 gobo4,95,95 gobo5_rotat,110,110 gobo6,160,160 gobo7_rotat,190,190 gobo8,220,220 gobo9_rotat,255,255
+
+Channel = prism
+ off,0,0 5_faces,62,62 3_faces,188,188 frost,220,220 full,255,255
+
+Channel = pan
+
+Channel = tilt
+

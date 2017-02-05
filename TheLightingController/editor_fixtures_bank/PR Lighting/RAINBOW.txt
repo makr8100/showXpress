@@ -1,0 +1,16 @@
+Name = PEARL-RIVER_RAINBOW
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = pan
+ stop,0,0 left_rotate,201,226 right_rotate,227,255
+
+Channel = shutter
+ closed,0,0 open,255,255
+

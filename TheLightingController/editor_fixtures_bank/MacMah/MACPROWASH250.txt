@@ -1,0 +1,49 @@
+﻿Name = MACPROWASH250
+
+ViewType = VIEW_TYPE_HEAD_WASH
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 530
+ViewAngleTilt = 280
+ViewAngleBeam = 24
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = pan
+
+Channel = tilt
+
+Channel = upan
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = light
+ on_after_3s,132,132 off_after_3s,234,234
+
+Channel = color
+ white,0,0 red,27,27 blue,45,45 green,63,63 32004100,82,82 35005600,100,100 uv,111,111 right_rotate,128,190 stop,191,191 left_rotate,193,255
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = yellow
+
+Channel = CMY_speed
+
+Channel = color_macro
+
+Channel = frost
+ open,0,0 frost,150,150 
+
+Channel = reserved
+
+Channel = shutter
+ closed,0,0 strobe,64,95 pulse_strobe,128,159 random_strobe,192,223 open,255,255 
+
+Channel = dimmer
+

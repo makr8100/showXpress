@@ -1,0 +1,67 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = shutter
+ open,0,0 strobe,16,255
+
+Channel = color_macro
+ stop,0,0 macro_1,85,85 macro_2,95,95 macro_3,105,105 macro_4,115,115 macro_5,125,125 macro_6,135,135 macro_7,145,145 macro_8,155,155 macro_9,165,165 macro_10,175,175 macro_11,185,185 macro_12,195,195 macro_13,205,205 macro_14,215,215 macro_15,225,225 macro_16,235,235 audio1,255,255 
+
+Channel = dimmer
+

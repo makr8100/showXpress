@@ -1,0 +1,30 @@
+Name = ROBE_WASH150-XT
+
+ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_250HALO
+ViewAnglePan = 530
+ViewAngleTilt = 280
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = pan
+
+Channel = tilt
+
+Channel = upan
+
+Channel = utilt
+
+Channel = pantilt_speed
+ tracking,0,0 vector,1,249 vect_blackout,250,252 max_blackout,253,255
+
+Channel = color
+ white,0,0 turquoise,10,10 red,21,21 cyan,32,32 light_green,42,42 magenta,53,53 light_blue,64,64 yellow,74,74 green,85,85 pink,96,96 blue,106,106 orange,117,117 left_rotate,128,189 stop,192,192 right_rotate,194,255
+
+Channel = dimmer
+ off,0,0 on,255,255
+
+Channel = shutter
+ closed,0,0 dimmer,1,63 open,80,80 strobe,96,127 reset,134,134 closed,150,150 pulse1,160,175 pulse2,176,191 random_strobe,192,223 open,255,255
+

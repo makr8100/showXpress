@@ -1,0 +1,33 @@
+Name = MICROH_VIRUS30
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = control
+ lamp_off,0,0 audio,76,76 mode1,127,127 mode2,178,178 auto,255,255
+
+Channel = animation
+ circle_zoom,0,0 line_rotate,5,5 circle_x,9,9 circle_z,13,13 circle_write,17,17 circle_y,21,21 circle_move,25,25 half_rotate,29,29 half_x,33,33 half_y,37,37 half_move,41,41 w_rotate_x,45,45 w_rotate_y,49,49 wave_x,53,53 flow,57,57 wave_move,61,61 square_zoom,65,65 square_x,69,69 square_y,73,73 square_rotate,77,77 triangle_zoom,81,81 triangle_rotate,85,85 triangle_move,89,89 lines_move,93,93 star_rotate,97,97 star_move,101,101 line_move,105,105 line_rightrotate,109,109 hline_adjust,113,113 vline_move,117,117 vline_adjust,121,121 line_rotate,127,127 hexagon_zoom,133,133 hexagon_rotate,137,137 s_circle_move,141,141 s_circle_trace,145,145 dot_move,149,149 dot_around,153,153 cloud_move,161,161 cloud_y,165,165 cloud_x,169,169 v_move,173,173 v_rotate_x,177,177 v_rotate_y,181,181 v_zoom,185,185 v_rotateright,189,189 wave_rotateright,193,193 flow_around,197,197 plus_rotateleft,209,209 plus_zoom,213,213 line_rotateright,217,217 8_rotate,225,225 rectangle_rotate,255,255
+
+Channel = gobo
+ ok_for_3DView\bar,0,0 ok_for_3DView\cone,76,76 Chauvet\square cut,127,127 Geni\NS-2-CH2-22-32,178,178 ok_for_3DView\triangle,255,255
+
+Channel = zoom
+
+Channel = gobo_rotate
+ stop,0,0 left_rotate,50,149 right_rotate,150,255
+
+Channel = move_x
+
+Channel = move_y
+
+Channel = speed_control
+

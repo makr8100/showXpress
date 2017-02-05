@@ -1,0 +1,48 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/PRO/OvationC640FC-2D.png
+
+Channel = red
+ red,0,255
+
+Channel = green
+ green ,0,255
+
+Channel = blue
+ blue,0,255
+
+Channel = white
+ white,0,255
+
+Channel = amber
+ amber,0,255
+
+Channel = color_macro
+ no_function,0,5 C90Y,6,13 R11,14,21 R312,22,28 R03,29,35 R18,36,43 R20,44,51 R21,52,59 R26,60,67 R27,68,75 R33,76,83 R337,84,91 R38,92,99 R41,100,107 R42,108,115 R44,116,121 R349,122,130 R54,131,138 R64,139,146 R364,147,154 R65,155,162 R80,163,170 R81,171,178 R82,179,186 R382,187,194 R83,195,202 R383,203,210 R91,211,218 R92,219,226 R93,227,234 R393,235,242 R90,243,250 no_function,251,255
+
+Channel = red
+ red,0,255
+
+Channel = green
+ green,0,255
+
+Channel = blue
+ blue,0,255
+
+Channel = white
+ white,0,255
+
+Channel = amber
+ amber,0,255
+
+Channel = color_macro
+ no_function,0,5 C90Y,6,13 R11,14,21 R312,22,28 R03,29,35 R18,36,43 R20,44,51 R21,52,59 R26,60,67 R27,68,75 R33,76,83 R337,84,91 R38,92,99 R41,100,107 R42,108,115 R44,116,121 R349,122,130 R54,131,138 R64,139,146 R364,147,154 R65,155,162 R80,163,170 R81,171,178 R82,179,186 R382,187,194 R83,195,202 R383,203,210 R91,211,218 R92,219,226 R93,227,234 R393,235,242 R90,243,250 no_function,251,255
+

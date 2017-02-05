@@ -1,0 +1,30 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 24
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = dimmer
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = amber
+
+Channel = shutter
+ open,0,0 synch_strobe_slow,10,49 non_synch_strobe_slow,50,99 random_strobe,100,149 non_synch_strobe_fast,150,199 synch_strobe_fast,200,255 
+
+Channel = dimmer_mode
+ no_function,0,0 speed_1,75,75 speed_2,125,125 speed_3,175,175 speed_4,255,255 
+

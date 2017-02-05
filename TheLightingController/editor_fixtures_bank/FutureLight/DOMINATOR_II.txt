@@ -1,0 +1,40 @@
+Name = FUTURELIGHT_DOMINATOR_II
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = pan
+
+Channel = tilt
+
+Channel = pan
+
+Channel = tilt
+
+Channel = pan
+
+Channel = tilt
+
+Channel = effect
+ full_circle_wh,0,0 6_gobos_colors,100,100 multicolor_gob,200,200 rainbow_effect,255,255
+
+Channel = effect
+ black_out,0,0 dimmer,1,85 full_circle_wh,100,100 reset,126,126 mag_cyan_yello,150,150 rotat_3_prism,255,255
+
+Channel = prism_rotate
+ static,0,0 forwards_rotat,1,127 static,128,128 backwards_rota,129,254 static,255,255
+
+Channel = gobo_rotate
+ static,0,0 forwards_rotat,1,127 static,128,128 backwards_rota,129,254 static,255,255
+
+Channel = gobo_rotate
+ static,0,0 forwards_rotat,1,127 static,128,128 backwards_rota,129,254 static,255,255
+
+Channel = gobo_rotate
+ static,0,0 forwards_rotat,1,127 static,128,128 backwards_rota,129,254 static,255,255
+

@@ -1,0 +1,18 @@
+﻿ViewType = VIEW_TYPE_PAR_CAN
+ViewAnglePan = 0
+ViewAngleTilt = 0
+ViewAngleBeam = 0
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+2DViewImage = Chauvet/PRO/OvationE-190WW-2D.png
+
+Channel = dimmer
+
+Channel = udimmer
+
+Channel = shutter
+ no_function,0,9 strobe,10,99 no_function,100,109 lighting_strobe,110,179 no_function,180,189 random_strobe,190,255
+

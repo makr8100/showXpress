@@ -1,0 +1,20 @@
+Name = JBSYSTEM_TIGER
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = pan
+
+Channel = tilt
+
+Channel = color
+ white,0,0 green,105,105 yellow,255,255
+
+Channel = shutter
+ closed,0,0 open,80,80 strobe,224,255
+

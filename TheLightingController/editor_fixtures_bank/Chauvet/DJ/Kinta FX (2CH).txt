@@ -1,0 +1,18 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/Kinta-FX.png
+
+Channel = mode
+ no_function,0,9 Beam/Laser/Strobe,10,44 Beam/Strobe ,45,79 Beam/Laser,80,114 Laser/Strobe,115,149 Beams only,150,184 Strobe only,185,219 Laser only,220,255
+
+Channel = mode
+ Auto speed,0,250 Sound sensitivity,251,251
+

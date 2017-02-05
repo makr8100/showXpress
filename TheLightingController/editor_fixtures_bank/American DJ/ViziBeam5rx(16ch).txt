@@ -1,0 +1,51 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 540
+ViewAngleTilt = 280
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = color
+ open,0,0 color_1,5,5 color_2,9,9 color_3,13,13 color_4,17,17 color_5,22,22 color_6,26,26 color_7,30,32 color_8,34,34 color_9,38,38 color_10,43,43 color_11,47,47 color_12,51,51 color_13,55,55 color_14,59,59 index,64,127 right_rotate,128,189 stop,190,193 left_rotate,194,255 
+
+Channel = gobo
+ Miscellaneous/open,0,3 Miscellaneous/gobo1,4,6 Miscellaneous/gobo2,7,9 Miscellaneous/gobo3,10,12 Miscellaneous/gobo4,13,15 Miscellaneous/gobo5,16,18 Miscellaneous/gobo6,19,21 Miscellaneous/gobo7,22,24 Miscellaneous/gobo8,25,27 Miscellaneous/gobo9,28,30 Miscellaneous/gobo10,31,33 Miscellaneous/gobo11,34,36 Miscellaneous/gobo12,37,39 Miscellaneous/gobo13,40,42 Miscellaneous/gobo14,43,45 Miscellaneous/gobo15,46,48 Miscellaneous/gobo16,49,51 Miscellaneous/gobo17,52,55 Miscellaneous/open,56,59 Miscellaneous/shake_gobo1,60,63 Miscellaneous/shake_gobo2,64,67 Miscellaneous/shake_gobo3,68,71 Miscellaneous/shake_gobo4,72,75 Miscellaneous/shake_gobo5,76,79 Miscellaneous/shake_gobo6,80,83 Miscellaneous/shake_gobo7,84,87 Miscellaneous/shake_gobo8,88,91 Miscellaneous/shake_gobo9,92,95 Miscellaneous/shake_gobo10,96,99 Miscellaneous/shake_gobo11,100,103 Miscellaneous/shake_gobo12,104,107 Miscellaneous/shake_gobo13,108,111 Miscellaneous/shake_gobo14,112,115 Miscellaneous/shake_gobo15,116,119 Miscellaneous/shake_gobo16,120,123 Miscellaneous/shake_gobo17,124,127 Miscellaneous/left_rotate,128,189 Miscellaneous/stop,190,193 Miscellaneous/right_rotate,194,255 
+
+Channel = prism
+ no_function,0,4 prism,60,60 index,128,255 
+
+Channel = prism_rotate
+ index,0,127 left_rotate,128,189 stop,190,193 right_rotate,194,255 
+
+Channel = focus
+
+Channel = frost
+
+Channel = shutter
+ closed,0,0 open,12,12 strobe,16,167 pulse_open,168,203 pulse_close,204,239 random_strobe,240,247 open,255,255 
+
+Channel = dimmer
+
+Channel = movement_macro
+ no_function,0,7 macro_1,8,15 macro_2,16,23 macro_3,24,31 macro_4,32,39 macro_5,40,47 macro_6,48,55 macro_7,56,63 macro_8,64,71 macro_9,72,79 macro_10,80,87 macro_11,88,95 macro_12,96,103 macro_13,104,111 macro_14,112,119 macro_15,120,127 macro_16,128,135 macro_17,136,143 macro_18,144,151 macro_19,152,159 macro_20,160,167 macro_21,168,175 macro_22,176,183 macro_23,184,191 macro_24,192,199 macro_25,200,207 macro_26,208,215 macro_27,216,223 macro_28,224,231 macro_29,232,239 macro_30,240,247 macro_31,248,255 
+
+Channel = effect_speed
+
+Channel = pantilt_speed
+
+Channel = control
+ no_function,0,0 blackout_moves,75,75 blackout_changes,115,115 lamp_on,135,135 reset_xy,145,145 reset_color,155,155 reset_gobo,165,165 reset_others,175,175 reset,205,205 lamp_off,235,235 
+

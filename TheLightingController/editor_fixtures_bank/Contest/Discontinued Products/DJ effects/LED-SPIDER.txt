@@ -1,0 +1,23 @@
+Name = LED-SPIDER
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = movement_macro
+ closed,0,9 macro_1,10,29 macro_2,30,49 macro_3,50,69 macro_4,70,89 macro_5,90,109 macro_6,110,129 macro_7,130,149 macro_8,150,169 macro_9,170,189 macro_10,190,209 macro_11,210,229 macro_12,230,249 audio,250,255
+
+Channel = pantilt_speed
+
+Channel = color_macro
+ closed,0,9 macro_1,10,29 macro_2,30,49 macro_3,50,69 macro_4,70,89 macro_5,90,109 macro_6,110,129 macro_7,130,149 macro_8,150,169 macro_9,170,189 macro_10,190,209 macro_11,210,229 macro_12,230,249 audio,250,255
+
+Channel = effect_speed
+

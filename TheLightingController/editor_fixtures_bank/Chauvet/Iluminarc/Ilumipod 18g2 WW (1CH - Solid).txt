@@ -1,0 +1,14 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewAnglePan = 0
+ViewAngleTilt = 0
+ViewAngleBeam = 0
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+2DViewImage = Chauvet/ILUMINARC/POd18g2WW-2D.png
+
+Channel = dimmer
+ dimmer,0,255
+

@@ -1,0 +1,45 @@
+Name = TAS_PROWASH
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = pan
+
+Channel = tilt
+
+Channel = upan
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = control
+ fan,0,127 lamp_on,132,132 lamp_off,255,255
+
+Channel = color
+ white,0,0 red,25,25 blue,45,45 green,65,65 3200K,82,82 5600K,102,102 uv_filter,115,115 rainbow_fs,128,190 stop,192,192 rainbow_sf,194,255
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = yellow
+
+Channel = effect_speed
+
+Channel = color
+ white,0,0 magenta,8,31 white,35,35 blue,42,42 white_yellow,52,52 yellow,56,79 green,82,82 blue,88,103 uv,108,108 pink,112,135 turquoise,140,140 abricot,148,148 pink,155,155 light_green,162,162 light_uv,170,170 light_orange,180,180 uv,188,188 orange,192,199 dark_blue,202,202 light_green,210,210 white_yellow,220,220 white_blue,228,228 magenta,235,235 yellow,242,242 turquoise,255,255
+
+Channel = beam
+
+Channel = reserved
+
+Channel = shutter
+
+Channel = dimmer
+

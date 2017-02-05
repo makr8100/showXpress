@@ -1,0 +1,42 @@
+Name = SHOWTEC_PHANTOMWASH
+
+ViewType = VIEW_TYPE_HEAD_WASH
+ViewPower = VIEW_POWER_250MSR
+ViewAnglePan = 300
+ViewAngleTilt = 300
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = pan
+
+Channel = tilt
+
+Channel = upan
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = yellow
+
+Channel = CMY_speed
+
+Channel = CMY_macro
+
+Channel = shutter
+ closed,0,0 dimmer,8,88 strobe,100,140 strobe_pulse,152,192 random_strobe,204,244 open,255,255
+
+Channel = control
+ Safe,0,0 BO_PT,15,15 reset,105,105 auto1,137,137 auto2,155,155 auto3,170,170 auto4,185,185 sound1,200,200 sound2,218,218 sound3,234,234 sound4,255,255
+
+Channel = effect
+ open,0,0 Effect1,10,19 Effect2,20,29 Effect3,30,39 Effect4,40,49 Effect5,50,59 Effect6,60,69 Effect7,70,79 Effect8,80,89 Effect9,90,99 Effect10,100,109 Effect11,110,119 Effect12,120,129 Effect13,130,139 Effect14,140,149 Effect15,150,159 Effect16,160,169 Effect17,170,179 Effect18,180,189 Effect19,190,199 Effect20,200,209 Effect21,210,219 Effect22,220,229 Effect23,230,239 Effect24,240,249 Effect25,250,255
+

@@ -1,0 +1,36 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/Freedom Stick.png
+
+Channel = dimmer
+ dimmer,0,255 
+
+Channel = red
+ 0–100%,0,255 
+
+Channel = green
+ 0–100%,0,255 
+
+Channel = blue
+ 0–100%,0,255 
+
+Channel = color_macro
+ no_function,0,10 R: 100%	G: 0–100%	B: 0%,11,30 R: 100–0%	G: 100%	B: 0%,31,50 R: 0% G: 100% B: 0–100%,51,70 R: 0%	G: 100–0%	B: 100%,71,90 R: 0–100%	G: 0%	B: 100%,91,110 R: 100%	G: 0%	B: 100–0%,111,130 R: 100%	G: 0–100%	B: 0–100%,131,150 R: 100–0%	G: 100–0%	B: 100%,151,170 R: 100%	G: 100%	B: 100%,171,200 macro_1,201,205 macro_2,206,210 macro_3,216,216 macro_4,217,220 macro_5,221,225 macro_6,226,230 macro_7,231,235 macro_8,236,240 macro_9,241,245 macro_10,246,250 macro_11,251,255 
+
+Channel = shutter
+ no_function,0,10 strobe,11,255 
+
+Channel = effect_macro
+ no_function,0,10 Auto program 1,11,18 Auto program 2,19,26 Auto program 3,27,34 Auto program 4,35,42 Auto program 5,43,50 Auto program 6,51,58 Auto program 7,59,66 Auto program 8,67,74 Auto program 9,75,82 Auto program 10,83,90 Auto program 11,91,98 Auto program 12,99,106 Auto program 13,107,114 Auto program 14,115,122 Auto program 15,123,130 Auto program 16,131,138 Auto program 17,139,146 Auto program 18,147,154 Auto program 19,155,162 Auto program 20,163,170 Auto program 21,171,178 Auto program 22,179,186 Auto program 23,187,194 Auto program 24,195,202 Auto program 25,203,210 Auto program 26,211,218 Auto program 27,219,226 Auto program 28 (cycle programs 1-21),227,234 audio,235,255 
+
+Channel = effect_speed
+ Auto speed  slow to fast,0,255 
+

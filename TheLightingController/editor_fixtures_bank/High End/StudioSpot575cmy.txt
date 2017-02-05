@@ -1,0 +1,71 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LAMP575W
+ViewAnglePan = 370
+ViewAngleTilt = 255
+ViewAngleBeam = 24
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+2DViewImage = 
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = color_function
+ FS_continuous,0,0 FS_reserved,100,100 MS_continuous,140,140 MS_reserved,255,255
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = yellow
+
+Channel = gobo_function
+ default,0,0 FS_index,7,7 FS_fdrot,23,23 FS_rvrot,39,39 FS_wlspn,55,55 FS_index,71,71 FS_FSscan,84,84 FS_random,91,91 FS_bkwhl,103,103 FS_bkapa,119,119 MS_index,135,135 MS_fdrot,168,168 MS_wlspn,183,183 MS_index,199,199 MS_random,215,215 MS_bkwhl,231,231 MS_bkapa,255,255
+
+Channel = gobo
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,55,55 Miscellaneous/gobo2,91,91 Miscellaneous/gobo3,128,128 Miscellaneous/gobo4,164,164 Miscellaneous/gobo5,201,201 Miscellaneous/gobo6,234,234
+
+Channel = gobo_rotate
+
+Channel = gobo_urotate
+
+Channel = gobo_function2
+ default,0,0 FS_index,7,7 FS_fdrot,23,23 FS_rvrot,39,39 FS_wlspn,55,55 FS_index,71,71 FS_FSscan,84,84 FS_random,91,91 FS_bkwhl,103,103 FS_bkapa,119,119 MS_index,135,135 MS_fdrot,168,168 MS_wlspn,183,183 MS_index,199,199 MS_random,215,215 MS_bkwhl,231,231 MS_bkapa,255,255
+
+Channel = gobo2
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,55,55 Miscellaneous/gobo2,91,91 Miscellaneous/gobo3,128,128 Miscellaneous/gobo4,164,164 Miscellaneous/gobo5,201,201 Miscellaneous/gobo6,234,234
+
+Channel = gobo_rotate2
+
+Channel = gobo_urotate2
+
+Channel = frost
+ index,0,128 S_frost_strobe,135,135 F_frost_strobe,151,151 rmp0snpS,167,167 snp0rmpS,183,183 random_raS,199,199 random_saR,215,215 open,239,239
+
+Channel = focus
+
+Channel = iris
+ closed,0,0 variable,64,64 open,135,135 per_strobe,151,151 random_strobe,167,167 rmp0snpS,183,183 snp0rmpS,200,200 random_raS,215,215 random_saR,231,231 open,247,247
+
+Channel = shutter
+ closed,0,0 strobe,32,63 random_strobe,79,79 rmp0snpS,111,111 snp0rmpS,143,143 randomRoSs,175,175 randomSoRs,208,208 open,255,255
+
+Channel = dimmer
+
+Channel = pantilt_speed
+ no_function,0,0 index,4,255
+
+Channel = effect_macro
+ no_function,0,0 macro_1,11,11 macro_2,19,19 macro_3,27,27 macro_4,35,35 macro_5,43,43 macro_6,51,51 macro_7,59,59 macro_8,67,67 random,216,247
+
+Channel = control
+ safe,9,9 display_off,24,24 display_dimmer,30,38 display_brt,44,44 home,64,64 lamp_on,84,84 lamp_off,94,94 shut_down,125,125 tbd,255,255
+

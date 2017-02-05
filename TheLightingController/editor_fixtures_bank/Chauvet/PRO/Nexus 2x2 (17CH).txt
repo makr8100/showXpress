@@ -1,0 +1,51 @@
+﻿ViewType = VIEW_TYPE_COLOR_PANEL
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = red 1
+
+Channel = green 1
+
+Channel = blue 1
+
+Channel = red 2
+
+Channel = green 2
+
+Channel = blue 2
+
+Channel = red 3
+
+Channel = green 3
+
+Channel = blue 3
+
+Channel = red 4
+
+Channel = green 4
+
+Channel = blue 4
+
+Channel = Auto programs
+ No Function,0,10 Auto 1,11,29 Auto 2,30,48 Auto 3,49,67 Auto 4,68,86 Auto 5,87,104 Auto 6,105,123 Auto 7,124,142 Auto 8,143,161 Auto 9,162,179 Auto 10,180,198 Auto 11,199,217 Fade,218,236 Auto (1~11),237,237
+
+Channel = Auto speed
+ Auto speed slow to fast,0,255
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = strobe_effect
+ No fuction,0,10 Strobe slow to fast,11,255
+
+Channel = Dimmer speed
+ Preset dimm speed from display menu,0,10 WW/CW Mode on (hold for 5 sec),11,20 WW/CW Mode off (hold for 5 sec),21,30 No fuction,31,51 Linear dimm,52,101 nonlinear curve 1(fast),102,152 nolinear curve 2 ,153,203 nonlinear curve 3 (slowest),204,255
+

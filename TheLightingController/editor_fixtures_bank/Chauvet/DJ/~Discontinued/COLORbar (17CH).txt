@@ -1,0 +1,63 @@
+Name = COLORbar (17CH)
+
+ViewType = VIEW_TYPE_COLOR_SHAPE
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewColor = 0
+
+Channel = control
+ closed,0,30 17CH Mode,31,100 5CH Mode,101,180 6CH Mode Auto,181,240 6CH Mode Sound,241,255
+
+Channel = red
+ new_level,0,255
+
+Channel = green
+ new_level,0,255
+
+Channel = blue
+ new_level,0,255
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = red
+ new_level,0,255
+
+Channel = green
+ new_level,0,255
+
+Channel = blue
+ new_level,0,255
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = red
+ new_level,0,255
+
+Channel = green
+ new_level,0,255
+
+Channel = blue
+ new_level,0,255
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = red
+ new_level,0,255
+
+Channel = green
+ new_level,0,255
+
+Channel = blue
+ new_level,0,255
+
+Channel = dimmer
+ dimmer,0,255
+

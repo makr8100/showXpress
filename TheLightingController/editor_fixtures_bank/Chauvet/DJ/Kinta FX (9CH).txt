@@ -1,0 +1,39 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/Kinta-FX.png
+
+Channel = mode
+ no_function,0,9 Beam/Laser/Strobe,10,44 Beam/Strobe,45,79 Beam/Laser,80,114 Laser/Strobe,115,149 Beams only,150,184 Strobes only,185,219 Laser only,220,255 
+
+Channel = mode
+ Auto Speed,0,250 sound sensitivity,251,255 
+
+Channel = color
+ no_function,0,5 red,6,20 green,21,35 blue,36,50 full_white,51,65 red/green,66,80 red/blue,81,95 red/white,96,110 green/blue,111,125 green/white,126,140 blue/white,141,155 red/green/blue,156,170 red/green/white,171,185 green/blue/white,186,200 red/green/blue/white,201,215 auto,216,230 auto,231,255 
+
+Channel = strobe_effect
+ no_function,0,5 strobe,6,255 
+
+Channel = motor
+ index,0,127 speed,128,255 
+
+Channel = pattern
+ pattern_01,10,19 pattern_02,20,29 pattern_03,30,39 pattern_04,40,49 pattern_05,50,59 pattern_06,60,69 pattern_07,70,79 pattern_08,80,89 pattern_09,90,99 pattern_10,100,109 pattern_11,110,119 pattern_12,120,129 pattern_13,130,139 pattern_14,140,149 pattern_15,150,159 pattern_16,160,169 pattern_17,170,179 pattern_18,180,255
+
+Channel = laser
+ no_function,0,9 red,10,49 green,50,89 red /green,90,129 red on/green strobe,130,169 green on/ red strobe,170,209 red / green alternating,210,255 
+
+Channel = laser
+ no_function,0,9 strobe,10,254 audio,255,255 
+
+Channel = Laser rotation
+ stop,0,4 right_rotate,5,127 stop,128,133 left_rotate,134,255 
+

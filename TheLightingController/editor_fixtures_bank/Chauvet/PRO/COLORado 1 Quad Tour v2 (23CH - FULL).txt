@@ -1,0 +1,63 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED60W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/PRO/COLORado1Quad-V2-2D.png
+
+Channel = dimmer
+
+Channel = udimmer
+
+Channel = red
+
+Channel = ured
+
+Channel = green
+
+Channel = ugreen
+
+Channel = blue
+
+Channel = ublue
+
+Channel = white
+
+Channel = uwhite
+
+Channel = red
+
+Channel = ured
+
+Channel = green
+
+Channel = ugreen
+
+Channel = blue
+
+Channel = ublue
+
+Channel = white
+
+Channel = uwhite
+
+Channel = color_macro
+ no_function,0,10 red 100%/green up/blue0%,11,30 red down/green 100%/ blue0%,31,50 red0%/green down/blue up,51,70 redc 0%/green down/blue 100%,71,90 red up/green 0%/blue 100%,91,110 red 100%/green 0%/blue down,111,130 red 100%/green up/blue up,131,150 red down/green down/blue 100%,151,170 red 100%/green 100%/blue 100%,171,200 white 1: 3200K,201,205 white 2: 3400K,206,210 white 3: 4200K,211,215 white 4: 4900K,216,220 white 5: 5600K,221,225 white 6: 5900K,226,230 white 7: 6500K,231,235 white 8: 7200K,236,240 white 9: 8000K,241,245 white 10: 8600K,246,250 white 11: 10000K,251,255
+
+Channel = shutter
+ no_function,0,10 strobe speed,11,255
+
+Channel = effect_macro
+ all rings,0,9 static ring 1,10,54 static ring 2,55,99 ring effect 1,100,119 ring effect 2,120,139 ring effect 3,140,159 ring effect 4,160,179 static ring with color 1 ,180,184 static ring with color 2,185,188 static ring with color 3,190,194 static ring with color 4,195,199 static ring with color 5,200,204 static ring with color 6,205,209 static ring with color 7,210,214 static ring with color 8,215,219 static ring with color 9,220,224 static ring with color 10,225,229 static ring with color 11,230,234 static ring with color 12,235,239 static ring with color 13,240,244 static ring with color14,245,249 static ring with color 15,250,255
+
+Channel = effect_speed
+ effect speed,0,255
+
+Channel = dimmer speed
+ preset dimmer speed from display menu,0,9 linear dimmer,10,29 non linear dimmer 1 (fstest),30,69 non linear dimmer 2,70,129 non linear dimmer 3,130,189 non linear dimmer 4 (sloest),190,255
+

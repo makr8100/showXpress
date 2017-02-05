@@ -1,0 +1,24 @@
+Name = GENIUS_MICROMEGA
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = pantilt_speed
+
+Channel = color
+ white,0,0 yellow,24,24 red,44,44 green,64,64 magenta,104,104 blue,84,84 pink,124,124 orange,144,144
+
+Channel = gobo
+ off,0,0 gobo1,29,29 gobo2,49,49 gobo3,69,69 gobo4,89,89 gobo5,109,109 gobo6,129,129 gobo7,149,149
+
+Channel = shutter
+
+Channel = pan
+
+Channel = tilt
+

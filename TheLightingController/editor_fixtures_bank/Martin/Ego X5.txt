@@ -1,0 +1,25 @@
+Name = Martin Ego X5
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = control
+ no_function,0,68 auto,69,100 no_function,101,249 reset,250,250
+
+Channel = dimmer
+ dimmer,0,255 
+
+Channel = effect
+ position 1-13,0,175 right_rotate,176,207 left_rotate,208,239 audio,240,255
+
+Channel = effect_speed
+ no_function,0,1 narrow shake,2,128 wide shake,129,255
+

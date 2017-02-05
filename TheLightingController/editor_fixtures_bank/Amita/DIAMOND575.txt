@@ -1,0 +1,26 @@
+Name = AMITA_DIAMOND575
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = shutter
+ dimmer,0,159 strobe,160,253 open,255,255
+
+Channel = color
+ white,0,0 pink_orange,20,20 yellow,35,35 pink,52,52 dark_blue,68,68 red,84,84 green,100,100 orange,115,115 purple,130,130 light_blue,148,148 white,164,164 rotate,170,255
+
+Channel = gobo
+ full,0,0 full_4c,20,20 full_color,35,35 gobo1_color,50,50 gobo1_4c,65,65 gobo1,77,77 gobo2,92,92 gobo2_4c,105,105 gobo2_color,120,120 gobo3_color,135,135 gobo3_4c,150,150 gobo3,160,160 gobo4,180,180 gobo4_4c,190,190 gobo4_color,205,205 gobo5_color,220,220 gobo5_4c,232,232 gobo5,245,245 frost,255,255
+
+Channel = gobo_rotate
+ stop,0,0 counterclock,8,131 clock,132,255
+
+Channel = pan
+
+Channel = tilt
+

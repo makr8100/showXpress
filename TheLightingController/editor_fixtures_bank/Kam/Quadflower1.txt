@@ -1,0 +1,30 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = lens1
+ closed,0,0 Group 1 of White on,14,14 Group 2 of White on,20,20 Group 3 of White on,25,25 Group 1 of Red on,32,32 Group 2 of Red on,38,38 Group 3 of Red on,45,45 Group 1 of Green on,50,50 Group 2 of Green on,55,55 Group 3 of Green on,62,62 Group 1 of Blue on,68,68 Group 2 of Blue on,73,73 Group 3 of Blue on,80,80 All White on,85,85 All Red on,85,85 All Green on,98,98 All Blue on,103,103 All Red and all Green on,110,110 All Red and Blue on,115,115 All Green and all Blue on,121,121 All Red, all Green and all Blue on,128,128 All Red and all White on,134,134 All Green and all White on,140,140 All Blue and all White on,145,145 Group 1 of Blue and all White on,152,152 Group 2 of Blue and all Red on,158,158 Group 3 of Blue and all Green on,164,164 Group 1 of Blue and Group 3 of Red on,170,170 Group 2 of Blue and Group 2 of Red on,175,175 Group 3 of Blue and Group 1 of Red on,182,182 Group 1 of Green and Group 3 of White on,188,188 Group 2 of Green and Group 2 of White on,195,195 Group 3 of Green and Group 1 of White on,200,200 Group 1 of Blue - Group 3 of Green - Group 1 of Red - and Group 3 of White on,205,205 Group 2 of Blue - Group 2 of Green - Group 2 of Red - and Group 2 of White on,211,211 Group 3 of Blue - Group 1 of Green - Group 3 of Red - and Group 1 of White on,218,218 All White - all Red - all Green and all Blue on,255,255
+
+Channel = lens2
+ closed,0,0 Group 1 of White on,14,14 Group 2 of White on,20,20 Group 3 of White on,25,25 Group 1 of Red on,32,32 Group 2 of Red on,38,38 Group 3 of Red on,45,45 Group 1 of Green on,50,50 Group 2 of Green on,55,55 Group 3 of Green on,62,62 Group 1 of Blue on,68,68 Group 2 of Blue on,73,73 Group 3 of Blue on,80,80 All White on,85,85 All Red on,85,85 All Green on,98,98 All Blue on,103,103 All Red and all Green on,110,110 All Red and Blue on,115,115 All Green and all Blue on,121,121 All Red, all Green and all Blue on,128,128 All Red and all White on,134,134 All Green and all White on,140,140 All Blue and all White on,145,145 Group 1 of Blue and all White on,152,152 Group 2 of Blue and all Red on,158,158 Group 3 of Blue and all Green on,164,164 Group 1 of Blue and Group 3 of Red on,170,170 Group 2 of Blue and Group 2 of Red on,175,175 Group 3 of Blue and Group 1 of Red on,182,182 Group 1 of Green and Group 3 of White on,188,188 Group 2 of Green and Group 2 of White on,195,195 Group 3 of Green and Group 1 of White on,200,200 Group 1 of Blue - Group 3 of Green - Group 1 of Red - and Group 3 of White on,205,205 Group 2 of Blue - Group 2 of Green - Group 2 of Red - and Group 2 of White on,211,211 Group 3 of Blue - Group 1 of Green - Group 3 of Red - and Group 1 of White on,218,218 All White - all Red - all Green and all Blue on,255,255
+
+Channel = lens3
+ closed,0,0 Group 1 of White on,14,14 Group 2 of White on,20,20 Group 3 of White on,25,25 Group 1 of Red on,32,32 Group 2 of Red on,38,38 Group 3 of Red on,45,45 Group 1 of Green on,50,50 Group 2 of Green on,55,55 Group 3 of Green on,62,62 Group 1 of Blue on,68,68 Group 2 of Blue on,73,73 Group 3 of Blue on,80,80 All White on,85,85 All Red on,85,85 All Green on,98,98 All Blue on,103,103 All Red and all Green on,110,110 All Red and Blue on,115,115 All Green and all Blue on,121,121 All Red, all Green and all Blue on,128,128 All Red and all White on,134,134 All Green and all White on,140,140 All Blue and all White on,145,145 Group 1 of Blue and all White on,152,152 Group 2 of Blue and all Red on,158,158 Group 3 of Blue and all Green on,164,164 Group 1 of Blue and Group 3 of Red on,170,170 Group 2 of Blue and Group 2 of Red on,175,175 Group 3 of Blue and Group 1 of Red on,182,182 Group 1 of Green and Group 3 of White on,188,188 Group 2 of Green and Group 2 of White on,195,195 Group 3 of Green and Group 1 of White on,200,200 Group 1 of Blue - Group 3 of Green - Group 1 of Red - and Group 3 of White on,205,205 Group 2 of Blue - Group 2 of Green - Group 2 of Red - and Group 2 of White on,211,211 Group 3 of Blue - Group 1 of Green - Group 3 of Red - and Group 1 of White on,218,218 All White - all Red - all Green and all Blue on,255,255
+
+Channel = lens4
+ closed,0,0 Group 1 of White on,14,14 Group 2 of White on,20,20 Group 3 of White on,25,25 Group 1 of Red on,32,32 Group 2 of Red on,38,38 Group 3 of Red on,45,45 Group 1 of Green on,50,50 Group 2 of Green on,55,55 Group 3 of Green on,62,62 Group 1 of Blue on,68,68 Group 2 of Blue on,73,73 Group 3 of Blue on,80,80 All White on,85,85 All Red on,85,85 All Green on,98,98 All Blue on,103,103 All Red and all Green on,110,110 All Red and Blue on,115,115 All Green and all Blue on,121,121 All Red, all Green and all Blue on,128,128 All Red and all White on,134,134 All Green and all White on,140,140 All Blue and all White on,145,145 Group 1 of Blue and all White on,152,152 Group 2 of Blue and all Red on,158,158 Group 3 of Blue and all Green on,164,164 Group 1 of Blue and Group 3 of Red on,170,170 Group 2 of Blue and Group 2 of Red on,175,175 Group 3 of Blue and Group 1 of Red on,182,182 Group 1 of Green and Group 3 of White on,188,188 Group 2 of Green and Group 2 of White on,195,195 Group 3 of Green and Group 1 of White on,200,200 Group 1 of Blue - Group 3 of Green - Group 1 of Red - and Group 3 of White on,205,205 Group 2 of Blue - Group 2 of Green - Group 2 of Red - and Group 2 of White on,211,211 Group 3 of Blue - Group 1 of Green - Group 3 of Red - and Group 1 of White on,218,218 All White - all Red - all Green and all Blue on,255,255
+
+Channel = shutter
+ closed,0,0 strobe,11,255 
+
+Channel = effect_macro
+ no_function,0,0 macro_1,24,24 macro_2,50,50 macro_3,76,76 macro_4,102,102 macro_5,122,122 macro_6,142,142 macro_7,170,170 macro_8,195,195 auto,225,225 audio,255,255 
+

@@ -1,0 +1,19 @@
+Name = Scorpion Array
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = mode
+ laser off,0,31 clockwise rotating,32,87 counter clockwise rotating,88,143 oscillating back and forth,144,199 sound active mode,200,255
+
+Channel = speed_control
+ slow to fast,0,255
+

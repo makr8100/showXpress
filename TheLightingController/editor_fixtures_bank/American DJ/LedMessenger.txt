@@ -1,0 +1,21 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = effect_macro
+ closed,0,0 macro_1,19,19 macro_2,35,35 macro_3,48,48 macro_4,61,61 macro_5,62,62 macro_6,84,84 macro_7,96,96 macro_8,110,110 macro_9,122,122 macro_10,136,136 macro_11,150,150 macro_12,162,162 macro_13,175,175 macro_14,188,188 macro_15,201,201 macro_16,214,214 macro_17,227,227 audio,255,255 
+
+Channel = speed_control
+ no_function,0,0 index,13,255 
+
+Channel = shutter
+ no_function,0,0 strobe,13,255 
+

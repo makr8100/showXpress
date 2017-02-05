@@ -1,0 +1,27 @@
+Name = Intimidator 12
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_250HALO
+ViewAnglePan = 120
+ViewAngleTilt = 85
+ViewAngleBeam = 11
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewColor = 0
+
+Channel = gobo
+ Chauvet\open,15,15 Chauvet\small circle,25,25 Chauvet\pling,35,35 Chauvet\shell,45,45 Chauvet\swirl3,55,55 Chauvet\4 dots,65,65 Chauvet\8 sided star,75,75 Chauvet\phone,85,85 Chauvet\cone,95,95 Chauvet\triangle,105,105 Chauvet\tiny bubbles,115,115 Chauvet\3d star2,125,125 Chauvet\heart,135,135 Chauvet\hand,145,145 STUDS,155,155 Miscellaneous\rotate,160,160 Miscellaneous\rotate,240,240 SOUND,255,255
+
+Channel = color
+ white,0,4 white,5,5 uv,15,15 yellow,25,25 light_blue,35,35 green,45,45 pink,55,55 blue,65,65 red,75,75 amber,85,85 cyan,95,95 orange,105,105 light_green,115,115 scroll_l_fast,200,200 scroll_l_med,220,220 scroll_l_slow,255,255
+
+Channel = shutter
+ closed,0,4 open,47,47 strobe,155,155 strobe,255,255
+
+Channel = pan
+ right_rotate,0,0 center,127,127 left_rotate,255,255
+
+Channel = tilt
+ Down,0,0 Middle,128,128 Up,255,255
+

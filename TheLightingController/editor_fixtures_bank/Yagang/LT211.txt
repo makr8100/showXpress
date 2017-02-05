@@ -1,0 +1,78 @@
+Name = LT211
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = control
+ accelerated,0,0 audio,62,62 auto,104,104 manual_acc,146,146 manual,188,188 manual_auto,255,255
+
+Channel = color
+ closed,0,0 original,25,25 red,42,42 yellow,59,59 green,76,76 cyan,93,93 blue,110,110 purple,127,127 white,144,144 change,161,161 stochastic,178,178 rainbow,195,195 strobe,212,212 stochastic_strobe,229,229 mixed,246,246 rainbow_strobe,255,255
+
+Channel = gobo
+
+Channel = speed
+
+Channel = rotate
+ stop,0,0 horizontal,95,95 vertical,159,159 both,255,255
+
+Channel = rotation
+ stop,0,0 rotate,95,95 dotting_z,159,159 dot_rotate,255,255
+
+Channel = bounce
+ stop,0,0 horizontal,95,95 vertical,159,159 sidelong,255,255
+
+Channel = extend
+ stop,0,0 horizontal,95,95 vertical,159,159 both,255,255
+
+Channel = zoom
+ stop,0,0 right_rotate,64,127 left_rotate,128,191 rotate,192,255
+
+Channel = draw_speed
+
+Channel = scan_speed
+
+Channel = color_speed
+
+Channel = size
+ original,0,0 index,3,255
+
+Channel = double_pattern
+ stop,0,0 pos1,41,41 pos2,69,69 pos3,97,97 pos4,125,125 pos5,153,153 pos6,181,181 pos7,209,209 pos8,237,237 pos9,255,255
+
+Channel = pattern2_move
+ reserve,0,0 rotate,95,95 reverse,139,139 rotate_alone,255,255
+
+Channel = pattern2
+
+Channel = pattern2_size
+ original,0,0 index,3,255
+
+Channel = color
+ closed,0,0 original,25,25 red,42,42 yellow,59,59 green,76,76 cyan,93,93 blue,110,110 purple,127,127 white,144,144 change,161,161 stochastic,178,178 rainbow,195,195 strobe,212,212 stochastic_strobe,229,229 mixed,246,246 rainbow_strobe,255,255
+
+Channel = pattern2_rotat
+ stop,0,0 horizontal,95,95 vertical,159,159 both,255,255
+
+Channel = pattern2_dot
+ stop,0,0 rotate,95,95 dotting_z,159,159 dot_rotate,255,255
+
+Channel = pattern2_move
+ stop,0,0 horizontal,95,95 vertical,159,159 sidelong,255,255
+
+Channel = pattern2_exten
+ stop,0,0 horizontal,95,95 vertical,159,159 both,255,255
+
+Channel = pattern2_zoom
+ stop,0,0 right_rotate,64,127 left_rotate,128,191 rotate,192,255
+
+Channel = draw2_speed
+

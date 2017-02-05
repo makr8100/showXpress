@@ -1,0 +1,33 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = CHAUVET/Ilumipanel-180- RGBWA LEFT.png
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = red
+ Red,0,255
+
+Channel = green
+ Green,0,255
+
+Channel = blue
+ Blue,0,255
+
+Channel = color_macro
+ no_function,0,10 Red 100%/ Green Up/ Blue 0%,11,35 Red Down/ Green 100%/ Blue 0%,36,50 Red 0%/ Green 100%/ Blue Up,51,70 Red 0%/ Green Down/ Blue 100%,71,90 Red Up/ Green 0%/ Blue 100%,91,110 Red 100%/ Green 0%/ Blue 100%,111,130 Red 100%/ Green Up/ Blue Up,131,150 Red Down/ Green Down/ Blue 100%,151,170 Red 100%/ Green 100%/ Blue 100%,171,200 White 1: 3200K,201,205 White 2: 3400K,206,210 White 3: 4200K,211,215 White 4: 4900K,216,220 White 5: 5600K,221,225 White 6: 5900K,226,230 White 7: 6500K,231,235 White 8: 7200K,236,240 White 9: 8000K,241,245 White 10: 8500K,246,250 White 11: 10000K,251,255
+
+Channel = strobe_dimmer
+ no_function,0,9 strobe,10,255
+
+Channel = Dim Speed
+ no_function,0,9 Linear dimmer,10,29 Nonlinear dimming curve 1 (fastest),30,69 Nonlinear dimming curve 2,70,129 Nonlinear dimming curve 3,130,189 Nonlinear dimming curve 4 (slowest),190,255
+

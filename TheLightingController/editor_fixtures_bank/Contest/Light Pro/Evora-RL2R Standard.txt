@@ -1,0 +1,46 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Contest/Light Pro/EVORA-RL2R .png
+
+Channel = color
+ open,1,8 color_1,9,17 color_2,18,26 color_3,27,35 color_4,36,44 color_5,45,53 color_6,54,62 color_7,63,71 color_8,72,80 color_9,81,89 color_10,90,98 color_11,99,107 color_12,108,116 color_13,117,127 rainbow_right_rotate,128,189 no_rotation,190,193 rainbow_left_rotate,194,255 
+
+Channel = gobo
+ open,0,7 gobo_1,8,15 gobo_2,16,23 gobo_3,24,31 gobo_4,32,39 gobo_5,40,47 gobo_6,48,55 gobo_7,56,63 gobo_8,64,71 gobo_9,72,79 gobo_10,80,87 gobo_11,88,95 gobo_12,96,103 gobo_13,104,111 gobo_14,112,119 gobo_1_shake,120,126 gobo_2_shake,127,133 gobo_3_shake,134,140 gobo_4_shake,141,147 gobo_5_shake,148,154 gobo_6_shake,155,161 gobo_7_shake,162,168 gobo_8_shake,169,175 gobo_9_shake,176,182 gobo_10_shake,183,189 gobo_11_shake,190,196 gobo_12_shake,197,203 gobo_13_shake,204,210 gobo_14_shake,211,217 rainbow,218,255 
+
+Channel = barrel
+ roller_position,0,127 right_rotate,128,189 no_function,190,193 left_rotate,194,255 
+
+Channel = effect wheel
+ open,0,31 frost,32,79 prism_5,80,127 macro_1,128,135 macro_2,136,143 macro_3,144,151 macro_4,152,159 macro_5,160,167 macro_6,168,175 macro_7,176,183 macro_8,184,191 macro_9,192,199 macro_10,200,207 macro_11,208,215 macro_12,216,223 macro_13,224,231 macro_14,232,239 macro_15,240,247 macro_16,248,255 
+
+Channel = pan
+
+Channel = tilt
+
+Channel = pantilt_speed
+ pan_tilt_speed,0,225 blackout_moves,226,235 blackout_changes,236,245 no_function,246,255 
+
+Channel = prism_rotate
+ prism,0,127 right_rotate,128,189 no_function,190,193 left_rotate,194,255 
+
+Channel = shutter
+ closed,0,31 open,32,63 strobe,64,95 open,96,127 pulse_strobe,128,159 open,160,191 random_strobe,192,223 open,224,255 
+
+Channel = dimmer
+
+Channel = control
+ color_swap,0,19 linear_colors,20,29 linear_color_gobos,30,39 lamp_on,40,59 lamp_off,60,79 reset_motors,80,84 reset_xy,85,87 reset_color,88,90 reset_gobo,91,93 reset_shutter,94,96 reset_others,97,99 pattern_01,100,119 pattern_02,120,139 pattern_03,140,159 pattern_04,160,179 pattern_05,180,199 pattern_06,200,219 pattern_07,220,239 audio,240,255 
+
+Channel = upan
+
+Channel = utilt
+

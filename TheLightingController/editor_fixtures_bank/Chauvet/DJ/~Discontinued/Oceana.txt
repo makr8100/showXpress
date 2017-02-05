@@ -1,0 +1,18 @@
+Name = Oceana
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewColor = 0
+
+Channel = shutter
+ closed,0,0 right_rotate,15,15 right_rotate,30,30 right_rotate,60,60 right_rotate,88,88 right_rotate,110,110 stop,128,128 left_rotate,130,130 left_rotate,160,160 left_rotate,190,190 left_rotate,213,213 left_rotate,240,240 Stand Alone,255,255
+
+Channel = effect_speed
+ 0,0,0 60 step/sec.,15,15 40 step/sec.,30,30 24 step/sec.,60,60 15 step/sec.,90,90 8 step/sec.,110,110 0,128,128 8 step/sec.,140,140 15  step/sec.,160,160 24 step/sec.,190,190 40 step/sec.,220,220 60 step/sec.,240,240 stop,255,255
+

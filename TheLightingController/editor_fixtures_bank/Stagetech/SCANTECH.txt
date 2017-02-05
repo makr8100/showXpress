@@ -1,0 +1,25 @@
+Name = STAGETECH_SCANTECH
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = shutter
+ open,0,0 strobe,50,255
+
+Channel = gobo
+ off,0,0 full,20,20 gobo1,40,40 gobo2,60,60 gobo3,75,75 gobo4,90,90 gobo5,110,110 gobo6,130,130 gobo7,150,150 gobo8,160,160 gobo9,180,180 gobo10,195,195 gobo11,210,210 gobo12,230,230 gobo13,255,255
+
+Channel = color
+ white,0,0 magenta,24,24 blue,50,50 orange,72,72 green,94,94 pink,112,112 light_blue,142,142 yellow,160,160 red,185,185 uv,204,204 orange,232,232 green,250,250 rotate,255,255
+
+Channel = pantilt_speed
+
+Channel = pan
+
+Channel = tilt
+

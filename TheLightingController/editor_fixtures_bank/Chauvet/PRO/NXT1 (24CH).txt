@@ -1,0 +1,81 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/PRO/NXT1-2D.png
+
+Channel = pan
+ dimmer,0,255
+
+Channel = upan
+ dimmer,0,255
+
+Channel = tilt
+ dimmer,0,255
+
+Channel = utilt
+ dimmer,0,255
+
+Channel = pantilt_speed
+ Fast To Slow,0,255
+
+Channel = control
+ no_function,0,199 reset,200,209 no_function,210,255
+
+Channel = red
+ dimmer,0,255
+
+Channel = green
+ dimmer,0,255
+
+Channel = blue
+ dimmer,0,255
+
+Channel = white
+ dimmer,0,255
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = shutter
+ no_function,0,10 Strobe slow to fast,11,255
+
+Channel = color_macro
+ no_function,0,10 R100% G0-100% B0,11,30 R100%-0 G100% B0,31,50 R0 G100%-0 B0-100%,51,70 R0 G100%-0 B100%,71,90 R0-100% G0 B100%,91,110 R100% G0 B100%-0,111,130 R100% G0-100% B0-100%,131,150 R100%-0 G100%-0 B100%,151,170 R100% G100% B100% W100%,171,200 White 1,201,205 White 2,206,210 White 3,211,215 White 4,216,220 White 5,221,225 White 6,226,230 White 7,231,235 White 8,236,240 White 9,241,245 White 10,246,250 White 11,251,255
+
+Channel = Foreground
+ no_function,0,10 Foreground Color,11,255
+
+Channel = Foreground Dimmer
+ dimmer,0,255
+
+Channel = Background
+ no_function,0,10 Background Color,11,255
+
+Channel = Background Dimmer
+ dimmer,0,255
+
+Channel = Alphanumeric
+ no_function,0,0 Numeric Characters 1-0,1,127 Alpha Characters A-Z,128,255
+
+Channel = Gobo Maps
+ no_function,0,10 Simple Cross,11,20 Simple Box,21,29 Square Imploder,30,38 Square Exploder,39,47 Diamond Imploder,48,56 Diamond Exploder,57,65 2 Line Spinner,66,74 Triangle Spinner,75,83 Tri-Downer,84,92 Tri-Upper,93,101 Bowtie Spinner,102,110 One Liner,111,119 Line Hop up,120,128 Line Hop Down,129,137 Line Hop Up Down,138,146 T-Spin,147,155 Upside Down T-Spin,156,164 Diamond Spoke Spin,165,173 Line Hop Left,174,182 Line Hop Right,183,191 Line Hop Left Right,192,200 Double Verticals,201,209 Double Horizontals,210,218 Diagonal Right,219,227 Diagonal Left,228,236 Moving Squares,237,246 Clock,247,255
+
+Channel = Gobo speed/Alphanumeric Rotation
+ no_function,0,10 Gobo Index,11,100 No Function (Please refer to manual),101,149 Gobo Speed (forward fast toi slow),150,202 Gobo Speed (backward slow to fast),203,255
+
+Channel = movement_macro
+ no_function,0,10 Macro 1,11,72 Macro 2,73,133 Macro 3,134,194 Macro 4,195,255
+
+Channel = Movement Macro speed
+ slow to fast,0,255
+
+Channel = Dimmer speed
+ Preset dimmer speed from display,0,51 Dimmer speed mode off,52,101 Dimmer speed mode1 (fast speed),102,152 Dimmer speed mode2 (normal speed),153,203 DImmer speed mode3 (slow speed),204,255
+

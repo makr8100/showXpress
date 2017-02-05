@@ -1,0 +1,35 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LED60W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Showtec/Discontinued/expression_compact.png
+
+Channel = pan
+
+Channel = tilt
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = white
+
+Channel = color_macro
+ no_function,0,5 macro_1,6,25 macro_2,26,45 macro_3,46,65 macro_4,66,85 macro_5,86,105 macro_6,106,125 macro_7,126,145 macro_8,146,165 no_function,166,180 no_function,181,190 no_function,191,200 3200k,201,205 3400k,206,210 4200k,211,215 4900k,216,220 5600k,221,225 5900k,226,230 6500k,231,235 7200k,236,240 8000k,241,245 8500k,246,250 10000k,251,255
+
+Channel = dimmer
+
+Channel = shutter
+ strobe,0,255 
+
+Channel = control
+ no_function,0,19 BO during P/T,20,39 Disable BO during P/T,40,59 Fan Auto,60,79 Fan Slow,80,99 Fan Normal,100,119 Fan Fast,120,139 no_function,140,149 Auto 1,150,159 Auto 2,160,169 Test,170,179 Custom,180,189 no_function,190,199 reset,200,219 no_function,220,255
+

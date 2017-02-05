@@ -1,0 +1,13 @@
+Name = GENI_MOJOMOON2
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = gobo_rotate
+ stop,0,0 counterclock,9,127 clock,128,255
+

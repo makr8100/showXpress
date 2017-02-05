@@ -1,0 +1,28 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 20
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = dimmer
+
+Channel = shutter
+ open,0,0 strobe,16,255
+
+Channel = color_macro
+ no_function,0,0 Red,11,11 Green,14,14 Blue,18,18 Red+Green,22,22 Blue+Green,26,26 Red+Blue,30,30 R+G+B (White),34,34 7 Color Snap,40,40 Red Fade In/Out,46,46 Green Fade In/Out,50,50 Blue Fade In/Out,54,54 R+G+B (White) Fade In/Out,58,58 7 Color Fade,62,62 R+G+B (White) Fade/Snap,66,66 R+G+B (White) Fade In/Out,70,70 macro_1,74,74 macro_2,76,76 macro_3,78,78 macro_4,84,84 macro_5,95,95 macro_6,112,112 macro_7,130,130 macro_8,150,150 macro_9,177,177 macro_10,195,195 macro_11,210,210 macro_12,225,225 macro_13,240,240 closed,255,255
+
+Channel = effect_speed
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+

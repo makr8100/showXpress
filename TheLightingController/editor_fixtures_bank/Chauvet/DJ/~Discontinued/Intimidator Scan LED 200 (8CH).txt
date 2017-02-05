@@ -1,0 +1,36 @@
+﻿ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_LED60W
+ViewAnglePan = 180
+ViewAngleTilt = 90
+ViewAngleBeam = 15
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/Intimidator Scan LED 200.png
+
+Channel = pan
+ Pan,0,255
+
+Channel = tilt
+ Tilt,0,255
+
+Channel = color
+ open,0,7 dark_blue,8,15 yellow,16,23 pink,24,31 green,32,39 red,40,47 blue,48,55 Salmon Pink,56,63 split_color,64,127 right_rotate,128,191 left_rotate,192,255
+
+Channel = shutter
+ closed,0,3 open,4,7 strobe,8,215 open,216,255
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = gobo
+ Open,0,7 metal/Atomic Gobo2,8,15 metal/curve lines Gobo,16,23 metal/Fan Gobo,24,31 metal/Bio Gobo,32,39 metal/Cloud Gobo,40,47 metal/Maze Gobo,48,55 metal/Atomic Gobo1,56,63 Miscellaneous/shake_gobo7,64,71 Miscellaneous/shake_gobo6,72,79 Miscellaneous/shake_gobo5,80,87 Miscellaneous/shake_gobo4,88,95 Miscellaneous/shake_gobo3,96,103 Miscellaneous/shake_gobo2,104,111 Miscellaneous/shake_gobo1,112,119 Chauvet/open,120,127 Miscellaneous/right_rotate,128,191 Miscellaneous/left_rotate,192,255 
+
+Channel = effect
+ no_function,0,7 Pan/Tilt (move in black),8,15 Pan/Tilt  (disable),16,23 color wheel (move in black),24,31 Color wheel ( disable),32,39 Gobo wheel (move in black),40,47 Gobo wheel (disable),48,55 no_function,56,87 Move in black (disable All),88,95 reset_xy,96,103 no_function,104,111 reset_color,112,119 reset_gobo,120,127 no_function,128,151 reset,152,159 no_function,160,255
+
+Channel = movement_macro
+ no_function,0,7 macro_1,8,23 macro_2,24,39 macro_3,40,55 macro_4,56,71 macro_5,72,87 macro_6,88,103 macro_7,104,119 macro_8,120,135 Sound Controlled program 1,136,151 Sound Controlled program 2,152,167 Sound Controlled program 3,168,183 Sound Controlled program 4,184,199 Sound Controlled program 5,200,215 Sound Controlled program 6,216,231 Sound Controlled program 7,232,247 Sound Controlled program 8,248,255
+

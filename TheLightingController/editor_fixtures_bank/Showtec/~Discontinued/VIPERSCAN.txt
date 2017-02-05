@@ -1,0 +1,21 @@
+Name = SHOWTEC_VIPERSCAN
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = shutter
+
+Channel = pan
+
+Channel = tilt
+
+Channel = color
+
+Channel = gobo
+ gobo1,0,10 gobo2,11,20
+

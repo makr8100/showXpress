@@ -1,0 +1,18 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Contest/Smoke Machines/FAZETEC .png
+
+Channel = smoke_machine
+ no-smoke,0,4 smoke,5,255 
+
+Channel = fan
+ fan,0,4 fade_speed,5,255 
+

@@ -1,0 +1,19 @@
+Name = Stepper
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+
+Channel = effect
+ stop,0,19 rotate CW (f-s),20,59 stutter CW (f-s),60,119 stop,120,139 stutter CCW (s-f),140,199 rotate CCW (s-f),200,249 audio,250,255
+
+Channel = control
+ off,0,19 no function,20,59 on,60,99 strobe,100,255
+

@@ -1,0 +1,50 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 570
+ViewAngleTilt = 280
+ViewAngleBeam = 20
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = color
+ white,0,0 orange,12,12 blue,18,18 red,28,28 purple,36,36 green,44,44 light_blue,53,53 yellow,60,60 index,64,127 left_rotate,128,189 stop,192,192 right_rotate,194,255 
+
+Channel = gobo
+ Miscellaneous/open,0,0 Miscellaneous/gobo1,12,12 Miscellaneous/gobo2,20,20 Miscellaneous/gobo3,28,28 Miscellaneous/gobo4,36,36 Miscellaneous/gobo5,44,44 Miscellaneous/gobo6,52,52 Miscellaneous/gobo7,60,60 Miscellaneous/shake_gobo1,64,73 Miscellaneous/shake_gobo2,74,82 Miscellaneous/shake_gobo3,83,91 Miscellaneous/shake_gobo4,92,100 Miscellaneous/shake_gobo5,101,109 Miscellaneous/shake_gobo6,110,118 Miscellaneous/shake_gobo7,119,127 Miscellaneous/left_rotate,128,189 Miscellaneous/stop,192,192 Miscellaneous/right_rotate,194,255 
+
+Channel = gobo_rotate
+ index,0,127 right_rotate,128,189 stop,192,192 left_rotate,194,255 
+
+Channel = prism
+ no_function,0,0 prism,255,255 
+
+Channel = prism_rotate
+ index,0,127 right_rotate,128,189 stop,192,192 left_rotate,194,255 
+
+Channel = iris
+ index,0,191 pulse_close,192,223 pulse_open,224,255 
+
+Channel = focus
+
+Channel = shutter
+ closed,0,0 open,10,10 strobe,16,131 pulse_close,140,181 pulse_open,190,231 random_strobe,244,244 open,255,255 
+
+Channel = dimmer
+
+Channel = effect_speed
+
+Channel = control
+ no_function,0,0 blackout_moves,75,75 blackout_color,95,95 blackout_gobo,115,115 reset,205,205 
+

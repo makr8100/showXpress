@@ -1,0 +1,70 @@
+Name = LED-LINE 27ch
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+
+Channel = color_macro
+ rainbow,0,28 macro_1,29,56 macro_2,57,85 macro_3,86,113 macro_4,114,141 macro_5,142,170 macro_6,171,198 macro_7,199,226 macro_8,227,255
+
+Channel = control
+ rainbow,0,15 fade_speed,16,255
+
+Channel = shutter
+ open,0,15 strobe,16,255
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+

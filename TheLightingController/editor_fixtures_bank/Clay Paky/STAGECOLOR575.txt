@@ -1,0 +1,44 @@
+Name = CLAY-PAKY_STAGECOLOR575
+
+ViewType = VIEW_TYPE_MIRROR
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+
+Channel = cyan
+
+Channel = magenta
+
+Channel = yellow
+
+Channel = shutter
+ closed,0,0 strobe,26,230 open,255,255
+
+Channel = pan
+
+Channel = tilt
+
+Channel = color
+ white,0,0 blue_w_hole,60,60 yellow_w_hole,110,110 green_w_hole,150,150 magenta_w_hole,190,190 uv_filter,255,255
+
+Channel = prism
+ white,0,0 ovalizer_2,85,85 ovalizer_1,172,172 diffuser,255,255
+
+Channel = prism
+ white,0,0 light,85,85 mid_range,172,172 strong,255,255
+
+Channel = color
+ excluded,0,0 inserted,255,255
+
+Channel = dimmer
+
+Channel = control
+ lamp_off,0,0 lamp_on,255,255
+
+Channel = upan
+
+Channel = utilt
+
